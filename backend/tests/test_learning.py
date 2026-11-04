@@ -334,7 +334,7 @@ def test_learning_grading_idempotency_resume_completion_and_retake(
         ).all()
         original_correct = next(option for option in options if option.is_correct)
         original_incorrect = next(option for option in options if not option.is_correct)
-        lesson.content_version = "1.0.2"
+        lesson.content_version = "1.0.3"
         exercise.prompt = "Updated source prompt after session start."
         original_correct.is_correct = False
         original_incorrect.is_correct = True
@@ -344,9 +344,9 @@ def test_learning_grading_idempotency_resume_completion_and_retake(
     )
     assert frozen_state.status_code == 200
     frozen_question_after_edit = frozen_state.json()["exercises"][0]
-    assert frozen_state.json()["lesson_content_version"] == "1.0.1"
+    assert frozen_state.json()["lesson_content_version"] == "1.0.2"
     assert frozen_question_after_edit["prompt"] == frozen_question["prompt"]
-    assert frozen_state.json()["lesson"]["content_version"] == "1.0.1"
+    assert frozen_state.json()["lesson"]["content_version"] == "1.0.2"
     frozen_answer = client.post(
         f"/api/v1/learning/sessions/{frozen_session_id}/answers",
         headers=_csrf(client),
@@ -368,7 +368,7 @@ def test_learning_grading_idempotency_resume_completion_and_retake(
         json={"lesson_id": str(lesson_id)},
     )
     assert new_version_session.status_code == 201
-    assert new_version_session.json()["lesson_content_version"] == "1.0.2"
+    assert new_version_session.json()["lesson_content_version"] == "1.0.3"
     assert new_version_session.json()["exercises"][0]["prompt"] == "Updated source prompt after session start."
     assert client.post(
         f"/api/v1/learning/sessions/{new_version_session.json()['id']}/abandon",

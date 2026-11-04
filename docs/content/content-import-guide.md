@@ -26,7 +26,9 @@ Push-Location backend
 Pop-Location
 ```
 
-The importer runs in one database transaction. Stable slugs, lexical identity, sequence, and natural keys make it safe to rerun: unchanged rows are left as-is, changed authored values are updated, and new rows are inserted. For each source-managed grammar rule, it also removes obsolete grammar-example rows that are no longer in the current source; examples still present anywhere in the current source for that rule are retained. The batch report includes this scoped `deleted` count. No other rows are implicitly deleted or unrelated records overwritten. A failed operation rolls back.
+The importer runs in one database transaction. Stable slugs, lexical identity, sequence and natural keys preserve existing records. Known noun article-stripping defects are repaired in their existing vocabulary slots so lexical/sense/card references remain valid. Explicit example references replace substring guesses. Shared notes are resolved consistently before import.
+
+Scoped deletions reconcile obsolete source-managed grammar examples, lesson-to-grammar memberships and example-to-lexeme associations within the authored lesson. Shared grammar topics and lexical records are retained. No learner history is deleted or rewritten; saved learning/review snapshots keep their original content version. The report includes actual inserted, updated, deleted, unchanged and rejected operation counts. A failed operation rolls back. Version 1.0.1 remains archived; current revisions require explicit example vocabulary references.
 
 Imports create/update draft content and automated-check provenance only. They do not publish. Each version records a source digest: changing JSON without incrementing its content version is rejected. When a new version changes a published record, that record returns to draft and must be reviewed again. An unchanged re-import preserves publication status and review evidence.
 
@@ -40,8 +42,10 @@ Push-Location backend
 Pop-Location
 ```
 
-The review record must be complete, independently signed off, and match the exact imported content version and source digest. It must include French-language, pedagogy/sequence, and answer-key approval for every lesson plus a separate licensing/attribution approval. `docs/content/reviews/A1_PUBLICATION_REVIEW_TEMPLATE.json` is intentionally incomplete and will fail validation. Do not expose this command through FastAPI or run it automatically during application startup.
+The version-2 review record must match the imported version, canonical source digest and exact importer digest. It requires identified, qualified independent reviewers with evidence and timezone-aware dates for language, pedagogy, answers and the preceding-lesson dependency of every packet. Rights approval requires a separate reviewer. A current administrator must record an explicit publication decision after all reviews. The publisher repeats the read-only source/database audit and blocks drift or future-dated approvals before changing statuses.
+
+`docs/content/reviews/A1_PUBLICATION_REVIEW_TEMPLATE.json` remains intentionally pending and fails validation. Schema-1 records do not satisfy the strengthened gate. See [the independent checklist](reviews/A1_INDEPENDENT_REVIEW_CHECKLIST.md). The trusted local operator must verify genuine qualifications, signatures and rights evidence; software cannot establish those facts from JSON alone. Do not expose this command through FastAPI or run it automatically at startup.
 
 ## Recovery
 
-Database changes roll back on import failure. Correct the source JSON, rerun `--validate-only`, inspect the dry-run, then apply again. The only import-time deletion is the source-scoped grammar-example reconciliation described above. Retiring other authored records requires a separately reviewed administrative change rather than ad hoc bulk deletion. Do not drop the application database, user tables, or PostgreSQL volume for content recovery.
+Database changes roll back on import failure. Correct the source JSON, rerun `--validate-only`, inspect the dry-run, then apply again. Import-time deletions are limited to the source-scoped associations/examples described above. Retiring other authored records requires a separately reviewed administrative change. Do not drop the application database, user tables or PostgreSQL volume for content recovery.

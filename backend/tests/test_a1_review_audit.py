@@ -14,16 +14,15 @@ def test_read_only_audit_detects_missing_links_and_wrong_answer_keys(api_client)
         original = audit(db, CONTENT_PATH)
         assert original["published_lessons"] == 0
         assert original["publication_approved"] is False
-        assert any(i["check"].startswith("example:") for r in original["lessons"] for i in r["issues"])
-        # Make only this disposable fixture consistent; never repair deployed data.
-        for lesson in content.course.lessons:
-            row = db.scalar(select(Lesson).where(Lesson.slug == lesson.slug))
-            lexeme_id = db.scalar(select(LessonVocabulary.lexeme_id).where(LessonVocabulary.lesson_id == row.id))
-            for example in lesson.examples:
-                sentence = db.scalar(select(ExampleSentence).where(ExampleSentence.french_text == example.french_text))
-                if not db.scalar(select(LexemeExample).where(LexemeExample.lexeme_id == lexeme_id, LexemeExample.example_sentence_id == sentence.id)):
-                    db.add(LexemeExample(lexeme_id=lexeme_id, example_sentence_id=sentence.id))
-        db.commit()
+        assert original["technical_integrity_passed"], original["lessons"]
+        sentence = db.scalar(select(ExampleSentence).where(ExampleSentence.french_text == "J'habite à Lyon."))
+        link = db.scalar(select(LexemeExample).where(LexemeExample.example_sentence_id == sentence.id))
+        db.delete(link)
+        db.flush()
+        broken = audit(db, CONTENT_PATH)
+        assert not broken["technical_integrity_passed"]
+        assert any(i["check"].startswith("explicit example link:") for r in broken["lessons"] for i in r["issues"])
+        db.rollback()
         clean = audit(db, CONTENT_PATH)
         assert clean["technical_integrity_passed"], clean["lessons"]
         assert clean["publication_approved"] is False
