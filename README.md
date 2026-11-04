@@ -18,6 +18,8 @@ A local-first French learning application built with Next.js and FastAPI. Milest
 
 **Ten A1 lessons remain unpublished drafts awaiting independent French and licensing review.** Ordinary learners cannot access them. A separately gated development preview is available to authorized administrators. Supporting six CEFR preferences does not imply complete curriculum coverage at all six levels.
 
+The corrected A1 draft is version **1.0.2**. See [correction results](docs/content/reviews/A1_CONTENT_CORRECTION_RESULTS.md), [independent review checklist](docs/content/reviews/A1_INDEPENDENT_REVIEW_CHECKLIST.md) and [publication readiness](docs/verification/A1_CURRICULUM_PUBLICATION_READINESS.md). Technical validation does not authorize publication.
+
 **Acoustic pronunciation scoring has not been validated and is unavailable.** Speech recognition can mishear names and short introductions, even with the Base model. Transcripts require learner review; ASR output is not a pronunciation score. Local model latency and accuracy depend on hardware. AI-generated teaching responses can contain errors.
 
 This is a development deployment, not a claim of production operational readiness. Billing and subscriptions are not implemented.

@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import unicodedata
 from datetime import datetime
+from uuid import UUID
 from typing import Literal
 
 from pydantic import BaseModel, ConfigDict, Field, model_validator
@@ -48,6 +49,7 @@ class ExampleInput(StrictModel):
     french_text: str = Field(min_length=1)
     english_translation: str = Field(min_length=1)
     context: str | None = None
+    lexemes: list[str] = Field(default_factory=list)
 
 class GrammarInput(StrictModel):
     slug: str = Field(min_length=2, max_length=120)
@@ -118,6 +120,10 @@ class LessonInput(StrictModel):
             if identity in seen:
                 raise ValueError(f"duplicate normalized vocabulary entry: {item.lemma}")
             seen.add(identity)
+        vocabulary = {item.lemma for item in self.vocabulary}
+        for example in self.examples:
+            if len(example.lexemes) != len(set(example.lexemes)) or not set(example.lexemes) <= vocabulary:
+                raise ValueError("example lexemes must be unique references to this lesson's vocabulary")
         if self.slug[-3:] != f"{int(self.slug[-3:]):03d}":
             raise ValueError("lesson slug must use a stable three-digit position")
         return self
@@ -160,6 +166,9 @@ class ContentImportInput(StrictModel):
         positions = [int(slug[-3:]) for slug in slugs]
         if len(positions) != len(set(positions)):
             raise ValueError("lesson positions must be unique")
+        if tuple(map(int, self.version.split('.'))) >= (1, 0, 2):
+            if any(not example.lexemes for lesson in self.course.lessons for example in lesson.examples):
+                raise ValueError("current A1 revisions require explicit example lexeme references")
         if [course.level for course in self.planned_courses] != ["A2", "B1", "B2", "C1", "C2"]:
             raise ValueError("planned courses must cover A2, B1, B2, C1 and C2 exactly once")
         return self
@@ -168,6 +177,7 @@ class ContentImportInput(StrictModel):
 class HumanReviewApproval(StrictModel):
     status: Literal["approved"]
     reviewer: str = Field(min_length=3, max_length=200)
+    qualifications: str = Field(min_length=8, max_length=1000)
     independent_from_content_generation: bool
     evidence_reference: str = Field(min_length=8, max_length=1000)
     reviewed_at: datetime
@@ -186,13 +196,30 @@ class LessonReviewRecord(StrictModel):
     french_language: HumanReviewApproval
     pedagogy_and_sequence: HumanReviewApproval
     exercise_answers: HumanReviewApproval
+    required_lesson_slugs: list[str]
+    dependencies: HumanReviewApproval
+
+
+class PublicationDecision(StrictModel):
+    status: Literal["approved_for_publication"]
+    administrator_user_id: UUID
+    evidence_reference: str = Field(min_length=8, max_length=1000)
+    decided_at: datetime
+
+    @model_validator(mode="after")
+    def require_timezone(self) -> "PublicationDecision":
+        if self.decided_at.tzinfo is None or self.decided_at.utcoffset() is None:
+            raise ValueError("decided_at must include a timezone")
+        return self
 
 
 class A1PublicationReviewRecord(StrictModel):
-    schema_version: Literal[1]
+    schema_version: Literal[2]
     course_slug: str = Field(min_length=3, max_length=120)
     content_version: str = Field(pattern=r"^\d+\.\d+\.\d+$")
     source_sha256: str = Field(pattern=r"^[a-f0-9]{64}$")
+    importer_sha256: str = Field(pattern=r"^[a-f0-9]{64}$")
+    publication_decision: PublicationDecision
     license_and_attribution: HumanReviewApproval
     lessons: list[LessonReviewRecord] = Field(min_length=10, max_length=10)
 

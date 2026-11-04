@@ -6,6 +6,8 @@ import unicodedata
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
+from uuid import UUID
+from app.models import User
 
 import pytest
 from sqlalchemy import func, select
@@ -93,6 +95,10 @@ def _import(sessions) -> dict[str, int]:
 def _publish_a1(sessions) -> None:
     record = _approved_test_review_record()
     with sessions.begin() as db:
+        if not db.get(User, UUID(int=1)):
+            db.add(User(id=UUID(int=1), email="publication-test-admin@example.com",
+                password_hash="not-a-login-fixture", role="admin"))
+            db.flush()
         result = publish_course(db, record)
         assert result["lessons_published"] == 10
         outline = db.scalar(
@@ -109,6 +115,7 @@ def _approval(reviewer: str) -> dict[str, object]:
     return {
         "status": "approved",
         "reviewer": reviewer,
+        "qualifications": "Synthetic isolated test fixture; no real human approval",
         "independent_from_content_generation": True,
         "evidence_reference": "isolated automated test fixture only",
         "reviewed_at": datetime(2026, 11, 1, tzinfo=timezone.utc).isoformat(),
@@ -119,10 +126,13 @@ def _approved_test_review_record() -> A1PublicationReviewRecord:
     content = load_content(CONTENT_PATH)
     return A1PublicationReviewRecord.model_validate(
         {
-            "schema_version": 1,
+            "schema_version": 2,
             "course_slug": content.course.slug,
             "content_version": content.version,
             "source_sha256": hashlib.sha256(content.model_dump_json().encode("utf-8")).hexdigest(),
+            "importer_sha256": hashlib.sha256((CONTENT_PATH.parents[2] / "app/content_import.py").read_bytes()).hexdigest(),
+            "publication_decision": {"status": "approved_for_publication", "administrator_user_id": str(UUID(int=1)),
+                "evidence_reference": "Synthetic isolated test fixture only", "decided_at": "2026-11-02T00:00:00Z"},
             "license_and_attribution": _approval("test rights reviewer"),
             "lessons": [
                 {
@@ -130,6 +140,8 @@ def _approved_test_review_record() -> A1PublicationReviewRecord:
                     "french_language": _approval("test French reviewer"),
                     "pedagogy_and_sequence": _approval("test pedagogy reviewer"),
                     "exercise_answers": _approval("test answer reviewer"),
+                    "dependencies": _approval("test pedagogy reviewer"),
+                    "required_lesson_slugs": [] if lesson.slug == "a1-001" else [f"a1-{int(lesson.slug[-3:])-1:03d}"],
                 }
                 for lesson in content.course.lessons
             ],
@@ -166,8 +178,8 @@ def test_curriculum_source_validates_six_levels_and_ai_assisted_a1_content():
             )
             lexical_entries[identity].append((word.translation, word.definition_french))
         prompts.extend(exercise.prompt for exercise in lesson.exercises)
-    assert len(lexical_entries) == 78
-    assert sum(len(entries) - 1 for entries in lexical_entries.values()) == 5
+    assert len(lexical_entries) == 77
+    assert sum(len(entries) - 1 for entries in lexical_entries.values()) == 6
     assert all(len(set(entries)) == 1 for entries in lexical_entries.values())
     assert len(prompts) == len(set(prompts)) == 50
 
@@ -233,7 +245,7 @@ def test_content_import_removes_stale_grammar_examples_on_version_update(api_cli
             )
         )
 
-    next_version = "1.0.2"
+    next_version = "1.0.3"
     changed = content.model_copy(
         update={
             "version": next_version,
@@ -482,7 +494,7 @@ def test_source_changes_require_version_increment_and_reopen_content_for_review(
         with pytest.raises(ValueError, match="without a version increment"):
             _import_data(db, original.model_copy(update={"course": changed_course}))
 
-    next_version = "1.0.2"
+    next_version = "1.0.3"
     changed = original.model_copy(
         update={
             "version": next_version,
