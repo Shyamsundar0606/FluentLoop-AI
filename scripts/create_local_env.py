@@ -14,6 +14,8 @@ def main():
     parser.add_argument('--ci', action='store_true')
     parser.add_argument('--database-host', default='db')
     args = parser.parse_args()
+    if args.ci and not (os.environ.get('GITHUB_ACTIONS') == 'true' and os.environ.get('GITHUB_ENV')):
+        raise SystemExit('CI mode requires a GitHub Actions environment.')
     values = dict(line.split('=', 1) for line in (ROOT / '.env.example').read_text().splitlines()
                   if line and not line.startswith('#') and '=' in line)
     password, preview_password = secrets.token_urlsafe(48), secrets.token_urlsafe(48)
@@ -26,6 +28,11 @@ def main():
                   PREVIEW_SPEECH_WORKER_TOKEN=secrets.token_urlsafe(48))
     if args.ci:
         values.update(APP_ENV='test', REDIS_URL='redis://127.0.0.1:6379/0')
+        # GitHub interprets these workflow commands and redacts their values
+        # before subsequent steps display the environment in public logs.
+        for value in (password, preview_password, values['SPEECH_WORKER_TOKEN'],
+                      values['PREVIEW_SPEECH_WORKER_TOKEN']):
+            print(f'::add-mask::{value}', flush=True)
     fd = os.open(args.output, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o600)
     if os.name == 'nt':
         sid = subprocess.check_output(['powershell', '-NoProfile', '-Command',

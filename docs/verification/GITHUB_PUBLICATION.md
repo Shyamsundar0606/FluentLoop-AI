@@ -1,6 +1,6 @@
 # GitHub publication verification
 
-Date: 2026-11-04. Scope: credential remediation and publication of existing Milestones 01–07; no Milestone 08 or learning-feature implementation.
+Date: 2026-11-04. Scope: credential remediation and publication of existing Milestones 01â€“07; no Milestone 08 or learning-feature implementation.
 
 ## Credential remediation
 
@@ -37,3 +37,5 @@ Initial browser attempts used mismatched origins or reached the existing per-use
 Ten A1 lessons remain unpublished pending independent review. Acoustic pronunciation scoring remains unvalidated and unavailable. Raw test reports, fixture-account details, recordings and local remediation/recovery files remain private and excluded.
 
 Final index review: 254 files, no private paths, nested Git metadata or gitlinks. Exact-value/index checks and the independently exported staged-tree Gitleaks scan passed. The pathless patch scan reported only the same three reviewed synthetic fixture literals. Two pre-existing whitespace issues were removed; their non-whitespace source content was verified unchanged. No application feature changes or new migrations were introduced.
+
+CI hardening: generated ephemeral credentials are registered with GitHub Actions log masking before environment export. CI mode refuses execution outside an Actions environment. Local tests confirmed mask registration and the non-CI guard without displaying generated values.
