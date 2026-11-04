@@ -1,0 +1,185 @@
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: fluentloop-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-fluentloop}
+      POSTGRES_USER: ${POSTGRES_USER:-fluentloop}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in your private .env}
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-fluentloop} -d ${POSTGRES_DB:-fluentloop}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  redis:
+    image: redis:7-alpine
+    container_name: fluentloop-redis
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 5s
+
+  mailpit:
+    image: axllent/mailpit:v1.21
+    container_name: fluentloop-mailpit
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8025:8025"
+      - "127.0.0.1:1025:1025"
+    healthcheck:
+      test: ["CMD", "/mailpit", "readyz"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 5s
+
+  backend:
+    networks: [default, ai-internal, speech-internal]
+    volumes:
+      - speech_audio_data:/var/lib/fluentloop/audio
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: fluentloop-backend
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      mailpit:
+        condition: service_healthy
+    environment:
+      APP_ENV: ${APP_ENV:-development}
+      AI_PROVIDER: ${AI_PROVIDER:-ollama}
+      SPEECH_WORKER_URL: http://speech-worker:8090
+      SPEECH_WORKER_TOKEN: ${SPEECH_WORKER_TOKEN:-}
+      SPEECH_STORAGE_PATH: /var/lib/fluentloop/audio
+      SPEECH_MAX_UPLOAD_BYTES: ${SPEECH_MAX_UPLOAD_BYTES:-5000000}
+      SPEECH_MAX_DURATION_SECONDS: ${SPEECH_MAX_DURATION_SECONDS:-30}
+      SPEECH_PROCESSING_TIMEOUT_SECONDS: ${SPEECH_PROCESSING_TIMEOUT_SECONDS:-60}
+      SPEECH_AUDIO_RETENTION_HOURS: ${SPEECH_AUDIO_RETENTION_HOURS:-24}
+      SPEECH_TTS_VOICE: ${SPEECH_TTS_VOICE:-fr_FR-siwis-medium}
+      OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://ollama:11434}
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-}
+      AI_REQUEST_TIMEOUT_SECONDS: ${AI_REQUEST_TIMEOUT_SECONDS:-60}
+      AI_MAX_OUTPUT_TOKENS: ${AI_MAX_OUTPUT_TOKENS:-600}
+      AI_MAX_INPUT_CHARACTERS: ${AI_MAX_INPUT_CHARACTERS:-4000}
+      AI_MAX_CONCURRENT_REQUESTS: ${AI_MAX_CONCURRENT_REQUESTS:-1}
+      DEV_REGISTER_LIMIT: ${DEV_REGISTER_LIMIT:-30}
+      ENABLE_DRAFT_LEARNING_PREVIEW: ${ENABLE_DRAFT_LEARNING_PREVIEW:-false}
+      APP_NAME: ${APP_NAME:-FluentLoop AI}
+      APP_VERSION: ${APP_VERSION:-0.1.0}
+      DATABASE_URL: ${DATABASE_URL:?Set DATABASE_URL in your private .env}
+      REDIS_URL: ${REDIS_URL:-redis://redis:6379/0}
+      CORS_ORIGINS: ${CORS_ORIGINS:-["http://localhost:3000","http://127.0.0.1:3000","http://localhost:3001","http://127.0.0.1:3001"]}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+      SESSION_COOKIE_NAME: ${SESSION_COOKIE_NAME:-fluentloop_session}
+      SESSION_TTL: ${SESSION_TTL:-1209600}
+      COOKIE_SECURE: ${COOKIE_SECURE:-false}
+      COOKIE_SAMESITE: ${COOKIE_SAMESITE:-lax}
+      CSRF_COOKIE_NAME: ${CSRF_COOKIE_NAME:-fluentloop_csrf}
+      FRONTEND_ORIGIN: ${FRONTEND_ORIGIN:-http://localhost:3000}
+      SMTP_HOST: ${SMTP_HOST:-mailpit}
+      SMTP_PORT: ${SMTP_PORT:-1025}
+      SMTP_STARTTLS: ${SMTP_STARTTLS:-false}
+      SMTP_USERNAME: ${SMTP_USERNAME:-}
+      SMTP_PASSWORD: ${SMTP_PASSWORD:-}
+      EMAIL_FROM: ${EMAIL_FROM:-FluentLoop AI <no-reply@fluentloop.local>}
+      EMAIL_VERIFICATION_TTL: ${EMAIL_VERIFICATION_TTL:-86400}
+      PASSWORD_RESET_TTL: ${PASSWORD_RESET_TTL:-3600}
+    ports:
+      - "127.0.0.1:8000:8000"
+    command: ["sh", "-c", "alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8000"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import json, sys, urllib.request; response = urllib.request.urlopen('http://localhost:8000/api/v1/health/ready', timeout=5); sys.exit(0 if json.load(response).get('status') == 'ok' else 1)"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: fluentloop-frontend
+    restart: unless-stopped
+    depends_on:
+      backend:
+        condition: service_healthy
+    environment:
+      NEXT_PUBLIC_API_BASE_URL: ${NEXT_PUBLIC_API_BASE_URL:-http://localhost:8000/api/v1}
+    ports:
+      - "127.0.0.1:3000:3000"
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://localhost:3000').then((response) => process.exit(response.ok ? 0 : 1)).catch(() => process.exit(1))"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+  ollama:
+    image: ollama/ollama:0.40.13
+    profiles: [ai]
+    networks: [ai-internal]
+    volumes:
+      - ollama_data:/root/.ollama
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+  speech-worker:
+    profiles: [speech]
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.speech
+    networks: [speech-internal]
+    environment:
+      SPEECH_MODEL_PATH: /models
+      SPEECH_MAX_UPLOAD_BYTES: ${SPEECH_MAX_UPLOAD_BYTES:-5000000}
+      SPEECH_MAX_DURATION_SECONDS: ${SPEECH_MAX_DURATION_SECONDS:-30}
+      SPEECH_WORKER_TOKEN: ${SPEECH_WORKER_TOKEN:-}
+      SPEECH_ASR_MODEL: ${SPEECH_ASR_MODEL:-tiny}
+      SPEECH_ASR_DEVICE: ${SPEECH_ASR_DEVICE:-cpu}
+      SPEECH_ASR_COMPUTE_TYPE: ${SPEECH_ASR_COMPUTE_TYPE:-int8}
+      SPEECH_TTS_VOICE: ${SPEECH_TTS_VOICE:-fr_FR-siwis-medium}
+      SPEECH_PROCESSING_TIMEOUT_SECONDS: ${SPEECH_PROCESSING_TIMEOUT_SECONDS:-60}
+    volumes:
+      - ./.speech-models:/models:ro
+    read_only: true
+    tmpfs: ["/tmp:size=128m,mode=1777"]
+    mem_limit: 2g
+    cpus: 2
+    pids_limit: 128
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import os,urllib.request; r=urllib.request.Request('http://localhost:8090/health',headers={'X-Speech-Key':os.environ['SPEECH_WORKER_TOKEN']}); urllib.request.urlopen(r,timeout=3)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+networks:
+  speech-internal:
+    internal: true
+  ai-internal:
+    internal: true
+
+volumes:
+  speech_audio_data:
+  ollama_data:
+  postgres_data:

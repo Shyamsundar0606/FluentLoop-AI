@@ -1,41 +1,85 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+﻿# Private local configuration; only nonfunctional example templates are public.
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+.publication-private/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
+# Python environments and generated caches
+.venv*/
+**/.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
 
-# testing
-/coverage
-
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
-# misc
-.DS_Store
-*.pem
-
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
-
-# env files (can opt-in for committing if needed)
-.env*
-
-# vercel
-.vercel
-
-# typescript
+# Node / Next.js / browser artifacts
+node_modules/
+.next/
+out/
+coverage/
 *.tsbuildinfo
-next-env.d.ts
+playwright-report/
+test-results/
+blob-report/
+
+# Private runtime audio, downloaded model weights and caches
+.speech-data/
+.speech-models/
+*.onnx
+*.onnx.json
+*.safetensors
+*.pt
+*.pth
+*.gguf
+*.ckpt
+.cache/
+
+# Database data and backups
+postgres_data/
+preview_postgres_data/
+pgdata/
+pg_wal/
+*.dump
+*.backup
+*.sql
+*.sqlite*
+*.db
+
+# Secrets and private key material
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+id_rsa*
+id_ed25519*
+credentials.json
+service-account*.json
+
+# Logs and machine/user-derived verification output (safe summaries remain).
+*.log
+docs/verification/**/*.json
+docs/verification/**/*.xml
+docs/verification/**/*.txt
+docs/verification/**/*.png
+
+# Editor / OS state
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Private recordings; only attributed public ASR test fixtures are allowed
+*.wav
+*.mp3
+*.webm
+*.ogg
+*.flac
+*.m4a
+!backend/tests/fixtures/speech/*.ogg

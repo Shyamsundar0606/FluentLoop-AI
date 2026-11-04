@@ -1,0 +1,12 @@
+title = "FluentLoop publication audit"
+[extend]
+useDefault = true
+
+# Reviewed false positives: deterministic passwords for synthetic users in
+# isolated test fixtures. This does not allow deployment/database credentials.
+[[allowlists]]
+description = "Two known synthetic password literals in isolated backend tests"
+condition = "AND"
+regexTarget = "line"
+paths = ['''backend/tests/test_auth\.py$''', '''backend/tests/test_curriculum\.py$''']
+regexes = ['''(?:PASSWORD|updated_password) = "(?:StrongPassphrase2026|EvenStrongerPassphrase2026)"''']

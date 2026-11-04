@@ -1,0 +1,313 @@
+{
+  "version": "1.0.1",
+  "source_name": "FluentLoop AI-assisted A1 starter curriculum draft",
+  "source_type": "ai_assisted_draft",
+  "source_url": null,
+  "source_license": "Unreviewed AI-assisted draft; no publication license asserted",
+  "attribution_requirements": "AI-assisted first draft; source, attribution, and rights review pending. No independent human review is claimed.",
+  "course": {
+    "slug": "a1-french-from-the-beginning",
+    "title": "French from the Beginning",
+    "description": "A progressive introduction to French for learners with no prior knowledge. Lessons introduce sounds and useful words before building short everyday conversations.",
+    "version": "1.0.1",
+    "units": [
+      "First sounds and first words",
+      "Names, numbers and questions",
+      "Building simple sentences",
+      "People and everyday life",
+      "Practical conversations"
+    ],
+    "lessons": [
+      {
+        "slug":"a1-001","title":"French Sound Patterns and First Words",
+        "introduction": "Start with a few common French sound patterns and first words. French spelling does not always match English spelling, so listen for whole sound patterns rather than translating letters one at a time.",
+        "estimated_minutes": 15,
+        "objectives": [{"code":"a1-sounds-listening","title":"Notice French sound patterns","description":"Distinguish several common French vowel sounds from familiar English sounds.","skill_category":"listening"},{"code":"a1-sounds-speaking","title":"Say first French words","description":"Use a simple greeting and say a few first French words aloud.","skill_category":"speaking"}],
+        "vocabulary": [
+          {"lemma":"bonjour","part_of_speech":"interjection","translation":"hello; good morning","definition_french":"Salutation utilisée pendant la journée."},
+          {"lemma":"salut","part_of_speech":"interjection","translation":"hi; bye (informal)","definition_french":"Salutation familière."},
+          {"lemma":"oui","part_of_speech":"adverb","translation":"yes","definition_french":"Réponse affirmative."},
+          {"lemma":"non","part_of_speech":"adverb","translation":"no","definition_french":"Réponse négative."},
+          {"lemma":"merci","part_of_speech":"phrase","translation":"thank you","definition_french":"Mot pour exprimer sa gratitude."},
+          {"lemma":"bien","part_of_speech":"adverb","translation":"well; good","definition_french":"D'une manière satisfaisante."},
+          {"lemma":"le son","part_of_speech":"noun","grammatical_gender":"masculine","translation":"sound","definition_french":"Ce qui est perçu par l'ouïe.","ipa":"/lə sɔ̃/"},
+          {"lemma":"la lettre","part_of_speech":"noun","grammatical_gender":"feminine","translation":"letter","definition_french":"Signe écrit de l'alphabet."}
+        ],
+        "examples":[{"french_text":"Bonjour !","english_translation":"Hello!","context":"greeting"},{"french_text":"Oui, merci.","english_translation":"Yes, thank you.","context":"polite response"}],
+        "grammar":[{"slug":"french-sound-spelling","title":"Letters and sounds","summary":"A written letter can have different sounds in French; common letter combinations also represent single sounds.","rule_code":"sound-spelling","explanation_english":"Learn a new word as a whole sound-and-spelling unit. The final consonant is often silent, but there are exceptions; do not assume every final letter is silent.","examples":[["salut","hi (informal)"],["merci","thank you"]]}],
+        "pronunciation":"The French u /y/ is not the same as English oo /u/. Round the lips for /y/ while keeping the tongue forward. The French r /ʁ/ is made at the back of the mouth; a clear approximation is fine at first.",
+        "dialogue":{"slug":"a1-001-first-hello","title":"A first hello","context":"Two learners greet one another.","english_context":"The speakers say hello and exchange a polite response.","turns":[{"speaker_label":"Camille","french_text":"Bonjour !","english_translation":"Hello!"},{"speaker_label":"Noah","french_text":"Bonjour. Ça va ?","english_translation":"Hello. How are you?"},{"speaker_label":"Camille","french_text":"Ça va bien, merci.","english_translation":"I am well, thank you."}]},
+        "exercises":[
+          {"exercise_type":"multiple_choice","prompt":"Choose the French word for “hello” in a polite daytime greeting.","instructions":"Select one answer.","explanation":"Bonjour is the standard daytime greeting.","options":["bonjour","merci","non"],"correct_option":0},
+          {"exercise_type":"multiple_choice","prompt":"What does merci mean?","instructions":"Select one answer.","explanation":"Merci means “thank you.”","options":["thank you","goodbye","yes"],"correct_option":0},
+          {"exercise_type":"multiple_choice","prompt":"Which word means “yes”?","instructions":"Select one answer.","explanation":"Oui is the affirmative response “yes.”","options":["non","salut","oui"],"correct_option":2},
+          {"exercise_type":"multiple_choice","prompt":"Which greeting is informal?","instructions":"Select one answer.","explanation":"Salut is an informal hi or bye.","options":["bonjour","merci","salut"],"correct_option":2},
+          {"exercise_type":"multiple_choice","prompt":"Which pair is French u /y/ and English oo /u/?","instructions":"Choose the accurate pronunciation note.","explanation":"French u is a rounded front vowel, not the English oo vowel.","options":["They are always identical.","They are different sounds.","French u is silent."],"correct_option":1}
+        ],
+        "recap":"You can recognize a few first words, greet someone with bonjour, and remember that spelling and sound do not always match one-to-one."
+      },
+      {
+        "slug":"a1-002","title":"Greetings and Polite Expressions",
+        "introduction":"Use greetings and polite expressions to open and close a short exchange. Choose between a neutral expression and a familiar one according to the situation.",
+        "estimated_minutes":15,
+        "objectives":[{"code":"a1-greetings-speaking","title":"Greet someone politely","description":"Choose a suitable greeting and respond to a simple how-are-you question.","skill_category":"speaking"},{"code":"a1-greetings-vocabulary","title":"Use polite expressions","description":"Use please, thank you, and goodbye in a short exchange.","skill_category":"vocabulary"}],
+        "vocabulary":[
+          {"lemma":"bonjour","part_of_speech":"interjection","translation":"hello; good morning","definition_french":"Salutation utilisée pendant la journée."},
+          {"lemma":"bonsoir","part_of_speech":"interjection","translation":"good evening","definition_french":"Salutation utilisée le soir."},
+          {"lemma":"au revoir","part_of_speech":"phrase","translation":"goodbye","definition_french":"Formule pour prendre congé."},
+          {"lemma":"s'il vous plaît","part_of_speech":"phrase","translation":"please (formal/plural)","definition_french":"Formule de politesse pour demander quelque chose."},
+          {"lemma":"s'il te plaît","part_of_speech":"phrase","translation":"please (informal)","definition_french":"Formule familière pour demander quelque chose."},
+          {"lemma":"pardon","part_of_speech":"interjection","translation":"sorry; excuse me","definition_french":"Mot pour s'excuser ou demander de répéter."},
+          {"lemma":"ça va","part_of_speech":"phrase","translation":"how are you?; it is going","definition_french":"Question ou réponse familière sur l'état d'une personne."},
+          {"lemma":"très","part_of_speech":"adverb","translation":"very","definition_french":"Adverbe qui augmente l'intensité."}
+        ],
+        "examples":[{"french_text":"Bonsoir, madame.","english_translation":"Good evening, madam.","context":"evening greeting"},{"french_text":"Un café, s'il vous plaît.","english_translation":"A coffee, please.","context":"polite request"}],
+        "grammar":[{"slug":"polite-register","title":"Choosing a polite expression","summary":"Use s'il vous plaît in a formal or plural situation and s'il te plaît with one person you address informally.","rule_code":"polite-register","explanation_english":"The pronouns vous and te signal different ways of addressing someone. When unsure in a service interaction, s'il vous plaît is a safe polite choice.","examples":[["S'il vous plaît.","Please (formal/plural)."],["S'il te plaît.","Please (informal)."]]}],
+        "pronunciation":"In bonsoir and au revoir, pronounce the final r as the French sound /ʁ/. Keep the rhythm smooth and do not add a vowel or extra syllable after it.",
+        "dialogue":{"slug":"a1-002-cafe-greeting","title":"A polite greeting","context":"A customer greets a café worker and makes a simple request.","english_context":"A short service encounter using a polite greeting and please.","turns":[{"speaker_label":"Client","french_text":"Bonjour, madame.","english_translation":"Hello, madam."},{"speaker_label":"Serveuse","french_text":"Bonjour ! Ça va ?","english_translation":"Hello! How are you?"},{"speaker_label":"Client","french_text":"Très bien, merci. Un café, s'il vous plaît.","english_translation":"Very well, thank you. A coffee, please."}]},
+        "exercises":[
+          {"exercise_type":"multiple_choice","prompt":"Which expression means “good evening”?","instructions":"Select one answer.","explanation":"Bonsoir is used as an evening greeting.","options":["bonsoir","bonjour","au revoir"],"correct_option":0},
+          {"exercise_type":"multiple_choice","prompt":"Choose the polite “please” for a service interaction.","instructions":"Select one answer.","explanation":"S'il vous plaît is the formal or plural form.","options":["salut","ça va","s'il vous plaît"],"correct_option":2},
+          {"exercise_type":"multiple_choice","prompt":"What does au revoir mean?","instructions":"Select one answer.","explanation":"Au revoir is a common way to say goodbye.","options":["goodbye","please","very"],"correct_option":0},
+          {"exercise_type":"multiple_choice","prompt":"Which phrase asks informally how someone is?","instructions":"Select one answer.","explanation":"Ça va? is a familiar “How are you?”","options":["Ça va ?","Au revoir.","Pardon."],"correct_option":0},
+          {"exercise_type":"multiple_choice","prompt":"Which phrase is the informal “please”?","instructions":"Select one answer.","explanation":"S'il te plaît is used with one person addressed informally.","options":["s'il vous plaît","s'il te plaît","bonsoir"],"correct_option":1}
+        ],
+        "recap":"You can open and close a polite exchange and choose a suitable please expression. Use bonsoir in the evening and au revoir when leaving."
+      },
+      {
+        "slug":"a1-003","title":"Introducing Yourself",
+        "introduction":"Learn to give your name and ask another person's name. The useful patterns are short: je m'appelle for a name and comment vous vous appelez for a polite question.",
+        "estimated_minutes":15,
+        "objectives":[{"code":"a1-introductions-speaking","title":"Say your name","description":"Introduce yourself and ask another person their name using a short memorized phrase.","skill_category":"speaking"},{"code":"a1-introductions-reading","title":"Recognize basic identity words","description":"Understand common words for a name and a person in a simple introduction.","skill_category":"reading"}],
+        "vocabulary":[
+          {"lemma":"je","part_of_speech":"pronoun","translation":"I","definition_french":"Pronom sujet de la première personne du singulier."},
+          {"lemma":"vous","part_of_speech":"pronoun","translation":"you (formal or plural)","definition_french":"Pronom sujet pour une personne vouvoyée ou plusieurs personnes."},
+          {"lemma":"s'appeler","part_of_speech":"verb","translation":"to be called","definition_french":"Avoir un nom; verbe pronominal."},
+          {"lemma":"le prénom","part_of_speech":"noun","grammatical_gender":"masculine","translation":"first name","definition_french":"Nom personnel donné à la naissance ou à l'usage."},
+          {"lemma":"le nom","part_of_speech":"noun","grammatical_gender":"masculine","translation":"name; surname","definition_french":"Mot qui identifie une personne ou une chose, notamment le nom de famille."},
+          {"lemma":"enchanté","part_of_speech":"adjective","grammatical_gender":"masculine","translation":"pleased to meet you (masculine speaker)","definition_french":"Formule de politesse lors d'une première rencontre."},
+          {"lemma":"enchantée","part_of_speech":"adjective","grammatical_gender":"feminine","translation":"pleased to meet you (feminine speaker)","definition_french":"Formule de politesse lors d'une première rencontre."},
+          {"lemma":"comment","part_of_speech":"adverb","translation":"how; what","definition_french":"Adverbe interrogatif sur la manière ou l'identité."}
+        ],
+        "examples":[{"french_text":"Je m'appelle Léa.","english_translation":"My name is Léa.","context":"introduction"},{"french_text":"Comment vous appelez-vous ?","english_translation":"What is your name? (formal)","context":"polite question"}],
+        "grammar":[{"slug":"introducing-yourself","title":"Introducing yourself with s'appeler","summary":"Use je m'appelle to give your name and comment vous appelez-vous to ask someone politely.","rule_code":"s-appeler-present","explanation_english":"S'appeler is a pronominal verb. The pronoun changes with the subject; this lesson practices je and vous as fixed beginner phrases.","examples":[["Je m'appelle Léa.","My name is Léa."],["Comment vous appelez-vous ?","What is your name? (formal)"]]}],
+        "pronunciation":"In je m'appelle, the e in je is often reduced in natural speech, but beginners may pronounce it clearly. Keep the two l sounds in appelle together rather than adding an extra syllable.",
+        "dialogue":{"slug":"a1-003-first-introduction","title":"Meeting someone","context":"Two people introduce themselves politely.","english_context":"They exchange names and say pleased to meet you.","turns":[{"speaker_label":"Léa","french_text":"Bonjour, je m'appelle Léa. Et vous ?","english_translation":"Hello, my name is Léa. And you?"},{"speaker_label":"Marc","french_text":"Je m'appelle Marc.","english_translation":"My name is Marc."},{"speaker_label":"Léa","french_text":"Enchantée !","english_translation":"Pleased to meet you!"}]},
+        "exercises":[
+          {"exercise_type":"multiple_choice","prompt":"Choose the French phrase for “My name is Léa.”","instructions":"Select one answer.","explanation":"Je m'appelle Léa means “My name is Léa.”","options":["Je vais Léa.","Je suis appelle Léa.","Je m'appelle Léa."],"correct_option":2},
+          {"exercise_type":"multiple_choice","prompt":"Which word means “first name”?","instructions":"Select one answer.","explanation":"Le prénom means first name.","options":["le prénom","le soir","le son"],"correct_option":0},
+          {"exercise_type":"multiple_choice","prompt":"Choose the polite question “What is your name?”","instructions":"Select one answer.","explanation":"Comment vous appelez-vous? asks someone's name politely.","options":["Comment vous appelez-vous ?","Ça va ?","Au revoir ?"],"correct_option":0},
+          {"exercise_type":"multiple_choice","prompt":"What does enchanté mean in a first meeting?","instructions":"Select one answer.","explanation":"Enchanté is a polite “pleased to meet you.”","options":["good evening","pleased to meet you","please"],"correct_option":1},
+          {"exercise_type":"multiple_choice","prompt":"Which pronoun means formal or plural “you”?","instructions":"Select one answer.","explanation":"Vous is formal singular or plural “you.”","options":["je","vous","elle"],"correct_option":1}
+        ],
+        "recap":"You can give your name with je m'appelle and ask another person's name politely. Enchanté or enchantée is a courteous first-meeting response."
+      },
+      {
+        "slug":"a1-004","title":"Numbers, Age and Basic Questions",
+        "introduction":"Use a few numbers and question words to exchange basic personal information. In French, age is expressed with avoir: j'ai vingt ans, literally “I have twenty years.”",
+        "estimated_minutes":18,
+        "objectives":[{"code":"a1-numbers-listening","title":"Recognize common numbers","description":"Recognize the numbers zéro, un, deux, trois, and dix in short phrases.","skill_category":"listening"},{"code":"a1-age-speaking","title":"Ask and answer about age","description":"Ask someone's age and give a simple age using avoir.","skill_category":"speaking"}],
+        "vocabulary":[
+          {"lemma":"zéro","part_of_speech":"noun","grammatical_gender":"masculine","translation":"zero","definition_french":"Nombre qui représente une quantité nulle."},
+          {"lemma":"un","part_of_speech":"article","translation":"one; a/an (masculine)","definition_french":"Nombre cardinal ou article indéfini masculin."},
+          {"lemma":"deux","part_of_speech":"noun","grammatical_gender":"masculine","translation":"two","definition_french":"Nombre cardinal qui suit un."},
+          {"lemma":"trois","part_of_speech":"noun","grammatical_gender":"masculine","translation":"three","definition_french":"Nombre cardinal qui suit deux."},
+          {"lemma":"dix","part_of_speech":"noun","grammatical_gender":"masculine","translation":"ten","definition_french":"Nombre cardinal qui suit neuf."},
+          {"lemma":"quel âge","part_of_speech":"phrase","translation":"how old; what age","definition_french":"Expression interrogative sur l'âge."},
+          {"lemma":"avoir","part_of_speech":"verb","translation":"to have","definition_french":"Posséder ou exprimer certains états."},
+          {"lemma":"l'année","part_of_speech":"noun","grammatical_gender":"feminine","translation":"year","definition_french":"Période de douze mois."}
+        ],
+        "examples":[{"french_text":"J'ai dix-huit ans.","english_translation":"I am eighteen years old.","context":"age"},{"french_text":"Quel âge avez-vous ?","english_translation":"How old are you? (formal)","context":"question"}],
+        "grammar":[{"slug":"numbers-zero-to-ten","title":"Numbers zéro through dix","summary":"Learn the French number words from zero to ten as complete spoken and written forms.","rule_code":"numbers-0-10","explanation_english":"The numbers are zéro (zero), un (one), deux (two), trois (three), quatre (four), cinq (five), six (six), sept (seven), huit (eight), neuf (nine), and dix (ten). Un is also the masculine indefinite article.","examples":[["zéro","zero"],["un","one"],["deux","two"],["trois","three"],["quatre","four"],["cinq","five"],["six","six"],["sept","seven"],["huit","eight"],["neuf","nine"],["dix","ten"]]},{"slug":"age-with-avoir","title":"Age with avoir","summary":"French uses avoir rather than être to state age: j'ai vingt ans.","rule_code":"age-avoir","explanation_english":"Use avoir + number + ans to say someone's age. The French construction literally says “I have ... years.”","examples":[["J'ai dix-huit ans.","I am eighteen years old."],["Quel âge avez-vous ?","How old are you? (formal)"]]},{"slug":"simple-questions","title":"Simple questions","summary":"French questions can use a question word, rising intonation, or inversion in more formal patterns.","rule_code":"basic-question-forms","explanation_english":"Quel âge avez-vous? uses a question phrase and subject-verb inversion. In conversation, intonation can also form a question; choose a pattern appropriate to the situation.","examples":[["Quel âge avez-vous ?","How old are you? (formal)"],["Vous avez dix-huit ans ?","Are you eighteen years old? (formal)"]]}],
+        "pronunciation":"The final consonant in dix is usually silent before a pause, but liaison may make it audible before a following vowel. Learn the number as a spoken unit.",
+        "dialogue":{"slug":"a1-004-age-question","title":"Asking someone's age","context":"A learner asks another person a basic personal question.","english_context":"They exchange a name and age politely.","turns":[{"speaker_label":"Nina","french_text":"Quel âge avez-vous ?","english_translation":"How old are you?"},{"speaker_label":"Paul","french_text":"J'ai vingt ans.","english_translation":"I am twenty years old."}]},
+        "exercises":[
+          {"exercise_type":"multiple_choice","prompt":"Which French verb is used to express age?","instructions":"Select one answer.","explanation":"French uses avoir for age: j'ai vingt ans.","options":["être","aller","avoir"],"correct_option":2},
+          {"exercise_type":"multiple_choice","prompt":"What does deux mean?","instructions":"Select one answer.","explanation":"Deux means two.","options":["three","ten","two"],"correct_option":2},
+          {"exercise_type":"multiple_choice","prompt":"Choose the French question “How old are you?”","instructions":"Select one answer.","explanation":"Quel âge avez-vous? is the polite age question.","options":["Comment vous appelez-vous ?","Quel âge avez-vous ?","Ça va ?"],"correct_option":1},
+          {"exercise_type":"multiple_choice","prompt":"Complete the age phrase: J'___ vingt ans.","instructions":"Select one answer.","explanation":"The correct first-person form of avoir is ai.","options":["suis","ai","vais"],"correct_option":1},
+          {"exercise_type":"multiple_choice","prompt":"What does dix mean?","instructions":"Select one answer.","explanation":"Dix means ten.","options":["ten","zero","one"],"correct_option":0}
+        ],
+        "recap":"You can recognize introductory numbers and ask someone's age. State age with avoir + number + ans, not être."
+      },
+      {
+        "slug":"a1-005","title":"Articles and Noun Gender",
+        "introduction":"French nouns have grammatical gender. Learn each noun together with its article: un or le for masculine nouns, une or la for feminine nouns. Gender is a grammatical feature, not a statement about a person's identity.",
+        "estimated_minutes":18,
+        "objectives":[{"code":"a1-articles-reading","title":"Recognize basic articles","description":"Identify un, une, le, and la in short noun phrases.","skill_category":"grammar"},{"code":"a1-gender-vocabulary","title":"Learn nouns with gender","description":"Remember a new French noun together with its article and grammatical gender.","skill_category":"vocabulary"}],
+        "vocabulary":[
+          {"lemma":"un livre","part_of_speech":"noun","grammatical_gender":"masculine","translation":"a book","definition_french":"Objet composé de pages imprimées ou écrites.","teaching_note":"Learn the article with the noun."},
+          {"lemma":"une table","part_of_speech":"noun","grammatical_gender":"feminine","translation":"a table","definition_french":"Meuble avec un plateau et des pieds.","teaching_note":"Learn the article with the noun."},
+          {"lemma":"le café","part_of_speech":"noun","grammatical_gender":"masculine","translation":"the coffee; the café","definition_french":"Boisson ou établissement où l'on sert des boissons."},
+          {"lemma":"la maison","part_of_speech":"noun","grammatical_gender":"feminine","translation":"the house","definition_french":"Bâtiment où l'on habite."},
+          {"lemma":"un ami","part_of_speech":"noun","grammatical_gender":"masculine","translation":"a male friend","definition_french":"Personne avec qui l'on a une relation d'affection."},
+          {"lemma":"une amie","part_of_speech":"noun","grammatical_gender":"feminine","translation":"a female friend","definition_french":"Personne avec qui l'on a une relation d'affection."},
+          {"lemma":"le stylo","part_of_speech":"noun","grammatical_gender":"masculine","translation":"the pen","definition_french":"Instrument qui sert à écrire."},
+          {"lemma":"la porte","part_of_speech":"noun","grammatical_gender":"feminine","translation":"the door","definition_french":"Panneau qui ferme une ouverture."}
+        ],
+        "examples":[{"french_text":"C'est un livre.","english_translation":"It is a book.","context":"identifying an object"},{"french_text":"C'est une table.","english_translation":"It is a table.","context":"identifying an object"}],
+        "grammar":[{"slug":"french-articles-gender","title":"Articles and grammatical gender","summary":"French nouns are masculine or feminine. The indefinite articles are un and une; the singular definite articles are le and la.","rule_code":"articles-gender","explanation_english":"Learn the article as part of the noun entry because noun gender is not reliably predictable from meaning alone. Before a vowel or mute h, le and la elide to l'.","examples":[["un livre","a book (masculine)"],["une table","a table (feminine)"]]}],
+        "pronunciation":"Before a vowel sound, le and la elide to l', as in l'ami and l'amie. Un has a nasal vowel; its final n is not pronounced as a separate consonant. Une has a different vowel sound.",
+        "dialogue":{"slug":"a1-005-objects","title":"Identifying objects","context":"Two learners identify simple classroom objects.","english_context":"They use c'est with masculine and feminine nouns.","turns":[{"speaker_label":"A","french_text":"Qu'est-ce que c'est ?","english_translation":"What is it?"},{"speaker_label":"B","french_text":"C'est un livre.","english_translation":"It is a book."},{"speaker_label":"A","french_text":"Et là ?","english_translation":"And there?"},{"speaker_label":"B","french_text":"C'est une table.","english_translation":"It is a table."}]},
+        "exercises":[
+          {"exercise_type":"multiple_choice","prompt":"Which article belongs with livre?","instructions":"Select one answer.","explanation":"Livre is masculine: un livre or le livre.","options":["un livre","une livre","la livre"],"correct_option":0},
+          {"exercise_type":"multiple_choice","prompt":"Which phrase means “a table”?","instructions":"Select one answer.","explanation":"Table is feminine: une table.","options":["un table","une table","le table"],"correct_option":1},
+          {"exercise_type":"multiple_choice","prompt":"Which singular definite article is masculine?","instructions":"Select one answer.","explanation":"Le is the masculine singular definite article.","options":["la","une","le"],"correct_option":2},
+          {"exercise_type":"multiple_choice","prompt":"Choose the correct phrase for “the house.”","instructions":"Select one answer.","explanation":"Maison is feminine: la maison.","options":["le maison","un maison","la maison"],"correct_option":2},
+          {"exercise_type":"multiple_choice","prompt":"What is the best way to learn a French noun?","instructions":"Select one answer.","explanation":"Learning the article together with the noun helps retain its grammatical gender.","options":["Learn it with its article.","Ignore its article.","Guess gender from English."],"correct_option":0}
+        ],
+        "recap":"French nouns have grammatical gender. Learn un/une or le/la together with each noun; never infer a person's identity from a noun's grammatical gender."
+      },
+      {
+        "slug":"a1-006","title":"Subject Pronouns and Être",
+        "introduction":"Use subject pronouns with être to say who someone is or describe a simple state. Être is irregular, so learn its present forms as a small set.",
+        "estimated_minutes":18,
+        "objectives":[{"code":"a1-etre-speaking","title":"Use être in the present","description":"Choose a basic present form of être with je, tu, il, elle, nous, or vous.","skill_category":"grammar"},{"code":"a1-pronouns-reading","title":"Recognize subject pronouns","description":"Identify common French subject pronouns in short sentences.","skill_category":"reading"}],
+        "vocabulary":[
+          {"lemma":"je","part_of_speech":"pronoun","translation":"I","definition_french":"Pronom sujet de la première personne du singulier."},
+          {"lemma":"tu","part_of_speech":"pronoun","translation":"you (informal singular)","definition_french":"Pronom sujet pour une personne tutoyée."},
+          {"lemma":"il","part_of_speech":"pronoun","translation":"he; it (masculine)","definition_french":"Pronom sujet masculin de la troisième personne."},
+          {"lemma":"elle","part_of_speech":"pronoun","translation":"she; it (feminine)","definition_french":"Pronom sujet féminin de la troisième personne."},
+          {"lemma":"nous","part_of_speech":"pronoun","translation":"we","definition_french":"Pronom sujet de la première personne du pluriel."},
+          {"lemma":"vous","part_of_speech":"pronoun","translation":"you (formal or plural)","definition_french":"Pronom sujet pour une personne vouvoyée ou plusieurs personnes."},
+          {"lemma":"être","part_of_speech":"verb","translation":"to be","definition_french":"Verbe qui exprime notamment l'identité ou l'état.","irregularity_notes":"Highly irregular present forms."},
+          {"lemma":"étudiant","part_of_speech":"noun","grammatical_gender":"masculine","translation":"male student","definition_french":"Personne qui suit des études."},
+          {"lemma":"étudiante","part_of_speech":"noun","grammatical_gender":"feminine","translation":"female student","definition_french":"Personne qui suit des études."}
+        ],
+        "examples":[{"french_text":"Je suis étudiant.","english_translation":"I am a male student.","context":"identity"},{"french_text":"Je suis étudiante.","english_translation":"I am a female student.","context":"identity"}],
+        "grammar":[{"slug":"subject-pronouns-etre","title":"Subject pronouns and être","summary":"A French sentence usually has a subject pronoun before the verb. Être is irregular: je suis, tu es, il/elle est, nous sommes, vous êtes, ils/elles sont.","rule_code":"etre-present","explanation_english":"Use the form of être that agrees with the subject. This lesson focuses on common singular forms and vous êtes; the full present paradigm is included in the verb reference.","examples":[["Je suis étudiant.","I am a student."],["Vous êtes ici.","You are here."]]}],
+        "pronunciation":"The initial s in suis is pronounced; the final s in suis is silent before a pause, as are the final s in es and t in est. Êtes has a clear ê vowel; do not omit its circumflex in writing.",
+        "dialogue":{"slug":"a1-006-where-are-you","title":"A simple introduction","context":"Two people introduce themselves and say where they are.","english_context":"They use subject pronouns and present forms of être.","turns":[{"speaker_label":"A","french_text":"Tu es étudiant ?","english_translation":"Are you a student?"},{"speaker_label":"B","french_text":"Oui, je suis étudiant.","english_translation":"Yes, I am a student."},{"speaker_label":"A","french_text":"Et vous, madame ?","english_translation":"And you, madam?"},{"speaker_label":"B","french_text":"Je suis professeure.","english_translation":"I am a teacher."}]},
+        "exercises":[
+          {"exercise_type":"multiple_choice","prompt":"Complete: je ___ (to be).","instructions":"Select one answer.","explanation":"The first-person singular present form is suis.","options":["suis","es","est"],"correct_option":0},
+          {"exercise_type":"multiple_choice","prompt":"Which pronoun means informal singular “you”?","instructions":"Select one answer.","explanation":"Tu is informal singular “you.”","options":["vous","tu","nous"],"correct_option":1},
+          {"exercise_type":"multiple_choice","prompt":"Complete: vous ___.","instructions":"Select one answer.","explanation":"The present form used with vous is êtes.","options":["sommes","êtes","sont"],"correct_option":1},
+          {"exercise_type":"multiple_choice","prompt":"Which pronoun means “we”?","instructions":"Select one answer.","explanation":"Nous means “we.”","options":["vous","ils","nous"],"correct_option":2},
+          {"exercise_type":"multiple_choice","prompt":"Choose the correct sentence for “She is here.”","instructions":"Select one answer.","explanation":"Elle est ici uses elle with the third-person singular form est.","options":["Elle est ici.","Elle suis ici.","Elle sommes ici."],"correct_option":0}
+        ],
+        "recap":"Subject pronouns identify who is doing or being. Être has irregular present forms; connect each pronoun with its matching form."
+      },
+      {
+        "slug":"a1-007","title":"Avoir and Talking About Possessions",
+        "introduction":"Use avoir to talk about what someone has. It is also used in a few common expressions, including age. Practice the present forms with simple objects and people.",
+        "estimated_minutes":18,
+        "objectives":[{"code":"a1-avoir-speaking","title":"Use avoir in the present","description":"Use j'ai, tu as, il/elle a, nous avons, and vous avez in short statements.","skill_category":"grammar"},{"code":"a1-possessions-speaking","title":"Describe a possession","description":"Ask and answer whether someone has a familiar object.","skill_category":"speaking"}],
+        "vocabulary":[
+          {"lemma":"avoir","part_of_speech":"verb","translation":"to have","definition_french":"Posséder ou exprimer certains états.","irregularity_notes":"Irregular present forms."},
+          {"lemma":"un téléphone","part_of_speech":"noun","grammatical_gender":"masculine","translation":"a telephone","definition_french":"Appareil qui permet de communiquer à distance."},
+          {"lemma":"une clé","part_of_speech":"noun","grammatical_gender":"feminine","translation":"a key","definition_french":"Objet qui sert à ouvrir ou fermer une serrure."},
+          {"lemma":"un sac","part_of_speech":"noun","grammatical_gender":"masculine","translation":"a bag","definition_french":"Contenant souple pour transporter des objets."},
+          {"lemma":"un frère","part_of_speech":"noun","grammatical_gender":"masculine","translation":"brother","definition_french":"Garçon ou homme qui a les mêmes parents qu'une personne."},
+          {"lemma":"une sœur","part_of_speech":"noun","grammatical_gender":"feminine","translation":"a sister","definition_french":"Fille ou femme qui a les mêmes parents qu'une personne."},
+          {"lemma":"aussi","part_of_speech":"adverb","translation":"also; too","definition_french":"Adverbe qui ajoute un élément."},
+          {"lemma":"avec","part_of_speech":"preposition","translation":"with","definition_french":"Préposition qui marque l'accompagnement."}
+        ],
+        "examples":[{"french_text":"J'ai un téléphone.","english_translation":"I have a telephone.","context":"possession"},{"french_text":"Elle a une sœur.","english_translation":"She has a sister.","context":"family"}],
+        "grammar":[{"slug":"avoir-present","title":"Avoir in the present","summary":"The common present forms are j'ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont.","rule_code":"avoir-present","explanation_english":"Avoir is irregular. The final consonants of many singular forms are not pronounced before a pause; the spelling still changes with the subject.","examples":[["J'ai un téléphone.","I have a telephone."],["Elle a une sœur.","She has a sister."]]},{"slug":"negation-ne-pas","title":"Negation with ne...pas","summary":"In a simple present-tense statement, ne or n' and pas surround the conjugated verb.","rule_code":"ne-pas-present",        "explanation_english":"Place ne before the conjugated verb and pas after it. Use n' instead of ne before a vowel sound: je n'ai pas. With avoir, un, une, and des usually become de (or d' before a vowel) after pas: je n'ai pas de clé. In everyday speech, ne is often omitted, but it is retained in standard written French.","examples":[["Je ne parle pas.","I do not speak."],["Je n'ai pas de clé.","I do not have a key."]]}],
+        "pronunciation":"In j'ai, the apostrophe marks elision of je before a vowel. Avoir forms have several different vowel sounds; say each complete form rather than applying a regular verb pattern.",
+        "dialogue":{"slug":"a1-007-have-a-phone","title":"Do you have a phone?","context":"Two friends ask about everyday items.","english_context":"A short question and answer with avoir.","turns":[{"speaker_label":"A","french_text":"Tu as un téléphone ?","english_translation":"Do you have a phone?"},{"speaker_label":"B","french_text":"Oui, j'ai un téléphone.","english_translation":"Yes, I have a phone."},{"speaker_label":"A","french_text":"Tu as une clé aussi ?","english_translation":"Do you have a key too?"},{"speaker_label":"B","french_text":"Non, je n'ai pas de clé.","english_translation":"No, I do not have a key."}]},
+        "exercises":[
+          {"exercise_type":"multiple_choice","prompt":"Complete: j'___ un sac.","instructions":"Select one answer.","explanation":"The first-person singular present form is ai.","options":["as","a","ai"],"correct_option":2},
+          {"exercise_type":"multiple_choice","prompt":"Complete: elle ___ une sœur.","instructions":"Select one answer.","explanation":"The third-person singular form is a.","options":["as","avons","a"],"correct_option":2},
+          {"exercise_type":"multiple_choice","prompt":"What does une clé mean?","instructions":"Select one answer.","explanation":"Une clé means a key.","options":["a bag","a key","a phone"],"correct_option":1},
+          {"exercise_type":"multiple_choice","prompt":"Which word means “with”?","instructions":"Select one answer.","explanation":"Avec means “with.”","options":["aussi","avec","avoir"],"correct_option":1},
+          {"exercise_type":"multiple_choice","prompt":"Choose the correct translation: J'ai un téléphone.","instructions":"Select one answer.","explanation":"J'ai means “I have.”","options":["I have a telephone.","I am a telephone.","I want a telephone."],"correct_option":0}
+        ],
+        "recap":"Avoir expresses possession and age. Match its irregular present forms to the subject, and learn each object with its article."
+      },
+      {
+        "slug":"a1-008","title":"Family and Personal Information",
+        "introduction":"Use familiar family words and simple possessives to share basic personal information. The words mon, ma, and mes agree with the noun that follows.",
+        "estimated_minutes":18,
+        "objectives":[{"code":"a1-family-vocabulary","title":"Name close family members","description":"Recognize and use common words for family members in a short description.","skill_category":"vocabulary"},{"code":"a1-family-speaking","title":"Share basic information","description":"Give a simple sentence about a family member using a possessive adjective.","skill_category":"speaking"}],
+        "vocabulary":[
+          {"lemma":"la famille","part_of_speech":"noun","grammatical_gender":"feminine","translation":"family","definition_french":"Ensemble de personnes liées notamment par la parenté."},
+          {"lemma":"la mère","part_of_speech":"noun","grammatical_gender":"feminine","translation":"mother","definition_french":"Femme qui a un enfant."},
+          {"lemma":"le père","part_of_speech":"noun","grammatical_gender":"masculine","translation":"father","definition_french":"Homme qui a un enfant."},
+          {"lemma":"le frère","part_of_speech":"noun","grammatical_gender":"masculine","translation":"brother","definition_french":"Garçon ou homme qui a les mêmes parents qu'une personne."},
+          {"lemma":"la sœur","part_of_speech":"noun","grammatical_gender":"feminine","translation":"sister","definition_french":"Fille ou femme qui a les mêmes parents qu'une personne."},
+          {"lemma":"les parents","part_of_speech":"noun","grammatical_gender":"masculine","translation":"parents","definition_french":"Le père et la mère d'une personne."},
+          {"lemma":"mon","part_of_speech":"adjective","grammatical_gender":"masculine","translation":"my (masculine singular noun)","definition_french":"Adjectif possessif de la première personne du singulier."},
+          {"lemma":"ma","part_of_speech":"adjective","grammatical_gender":"feminine","translation":"my (feminine singular noun)","definition_french":"Adjectif possessif féminin de la première personne du singulier."},
+          {"lemma":"mes","part_of_speech":"adjective","translation":"my (plural noun)","definition_french":"Adjectif possessif de la première personne du singulier devant un nom pluriel."},
+          {"lemma":"ta","part_of_speech":"adjective","grammatical_gender":"feminine","translation":"your (informal, feminine singular noun)","definition_french":"Adjectif possessif féminin de la deuxième personne du singulier."}
+        ],
+        "examples":[{"french_text":"Ma sœur s'appelle Ana.","english_translation":"My sister's name is Ana.","context":"family information"},{"french_text":"Mon frère est étudiant.","english_translation":"My brother is a student.","context":"family information"}],
+        "grammar":[{"slug":"possessives-mon-ma-mes","title":"Possessives mon, ma, mes, and ta","summary":"Mon, ma, and mes mean “my”; ta means informal singular “your.” Possessives agree with the noun that follows.","rule_code":"possessive-mon-ma","explanation_english":"Use mon with a masculine singular noun, ma with a feminine singular noun, and mes with a plural noun. Use ta with a feminine singular noun when addressing someone informally. Before a vowel sound, mon is used with a feminine noun: mon amie.","examples":[["mon frère","my brother"],["ma sœur","my sister"],["mes parents","my parents"],["ta sœur","your sister (informal)"]]}],
+        "pronunciation":"The final n in mon is normally linked smoothly to the following noun. Do not pronounce the s in les before a pause; it may be heard in liaison before a vowel.",
+        "dialogue":{"slug":"a1-008-family","title":"Talking about family","context":"A learner asks about another person's family.","english_context":"The speakers name siblings and use possessives.","turns":[{"speaker_label":"A","french_text":"Tu as des frères et sœurs ?","english_translation":"Do you have brothers and sisters?"},{"speaker_label":"B","french_text":"Oui. J'ai un frère et une sœur.","english_translation":"Yes. I have a brother and a sister."},{"speaker_label":"A","french_text":"Comment s'appelle ta sœur ?","english_translation":"What is your sister's name?"},{"speaker_label":"B","french_text":"Elle s'appelle Ana.","english_translation":"Her name is Ana."}]},
+        "exercises":[
+          {"exercise_type":"multiple_choice","prompt":"What does la mère mean?","instructions":"Select one answer.","explanation":"La mère means mother.","options":["father","sister","mother"],"correct_option":2},
+          {"exercise_type":"multiple_choice","prompt":"Choose the correct phrase for “my brother.”","instructions":"Select one answer.","explanation":"Frère is masculine, so use mon frère.","options":["ma frère","mon frère","mes frère"],"correct_option":1},
+          {"exercise_type":"multiple_choice","prompt":"Choose the correct phrase for “my sister.”","instructions":"Select one answer.","explanation":"Sœur is feminine, so use ma sœur.","options":["ma sœur","mon sœur","mes sœur"],"correct_option":0},
+          {"exercise_type":"multiple_choice","prompt":"Choose the correct phrase for “my parents.”","instructions":"Select one answer.","explanation":"Parents is plural, so use mes: mes parents.","options":["mon parents","mes parents","ma parents"],"correct_option":1},
+          {"exercise_type":"multiple_choice","prompt":"Complete the informal phrase for “your sister”: ___ sœur.","instructions":"Select one answer.","explanation":"Sœur is feminine singular, so use ta when addressing someone informally.","options":["mon","ta","mes"],"correct_option":1}
+        ],
+        "recap":"You can name close family members and use mon, ma, and mes for “my,” plus ta for informal “your.” The possessive agrees with the noun, not the speaker."
+      },
+      {
+        "slug":"a1-009","title":"Everyday Activities and Common Verbs",
+        "introduction":"Talk about a small number of everyday activities with common present-tense verbs. Regular -er verbs provide a useful pattern, while être, avoir, aller, and faire need special attention.",
+        "estimated_minutes":20,
+        "objectives":[{"code":"a1-routines-speaking","title":"Describe a simple routine","description":"Use a familiar present-tense verb in a short sentence about an everyday activity.","skill_category":"speaking"},{"code":"a1-verbs-grammar","title":"Recognize common verb forms","description":"Recognize common present-tense verbs and the regular -er pattern in familiar sentences.","skill_category":"grammar"}],
+        "vocabulary":[
+          {"lemma":"parler","part_of_speech":"verb","translation":"to speak","definition_french":"Utiliser une langue pour communiquer."},
+          {"lemma":"habiter","part_of_speech":"verb","translation":"to live; reside","definition_french":"Avoir son domicile dans un lieu."},
+          {"lemma":"aimer","part_of_speech":"verb","translation":"to like; love","definition_french":"Éprouver de l'affection ou apprécier."},
+          {"lemma":"aller","part_of_speech":"verb","translation":"to go","definition_french":"Se déplacer vers un lieu."},
+          {"lemma":"faire","part_of_speech":"verb","translation":"to do; make","definition_french":"Réaliser ou créer quelque chose."},
+          {"lemma":"travailler","part_of_speech":"verb","translation":"to work","definition_french":"Exercer une activité professionnelle ou une tâche."},
+          {"lemma":"le matin","part_of_speech":"noun","grammatical_gender":"masculine","translation":"morning","definition_french":"Première partie de la journée."},
+          {"lemma":"aujourd'hui","part_of_speech":"adverb","translation":"today","definition_french":"Le jour présent."}
+        ],
+        "examples":[{"french_text":"J'habite à Lyon.","english_translation":"I live in Lyon.","context":"personal information"},{"french_text":"Nous parlons français.","english_translation":"We speak French.","context":"language"}],
+        "grammar":[{"slug":"common-present-verbs","title":"Common present-tense verbs","summary":"Many -er verbs use -e, -es, -e, -ons, -ez, -ent endings; aller, faire, être, and avoir are irregular and should be learned separately.","rule_code":"present-common-verbs","explanation_english":"For regular -er verbs, the written endings are consistent, though several are silent in speech. Aller and faire do not follow this pattern; use their individual forms.","examples":[["J'habite à Lyon.","I live in Lyon."],["Nous parlons français.","We speak French."]]}],
+        "pronunciation":"The endings -e, -es, and -ent of many regular -er verbs are silent. The nous and vous endings are usually audible; listen for the verb stem and subject together.",
+        "dialogue":{"slug":"a1-009-daily-routine","title":"A simple routine","context":"Two learners talk about where they live and what they do.","english_context":"They use common present-tense verbs in short sentences.","turns":[{"speaker_label":"A","french_text":"Tu habites à Paris ?","english_translation":"Do you live in Paris?"},{"speaker_label":"B","french_text":"Non, j'habite à Lyon.","english_translation":"No, I live in Lyon."},{"speaker_label":"A","french_text":"Tu parles français ?","english_translation":"Do you speak French?"},{"speaker_label":"B","french_text":"Oui, je parle un peu français.","english_translation":"Yes, I speak a little French."}]},
+        "exercises":[
+          {"exercise_type":"multiple_choice","prompt":"What does habiter mean?","instructions":"Select one answer.","explanation":"Habiter means to live or reside.","options":["to live","to speak","to go"],"correct_option":0},
+          {"exercise_type":"multiple_choice","prompt":"Complete: Nous ___ français. (parler)","instructions":"Select one answer.","explanation":"The nous form of regular parler is parlons.","options":["parlons","parlez","parle"],"correct_option":0},
+          {"exercise_type":"multiple_choice","prompt":"Which verb means “to go”?","instructions":"Select one answer.","explanation":"Aller means to go.","options":["aimer","faire","aller"],"correct_option":2},
+          {"exercise_type":"multiple_choice","prompt":"Which statement about regular -er verb endings is accurate?","instructions":"Select one answer.","explanation":"Several written endings are silent in speech, especially -e, -es, and -ent.","options":["Every ending is pronounced as a separate syllable.","Some written endings are silent.","All -er verbs are irregular."],"correct_option":1},
+          {"exercise_type":"multiple_choice","prompt":"What does aujourd'hui mean?","instructions":"Select one answer.","explanation":"Aujourd'hui means today.","options":["morning","tomorrow","today"],"correct_option":2}
+        ],
+        "recap":"You can describe a simple activity or place using common verbs. Regular -er verbs share a pattern, while frequent verbs such as aller and faire are irregular."
+      },
+      {
+        "slug":"a1-010","title":"Shopping, Ordering and Everyday Conversations",
+        "introduction":"Bring greetings, polite requests, numbers, and familiar objects together in a short shop or café exchange. A simple request with je voudrais is polite and useful.",
+        "estimated_minutes":20,
+        "objectives":[{"code":"a1-shopping-speaking","title":"Make a simple polite request","description":"Order or ask for a familiar item using je voudrais and s'il vous plaît.","skill_category":"speaking"},{"code":"a1-shopping-listening","title":"Follow a short service exchange","description":"Recognize a greeting, item, price question, and thank-you in a basic interaction.","skill_category":"listening"}],
+        "vocabulary":[
+          {"lemma":"je voudrais","part_of_speech":"phrase","translation":"I would like","definition_french":"Formule polie pour exprimer un souhait."},
+          {"lemma":"combien","part_of_speech":"adverb","translation":"how much; how many","definition_french":"Adverbe interrogatif sur la quantité ou le prix."},
+          {"lemma":"le prix","part_of_speech":"noun","grammatical_gender":"masculine","translation":"price","definition_french":"Valeur monétaire d'un bien ou d'un service."},
+          {"lemma":"l'eau","part_of_speech":"noun","grammatical_gender":"feminine","translation":"water","definition_french":"Liquide transparent nécessaire à la vie."},
+          {"lemma":"un croissant","part_of_speech":"noun","grammatical_gender":"masculine","translation":"a croissant","definition_french":"Viennoiserie faite d'une pâte levée feuilletée, souvent en forme de croissant."},
+          {"lemma":"la carte","part_of_speech":"noun","grammatical_gender":"feminine","translation":"menu","definition_french":"Liste des plats et boissons proposés dans un restaurant."},
+          {"lemma":"payer","part_of_speech":"verb","translation":"to pay","definition_french":"Donner de l'argent en échange d'un bien ou service."},
+          {"lemma":"l'addition","part_of_speech":"noun","grammatical_gender":"feminine","translation":"the bill","definition_french":"Somme à payer dans un restaurant."}
+        ],
+        "examples":[{"french_text":"Je voudrais un croissant, s'il vous plaît.","english_translation":"I would like a croissant, please.","context":"bakery request"},{"french_text":"Combien coûte l'eau ?","english_translation":"How much does the water cost?","context":"asking a price"}],
+        "grammar":[{"slug":"polite-requests-voudrais","title":"Polite requests with je voudrais","summary":"Je voudrais + noun is a polite way to say “I would like ...”. Add s'il vous plaît to make a request courteous.","rule_code":"voudrais-request","explanation_english":"Je voudrais uses the conditional form of vouloir as a polite fixed expression. At this beginner level, learn it as a complete phrase rather than deriving the full conditional.","examples":[["Je voudrais un croissant, s'il vous plaît.","I would like a croissant, please."],["Combien coûte l'eau ?","How much does the water cost?"]]}],
+        "pronunciation":"In voudrais, pronounce the oi spelling like /wa/. In l'eau and l'addition, the apostrophe shows that le or la is shortened before a vowel sound.",
+        "dialogue":{"slug":"a1-010-at-the-bakery","title":"At the bakery","context":"A customer orders a pastry and asks the price.","english_context":"They greet one another, make a polite request, and close the exchange.","turns":[{"speaker_label":"Client","french_text":"Bonjour. Je voudrais un croissant, s'il vous plaît.","english_translation":"Hello. I would like a croissant, please."},{"speaker_label":"Vendeur","french_text":"Bien sûr. Autre chose ?","english_translation":"Of course. Anything else?"},{"speaker_label":"Client","french_text":"Non, merci. Combien coûte le croissant ?","english_translation":"No, thank you. How much does the croissant cost?"},{"speaker_label":"Vendeur","french_text":"Deux euros.","english_translation":"Two euros."},{"speaker_label":"Client","french_text":"Merci, au revoir !","english_translation":"Thank you, goodbye!"}]},
+        "exercises":[
+          {"exercise_type":"multiple_choice","prompt":"Choose the polite way to say “I would like a croissant.”","instructions":"Select one answer.","explanation":"Je voudrais is a polite fixed expression meaning “I would like.”","options":["Je suis un croissant.","Je voudrais un croissant.","Je vais un croissant."],"correct_option":1},
+          {"exercise_type":"multiple_choice","prompt":"What does combien mean in a price question?","instructions":"Select one answer.","explanation":"Combien asks how much or how many.","options":["where","when","how much; how many"],"correct_option":2},
+          {"exercise_type":"multiple_choice","prompt":"What does l'addition mean in a restaurant?","instructions":"Select one answer.","explanation":"L'addition is the bill.","options":["the menu","the bill","the water"],"correct_option":1},
+          {"exercise_type":"multiple_choice","prompt":"Which expression means “please” politely?","instructions":"Select one answer.","explanation":"S'il vous plaît is the polite request expression.","options":["s'il vous plaît","au revoir","ça va"],"correct_option":0},
+          {"exercise_type":"multiple_choice","prompt":"What does un croissant mean?","instructions":"Select one answer.","explanation":"Un croissant is a croissant.","options":["a price","a card","a croissant"],"correct_option":2}
+        ],
+        "recap":"You can greet a service worker, make a polite request, ask a price, thank someone, and say goodbye. Keep je voudrais as a complete useful expression."
+      }
+    ]
+  },
+  "planned_courses": [
+    {"level":"A2","slug":"a2-everyday-independence","title":"Everyday Independence","description":"Planned outline: broaden everyday interactions, describe past events, and handle familiar travel and social situations. No lessons are published.","unit_titles":["Daily life and plans","Past experiences","Travel and services"]},
+    {"level":"B1","slug":"b1-independent-communication","title":"Independent Communication","description":"Planned outline: narrate experiences, explain opinions, and manage common situations with increasing independence. No lessons are published.","unit_titles":["Narrating experience","Opinions and reasons","Practical problem solving"]},
+    {"level":"B2","slug":"b2-confident-french","title":"Confident French","description":"Planned outline: develop fluent discussion, nuanced argument, and comprehension of varied authentic registers. No lessons are published.","unit_titles":["Discussion and debate","Register and nuance","Long-form communication"]},
+    {"level":"C1","slug":"c1-advanced-expression","title":"Advanced Expression","description":"Planned outline: use French flexibly for complex topics, precise argument, and professional or academic contexts. No lessons are published.","unit_titles":["Complex argument","Professional communication","Style and synthesis"]},
+    {"level":"C2","slug":"c2-precise-and-nuanced-french","title":"Precise and Nuanced French","description":"Planned outline: refine precise, idiomatic, and context-sensitive expression across demanding contexts. No lessons are published.","unit_titles":["Precision and idiom","Specialized discourse","Context-sensitive expression"]}
+  ]
+}
