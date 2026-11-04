@@ -366,7 +366,7 @@ def test_preview_revocation_and_source_revalidation(tutor, monkeypatch):
     client, sessions, email, fake = tutor
     _import_content(sessions)
     _set_role(sessions, "ai@example.com", "admin")
-    settings = Settings(ENABLE_DRAFT_LEARNING_PREVIEW=True)
+    settings = Settings(APP_ENV="development", ENABLE_DRAFT_LEARNING_PREVIEW=True)
     monkeypatch.setattr("app.services.draft_preview.get_settings", lambda: settings)
     c = create(client)
     assert send(client, c["id"], "Explain bonjour").status_code == 200
