@@ -26,7 +26,7 @@ def recommendations(db, user):
             reason=f"{state['due_count']} vocabulary cards due." if state['due_count'] else 'Learn up to three words from permitted vocabulary.',
             evidence_attempt_ids=[], draft_preview=any(preview for _,preview in permitted.values())))
     active = db.scalars(select(LearningSession).where(LearningSession.user_id==user.id,
-        LearningSession.cefr_level==level, LearningSession.status=='in_progress').order_by(LearningSession.last_activity_at.desc(),LearningSession.id)).all()
+        LearningSession.cefr_level==level, LearningSession.status=='in_progress',LearningSession.activity_key=='lesson').order_by(LearningSession.last_activity_at.desc(),LearningSession.id)).all()
     for session in active:
         if session.lesson_id in permitted:
             lesson, preview = permitted[session.lesson_id]
@@ -55,6 +55,26 @@ def recommendations(db, user):
             by_lesson.setdefault(lesson_id,[]).append(attempt.id)
     for lesson_id, evidence in sorted(by_lesson.items(), key=lambda pair:(-len(pair[1]),str(pair[0]))):
         lesson, preview = permitted[lesson_id]
+        # New formats have explicit stable objective links. Historical unmapped
+        # answers retain lesson-level recommendations without guessed weaknesses.
+        from app.services.interactive_learning import candidates
+        from app.curriculum_models import LearningObjective,LessonObjective
+        mapped={}
+        for exercise in candidates(db,user,level,'mistakes',lesson_id=lesson_id):
+            objective=exercise.learning_objective_id
+            if objective and db.scalar(select(LessonObjective).where(LessonObjective.lesson_id==lesson_id,LessonObjective.objective_id==objective)):
+                mapped.setdefault(objective,[]).append(exercise.id)
+        for objective,exercise_ids in mapped.items():
+            linked=db.get(LearningObjective,objective)
+            objective_evidence=[aid for aid,saved in db.execute(select(ExerciseAttempt.id,LearningSessionExercise.exercise_snapshot).join(LearningSessionExercise,
+                ExerciseAttempt.session_exercise_id==LearningSessionExercise.id).where(ExerciseAttempt.id.in_(evidence),
+                LearningSessionExercise.source_exercise_id.in_(exercise_ids))).all()
+                if saved.get('learning_objective_id')==str(objective)]
+            if objective_evidence:
+                result.append(dict(activity_type='lesson_review',title=f'Practice: {linked.title}',priority=85,
+                    reason=f'{len(objective_evidence)} recorded errors linked to this learning objective remain unresolved.',
+                    lesson_id=lesson_id,learning_objective_id=objective,practice_category='mistakes',
+                    evidence_attempt_ids=objective_evidence,draft_preview=preview))
         result.append(dict(activity_type='lesson_review', title=f'Revisit {lesson.title}', priority=80,
             reason=f'{len(evidence)} recorded incorrect answers remain unresolved in the latest 200 attempts; revisit this lesson’s examples and explanations.',
             lesson_id=lesson_id, evidence_attempt_ids=evidence, draft_preview=preview))
@@ -133,7 +153,9 @@ def generate(db,user,payload):
     for order,(candidate,minutes) in enumerate(chosen,1):
         db.add(DailyActivity(user_id=user.id,plan_id=plan.id,generation=plan.generation,
             activity_type=candidate['activity_type'],title=candidate['title'],reason=candidate['reason'],
-            evidence={'attempt_ids':[str(a) for a in candidate['evidence_attempt_ids']]},
+            evidence={'attempt_ids':[str(a) for a in candidate['evidence_attempt_ids']],
+                'learning_objective_id':str(candidate['learning_objective_id']) if candidate.get('learning_objective_id') else None,
+                'practice_category':candidate.get('practice_category')},
             linked_lesson_id=candidate.get('lesson_id'),linked_learning_session_id=candidate.get('learning_session_id'),
             estimated_minutes=minutes,sequence_order=order))
     db.commit()
@@ -151,6 +173,9 @@ def permitted_activity(db,user,plan,activity):
         session=db.get(LearningSession,activity.linked_learning_session_id)
         if not session or session.user_id!=user.id or session.lesson_id!=activity.linked_lesson_id:
             return None
+        from app.services.learning_service import _session_exercise_access
+        try:_session_exercise_access(db,session,user)
+        except HTTPException:return None
     if activity.linked_review_session_id:
         session=db.get(ReviewSession,activity.linked_review_session_id)
         if not session or session.user_id!=user.id or session.cefr_level!=plan.cefr_level:
@@ -257,7 +282,16 @@ def start_activity(db,user,aid):
         activity.linked_review_session_id=started['id']
     elif activity.linked_lesson_id:
         from app.services.learning_service import start_session
-        started,_=start_session(db,user=user,lesson_id=activity.linked_lesson_id,commit=False)
+        objective=activity.evidence.get('learning_objective_id')
+        if objective and activity.evidence.get('practice_category')=='mistakes':
+            from app.services.interactive_learning import candidates
+            from uuid import UUID
+            rows=candidates(db,user,plan.cefr_level,'mistakes',lesson_id=activity.linked_lesson_id,objective_id=UUID(objective))
+            if not rows:raise HTTPException(409,'These mistakes have been resolved. Create a new plan when available.')
+            started,_=start_session(db,user=user,lesson_id=activity.linked_lesson_id,commit=False,
+                activity_key=f'practice:mistakes:all:{objective}',exercise_ids=[e.id for e in rows][:12])
+        else:
+            started,_=start_session(db,user=user,lesson_id=activity.linked_lesson_id,commit=False)
         activity.linked_learning_session_id=started.id
     else:
         settings=get_settings()

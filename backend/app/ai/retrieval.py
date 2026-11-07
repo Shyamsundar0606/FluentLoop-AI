@@ -112,6 +112,7 @@ def retrieve(db, user, level, question, linked_lesson_id=None):
                         GrammarTopic, GrammarTopic.id == LessonGrammar.grammar_topic_id
                     )
                     .where(match(GrammarTopic.title) | match(GrammarTopic.summary))
+                    .where(GrammarTopic.publication_status.in_(['inherited','published','draft','review'] if can_preview_drafts(user) else ['inherited','published']))
                 ),
                 Lesson.id.in_(
                     select(LessonDialogue.lesson_id)
@@ -225,7 +226,8 @@ def retrieve(db, user, level, question, linked_lesson_id=None):
         topics = db.scalars(
             select(GrammarTopic)
             .join(LessonGrammar, LessonGrammar.grammar_topic_id == GrammarTopic.id)
-            .where(LessonGrammar.lesson_id == lesson.id)
+            .where(LessonGrammar.lesson_id == lesson.id,
+                GrammarTopic.publication_status.in_(('inherited','published','draft','review') if can_preview_drafts(user) else ('inherited','published')))
             .order_by(GrammarTopic.slug)
             .limit(4)
         ).all()

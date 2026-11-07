@@ -1,3 +1,4 @@
+import { enterExercises } from './learning-navigation';
 import {expect,test} from '@playwright/test';
 import {readFileSync,mkdirSync} from 'node:fs';
 
@@ -69,6 +70,7 @@ test('live PostgreSQL daily plan, three reviews, lesson completion, persistence 
   expect((await saved.json()).id).toBe(identity);
   await plan.getByRole('button',{name:'Start next activity',exact:true}).click();
   await expect(page).toHaveURL(/\/learning\/sessions\/[0-9a-f-]+$/);
+  await enterExercises(page);
   for(let i=0;i<5;i++){
     await page.locator(`input[value="${fixture.options[i]}"]`).check();
     await page.getByRole('button',{name:'Submit answer',exact:true}).click();

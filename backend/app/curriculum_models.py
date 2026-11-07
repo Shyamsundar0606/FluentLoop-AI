@@ -17,6 +17,7 @@ from sqlalchemy import (
     Text,
     UniqueConstraint,
     Uuid,
+    text,
 )
 from sqlalchemy.orm import Mapped, mapped_column
 from sqlalchemy.dialects.postgresql import JSONB
@@ -318,6 +319,7 @@ class GrammarTopic(Base):
         UniqueConstraint("slug", name="uq_grammar_topics_slug"),
         CheckConstraint("cefr_level IN ('A1', 'A2', 'B1', 'B2', 'C1', 'C2')", name="ck_grammar_topics_level"),
         Index("ix_grammar_topics_level", "cefr_level"),
+        CheckConstraint("publication_status IN ('inherited','draft','review','published','retired')", name="ck_grammar_topic_publication"),
     )
 
     id: Mapped[uuid.UUID] = mapped_column(Uuid(as_uuid=True), primary_key=True, default=_uuid)
@@ -325,6 +327,8 @@ class GrammarTopic(Base):
     title: Mapped[str] = mapped_column(String(200), nullable=False)
     cefr_level: Mapped[str] = mapped_column(String(2), nullable=False)
     summary: Mapped[str] = mapped_column(Text, nullable=False)
+    publication_status: Mapped[str] = mapped_column(String(24), nullable=False, default="inherited", server_default="inherited")
+    teaching_metadata: Mapped[dict] = mapped_column(STRUCTURED_JSON, nullable=False, default=dict, server_default=text("'{}'"))
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=_now, nullable=False)
 
 
@@ -440,7 +444,7 @@ class LessonDialogue(Base):
 class Exercise(Base):
     __tablename__ = "exercises"
     __table_args__ = (
-        CheckConstraint("exercise_type IN ('multiple_choice', 'translation', 'fill_blank', 'matching', 'sentence_order', 'short_answer')", name="ck_exercises_type"),
+        CheckConstraint("exercise_type IN ('multiple_choice', 'translation', 'fill_blank', 'matching', 'sentence_order', 'short_answer', 'listening')", name="ck_exercises_type"),
         CheckConstraint("level IN ('A1', 'A2', 'B1', 'B2', 'C1', 'C2')", name="ck_exercises_level"),
         UniqueConstraint("lesson_id", "sequence_order", name="uq_exercises_lesson_order"),
     )
@@ -453,6 +457,9 @@ class Exercise(Base):
     explanation: Mapped[str] = mapped_column(Text, nullable=False)
     level: Mapped[str] = mapped_column(String(2), nullable=False)
     sequence_order: Mapped[int] = mapped_column(Integer, nullable=False)
+    exercise_data: Mapped[dict] = mapped_column(STRUCTURED_JSON, nullable=False, default=dict, server_default=text("'{}'"))
+    learning_objective_id: Mapped[Optional[uuid.UUID]] = mapped_column(Uuid(as_uuid=True), ForeignKey("learning_objectives.id", ondelete="RESTRICT"))
+    grammar_topic_id: Mapped[Optional[uuid.UUID]] = mapped_column(Uuid(as_uuid=True), ForeignKey("grammar_topics.id", ondelete="RESTRICT"))
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=_now, nullable=False)
 
 

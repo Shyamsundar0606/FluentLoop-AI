@@ -1,0 +1,1178 @@
+{
+  "version": "0.1.0",
+  "level": "A1",
+  "status": "draft",
+  "source_license": "Project-authored draft. Distribution terms pending rights review.",
+  "attribution": "Original AI-assisted FluentLoop AI examples and exercises. Existing FluentLoop vocabulary reused by reference.",
+  "topics": [
+    {
+      "slug": "french-sound-spelling",
+      "source_lesson": "a1-001",
+      "objective": "a1-sounds-listening",
+      "situation": "Sounds and first words",
+      "title": "Hear and read familiar greetings",
+      "explanation": "Learn bonjour and salut as whole words. In salut, the last t is silent. The written u in salut represents a different vowel from the ou in bonjour.",
+      "when_to_use": "Listen for the difference between u and ou in familiar words. Use the examples as models for these words.",
+      "recap": "Remember the whole sound of each word. A final letter can be silent in one word and audible in another.",
+      "vocabulary": [
+        "salut",
+        "bonjour",
+        "merci"
+      ],
+      "examples": [
+        [
+          "Bonjour !",
+          "Hello!"
+        ],
+        [
+          "Salut !",
+          "Hi!"
+        ],
+        [
+          "Merci !",
+          "Thank you!"
+        ]
+      ],
+      "common_mistakes": [
+        {
+          "incorrect": "salut (with a spoken final t)",
+          "correct": "salut (silent final t)",
+          "explanation": "The final t of salut is silent in isolation."
+        }
+      ],
+      "exercises": [
+        {
+          "key": "choose",
+          "type": "multiple_choice",
+          "prompt": "Which letter is silent at the end of salut?",
+          "instructions": "Choose one answer.",
+          "explanation": "Remember the whole sound of each word. A final letter can be silent in one word and audible in another.",
+          "options": [
+            "t",
+            "u",
+            "l"
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "listening",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Load and play the French audio before answering.",
+          "explanation": "Salut ! means “Hi!”",
+          "data": {
+            "text_fr": "Salut !"
+          },
+          "options": [
+            "Thank you!",
+            "Hi!",
+            "Good evening!"
+          ],
+          "correct_option": 1
+        }
+      ],
+      "vocabulary_examples": {
+        "salut": 2,
+        "bonjour": 1,
+        "merci": 3
+      }
+    },
+    {
+      "slug": "polite-register",
+      "source_lesson": "a1-002",
+      "objective": "a1-greetings-vocabulary",
+      "situation": "Greetings",
+      "title": "Greetings and polite requests",
+      "explanation": "Use vous with a person you address formally or with several people. Use tu with one person in a familiar setting. The corresponding request phrases are s’il vous plaît and s’il te plaît.",
+      "when_to_use": "Start with bonjour in a daytime service interaction. Choose s’il vous plaît when addressing someone politely.",
+      "recap": "Match the request phrase to the person you address.",
+      "vocabulary": [
+        "bonjour",
+        "s'il vous plaît",
+        "s'il te plaît"
+      ],
+      "examples": [
+        [
+          "Bonjour, comment allez-vous ?",
+          "Hello, how are you?"
+        ],
+        [
+          "Un café, s’il vous plaît.",
+          "A coffee, please."
+        ],
+        [
+          "Une clé, s’il te plaît.",
+          "A key, please."
+        ]
+      ],
+      "common_mistakes": [
+        {
+          "incorrect": "S’il te plaît, madame.",
+          "correct": "S’il vous plaît, madame.",
+          "explanation": "Use vous when addressing madame politely in this service context."
+        }
+      ],
+      "exercises": [
+        {
+          "key": "choose",
+          "type": "multiple_choice",
+          "prompt": "In a polite request to a shop assistant, which phrase fits?",
+          "instructions": "Choose one answer.",
+          "explanation": "Match the request phrase to the person you address.",
+          "options": [
+            "S’il te plaît.",
+            "S’il vous plaît.",
+            "Au revoir."
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "listening",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Load and play the French audio before answering.",
+          "explanation": "Bonjour, comment allez-vous ? means “Hello, how are you?”",
+          "data": {
+            "text_fr": "Bonjour, comment allez-vous ?"
+          },
+          "options": [
+            "Good evening, how are you?",
+            "Hello, what is your name?",
+            "Hello, how are you?"
+          ],
+          "correct_option": 2
+        }
+      ],
+      "vocabulary_examples": {
+        "bonjour": 1,
+        "s'il vous plaît": 2,
+        "s'il te plaît": 3
+      }
+    },
+    {
+      "slug": "introducing-yourself",
+      "source_lesson": "a1-003",
+      "objective": "a1-introductions-speaking",
+      "situation": "Introductions",
+      "title": "Give and ask for a name",
+      "explanation": "Use je m’appelle before your first name. Learn Comment vous appelez-vous ? as a complete polite question. In the first expression, me shortens to m’ before appelle.",
+      "when_to_use": "Introduce yourself when you meet someone. Recognize the full polite question before trying to build new questions.",
+      "recap": "Use je m’appelle + name. Keep m’ attached to appelle.",
+      "vocabulary": [
+        "je",
+        "vous",
+        "s'appeler"
+      ],
+      "examples": [
+        [
+          "Je m’appelle Marie.",
+          "My name is Marie."
+        ],
+        [
+          "Je m’appelle Paul.",
+          "My name is Paul."
+        ],
+        [
+          "Comment vous appelez-vous ?",
+          "What is your name?"
+        ]
+      ],
+      "common_mistakes": [
+        {
+          "incorrect": "Je appelle Marie.",
+          "correct": "Je m’appelle Marie.",
+          "explanation": "The fixed expression includes the reflexive pronoun m’."
+        }
+      ],
+      "exercises": [
+        {
+          "key": "choose",
+          "type": "multiple_choice",
+          "prompt": "Which sentence introduces someone named Marie?",
+          "instructions": "Choose one answer.",
+          "explanation": "Use je m’appelle + name. Keep m’ attached to appelle.",
+          "options": [
+            "Comment vous appelez-vous ?",
+            "Je suis ici.",
+            "Je m’appelle Marie."
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "listening",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Load and play the French audio before answering.",
+          "explanation": "Je m’appelle Marie. means “My name is Marie.”",
+          "data": {
+            "text_fr": "Je m’appelle Marie."
+          },
+          "options": [
+            "My name is Marie.",
+            "My name is Paul.",
+            "What is your name?"
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "write-name",
+          "type": "short_answer",
+          "prompt": "Introduce yourself as Marie using s’appeler.",
+          "instructions": "Write one complete French sentence.",
+          "explanation": "Je m’appelle Marie. Use m’ before appelle.",
+          "data": {
+            "accepted_answers": [
+              "Je m’appelle Marie."
+            ]
+          }
+        }
+      ],
+      "vocabulary_examples": {
+        "je": 1,
+        "vous": 3,
+        "s'appeler": 1
+      }
+    },
+    {
+      "slug": "numbers-zero-to-ten",
+      "source_lesson": "a1-004",
+      "objective": "a1-numbers-listening",
+      "situation": "Numbers and age",
+      "title": "Recognize numbers zero to ten",
+      "explanation": "Learn the written number words in small groups. Start with zéro, un, deux and trois, then add quatre, cinq, six, sept, huit, neuf and dix.",
+      "when_to_use": "Use the number words for simple counts. Practice number spelling first, then listen for the number in a short phrase.",
+      "recap": "Remember deux for 2, trois for 3 and dix for 10.",
+      "vocabulary": [
+        "zéro",
+        "deux",
+        "dix"
+      ],
+      "examples": [
+        [
+          "J’ai deux livres.",
+          "I have two books."
+        ],
+        [
+          "Trois cafés, s’il vous plaît.",
+          "Three coffees, please."
+        ],
+        [
+          "Dix euros.",
+          "Ten euros."
+        ],
+        [
+          "Zéro euro.",
+          "Zero euros."
+        ]
+      ],
+      "common_mistakes": [
+        {
+          "incorrect": "deu",
+          "correct": "deux",
+          "explanation": "The written form of 2 ends in x."
+        }
+      ],
+      "exercises": [
+        {
+          "key": "choose",
+          "type": "multiple_choice",
+          "prompt": "Which word is the French spelling of 3?",
+          "instructions": "Choose one answer.",
+          "explanation": "Remember deux for 2, trois for 3 and dix for 10.",
+          "options": [
+            "trois",
+            "deux",
+            "dix"
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "matching",
+          "type": "matching",
+          "prompt": "Match each French item with its meaning.",
+          "instructions": "Use each meaning once.",
+          "explanation": "Compare each pair with the examples in the lesson.",
+          "data": {
+            "left_items": [
+              {
+                "id": "83000000-0000-4000-8000-000000004010",
+                "text": "zéro"
+              },
+              {
+                "id": "83000000-0000-4000-8000-000000004011",
+                "text": "deux"
+              },
+              {
+                "id": "83000000-0000-4000-8000-000000004012",
+                "text": "dix"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "83000000-0000-4000-8000-000000004020",
+                "text": "0"
+              },
+              {
+                "id": "83000000-0000-4000-8000-000000004021",
+                "text": "2"
+              },
+              {
+                "id": "83000000-0000-4000-8000-000000004022",
+                "text": "10"
+              }
+            ],
+            "answer_pairs": {
+              "83000000-0000-4000-8000-000000004010": "83000000-0000-4000-8000-000000004020",
+              "83000000-0000-4000-8000-000000004011": "83000000-0000-4000-8000-000000004021",
+              "83000000-0000-4000-8000-000000004012": "83000000-0000-4000-8000-000000004022"
+            }
+          }
+        }
+      ],
+      "vocabulary_examples": {
+        "zéro": 4,
+        "deux": 1,
+        "dix": 3
+      }
+    },
+    {
+      "slug": "age-with-avoir",
+      "source_lesson": "a1-004",
+      "objective": "a1-age-speaking",
+      "situation": "Numbers and age",
+      "title": "Say how old you are",
+      "explanation": "French expresses age with avoir + a number + ans. Learn j’ai for your own age and vous avez for someone you address politely.",
+      "when_to_use": "Use the complete pattern in an introduction. Practice familiar numbers such as dix (ten) and vingt (twenty).",
+      "recap": "Say j’ai + number + ans. Keep ans even though English uses ‘I am’.",
+      "vocabulary": [
+        "avoir",
+        "dix",
+        "quel âge"
+      ],
+      "examples": [
+        [
+          "J’ai vingt ans.",
+          "I am twenty years old."
+        ],
+        [
+          "Tu as dix ans.",
+          "You are ten years old."
+        ],
+        [
+          "Vous avez vingt ans.",
+          "You are twenty years old."
+        ],
+        [
+          "Quel âge avez-vous ?",
+          "How old are you?"
+        ]
+      ],
+      "common_mistakes": [
+        {
+          "incorrect": "Je suis vingt ans.",
+          "correct": "J’ai vingt ans.",
+          "explanation": "French uses avoir to give an age."
+        }
+      ],
+      "exercises": [
+        {
+          "key": "choose",
+          "type": "multiple_choice",
+          "prompt": "Which sentence says ‘I am twenty years old’?",
+          "instructions": "Choose one answer.",
+          "explanation": "Say j’ai + number + ans. Keep ans even though English uses ‘I am’.",
+          "options": [
+            "Je suis vingt ans.",
+            "J’ai vingt ans.",
+            "J’ai dix ans."
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "fill-blank",
+          "type": "fill_blank",
+          "prompt": "J’___ vingt ans.",
+          "instructions": "Type only the missing word.",
+          "explanation": "Use ai with j’ in the expression for your age.",
+          "data": {
+            "accepted_answers": [
+              "ai"
+            ]
+          }
+        }
+      ],
+      "vocabulary_examples": {
+        "avoir": 1,
+        "dix": 2,
+        "quel âge": 4
+      }
+    },
+    {
+      "slug": "simple-questions",
+      "source_lesson": "a1-004",
+      "objective": "a1-age-speaking",
+      "situation": "Numbers and age",
+      "title": "Ask a simple question",
+      "explanation": "For a beginner yes-or-no question, keep statement word order and use question intonation in speech. In writing, add a question mark. Learn Quel âge avez-vous ? as a complete polite age question.",
+      "when_to_use": "Use intonation for short yes-or-no questions. Use quel âge when you need the age itself.",
+      "recap": "Tu as … ? asks for confirmation. Quel âge avez-vous ? asks for a number.",
+      "vocabulary": [
+        "quel âge",
+        "avoir",
+        "dix"
+      ],
+      "examples": [
+        [
+          "Tu as dix ans ?",
+          "Are you ten years old?"
+        ],
+        [
+          "Vous avez vingt ans ?",
+          "Are you twenty years old?"
+        ],
+        [
+          "Quel âge avez-vous ?",
+          "How old are you?"
+        ]
+      ],
+      "common_mistakes": [
+        {
+          "incorrect": "Quel ans avez-vous ?",
+          "correct": "Quel âge avez-vous ?",
+          "explanation": "Use quel âge to ask how old someone is."
+        }
+      ],
+      "exercises": [
+        {
+          "key": "choose",
+          "type": "multiple_choice",
+          "prompt": "Which polite question asks someone’s age?",
+          "instructions": "Choose one answer.",
+          "explanation": "Tu as … ? asks for confirmation. Quel âge avez-vous ? asks for a number.",
+          "options": [
+            "Vous êtes ici ?",
+            "Comment vous appelez-vous ?",
+            "Quel âge avez-vous ?"
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "sentence-order",
+          "type": "sentence_order",
+          "prompt": "Build the polite question ‘How old are you?’",
+          "instructions": "Use each tile once.",
+          "explanation": "The correct order is Quel âge avez-vous ?",
+          "data": {
+            "tiles": [
+              {
+                "id": "83000000-0000-4000-8000-000000006030",
+                "text": "Quel"
+              },
+              {
+                "id": "83000000-0000-4000-8000-000000006031",
+                "text": "âge"
+              },
+              {
+                "id": "83000000-0000-4000-8000-000000006032",
+                "text": "avez-vous"
+              },
+              {
+                "id": "83000000-0000-4000-8000-000000006033",
+                "text": "?"
+              }
+            ],
+            "accepted_orders": [
+              [
+                "83000000-0000-4000-8000-000000006030",
+                "83000000-0000-4000-8000-000000006031",
+                "83000000-0000-4000-8000-000000006032",
+                "83000000-0000-4000-8000-000000006033"
+              ]
+            ],
+            "correct_sentence": "Quel âge avez-vous ?"
+          }
+        }
+      ],
+      "vocabulary_examples": {
+        "quel âge": 3,
+        "avoir": 1,
+        "dix": 1
+      }
+    },
+    {
+      "slug": "french-articles-gender",
+      "source_lesson": "a1-005",
+      "objective": "a1-articles-reading",
+      "situation": "Everyday objects",
+      "title": "Choose articles with nouns",
+      "explanation": "Learn each noun with an article. Use un or une for ‘a’ and le or la for ‘the’. Le and la become l’ before a vowel or mute h. The article l’ leaves the noun’s gender implicit.",
+      "when_to_use": "Use un livre or une table to introduce an object. Use the definite article for an identifiable object.",
+      "recap": "Learn un livre and une table as pairs. Use l’ami or l’amie before a vowel.",
+      "vocabulary": [
+        "livre",
+        "table",
+        "amie"
+      ],
+      "examples": [
+        [
+          "C’est un livre.",
+          "It is a book."
+        ],
+        [
+          "C’est une table.",
+          "It is a table."
+        ],
+        [
+          "L’amie de Marie est ici.",
+          "Marie’s friend is here."
+        ]
+      ],
+      "common_mistakes": [
+        {
+          "incorrect": "un table",
+          "correct": "une table",
+          "explanation": "Table is feminine, so its indefinite article is une."
+        }
+      ],
+      "exercises": [
+        {
+          "key": "choose",
+          "type": "multiple_choice",
+          "prompt": "Which phrase means ‘a table’?",
+          "instructions": "Choose one answer.",
+          "explanation": "Learn un livre and une table as pairs. Use l’ami or l’amie before a vowel.",
+          "options": [
+            "une table",
+            "un table",
+            "la table"
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "matching",
+          "type": "matching",
+          "prompt": "Match each French item with its meaning.",
+          "instructions": "Use each meaning once.",
+          "explanation": "Compare each pair with the examples in the lesson.",
+          "data": {
+            "left_items": [
+              {
+                "id": "83000000-0000-4000-8000-000000007010",
+                "text": "un livre"
+              },
+              {
+                "id": "83000000-0000-4000-8000-000000007011",
+                "text": "une table"
+              },
+              {
+                "id": "83000000-0000-4000-8000-000000007012",
+                "text": "l’amie"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "83000000-0000-4000-8000-000000007020",
+                "text": "a book"
+              },
+              {
+                "id": "83000000-0000-4000-8000-000000007021",
+                "text": "a table"
+              },
+              {
+                "id": "83000000-0000-4000-8000-000000007022",
+                "text": "the friend (female)"
+              }
+            ],
+            "answer_pairs": {
+              "83000000-0000-4000-8000-000000007010": "83000000-0000-4000-8000-000000007020",
+              "83000000-0000-4000-8000-000000007011": "83000000-0000-4000-8000-000000007021",
+              "83000000-0000-4000-8000-000000007012": "83000000-0000-4000-8000-000000007022"
+            }
+          }
+        }
+      ],
+      "vocabulary_examples": {
+        "livre": 1,
+        "table": 2,
+        "amie": 3
+      },
+      "noun_forms": {
+        "livre": [
+          "un livre",
+          "des livres"
+        ],
+        "table": [
+          "une table",
+          "des tables"
+        ],
+        "amie": [
+          "une amie",
+          "des amies"
+        ]
+      }
+    },
+    {
+      "slug": "subject-pronouns-etre",
+      "source_lesson": "a1-006",
+      "objective": "a1-etre-speaking",
+      "situation": "Work and studies",
+      "title": "Choose the present form of être",
+      "explanation": "Être means ‘to be’. Use the subject to choose the present form. Begin with je suis, tu es and il/elle est, then expand to the plural forms and formal vous êtes.",
+      "when_to_use": "Use être to give an identity, say where someone is, or describe how someone is.",
+      "recap": "Remember je suis, tu es, il/elle est. Write êtes with its circumflex.",
+      "vocabulary": [
+        "être",
+        "étudiant",
+        "étudiante"
+      ],
+      "examples": [
+        [
+          "Je suis étudiant.",
+          "I am a student."
+        ],
+        [
+          "Tu es ici.",
+          "You are here."
+        ],
+        [
+          "Elle est ici.",
+          "She is here."
+        ],
+        [
+          "Vous êtes ici.",
+          "You are here."
+        ],
+        [
+          "Je suis étudiante.",
+          "I am a student."
+        ]
+      ],
+      "common_mistakes": [
+        {
+          "incorrect": "Je est étudiant.",
+          "correct": "Je suis étudiant.",
+          "explanation": "Use suis with je. In étudiant, write the initial é."
+        }
+      ],
+      "forms": [
+        [
+          "je",
+          "suis"
+        ],
+        [
+          "tu",
+          "es"
+        ],
+        [
+          "il / elle",
+          "est"
+        ],
+        [
+          "nous",
+          "sommes"
+        ],
+        [
+          "vous",
+          "êtes"
+        ],
+        [
+          "ils / elles",
+          "sont"
+        ]
+      ],
+      "exercises": [],
+      "vocabulary_examples": {
+        "être": 1,
+        "étudiant": 1,
+        "étudiante": 5
+      },
+      "noun_forms": {
+        "étudiant": [
+          "un étudiant",
+          "des étudiants"
+        ],
+        "étudiante": [
+          "une étudiante",
+          "des étudiantes"
+        ]
+      }
+    },
+    {
+      "slug": "avoir-present",
+      "source_lesson": "a1-007",
+      "objective": "a1-avoir-speaking",
+      "situation": "Personal belongings",
+      "title": "Use avoir for possessions",
+      "explanation": "Avoir means ‘to have’. Learn its present forms as pairs with the subject. Je becomes j’ before ai. After the verb, name the thing someone has.",
+      "when_to_use": "Use avoir to describe a possession or ask whether someone has something.",
+      "recap": "Remember j’ai, tu as and il/elle a. Write a without an accent when it is the verb.",
+      "vocabulary": [
+        "avoir",
+        "téléphone",
+        "clé"
+      ],
+      "examples": [
+        [
+          "J’ai un téléphone.",
+          "I have a phone."
+        ],
+        [
+          "Tu as une clé.",
+          "You have a key."
+        ],
+        [
+          "Elle a un sac.",
+          "She has a bag."
+        ]
+      ],
+      "common_mistakes": [
+        {
+          "incorrect": "Je ai une clé.",
+          "correct": "J’ai une clé.",
+          "explanation": "Je shortens to j’ before ai."
+        }
+      ],
+      "forms": [
+        [
+          "j’",
+          "ai"
+        ],
+        [
+          "tu",
+          "as"
+        ],
+        [
+          "il / elle",
+          "a"
+        ],
+        [
+          "nous",
+          "avons"
+        ],
+        [
+          "vous",
+          "avez"
+        ],
+        [
+          "ils / elles",
+          "ont"
+        ]
+      ],
+      "exercises": [
+        {
+          "key": "choose",
+          "type": "multiple_choice",
+          "prompt": "Which sentence means ‘She has a bag’?",
+          "instructions": "Choose one answer.",
+          "explanation": "Remember j’ai, tu as and il/elle a. Write a without an accent when it is the verb.",
+          "options": [
+            "Elle as un sac.",
+            "Elle est un sac.",
+            "Elle a un sac."
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "fill-blank",
+          "type": "fill_blank",
+          "prompt": "Tu ___ une clé.",
+          "instructions": "Type only the missing word.",
+          "explanation": "The present form of avoir with tu is as.",
+          "data": {
+            "accepted_answers": [
+              "as"
+            ]
+          }
+        }
+      ],
+      "vocabulary_examples": {
+        "avoir": 1,
+        "téléphone": 1,
+        "clé": 2
+      },
+      "noun_forms": {
+        "téléphone": [
+          "un téléphone",
+          "des téléphones"
+        ],
+        "clé": [
+          "une clé",
+          "des clés"
+        ]
+      }
+    },
+    {
+      "slug": "negation-ne-pas",
+      "source_lesson": "a1-007",
+      "objective": "a1-possessions-speaking",
+      "situation": "Personal belongings",
+      "title": "Make a simple negative sentence",
+      "explanation": "Place ne before the conjugated verb and pas after it. Before a vowel sound, write n’. With avoir and a negated indefinite object, use de or d’ in these beginner examples.",
+      "when_to_use": "Use the full ne … pas pattern in standard writing. Start with être, then try n’ai pas de with a possession.",
+      "recap": "Put ne or n’ before the verb and pas after it. Learn pas de clé as a complete pattern.",
+      "vocabulary": [
+        "avoir",
+        "clé",
+        "sac"
+      ],
+      "examples": [
+        [
+          "Je ne suis pas ici.",
+          "I am not here."
+        ],
+        [
+          "Je n’ai pas de clé.",
+          "I do not have a key."
+        ],
+        [
+          "Elle n’a pas de sac.",
+          "She does not have a bag."
+        ]
+      ],
+      "common_mistakes": [
+        {
+          "incorrect": "Je ne ai pas de clé.",
+          "correct": "Je n’ai pas de clé.",
+          "explanation": "Ne shortens to n’ before ai."
+        }
+      ],
+      "exercises": [
+        {
+          "key": "choose",
+          "type": "multiple_choice",
+          "prompt": "Which sentence means ‘I do not have a key’?",
+          "instructions": "Choose one answer.",
+          "explanation": "Put ne or n’ before the verb and pas after it. Learn pas de clé as a complete pattern.",
+          "options": [
+            "Je n’ai pas de clé.",
+            "Je n’ai une clé.",
+            "J’ai une clé."
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "sentence-order",
+          "type": "sentence_order",
+          "prompt": "Build ‘I do not have a key.’",
+          "instructions": "Use each tile once.",
+          "explanation": "The correct order is Je n’ai pas de clé.",
+          "data": {
+            "tiles": [
+              {
+                "id": "83000000-0000-4000-8000-000000010030",
+                "text": "Je"
+              },
+              {
+                "id": "83000000-0000-4000-8000-000000010031",
+                "text": "n’ai"
+              },
+              {
+                "id": "83000000-0000-4000-8000-000000010032",
+                "text": "pas"
+              },
+              {
+                "id": "83000000-0000-4000-8000-000000010033",
+                "text": "de"
+              },
+              {
+                "id": "83000000-0000-4000-8000-000000010034",
+                "text": "clé."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "83000000-0000-4000-8000-000000010030",
+                "83000000-0000-4000-8000-000000010031",
+                "83000000-0000-4000-8000-000000010032",
+                "83000000-0000-4000-8000-000000010033",
+                "83000000-0000-4000-8000-000000010034"
+              ]
+            ],
+            "correct_sentence": "Je n’ai pas de clé."
+          }
+        }
+      ],
+      "vocabulary_examples": {
+        "avoir": 2,
+        "clé": 2,
+        "sac": 3
+      },
+      "noun_forms": {
+        "clé": [
+          "une clé",
+          "des clés"
+        ],
+        "sac": [
+          "un sac",
+          "des sacs"
+        ]
+      }
+    },
+    {
+      "slug": "possessives-mon-ma-mes",
+      "source_lesson": "a1-008",
+      "objective": "a1-family-vocabulary",
+      "situation": "Family",
+      "title": "Talk about your family",
+      "explanation": "Use mon with a masculine singular noun, ma with a feminine singular noun and mes with a plural noun. Use mon before a feminine noun that begins with a vowel sound, as in mon amie.",
+      "when_to_use": "Use these forms to name people or things you associate with yourself.",
+      "recap": "Choose mon, ma or mes by looking at the noun that follows.",
+      "vocabulary": [
+        "mère",
+        "père",
+        "parents"
+      ],
+      "examples": [
+        [
+          "Voici mon père.",
+          "This is my father."
+        ],
+        [
+          "Voici ma mère.",
+          "This is my mother."
+        ],
+        [
+          "Voici mes parents.",
+          "These are my parents."
+        ],
+        [
+          "Voici mon amie.",
+          "This is my friend."
+        ]
+      ],
+      "common_mistakes": [
+        {
+          "incorrect": "ma parents",
+          "correct": "mes parents",
+          "explanation": "Parents is plural. Mes works for both genders in the plural."
+        }
+      ],
+      "exercises": [
+        {
+          "key": "choose",
+          "type": "multiple_choice",
+          "prompt": "Which phrase means ‘my parents’?",
+          "instructions": "Choose one answer.",
+          "explanation": "Choose mon, ma or mes by looking at the noun that follows.",
+          "options": [
+            "ma parents",
+            "mes parents",
+            "mon parents"
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "fill-blank",
+          "type": "fill_blank",
+          "prompt": "Voici ___ mère.",
+          "instructions": "Type only the missing word.",
+          "explanation": "Mère is feminine singular and starts with a consonant sound.",
+          "data": {
+            "accepted_answers": [
+              "ma"
+            ]
+          }
+        }
+      ],
+      "vocabulary_examples": {
+        "mère": 2,
+        "père": 1,
+        "parents": 3
+      },
+      "noun_forms": {
+        "mère": [
+          "une mère",
+          "des mères"
+        ],
+        "père": [
+          "un père",
+          "des pères"
+        ]
+      }
+    },
+    {
+      "slug": "common-present-verbs",
+      "source_lesson": "a1-009",
+      "objective": "a1-verbs-grammar",
+      "situation": "Daily activities",
+      "title": "Use regular present forms",
+      "explanation": "For a regular verb such as parler, remove -er and attach the ending for the subject. Learn irregular verbs such as aller and faire in separate groups.",
+      "when_to_use": "Use these forms to describe familiar actions and places. Start with parler and habiter.",
+      "recap": "Remember je parle, tu parles and nous parlons. Write j’habite before the mute h.",
+      "vocabulary": [
+        "parler",
+        "habiter",
+        "travailler"
+      ],
+      "examples": [
+        [
+          "Je parle français.",
+          "I speak French."
+        ],
+        [
+          "Nous parlons français.",
+          "We speak French."
+        ],
+        [
+          "J’habite à Paris.",
+          "I live in Paris."
+        ],
+        [
+          "Je travaille le matin.",
+          "I work in the morning."
+        ]
+      ],
+      "common_mistakes": [
+        {
+          "incorrect": "Nous parlez français.",
+          "correct": "Nous parlons français.",
+          "explanation": "The regular ending with nous is -ons."
+        }
+      ],
+      "forms": [
+        [
+          "je",
+          "parle"
+        ],
+        [
+          "tu",
+          "parles"
+        ],
+        [
+          "il / elle",
+          "parle"
+        ],
+        [
+          "nous",
+          "parlons"
+        ],
+        [
+          "vous",
+          "parlez"
+        ],
+        [
+          "ils / elles",
+          "parlent"
+        ]
+      ],
+      "exercises": [
+        {
+          "key": "choose",
+          "type": "multiple_choice",
+          "prompt": "Which form completes ‘Nous ___ français’?",
+          "instructions": "Choose one answer.",
+          "explanation": "Remember je parle, tu parles and nous parlons. Write j’habite before the mute h.",
+          "options": [
+            "parlez",
+            "parlent",
+            "parlons"
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "listening",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Load and play the French audio before answering.",
+          "explanation": "J’habite à Paris. means “I live in Paris.”",
+          "data": {
+            "text_fr": "J’habite à Paris."
+          },
+          "options": [
+            "I live in Paris.",
+            "I work in Paris.",
+            "I live in Lyon."
+          ],
+          "correct_option": 0
+        }
+      ],
+      "vocabulary_examples": {
+        "parler": 1,
+        "habiter": 3,
+        "travailler": 4
+      }
+    },
+    {
+      "slug": "polite-requests-voudrais",
+      "source_lesson": "a1-010",
+      "objective": "a1-shopping-speaking",
+      "situation": "Food and shopping",
+      "title": "Order something politely",
+      "explanation": "Learn je voudrais as a complete phrase meaning ‘I would like’. Put the item after it. Add s’il vous plaît in a service interaction.",
+      "when_to_use": "Use the phrase when ordering at a café or asking for something in a shop.",
+      "recap": "Use je voudrais + item + s’il vous plaît. For a price, recognize combien coûte … ?",
+      "vocabulary": [
+        "je voudrais",
+        "croissant",
+        "addition"
+      ],
+      "examples": [
+        [
+          "Je voudrais un café, s’il vous plaît.",
+          "I would like a coffee, please."
+        ],
+        [
+          "Je voudrais un croissant.",
+          "I would like a croissant."
+        ],
+        [
+          "L’addition, s’il vous plaît.",
+          "The bill, please."
+        ]
+      ],
+      "common_mistakes": [
+        {
+          "incorrect": "Je voudrai un café.",
+          "correct": "Je voudrais un café.",
+          "explanation": "Write the final s in voudrais for this polite request."
+        }
+      ],
+      "exercises": [
+        {
+          "key": "choose",
+          "type": "multiple_choice",
+          "prompt": "Which phrase asks politely for a croissant?",
+          "instructions": "Choose one answer.",
+          "explanation": "Use je voudrais + item + s’il vous plaît. For a price, recognize combien coûte … ?",
+          "options": [
+            "Je voudrais un croissant.",
+            "Je suis un croissant.",
+            "Combien coûte un croissant ?"
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "listening",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Load and play the French audio before answering.",
+          "explanation": "Je voudrais un café, s’il vous plaît. means “I would like a coffee, please.”",
+          "data": {
+            "text_fr": "Je voudrais un café, s’il vous plaît."
+          },
+          "options": [
+            "I would like a croissant, please.",
+            "I would like a coffee, please.",
+            "The bill, please."
+          ],
+          "correct_option": 1
+        }
+      ],
+      "vocabulary_examples": {
+        "je voudrais": 1,
+        "croissant": 2,
+        "addition": 3
+      },
+      "noun_forms": {
+        "croissant": [
+          "un croissant",
+          "des croissants"
+        ],
+        "addition": [
+          "une addition",
+          "des additions"
+        ]
+      }
+    }
+  ]
+}

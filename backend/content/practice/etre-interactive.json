@@ -1,0 +1,34 @@
+{
+  "key": "m08-etre-interactive",
+  "version": "0.1.1",
+  "development_fixture": true,
+  "status": "draft",
+  "level": "A1",
+  "title": "Être: understand, practice and remember",
+  "introduction": "Development-only fixture, not independently reviewed for publication. Use être (to be) to say who someone is or where they are. Read the examples, then try six short activities.",
+  "explanation": "Être changes with the subject. Use suis with je (I), es with tu (you, informal singular), and est with il or elle (he or she). In Je suis étudiant, étudiant is masculine; étudiante is feminine. Both describe a student.",
+  "when_to_use": "Use these forms to introduce yourself or say where someone is. Ici means here. Tu addresses one person informally.",
+  "recap": "Je suis, tu es, il est, elle est. Choose the form that agrees with the subject.",
+  "common_mistakes": [
+    {"incorrect": "Je es ici.", "correct": "Je suis ici.", "explanation": "With je, use suis."},
+    {"incorrect": "Tu suis ici.", "correct": "Tu es ici.", "explanation": "With tu, use es."}
+  ],
+  "examples": [["Je suis étudiant.", "I am a student."], ["Tu es ici.", "You are here."], ["Elle est contente.", "She is happy."]],
+  "grammar_slug": "subject-pronouns-etre",
+  "objective_code": "a1-etre-speaking",
+  "source_license": "Unpublished original draft; independent rights review pending",
+  "attribution": "FluentLoop AI implementation draft, AI assisted. No independent French, pedagogical, answer-key or rights approval is asserted.",
+  "exercises": [
+    {"key": "choose-je", "type": "multiple_choice", "prompt": "Choose the form of être used with je.", "instructions": "Choose one answer.", "explanation": "With je, être becomes suis: je suis.", "options": ["es", "suis", "est", "sommes"], "correct_option": 1},
+    {"key": "complete-tu", "type": "fill_blank", "prompt": "Tu ___ ici.", "instructions": "Write the missing form of être.", "explanation": "With tu, use es: tu es ici means you are here.", "data": {"accepted_answers": ["es"]}},
+    {"key": "build-introduction", "type": "sentence_order", "prompt": "Arrange the words to say: I am a student.", "instructions": "Use each tile once. You can remove a word or reset.", "explanation": "Start with je, followed by suis, then étudiant.", "data": {
+      "tiles": [{"id": "4b1b1927-b9d5-4722-8afd-471563084f9f", "text": "étudiant"}, {"id": "c5cc21ea-5269-40a0-a117-244a3d5bad98", "text": "Je"}, {"id": "6fd45864-1737-4391-8b0f-994bc5318049", "text": "suis"}],
+      "accepted_orders": [["c5cc21ea-5269-40a0-a117-244a3d5bad98", "6fd45864-1737-4391-8b0f-994bc5318049", "4b1b1927-b9d5-4722-8afd-471563084f9f"]], "correct_sentence": "Je suis étudiant."}},
+    {"key": "match-people", "type": "matching", "prompt": "Match each French sentence to its English meaning.", "instructions": "Choose a different meaning for every sentence.", "explanation": "Je means I, tu means you, and elle means she. Ici means here.", "data": {
+      "left_items": [{"id": "f1274052-192e-4c9e-9f36-d4c578fa2997", "text": "Je suis ici."}, {"id": "c43458f4-11fb-40ef-b420-99685d02ea33", "text": "Tu es ici."}, {"id": "137b5e55-260e-421e-96a0-831a8b563389", "text": "Elle est ici."}],
+      "right_items": [{"id": "bc6c2bd8-817f-4d8b-ac65-343905c889b1", "text": "She is here."}, {"id": "5977c6a2-b0be-4f00-a45a-05ae3da224ca", "text": "I am here."}, {"id": "53f854c8-fb53-48ec-a046-e8029fd6a3f9", "text": "You are here."}],
+      "answer_pairs": {"f1274052-192e-4c9e-9f36-d4c578fa2997": "5977c6a2-b0be-4f00-a45a-05ae3da224ca", "c43458f4-11fb-40ef-b420-99685d02ea33": "53f854c8-fb53-48ec-a046-e8029fd6a3f9", "137b5e55-260e-421e-96a0-831a8b563389": "bc6c2bd8-817f-4d8b-ac65-343905c889b1"}}},
+    {"key": "listen-location", "type": "listening", "prompt": "Listen, then choose the English meaning.", "instructions": "Play or replay the French audio before answering.", "explanation": "Elle est ici means she is here.", "options": ["She is here.", "He is here.", "We are here."], "correct_option": 0, "data": {"text_fr": "Elle est ici."}},
+    {"key": "write-introduction", "type": "short_answer", "prompt": "Translate into French: I am a student.", "instructions": "Write one short sentence. Use French accents.", "explanation": "Je suis étudiant and Je suis étudiante are accepted: the noun changes with the speaker's gender.", "data": {"accepted_answers": ["Je suis étudiant.", "Je suis étudiante."]}}
+  ]
+}

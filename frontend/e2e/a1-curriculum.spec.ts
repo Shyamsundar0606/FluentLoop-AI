@@ -1,3 +1,4 @@
+import { enterExercises } from './learning-navigation';
 import { expect, test } from "@playwright/test";
 
 test("corrected A1 drafts render all ten packets and the revised book exercise", async ({ page }) => {
@@ -32,6 +33,7 @@ test("corrected A1 drafts render all ten packets and the revised book exercise",
   await page.goto(`/learn/${articles.id}`);
   await page.getByRole("button", { name: "Start or continue lesson" }).click();
   await expect(page).toHaveURL(/\/learning\/sessions\/[0-9a-f-]+$/);
+  await enterExercises(page);
   const session = await page.request.get(`${process.env.PLAYWRIGHT_API_BASE_URL}/learning/sessions/${page.url().split("/").at(-1)}`);
   expect((await session.json()).lesson_content_version).toBe("1.0.2");
   await expect(page.getByText("Which option means “a book”?", { exact: true })).toBeVisible();

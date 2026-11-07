@@ -2,6 +2,8 @@ from __future__ import annotations
 
 from datetime import datetime, timezone
 from decimal import Decimal
+import hashlib
+import json
 from uuid import UUID
 
 from fastapi import HTTPException
@@ -49,7 +51,9 @@ from app.learning_schemas import (
 )
 from app.models import User
 from app.services.draft_preview import can_preview_drafts
-from app.services.grading_service import grade_multiple_choice
+from app.services.grading_service import grade_saved
+from app.services import exercise_formats
+from app.services.content_permissions import topic_allowed
 from app.services.progress_service import ensure_lesson_progress, record_completion
 
 
@@ -75,11 +79,6 @@ def _visible_content_filter(include_preview: bool):
         Lesson.status.in_(statuses),
         Unit.status.in_(statuses),
         Course.status.in_(statuses),
-        or_(
-            Lesson.status != "published",
-            Unit.status != "published",
-            Course.status != "published",
-        ),
     )
 
 
@@ -108,7 +107,7 @@ def _accessible_lesson(db: Session, lesson_id: UUID, user: User) -> tuple[Lesson
     raise HTTPException(status_code=404, detail="Lesson not found.")
 
 
-def _lesson_snapshot(db: Session, lesson: Lesson, unit: Unit, course: Course) -> dict:
+def _lesson_snapshot(db: Session, lesson: Lesson, unit: Unit, course: Course, user: User | None = None) -> dict:
     objectives = db.scalars(
         select(LearningObjective)
         .join(LessonObjective, LearningObjective.id == LessonObjective.objective_id)
@@ -164,16 +163,26 @@ def _lesson_snapshot(db: Session, lesson: Lesson, unit: Unit, course: Course) ->
         .order_by(GrammarTopic.title, GrammarTopic.slug)
     ).all()
     for topic in topics:
+        if user is None or not topic_allowed(topic,user):
+            continue
         rules = db.scalars(
             select(GrammarRule).where(GrammarRule.topic_id == topic.id).order_by(GrammarRule.rule_code)
         ).all()
+        if topic.teaching_metadata.get("curriculum_supplement"):
+            authored_code = topic.teaching_metadata["rule_code"]
+            preferred = lesson.slug == topic.teaching_metadata["preferred_lesson_slug"]
+            rules = [rule for rule in rules if (rule.rule_code == authored_code) == preferred]
         grammar.append(
             {
+                "id": str(topic.id),
                 "title": topic.title,
                 "summary": topic.summary,
                 "rules": [
                     {
+                        "code": rule.rule_code,
+                        "exceptions": rule.exceptions,
                         "explanation": rule.explanation_english,
+                        "explanation_fr": rule.explanation_french,
                         "examples": [
                             {
                                 "french": example.french_sentence,
@@ -220,6 +229,7 @@ def _lesson_snapshot(db: Session, lesson: Lesson, unit: Unit, course: Course) ->
 
     return {
         "id": str(lesson.id),
+        "learning_flow_version": 1,
         "title": lesson.title,
         "description": lesson.description,
         "level": lesson.difficulty_level,
@@ -228,7 +238,7 @@ def _lesson_snapshot(db: Session, lesson: Lesson, unit: Unit, course: Course) ->
         "course_title": course.title,
         "unit_title": unit.title,
         "objectives": [
-            {"title": item.title, "description": item.description}
+            {"id":str(item.id),"code":item.code,"title": item.title, "description": item.description}
             for item in objectives
         ],
         "sections": [
@@ -280,6 +290,7 @@ def _session_response(
     user: User,
 ) -> LearningSessionResponse:
     _accessible_lesson(db, session.lesson_id, user)
+    _session_exercise_access(db,session,user)
     snapshots = db.scalars(
         select(LearningSessionExercise)
         .where(LearningSessionExercise.learning_session_id == session.id)
@@ -318,6 +329,10 @@ def _session_response(
                 ],
                 answered=attempt is not None,
                 feedback=feedback,
+                submitted_answer=(attempt.answer_payload or {'selected_option_id':attempt.submitted_answer}) if attempt else None,
+                learning_objective_id=snapshot.get('learning_objective_id'),
+                grammar_topic_id=snapshot.get('grammar_topic_id'),
+                **exercise_formats.public_fields(snapshot),
             )
         )
     answered = len(attempts)
@@ -340,7 +355,27 @@ def _session_response(
         percentage=_percentage(session.score_points, session.max_score_points),
         lesson=session.lesson_snapshot,
         exercises=exercise_responses,
+        activity_key=session.activity_key,
     )
+
+
+def _session_exercise_access(db,session,user):
+    """Revalidate live source permissions; grade only the frozen private key."""
+    rows=db.scalars(select(LearningSessionExercise).where(LearningSessionExercise.learning_session_id==session.id)).all()
+    for saved in rows:
+        source=db.get(Exercise,saved.source_exercise_id) if saved.source_exercise_id else None
+        if source is None:
+            if saved.exercise_snapshot.get('format_version')==2:
+                raise HTTPException(404,'This exercise is no longer available.')
+            continue  # Legacy frozen snapshots preserve their original behavior.
+        if source.lesson_id!=session.lesson_id:
+            raise HTTPException(404,'Session exercise not found.')
+        topic=db.get(GrammarTopic,source.grammar_topic_id) if source.grammar_topic_id else None
+        if topic and not topic_allowed(topic,user):
+            raise HTTPException(404,'This grammar activity is not available.')
+    for saved in session.lesson_snapshot.get('grammar',[]):
+        if saved.get('id') and not topic_allowed(db.get(GrammarTopic,UUID(saved['id'])),user):
+            raise HTTPException(404,'This grammar explanation is no longer available.')
 
 
 def _session_for_user(
@@ -360,6 +395,7 @@ def _session_for_user(
     if session is None:
         raise HTTPException(status_code=404, detail="Learning session not found.")
     _accessible_lesson(db, session.lesson_id, user)
+    _session_exercise_access(db,session,user)
     return session
 
 
@@ -386,10 +422,12 @@ def _serialize_list_item(
         total_exercises=session.total_exercises,
         answered_exercises=attempts,
         percentage=_percentage(session.score_points, session.max_score_points),
+        activity_key=session.activity_key,
     )
 
 
-def start_session(db: Session, *, user: User, lesson_id: UUID, commit: bool = True) -> tuple[LearningSessionResponse, bool]:
+def start_session(db: Session, *, user: User, lesson_id: UUID, commit: bool = True,
+                  activity_key: str = 'lesson', exercise_ids: list[UUID] | None = None) -> tuple[LearningSessionResponse, bool]:
     try:
         lesson, unit, course, preview_mode = _accessible_lesson(db, lesson_id, user)
         existing = db.scalar(
@@ -398,6 +436,7 @@ def start_session(db: Session, *, user: User, lesson_id: UUID, commit: bool = Tr
                 LearningSession.user_id == user.id,
                 LearningSession.lesson_id == lesson_id,
                 LearningSession.status == "in_progress",
+                LearningSession.activity_key == activity_key,
             )
             .with_for_update()
         )
@@ -407,6 +446,7 @@ def start_session(db: Session, *, user: User, lesson_id: UUID, commit: bool = Tr
         source_exercises = db.scalars(
             select(Exercise)
             .where(Exercise.lesson_id == lesson.id)
+            .where(Exercise.id.in_(exercise_ids) if exercise_ids is not None else True)
             .order_by(Exercise.sequence_order)
         ).all()
         if not source_exercises:
@@ -414,44 +454,33 @@ def start_session(db: Session, *, user: User, lesson_id: UUID, commit: bool = Tr
 
         exercise_snapshots: list[dict] = []
         for order, exercise in enumerate(source_exercises, start=1):
-            if exercise.exercise_type != "multiple_choice":
-                raise HTTPException(
-                    status_code=422,
-                    detail=f"Exercise type '{exercise.exercise_type}' is not supported for grading yet.",
-                )
+            if exercise.level!=lesson.difficulty_level:
+                raise HTTPException(409,'This exercise has an inconsistent French level.')
             options = db.scalars(
                 select(ExerciseOption)
                 .where(ExerciseOption.exercise_id == exercise.id)
                 .order_by(ExerciseOption.sequence_order)
             ).all()
-            correct_options = [option for option in options if option.is_correct]
-            if len(options) < 2 or len(correct_options) != 1:
-                raise HTTPException(
-                    status_code=409,
-                    detail="This lesson contains an exercise that cannot be graded safely.",
-                )
+            if exercise.learning_objective_id and not db.scalar(select(LessonObjective).where(
+                    LessonObjective.lesson_id==lesson.id,LessonObjective.objective_id==exercise.learning_objective_id)):
+                raise HTTPException(409,'This exercise has an invalid objective reference.')
+            if exercise.grammar_topic_id:
+                topic=db.get(GrammarTopic,exercise.grammar_topic_id)
+                if not topic or topic.cefr_level!=lesson.difficulty_level:
+                    raise HTTPException(409,'This exercise has an inconsistent grammar level.')
+                if not db.scalar(select(LessonGrammar).where(LessonGrammar.lesson_id==lesson.id,
+                        LessonGrammar.grammar_topic_id==exercise.grammar_topic_id)):
+                    raise HTTPException(409,'This exercise has an invalid grammar reference.')
+                if topic.publication_status not in ('inherited','published'):
+                    if not (can_preview_drafts(user) and topic.publication_status in ('draft','review')):
+                        raise HTTPException(404,'This grammar activity is not available.')
+                    preview_mode=True
             exercise_snapshots.append(
                 {
                     "exercise_id": exercise.id,
                     "order": order,
                     "version": lesson.content_version,
-                    "snapshot": {
-                        "type": exercise.exercise_type,
-                        "prompt": exercise.prompt,
-                        "instructions": exercise.instructions,
-                        "explanation": exercise.explanation,
-                        "level": exercise.level,
-                        "sequence_order": exercise.sequence_order,
-                        "options": [
-                            {
-                                "id": str(option.id),
-                                "text": option.option_text,
-                                "sequence_order": option.sequence_order,
-                            }
-                            for option in options
-                        ],
-                        "correct_option_id": str(correct_options[0].id),
-                    },
+                    "snapshot": exercise_formats.snapshot(exercise,options),
                 }
             )
 
@@ -463,7 +492,8 @@ def start_session(db: Session, *, user: User, lesson_id: UUID, commit: bool = Tr
             cefr_level=lesson.difficulty_level,
             status="in_progress",
             preview_mode=preview_mode,
-            lesson_snapshot=_lesson_snapshot(db, lesson, unit, course),
+            activity_key=activity_key,
+            lesson_snapshot=_lesson_snapshot(db, lesson, unit, course,user),
             started_at=now,
             last_activity_at=now,
             current_section_position=0,
@@ -487,7 +517,7 @@ def start_session(db: Session, *, user: User, lesson_id: UUID, commit: bool = Tr
                 for item in exercise_snapshots
             ]
         )
-        ensure_lesson_progress(
+        if activity_key=='lesson':ensure_lesson_progress(
             db,
             user=user,
             lesson_id=lesson.id,
@@ -499,7 +529,7 @@ def start_session(db: Session, *, user: User, lesson_id: UUID, commit: bool = Tr
             user_id=user.id,
             session_id=session.id,
             lesson_id=lesson.id,
-            event_type="session_started",
+            event_type="session_started" if activity_key=='lesson' else 'practice_started',
             metadata={"cefr_level": lesson.difficulty_level, "preview_mode": preview_mode},
         )
         if commit:
@@ -517,6 +547,7 @@ def start_session(db: Session, *, user: User, lesson_id: UUID, commit: bool = Tr
                 LearningSession.user_id == user.id,
                 LearningSession.lesson_id == lesson_id,
                 LearningSession.status == "in_progress",
+                LearningSession.activity_key == activity_key,
             )
         )
         if existing is not None:
@@ -527,6 +558,18 @@ def start_session(db: Session, *, user: User, lesson_id: UUID, commit: bool = Tr
 def get_session(db: Session, *, user: User, session_id: UUID) -> LearningSessionResponse:
     session = _session_for_user(db, session_id, user)
     return _session_response(db, session, user=user)
+
+
+def set_position(db: Session, *, user: User, session_id: UUID, position: int):
+    session=_session_for_user(db,session_id,user,lock=True)
+    if session.status!='in_progress':
+        raise HTTPException(409,'This learning session is no longer active.')
+    if session.activity_key!='lesson' or session.lesson_snapshot.get('learning_flow_version')!=1:
+        raise HTTPException(409,'Continue the exercises in this saved activity.')
+    session.current_section_position=position
+    session.last_activity_at=_now()
+    db.commit();db.refresh(session)
+    return _session_response(db,session,user=user)
 
 
 def resume_session(db: Session, *, user: User, session_id: UUID) -> LearningSessionResponse:
@@ -552,13 +595,17 @@ def submit_answer(
     user: User,
     session_id: UUID,
     session_exercise_id: UUID,
-    selected_option_id: UUID,
+    selected_option_id: UUID | None = None,
     idempotency_key: UUID,
+    answer_payload: dict | None = None,
 ) -> AnswerResponse:
+    payload={'selected_option_id':str(selected_option_id)} if selected_option_id is not None else (answer_payload or {})
+    def same(attempt):
+        return (attempt.answer_payload or {'selected_option_id':attempt.submitted_answer})==payload
     try:
         session = _session_for_user(db, session_id, user, lock=True)
-        if session.status != "in_progress":
-            raise HTTPException(status_code=409, detail="This learning session is no longer active.")
+        if session.status != 'in_progress':
+            raise HTTPException(409,'This learning session is no longer active.')
         exercise = db.scalar(
             select(LearningSessionExercise)
             .where(
@@ -579,7 +626,7 @@ def submit_answer(
         if prior_key is not None:
             if (
                 prior_key.session_exercise_id != exercise.id
-                or prior_key.submitted_answer != str(selected_option_id)
+                or not same(prior_key)
             ):
                 raise HTTPException(
                     status_code=409,
@@ -591,12 +638,15 @@ def submit_answer(
             select(ExerciseAttempt).where(ExerciseAttempt.session_exercise_id == exercise.id)
         )
         if existing is not None:
-            if existing.submitted_answer == str(selected_option_id):
+            if same(existing):
                 return _answer_response(db, session, existing, idempotent=True)
             raise HTTPException(
                 status_code=409,
                 detail="This exercise has already been answered in this session.",
             )
+
+        if session.status != 'in_progress':
+            raise HTTPException(409,'This learning session is no longer active.')
 
         attempts = _attempts_by_exercise(db, session.id)
         next_exercise = db.scalar(
@@ -619,16 +669,8 @@ def submit_answer(
         if session_exercise_id in attempts:
             raise HTTPException(status_code=409, detail="This exercise has already been answered.")
 
-        is_correct, correct_answer, explanation = grade_multiple_choice(
-            exercise.exercise_snapshot,
-            selected_option_id,
-        )
+        is_correct, correct_answer, explanation, normalized = grade_saved(exercise.exercise_snapshot,payload)
         awarded = 1 if is_correct else 0
-        selected = next(
-            option
-            for option in exercise.exercise_snapshot["options"]
-            if option["id"] == str(selected_option_id)
-        )
         now = _now()
         attempt = ExerciseAttempt(
             user_id=user.id,
@@ -636,8 +678,9 @@ def submit_answer(
             session_exercise_id=exercise.id,
             attempt_number=1,
             idempotency_key=idempotency_key,
-            submitted_answer=str(selected_option_id),
-            normalized_answer=selected["text"].strip().casefold(),
+            submitted_answer=str(selected_option_id) if selected_option_id is not None else 'payload:'+hashlib.sha256(json.dumps(payload,sort_keys=True,ensure_ascii=False).encode()).hexdigest()[:28],
+            answer_payload=None if selected_option_id is not None else payload,
+            normalized_answer=normalized,
             is_correct=is_correct,
             awarded_points=awarded,
             max_points=exercise.max_points,
@@ -645,12 +688,14 @@ def submit_answer(
                 "correct_answer": correct_answer,
                 "explanation": explanation,
             },
-            grading_version="multiple-choice-v1",
+            grading_version="multiple-choice-v1" if exercise.exercise_snapshot['type']=='multiple_choice' else 'deterministic-v2',
             submitted_at=now,
         )
         db.add(attempt)
         session.score_points += awarded
         session.current_exercise_position += 1
+        if session.lesson_snapshot.get('learning_flow_version')==1:
+            session.current_section_position=3
         session.last_activity_at = now
         progress = db.scalar(
             select(LessonProgress)
@@ -660,7 +705,7 @@ def submit_answer(
             )
             .with_for_update()
         )
-        if progress is not None:
+        if progress is not None and session.activity_key=='lesson':
             progress.last_studied_at = now
             progress.updated_at = now
         _event(
@@ -668,8 +713,9 @@ def submit_answer(
             user_id=user.id,
             session_id=session.id,
             lesson_id=session.lesson_id,
-            event_type="exercise_answered",
-            metadata={"exercise_order": exercise.exercise_order, "is_correct": is_correct},
+            event_type="exercise_answered" if session.activity_key=='lesson' else 'practice_answered',
+            metadata={"exercise_order": exercise.exercise_order, "is_correct": is_correct,
+                'learning_objective_id':exercise.exercise_snapshot.get('learning_objective_id')},
         )
         db.commit()
         db.refresh(attempt)
@@ -687,7 +733,7 @@ def submit_answer(
         if (
             prior_key is not None
             and prior_key.session_exercise_id == session_exercise_id
-            and prior_key.submitted_answer == str(selected_option_id)
+            and same(prior_key)
         ):
             return _answer_response(db, session, prior_key, idempotent=True)
         raise HTTPException(
@@ -760,7 +806,7 @@ def complete_session(
         )
         .with_for_update()
     )
-    if progress is None:
+    if progress is None and session.activity_key=='lesson':
         progress = ensure_lesson_progress(
             db,
             user=user,
@@ -768,13 +814,13 @@ def complete_session(
             cefr_level=session.cefr_level,
             now=now,
         )
-    record_completion(progress, score_percentage=score, completed_at=now)
+    if session.activity_key=='lesson':record_completion(progress, score_percentage=score, completed_at=now)
     _event(
         db,
         user_id=user.id,
         session_id=session.id,
         lesson_id=session.lesson_id,
-        event_type="lesson_completed",
+        event_type="lesson_completed" if session.activity_key=='lesson' else 'practice_completed',
         metadata={"percentage": score, "total_exercises": session.total_exercises},
     )
     db.commit()
@@ -811,8 +857,9 @@ def _completion_response(
         score_points=session.score_points,
         max_score_points=session.max_score_points,
         percentage=_percentage(session.score_points, session.max_score_points),
-        completion_count=progress.completion_count if progress else 1,
+        completion_count=progress.completion_count if progress else (1 if session.activity_key=='lesson' else 0),
         completed_at=session.completed_at or session.last_activity_at,
+        activity_key=session.activity_key,
     )
 
 
@@ -846,7 +893,7 @@ def abandon_session(db: Session, *, user: User, session_id: UUID) -> None:
         )
         .with_for_update()
     )
-    if progress is not None:
+    if progress is not None and session.activity_key=='lesson':
         progress.status = "completed" if progress.completion_count else "not_started"
         progress.last_studied_at = now
         progress.updated_at = now
@@ -878,22 +925,17 @@ def list_user_sessions(
     )
     if status_filter:
         query = query.where(LearningSession.status == status_filter)
-    sessions = db.scalars(
-        query.order_by(LearningSession.last_activity_at.desc()).offset(offset).limit(limit)
-    ).all()
-    visible = [_serialize_list_item(db, session) for session in sessions]
-    count_query = (
-        select(func.count(LearningSession.id))
-        .join(Lesson, LearningSession.lesson_id == Lesson.id)
-        .join(Unit, Lesson.unit_id == Unit.id)
-        .join(Course, Unit.course_id == Course.id)
-        .where(LearningSession.user_id == user.id, visible_filter)
-    )
-    if status_filter:
-        count_query = count_query.where(LearningSession.status == status_filter)
-    # Keep pagination bounded while excluding sessions whose draft access was revoked.
-    total = db.scalar(count_query) or 0
-    return visible, total
+    sessions = db.scalars(query.order_by(LearningSession.last_activity_at.desc())).all()
+    visible=[]
+    for session in sessions:
+        try:
+            _session_exercise_access(db,session,user)
+        except HTTPException as error:
+            if error.status_code==404:continue
+            raise
+        visible.append(session)
+    return [_serialize_list_item(db,s) for s in visible[offset:offset+limit]],len(visible)
+
 
 
 def get_progress_for_user(
@@ -1032,6 +1074,7 @@ def get_dashboard(db: Session, *, user: User) -> dict:
         ).where(
             LearningSession.user_id == user.id,
             LearningSession.status == "completed",
+            LearningSession.activity_key == 'lesson',
             LearningSession.id.in_(visible_session_ids),
         )
     )

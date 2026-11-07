@@ -2,6 +2,10 @@ import { apiRequest } from '@/lib/api';
 import type { ApiFrenchLevel, Page } from '@/lib/curriculum';
 
 export interface SessionExercise {
+  tiles?: { id: string; text: string }[];
+  left_items?: { id: string; text: string }[];
+  right_items?: { id: string; text: string }[];
+  submitted_answer?: ExerciseAnswer | null;
   id: string;
   exercise_id: string | null;
   exercise_order: number;
@@ -21,6 +25,7 @@ export interface SessionExercise {
 }
 
 export interface LearningSession {
+  activity_key?: string;
   id: string;
   lesson_id: string;
   lesson_content_version: string;
@@ -38,6 +43,7 @@ export interface LearningSession {
   max_score_points: number;
   percentage: number;
   lesson: {
+    learning_flow_version?: number;
     id: string;
     title: string;
     description: string;
@@ -71,6 +77,40 @@ export interface LearningSession {
     }[];
   };
   exercises: SessionExercise[];
+}
+
+export function saveLearningPosition(sessionId: string, position: number): Promise<LearningSession> {
+  return apiRequest(`/learning/sessions/${encodeURIComponent(sessionId)}/position`, {
+    method: 'POST', body: JSON.stringify({ position }),
+  });
+}
+
+export function learningReturnUrl(session: Pick<LearningSession, 'cefr_level' | 'lesson_id' | 'activity_key'>) {
+  const topic = grammarPracticeTopic(session.activity_key);
+  if (topic) return `/grammar?level=${session.cefr_level.toLowerCase()}&topic=${encodeURIComponent(topic)}`;
+  const path = session.activity_key?.startsWith('practice:') ? '/practice' : '/courses';
+  return `${path}?level=${session.cefr_level.toLowerCase()}&lesson=${encodeURIComponent(session.lesson_id)}`;
+}
+
+export function grammarPracticeTopic(activityKey?: string) {
+  return activityKey?.match(/^practice:grammar:([0-9a-f-]{36}):/i)?.[1];
+}
+
+export function submittedAnswerText(exercise: SessionExercise): string {
+  const answer = exercise.submitted_answer;
+  if (!answer) return 'Saved answer';
+  if ('text_answer' in answer) return answer.text_answer;
+  if ('selected_option_id' in answer) return exercise.options.find(o => o.id === answer.selected_option_id)?.text ?? 'Saved choice';
+  if ('tile_ids' in answer) return answer.tile_ids.map(id => exercise.tiles?.find(t => t.id === id)?.text ?? 'Saved word').join(' ');
+  return Object.entries(answer.matches).map(([l, r]) => `${exercise.left_items?.find(t => t.id === l)?.text ?? 'Saved item'} → ${exercise.right_items?.find(t => t.id === r)?.text ?? 'Saved match'}`).join('; ');
+}
+
+export type ExerciseAnswer = { selected_option_id: string } | { text_answer: string } | { tile_ids: string[] } | { matches: Record<string, string> };
+
+export function submitExerciseAnswer(sessionId: string, exerciseId: string, answer: ExerciseAnswer, key: string): Promise<AnswerResult> {
+  return apiRequest(`/learning/sessions/${encodeURIComponent(sessionId)}/answers`, {
+    method: 'POST', body: JSON.stringify({ session_exercise_id: exerciseId, ...answer, idempotency_key: key }),
+  });
 }
 
 export interface SessionListItem {
@@ -140,6 +180,7 @@ export interface AnswerResult {
 }
 
 export interface CompletionResult {
+  activity_key?: string;
   session_id: string;
   lesson_id: string;
   lesson_title: string;

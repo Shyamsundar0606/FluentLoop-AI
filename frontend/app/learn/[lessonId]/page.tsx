@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { LessonActions } from '@/components/lesson-actions';
 import { useParams, useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
 
@@ -45,7 +46,7 @@ function StartLesson() {
   return (
     <main className="min-h-screen bg-slate-50 px-5 py-8 text-slate-900 dark:bg-slate-950 dark:text-white sm:px-8">
       <div className="mx-auto max-w-3xl">
-        <Link href="/courses" className="text-sm font-semibold text-violet-700 dark:text-violet-300">← Course library</Link>
+        <Link href={lesson?`/courses?level=${lesson.level.toLowerCase()}&lesson=${lessonId}`:'/courses'} className="text-sm font-semibold text-violet-700 dark:text-violet-300">← Course library</Link>
         {!lesson && !error && <p role="status" className="mt-8">Loading lesson…</p>}
         {error && <p role="alert" className="mt-6 rounded-xl border border-rose-300 bg-rose-50 p-4 text-rose-800 dark:border-rose-900 dark:bg-rose-950 dark:text-rose-200">{error}</p>}
         {lesson && (
@@ -74,6 +75,7 @@ function StartLesson() {
             >
               {starting ? 'Starting…' : 'Start or continue lesson'}
             </button>
+            <LessonActions lessonId={lessonId} />
           </section>
         )}
       </div>

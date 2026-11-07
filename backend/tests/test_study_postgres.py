@@ -57,9 +57,12 @@ def database():
 
 def test_fresh_upgrade_and_populated_rollback_preserve_preexisting_rows(database):
     url,engine=database
-    migrate(url,'20261102_0007')
+    # Seed with the current ORM, then remove empty M08 columns before the
+    # original M07 preservation check. No structured M08 data is discarded.
+    migrate(url,'head')
     sessions=sessionmaker(bind=engine)
     _import_content(sessions)
+    for _ in range(2):migrate(url,'-1')
     with sessions.begin() as db:
         user=User(email=f'migration-{uuid4().hex[:8]}@example.com',password_hash=hash_password('IsolatedMigrationPass2026!'),role='learner',email_verified_at=AT)
         db.add(user);db.flush()
@@ -74,8 +77,11 @@ def test_fresh_upgrade_and_populated_rollback_preserve_preexisting_rows(database
         from app.speech.models import SpeechSession,SpeechTurn
         db.add(UserSession(user_id=user.id,token_hash=uuid4().hex+uuid4().hex,expires_at=AT+timedelta(days=14)))
         lesson=db.scalar(select(Lesson).where(Lesson.slug=='a1-001'))
-        db.add(LearningSession(user_id=user.id,lesson_id=lesson.id,lesson_content_version=lesson.content_version,
-            cefr_level='A1',preview_mode=True,lesson_snapshot={'title':lesson.title,'fixture':'migration preservation'},total_exercises=0,max_score_points=0))
+        db.execute(text("""INSERT INTO learning_sessions (id,user_id,lesson_id,lesson_content_version,cefr_level,
+            status,preview_mode,lesson_snapshot,total_exercises,max_score_points,score_points,current_section_position,
+            current_exercise_position,started_at,last_activity_at) VALUES (:id,:uid,:lid,:version,'A1','in_progress',true,
+            CAST(:snapshot AS jsonb),0,0,0,0,0,:at,:at)"""),dict(id=uuid4(),uid=user.id,lid=lesson.id,
+            version=lesson.content_version,snapshot=json.dumps({'title':lesson.title,'fixture':'migration preservation'}),at=AT))
         db.add(LessonProgress(user_id=user.id,lesson_id=lesson.id,cefr_level='A1',status='in_progress'))
         conversation=Conversation(user_id=user.id,title='Preserved test memory',mode='roleplay',cefr_level='B2')
         db.add(conversation);db.flush()
@@ -85,13 +91,13 @@ def test_fresh_upgrade_and_populated_rollback_preserve_preexisting_rows(database
         db.add(SpeechTurn(user_id=user.id,speech_session_id=speech.id,request_id=uuid4(),input_checksum='a'*64,
             transcript='Bonjour, original reconnu.',transcription_status='uncertain',status='unusable'))
     before=fingerprint(engine)
-    migrate(url,'head')
+    migrate(url,'20261104_0008')
     assert fingerprint(engine,list(before))==before
     with engine.connect() as db:
         assert db.execute(text('SELECT version_num FROM alembic_version')).scalar()=='20261104_0008'
     migrate(url,'-1')
     assert fingerprint(engine)==before
-    migrate(url,'head')
+    migrate(url,'20261104_0008')
     assert fingerprint(engine,list(before))==before
     # A completely empty database upgraded straight to head is covered below
     # by the independent integration fixture's migration.

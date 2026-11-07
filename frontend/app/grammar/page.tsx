@@ -1,8 +1,12 @@
 "use client";
 
+import { GrammarDetails } from "@/components/grammar-details";
+import { LearningTabs } from "@/components/learning-tabs";
+import { LearningAlternatives } from "@/components/learning-alternatives";
+import { useLearningContext } from "@/lib/use-learning-context";
 import { useEffect, useState } from "react";
 
-import { ProtectedPage, useAuth } from "@/components/auth-provider";
+import { ProtectedPage } from "@/components/auth-provider";
 import { inputClass } from "@/components/auth-shell";
 import { ApiError } from "@/lib/api";
 import { listGrammar, type GrammarTopic } from "@/lib/curriculum";
@@ -21,13 +25,8 @@ export default function GrammarPage() {
 }
 
 function GrammarBrowser() {
-  const { user } = useAuth();
-  const [browsedLevel, setBrowsedLevel] = useState<FrenchLevel | null>(null);
-  const level =
-    browsedLevel ??
-    (user && isFrenchLevel(user.preferences.current_level)
-      ? user.preferences.current_level
-      : "a1");
+  const [enhancedTopics, setEnhancedTopics] = useState<string[]>([]);
+  const {level,setLevel:setBrowsedLevel}=useLearningContext();
   const [loaded, setLoaded] = useState<{
     level: FrenchLevel;
     topics: GrammarTopic[];
@@ -64,6 +63,7 @@ function GrammarBrowser() {
   return (
     <main className="min-h-screen bg-slate-50 px-5 py-8 text-slate-900 dark:bg-slate-950 dark:text-white sm:px-8">
       <div className="mx-auto max-w-5xl">
+        <LearningTabs />
         <div className="mt-3 flex flex-wrap items-end justify-between gap-4">
           <div>
             <h1 className="text-3xl font-bold">French grammar</h1>
@@ -89,6 +89,7 @@ function GrammarBrowser() {
             </select>
           </label>
         </div>
+        <GrammarDetails level={level.toUpperCase()} onEnhancedTopics={setEnhancedTopics} />
         {error && (
           <p
             role="alert"
@@ -103,7 +104,7 @@ function GrammarBrowser() {
           </p>
         ) : topics.length > 0 ? (
           <section className="mt-6 space-y-4">
-            {topics.map((topic) => (
+            {topics.filter(topic => !enhancedTopics.includes(topic.id)).map((topic) => (
               <article
                 key={topic.id}
                 className="rounded-2xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900"
@@ -139,10 +140,10 @@ function GrammarBrowser() {
             ))}
           </section>
         ) : !loading && !error ? (
-          <p className="mt-7 rounded-2xl border border-slate-200 bg-white p-6 text-slate-600 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-300">
+          <><p className="mt-7 rounded-2xl border border-slate-200 bg-white p-6 text-slate-600 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-300">
             No published grammar topics are available at {level.toUpperCase()}{" "}
             yet.
-          </p>
+          </p><LearningAlternatives/></>
         ) : null}
       </div>
     </main>

@@ -57,6 +57,8 @@ class PlanView(BaseModel):
     completed_at: datetime | None
 
 class RecommendationView(BaseModel):
+    learning_objective_id: UUID | None = None
+    practice_category: str | None = None
     activity_type: str
     title: str
     reason: str
