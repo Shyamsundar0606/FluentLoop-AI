@@ -5,6 +5,8 @@ from pydantic import BaseModel, ConfigDict, Field
 
 Level = Literal["A1", "A2", "B1", "B2", "C1", "C2"]
 Mode = Literal["tutor", "vocabulary", "grammar", "correction", "roleplay"]
+Difficulty = Literal["easier", "normal", "challenging"]
+CorrectionTiming = Literal["immediate", "after", "minimal"]
 
 
 class StrictModel(BaseModel):
@@ -26,6 +28,11 @@ class RenameConversation(StrictModel):
     title: str = Field(min_length=1, max_length=120)
 
 
+class CoachOptions(StrictModel):
+    difficulty: Difficulty | None = None
+    corrections: CorrectionTiming | None = None
+
+
 class SendMessage(StrictModel):
     message: str = Field(min_length=1, max_length=4000)
     request_id: UUID
@@ -43,6 +50,11 @@ class Correction(StrictModel):
 
 class CorrectionRequest(SendMessage):
     conversation_id: UUID
+
+
+class ScenarioReply(StrictModel):
+    reply: str = Field(min_length=1, max_length=3000)
+    correction: Correction | None = None
 
 
 class Source(StrictModel):
@@ -78,6 +90,9 @@ class ConversationView(StrictModel):
     updated_at: datetime
     messages: list[MessageView] = []
     has_more_messages: bool = False
+    coach_difficulty: Difficulty = "normal"
+    coach_corrections: CorrectionTiming = "immediate"
+    completed_at: datetime | None = None
 
 
 class ChatResponse(StrictModel):

@@ -72,11 +72,12 @@ def test_upgrade_preserves_populated_m07_and_lossy_downgrade_blocked(database,mo
         learning.submit_answer(db,user=db.get(User,uid),session_id=old.id,session_exercise_id=old.exercises[0].id,
             selected_option_id=UUID(saved['correct_option_id']),idempotency_key=uuid4())
     # Back to a genuine pre-M08 schema with only legacy content.
-    migrate(url,'-1')
+    migrate(url,'-1');migrate(url,'-1')
     schema=inspect(engine);columns={t:[c['name'] for c in schema.get_columns(t)] for t in schema.get_table_names() if t!='alembic_version'}
     before=projection(engine,columns);migrate(url,'head')
     assert projection(engine,columns)==before
     with sessions.begin() as db:import_pack(db,load_pack())
+    migrate(url,'-1')
     migrate(url,'-1',success=False)
     with engine.connect() as db:assert db.execute(text('SELECT version_num FROM alembic_version')).scalar()=='20261104_0009'
 

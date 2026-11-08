@@ -47,6 +47,9 @@ export type Conversation = {
   updated_at: string;
   messages: TutorMessage[];
   has_more_messages: boolean;
+  coach_difficulty: "easier" | "normal" | "challenging";
+  coach_corrections: "immediate" | "after" | "minimal";
+  completed_at: string | null;
 };
 export type Scenario = {
   id: string;
@@ -58,6 +61,20 @@ export type Scenario = {
   provenance: string;
   opening_situation: string;
   suggested_vocabulary: string[];
+  opening_french: string;
+  target_turns: number;
+  completion_criteria: string[];
+  speaking_available: boolean;
+};
+export type CoachSession = {
+  scenario: Scenario | null;
+  scenario_vocabulary: { french: string; english: string; example: string }[];
+  due_vocabulary: { french: string; english: string; recently_missed: boolean }[];
+  studied_vocabulary: { french: string; english: string }[];
+  studied_grammar: string[];
+  summary: { messages_exchanged: number; learner_turns: number; corrections: Correction[];
+    correction_count: number; used_vocabulary: string[];
+    scenario_goals: string[]; target_turns: number | null } | null;
 };
 export type Recommendation = {
   id: string;
@@ -90,6 +107,11 @@ export const ai = {
     }),
   archive: (id: string) =>
     apiRequest(`/ai/conversations/${id}/archive`, { method: "POST" }),
+  coach: (id: string) => apiRequest<CoachSession>(`/ai/conversations/${id}/coach`),
+  coachOptions: (id: string, options: { difficulty?: Conversation["coach_difficulty"]; corrections?: Conversation["coach_corrections"] }) =>
+    apiRequest<Conversation>(`/ai/conversations/${id}/coach`, { method: "PATCH", body: JSON.stringify(options) }),
+  finish: (id: string) => apiRequest<Conversation>(`/ai/conversations/${id}/finish`, { method: "POST" }),
+  remove: (id: string) => apiRequest<void>(`/ai/conversations/${id}`, { method: "DELETE" }),
   rename: (id: string, title: string) =>
     apiRequest(`/ai/conversations/${id}`, {
       method: "PATCH",

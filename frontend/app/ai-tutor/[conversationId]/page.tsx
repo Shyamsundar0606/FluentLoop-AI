@@ -1,11 +1,13 @@
 "use client";
 import Link from "next/link";
 import { FormEvent, Suspense, useEffect, useRef, useState } from "react";
-import { useParams } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 import { TutorShell } from "@/components/tutor-shell";
 import { buttonClass, FormMessage, inputClass } from "@/components/auth-shell";
 import { ai, Conversation } from "@/lib/ai";
 import { ChatText } from "@/components/ui";
+import { ConversationCoach } from "@/components/conversation-coach";
+import { speech } from "@/lib/speech";
 
 export default function ChatPage() {
   return (
@@ -23,6 +25,7 @@ function ChatRoute() {
   );
 }
 function Chat({ id }: { id: string }) {
+  const router = useRouter();
   const [conversation, setConversation] = useState<Conversation | null>(null);
   const [text, setText] = useState("");
   const [title, setTitle] = useState("");
@@ -113,6 +116,13 @@ function Chat({ id }: { id: string }) {
       setError(e instanceof Error ? e.message : "History unavailable.");
     }
   }
+  async function action(work: () => Promise<void>) {
+    if (lock.current) return;
+    lock.current = true; setBusy(true); setError("");
+    try { await work(); }
+    catch (e) { setError(e instanceof Error ? e.message : "Conversation action unavailable."); }
+    finally { lock.current = false; setBusy(false); }
+  }
   return (
     <>
       {error && <FormMessage error>{error}</FormMessage>}
@@ -121,7 +131,7 @@ function Chat({ id }: { id: string }) {
           <header className="chat-header mb-6">
             <p className="text-sm text-violet-700">
               {conversation.cefr_level} · {conversation.mode} ·{" "}
-              {conversation.status}
+              {conversation.completed_at ? "completed" : conversation.status}
             </p>
             <h1 className="mt-2 text-xl font-semibold">{conversation.title}</h1>
             <p className="mt-2 text-sm text-slate-500">
@@ -153,7 +163,55 @@ function Chat({ id }: { id: string }) {
                 <button className="px-3 text-sm font-semibold">Rename</button>
               </form>
             </details>
+            {conversation.status === "active" && <div className="mt-4 flex flex-wrap items-center gap-3">
+              <label>Difficulty <select className="rounded border p-2" disabled={busy}
+                value={conversation.coach_difficulty ?? "normal"} onChange={event => {
+                  const difficulty = event.target.value as Conversation["coach_difficulty"];
+                  void action(async () => {
+                    await ai.coachOptions(id, { difficulty }); setConversation(await ai.get(id));
+                  });
+                }}>
+                <option value="easier">Easier</option><option value="normal">Normal</option>
+                <option value="challenging">More challenging</option>
+              </select></label>
+              <label>Corrections <select className="rounded border p-2" disabled={busy}
+                value={conversation.coach_corrections ?? "immediate"} onChange={event => {
+                  const corrections = event.target.value as Conversation["coach_corrections"];
+                  void action(async () => {
+                    await ai.coachOptions(id, { corrections }); setConversation(await ai.get(id));
+                  });
+                }}>
+                <option value="immediate">Immediately</option><option value="after">After the conversation</option>
+                <option value="minimal">On request</option>
+              </select></label>
+              {conversation.mode === "roleplay" && <button type="button" className="button button-secondary" disabled={busy}
+                onClick={() => void action(async () => {
+                  const session = await speech.startForConversation(id);
+                  router.push(`/voice-practice/conversations/${session.id}`);
+                })}>Open microphone practice</button>}
+              <button type="button" className="button button-secondary" disabled={busy}
+                onClick={() => void action(async () => { await ai.finish(id); setConversation(await ai.get(id)); })}>
+                Finish conversation
+              </button>
+            </div>}
+            <div className="mt-3 flex flex-wrap gap-3">
+              {conversation.scenario_id && <button type="button" className="text-violet-700 underline" disabled={busy}
+                onClick={() => void action(async () => {
+                  const restarted = await ai.start(conversation.scenario_id!);
+                  router.push(`/ai-tutor/${restarted.id}`);
+                })}>Restart scenario in a new conversation</button>}
+              <button type="button" className="text-rose-700 underline" disabled={busy}
+                onClick={() => {
+                  if (window.confirm("Delete this saved conversation?")) void action(async () => {
+                    await ai.remove(id);
+                    sessionStorage.removeItem(`tutor-pending-${id}`);
+                    sessionStorage.removeItem(`tutor-draft-${id}`);
+                    router.push("/ai-tutor/history");
+                  });
+                }}>Delete conversation</button>
+            </div>
           </header>
+          {(conversation.scenario_id || conversation.completed_at) && <ConversationCoach conversation={conversation} />}
           {conversation.preview_mode && (
             <p className="mb-4 rounded-xl bg-amber-100 p-4 text-amber-900">
               Draft preview: this conversation may use unreviewed curriculum.
@@ -207,6 +265,10 @@ function Chat({ id }: { id: string }) {
                         ? "Errors identified"
                         : "No errors identified"}
                     </p>
+                    {conversation.scenario_id && m.correction.has_errors && <>
+                      <p lang="fr">{m.correction.corrected_text}</p>
+                      {m.correction.explanations.map((explanation, i) => <p key={i}>{explanation}</p>)}
+                    </>}
                     {m.correction.alternative_expressions.map((a, i) => (
                       <p key={i}>Stylistic alternative: {a}</p>
                     ))}
@@ -286,7 +348,7 @@ function Chat({ id }: { id: string }) {
             </form>
           ) : (
             <p className="mt-5">
-              Archived conversation.{" "}
+              {conversation.completed_at ? "Conversation complete." : "Archived conversation."}{" "}
               <Link href="/ai-tutor" className="text-violet-700">
                 Start another practice
               </Link>

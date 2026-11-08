@@ -474,6 +474,10 @@ function Content({ screen, id }: { screen: Screen; id?: string }) {
         )}
         {screen === "conversation" && session && (
           <>
+            {session.opening_french && <p lang="fr" className="rounded-xl bg-violet-50 p-4">{session.opening_french}</p>}
+            <Link href={`/ai-tutor/${session.conversation_id}`} className="text-sm font-semibold text-violet-700">
+              Open shared transcript and coach options
+            </Link>
             {session.draft_preview && (
               <p className="rounded-xl bg-amber-100 p-4 text-amber-900">
                 Draft preview · unreviewed curriculum context

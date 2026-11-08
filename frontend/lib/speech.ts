@@ -43,6 +43,7 @@ export type Session = {
   last_activity_at: string;
   turns: Turn[];
   has_more_turns: boolean;
+  opening_french?: string | null;
 };
 export type Target = {
   id: string;
@@ -89,6 +90,10 @@ export const speech = {
     apiRequest<Session>("/speech/sessions", {
       method: "POST",
       body: JSON.stringify({ scenario_id: scenario_id || null }),
+    }),
+  startForConversation: (conversation_id: string) =>
+    apiRequest<Session>("/speech/sessions", {
+      method: "POST", body: JSON.stringify({ conversation_id }),
     }),
   scenarios: () =>
     apiRequest<

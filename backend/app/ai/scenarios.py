@@ -21,6 +21,10 @@ class Scenario(BaseModel):
     target_grammar: list[str]
     conversation_constraints: list[str]
     evaluation_guidance: str
+    opening_french: str
+    target_turns: int
+    completion_criteria: list[str]
+    speaking_available: bool = True
     provenance: str = (
         "Original FluentLoop practice prompt v1; not expert-reviewed curriculum"
     )
@@ -67,6 +71,11 @@ DEFINITIONS = {
         ),
     ],
     "A2": [
+        ("transport", "Using public transport", "ticket agent", "passenger",
+         "Buy a ticket and confirm where to get off.", ["un billet", "un arrêt"], ["questions"]),
+        ("pharmacy", "Visiting a pharmacy", "pharmacist", "customer",
+         "In a fictional scene, ask about opening hours and how to contact a pharmacist.",
+         ["une pharmacie", "les horaires"], ["polite questions"]),
         (
             "supermarket",
             "Shopping at a supermarket",
@@ -105,6 +114,9 @@ DEFINITIONS = {
         ),
     ],
     "B1": [
+        ("doctor", "Talking to a doctor", "doctor in a fictional roleplay", "visitor",
+         "Practice describing a fictional symptom and when it began.",
+         ["depuis", "un rendez-vous"], ["duration with depuis"]),
         (
             "experience",
             "Describing a past experience",
@@ -221,6 +233,39 @@ DEFINITIONS = {
         ),
     ],
 }
+
+BRIEFS = {
+    "introductions": ("Bonjour ! Comment vous appelez-vous ?", "Give a fictional name and ask one question."),
+    "boulangerie": ("Bonjour ! Qu’est-ce que vous désirez ?", "Order an item politely and close the exchange."),
+    "restaurant": ("Bonjour ! Vous avez choisi ?", "Order a meal and ask for the bill."),
+    "supermarket": ("Bonjour ! Qu’est-ce que vous cherchez ?", "Ask where to find an item and confirm a quantity."),
+    "directions": ("Bonjour ! Vous cherchez un endroit ?", "Ask for directions and confirm one step."),
+    "transport": ("Bonjour ! Où voulez-vous aller ?", "Ask for a ticket and confirm the stop."),
+    "pharmacy": ("Bonjour ! Vous souhaitez parler au pharmacien ?", "Ask a fictional pharmacy service question."),
+    "doctor": ("Bonjour ! Depuis quand avez-vous mal dans cette situation fictive ?", "Describe a fictional symptom and its duration."),
+    "appointment": ("Bonjour ! Quel jour vous conviendrait ?", "Propose a date and confirm the time."),
+    "interview": ("Bonjour ! Pouvez-vous vous présenter ?", "Present fictional experience and ask a relevant question."),
+}
+
+LANGUAGE_ONLY = (
+    "This is fictional language practice. Do not diagnose, recommend treatment, provide medication "
+    "instructions or ask for real health details. Redirect requests for medical advice to language practice."
+)
+
+# Use authored dialogue in these two scenarios so an injected prompt cannot
+# turn roleplay into individualized medical guidance.
+LANGUAGE_ONLY_TURNS = {
+    "a2-pharmacy": (
+        "Pour cet exercice de français, demandez les horaires de la pharmacie.",
+        "La pharmacie ouvre à neuf heures. Voulez-vous parler au pharmacien ?",
+        "Vous pouvez dire : « Puis-je parler au pharmacien, s’il vous plaît ? »",
+    ),
+    "b1-doctor": (
+        "Dans cette scène fictive, depuis quand avez-vous mal ?",
+        "Pour pratiquer la durée, commencez par « Depuis hier » ou « Depuis deux jours ».",
+        "Reformulez votre phrase fictive en utilisant « depuis ».",
+    ),
+}
 SCENARIOS = [
     Scenario(
         id=level.lower() + "-" + key,
@@ -236,11 +281,14 @@ SCENARIOS = [
         ],
         suggested_vocabulary=vocab,
         target_grammar=grammar,
+        opening_french=BRIEFS.get(key, ("Bonjour ! On commence ?", ""))[0],
+        target_turns=4 if level == "A1" else 6,
+        completion_criteria=[BRIEFS.get(key, ("", "Answer and ask a relevant question."))[1]],
         conversation_constraints=[
             "Use fictional details; do not request sensitive personal information",
             "Offer hints on request",
             "Keep each turn appropriate to the learner level",
-        ],
+        ] + ([LANGUAGE_ONLY] if key in {"pharmacy", "doctor"} else []),
         evaluation_guidance="On finish, summarize observed strengths and specific mistakes only; no formal proficiency assessment.",
     )
     for level, rows in DEFINITIONS.items()
