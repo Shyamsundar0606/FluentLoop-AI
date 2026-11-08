@@ -16,7 +16,27 @@ export function LessonReading({ lesson, stage }: { lesson: LearningSession['less
   }
   const examples = lesson.grammar.flatMap(t => t.rules.flatMap(r => r.examples));
   const unique = [...new Map(examples.map(e => [e.french, e])).values()];
+  const teaching = lesson.grammar.map(topic => topic.teaching).filter(Boolean);
   return <><h2 className="text-2xl font-bold">French examples</h2>
     {unique.length ? <ul className="mt-4 space-y-4">{unique.map(e => <li key={e.french} className="rounded-xl bg-violet-50 p-4"><p lang="fr" className="text-lg font-semibold">{e.french}</p><p className="mt-1 text-slate-600">{e.english}</p></li>)}</ul> : lesson.dialogues.length ? lesson.dialogues.map(d => <div key={d.title} className="mt-4"><h3 className="font-semibold">{d.title}</h3>{d.turns.map((t,i) => <p className="mt-3" key={i}><strong lang="fr">{t.french}</strong><span className="block text-slate-600">{t.english}</span></p>)}</div>) : <ul className="mt-4 space-y-3">{lesson.vocabulary.map(w => <li key={w.lemma}><strong lang="fr">{w.lemma}</strong><span className="ml-2 text-slate-600">{w.translation}</span></li>)}</ul>}
+    {teaching.map((topic, index) => <div key={index} className="mt-4 space-y-3">
+      {!!topic?.forms?.length && <table className="w-full text-left">
+        <caption className="text-left font-semibold">Present tense</caption>
+        <thead><tr><th scope="col">Subject</th><th scope="col">Form</th></tr></thead>
+        <tbody lang="fr">{topic.forms.map(([subject, form]) => <tr key={subject} className="border-b border-slate-200">
+          <th scope="row" className="py-1 font-medium">{subject}</th><td>{form}</td>
+        </tr>)}</tbody>
+      </table>}
+      {!!topic?.common_mistakes?.length && <details><summary>Common mistakes</summary>
+        <ul className="list-disc pl-5">{topic.common_mistakes.map(mistake => <li key={mistake.incorrect}>
+          <span lang="fr">{mistake.incorrect} → {mistake.correct}</span> · {mistake.explanation}
+        </li>)}</ul>
+      </details>}
+      {topic?.vocabulary_examples && <details><summary>Vocabulary in context</summary>
+        <ul className="list-disc pl-5">{Object.entries(topic.vocabulary_examples).map(([word, [french, english]]) =>
+          <li key={word}><strong lang="fr">{word}</strong> · <span lang="fr">{french}</span> · {english}</li>)}</ul>
+      </details>}
+      {topic?.recap && <p><strong>Remember</strong> · {topic.recap}</p>}
+    </div>)}
   </>;
 }

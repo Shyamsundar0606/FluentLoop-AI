@@ -170,7 +170,7 @@ def publish_course(
     if not integrity["technical_integrity_passed"] or integrity["publication_source_sha256"] != review.source_sha256:
         raise ValueError("Automated content validation/source consistency failed; publication blocked.")
     administrator = db.get(User, review.publication_decision.administrator_user_id, with_for_update=True)
-    if administrator is None or administrator.role != "admin":
+    if administrator is None or administrator.role != "admin" or not administrator.is_active or not administrator.email_verified_at:
         raise ValueError("Publication decision must identify a current authorized administrator.")
     previous = []
     for lesson in lessons:
@@ -186,6 +186,21 @@ def publish_course(
         raise ValueError("Review and publication decision dates cannot be in the future.")
     if any(a.reviewed_at > review.publication_decision.decided_at for a in approvals):
         raise ValueError("The authorized publication decision must follow all required reviews.")
+    from app.course_review import digest_packet, packet, provenance, readiness, validate_packet
+    source = provenance(db, course, lock=True)
+    if source is None:
+        raise ValueError("Current course review provenance is missing.")
+    content = packet(db, course, source)
+    history = source.review_metadata.get("independent_reviews", [])
+    digest = digest_packet(content)
+    if validate_packet(content) or not readiness(history, digest, course.content_version)["complete"]:
+        raise ValueError("Publication requires five current independent reviews and a valid content packet.")
+    if any(datetime.fromisoformat(entry["reviewed_at"]) > review.publication_decision.decided_at
+           for entry in history if entry["digest"] == digest and entry["version"] == course.content_version):
+        raise ValueError("The publication decision must follow the current independent review history.")
+    if db.scalar(select(GrammarTopic.id).where(GrammarTopic.slug.in_(grammar_slugs),
+            GrammarTopic.publication_status.in_(("draft", "review", "retired"))).limit(1)):
+        raise ValueError("The starter course still depends on unpublished grammar. Resolve its review before publication.")
     all_provenance = db.scalars(
         select(ContentProvenance).where(
             ContentProvenance.import_batch_id == batch.id,
@@ -245,7 +260,7 @@ def publish_course(
     }
     for provenance in provenance_rows:
         provenance.review_state = "published"
-        provenance.review_metadata = review_metadata
+        provenance.review_metadata = {**provenance.review_metadata, **review_metadata}
 
     return {
         "courses_published": 1,

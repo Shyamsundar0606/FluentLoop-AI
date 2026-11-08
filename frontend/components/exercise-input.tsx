@@ -11,7 +11,15 @@ export function ExerciseInput({ exercise, sessionId, disabled, value, onChange }
   const [audioError, setAudioError] = useState('');
   const [loading, setLoading] = useState(false);
   const url = useRef('');
+  const writtenInput = useRef<HTMLInputElement>(null);
+  const selection = useRef<number | null>(null);
   useEffect(() => () => { if (url.current) URL.revokeObjectURL(url.current); }, []);
+  useEffect(() => {
+    if (selection.current === null || !writtenInput.current) return;
+    writtenInput.current.focus();
+    writtenInput.current.setSelectionRange(selection.current, selection.current);
+    selection.current = null;
+  }, [value]);
   const kind = exercise.type;
   async function loadAudio() {
     setLoading(true); setAudioError('');
@@ -25,7 +33,7 @@ export function ExerciseInput({ exercise, sessionId, disabled, value, onChange }
   if (kind === 'multiple_choice' || kind === 'listening') return <>
     {kind === 'listening' && <div className="mt-4 space-y-3">
       {!audio && <button type="button" className="btn-secondary" disabled={loading} onClick={() => void loadAudio()}>{loading ? 'Preparing audio…' : 'Load French audio'}</button>}
-      {audio && <audio aria-label="French listening audio" controls src={audio} preload="auto" />}
+      {audio && <audio aria-label="French listening audio" className="max-w-full" controls src={audio} preload="auto" />}
       {audioError && <p role="alert">{audioError} <button type="button" onClick={() => void loadAudio()} disabled={loading}>Retry audio</button></p>}
     </div>}
     <fieldset className="mt-5 space-y-3" disabled={disabled}><legend className="sr-only">Choose an answer</legend>
@@ -34,10 +42,27 @@ export function ExerciseInput({ exercise, sessionId, disabled, value, onChange }
       </label>)}
     </fieldset>
   </>;
-  if (kind === 'fill_blank' || kind === 'short_answer' || kind === 'translation') return <label className="mt-5 block font-medium">Your answer
-    <input className="mt-2 block w-full rounded-xl border border-slate-300 p-4" lang="fr" autoComplete="off" spellCheck={false} maxLength={1000} disabled={disabled}
+  if (kind === 'fill_blank' || kind === 'short_answer' || kind === 'translation') return <>
+    <label className="mt-5 block font-medium">Your answer
+    <input ref={writtenInput} className="mt-2 block w-full rounded-xl border border-slate-300 p-4" lang="fr" autoComplete="off" spellCheck={false} maxLength={1000} disabled={disabled}
       value={value && 'text_answer' in value ? value.text_answer : ''} onChange={event => onChange(event.target.value.trim() ? { text_answer: event.target.value } : null)} />
-  </label>;
+    </label>
+    <div role="group" aria-label="Insert a French character" className="mt-2 flex flex-wrap gap-2">
+      {['à', 'â', 'æ', 'ç', 'é', 'è', 'ê', 'ë', 'î', 'ï', 'ô', 'œ', 'ù', 'û', 'ü', 'ÿ'].map(character =>
+        <button key={character} type="button" disabled={disabled} aria-label={`Insert ${character}`}
+          className="min-h-8 min-w-8 rounded border border-violet-200 px-2 text-violet-800"
+          onClick={() => {
+            const input = writtenInput.current;
+            if (!input) return;
+            const start = input.selectionStart ?? input.value.length;
+            const end = input.selectionEnd ?? start;
+            const next = input.value.slice(0, start) + character + input.value.slice(end);
+            if (next.length > input.maxLength) return;
+            selection.current = start + character.length;
+            onChange({ text_answer: next });
+          }}>{character}</button>)}
+    </div>
+  </>;
   if (kind === 'sentence_order') {
     const ids = value && 'tile_ids' in value ? value.tile_ids : [];
     const tiles = exercise.tiles ?? [];
@@ -54,7 +79,7 @@ export function ExerciseInput({ exercise, sessionId, disabled, value, onChange }
     const matches = value && 'matches' in value ? value.matches : {};
     return <fieldset className="mt-5 space-y-4" disabled={disabled}><legend className="font-medium">Match the meanings</legend>
       {(exercise.left_items ?? []).map(left => <label className="grid gap-2 sm:grid-cols-2 sm:items-center" key={left.id}><span lang="fr">{left.text}</span>
-        <select aria-label={left.text} className="rounded-xl border border-slate-300 p-3" value={matches[left.id] ?? ''} onChange={event => {
+        <select aria-label={left.text} className="min-w-0 w-full rounded-xl border border-slate-300 p-3" value={matches[left.id] ?? ''} onChange={event => {
           const next = { ...matches }; if (event.target.value) next[left.id] = event.target.value; else delete next[left.id]; onChange({ matches: next });
         }}><option value="">Choose meaning</option>{(exercise.right_items ?? []).map(right => <option key={right.id} value={right.id} disabled={Object.entries(matches).some(([id, v]) => id !== left.id && v === right.id)}>{right.text}</option>)}</select>
       </label>)}

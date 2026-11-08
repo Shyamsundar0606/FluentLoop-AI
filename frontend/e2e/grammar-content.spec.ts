@@ -5,7 +5,7 @@ test.use({ trace: 'off' });
 test.skip(process.env.M083_E2E !== '1', 'Requires the disposable 08.3 browser environment.');
 const api = process.env.PLAYWRIGHT_API_BASE_URL;
 
-async function login(page: Page, role: 'admin' | 'learner') {
+async function login(page: Page, role: 'admin' | 'learner' | 'reviewer') {
   await page.goto('/login');
   await page.getByLabel('Email').fill(process.env[`M083_${role.toUpperCase()}_EMAIL`]!);
   await page.locator('input[autocomplete="current-password"]').fill(process.env.M083_PASSWORD!);
@@ -13,7 +13,7 @@ async function login(page: Page, role: 'admin' | 'learner') {
   await expect(page).toHaveURL(/\/dashboard$/);
   const response = await page.request.get(`${api}/auth/me`);
   expect(response.status()).toBe(200);
-  expect((await response.json()).user.role).toBe(role);
+  expect((await response.json()).user.role).toBe(role === 'reviewer' ? 'learner' : role);
 }
 
 test('draft lesson, listening replay, topic practice, and mistake review', async ({ page }) => {
@@ -61,7 +61,7 @@ test('draft lesson, listening replay, topic practice, and mistake review', async
   const topic = (await option.getAttribute('value'))!;
   await picker.selectOption(topic);
   await expect(grammar.getByRole('heading', { name: 'French examples' })).toBeVisible();
-  for (const width of [390, 320]) {
+  for (const width of [320, 390, 768, 1024]) {
     await page.setViewportSize({ width, height: 900 });
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(true);
   }
@@ -109,4 +109,18 @@ test('learner cannot fetch draft grammar or use the direct lesson URL', async ({
   expect((await page.request.get(`${api}/lessons/${lessonId}`)).status()).toBe(404);
   await page.goto(`/learn/${lessonId}`);
   await expect(page.getByText('Lesson not found.', { exact: true })).toBeVisible();
+  await page.goto('/profile/curriculum-review');
+  await expect(page.getByText('Curriculum review access required.', { exact: true })).toBeVisible();
+});
+
+test('an explicitly granted reviewer can record a versioned finding', async ({ page }) => {
+  await login(page, 'reviewer');
+  await page.goto('/profile/curriculum-review');
+  await page.getByRole('button', { name: /A1 grammar and everyday French/ }).click();
+  await page.getByLabel('Findings').fill('Synthetic browser check of a language review.');
+  await page.getByLabel('Required corrections').fill('A synthetic finding for disposable verification.');
+  await page.getByRole('button', { name: 'Save review decision' }).click();
+  await expect(page.getByText('Review decision saved.')).toBeVisible();
+  await page.getByText('Decision history', { exact: true }).click();
+  await expect(page.getByText(/Synthetic browser check of a language review/)).toBeVisible();
 });

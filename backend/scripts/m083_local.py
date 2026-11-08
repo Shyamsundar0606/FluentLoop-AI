@@ -6,6 +6,7 @@ import socket
 import subprocess
 import sys
 import time
+from pathlib import Path
 from urllib.error import URLError
 from urllib.request import urlopen
 from uuid import uuid4
@@ -53,16 +54,22 @@ def seed(database_url, settings):
         pack = load_supplement()
         print("Supplement import:", json.dumps(import_supplement(db, pack)))
         print("Supplement repeat:", json.dumps(import_supplement(db, pack)))
-        for role in ("admin", "learner"):
-            email = f"m083-{role}-{uuid4().hex[:10]}@example.com"
-            accounts[f"M083_{role.upper()}_EMAIL"] = email
+        for identity in ("admin", "learner", "reviewer"):
+            email = f"m083-{identity}-{uuid4().hex[:10]}@example.com"
+            accounts[f"M083_{identity.upper()}_EMAIL"] = email
             local.secrets.append(email)
-            user = User(email=email, role=role, password_hash=hash_password(password), email_verified_at=utcnow())
+            user = User(email=email, role="admin" if identity == "admin" else "learner",
+                        password_hash=hash_password(password), email_verified_at=utcnow())
             db.add(user)
             db.flush()
             db.add(UserProfile(user_id=user.id, display_name="Curriculum tester", onboarding_completed_at=utcnow()))
             db.add(UserPreferences(user_id=user.id))
+            if identity == "reviewer":
+                settings["CURRICULUM_REVIEWER_GRANTS"] = json.dumps({str(user.id): {
+                    "categories": ["linguistic_accuracy"], "qualification": "Synthetic isolated browser fixture"
+                }})
         accounts["M083_LESSON_ID"] = str(db.scalar(select(Lesson.id).where(Lesson.slug == "m083-introducing-yourself")))
+        accounts["M083_INTERACTIVE_LESSON_ID"] = str(db.scalar(select(Lesson.id).where(Lesson.slug == "m08-etre-interactive-lesson")))
     return accounts
 
 
@@ -90,7 +97,7 @@ def main():
         processes = []
         try:
             processes.append(subprocess.Popen(
-                [sys.executable, "-m", "uvicorn", "app.main:app", "--host", "127.0.0.1", "--port", "8012"],
+                [sys.executable, str(Path(__file__).resolve()), "--api"],
                 cwd=local.ROOT / "backend", env={**os.environ, **settings}, stdout=api_log, stderr=subprocess.STDOUT))
             processes.append(subprocess.Popen(
                 ["node.exe", "node_modules/next/dist/bin/next", "start", "--hostname", "127.0.0.1", "--port", "3012"],
@@ -99,9 +106,9 @@ def main():
             wait_for(FRONTEND + "/login", processes[1])
             test_env = {**browser, **accounts, "PLAYWRIGHT_BASE_URL": FRONTEND,
                         "PLAYWRIGHT_API_BASE_URL": API, "PLAYWRIGHT_CSRF_COOKIE_NAME": "fluentloop_m083_csrf",
-                        "M083_E2E": "1"}
+                        "M083_E2E": "1", "M08_E2E_REAL_API": "1", "M08_E2E_SESSION_COOKIE_NAME": "fluentloop_m083_session"}
             result = subprocess.run(
-                ["node.exe", "node_modules/@playwright/test/cli.js", "test", "grammar-content.spec.ts", "--workers=1",
+                ["node.exe", "node_modules/@playwright/test/cli.js", "test", "grammar-content.spec.ts", "authorized-preview.spec.ts", "--workers=1",
                  "--trace", "off", "--output", str(folder / "browser")],
                 cwd=front, env=test_env, capture_output=True, text=True, encoding="utf-8", errors="replace")
             print(local.safe(result.stdout + result.stderr))
@@ -112,5 +119,30 @@ def main():
                 process.wait(timeout=15)
 
 
+def run_api():
+    if not local.make_url(os.environ["DATABASE_URL"]).database.startswith("fluentloop_m08_3_test_"):
+        raise SystemExit("Disposable API requires a dedicated test database.")
+    sys.path.insert(0, str(local.ROOT / "backend"))
+    from app.services import rate_limit
+    import uvicorn
+
+    class TestNamespace:
+        def __init__(self, client):
+            self.client = client
+            self.prefix = f"m083-test:{uuid4().hex}:"
+
+        def eval(self, script, count, key, *args):
+            return self.client.eval(script, count, self.prefix + key, *args)
+
+        def ttl(self, key):
+            return self.client.ttl(self.prefix + key)
+
+    rate_limit.redis_client = TestNamespace(rate_limit.redis_client)
+    uvicorn.run("app.main:app", host="127.0.0.1", port=8012)
+
+
 if __name__ == "__main__":
-    sys.exit(main())
+    if sys.argv[1:] == ["--api"]:
+        run_api()
+    else:
+        sys.exit(main())

@@ -107,6 +107,50 @@ def _accessible_lesson(db: Session, lesson_id: UUID, user: User) -> tuple[Lesson
     raise HTTPException(status_code=404, detail="Lesson not found.")
 
 
+def lesson_vocabulary(db, lesson_ids):
+    first_sense = select(WordSense.id).where(WordSense.lexeme_id == Lexeme.id).order_by(
+        WordSense.sense_number).limit(1).correlate(Lexeme).scalar_subquery()
+    translation = select(Translation.translated_text).where(
+        Translation.word_sense_id == WordSense.id, Translation.language_code == "en"
+    ).order_by(Translation.translated_text).limit(1).correlate(WordSense).scalar_subquery()
+    pronunciation = select(Pronunciation.ipa).where(Pronunciation.lexeme_id == Lexeme.id).order_by(
+        Pronunciation.accent_variant).limit(1).correlate(Lexeme).scalar_subquery()
+    rows = db.execute(select(LessonVocabulary.lesson_id, Lexeme, WordSense, translation, pronunciation)
+        .select_from(LessonVocabulary).join(Lexeme, Lexeme.id == LessonVocabulary.lexeme_id)
+        .join(WordSense, WordSense.id == first_sense).where(LessonVocabulary.lesson_id.in_(lesson_ids))
+        .order_by(LessonVocabulary.lesson_id, LessonVocabulary.sequence_order))
+    result = {}
+    for lesson_id, lexeme, sense, english, ipa in rows:
+        result.setdefault(lesson_id, []).append(dict(
+            lemma=lexeme.lemma, part_of_speech=lexeme.part_of_speech, grammatical_gender=lexeme.grammatical_gender,
+            translation=english or sense.explanation_english, definition_french=sense.definition_french, ipa=ipa))
+    return result
+
+
+def grammar_rules(db, topic_ids):
+    rules = db.scalars(select(GrammarRule).where(GrammarRule.topic_id.in_(topic_ids))
+        .order_by(GrammarRule.rule_code)).all()
+    examples = {}
+    if rules:
+        for example in db.scalars(select(GrammarExample).where(GrammarExample.rule_id.in_([rule.id for rule in rules]))
+            .order_by(GrammarExample.french_sentence, GrammarExample.english_translation)):
+            examples.setdefault(example.rule_id, []).append(dict(
+                french=example.french_sentence, english=example.english_translation))
+    result = {}
+    for rule in rules:
+        result.setdefault(rule.topic_id, []).append(dict(code=rule.rule_code, exceptions=rule.exceptions,
+            explanation=rule.explanation_english, explanation_fr=rule.explanation_french, examples=examples.get(rule.id, [])))
+    return result
+
+
+def rules_for_lesson(topic, lesson, rules):
+    metadata = topic.teaching_metadata
+    if metadata.get("curriculum_supplement"):
+        preferred = lesson.slug == metadata["preferred_lesson_slug"]
+        return [rule for rule in rules if (rule["code"] == metadata["rule_code"]) == preferred]
+    return rules
+
+
 def _lesson_snapshot(db: Session, lesson: Lesson, unit: Unit, course: Course, user: User | None = None) -> dict:
     objectives = db.scalars(
         select(LearningObjective)
@@ -119,41 +163,7 @@ def _lesson_snapshot(db: Session, lesson: Lesson, unit: Unit, course: Course, us
         .where(LessonSection.lesson_id == lesson.id)
         .order_by(LessonSection.sequence_order)
     ).all()
-    vocabulary: list[dict] = []
-    lexemes = db.scalars(
-        select(Lexeme)
-        .join(LessonVocabulary, LessonVocabulary.lexeme_id == Lexeme.id)
-        .where(LessonVocabulary.lesson_id == lesson.id)
-        .order_by(LessonVocabulary.sequence_order)
-    ).all()
-    for lexeme in lexemes:
-        sense = db.scalar(
-            select(WordSense)
-            .where(WordSense.lexeme_id == lexeme.id)
-            .order_by(WordSense.sense_number)
-        )
-        if sense is None:
-            continue
-        translation = db.scalar(
-            select(Translation.translated_text)
-            .where(Translation.word_sense_id == sense.id, Translation.language_code == "en")
-            .order_by(Translation.translated_text)
-        )
-        pronunciation = db.scalar(
-            select(Pronunciation.ipa)
-            .where(Pronunciation.lexeme_id == lexeme.id)
-            .order_by(Pronunciation.accent_variant)
-        )
-        vocabulary.append(
-            {
-                "lemma": lexeme.lemma,
-                "part_of_speech": lexeme.part_of_speech,
-                "grammatical_gender": lexeme.grammatical_gender,
-                "translation": translation or sense.explanation_english,
-                "definition_french": sense.definition_french,
-                "ipa": pronunciation,
-            }
-        )
+    vocabulary = lesson_vocabulary(db, [lesson.id]).get(lesson.id, [])
 
     grammar: list[dict] = []
     topics = db.scalars(
@@ -162,41 +172,16 @@ def _lesson_snapshot(db: Session, lesson: Lesson, unit: Unit, course: Course, us
         .where(LessonGrammar.lesson_id == lesson.id)
         .order_by(GrammarTopic.title, GrammarTopic.slug)
     ).all()
-    for topic in topics:
-        if user is None or not topic_allowed(topic,user):
-            continue
-        rules = db.scalars(
-            select(GrammarRule).where(GrammarRule.topic_id == topic.id).order_by(GrammarRule.rule_code)
-        ).all()
-        if topic.teaching_metadata.get("curriculum_supplement"):
-            authored_code = topic.teaching_metadata["rule_code"]
-            preferred = lesson.slug == topic.teaching_metadata["preferred_lesson_slug"]
-            rules = [rule for rule in rules if (rule.rule_code == authored_code) == preferred]
+    permitted_topics = [topic for topic in topics if user is not None and topic_allowed(topic, user)]
+    rules = grammar_rules(db, [topic.id for topic in permitted_topics]) if permitted_topics else {}
+    for topic in permitted_topics:
         grammar.append(
             {
                 "id": str(topic.id),
                 "title": topic.title,
                 "summary": topic.summary,
-                "rules": [
-                    {
-                        "code": rule.rule_code,
-                        "exceptions": rule.exceptions,
-                        "explanation": rule.explanation_english,
-                        "explanation_fr": rule.explanation_french,
-                        "examples": [
-                            {
-                                "french": example.french_sentence,
-                                "english": example.english_translation,
-                            }
-                            for example in db.scalars(
-                                select(GrammarExample)
-                                .where(GrammarExample.rule_id == rule.id)
-                                .order_by(GrammarExample.french_sentence)
-                            ).all()
-                        ],
-                    }
-                    for rule in rules
-                ],
+                "teaching": topic.teaching_metadata if topic.teaching_metadata.get("preferred_lesson_slug") == lesson.slug else {},
+                "rules": rules_for_lesson(topic, lesson, rules.get(topic.id, [])),
             }
         )
 

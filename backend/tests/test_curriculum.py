@@ -93,12 +93,22 @@ def _import(sessions) -> dict[str, int]:
 
 
 def _publish_a1(sessions) -> None:
-    record = _approved_test_review_record()
+    from app.course_review import CATEGORIES, digest_packet, packet, provenance
     with sessions.begin() as db:
         if not db.get(User, UUID(int=1)):
             db.add(User(id=UUID(int=1), email="publication-test-admin@example.com",
-                password_hash="not-a-login-fixture", role="admin"))
+                password_hash="not-a-login-fixture", role="admin", email_verified_at=datetime.now(timezone.utc)))
             db.flush()
+        record = _approved_test_review_record()
+        course = db.scalar(select(Course).where(Course.slug == record.course_slug))
+        source = provenance(db, course)
+        digest = digest_packet(packet(db, course, source))
+        source.review_metadata = {**source.review_metadata, "independent_reviews": [
+            dict(category=category, version=course.content_version, digest=digest, status="approved",
+                 reviewer_id=str(UUID(int=index + 2)), qualification="Synthetic test qualification",
+                 evidence="Synthetic test evidence", reviewed_at="2026-11-01T00:00:00Z")
+            for index, category in enumerate(CATEGORIES)
+        ]}
         result = publish_course(db, record)
         assert result["lessons_published"] == 10
         outline = db.scalar(

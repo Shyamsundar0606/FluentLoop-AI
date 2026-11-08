@@ -13,7 +13,7 @@ export function MistakePractice({level,lessonId}:{level:string;lessonId?:string}
   useEffect(()=>{let active=true;apiRequest<{items:Mistake[]}>(`/learning/mistakes?level=${level}${lessonId?`&lesson_id=${encodeURIComponent(lessonId)}`:''}`)
     .then(result=>{if(active)setLoaded({key,items:result.items});}).catch(()=>{if(active)setLoaded({key,items:[],error:'Mistakes could not be loaded. Refresh to retry.'});});return()=>{active=false;};},[key,level,lessonId]);
   async function start(item:Mistake){if(busy.current)return;busy.current=true;setPending(item.attempt_id);setError('');
-    try{const saved=await apiRequest<{id:string}>('/learning/practice/sessions',{method:'POST',body:JSON.stringify({category:'mistakes',level,lesson_id:item.lesson_id,learning_objective_id:item.learning_objective_id??undefined})});router.push(`/learning/sessions/${saved.id}`);}
+    try{const saved=await apiRequest<{id:string}>('/learning/practice/sessions',{method:'POST',body:JSON.stringify({category:'mistakes',level,lesson_id:item.lesson_id,attempt_id:item.attempt_id})});router.push(`/learning/sessions/${saved.id}`);}
     catch(reason){setError(reason instanceof Error?reason.message:'Practice is unavailable.');busy.current=false;setPending('');}}
   return <section aria-label="Mistake review" className="mt-6"><Link className="text-sm font-semibold text-violet-700" href={`/practice?level=${level.toLowerCase()}`}>← Back to practice</Link><h2 className="mt-4 text-2xl font-bold">Review mistakes</h2>
     <p className="mt-3 text-slate-600">These are recorded, unresolved exercise errors at the current content version. Practice uses the existing learning engine and does not change vocabulary due dates.</p>

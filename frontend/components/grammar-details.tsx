@@ -9,6 +9,7 @@ interface Topic {
   rules:{explanation:string;exceptions?:string|null;examples:{french:string;english:string}[]}[];
   teaching:{version?:string;when_to_use?:string;common_mistakes?:{incorrect:string;correct:string;explanation:string}[];recap?:string;source_license?:string;attribution?:string;situation?:string;forms?:[string,string][];preferred_lesson_slug?:string;vocabulary_examples?:Record<string,[string,string]>;noun_forms?:Record<string,[string,string]>};
   objectives:{title:string}[];vocabulary:{lemma:string;translation:string;part_of_speech?:string;grammatical_gender?:string;ipa?:string}[];
+  recent_correct?:number; recent_mistakes?:number;
 }
 export function GrammarDetails({level,onEnhancedTopics}:{level:string;onEnhancedTopics?:(ids:string[])=>void}) {
   const router=useRouter();const query=useSearchParams();const busy=useRef(false);
@@ -40,6 +41,9 @@ export function GrammarDetails({level,onEnhancedTopics}:{level:string;onEnhanced
       <h3 className="mt-5 font-semibold">French examples</h3><ul className="mt-3 space-y-3">{topic.rules.flatMap(r=>r.examples).map((e,i)=><li className="rounded-xl bg-violet-50 p-4" key={`${e.french}-${i}`}><strong lang="fr">{e.french}</strong><span className="mt-1 block text-slate-600">{e.english}</span></li>)}</ul>
       <h3 className="mt-5 font-semibold">Common mistakes</h3>{mistakes.length?mistakes.map(m=><div className="mt-3" key={m.incorrect}><p lang="fr">{m.incorrect} → <strong>{m.correct}</strong></p><p className="mt-1 text-sm text-slate-600">{m.explanation}</p></div>):notes.length?notes.map((note,i)=><p className="mt-2" key={i}>{note}</p>):<p className="mt-2 text-sm text-slate-500">Separate authored mistake notes are not available for this topic yet.</p>}
       <h3 className="mt-5 font-semibold">Remember</h3><p className="mt-2">{topic.teaching.recap??topic.summary}</p>
+      {!!((topic.recent_correct ?? 0) + (topic.recent_mistakes ?? 0)) && <p className="mt-3 text-sm text-slate-600">
+        Recent answers for this topic · {topic.recent_correct} correct · {topic.recent_mistakes} to review
+      </p>}
       <button type="button" className="button button-primary mt-6" disabled={!topic.available_exercises||pending} onClick={()=>void practice()}>{pending?'Opening…':'Practice this grammar'}</button>
       {!topic.available_exercises&&<p className="mt-2 text-sm text-slate-500">No explicitly linked authorized grammar exercises are available for this topic yet.</p>}
       {topic.lesson_ids[0]&&<LessonActions lessonId={topic.lesson_ids[0]}/>}

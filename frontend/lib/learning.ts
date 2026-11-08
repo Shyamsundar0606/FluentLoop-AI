@@ -65,6 +65,12 @@ export interface LearningSession {
     grammar: {
       title: string;
       summary: string;
+      teaching?: {
+        forms?: [string, string][];
+        recap?: string;
+        common_mistakes?: { incorrect: string; correct: string; explanation: string }[];
+        vocabulary_examples?: Record<string, [string, string]>;
+      };
       rules: {
         explanation: string;
         examples: { french: string; english: string }[];

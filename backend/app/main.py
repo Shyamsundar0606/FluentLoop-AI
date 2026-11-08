@@ -7,6 +7,7 @@ from app.api.v1.system import router as system_router
 from app.api.v1.auth import router as auth_router
 from app.api.v1.users import router as users_router
 from app.api.v1.curriculum import router as curriculum_router
+from app.api.v1.content_review import router as content_review_router
 from app.api.v1.learning import router as learning_router
 from app.api.v1.ai import router as ai_router
 from app.api.v1.speech import router as speech_router
@@ -42,6 +43,7 @@ app.include_router(system_router, prefix=settings.api_prefix)
 app.include_router(auth_router, prefix=settings.api_prefix)
 app.include_router(users_router, prefix=settings.api_prefix)
 app.include_router(curriculum_router, prefix=settings.api_prefix)
+app.include_router(content_review_router, prefix=settings.api_prefix)
 app.include_router(learning_router, prefix=settings.api_prefix)
 app.include_router(ai_router, prefix=settings.api_prefix)
 app.include_router(speech_router, prefix=settings.api_prefix)
@@ -80,6 +82,7 @@ async def private_api_responses(request, call_next):
         f"{settings.api_prefix}/speech",
         f"{settings.api_prefix}/study",
         f"{settings.api_prefix}/review",
+        f"{settings.api_prefix}/content-review",
     )
     if request.url.path.startswith(private_prefixes):
         response.headers["Cache-Control"] = "no-store"

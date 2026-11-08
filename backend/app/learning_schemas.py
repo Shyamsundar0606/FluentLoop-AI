@@ -42,6 +42,7 @@ class PracticeRequest(LearningRequest):
     grammar_topic_id: UUID | None = None
     learning_objective_id: UUID | None = None
     lesson_id: UUID | None = None
+    attempt_id: UUID | None = None
 
 
 class SessionExerciseOption(BaseModel):

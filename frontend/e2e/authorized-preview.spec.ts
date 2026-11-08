@@ -9,7 +9,10 @@ type Fixture = { admin: string; learner: string; lesson_id: string; password: st
 let fixture: Fixture;
 test.beforeEach(() => {
   test.skip(process.env.M08_E2E_REAL_API !== '1', 'Requires the existing isolated M08 API/PostgreSQL.');
-  fixture = JSON.parse(readFileSync('../.speech-data/m08-browser-fixture.json', 'utf8'));
+  fixture = process.env.M083_E2E === '1'
+    ? { admin: process.env.M083_ADMIN_EMAIL!, learner: process.env.M083_LEARNER_EMAIL!,
+        password: process.env.M083_PASSWORD!, lesson_id: process.env.M083_INTERACTIVE_LESSON_ID! }
+    : JSON.parse(readFileSync('../.speech-data/m08-browser-fixture.json', 'utf8'));
 });
 async function login(page: Page, email: string) {
   await page.goto('/login'); await page.getByLabel('Email').fill(email);
@@ -29,6 +32,10 @@ async function headers(page: Page) {
 
 test('the designated admin retains draft access across Learn tabs and loses it on sign-out', async ({ page }) => {
   await login(page, fixture.admin);
+  const navigation = page.getByRole('navigation', { name: 'Main navigation' });
+  await expect(navigation.getByRole('link')).toHaveText(['Home', 'Learn', 'AI Tutor', 'Speak', 'Profile']);
+  await navigation.getByRole('link', { name: 'Profile', exact: true }).click();
+  await expect(page.getByRole('heading', { name: 'Your profile' })).toBeVisible();
   const profile = await page.request.get(`${base}/auth/me`);
   expect(profile.status()).toBe(200);
   const { user } = await profile.json();
@@ -37,7 +44,7 @@ test('the designated admin retains draft access across Learn tabs and loses it o
   expect(user.email_verified).toBe(true);
 
   const cookies = await page.context().cookies();
-  const sessionName = 'fluentloop_m08_session';
+  const sessionName = process.env.M08_E2E_SESSION_COOKIE_NAME ?? 'fluentloop_m08_session';
   for (const [name, path, httpOnly] of [[sessionName, '/api/v1', true], [csrfName, '/', false]]) {
     const cookie = cookies.find(cookie => cookie.name === name);
     expect(cookie && { domain: cookie.domain, path: cookie.path, httpOnly: cookie.httpOnly, secure: cookie.secure, sameSite: cookie.sameSite })
@@ -161,7 +168,11 @@ test('mixed answers, explicit errors, resume, idempotency, sign-in persistence a
   await page.getByRole('radio', { name: 'She is here.', exact: true }).check();
   await page.getByRole('button', { name: 'Submit answer', exact: true }).click();
   await page.getByRole('button', { name: 'Continue', exact: true }).click();
-  await page.getByLabel('Your answer', { exact: true }).fill('Je suis étudiante.');
+  const written = page.getByLabel('Your answer', { exact: true });
+  await written.fill('Je suis tudiante.');
+  await written.evaluate((input: HTMLInputElement) => input.setSelectionRange(8, 8));
+  await page.getByRole('button', { name: 'Insert é', exact: true }).click();
+  await expect(written).toHaveValue('Je suis étudiante.');
   await page.getByRole('button', { name: 'Submit answer', exact: true }).click();
   await page.getByRole('button', { name: 'Continue to completion' }).click();
   await page.getByRole('button', { name: 'Complete lesson', exact: true }).click();
