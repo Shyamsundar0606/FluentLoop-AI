@@ -1,10 +1,19 @@
 import json
 from functools import lru_cache
 from pathlib import Path
-from typing import List
+from typing import List, Literal, Annotated
+from uuid import UUID
 
-from pydantic import Field, field_validator, model_validator
+from pydantic import BaseModel, Field, StringConstraints, field_validator, model_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
+
+
+ReviewCategory = Literal["linguistic_accuracy", "phonetics", "pedagogy", "answer_keys", "licensing"]
+
+
+class ReviewGrant(BaseModel):
+    categories: set[ReviewCategory] = Field(min_length=1)
+    qualification: Annotated[str, StringConstraints(strip_whitespace=True, min_length=8, max_length=1000)]
 
 
 class Settings(BaseSettings):
@@ -15,6 +24,9 @@ class Settings(BaseSettings):
         default=False, alias="ENABLE_DRAFT_LEARNING_PREVIEW"
     )
     development_register_limit: int = Field(default=30, alias="DEV_REGISTER_LIMIT")
+    curriculum_reviewer_grants: dict[UUID, ReviewGrant] = Field(
+        default_factory=dict, alias="CURRICULUM_REVIEWER_GRANTS"
+    )
     api_prefix: str = "/api/v1"
     database_url: str = Field(
         default="postgresql+psycopg://db:5432/fluentloop",

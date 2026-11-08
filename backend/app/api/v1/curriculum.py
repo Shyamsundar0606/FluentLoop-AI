@@ -233,12 +233,14 @@ def _grammar_items(
         topic_ids = topic_ids.where(Lesson.id == lesson_id)
     total = db.scalar(
         select(func.count(GrammarTopic.id)).where(
-            GrammarTopic.id.in_(topic_ids), GrammarTopic.cefr_level == level
+            GrammarTopic.id.in_(topic_ids), GrammarTopic.cefr_level == level,
+            GrammarTopic.publication_status.in_(('inherited','published','draft','review') if include_preview else ('inherited','published')),
         )
     ) or 0
     topics = db.scalars(
         select(GrammarTopic)
-        .where(GrammarTopic.id.in_(topic_ids), GrammarTopic.cefr_level == level)
+        .where(GrammarTopic.id.in_(topic_ids), GrammarTopic.cefr_level == level,
+            GrammarTopic.publication_status.in_(('inherited','published','draft','review') if include_preview else ('inherited','published')))
         .order_by(GrammarTopic.title, GrammarTopic.slug)
         .offset(offset)
         .limit(limit)
@@ -588,7 +590,10 @@ def list_lesson_exercises(
         lesson_id,
         include_preview=can_preview_drafts(context.user),
     )
-    query = select(Exercise).where(Exercise.lesson_id == lesson.id)
+    allowed_topics=select(GrammarTopic.id).where(GrammarTopic.publication_status.in_(
+        ('inherited','published','draft','review') if can_preview_drafts(context.user) else ('inherited','published')))
+    query = select(Exercise).where(Exercise.lesson_id == lesson.id).where(
+        (Exercise.grammar_topic_id.is_(None)) | Exercise.grammar_topic_id.in_(allowed_topics))
     total = db.scalar(select(func.count()).select_from(query.subquery())) or 0
     exercises = db.scalars(query.order_by(Exercise.sequence_order).offset(offset).limit(limit)).all()
     return {

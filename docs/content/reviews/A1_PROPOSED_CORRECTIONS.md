@@ -1,4 +1,6 @@
-﻿# A1 corrections proposed for independent review
+# A1 corrections proposed for independent review
+
+> Historical 1.0.1 packet. The [1.0.2 correction results](A1_CONTENT_CORRECTION_RESULTS.md) and [current publication readiness](../../verification/A1_CURRICULUM_PUBLICATION_READINESS.md) supersede the deployed-state findings below. Independent approvals remain pending.
 
 Prepared 3 November 2026. **Review proposals only: none of these changes has been applied to lesson source or a database.** No independent approval or license approval is claimed. The existing version 1.0.1 drafts and their publication states remain intact.
 

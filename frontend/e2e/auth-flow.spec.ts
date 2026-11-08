@@ -148,6 +148,25 @@ async function getVerificationToken(
   );
 }
 
+test('resend verification preserves protected access until the emailed link is verified', async ({page,request}) => {
+  test.setTimeout(120000);
+  const email=`resend-${Date.now()}@example.com`;
+  const password='FluentLoopE2E2026';
+  const base=process.env.PLAYWRIGHT_API_BASE_URL??'http://127.0.0.1:8001/api/v1';
+  const origin=process.env.PLAYWRIGHT_BASE_URL??'http://127.0.0.1:3001';
+  const registration=await request.post(`${base}/auth/register`,{headers:{Origin:origin},data:{display_name:'Verification test',email,password,confirm_password:password}});
+  expect(registration.status()).toBe(201);
+  expect((await request.post(`${base}/auth/login`,{headers:{Origin:origin},data:{email,password}})).status()).toBe(403);
+  await page.goto('/courses');await expect(page).toHaveURL(/\/login/);
+  await page.goto('/verify-email');await page.getByLabel('If you need another link, enter your email').fill(email);
+  await page.getByRole('button',{name:'Verify or resend link'}).click();await expect(page.getByRole('status')).toContainText('If the account needs verification');
+  const token=await getVerificationToken(request,email);
+  await page.goto(`/verify-email#token=${token}`);await page.getByRole('button',{name:'Verify or resend link'}).click();
+  await expect(page.getByRole('status')).toContainText('Email verified');
+  await page.goto('/login');await page.getByLabel('Email').fill(email);await page.locator('input[autocomplete="current-password"]').fill(password);
+  await page.getByRole('button',{name:'Sign in',exact:true}).click();await expect(page).toHaveURL(/\/onboarding$/);
+});
+
 test("register, verify, sign in, onboard, edit profile, and sign out", async ({
   page,
   request,

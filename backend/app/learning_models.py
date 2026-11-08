@@ -63,6 +63,7 @@ class LearningSession(Base):
             "uq_learning_sessions_active_user_lesson",
             "user_id",
             "lesson_id",
+            "activity_key",
             unique=True,
             postgresql_where=text("status = 'in_progress'"),
             sqlite_where=text("status = 'in_progress'"),
@@ -80,6 +81,7 @@ class LearningSession(Base):
     cefr_level: Mapped[str] = mapped_column(String(2), nullable=False)
     status: Mapped[str] = mapped_column(String(16), nullable=False, default="in_progress")
     preview_mode: Mapped[bool] = mapped_column(Boolean, nullable=False, default=False)
+    activity_key: Mapped[str] = mapped_column(String(128), nullable=False, default="lesson", server_default="lesson")
     lesson_snapshot: Mapped[dict] = mapped_column(STRUCTURED_JSON, nullable=False)
     started_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False, default=_now)
     last_activity_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False, default=_now)
@@ -152,6 +154,9 @@ class ExerciseAttempt(Base):
     attempt_number: Mapped[int] = mapped_column(Integer, nullable=False, default=1)
     idempotency_key: Mapped[uuid.UUID] = mapped_column(Uuid(as_uuid=True), nullable=False)
     submitted_answer: Mapped[str] = mapped_column(String(36), nullable=False)
+    answer_payload: Mapped[Optional[dict]] = mapped_column(
+        JSON(none_as_null=True).with_variant(JSONB(none_as_null=True), "postgresql"), nullable=True
+    )
     normalized_answer: Mapped[str] = mapped_column(Text, nullable=False)
     is_correct: Mapped[bool] = mapped_column(Boolean, nullable=False)
     awarded_points: Mapped[int] = mapped_column(Integer, nullable=False)

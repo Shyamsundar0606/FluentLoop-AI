@@ -1,25 +1,401 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "course_slug": "a1-french-from-the-beginning",
-  "content_version": "1.0.1",
-  "source_sha256": "8c8fb60c5bbfc25a2dca0acbbcae9c540e20330582c66438c5c25eb8519ef53c",
+  "content_version": "1.0.2",
+  "source_sha256": "f8ce674247b030ba06efc32f5a58063a943f4b0926ced8133b932edcb0dcb8ad",
+  "importer_sha256": "c2ea75470be01b0a7beae82a90a8f56919d3ea8c1365a0f40c551b1ded5477ff",
+  "publication_decision": {
+    "status": "pending",
+    "administrator_user_id": null,
+    "evidence_reference": "",
+    "decided_at": null
+  },
   "license_and_attribution": {
     "status": "pending",
     "reviewer": null,
+    "qualifications": "",
     "independent_from_content_generation": false,
     "evidence_reference": "",
     "reviewed_at": null
   },
   "lessons": [
-    {"lesson_slug":"a1-001","french_language":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null},"pedagogy_and_sequence":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null},"exercise_answers":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null}},
-    {"lesson_slug":"a1-002","french_language":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null},"pedagogy_and_sequence":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null},"exercise_answers":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null}},
-    {"lesson_slug":"a1-003","french_language":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null},"pedagogy_and_sequence":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null},"exercise_answers":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null}},
-    {"lesson_slug":"a1-004","french_language":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null},"pedagogy_and_sequence":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null},"exercise_answers":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null}},
-    {"lesson_slug":"a1-005","french_language":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null},"pedagogy_and_sequence":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null},"exercise_answers":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null}},
-    {"lesson_slug":"a1-006","french_language":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null},"pedagogy_and_sequence":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null},"exercise_answers":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null}},
-    {"lesson_slug":"a1-007","french_language":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null},"pedagogy_and_sequence":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null},"exercise_answers":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null}},
-    {"lesson_slug":"a1-008","french_language":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null},"pedagogy_and_sequence":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null},"exercise_answers":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null}},
-    {"lesson_slug":"a1-009","french_language":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null},"pedagogy_and_sequence":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null},"exercise_answers":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null}},
-    {"lesson_slug":"a1-010","french_language":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null},"pedagogy_and_sequence":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null},"exercise_answers":{"status":"pending","reviewer":null,"independent_from_content_generation":false,"evidence_reference":"","reviewed_at":null}}
+    {
+      "lesson_slug": "a1-001",
+      "french_language": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "pedagogy_and_sequence": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "exercise_answers": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "required_lesson_slugs": [],
+      "dependencies": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      }
+    },
+    {
+      "lesson_slug": "a1-002",
+      "french_language": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "pedagogy_and_sequence": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "exercise_answers": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "required_lesson_slugs": [
+        "a1-001"
+      ],
+      "dependencies": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      }
+    },
+    {
+      "lesson_slug": "a1-003",
+      "french_language": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "pedagogy_and_sequence": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "exercise_answers": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "required_lesson_slugs": [
+        "a1-002"
+      ],
+      "dependencies": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      }
+    },
+    {
+      "lesson_slug": "a1-004",
+      "french_language": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "pedagogy_and_sequence": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "exercise_answers": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "required_lesson_slugs": [
+        "a1-003"
+      ],
+      "dependencies": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      }
+    },
+    {
+      "lesson_slug": "a1-005",
+      "french_language": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "pedagogy_and_sequence": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "exercise_answers": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "required_lesson_slugs": [
+        "a1-004"
+      ],
+      "dependencies": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      }
+    },
+    {
+      "lesson_slug": "a1-006",
+      "french_language": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "pedagogy_and_sequence": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "exercise_answers": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "required_lesson_slugs": [
+        "a1-005"
+      ],
+      "dependencies": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      }
+    },
+    {
+      "lesson_slug": "a1-007",
+      "french_language": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "pedagogy_and_sequence": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "exercise_answers": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "required_lesson_slugs": [
+        "a1-006"
+      ],
+      "dependencies": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      }
+    },
+    {
+      "lesson_slug": "a1-008",
+      "french_language": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "pedagogy_and_sequence": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "exercise_answers": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "required_lesson_slugs": [
+        "a1-007"
+      ],
+      "dependencies": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      }
+    },
+    {
+      "lesson_slug": "a1-009",
+      "french_language": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "pedagogy_and_sequence": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "exercise_answers": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "required_lesson_slugs": [
+        "a1-008"
+      ],
+      "dependencies": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      }
+    },
+    {
+      "lesson_slug": "a1-010",
+      "french_language": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "pedagogy_and_sequence": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "exercise_answers": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      },
+      "required_lesson_slugs": [
+        "a1-009"
+      ],
+      "dependencies": {
+        "status": "pending",
+        "reviewer": null,
+        "qualifications": "",
+        "independent_from_content_generation": false,
+        "evidence_reference": "",
+        "reviewed_at": null
+      }
+    }
   ]
 }

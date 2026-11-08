@@ -1,4 +1,6 @@
-﻿# A1 review readiness — 3 November 2026
+# A1 review readiness — 3 November 2026
+
+> Historical 1.0.1 packet. The [1.0.2 correction results](A1_CONTENT_CORRECTION_RESULTS.md) and [current publication readiness](../../verification/A1_CURRICULUM_PUBLICATION_READINESS.md) supersede the deployed-state findings below. Independent approvals remain pending.
 
 ## Decision and scope
 

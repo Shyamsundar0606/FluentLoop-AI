@@ -12,12 +12,25 @@ export class ApiError extends Error {
   }
 }
 
-function csrfToken(): string | undefined {
+export function csrfToken(): string | undefined {
   if (typeof document === 'undefined') return undefined;
   const cookieName = process.env.NEXT_PUBLIC_CSRF_COOKIE_NAME ?? 'fluentloop_csrf';
   const prefix = `${cookieName}=`;
   const item = document.cookie.split('; ').find((cookie) => cookie.startsWith(prefix));
   return item ? decodeURIComponent(item.slice(prefix.length)) : undefined;
+}
+
+export async function apiAudio(path: string): Promise<Blob> {
+  const token = csrfToken();
+  const response = await fetch(`${API_BASE_URL}${path}`, {
+    method: 'POST', credentials: 'include', cache: 'no-store',
+    headers: token ? { 'X-CSRF-Token': token } : {},
+  });
+  if (!response.ok) {
+    const body = await response.json().catch(() => ({}));
+    throw new ApiError(typeof body.detail === 'string' ? body.detail : 'Audio is unavailable. Please retry.', response.status);
+  }
+  return response.blob();
 }
 
 export async function apiRequest<T>(

@@ -15,7 +15,7 @@ url=os.environ['DATABASE_URL']
 assert make_url(url).database.startswith('fluentloop_m07_')
 assert os.getenv('STUDY_E2E_TEST_SERVER')=='1'
 with Session(create_engine(url)) as db:
-    assert db.execute(text('SELECT version_num FROM alembic_version')).scalar()=='20261104_0008'
+    assert db.execute(text('SELECT version_num FROM alembic_version')).scalar() in ('20261104_0008','20261104_0009')
     emails=[]
     for role in ('admin','learner'):
         email=f'm07-{role}-{uuid4().hex[:10]}@example.com';emails.append(email)

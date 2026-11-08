@@ -66,7 +66,7 @@ def _norm(value: str) -> str:
 def _lemma_for_storage(lemma: str, part_of_speech: str) -> str:
     value = lemma.strip()
     if part_of_speech == "noun":
-        value = re.sub(r"^(?:un|une|le|la|l')\s*", "", value, flags=re.IGNORECASE)
+        value = re.sub(r"^(?:(?:une|un|les|le|la)\s+|l['’])", "", value, flags=re.IGNORECASE)
     return value
 
 
@@ -160,6 +160,8 @@ def _import_lesson(
     position: int,
     version: str,
     grammar_examples_by_rule: dict[tuple[str, str], set[tuple[str, str]]],
+    lexical_notes: dict[tuple[str, str, str | None], str],
+    teaching_notes: dict[tuple[str, str, str | None], str],
 ) -> None:
     lesson = _upsert(
         db,
@@ -208,11 +210,22 @@ def _import_lesson(
             "part_of_speech": word.part_of_speech,
             "grammatical_gender": word.grammatical_gender,
         }
+        # Repair only a known article-stripping artifact in its existing lesson
+        # slot. Retain lexical IDs: cards/history may reference either identity.
+        existing = db.scalar(select(Lexeme).join(LessonVocabulary).where(
+            LessonVocabulary.lesson_id == lesson.id, LessonVocabulary.sequence_order == order))
+        legacy = re.sub(r"^(?:un|une|le|la|l')\s*", "", word.lemma.strip(), flags=re.IGNORECASE) if word.part_of_speech == "noun" else lemma
+        lookup = identity
+        if existing and (existing.normalized_lemma in {_norm(legacy), normalized}
+                         and existing.part_of_speech == word.part_of_speech
+                         and existing.grammatical_gender == word.grammatical_gender):
+            lookup = {"id": existing.id}
         lexeme = _upsert(
             db,
             Lexeme,
-            identity,
-            {"lemma": lemma, "irregularity_notes": word.irregularity_notes},
+            lookup,
+            {**(identity if "id" in lookup else {}), "lemma": lemma, "irregularity_notes": lexical_notes.get(
+                (normalized, word.part_of_speech, word.grammatical_gender))},
         )
         lexemes.append(lexeme)
         sense = _upsert(
@@ -222,7 +235,7 @@ def _import_lesson(
             {
                 "definition_french": word.definition_french,
                 "explanation_english": word.translation,
-                "usage_notes": word.teaching_note,
+                "usage_notes": teaching_notes.get((normalized, word.part_of_speech, word.grammatical_gender)),
             },
         )
         lexical_key = f"{normalized}:{word.part_of_speech}:{word.grammatical_gender or ''}"
@@ -231,7 +244,7 @@ def _import_lesson(
             db,
             Translation,
             {"word_sense_id": sense.id, "language_code": "en"},
-            {"translated_text": word.translation, "context_note": word.teaching_note},
+            {"translated_text": word.translation, "context_note": teaching_notes.get((normalized, word.part_of_speech, word.grammatical_gender))},
         )
         _provenance(
             db, source, batch, "translation",
@@ -264,20 +277,34 @@ def _import_lesson(
             {"french_text": example.french_text, "english_translation": example.english_translation},
             {"cefr_level": "A1", "context": example.context},
         )
-        for lexeme in lexemes:
-            if _norm(lexeme.lemma) in _norm(example.french_text):
+        if example.lexemes:
+            wanted_ids = {lexeme.id for word, lexeme in zip(data.vocabulary, lexemes) if word.lemma in example.lexemes}
+            for link in db.scalars(select(LexemeExample).where(
+                    LexemeExample.example_sentence_id == sentence.id,
+                    LexemeExample.lexeme_id.in_([lexeme.id for lexeme in lexemes]))).all():
+                if link.lexeme_id not in wanted_ids:
+                    db.delete(link)
+                    COUNTER["deleted"] += 1
+        for word, lexeme in zip(data.vocabulary, lexemes):
+            if word.lemma in example.lexemes or (not example.lexemes and
+                    re.search(r"(?<!\w)" + re.escape(_norm(lexeme.lemma)) + r"(?!\w)", _norm(example.french_text))):
                 _upsert(
                     db,
                     LexemeExample,
                     {"lexeme_id": lexeme.id, "example_sentence_id": sentence.id},
                     {},
                 )
-        _provenance(
-            db, source, batch, "lexeme_example",
-            f"{data.slug}:{_norm(example.french_text)}", version,
-        )
+                _provenance(db, source, batch, "lexeme_example",
+                    f"{data.slug}:{lexeme.normalized_lemma}:{_norm(example.french_text)}", version)
         _provenance(db, source, batch, "example_sentence", f"{data.slug}:{_norm(example.french_text)}", version)
 
+    expected_grammar = {grammar.slug for grammar in data.grammar}
+    for link, slug in db.execute(select(LessonGrammar, GrammarTopic.slug).join(
+            GrammarTopic, GrammarTopic.id == LessonGrammar.grammar_topic_id).where(
+            LessonGrammar.lesson_id == lesson.id)).all():
+        if slug not in expected_grammar:
+            db.delete(link)  # Detach obsolete membership, never a shared topic.
+            COUNTER["deleted"] += 1
     for grammar_order, grammar in enumerate(data.grammar, start=1):
         topic = _upsert(
             db,
@@ -477,6 +504,14 @@ def _import_data(db: Session, content: ContentImportInput) -> dict[str, int]:
     COUNTER.clear()
     content_digest = hashlib.sha256(content.model_dump_json().encode("utf-8")).hexdigest()
     grammar_examples_by_rule: dict[tuple[str, str], set[tuple[str, str]]] = {}
+    lexical_notes = {
+        (_norm(_lemma_for_storage(word.lemma, word.part_of_speech)), word.part_of_speech, word.grammatical_gender): word.irregularity_notes
+        for lesson in content.course.lessons for word in lesson.vocabulary if word.irregularity_notes
+    }
+    teaching_notes = {
+        (_norm(_lemma_for_storage(word.lemma, word.part_of_speech)), word.part_of_speech, word.grammatical_gender): word.teaching_note
+        for lesson in content.course.lessons for word in lesson.vocabulary if word.teaching_note
+    }
     for lesson in content.course.lessons:
         for grammar in lesson.grammar:
             grammar_examples_by_rule.setdefault((grammar.slug, grammar.rule_code), set()).update(
@@ -558,6 +593,8 @@ def _import_data(db: Session, content: ContentImportInput) -> dict[str, int]:
                 int(lesson_data.slug[-3:]) - (order - 1) * 2,
                 content.version,
                 grammar_examples_by_rule,
+                lexical_notes,
+                teaching_notes,
             )
 
     for planned in content.planned_courses:

@@ -1,6 +1,12 @@
 ﻿# FluentLoop AI
 
-A local-first French learning application built with Next.js and FastAPI. Milestones 01–07 provide secure accounts, curriculum-based lessons, a local AI tutor, voice conversations, daily learning plans and spaced repetition. No Milestone 08 features are included.
+A local-first French learning application built with Next.js and FastAPI. Milestones 01–07 provide secure accounts, curriculum-based lessons, a local AI tutor, voice conversations, daily learning plans and spaced repetition. Milestone 08 adds interactive lesson formats and focused grammar practice, implemented locally only.
+
+For the isolated M08 demo, migration scope, actual test results and manual steps, see [Milestone 08 verification](docs/verification/MILESTONE_08_VERIFICATION.md). Existing main and preview environments were not deployed or migrated during this work.
+
+For current authorized access on port 3008, use [Milestone 08.1 manual testing](docs/verification/MILESTONE_08_1_MANUAL_TESTING.md). Its local launcher reuses the existing verified synthetic admin and separates demo cookies; ordinary learner permissions remain unchanged.
+
+[Milestone 08.2 verification](docs/verification/MILESTONE_08_2_LEARNING_EXPERIENCE.md) covers the guided lesson journey, saved answers, genuine mistake review, current test results and a future preview-first integration plan. Main and preview databases remain on 0008; integration requires separate approval.
 
 ![Daily French plan using a synthetic test account](docs/images/daily-plan.png)
 
@@ -13,10 +19,13 @@ A local-first French learning application built with Next.js and FastAPI. Milest
 - Microphone recording and playback, local French transcription and text-to-speech, editable uncertain transcripts and explicit confirmation. Original recognition and learner corrections remain separate in history.
 - Persisted daily plans, deterministic activity selection and versioned SM-2-inspired vocabulary review. Planning and grading work without an AI model.
 - Responsive white-and-purple interface with keyboard-accessible navigation.
+- Lessons, Grammar and Practice tabs inside Learn, six server-graded exercise formats, resumable focused sessions and explicit objective-based mistake practice. Vocabulary continues to use the existing review scheduler.
 
 ## Current limitations
 
 **Ten A1 lessons remain unpublished drafts awaiting independent French and licensing review.** Ordinary learners cannot access them. A separately gated development preview is available to authorized administrators. Supporting six CEFR preferences does not imply complete curriculum coverage at all six levels.
+
+The corrected A1 draft is version **1.0.2**. See [correction results](docs/content/reviews/A1_CONTENT_CORRECTION_RESULTS.md), [independent review checklist](docs/content/reviews/A1_INDEPENDENT_REVIEW_CHECKLIST.md) and [publication readiness](docs/verification/A1_CURRICULUM_PUBLICATION_READINESS.md). Technical validation does not authorize publication.
 
 **Acoustic pronunciation scoring has not been validated and is unavailable.** Speech recognition can mishear names and short introductions, even with the Base model. Transcripts require learner review; ASR output is not a pronunciation score. Local model latency and accuracy depend on hardware. AI-generated teaching responses can contain errors.
 
@@ -39,7 +48,7 @@ The backend obtains identity from the authenticated session. Tutor requests rece
 
 ```text
 backend/app/          API, models, learning services, AI and speech providers
-backend/alembic/      Eight ordered database migrations
+backend/alembic/      Nine ordered database migrations (M08 applied only to isolated local/test databases)
 backend/content/a1/   Versioned draft curriculum source
 backend/tests/        Functional, security and opt-in PostgreSQL tests
 backend/scripts/      Guarded isolated integration-test servers

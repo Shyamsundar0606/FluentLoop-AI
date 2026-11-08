@@ -1,3 +1,4 @@
+import { enterExercises } from './learning-navigation';
 import { expect, test } from '@playwright/test';
 
 const email = process.env.M04_LIVE_EMAIL;
@@ -40,6 +41,7 @@ test('live authorized draft lesson flow, persistence, idempotency, and learner d
   await expect(page.getByText('Draft Preview', { exact: false }).first()).toBeVisible();
   await page.getByRole('button', { name: 'Start or continue lesson' }).click();
   await expect(page).toHaveURL(/\/learning\/sessions\/[0-9a-f-]+$/i);
+  await enterExercises(page);
   const sessionId = page.url().split('/').at(-1)!;
   await expect(page.getByText('Draft Preview', { exact: false }).first()).toBeVisible();
 

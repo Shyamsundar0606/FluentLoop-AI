@@ -12,6 +12,8 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from app.core.database import SessionLocal
+from app.models import User
+from app.content_import import CONTENT_PATH
 from app.content_schemas import A1PublicationReviewRecord
 from app.curriculum_models import (
     ContentProvenance,
@@ -40,7 +42,7 @@ def publish_course(
 ) -> dict[str, int]:
     review = A1PublicationReviewRecord.model_validate(review_record)
     course_slug = review.course_slug
-    course = db.scalar(select(Course).where(Course.slug == course_slug))
+    course = db.scalar(select(Course).where(Course.slug == course_slug).with_for_update())
     if course is None:
         raise ValueError(f"Course not found: {course_slug}")
     if course.level_id != "A1":
@@ -68,7 +70,7 @@ def publish_course(
     lesson_reviewers = {
         approval.reviewer.strip().casefold()
         for item in review.lessons
-        for approval in (item.french_language, item.pedagogy_and_sequence, item.exercise_answers)
+        for approval in (item.french_language, item.pedagogy_and_sequence, item.exercise_answers, item.dependencies)
     }
     if licensing_reviewer in lesson_reviewers:
         raise ValueError("License and attribution approval must come from a separate human reviewer.")
@@ -160,6 +162,45 @@ def publish_course(
     source_digest = batch.report.get("_source_sha256")
     if source_digest != review.source_sha256:
         raise ValueError("Review record source digest does not match the imported course content.")
+    importer_digest = hashlib.sha256((Path(__file__).parent / "content_import.py").read_bytes()).hexdigest()
+    if importer_digest != review.importer_sha256:
+        raise ValueError("Review record importer digest does not match the reference-content implementation.")
+    from app.content_audit import audit
+    integrity = audit(db, CONTENT_PATH)
+    if not integrity["technical_integrity_passed"] or integrity["publication_source_sha256"] != review.source_sha256:
+        raise ValueError("Automated content validation/source consistency failed; publication blocked.")
+    administrator = db.get(User, review.publication_decision.administrator_user_id, with_for_update=True)
+    if administrator is None or administrator.role != "admin" or not administrator.is_active or not administrator.email_verified_at:
+        raise ValueError("Publication decision must identify a current authorized administrator.")
+    previous = []
+    for lesson in lessons:
+        approval = next(item for item in review.lessons if item.lesson_slug == lesson.slug)
+        if approval.required_lesson_slugs != previous[-1:]:
+            raise ValueError(f"{lesson.slug}: required lesson dependencies must approve the preceding lesson.")
+        previous.append(lesson.slug)
+    now = datetime.now(timezone.utc)
+    approvals = [review.license_and_attribution, *[
+        approval for item in review.lessons for approval in (
+            item.french_language, item.pedagogy_and_sequence, item.exercise_answers, item.dependencies)]]
+    if any(a.reviewed_at > now for a in approvals) or review.publication_decision.decided_at > now:
+        raise ValueError("Review and publication decision dates cannot be in the future.")
+    if any(a.reviewed_at > review.publication_decision.decided_at for a in approvals):
+        raise ValueError("The authorized publication decision must follow all required reviews.")
+    from app.course_review import digest_packet, packet, provenance, readiness, validate_packet
+    source = provenance(db, course, lock=True)
+    if source is None:
+        raise ValueError("Current course review provenance is missing.")
+    content = packet(db, course, source)
+    history = source.review_metadata.get("independent_reviews", [])
+    digest = digest_packet(content)
+    if validate_packet(content) or not readiness(history, digest, course.content_version)["complete"]:
+        raise ValueError("Publication requires five current independent reviews and a valid content packet.")
+    if any(datetime.fromisoformat(entry["reviewed_at"]) > review.publication_decision.decided_at
+           for entry in history if entry["digest"] == digest and entry["version"] == course.content_version):
+        raise ValueError("The publication decision must follow the current independent review history.")
+    if db.scalar(select(GrammarTopic.id).where(GrammarTopic.slug.in_(grammar_slugs),
+            GrammarTopic.publication_status.in_(("draft", "review", "retired"))).limit(1)):
+        raise ValueError("The starter course still depends on unpublished grammar. Resolve its review before publication.")
     all_provenance = db.scalars(
         select(ContentProvenance).where(
             ContentProvenance.import_batch_id == batch.id,
@@ -219,7 +260,7 @@ def publish_course(
     }
     for provenance in provenance_rows:
         provenance.review_state = "published"
-        provenance.review_metadata = review_metadata
+        provenance.review_metadata = {**provenance.review_metadata, **review_metadata}
 
     return {
         "courses_published": 1,

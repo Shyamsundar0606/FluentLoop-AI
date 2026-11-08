@@ -1,6 +1,10 @@
 "use client";
 
 import Link from "next/link";
+import { LessonLibrary } from "@/components/lesson-library";
+import { LearningTabs } from "@/components/learning-tabs";
+import { LearningAlternatives } from "@/components/learning-alternatives";
+import { useLearningContext } from "@/lib/use-learning-context";
 import { useEffect, useState } from "react";
 
 import { ProtectedPage, useAuth } from "@/components/auth-provider";
@@ -29,13 +33,8 @@ export default function CoursesPage() {
 
 function CourseLibrary() {
   const { user } = useAuth();
-  const [browsedLevel, setBrowsedLevel] = useState<FrenchLevel | null>(null);
+  const {level,setLevel:setBrowsedLevel}=useLearningContext();
   const [levels, setLevels] = useState<LevelInfo[]>([]);
-  const level =
-    browsedLevel ??
-    (user && isFrenchLevel(user.preferences.current_level)
-      ? user.preferences.current_level
-      : "a1");
   const [courseState, setCourseState] = useState<{
     level: FrenchLevel;
     courses: Course[];
@@ -91,6 +90,7 @@ function CourseLibrary() {
   return (
     <main className="min-h-screen bg-slate-50 px-5 py-8 text-slate-900 dark:bg-slate-950 dark:text-white sm:px-8">
         <div className="mx-auto max-w-5xl">
+        <LearningTabs />
           <Link href="/review" className="button button-quiet mb-4">Review vocabulary</Link>
         <header className="flex flex-wrap items-center justify-between gap-4">
           <div>
@@ -125,6 +125,7 @@ function CourseLibrary() {
           another level does not update it.
         </p>
 
+        <LessonLibrary level={level.toUpperCase()} />
         {levelError && (
           <p
             role="alert"
@@ -189,6 +190,7 @@ function CourseLibrary() {
                 ? "Courses exist at this level, but none are currently available to learners."
                 : "Learning content for this level is not available yet. Lessons will appear here after they have been reviewed and published."}
             </EmptyState>
+            <LearningAlternatives />
           </div>
         ) : null}
       </div>

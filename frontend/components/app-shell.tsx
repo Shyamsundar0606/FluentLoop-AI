@@ -142,7 +142,7 @@ export function AppShell({
             </details>
           </div>
         </header>
-        {sections[section] && (
+        {sections[section] && !(section === 'Learn' && ['/courses','/grammar','/practice'].includes(path)) && (
           <nav className="section-nav" aria-label={`${section} sections`}>
             {sections[section].map((item) => (
               <Link

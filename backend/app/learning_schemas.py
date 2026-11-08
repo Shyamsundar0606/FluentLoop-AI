@@ -4,7 +4,7 @@ from datetime import datetime
 from typing import Any, Literal
 from uuid import UUID
 
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict, Field, model_validator
 
 from app.content_schemas import CEFR
 
@@ -17,10 +17,32 @@ class StartSessionRequest(LearningRequest):
     lesson_id: UUID
 
 
+class SessionPositionRequest(LearningRequest):
+    position: int = Field(ge=0, le=3, strict=True)
+
+
 class SubmitAnswerRequest(LearningRequest):
     session_exercise_id: UUID
-    selected_option_id: UUID
+    selected_option_id: UUID | None = None
+    text_answer: str | None = Field(default=None, min_length=1, max_length=1000)
+    tile_ids: list[UUID] | None = Field(default=None, min_length=1, max_length=30)
+    matches: dict[UUID, UUID] | None = Field(default=None, min_length=1, max_length=12)
     idempotency_key: UUID
+
+    @model_validator(mode="after")
+    def one_answer_shape(self):
+        if sum(value is not None for value in (self.selected_option_id,self.text_answer,self.tile_ids,self.matches)) != 1:
+            raise ValueError("Supply exactly one answer format")
+        return self
+
+
+class PracticeRequest(LearningRequest):
+    category: Literal['grammar','sentence_building','listening','mistakes']
+    level: CEFR | None = None
+    grammar_topic_id: UUID | None = None
+    learning_objective_id: UUID | None = None
+    lesson_id: UUID | None = None
+    attempt_id: UUID | None = None
 
 
 class SessionExerciseOption(BaseModel):
@@ -48,6 +70,12 @@ class SessionExerciseResponse(BaseModel):
     options: list[SessionExerciseOption]
     answered: bool
     feedback: ExerciseFeedback | None = None
+    tiles: list[dict[str, str]] = Field(default_factory=list)
+    left_items: list[dict[str, str]] = Field(default_factory=list)
+    right_items: list[dict[str, str]] = Field(default_factory=list)
+    submitted_answer: dict[str, Any] | None = None
+    learning_objective_id: UUID | None = None
+    grammar_topic_id: UUID | None = None
 
 
 class LearningSessionResponse(BaseModel):
@@ -69,6 +97,7 @@ class LearningSessionResponse(BaseModel):
     percentage: float
     lesson: dict[str, Any]
     exercises: list[SessionExerciseResponse]
+    activity_key: str = 'lesson'
 
 
 class SessionListItem(BaseModel):
@@ -84,6 +113,7 @@ class SessionListItem(BaseModel):
     total_exercises: int
     answered_exercises: int
     percentage: float
+    activity_key: str = 'lesson'
 
 
 class SessionListResponse(BaseModel):
@@ -123,6 +153,7 @@ class CompletionResponse(BaseModel):
     percentage: float
     completion_count: int
     completed_at: datetime
+    activity_key: str = 'lesson'
 
 
 class LessonProgressResponse(BaseModel):
