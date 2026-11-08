@@ -1,9 +1,25 @@
 import { expect, test, Page } from "@playwright/test";
 import { mkdirSync } from "node:fs";
+import type { CoachSession, Scenario } from "../lib/ai";
 
 const cid = "a1111111-1111-4111-8111-111111111111";
 const other = "b2222222-2222-4222-8222-222222222222";
 const now = "2026-11-02T15:00:00Z";
+const bakery = {
+  id: "a1-boulangerie",
+  title: "Ordering at a boulangerie",
+  cefr_level: "A1",
+  description: "Buy bread.",
+  tutor_role: "shop assistant",
+  learner_role: "customer",
+  provenance: "Original practice prompt",
+  opening_situation: "Enter a bakery to buy bread.",
+  opening_french: "Bonjour ! Qu’est-ce que vous désirez ?",
+  suggested_vocabulary: ["une baguette"],
+  target_turns: 4,
+  completion_criteria: ["Order politely."],
+  speaking_available: true,
+} satisfies Scenario;
 const user = {
   id: "learner",
   email: "learner@example.test",
@@ -137,20 +153,28 @@ async function mockTutor(
         } else body = [conversation()];
       } else if (path.endsWith(`/conversations/${cid}`)) body = conversation();
       else if (path.endsWith("/ai/scenarios"))
-        body = [
-          {
-            id: "a1-boulangerie",
-            title: "Ordering at a boulangerie",
-            cefr_level: "A1",
-            description: "Buy bread.",
-            tutor_role: "shop assistant",
-            learner_role: "customer",
-            provenance: "Original practice prompt",
-            suggested_vocabulary: ["une baguette"],
-          },
-        ];
-      else if (path.endsWith("/start")) {
+        body = [bakery];
+      else if (path.endsWith(`/conversations/${cid}/coach`)) {
+        body = {
+          scenario: bakery,
+          scenario_vocabulary: [],
+          due_vocabulary: [],
+          studied_vocabulary: [],
+          studied_grammar: [],
+          summary: null,
+        } satisfies CoachSession;
+      } else if (path.endsWith("/start")) {
         mode = "roleplay";
+        messages.push({
+          id: crypto.randomUUID(),
+          role: "assistant",
+          content: bakery.opening_french,
+          response_status: "success",
+          grounding_status: "general_knowledge",
+          request_id: null,
+          sources: [],
+          correction: null,
+        });
         body = conversation();
         status = 201;
       } else if (path.includes("/ai/recommendations"))
@@ -241,12 +265,18 @@ test("scenario start and evidence-based recommendation empty state (mock API)", 
 }) => {
   await mockTutor(page);
   await page.goto("/ai-tutor/scenarios");
-  await page.getByRole("button", { name: "Start practice" }).click();
+  const scenario = page.getByRole("article").filter({
+    has: page.getByRole("heading", { name: bakery.title }),
+  });
+  await expect(scenario).toContainText("Suggested length: 4 turns · Order politely.");
+  await scenario.getByRole("button", { name: "Start text practice" }).click();
   await expect(page).toHaveURL(new RegExp(cid));
+  const transcript = page.getByRole("list", { name: "Conversation messages" });
+  await expect(transcript).toContainText(bakery.opening_french);
+  await page.getByRole("textbox", { name: "Message" }).fill("Je voudrais une baguette.");
   await page.getByRole("button", { name: "Send message", exact: true }).click();
-  await expect(
-    page.getByRole("list", { name: "Conversation messages" }),
-  ).toContainText("Bonjour");
+  await expect(transcript).toContainText("Je voudrais une baguette.");
+  await expect(transcript).toContainText("Être means to be; avoir means to have.");
   await page.goto("/ai-tutor/recommendations");
   await page.getByRole("button", { name: "Refresh recommendations" }).click();
   await expect(
