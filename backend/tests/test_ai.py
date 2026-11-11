@@ -47,8 +47,7 @@ class FakeProvider:
         if self.failure:
             raise ProviderUnavailable("Private connection diagnostic")
         if structured:
-            text = json.dumps(
-                dict(
+            correction = dict(
                     original_text=messages[-1]["content"],
                     corrected_text="J'ai 24 ans.",
                     has_errors=True,
@@ -56,8 +55,12 @@ class FakeProvider:
                     alternative_expressions=[],
                     level="A1",
                     model_notes="",
-                )
             )
+            if structured.get("title") == "ScenarioReply":
+                text = json.dumps({"reply": "Bien sûr ! Vous désirez autre chose ?",
+                                   "correction": correction if messages[-1]["content"] == "Je suis 24 ans." else None})
+            else:
+                text = json.dumps(correction)
         else:
             text = "General model knowledge: être means to be; avoir means to have. Je suis ici. J'ai un livre."
         return Generation(
@@ -112,7 +115,7 @@ def test_validation_and_bounded_memory():
             SendMessage(message=text, request_id=uuid4())
     history = [SimpleNamespace(role="user", content="x" * 2000) for _ in range(100)]
     assert len(bounded_history(history)) == 4
-    assert len(SCENARIOS) == 20
+    assert len(SCENARIOS) == 23
     assert set(s.cefr_level for s in SCENARIOS) == set(POLICIES)
     assert terms("What does être mean?") == ["être"]
 

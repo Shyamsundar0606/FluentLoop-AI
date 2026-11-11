@@ -9,6 +9,7 @@ import unicodedata
 from sqlalchemy import select, or_, func
 from app.curriculum_models import (
     Course,
+    ContentProvenance,
     Unit,
     Lesson,
     LessonSection,
@@ -83,6 +84,7 @@ def source_for(db, user, lesson_id):
 
 
 def retrieve(db, user, level, question, linked_lesson_id=None):
+    preview = can_preview_drafts(user)
     tokens = terms(question)
     conditions = []
     for token in tokens:
@@ -191,6 +193,8 @@ def retrieve(db, user, level, question, linked_lesson_id=None):
                 + "): "
                 + "; ".join(s.explanation_english[:200] for s in senses)
             )
+            # Lexeme-example links are global, so they cannot prove which
+            # published lesson authorized an example.
             examples = db.scalars(
                 select(ExampleSentence)
                 .join(
@@ -203,7 +207,7 @@ def retrieve(db, user, level, question, linked_lesson_id=None):
                 )
                 .order_by(ExampleSentence.id)
                 .limit(2)
-            ).all()
+            ).all() if preview else []
             text += " ".join(
                 e.french_text[:150] + " = " + e.english_translation[:150]
                 for e in examples
@@ -233,12 +237,17 @@ def retrieve(db, user, level, question, linked_lesson_id=None):
         ).all()
         for topic in topics:
             text += "\n" + topic.title + ": " + topic.summary[:300]
-            rules = db.scalars(
-                select(GrammarRule)
-                .where(GrammarRule.topic_id == topic.id)
-                .order_by(GrammarRule.rule_code)
-                .limit(3)
-            ).all()
+            rules_query = select(GrammarRule).where(GrammarRule.topic_id == topic.id)
+            if not preview:
+                rules_query = rules_query.where(
+                    select(ContentProvenance.id).where(
+                        ContentProvenance.item_type == "grammar_rule",
+                        ContentProvenance.item_key == topic.slug + ":" + GrammarRule.rule_code,
+                        ContentProvenance.content_version == lesson.content_version,
+                        ContentProvenance.review_state == "published",
+                    ).exists()
+                )
+            rules = db.scalars(rules_query.order_by(GrammarRule.rule_code).limit(3)).all()
             for rule in rules:
                 text += (
                     "\n"

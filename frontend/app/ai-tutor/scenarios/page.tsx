@@ -5,6 +5,7 @@ import { TutorShell } from "@/components/tutor-shell";
 import { useAuth } from "@/components/auth-provider";
 import { FormMessage } from "@/components/auth-shell";
 import { ai, Scenario } from "@/lib/ai";
+import { speech } from "@/lib/speech";
 
 export default function ScenariosPage() {
   return (
@@ -34,17 +35,18 @@ function Content() {
       active = false;
     };
   }, [level]);
-  async function start(s: Scenario) {
+  async function start(s: Scenario, voice = false) {
     if (lock.current) return;
     lock.current = true;
     setBusy(true);
     try {
-      const c = await ai.start(s.id);
-      sessionStorage.setItem(
-        `tutor-draft-${c.id}`,
-        "Please begin the scenario and introduce our roles.",
-      );
-      router.push(`/ai-tutor/${c.id}`);
+      if (voice) {
+        const session = await speech.start(s.id);
+        router.push(`/voice-practice/conversations/${session.id}`);
+      } else {
+        const conversation = await ai.start(s.id);
+        router.push(`/ai-tutor/${conversation.id}`);
+      }
     } catch (e) {
       setError(e instanceof Error ? e.message : "Practice unavailable.");
       setBusy(false);
@@ -74,14 +76,17 @@ function Content() {
             <p className="mt-2 text-sm text-slate-500">
               Try: {s.suggested_vocabulary.join(", ")}
             </p>
+            <p className="mt-2 text-sm">Suggested length: {s.target_turns} turns · {s.completion_criteria.join(" ")}</p>
             <p className="mt-3 text-xs text-slate-500">{s.provenance}</p>
             <button
               disabled={busy}
               onClick={() => void start(s)}
               className="mt-5 rounded-xl bg-violet-700 px-4 py-2 font-semibold text-white disabled:opacity-50"
             >
-              Start practice
+              Start text practice
             </button>
+            {s.speaking_available && <button disabled={busy} type="button" className="button button-secondary ml-2"
+              onClick={() => void start(s, true)}>Start speaking</button>}
           </article>
         ))}
       </div>

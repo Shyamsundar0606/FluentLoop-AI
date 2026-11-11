@@ -60,6 +60,7 @@ class UserProfile(Base):
 
 
 class UserPreferences(Base):
+    coach_corrections: Mapped[str] = mapped_column(String(16), nullable=False, server_default="immediate")
     __tablename__ = "user_preferences"
     __table_args__ = (
         Index("ix_user_preferences_user_id", "user_id", unique=True),

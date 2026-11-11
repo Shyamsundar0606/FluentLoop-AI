@@ -160,6 +160,7 @@ def view(db, user, session, include_turns=False, offset=0):
         if include_turns
         else []
     )
+    scenario = scenario_by_id(session.scenario_id)
     return SpeechSessionView(
         id=session.id,
         conversation_id=c.id,
@@ -167,6 +168,7 @@ def view(db, user, session, include_turns=False, offset=0):
         scenario_id=session.scenario_id,
         status=session.status,
         title=c.title,
+        opening_french=scenario.opening_french if scenario else None,
         draft_preview=c.preview_mode,
         created_at=session.created_at,
         last_activity_at=session.last_activity_at,

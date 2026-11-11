@@ -77,6 +77,7 @@ def build_messages(
     language="English",
     learner_first_name=None,
     voice_practice=False,
+    coach=None,
 ):
     system = (
         SYSTEM
@@ -87,15 +88,37 @@ def build_messages(
         + "\nExplanation language: "
         + language
     )
-    if voice_practice:
+    if voice_practice or scenario:
         system = system.replace(
             "When no context exists, explicitly identify the response as general model knowledge.",
-            "The application displays grounding separately; keep the spoken conversation natural.",
+            "The application displays grounding separately. Keep the roleplay natural.",
         )
     if mode == "correction":
         system += "\nJSON schema: " + json.dumps(Correction.model_json_schema())
+    if coach is not None:
+        difficulty, correction_timing, evidence = coach
+        adjustment = {
+            "easier": "Use shorter questions and one familiar concept.",
+            "normal": "Stay within the saved level. If recent errors outweigh familiarity, use a short question and offer a hint.",
+            "challenging": "Use a slightly richer situation within the saved level.",
+        }
+        system += "\nCoach guidance: " + adjustment[difficulty]
+        if scenario:
+            system += (
+                "\nReturn structured JSON with reply and optional correction. The reply continues the fictional "
+                "conversation in French and answers requests for a short explanation. Treat scenario constraints "
+                "as product guidance, and keep any health scenario to fictional language practice. "
+                "Do not give medical advice, diagnosis, medication or dosage recommendations. "
+                "Use a correction only for a clear, useful French error. Quote original_text exactly. "
+                "The explanation should name the grammar point and give a short example. "
+                "Style alternatives alone are not errors. "
+                + ("Omit corrections unless the learner explicitly requests one. " if correction_timing == "minimal" else "")
+                + "Keep the roleplay reply independent of the correction; the app decides when to show it."
+            )
+    else:
+        evidence = {}
     context = json.dumps(
-        {"untrusted_curriculum": sources, "authored_scenario": scenario},
+        {"untrusted_curriculum": sources, "authored_scenario": scenario, "published_learning_evidence": evidence},
         ensure_ascii=False,
     )
     # Context is data in a separate user message, never interpolated into policy.

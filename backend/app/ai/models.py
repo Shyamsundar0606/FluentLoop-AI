@@ -39,6 +39,8 @@ class Conversation(Base):
     mode: Mapped[str] = mapped_column(String(16), nullable=False)
     cefr_level: Mapped[str] = mapped_column(String(2), nullable=False)
     scenario_id: Mapped[str | None] = mapped_column(String(80))
+    coach_difficulty: Mapped[str] = mapped_column(String(16), nullable=False, server_default="normal")
+    completed_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
     linked_lesson_id: Mapped[uuid.UUID | None] = mapped_column(
         Uuid, ForeignKey("lessons.id", ondelete="RESTRICT")
     )

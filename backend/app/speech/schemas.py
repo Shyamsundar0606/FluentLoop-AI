@@ -86,6 +86,7 @@ class TurnView(StrictModel):
 
 
 class SpeechSessionView(StrictModel):
+    opening_french: str | None = None
     id: UUID
     conversation_id: UUID
     cefr_level: Level

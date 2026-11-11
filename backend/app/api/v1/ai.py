@@ -1,6 +1,7 @@
 from uuid import UUID
 from fastapi import APIRouter, Depends, HTTPException, Query, Request
-from sqlalchemy import select
+from sqlalchemy import select, update
+from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 from app.core.database import get_db
 from app.dependencies import AuthContext, current_auth_context, require_csrf
@@ -14,9 +15,11 @@ from app.ai.response_schemas import (
     ChatResponse,
     Mode,
     Level,
+    CoachOptions,
 )
 from app.ai.response_schemas import HealthView, RecommendationView, FeedbackView
 from app.ai import orchestrator as service, recommendations
+from app.ai import coach
 from app.ai.providers.ollama_provider import get_provider
 from app.ai.providers.base import ProviderUnavailable
 from app.ai.scenarios import SCENARIOS, scenario_by_id, Scenario
@@ -137,6 +140,70 @@ def archive(
     c.updated_at = utcnow()
     db.commit()
     return service.conversation_view(db, context.user, c)
+
+
+@router.get("/conversations/{conversation_id}/coach")
+def coach_session(conversation_id: UUID, context: AuthContext = Depends(current_auth_context),
+                  db: Session = Depends(get_db)):
+    conversation = service.owned(db, context.user, conversation_id)
+    scenario = scenario_by_id(conversation.scenario_id)
+    evidence = coach.evidence(db, context.user, conversation.cefr_level, conversation.id)
+    return {
+        "scenario": scenario,
+        "scenario_vocabulary": coach.scenario_words(scenario),
+        "due_vocabulary": evidence["due_vocabulary"],
+        "studied_vocabulary": evidence["studied_vocabulary"],
+        "studied_grammar": evidence["studied_grammar"],
+        "summary": coach.summary(db, conversation, scenario) if conversation.completed_at else None,
+    }
+
+
+@router.patch("/conversations/{conversation_id}/coach", response_model=ConversationView)
+def coach_options(conversation_id: UUID, payload: CoachOptions, context: AuthContext = Depends(limited),
+                  db: Session = Depends(get_db)):
+    conversation = service.owned(db, context.user, conversation_id)
+    if payload.difficulty is not None:
+        if conversation.status != "active":
+            raise HTTPException(409, "This conversation is closed.")
+        conversation.coach_difficulty = payload.difficulty
+    if payload.corrections is not None:
+        context.user.preferences.coach_corrections = payload.corrections
+    db.commit()
+    return service.conversation_view(db, context.user, conversation)
+
+
+@router.post("/conversations/{conversation_id}/finish", response_model=ConversationView)
+def finish(conversation_id: UUID, context: AuthContext = Depends(limited), db: Session = Depends(get_db)):
+    conversation = service.owned(db, context.user, conversation_id)
+    if not conversation.completed_at:
+        now = utcnow()
+        updated = db.execute(update(Conversation).where(
+            Conversation.id == conversation.id, Conversation.status == "active",
+            Conversation.active_request_id.is_(None),
+        ).values(status="archived", completed_at=now, updated_at=now)).rowcount
+        if not updated:
+            db.refresh(conversation)
+            if not conversation.completed_at:
+                raise HTTPException(409, "Wait for the current reply or reopen an active conversation.")
+        db.commit()
+    return service.conversation_view(db, context.user, conversation)
+
+
+@router.delete("/conversations/{conversation_id}", status_code=204)
+def delete_conversation(conversation_id: UUID, context: AuthContext = Depends(limited), db: Session = Depends(get_db)):
+    # Allow deletion even if an old draft citation is no longer readable.
+    conversation = db.scalar(select(Conversation).where(
+        Conversation.id == conversation_id, Conversation.user_id == context.user.id).with_for_update())
+    if not conversation:
+        raise HTTPException(404, "Conversation not found.")
+    if conversation.active_request_id:
+        raise HTTPException(409, "Wait for the current reply before deleting.")
+    db.delete(conversation)
+    try:
+        db.commit()
+    except IntegrityError:
+        db.rollback()
+        raise HTTPException(409, "This conversation is linked to saved speaking or study history.") from None
 
 
 @router.get("/scenarios", response_model=list[Scenario])

@@ -13,10 +13,13 @@ from app.ai.response_schemas import (
     MessageView,
     ChatResponse,
     Correction,
+    ScenarioReply,
 )
+from app.ai.coach import evidence
+from app.ai.providers.base import Generation
 from app.ai.retrieval import source_for, retrieve
 from app.ai.prompts import build_messages, first_name_hint
-from app.ai.scenarios import scenario_by_id
+from app.ai.scenarios import LANGUAGE_ONLY_TURNS, scenario_by_id
 from app.ai.providers.base import ProviderUnavailable
 from app.config import get_settings
 from app.models import User, utcnow
@@ -64,6 +67,7 @@ def sources_for_message(db, user, message_id):
 
 def conversation_view(db, user, c, messages=False, before=None):
     view = ConversationView.model_validate(c)
+    view.coach_corrections = user.preferences.coach_corrections
     if messages:
         query = select(Message).where(Message.conversation_id == c.id)
         if before:
@@ -85,7 +89,7 @@ def conversation_view(db, user, c, messages=False, before=None):
         for m in reversed(rows[:100]):
             item = MessageView.model_validate(m)
             item.sources = sources_for_message(db, user, m.id)
-            item.correction = m.model_metadata.get("correction")
+            item.correction = visible_correction(user, c, m)
             view.messages.append(item)
     return view
 
@@ -113,9 +117,20 @@ def create(db, user, payload, scenario=None):
         model_name=settings.ollama_model,
     )
     db.add(c)
+    if scenario:
+        db.flush()
+        db.add(Message(conversation_id=c.id, role="assistant", content=scenario.opening_french,
+                       response_status="success", grounding_status="general_knowledge",
+                       model_metadata={"authored_opening": True}))
     db.commit()
     db.refresh(c)
     return conversation_view(db, user, c)
+
+
+def visible_correction(user, conversation, message):
+    if conversation.scenario_id and user.preferences.coach_corrections == "after" and not conversation.completed_at:
+        return None
+    return message.model_metadata.get("correction")
 
 
 def response_for(db, user, c, m):
@@ -128,8 +143,8 @@ def response_for(db, user, c, m):
         grounding_status=m.grounding_status,
         sources=sources,
         suggested_actions=[{"label": s.title, "url": s.url} for s in sources],
-        model={"provider": "ollama", "model_name": m.model_name},
-        correction=m.model_metadata.get("correction"),
+        model={"provider": "authored" if m.model_name == "authored-practice" else "ollama", "model_name": m.model_name},
+        correction=visible_correction(user, c, m),
     )
 
 
@@ -215,8 +230,6 @@ def send(db, user, conversation_id, payload, provider, *, voice_practice=False):
     if len(payload.message) > settings.ai_max_input_characters:
         raise HTTPException(422, "Message is too long.")
     c = owned(db, user, conversation_id)
-    if c.status != "active":
-        raise HTTPException(409, "This conversation is archived.")
     previous = db.scalar(
         select(Message).where(
             Message.conversation_id == c.id,
@@ -235,6 +248,8 @@ def send(db, user, conversation_id, payload, provider, *, voice_practice=False):
     )
     if completed:
         return response_for(db, user, c, completed)
+    if c.status != "active":
+        raise HTTPException(409, "This conversation is closed.")
     if (
         db.scalar(select(func.count(Message.id)).where(Message.conversation_id == c.id))
         or 0
@@ -331,6 +346,11 @@ def send(db, user, conversation_id, payload, provider, *, voice_practice=False):
         scenario = scenario_by_id(c.scenario_id)
         mode = c.mode
         level = c.cefr_level
+        coach_context = evidence(db, user, level, cid)
+        coach_context["recent_session_corrections"] = sum(
+            bool((message.model_metadata.get("correction") or {}).get("has_errors"))
+            for message in history if message.role == "assistant"
+        )
         prompts = build_messages(
             level,
             mode,
@@ -339,16 +359,42 @@ def send(db, user, conversation_id, payload, provider, *, voice_practice=False):
             context,
             scenario.model_dump() if scenario else None,
             user.preferences.explanation_language,
-            learner_first_name=first_name_hint(
+            learner_first_name=None if scenario else first_name_hint(
                 user.profile.display_name if user.profile else None
             ),
             voice_practice=voice_practice,
+            coach=(c.coach_difficulty, user.preferences.coach_corrections, coach_context),
         )
         db.commit()  # release read transaction BEFORE inference
-        result = provider.generate(
-            prompts,
-            structured=Correction.model_json_schema() if mode == "correction" else None,
-        )
+        authored = LANGUAGE_ONLY_TURNS.get(c.scenario_id)
+        if authored:
+            position = sum(message.role == "user" for message in history)
+            safe_reply = ScenarioReply(reply=authored[min(position, len(authored) - 1)])
+            result = Generation(safe_reply.model_dump_json(), "authored-practice")
+        else:
+            result = provider.generate(
+                prompts,
+                structured=(ScenarioReply.model_json_schema() if scenario else
+                            Correction.model_json_schema() if mode == "correction" else None),
+            )
+        scenario_correction = None
+        if scenario:
+            try:
+                roleplay = ScenarioReply.model_validate_json(result.text)
+            except ValidationError:
+                raise ProviderUnavailable("Invalid roleplay response") from None
+            result = Generation(roleplay.reply, result.model, result.metadata)
+            suggestion = roleplay.correction
+            if suggestion and suggestion.original_text == payload.message and suggestion.level == level:
+                try:
+                    safe_parts = [suggestion.corrected_text, *suggestion.explanations, *suggestion.alternative_expressions]
+                    validate_answer(Generation("\n".join(safe_parts), result.model), "tutor", "", level, [])
+                    if suggestion.has_errors and suggestion.corrected_text != payload.message and suggestion.explanations:
+                        scenario_correction = suggestion.model_copy(update={"model_notes": ""})
+                    elif not suggestion.has_errors and suggestion.corrected_text == payload.message and suggestion.alternative_expressions:
+                        scenario_correction = suggestion.model_copy(update={"model_notes": ""})
+                except ProviderUnavailable:
+                    pass
         answer, correction = validate_answer(
             result, mode, payload.message, level, context, voice_practice=voice_practice
         )
@@ -381,6 +427,8 @@ def send(db, user, conversation_id, payload, provider, *, voice_practice=False):
         }
         if correction:
             metadata["correction"] = correction.model_dump()
+        elif scenario_correction:
+            metadata["correction"] = scenario_correction.model_dump()
         assistant = Message(
             conversation_id=cid,
             role="assistant",
