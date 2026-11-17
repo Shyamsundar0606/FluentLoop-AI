@@ -13,6 +13,14 @@ from app.services.learning_service import lesson_vocabulary
 from app.study_models import ReviewCard
 
 EXAMPLES = {
+    "un café": ("a coffee", "Je voudrais un café, s’il vous plaît."),
+    "l'addition": ("the bill", "L’addition, s’il vous plaît."),
+    "une réservation": ("a booking", "J’ai une réservation pour deux nuits."),
+    "une chambre": ("a room", "La chambre est au deuxième étage."),
+    "le loyer": ("the rent", "Quel est le montant du loyer ?"),
+    "une visite": ("a viewing or visit", "Une visite est-elle possible samedi ?"),
+    "rappeler": ("to call back", "Pourriez-vous rappeler demain ?"),
+    "laisser un message": ("to leave a message", "Je voudrais laisser un message pour Camille."),
     "je m'appelle": ("my name is", "Je m’appelle Camille."),
     "une baguette": ("a baguette", "Je voudrais une baguette, s’il vous plaît."),
     "menu": ("menu", "Puis-je voir le menu ?"),

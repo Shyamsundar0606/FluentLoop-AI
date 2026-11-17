@@ -19,6 +19,7 @@ const sections: Record<string, { label: string; href: string }[]> = {
     { label: "French courses", href: "/courses" },
     { label: "Vocabulary", href: "/vocabulary" },
     { label: "Grammar", href: "/grammar" },
+      { label: "Assessments", href: "/assessments" },
     { label: "Progress", href: "/progress" },
   ],
   "AI Tutor": [

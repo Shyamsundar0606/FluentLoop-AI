@@ -43,6 +43,7 @@ export interface LearningSession {
   max_score_points: number;
   percentage: number;
   lesson: {
+    assessment_context?: string;
     learning_flow_version?: number;
     id: string;
     title: string;
@@ -92,6 +93,7 @@ export function saveLearningPosition(sessionId: string, position: number): Promi
 }
 
 export function learningReturnUrl(session: Pick<LearningSession, 'cefr_level' | 'lesson_id' | 'activity_key'>) {
+  if (session.activity_key?.startsWith('assessment:')) return '/assessments';
   const topic = grammarPracticeTopic(session.activity_key);
   if (topic) return `/grammar?level=${session.cefr_level.toLowerCase()}&topic=${encodeURIComponent(topic)}`;
   const path = session.activity_key?.startsWith('practice:') ? '/practice' : '/courses';

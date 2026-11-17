@@ -7,6 +7,7 @@ import { FormMessage, inputClass } from "@/components/auth-shell";
 import { Button, Card, Icon, PageHeader } from "@/components/ui";
 import { apiRequest } from "@/lib/api";
 import { DailyPlanPanel } from "@/components/daily-plan";
+import { LearningMotivation } from "@/components/learning-motivation";
 import { listCourses } from "@/lib/curriculum";
 import { getLearningDashboard, type LearningDashboard } from "@/lib/learning";
 import {
@@ -101,6 +102,7 @@ function DashboardContent() {
         description="Pick up where you left off, or try something new today."
       />
       <DailyPlanPanel />
+      <LearningMotivation />
       <div className="home-grid">
         <Card className="welcome-panel">
           <span className="level-badge">

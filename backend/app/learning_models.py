@@ -225,3 +225,26 @@ class LearningActivityEvent(Base):
     event_type: Mapped[str] = mapped_column(String(32), nullable=False)
     event_metadata: Mapped[dict] = mapped_column(STRUCTURED_JSON, nullable=False, default=dict)
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False, default=_now)
+
+
+class WritingSubmission(Base):
+    __tablename__ = "writing_submissions"
+    __table_args__ = (
+        UniqueConstraint("user_id", "idempotency_key", name="uq_writing_owner_request"),
+        CheckConstraint("cefr_level IN ('A1','A2','B1','B2','C1','C2')", name="ck_writing_level"),
+        CheckConstraint("feedback_status IN ('not_requested','available','unavailable')", name="ck_writing_feedback"),
+        Index("ix_writing_owner_created", "user_id", "created_at"),
+    )
+
+    id: Mapped[uuid.UUID] = mapped_column(Uuid(as_uuid=True), primary_key=True, default=_uuid)
+    user_id: Mapped[uuid.UUID] = mapped_column(Uuid(as_uuid=True), ForeignKey("users.id", ondelete="CASCADE"), nullable=False)
+    lesson_id: Mapped[uuid.UUID] = mapped_column(Uuid(as_uuid=True), ForeignKey("lessons.id", ondelete="RESTRICT"), nullable=False)
+    idempotency_key: Mapped[uuid.UUID] = mapped_column(Uuid(as_uuid=True), nullable=False)
+    cefr_level: Mapped[str] = mapped_column(String(2), nullable=False)
+    lesson_content_version: Mapped[str] = mapped_column(String(32), nullable=False)
+    prompt_snapshot: Mapped[str] = mapped_column(Text, nullable=False)
+    original_text: Mapped[str] = mapped_column(Text, nullable=False)
+    preview_mode: Mapped[bool] = mapped_column(Boolean, nullable=False, default=False)
+    feedback_status: Mapped[str] = mapped_column(String(16), nullable=False, default="not_requested")
+    advisory_feedback: Mapped[Optional[dict]] = mapped_column(STRUCTURED_JSON, nullable=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False, default=_now)

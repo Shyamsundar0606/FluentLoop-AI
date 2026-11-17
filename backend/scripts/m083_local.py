@@ -31,7 +31,7 @@ def wait_for(url, process):
     raise SystemExit("Disposable service failed to start. Check private runtime logs.")
 
 
-def seed(database_url, settings):
+def seed(database_url, settings, assessments=False):
     os.environ.update({**local.env, **settings})
     sys.path.insert(0, str(local.ROOT / "backend"))
     from sqlalchemy import select
@@ -55,6 +55,9 @@ def seed(database_url, settings):
         pack = load_supplement()
         print("Supplement import:", json.dumps(import_supplement(db, pack)))
         print("Supplement repeat:", json.dumps(import_supplement(db, pack)))
+        if assessments:
+            from app.assessment_content import import_assessment_pack, load_assessment_pack
+            print("Assessment drafts:", json.dumps(import_assessment_pack(db, load_assessment_pack())))
         for identity in ("admin", "learner", "reviewer"):
             email = f"m083-{identity}-{uuid4().hex[:10]}@example.com"
             accounts[f"M083_{identity.upper()}_EMAIL"] = email
@@ -74,7 +77,7 @@ def seed(database_url, settings):
     return accounts
 
 
-def main():
+def main(redis_url=None):
     for port in (3012, 8012):
         with socket.socket() as connection:
             connection.bind(("127.0.0.1", port))
@@ -83,16 +86,24 @@ def main():
     front = local.ROOT / "frontend"
     browser = {**os.environ, "NEXT_PUBLIC_API_BASE_URL": API,
                "NEXT_PUBLIC_CSRF_COOKIE_NAME": "fluentloop_m083_csrf"}
-    subprocess.run(["node.exe", "node_modules/next/dist/bin/next", "build"], cwd=front, env=browser, check=True)
+    build = ["node.exe", "node_modules/next/dist/bin/next", "build"]
+    if "--webpack" in sys.argv:
+        build.append("--webpack")
+    subprocess.run(build, cwd=front, env=browser, check=True)
 
     database_url = local.database("fluentloop_m08_3_test_")
     isolated = json.loads(local.STATE.read_text(encoding="utf-8"))
     settings = {**isolated, "DATABASE_URL": database_url, "APP_ENV": "development",
                 "FRONTEND_ORIGIN": FRONTEND, "CORS_ORIGINS": json.dumps([FRONTEND]),
                 "SESSION_COOKIE_NAME": "fluentloop_m083_session", "CSRF_COOKIE_NAME": "fluentloop_m083_csrf",
-                "REDIS_URL": "redis://127.0.0.1:6379/13", "SPEECH_STORAGE_PATH": str(folder / "audio")}
+                "REDIS_URL": redis_url or "redis://127.0.0.1:6379/13", "SPEECH_STORAGE_PATH": str(folder / "audio")}
+    if "--mailpit" in sys.argv:
+        settings.update(SMTP_HOST="127.0.0.1", SMTP_PORT="1025", SMTP_STARTTLS="false",
+                        SMTP_USERNAME="", SMTP_PASSWORD="", EMAIL_FROM="FluentLoop test <test@example.com>")
     local.run([sys.executable, "-m", "alembic", "upgrade", "head"], settings)
-    accounts = seed(database_url, settings)
+    if "--assessments" in sys.argv:
+        settings["ENABLE_DRAFT_LEARNING_PREVIEW"] = "true"
+    accounts = seed(database_url, settings, assessments="--assessments" in sys.argv)
 
     with (folder / "api.log").open("w", encoding="utf-8") as api_log, (folder / "frontend.log").open("w", encoding="utf-8") as web_log:
         processes = []
@@ -107,9 +118,11 @@ def main():
             wait_for(FRONTEND + "/login", processes[1])
             if "--serve-coach" in sys.argv:
                 MANUAL_FIXTURE.write_text(json.dumps({
-                    "email": accounts["M083_LEARNER_EMAIL"], "password": accounts["M083_PASSWORD"],
+                    "email": accounts["M083_ADMIN_EMAIL"] if "--assessments" in sys.argv else accounts["M083_LEARNER_EMAIL"],
+                    "learner_email": accounts["M083_LEARNER_EMAIL"], "password": accounts["M083_PASSWORD"],
                 }), encoding="utf-8")
-                print(f"Disposable coach ready at {FRONTEND}/login. Press Ctrl+C to stop.")
+                label = "assessment demo" if "--assessments" in sys.argv else "coach"
+                print(f"Disposable {label} ready at {FRONTEND}/login. Press Ctrl+C to stop.")
                 while all(process.poll() is None for process in processes):
                     time.sleep(1)
                 raise SystemExit("A disposable service stopped. See private runtime logs.")
@@ -164,7 +177,7 @@ def copy_coach(field):
     subprocess.run(["powershell.exe", "-NoProfile", "-Command",
                     "Set-Clipboard -Value ([Console]::In.ReadToEnd())"],
                    input=value, text=True, capture_output=True, check=True)
-    print(f"Copied disposable learner {field}. Paste it into the matching field at {FRONTEND}/login.")
+    print(f"Copied disposable account {field}. Paste it into the matching field at {FRONTEND}/login.")
 
 
 if __name__ == "__main__":

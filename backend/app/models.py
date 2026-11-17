@@ -84,6 +84,7 @@ class UserPreferences(Base):
     learning_focus: Mapped[str] = mapped_column(String(16), nullable=False, default="balanced")
     theme: Mapped[str] = mapped_column(String(16), nullable=False, default="system")
     audio_playback_speed: Mapped[float] = mapped_column(Float, nullable=False, default=1.0)
+    motivation_enabled: Mapped[bool] = mapped_column(Boolean, nullable=False, server_default="true")
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False, default=utcnow)
     updated_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False, default=utcnow, onupdate=utcnow)
 

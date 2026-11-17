@@ -14,6 +14,31 @@ class Record:
     id: Mapped[uuid.UUID] = mapped_column(Uuid, primary_key=True, default=uuid.uuid4)
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow, nullable=False)
 
+
+class LearningReward(Record, Base):
+    __tablename__ = "learning_rewards"
+    __table_args__ = (
+        UniqueConstraint("user_id", "kind", "source_id", name="uq_reward_source"),
+        CheckConstraint("xp > 0", name="ck_reward_positive"),
+        Index("ix_reward_owner_date", "user_id", "study_date"),
+    )
+    user_id: Mapped[uuid.UUID] = mapped_column(Uuid, ForeignKey("users.id", ondelete="CASCADE"), nullable=False)
+    kind: Mapped[str] = mapped_column(String(32), nullable=False)
+    source_id: Mapped[uuid.UUID] = mapped_column(Uuid, nullable=False)
+    activity_type: Mapped[str] = mapped_column(String(128), nullable=False)
+    xp: Mapped[int] = mapped_column(Integer, nullable=False)
+    earned_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False)
+    study_date: Mapped[date] = mapped_column(Date, nullable=False)
+    timezone: Mapped[str] = mapped_column(String(80), nullable=False)
+
+
+class LearningAchievement(Record, Base):
+    __tablename__ = "learning_achievements"
+    __table_args__ = (UniqueConstraint("user_id", "achievement_key", name="uq_achievement_owner"),)
+    user_id: Mapped[uuid.UUID] = mapped_column(Uuid, ForeignKey("users.id", ondelete="CASCADE"), nullable=False)
+    achievement_key: Mapped[str] = mapped_column(String(80), nullable=False)
+    earned_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False)
+
 class DailyPlan(Record, Base):
     __tablename__ = "daily_learning_plans"
     __table_args__ = (

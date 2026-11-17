@@ -101,6 +101,7 @@ def safe_user_payload(user: User) -> dict:
             "learning_focus": preferences.learning_focus,
             "theme": preferences.theme,
             "audio_playback_speed": preferences.audio_playback_speed,
+            "motivation_enabled": preferences.motivation_enabled,
         } if preferences else {},
     }
 

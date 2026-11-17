@@ -3,15 +3,18 @@
 import { useEffect, useState, type FormEvent } from 'react';
 import { ProtectedPage } from '@/components/auth-provider';
 import { apiAudio, apiRequest, getApiErrorMessage } from '@/lib/api';
+import { CurriculumAuthoring, DraftImport } from '@/components/curriculum-authoring';
+import type { EditableLesson, EditableCourse } from '@/components/structured-draft-editor';
 
 type QueueItem = { slug: string; title: string; version: string; outstanding: string[] };
 type Exercise = { id: string; type: string; prompt: string };
 type Packet = {
   digest: string;
+  can_author: boolean;
   categories: string[];
   technical_issues: string[];
   readiness: { outstanding: string[]; independent_licensing: boolean; complete: boolean };
-  content: { version: string; title: string; lessons: { slug: string; title: string; exercises: Exercise[] }[] };
+  content: EditableCourse & { version: string; lessons: EditableLesson[] };
   history: { category: string; status: string; reviewer_id: string; reviewed_at: string; version: string; digest: string;
     qualification: string; findings: string; required_corrections: string; evidence: string }[];
 };
@@ -53,15 +56,19 @@ function ReviewWorkspace() {
   const [error, setError] = useState('');
   const [message, setMessage] = useState('');
   const [busy, setBusy] = useState(false);
+  const [canAuthor, setCanAuthor] = useState(false);
   useEffect(() => {
-    apiRequest<{ items: QueueItem[] }>('/content-review/queue')
-      .then(result => setItems(result.items))
+    apiRequest<{ items: QueueItem[]; can_author: boolean }>('/content-review/queue')
+      .then(result => { setItems(result.items); setCanAuthor(result.can_author); })
       .catch(reason => setError(getApiErrorMessage(reason, 'Review queue unavailable.')));
   }, []);
   const path = (key: string) => `/content-review/${encodeURIComponent(key)}`;
   async function open(key: string) {
     setSlug(key); setPacket(null); setError(''); setMessage(''); setBusy(true);
-    try { setPacket(await apiRequest<Packet>(path(key))); }
+    try {
+      const [current, queue] = await Promise.all([apiRequest<Packet>(path(key)), apiRequest<{ items: QueueItem[] }>('/content-review/queue')]);
+      setPacket(current); setItems(queue.items);
+    }
     catch (reason) { setError(getApiErrorMessage(reason, 'Review packet unavailable.')); }
     finally { setBusy(false); }
   }
@@ -84,6 +91,7 @@ function ReviewWorkspace() {
   return <main className="mx-auto max-w-4xl space-y-5 px-5 py-8">
     <h1 className="text-3xl font-bold">Curriculum review</h1>
     <p>Inspect draft packets and record independent decisions for an exact version.</p>
+    {canAuthor && <DraftImport onCreated={key => void open(key)} />}
     {error && <p role="alert" className="text-rose-700">{error}</p>}
     {message && <p role="status">{message}</p>}
     {!items && !error && <p role="status">Loading review queue…</p>}
@@ -99,6 +107,7 @@ function ReviewWorkspace() {
       <p>Version {packet.content.version} · <code className="break-all">{packet.digest}</code></p>
       <p>{packet.readiness.outstanding.length ? `Outstanding reviews: ${packet.readiness.outstanding.join(', ')}` : 'All categories have a decision.'}</p>
       {!packet.readiness.independent_licensing && <p>Independent licensing evidence is outstanding.</p>}
+      <CurriculumAuthoring key={slug + packet.digest} slug={slug} packet={packet} onEdited={() => void open(slug)} />
       {packet.technical_issues.length > 0 && <ul className="list-disc pl-5">{packet.technical_issues.map((issue, index) => <li key={index}>{issue}</li>)}</ul>}
       {packet.content.lessons.map(lesson => <details key={lesson.slug}>
         <summary>{lesson.title}</summary>

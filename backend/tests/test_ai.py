@@ -115,7 +115,9 @@ def test_validation_and_bounded_memory():
             SendMessage(message=text, request_id=uuid4())
     history = [SimpleNamespace(role="user", content="x" * 2000) for _ in range(100)]
     assert len(bounded_history(history)) == 4
-    assert len(SCENARIOS) == 23
+    assert len(SCENARIOS) == 27
+    assert len({item.id for item in SCENARIOS}) == 27
+    assert {"a1-cafe", "a2-hotel", "b1-housing", "b1-telephone"} <= {item.id for item in SCENARIOS}
     assert set(s.cefr_level for s in SCENARIOS) == set(POLICIES)
     assert terms("What does être mean?") == ["être"]
 
@@ -305,7 +307,9 @@ def test_corrections_and_scenarios(tutor):
     assert response.json()["correction"]["corrected_text"] == "J'ai 24 ans."
     assert len(client.get(f"/api/v1/ai/conversations/{c['id']}/feedback").json()) == 1
     scenarios = client.get("/api/v1/ai/scenarios").json()
-    assert len(scenarios) == 4
+    assert len(scenarios) == 5
+    assert all(item["cefr_level"] == "A1" for item in scenarios)
+    assert any(item["id"] == "a1-cafe" for item in scenarios)
     started = client.post(
         "/api/v1/ai/scenarios/a1-boulangerie/start", headers=_csrf(client)
     )

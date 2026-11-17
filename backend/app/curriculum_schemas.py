@@ -3,7 +3,7 @@ from __future__ import annotations
 from typing import Generic, TypeVar
 from uuid import UUID
 
-from pydantic import BaseModel, ConfigDict
+from pydantic import BaseModel, ConfigDict, Field
 
 
 class APIModel(BaseModel):
@@ -95,6 +95,7 @@ class LessonDetailResponse(LessonResponse):
     sections: list[SectionResponse]
     objectives: list[ObjectiveResponse]
     dialogues: list[DialogueResponse]
+    prerequisites: list[UUID] = Field(default_factory=list)
 
 
 class ExampleResponse(APIModel):

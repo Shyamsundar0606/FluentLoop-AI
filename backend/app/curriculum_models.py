@@ -165,6 +165,13 @@ class Lesson(Base):
     updated_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=_now, onupdate=_now, nullable=False)
 
 
+class LessonPrerequisite(Base):
+    __tablename__ = "lesson_prerequisites"
+    __table_args__ = (CheckConstraint("lesson_id <> prerequisite_id", name="ck_prerequisite_not_self"),)
+    lesson_id: Mapped[uuid.UUID] = mapped_column(Uuid(as_uuid=True), ForeignKey("lessons.id", ondelete="CASCADE"), primary_key=True)
+    prerequisite_id: Mapped[uuid.UUID] = mapped_column(Uuid(as_uuid=True), ForeignKey("lessons.id", ondelete="RESTRICT"), primary_key=True)
+
+
 class LessonSection(Base):
     __tablename__ = "lesson_sections"
     __table_args__ = (
@@ -483,3 +490,19 @@ class ExerciseAnswer(Base):
     accepted_answer: Mapped[str] = mapped_column(Text, nullable=False)
     normalized_answer: Mapped[str] = mapped_column(String(512), nullable=False)
     explanation: Mapped[str] = mapped_column(Text, nullable=False)
+
+
+class CurriculumRevision(Base):
+    __tablename__ = "curriculum_revisions"
+    __table_args__ = (
+        UniqueConstraint("course_id", "digest", name="uq_curriculum_revision_digest"),
+        Index("ix_curriculum_revision_course_created", "course_id", "created_at"),
+    )
+
+    id: Mapped[uuid.UUID] = mapped_column(Uuid(as_uuid=True), primary_key=True, default=_uuid)
+    course_id: Mapped[uuid.UUID] = mapped_column(Uuid(as_uuid=True), ForeignKey("courses.id", ondelete="RESTRICT"), nullable=False)
+    content_version: Mapped[str] = mapped_column(String(32), nullable=False)
+    digest: Mapped[str] = mapped_column(String(64), nullable=False)
+    packet: Mapped[dict] = mapped_column(STRUCTURED_JSON, nullable=False)
+    created_by: Mapped[Optional[uuid.UUID]] = mapped_column(Uuid(as_uuid=True), ForeignKey("users.id", ondelete="SET NULL"))
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False, default=_now)

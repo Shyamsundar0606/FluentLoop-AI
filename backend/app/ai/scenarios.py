@@ -234,7 +234,28 @@ DEFINITIONS = {
     ],
 }
 
+DEFINITIONS["A1"].append((
+    "cafe", "Ordering in a café", "server", "customer", "Order a drink in a fictional café and ask for the bill.",
+    ["un café", "l'addition"], ["je voudrais", "polite requests"],
+))
+DEFINITIONS["A2"].append((
+    "hotel", "Checking into a hotel", "receptionist", "guest", "Confirm a fictional booking and ask about the room.",
+    ["une réservation", "une chambre"], ["questions", "polite requests"],
+))
+DEFINITIONS["B1"].append((
+    "housing", "Arranging an apartment viewing", "property contact", "prospective tenant", "Arrange a viewing of a fictional apartment using invented details.",
+    ["le loyer", "une visite"], ["conditional requests", "questions"],
+))
+DEFINITIONS["B1"].append((
+    "telephone", "Leaving a telephone message", "office assistant", "caller", "Ask for a fictional colleague and leave a short callback message.",
+    ["rappeler", "laisser un message"], ["reported requests", "polite conditional"],
+))
+
 BRIEFS = {
+    "cafe": ("Bonjour ! Qu’est-ce que vous voulez boire ?", "Order a drink politely and ask for the bill."),
+    "hotel": ("Bonsoir ! Vous avez une réservation ?", "Confirm a fictional booking and ask one question about the room."),
+    "housing": ("Bonjour ! Vous souhaitez visiter cet appartement ?", "Ask about the fictional rent and arrange a viewing."),
+    "telephone": ("Bonjour, le bureau de Camille, j’écoute.", "Request a callback and leave a fictional message without real contact details."),
     "introductions": ("Bonjour ! Comment vous appelez-vous ?", "Give a fictional name and ask one question."),
     "boulangerie": ("Bonjour ! Qu’est-ce que vous désirez ?", "Order an item politely and close the exchange."),
     "restaurant": ("Bonjour ! Vous avez choisi ?", "Order a meal and ask for the bill."),

@@ -1,5 +1,6 @@
 """Authenticated review queue and versioned decisions in the existing API console."""
-from fastapi import APIRouter, Depends, HTTPException, Request, Response
+from fastapi import APIRouter, Depends, HTTPException, Request, Response, Query
+from uuid import UUID
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
@@ -9,8 +10,78 @@ from app.course_review import ReviewInput, digest_packet, packet, provenance, re
 from app.curriculum_models import Course
 from app.dependencies import AuthContext, current_auth_context, require_csrf
 from app.services.draft_preview import can_preview_drafts
+from app.services import curriculum_authoring as authoring
+from app.assessment_content import AssessmentPack, import_assessment_pack
 
 router = APIRouter(prefix="/content-review", tags=["curriculum review"])
+
+
+def author_permission(request: Request, context: AuthContext = Depends(require_csrf)):
+    if not can_preview_drafts(context.user):
+        raise HTTPException(403, "Authorized draft authoring access required.")
+    from app.services.rate_limit import enforce_rate_limit
+    enforce_rate_limit(request, f"authoring:{context.user.id}", 20, 60)
+    return context
+
+
+@router.post("/drafts")
+def create_drafts(payload: AssessmentPack, context: AuthContext = Depends(author_permission), db: Session = Depends(get_db)):
+    try:
+        report = import_assessment_pack(db, payload)
+    except ValueError as exc:
+        raise HTTPException(422, str(exc)) from None
+    slug = f"m10-assessments-{payload.level.lower()}-{payload.version}"
+    revision = authoring.snapshot(db, context.user, slug)
+    return dict(slug=slug, report=report, revision=revision)
+
+
+@router.post("/{slug}/revisions")
+def save_version(slug: str, context: AuthContext = Depends(author_permission), db: Session = Depends(get_db)):
+    return authoring.snapshot(db, context.user, slug)
+
+
+@router.get("/{slug}/revisions")
+def versions(slug: str, limit: int = Query(20, ge=1, le=100), offset: int = Query(0, ge=0, le=100000),
+             context: AuthContext = Depends(current_auth_context), db: Session = Depends(get_db)):
+    inspect_permission(context)
+    return authoring.history(db, slug, limit, offset)
+
+
+@router.get("/{slug}/compare")
+def compare_versions(slug: str, before: UUID, after: UUID,
+                     context: AuthContext = Depends(current_auth_context), db: Session = Depends(get_db)):
+    inspect_permission(context)
+    return authoring.compare(db, slug, before, after)
+
+
+@router.post("/{slug}/sections")
+def edit_section(slug: str, payload: authoring.EditSection,
+                 context: AuthContext = Depends(author_permission), db: Session = Depends(get_db)):
+    return authoring.edit(db, context.user, slug, payload)
+
+
+@router.post("/{slug}/lessons")
+def edit_lesson(slug: str, payload: authoring.EditLesson,
+                context: AuthContext = Depends(author_permission), db: Session = Depends(get_db)):
+    return authoring.edit_lesson(db, context.user, slug, payload)
+
+
+@router.post("/{slug}/exercises")
+def edit_exercise(slug: str, payload: authoring.EditExercise,
+                  context: AuthContext = Depends(author_permission), db: Session = Depends(get_db)):
+    return authoring.edit_exercise(db, context.user, slug, payload)
+
+
+@router.post("/{slug}/resources")
+def edit_resource(slug: str, payload: authoring.EditResource,
+                  context: AuthContext = Depends(author_permission), db: Session = Depends(get_db)):
+    return authoring.edit_resource(db, context.user, slug, payload)
+
+
+@router.post("/{slug}/course")
+def edit_course(slug: str, payload: authoring.EditCourse,
+                context: AuthContext = Depends(author_permission), db: Session = Depends(get_db)):
+    return authoring.edit_course(db, context.user, slug, payload)
 
 
 def grant_for(user):
@@ -25,7 +96,7 @@ def inspect_permission(context):
 
 
 def load(db, slug, *, lock=False):
-    query = select(Course).where(Course.slug == slug, Course.level_id == "A1")
+    query = select(Course).where(Course.slug == slug)
     course = db.scalar(query.with_for_update() if lock else query)
     source = provenance(db, course, lock=lock) if course else None
     if source is None:
@@ -38,16 +109,16 @@ def load(db, slug, *, lock=False):
 def queue(context: AuthContext = Depends(current_auth_context), db: Session = Depends(get_db)):
     inspect_permission(context)
     items = []
-    courses = db.scalars(select(Course).where(Course.level_id == "A1", Course.status.in_(("draft", "review")))
-        .order_by(Course.slug))
+    courses = db.scalars(select(Course).where(Course.status.in_(("draft", "review")))
+        .order_by(Course.level_id, Course.slug))
     for course in courses:
         source = provenance(db, course)
         if source is not None:
             digest = digest_packet(packet(db, course, source))
             history = source.review_metadata.get("independent_reviews", [])
-            items.append(dict(slug=course.slug, title=course.title, version=course.content_version,
+            items.append(dict(slug=course.slug, title=course.title, level=course.level_id, version=course.content_version,
                               digest=digest, **readiness(history, digest, course.content_version)))
-    return {"items": items}
+    return {"items": items, "can_author": can_preview_drafts(context.user)}
 
 
 @router.get("/{slug}")
@@ -55,7 +126,7 @@ def detail(slug: str, context: AuthContext = Depends(current_auth_context), db: 
     inspect_permission(context)
     course, source, content, digest = load(db, slug)
     history = source.review_metadata.get("independent_reviews", [])
-    return dict(content=content, digest=digest, history=history,
+    return dict(content=content, digest=digest, history=history, can_author=can_preview_drafts(context.user),
                 technical_issues=validate_packet(content),
                 categories=sorted(grant_for(context.user).categories) if grant_for(context.user) else [],
                 readiness=readiness(history, digest, course.content_version))

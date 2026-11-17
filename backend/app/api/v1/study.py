@@ -6,6 +6,7 @@ from app.core.database import get_db
 from app.dependencies import current_auth_context, require_csrf, AuthContext
 from app.services.rate_limit import enforce_rate_limit
 from app.services import daily_learning_service as plans, spaced_repetition_service as reviews
+from app.services import motivation_service as motivation
 from app.study_models import DailyPlan
 from app.study_schemas import (GeneratePlan, StartReview, AnswerReview, PlanView, PlanPage, RecommendationView,
     ActivityView, ReviewSessionView, ReviewFeedback, DueView, ReviewProgress, HistoryPage)
@@ -19,6 +20,22 @@ def read_context(request:Request, context:AuthContext=Depends(current_auth_conte
 def limited(request:Request, context:AuthContext=Depends(require_csrf)):
     enforce_rate_limit(request,f'study:{context.user.id}',60,60)
     return context
+
+
+@router.get('/study/motivation')
+def motivation_summary(context:AuthContext=Depends(read_context),db:Session=Depends(get_db)):
+    return motivation.summary(db,context.user)
+
+
+@router.post('/study/motivation/sync')
+def motivation_sync(context:AuthContext=Depends(limited),db:Session=Depends(get_db)):
+    return motivation.sync(db,context.user)
+
+
+@router.get('/study/motivation/history')
+def motivation_history(limit:int=Query(20,ge=1,le=100),offset:int=Query(0,ge=0,le=100000),
+                       context:AuthContext=Depends(read_context),db:Session=Depends(get_db)):
+    return motivation.history(db,context.user,limit,offset)
 
 @router.get('/study/today',response_model=PlanView | None)
 def today(context:AuthContext=Depends(read_context),db:Session=Depends(get_db)):

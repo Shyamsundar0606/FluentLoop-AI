@@ -117,6 +117,7 @@ class ProfilePatch(BaseModel):
 
 
 class PreferencesPatch(BaseModel):
+    motivation_enabled: Optional[bool] = None
     explanation_language: Optional[Literal["English"]] = None
     target_language: Optional[Literal["French"]] = None
     current_level: Optional[Level] = None

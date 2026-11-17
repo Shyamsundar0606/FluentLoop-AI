@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 
 import { ProtectedPage } from "@/components/auth-provider";
 import { ReviewMetrics } from "@/components/vocabulary-review";
+import { AssessmentEvidence } from "@/components/assessment-insights";
 import { ApiError } from "@/lib/api";
 import { getLearningProgress, type LessonProgress } from "@/lib/learning";
 
@@ -57,6 +58,7 @@ function ProgressContent() {
       <div className="mx-auto max-w-5xl">
         <h1 className="mt-4 text-3xl font-bold">Your learning progress</h1>
         <ReviewMetrics />
+        <AssessmentEvidence />
         <p className="mt-2 text-slate-600 dark:text-slate-300">
           Progress is saved to your account and stays with each lesson when you
           change levels.
