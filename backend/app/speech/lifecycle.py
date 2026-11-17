@@ -15,6 +15,9 @@ async def lifespan(app):
     def sweep():
         with SessionLocal() as db:
             cleanup(db)
+        from app.services.account_privacy import cleanup_erasure_jobs
+        with SessionLocal() as db:
+            cleanup_erasure_jobs(db)
 
     async def loop():
         while True:

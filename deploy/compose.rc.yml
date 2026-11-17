@@ -1,0 +1,86 @@
+# Explicit disposable override; always use a unique --project-name and private env.
+# Requires a separately isolated daemon. No protected Docker Desktop startup.
+services:
+  proxy:
+    restart: "no"
+    ports: !override ["127.0.0.1:8080:80", "127.0.0.1:8443:443"]
+    volumes: !override
+      - ./Caddyfile.rc:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    mem_limit: 256m
+  frontend:
+    restart: "no"
+    build:
+      network: host
+      args: { NEXT_PUBLIC_API_BASE_URL: "https://localhost:8443/api/v1" }
+    mem_limit: 768m
+    cpus: 2
+  backend:
+    restart: "no"
+    build: { network: host }
+    environment:
+      FRONTEND_ORIGIN: https://localhost:8443
+      CORS_ORIGINS: '["https://localhost:8443"]'
+      SMTP_HOST: mailpit
+      SMTP_PORT: "1025"
+      SMTP_STARTTLS: "false"
+      SMTP_USERNAME: ""
+      SMTP_PASSWORD: ""
+    depends_on:
+      db: { condition: service_healthy }
+      redis: { condition: service_healthy }
+    mem_limit: 768m
+    cpus: 2
+  db:
+    image: postgres:16-alpine
+    restart: "no"
+    environment:
+      POSTGRES_DB: "${RC_DATABASE:?Set disposable database name}"
+      POSTGRES_USER: fluentloop_rc
+      POSTGRES_PASSWORD: "${RC_DB_PASSWORD:?Set private random test password}"
+    volumes: ["rc_pg_data:/var/lib/postgresql/data"]
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U fluentloop_rc -d $${POSTGRES_DB}"]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+    mem_limit: 512m
+  redis:
+    image: redis:7-alpine
+    restart: "no"
+    environment:
+      REDIS_PASSWORD: "${RC_REDIS_PASSWORD:?Set private random test password}"
+      REDISCLI_AUTH: "${RC_REDIS_PASSWORD}"
+    command: [sh, -c, 'exec redis-server --requirepass "$$REDIS_PASSWORD"']
+    healthcheck:
+      test: [CMD, redis-cli, ping]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+    mem_limit: 128m
+  mailpit:
+    image: axllent/mailpit:v1.21
+    restart: "no"
+    command: [--smtp-disable-rdns, --smtp-relay-all=false]
+    mem_limit: 128m
+  ollama:
+    image: ollama/ollama:0.40.13
+    restart: "no"
+    volumes: ["${RC_OLLAMA_MODELS:?Set provisioned model directory}:/root/.ollama/models:ro"]
+    mem_limit: 4g
+    cpus: 2
+  speech-worker:
+    build: { context: ../backend, dockerfile: Dockerfile.speech, network: host }
+    restart: "no"
+    environment:
+      SPEECH_WORKER_TOKEN: "${SPEECH_WORKER_TOKEN}"
+      SPEECH_MODEL_PATH: /models
+      SPEECH_ASR_MODEL: base
+    volumes: ["${RC_SPEECH_MODELS:?Set provisioned speech models}:/models:ro"]
+    mem_limit: 2g
+    cpus: 2
+    read_only: true
+    tmpfs: ["/tmp:size=128m,mode=1777"]
+volumes:
+  rc_pg_data:

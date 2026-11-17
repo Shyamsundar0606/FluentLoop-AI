@@ -24,6 +24,7 @@ from app.curriculum_models import (
     LessonDialogue,
     LessonGrammar,
     LessonObjective,
+    LessonPrerequisite,
     LessonSection,
     LessonVocabulary,
     LearningObjective,
@@ -490,6 +491,8 @@ def get_lesson(
         "level": lesson.difficulty_level,
         "content_status": lesson.status,
         "draft_preview": lesson.status != "published",
+        "prerequisites": db.scalars(select(LessonPrerequisite.prerequisite_id).where(
+            LessonPrerequisite.lesson_id == lesson.id)).all(),
         "sections": [
             {
                 "type": section.section_type,

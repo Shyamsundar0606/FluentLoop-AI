@@ -6,9 +6,11 @@ from app.api.v1.health import router as health_router
 from app.api.v1.system import router as system_router
 from app.api.v1.auth import router as auth_router
 from app.api.v1.users import router as users_router
+from app.api.v1.privacy import router as privacy_router
 from app.api.v1.curriculum import router as curriculum_router
 from app.api.v1.content_review import router as content_review_router
 from app.api.v1.learning import router as learning_router
+from app.api.v1.assessments import router as assessments_router
 from app.api.v1.ai import router as ai_router
 from app.api.v1.speech import router as speech_router
 from app.api.v1.study import router as study_router
@@ -42,15 +44,24 @@ app.include_router(study_router, prefix=settings.api_prefix)
 app.include_router(system_router, prefix=settings.api_prefix)
 app.include_router(auth_router, prefix=settings.api_prefix)
 app.include_router(users_router, prefix=settings.api_prefix)
+app.include_router(privacy_router, prefix=settings.api_prefix)
 app.include_router(curriculum_router, prefix=settings.api_prefix)
 app.include_router(content_review_router, prefix=settings.api_prefix)
 app.include_router(learning_router, prefix=settings.api_prefix)
+app.include_router(assessments_router, prefix=settings.api_prefix)
 app.include_router(ai_router, prefix=settings.api_prefix)
 app.include_router(speech_router, prefix=settings.api_prefix)
 
 
 @app.middleware("http")
 async def private_api_responses(request, call_next):
+    if request.url.path in {f"{settings.api_prefix}/users/me/data-export", f"{settings.api_prefix}/users/me/delete-account"} and request.method == "POST":
+        body = bytearray()
+        async for chunk in request.stream():
+            body.extend(chunk)
+            if len(body) > 4096:
+                return JSONResponse(status_code=413, content={"detail": "Privacy request is too large."}, headers={"Cache-Control": "no-store"})
+        request._body = bytes(body)
     if request.url.path.startswith(f"{settings.api_prefix}/speech") and request.method in {"POST", "PATCH", "DELETE"}:
         body = bytearray()
         async for chunk in request.stream():
@@ -58,12 +69,19 @@ async def private_api_responses(request, call_next):
             if len(body) > settings.speech_max_upload_bytes + 16000:
                 return JSONResponse(status_code=413, content={"detail": "Speech request body is too large."}, headers={"Cache-Control": "no-store"})
         request._body = bytes(body)
-    if request.url.path.startswith(f"{settings.api_prefix}/ai") and request.method in {"POST", "PATCH"}:
+    if request.url.path.startswith((f"{settings.api_prefix}/ai", f"{settings.api_prefix}/learning/assessments/writing")) and request.method in {"POST", "PATCH"}:
         body = bytearray()
         async for chunk in request.stream():
             body.extend(chunk)
             if len(body) > 32000:
                 return JSONResponse(status_code=413, content={"detail": "AI request body is too large."}, headers={"Cache-Control": "no-store"})
+        request._body = bytes(body)
+    if request.url.path.startswith(f"{settings.api_prefix}/content-review") and request.method == "POST":
+        body = bytearray()
+        async for chunk in request.stream():
+            body.extend(chunk)
+            if len(body) > 2_000_000:
+                return JSONResponse(status_code=413, content={"detail": "Curriculum request is too large."}, headers={"Cache-Control": "no-store"})
         request._body = bytes(body)
     response = await call_next(request)
     private_prefixes = (

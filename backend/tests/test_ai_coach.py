@@ -1,10 +1,26 @@
 from uuid import uuid4
+import pytest
 
 from sqlalchemy import select
 
 from app.curriculum_models import Course, ExampleSentence, Lesson, Lexeme, LexemeExample, Unit
 from test_ai import send, tutor
 from test_learning import _csrf, _import_content, _register_and_login
+
+
+@pytest.mark.parametrize("level,scenario", [("a1", "a1-cafe"), ("a2", "a2-hotel"),
+                                            ("b1", "b1-housing"), ("b1", "b1-telephone")])
+def test_additional_everyday_scenarios_use_existing_coach_and_saved_level(tutor, level, scenario):
+    client, _, _, _ = tutor
+    assert client.patch("/api/v1/users/me/preferences", headers=_csrf(client), json={"current_level": level}).status_code == 200
+    started = client.post(f"/api/v1/ai/scenarios/{scenario}/start", headers=_csrf(client))
+    assert started.status_code == 201
+    conversation = started.json()
+    coach = client.get(f"/api/v1/ai/conversations/{conversation['id']}/coach").json()
+    assert coach["scenario"]["id"] == scenario
+    assert len(coach["scenario_vocabulary"]) == 2
+    assert all(word["example"] and word["english"] for word in coach["scenario_vocabulary"])
+    assert client.get("/api/v1/auth/me").json()["user"]["preferences"]["current_level"] == level
 
 
 def test_scenario_coach_options_summary_ownership_and_deletion(tutor):

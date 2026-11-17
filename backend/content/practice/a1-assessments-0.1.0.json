@@ -1,0 +1,41 @@
+{
+  "version": "0.1.0",
+  "level": "A1",
+  "status": "draft",
+  "source_license": "Original AI-assisted draft; independent rights and educational review pending",
+  "tasks": [
+    {
+      "key": "polite-words",
+      "skill": "vocabulary",
+      "title": "Greetings and polite words",
+      "objective": "Recognize and use three common French greetings and polite expressions.",
+      "context": "Use bonjour to greet someone during the day, merci to thank someone, and au revoir when leaving. These words are reused from the existing vocabulary library.",
+      "vocabulary": ["bonjour", "merci", "au revoir"],
+      "exercises": [
+        {"key": "meaning", "type": "multiple_choice", "prompt": "What does merci mean?", "instructions": "Choose the English meaning.", "explanation": "Merci means thank you.", "options": ["Thank you", "Goodbye", "Hello"], "correct_option": 0},
+        {"key": "french-word", "type": "short_answer", "prompt": "Write the French word for thank you.", "instructions": "Write one word.", "explanation": "The French word is merci.", "data": {"accepted_answers": ["merci"]}},
+        {"key": "context", "type": "multiple_choice", "prompt": "You leave a shop. Which expression fits?", "instructions": "Choose the expression used when leaving.", "explanation": "Au revoir means goodbye and fits when leaving.", "options": ["Au revoir", "Merci", "Bonjour"], "correct_option": 0},
+        {"key": "match-words", "type": "matching", "prompt": "Match the French expressions with their meanings.", "instructions": "Match every expression once.", "explanation": "Bonjour means hello; merci means thank you.", "data": {"left_items": [{"id": "11111111-1111-4111-8111-111111111111", "text": "bonjour"}, {"id": "22222222-2222-4222-8222-222222222222", "text": "merci"}], "right_items": [{"id": "33333333-3333-4333-8333-333333333333", "text": "hello"}, {"id": "44444444-4444-4444-8444-444444444444", "text": "thank you"}], "answer_pairs": {"11111111-1111-4111-8111-111111111111": "33333333-3333-4333-8333-333333333333", "22222222-2222-4222-8222-222222222222": "44444444-4444-4444-8444-444444444444"}}}
+      ]
+    },
+    {
+      "key": "message-from-lina",
+      "skill": "reading",
+      "title": "Read a message from Lina",
+      "objective": "Find a name, a place and a time in a short original French message.",
+      "context": "Bonjour ! Je m'appelle Lina. J'habite à Lyon. Samedi, je vais au marché à neuf heures avec mon frère. Nous achetons du pain et des pommes. À bientôt !",
+      "exercises": [
+        {"key": "city", "type": "multiple_choice", "prompt": "Où habite Lina ?", "instructions": "Choose the city named in the message.", "explanation": "The message says J'habite à Lyon, meaning I live in Lyon.", "options": ["Lyon", "Paris", "Lille"], "correct_option": 0},
+        {"key": "time", "type": "short_answer", "prompt": "À quelle heure Lina va-t-elle au marché ?", "instructions": "Write the time in French or as a number.", "explanation": "Lina goes to the market à neuf heures, at nine o'clock.", "data": {"accepted_answers": ["à neuf heures", "neuf heures", "9 heures", "9 h", "9h", "9"]}},
+        {"key": "companion", "type": "multiple_choice", "prompt": "Lina va au marché avec sa sœur. Vrai ou faux ?", "instructions": "Decide whether the statement matches the passage.", "explanation": "It is false. The message says avec mon frère, with my brother.", "options": ["Faux", "Vrai"], "correct_option": 0}
+      ]
+    },
+    {
+      "key": "introduce-yourself",
+      "skill": "writing",
+      "title": "Write a short introduction",
+      "objective": "Write three simple original French sentences introducing yourself.",
+      "context": "Write three simple sentences in French. Introduce yourself using a fictional name if you prefer, say where you live, and mention an activity you enjoy. Avoid private contact details. Optional AI feedback offers suggestions about task completion, grammar, vocabulary and clarity."
+    }
+  ]
+}

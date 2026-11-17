@@ -16,7 +16,7 @@ from app.curriculum_models import (
     ContentProvenance, ContentSource, Dialogue, DialogueTurn, Exercise, ExerciseOption, GrammarExample,
     GrammarRule, GrammarTopic, Lesson, LessonGrammar, LessonObjective, LessonSection,
     LessonDialogue, LessonVocabulary, LearningObjective, Lexeme, Pronunciation, Translation, Unit, WordSense,
-    VerbConjugation, VerbLemma,
+    VerbConjugation, VerbLemma, LessonPrerequisite,
 )
 
 CATEGORIES = ("linguistic_accuracy", "phonetics", "pedagogy", "answer_keys", "licensing")
@@ -58,10 +58,14 @@ def packet(db, course, source):
     for unit in db.scalars(select(Unit).where(Unit.course_id == course.id).order_by(Unit.sequence_order)):
         for lesson in db.scalars(select(Lesson).where(Lesson.unit_id == unit.id).order_by(Lesson.sequence_order)):
             lid = lesson.id
-            sections = _rows(db, select(LessonSection.title, LessonSection.section_type, LessonSection.body_content,
+            sections = _rows(db, select(LessonSection.id, LessonSection.title, LessonSection.section_type, LessonSection.body_content,
                 LessonSection.content_metadata).where(LessonSection.lesson_id == lid).order_by(LessonSection.sequence_order))
-            objectives = _rows(db, select(LearningObjective.code, LearningObjective.title, LearningObjective.description)
+            for section in sections:
+                section["id"] = str(section["id"])
+            objectives = _rows(db, select(LearningObjective.id, LearningObjective.code, LearningObjective.title, LearningObjective.description, LearningObjective.skill_category)
                 .join(LessonObjective).where(LessonObjective.lesson_id == lid).order_by(LearningObjective.code))
+            for objective in objectives:
+                objective["id"] = str(objective["id"])
             vocabulary = []
             for word, note in db.execute(select(Lexeme, LessonVocabulary.teaching_note).join(LessonVocabulary)
                 .where(LessonVocabulary.lesson_id == lid).order_by(LessonVocabulary.sequence_order)):
@@ -94,15 +98,17 @@ def packet(db, course, source):
                         explanation_french=rule.explanation_french, exceptions=rule.exceptions, examples=_rows(db, select(GrammarExample.french_sentence,
                             GrammarExample.english_translation).where(GrammarExample.rule_id == rule.id)
                             .order_by(GrammarExample.french_sentence, GrammarExample.english_translation))))
-                grammar.append(dict(slug=topic.slug, title=topic.title, summary=topic.summary, rules=rules,
+                grammar.append(dict(id=str(topic.id), slug=topic.slug, title=topic.title, summary=topic.summary, rules=rules,
                     teaching=metadata if metadata.get("preferred_lesson_slug") == lesson.slug else {}))
             exercises = []
             for exercise in db.scalars(select(Exercise).where(Exercise.lesson_id == lid).order_by(Exercise.sequence_order)):
                 exercises.append(dict(id=str(exercise.id), type=exercise.exercise_type, level=exercise.level, prompt=exercise.prompt,
                     instructions=exercise.instructions, feedback=exercise.explanation, data=exercise.exercise_data,
                     objective=str(exercise.learning_objective_id or ""), grammar=str(exercise.grammar_topic_id or ""),
-                    options=_rows(db, select(ExerciseOption.option_text, ExerciseOption.is_correct)
+                    options=_rows(db, select(ExerciseOption.id, ExerciseOption.option_text, ExerciseOption.is_correct)
                         .where(ExerciseOption.exercise_id == exercise.id).order_by(ExerciseOption.sequence_order))))
+                for option in exercises[-1]["options"]:
+                    option["id"] = str(option["id"])
             dialogues = []
             for dialogue in db.scalars(select(Dialogue).join(LessonDialogue).where(LessonDialogue.lesson_id == lid)
                 .order_by(Dialogue.slug)):
@@ -111,16 +117,20 @@ def packet(db, course, source):
                     .order_by(DialogueTurn.sequence_order))
                 dialogues.append(dict(slug=dialogue.slug, title=dialogue.title, level=dialogue.cefr_level,
                     context=dialogue.context, english_context=dialogue.english_context, turns=turns))
-            lessons.append(dict(slug=lesson.slug, title=lesson.title, description=lesson.description,
+            lessons.append(dict(id=str(lid), slug=lesson.slug, title=lesson.title, description=lesson.description,
                 version=lesson.content_version, level=lesson.difficulty_level, order=[unit.sequence_order, lesson.sequence_order],
                 unit_title=unit.title, estimated_minutes=lesson.estimated_minutes,
                 sections=sections, objectives=objectives, vocabulary=vocabulary, grammar=grammar,
-                dialogues=dialogues, exercises=exercises))
+                dialogues=dialogues, exercises=exercises,
+                prerequisites=[str(value) for value in db.scalars(select(LessonPrerequisite.prerequisite_id)
+                    .where(LessonPrerequisite.lesson_id == lid).order_by(LessonPrerequisite.prerequisite_id))]))
     content_source = db.get(ContentSource, source.source_id)
+    from app.services.curriculum_resources import resource_packet
     return dict(course=course.slug, title=course.title, description=course.description,
         version=course.content_version, level=course.level_id, source_type=content_source.source_type,
         source_url=content_source.source_url, source_license=content_source.source_license,
-        attribution=content_source.attribution_requirements, lessons=lessons)
+        attribution=content_source.attribution_requirements, estimated_minutes=course.estimated_minutes, lessons=lessons,
+        resources=resource_packet(db, [UUID(lesson["id"]) for lesson in lessons]))
 
 
 def digest_packet(value):
@@ -131,17 +141,33 @@ def validate_packet(content):
     issues = []
     if not content["lessons"] or not content["source_license"] or not content["attribution"]:
         issues.append("Missing lesson content or source provenance.")
-    if content["level"] != "A1":
-        issues.append("Review packets currently require A1.")
+    if content["level"] not in ("A1", "A2", "B1", "B2", "C1", "C2"):
+        issues.append("Review packets require one of the six supported CEFR levels.")
     orders = [lesson["order"] for lesson in content["lessons"]]
     if orders != sorted(orders) or len({tuple(order) for order in orders}) != len(orders):
         issues.append("Lesson order must be unique and increasing.")
     for lesson in content["lessons"]:
         slug = lesson["slug"]
+        earlier_ids = {row.get("id") for row in content["lessons"] if row["order"] < lesson["order"]}
+        prerequisites = lesson.get("prerequisites", [])
+        if len(set(prerequisites)) != len(prerequisites) or not set(prerequisites) <= earlier_ids:
+            issues.append(f"{slug}: prerequisites must reference unique earlier lessons in this course.")
         if lesson["version"] != content["version"] or lesson["level"] != content["level"]:
             issues.append(f"{slug}: lesson version or level differs from course.")
-        if any(not lesson[field] for field in ("title", "description", "sections", "objectives", "grammar", "exercises")):
+        skills = {objective.get("skill_category") for objective in lesson["objectives"]}
+        required = ["title", "description", "sections", "objectives"]
+        if skills != {"writing"}:
+            required.append("exercises")
+        if "grammar" in skills or None in skills:
+            required.append("grammar")
+        if any(not lesson[field] for field in required):
             issues.append(f"{slug}: incomplete lesson packet.")
+        if "reading" in skills and not lesson["dialogues"] and not any(section["body_content"].strip() and
+                section["content_metadata"].get("assessment_skill") == "reading" for section in lesson["sections"]):
+            issues.append(f"{slug}: reading assessment needs its linked passage.")
+        if skills == {"writing"} and not any(section["body_content"].strip() and
+                section["content_metadata"].get("assessment_skill") == "writing" for section in lesson["sections"]):
+            issues.append(f"{slug}: writing assessment needs its linked prompt.")
         for word in lesson["vocabulary"]:
             if not any(t["language_code"] == "en" and t["translated_text"].strip() for t in word["translations"]):
                 issues.append(f"{slug}: vocabulary item lacks an English translation.")
@@ -155,6 +181,10 @@ def validate_packet(content):
                 issues.append(f"{slug}: incomplete grammar examples or explanation.")
         for number, exercise in enumerate(lesson["exercises"], 1):
             try:
+                if exercise["objective"] and exercise["objective"] not in {objective.get("id") for objective in lesson["objectives"]}:
+                    raise ValueError("exercise objective is not linked to this lesson")
+                if exercise["grammar"] and exercise["grammar"] not in {topic.get("id") for topic in lesson["grammar"]}:
+                    raise ValueError("exercise grammar is not linked to this lesson")
                 if exercise["level"] != lesson["level"]:
                     raise ValueError("exercise and lesson levels differ")
                 definition(exercise["type"], exercise["data"])

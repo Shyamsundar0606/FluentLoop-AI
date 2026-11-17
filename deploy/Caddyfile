@@ -1,0 +1,19 @@
+{$PUBLIC_HOST} {
+    encode gzip
+    header {
+        Strict-Transport-Security "max-age=31536000"
+        X-Content-Type-Options nosniff
+        X-Frame-Options DENY
+        Referrer-Policy strict-origin-when-cross-origin
+    }
+    @api path /api/v1 /api/v1/*
+    handle @api {
+        request_body {
+            max_size 11MB
+        }
+        reverse_proxy backend:8000
+    }
+    handle {
+        reverse_proxy frontend:3000
+    }
+}

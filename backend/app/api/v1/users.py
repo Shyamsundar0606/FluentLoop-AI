@@ -132,4 +132,5 @@ def _preferences_payload(preferences: UserPreferences) -> dict:
         "learning_focus": preferences.learning_focus,
         "theme": preferences.theme,
         "audio_playback_speed": preferences.audio_playback_speed,
+        "motivation_enabled": preferences.motivation_enabled,
     }

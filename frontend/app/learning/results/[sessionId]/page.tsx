@@ -20,6 +20,7 @@ function ResultsContent(){
     return()=>{active=false;};
   },[sessionId]);
   const practice=results?.activity_key?.startsWith('practice:');
+  const assessment=results?.activity_key?.startsWith('assessment:');
   const topics=review?[...new Set(review.filter(item=>item.practice_available).map(item=>item.objective_title??'Lesson review'))]:[];
   const lessonUrl=results?`/courses?level=${results.cefr_level.toLowerCase()}&lesson=${encodeURIComponent(results.lesson_id)}`:'/courses';
   return <main className="mx-auto max-w-3xl px-5 py-8">
@@ -27,16 +28,21 @@ function ResultsContent(){
     {!results&&!error&&<p role="status" className="mt-8">Loading saved results…</p>}{error&&<p role="alert" className="mt-6 text-rose-700">{error}</p>}
     {results&&session&&<>
       <section className="mt-6 rounded-2xl border border-violet-100 bg-white p-6 sm:p-8" aria-label="Saved results">
-        <p className="text-sm font-semibold text-violet-700">{results.cefr_level} {practice?'practice complete':'lesson complete'}</p>
+        <p className="text-sm font-semibold text-violet-700">{results.cefr_level} {assessment?'assessment complete':practice?'practice complete':'lesson complete'}</p>
         <h1 className="mt-3 text-3xl font-bold">{results.lesson_title}</h1><p className="mt-5 text-4xl font-bold text-violet-700">{results.percentage}%</p>
         <p className="mt-3">{results.correct_answers} correct · {results.incorrect_answers} incorrect · {results.total_questions} questions</p>
-        <p className="mt-3 text-sm text-slate-500">{results.total_questions} questions answered. {practice?'Focused practice · full lesson progress unchanged':`Completion ${results.completion_count}`} · Completed {new Date(results.completed_at).toLocaleString()}</p>
+        <p className="mt-3 text-sm text-slate-500">{results.total_questions} questions answered. {assessment?'Saved skills assessment':practice?'Focused practice · full lesson progress unchanged':`Completion ${results.completion_count}`} · Completed {new Date(results.completed_at).toLocaleString()}</p>
         <h2 className="mt-6 font-semibold">Topics needing review</h2>
         {review===null?<p className="mt-2 text-sm text-slate-500">Current mistake details are loading or temporarily unavailable. Saved grading below remains available.</p>:topics.length?<ul className="mt-2 list-disc pl-5">{topics.map(topic=><li key={topic}>{topic}</li>)}</ul>:<p className="mt-2 text-sm text-slate-600">No current unresolved mistakes from this attempt. Earlier errors may have been revisited, or their source version changed.</p>}
         <div className="mt-6 flex flex-wrap gap-3"><Link className="button button-primary" href={grammarPracticeTopic(session.activity_key) ? learningReturnUrl(session) : lessonUrl}>{grammarPracticeTopic(session.activity_key) ? 'Back to grammar topic' : 'Continue learning'}</Link>
           {review?.some(item=>item.practice_available)?<Link className="button button-secondary" href={`/practice?level=${results.cefr_level.toLowerCase()}&category=mistakes&lesson=${results.lesson_id}`}>Review mistakes</Link>:null}</div>
       </section>
       <p className="mt-4 text-sm text-slate-500">This exercise score records this activity. It is not a formal certification of French proficiency or a pronunciation score.</p>
+      {assessment && <Link href="/assessments" className="mt-4 inline-block font-semibold text-violet-700">Back to assessments and history</Link>}
+      {session.lesson.assessment_context && <details className="mt-4 rounded-xl border border-violet-100 bg-white p-5">
+        <summary className="font-semibold">Saved assessment task</summary>
+        <p className="mt-3 whitespace-pre-wrap leading-7" lang={session.activity_key?.startsWith('assessment:reading:') ? 'fr' : 'en'}>{session.lesson.assessment_context}</p>
+      </details>}
       <section aria-label="Saved answers" className="mt-6 space-y-4"><h2 className="text-xl font-semibold">Your saved answers</h2>
         {session.exercises.filter(e=>e.answered).map(exercise=><article className="rounded-xl border border-slate-200 p-5" key={exercise.id}>
           <h3 className="font-semibold">{exercise.exercise_order}. {exercise.prompt}</h3><p className="mt-3">Your answer: <strong>{submittedAnswerText(exercise)}</strong></p>

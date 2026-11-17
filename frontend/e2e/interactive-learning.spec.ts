@@ -27,7 +27,8 @@ test('real PostgreSQL six formats, Piper audio, saved feedback, resume and compl
   for(const item of active.items)if(item.lesson_id===fixture.lesson_id && item.activity_key==='lesson')
     expect((await page.request.post(`${base}/learning/sessions/${item.id}/abandon`,{headers:{Origin:'http://127.0.0.1:3008','X-CSRF-Token':csrf}})).status()).toBe(200);
   await page.goto('/courses');const tabs=page.getByRole('navigation',{name:'Learn sections'});
-  await expect(tabs.getByRole('link')).toHaveCount(3);
+  await expect(tabs.getByRole('link')).toHaveCount(4);
+  await expect(tabs.getByRole('link',{name:'Assessments',exact:true})).toBeVisible();
   await tabs.getByRole('link',{name:'Grammar',exact:true}).click();
   await expect(page.getByRole('heading',{name:'When to use it'})).toBeVisible();
   await page.getByRole('navigation',{name:'Learn sections'}).getByRole('link',{name:'Practice',exact:true}).click();

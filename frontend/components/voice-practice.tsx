@@ -373,7 +373,7 @@ function Content({ screen, id }: { screen: Screen; id?: string }) {
               <p>
                 Have a conversation with your AI French tutor. Practice at your
                 saved level, or change it in{" "}
-                <Link href="/settings" className="text-violet-700">
+                <Link href="/settings" className="text-violet-700 underline">
                   Settings
                 </Link>{" "}
                 . Text practice is always available.

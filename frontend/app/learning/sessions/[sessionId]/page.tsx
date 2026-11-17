@@ -89,15 +89,21 @@ function SessionContent() {
   if (!session) return <main className="mx-auto max-w-3xl px-6 py-12"><p role="alert">{error}</p><Link href="/courses" className="mt-5 inline-block text-violet-700">Return to Learn</Link></main>;
   const feedback = lastAnswered?.feedback;
   const practice = session.activity_key?.startsWith('practice:');
+  const assessment = session.activity_key?.startsWith('assessment:');
   return <main className="mx-auto max-w-3xl px-5 py-8 text-slate-900">
     <Link href={learningReturnUrl(session)} className="text-sm font-semibold text-violet-700">← Save and exit</Link>
     <header className="mt-5"><p className="level-badge">{session.cefr_level}</p><h1 className="mt-2 text-3xl font-bold">{session.lesson.title}</h1>
       <p className="mt-3 text-sm text-slate-500">{session.answered_exercises} / {session.total_exercises} answered</p>
       {practice && <p className="mt-2 text-sm">Focused practice · does not complete the full lesson</p>}
+      {assessment && <p className="mt-2 text-sm">Skills assessment · saved separately from full lesson completion</p>}
       <progress aria-label="Exercise progress" className="mt-3 block h-2 w-full accent-violet-600" max={session.total_exercises || 1} value={session.answered_exercises} />
       <details className="mt-3 text-xs text-slate-500"><summary>Lesson information</summary><p>Lesson version: {session.lesson_content_version}</p></details>
     </header>
     {session.preview_mode && <aside role="status" className="mt-5 rounded-xl border border-amber-300 bg-amber-50 p-4 text-sm text-amber-950"><strong>Draft Preview:</strong> unreviewed content for authorized development testing.</aside>}
+    {session.lesson.assessment_context && <section aria-labelledby="assessment-context" className="mt-5 rounded-xl border border-violet-100 bg-white p-5">
+      <h2 id="assessment-context" className="font-semibold">Assessment task</h2>
+      <p lang={session.activity_key?.startsWith('assessment:reading:') ? 'fr' : 'en'} className="mt-3 whitespace-pre-wrap leading-7">{session.lesson.assessment_context}</p>
+    </section>}
     {guided && <ol aria-label="Lesson steps" className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-sm text-slate-500">{['Introduction', 'Explanation', 'Examples', 'Exercises'].map((label, i) => <li key={label} aria-current={stage === i ? 'step' : undefined} className={stage === i ? 'font-semibold text-violet-700' : ''}>{i + 1}. {label}</li>)}</ol>}
     <section ref={focusTarget} tabIndex={-1} aria-label={stage < 3 ? 'Lesson reading' : 'Exercise'} className="mt-6 rounded-2xl border border-violet-100 bg-white p-5 outline-none sm:p-7">
       {stage < 3 ? <><LessonReading lesson={session.lesson} stage={stage} />
@@ -117,7 +123,7 @@ function SessionContent() {
           onChange={next => { pending.current = null; setAnswer(next); }} />
         <button type="button" className="button button-primary mt-6" disabled={submitting || !answerReady(currentExercise, answer)} onClick={() => void submitAnswer()}>{submitting ? 'Saving answer…' : 'Submit answer'}</button>
       </> : <><h2 className="text-2xl font-bold">All questions answered</h2><p className="mt-3">Your final result is calculated and saved by the server.</p>
-        <button type="button" className="button button-primary mt-6" disabled={submitting} onClick={() => void finish()}>{submitting ? 'Completing…' : practice ? 'Complete practice' : 'Complete lesson'}</button></>}
+        <button type="button" className="button button-primary mt-6" disabled={submitting} onClick={() => void finish()}>{submitting ? 'Completing…' : assessment ? 'Complete assessment' : practice ? 'Complete practice' : 'Complete lesson'}</button></>}
       {error && <p role="alert" className="mt-4 text-rose-700">{error}</p>}
       {needsRefresh && <button type="button" className="button button-secondary mt-3" disabled={submitting} onClick={() => void reloadSaved()}>Reload saved progress</button>}
     </section>

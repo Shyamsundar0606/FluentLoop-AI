@@ -11,6 +11,7 @@ import {
 import { buttonClass, FormMessage, inputClass } from "@/components/auth-shell";
 import { apiRequest } from "@/lib/api";
 import { FRENCH_LEVELS } from "@/lib/learning-levels";
+import { AccountPrivacy } from "@/components/account-privacy";
 
 type SessionInfo = {
   id: string;
@@ -113,7 +114,7 @@ function SettingsContent() {
     }
   }
 
-  const update = (key: keyof Preferences, value: string | number) =>
+  const update = (key: keyof Preferences, value: string | number | boolean) =>
     setPreferences((current) =>
       current ? { ...current, [key]: value } : current,
     );
@@ -237,6 +238,20 @@ function SettingsContent() {
                   }
                 />
               </label>
+              <label className="flex items-start gap-3 text-sm font-medium">
+                <input
+                  type="checkbox"
+                  className="mt-1 accent-violet-600"
+                  checked={preferences.motivation_enabled ?? true}
+                  onChange={(e) => update("motivation_enabled", e.target.checked)}
+                  aria-describedby="motivation-help"
+                />
+                Show XP, streaks and achievements
+              </label>
+              <p id="motivation-help" className="text-sm text-slate-600 dark:text-slate-300">
+                Rewards use completed activities when you choose Update rewards on Home.
+                Disabling them keeps your learning history and previously earned rewards.
+              </p>
               {message && <FormMessage>{message}</FormMessage>}
               {error && <FormMessage error>{error}</FormMessage>}
               <button className={buttonClass} disabled={saving}>
@@ -245,6 +260,26 @@ function SettingsContent() {
             </form>
           )}
         </section>
+        <section aria-labelledby="privacy-heading" className="mt-6 rounded-3xl border border-slate-200 bg-white p-7 dark:border-slate-800 dark:bg-slate-900">
+          <h2 id="privacy-heading" className="text-xl font-bold">Your learning data</h2>
+          <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
+            Lessons, writing and conversations are saved to your account so you can resume
+            and review them. Tutor and writing feedback use the configured AI service.
+            Avoid including private details in practice activities.
+          </p>
+          <p className="mt-3 text-sm text-slate-600 dark:text-slate-300">
+            Microphone recording starts when you choose Record. Recorded audio is uploaded
+            when you submit it. Saving your recording for replay is optional; saved audio
+            expires within the configured retention period, at most 24 hours.
+            Speech history provides deletion controls for saved audio.
+          </p>
+          <p className="mt-3 text-sm text-slate-600 dark:text-slate-300">
+            Account deactivation below signs out all devices and prevents login.
+            Saved learning records remain retained. Use the separate export and
+            permanent deletion controls below to manage your data.
+          </p>
+        </section>
+        <AccountPrivacy />
         <section className="mt-6 rounded-3xl border border-slate-200 bg-white p-7 dark:border-slate-800 dark:bg-slate-900">
           <h2 className="text-xl font-bold">Account and sessions</h2>
           <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">

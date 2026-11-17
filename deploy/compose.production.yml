@@ -1,0 +1,56 @@
+# Preparation only. Validate in staging and obtain deployment authorization first.
+# No automatic migrations, seeders, content imports or model downloads.
+name: fluentloop-production
+x-logging: &logging
+  driver: json-file
+  options: { max-size: "10m", max-file: "3" }
+services:
+  proxy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    environment: { PUBLIC_HOST: "${PUBLIC_HOST:?Set the public hostname}" }
+    ports: ["80:80", "443:443"]
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on: [frontend, backend]
+    logging: *logging
+  frontend:
+    build:
+      context: ../frontend
+      dockerfile: Dockerfile.production
+      args: { NEXT_PUBLIC_API_BASE_URL: "https://${PUBLIC_HOST:?Set the public hostname}/api/v1" }
+    restart: unless-stopped
+    security_opt: [no-new-privileges:true]
+    logging: *logging
+  backend:
+    build: { context: ../backend, dockerfile: Dockerfile.production }
+    restart: unless-stopped
+    environment:
+      APP_ENV: production
+      DATABASE_URL: "${DATABASE_URL:?Set a private database URL with encoded credentials}"
+      REDIS_URL: "${REDIS_URL:?Set a private authenticated Redis URL}"
+      COOKIE_SECURE: "true"
+      COOKIE_SAMESITE: lax
+      FRONTEND_ORIGIN: "https://${PUBLIC_HOST}"
+      CORS_ORIGINS: '["https://${PUBLIC_HOST}"]'
+      ENABLE_DRAFT_LEARNING_PREVIEW: "false"
+      SMTP_HOST: "${SMTP_HOST:?Set production SMTP host}"
+      SMTP_PORT: "${SMTP_PORT:-587}"
+      SMTP_STARTTLS: "true"
+      SMTP_USERNAME: "${SMTP_USERNAME:?Set production SMTP user}"
+      SMTP_PASSWORD: "${SMTP_PASSWORD:?Set production SMTP password}"
+      EMAIL_FROM: "${EMAIL_FROM:?Set verified sender}"
+      OLLAMA_BASE_URL: "${OLLAMA_BASE_URL:?Set a private Ollama endpoint}"
+      OLLAMA_MODEL: "${OLLAMA_MODEL:?Set a provisioned model}"
+      SPEECH_WORKER_URL: "${SPEECH_WORKER_URL:?Set a private speech-worker endpoint}"
+      SPEECH_WORKER_TOKEN: "${SPEECH_WORKER_TOKEN:?Set a distinct private worker token}"
+      SPEECH_STORAGE_PATH: /var/lib/fluentloop/audio
+    volumes: ["audio_data:/var/lib/fluentloop/audio"]
+    security_opt: [no-new-privileges:true]
+    logging: *logging
+volumes:
+  audio_data:
+  caddy_data:
+  caddy_config:

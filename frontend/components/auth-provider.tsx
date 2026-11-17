@@ -24,6 +24,7 @@ export type Preferences = {
   learning_focus: string;
   theme: "light" | "dark" | "system";
   audio_playback_speed: number;
+  motivation_enabled?: boolean;
 };
 
 export type AuthUser = {

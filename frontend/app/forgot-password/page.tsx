@@ -28,7 +28,7 @@ export default function ForgotPasswordPage() {
 
   return (
     <AuthShell title="Reset your password" description="We’ll send a time-limited reset link if an account matches that email.">
-      {sent ? <FormMessage>If an account exists for this email, reset instructions have been sent. Check the local inbox at http://localhost:8025.</FormMessage> : (
+      {sent ? <FormMessage>If an account exists for this email, reset instructions have been sent. Check your email for the time-limited link.</FormMessage> : (
         <form className="space-y-4" onSubmit={submit}>
           <label className="block text-sm font-medium">Email<input className={inputClass} required type="email" autoComplete="email" maxLength={254} value={email} onChange={(e) => setEmail(e.target.value)} /></label>
           {error && <FormMessage error>{error}</FormMessage>}

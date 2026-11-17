@@ -30,9 +30,9 @@ ADMIN=os.getenv('STUDY_TEST_ADMIN_DATABASE_URL','')
 pytestmark=pytest.mark.skipif(not ADMIN,reason='Set STUDY_TEST_ADMIN_DATABASE_URL to local postgres admin URL; only creates fluentloop_m07_* databases.')
 AT=datetime(2026,11,4,12,tzinfo=timezone.utc)
 
-def migrate(url,target):
+def migrate(url,target,*,downgrade=False):
     env={**os.environ,'DATABASE_URL':url}
-    run=subprocess.run([sys.executable,'-m','alembic','upgrade' if target!='-1' else 'downgrade',target],cwd=ROOT/'backend',env=env,capture_output=True,text=True)
+    run=subprocess.run([sys.executable,'-m','alembic','downgrade' if downgrade or target=='-1' else 'upgrade',target],cwd=ROOT/'backend',env=env,capture_output=True,text=True)
     assert run.returncode==0,run.stderr
 
 def fingerprint(engine,names=None):
@@ -62,7 +62,7 @@ def test_fresh_upgrade_and_populated_rollback_preserve_preexisting_rows(database
     migrate(url,'head')
     sessions=sessionmaker(bind=engine)
     _import_content(sessions)
-    for _ in range(3):migrate(url,'-1')
+    migrate(url,'20261102_0007',downgrade=True)
     with sessions.begin() as db:
         user=User(email=f'migration-{uuid4().hex[:8]}@example.com',password_hash=hash_password('IsolatedMigrationPass2026!'),role='learner',email_verified_at=AT)
         db.add(user);db.flush()
