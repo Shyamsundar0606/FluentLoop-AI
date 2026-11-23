@@ -3,6 +3,7 @@ from functools import lru_cache
 from pathlib import Path
 from typing import List, Literal, Annotated
 from uuid import UUID
+from urllib.parse import urlsplit
 
 from pydantic import BaseModel, Field, StringConstraints, field_validator, model_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
@@ -22,6 +23,12 @@ class Settings(BaseSettings):
     environment: str = Field(default="development", alias="APP_ENV")
     enable_draft_learning_preview: bool = Field(
         default=False, alias="ENABLE_DRAFT_LEARNING_PREVIEW"
+    )
+    enable_personal_learning_preview: bool = Field(
+        default=False, alias="ENABLE_PERSONAL_LEARNING_PREVIEW"
+    )
+    personal_preview_user_ids: set[UUID] = Field(
+        default_factory=set, alias="PERSONAL_PREVIEW_USER_IDS"
     )
     development_register_limit: int = Field(default=30, alias="DEV_REGISTER_LIMIT")
     curriculum_reviewer_grants: dict[UUID, ReviewGrant] = Field(
@@ -144,6 +151,19 @@ class Settings(BaseSettings):
         return (
             self.environment.lower() == "development"
             and self.enable_draft_learning_preview
+        )
+
+    @property
+    def personal_learning_preview_enabled(self) -> bool:
+        # Trusted operator configuration only; never infer a grant from an email,
+        # request header, frontend preference or database role update.
+        origins = [self.frontend_origin, *self.cors_origins]
+        return bool(
+            self.environment.lower() == "development"
+            and self.enable_personal_learning_preview
+            and all(urlsplit(origin).scheme in {"http", "https"}
+                    and urlsplit(origin).hostname in {"localhost", "127.0.0.1", "::1"}
+                    for origin in origins)
         )
 
 

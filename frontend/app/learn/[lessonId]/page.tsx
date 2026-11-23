@@ -20,6 +20,7 @@ function StartLesson() {
   const [lesson, setLesson] = useState<LessonDetail | null>(null);
   const [error, setError] = useState('');
   const [starting, setStarting] = useState(false);
+  const writing = lesson?.objectives.some(objective => objective.skill_category === 'writing') ?? false;
 
   useEffect(() => {
     let active = true;
@@ -63,19 +64,19 @@ function StartLesson() {
               <h2 className="text-lg font-semibold">This session</h2>
               <ul className="mt-3 list-disc space-y-2 pl-5 text-sm text-slate-600 dark:text-slate-300">
                 <li>Study saved lesson vocabulary, grammar, and examples.</li>
-                <li>Answer the lesson exercises; grading and progress are saved on the server.</li>
+                <li>{writing ? 'Write and save your own French response; optional feedback is advisory.' : 'Answer the lesson exercises; grading and progress are saved on the server.'}</li>
                 <li>You can leave and resume this session later.</li>
               </ul>
             </div>
-            <button
+            {writing ? <Link href={`/assessments/writing/${lessonId}`} className="mt-7 inline-block rounded-xl bg-violet-700 px-5 py-3 font-semibold text-white">Open writing task</Link> : <button
               type="button"
               onClick={() => void beginLesson()}
               disabled={starting}
               className="mt-7 rounded-xl bg-violet-700 px-5 py-3 font-semibold text-white disabled:opacity-60 dark:bg-violet-500 dark:text-slate-950"
             >
               {starting ? 'Starting…' : 'Start or continue lesson'}
-            </button>
-            <LessonActions lessonId={lessonId} />
+            </button>}
+            <LessonActions lessonId={lessonId} level={lesson.level} />
           </section>
         )}
       </div>

@@ -41,7 +41,7 @@ function CourseLibrary() {
     error?: string;
   } | null>(null);
   const [levelError, setLevelError] = useState("");
-  const courses = courseState?.level === level ? courseState.courses : [];
+  const courses = courseState?.level === level ? [...courseState.courses].sort((a, b) => Number(b.lesson_count > 0) - Number(a.lesson_count > 0)) : [];
   const loading = courseState?.level !== level;
   const error = courseState?.level === level ? (courseState.error ?? "") : "";
 
@@ -91,12 +91,13 @@ function CourseLibrary() {
     <main className="min-h-screen bg-slate-50 px-5 py-8 text-slate-900 dark:bg-slate-950 dark:text-white sm:px-8">
         <div className="mx-auto max-w-5xl">
         <LearningTabs />
+        <Link href="/learning-path" className="button button-quiet mb-4">Your path from zero to C2</Link>
           <Link href="/review" className="button button-quiet mb-4">Review vocabulary</Link>
         <header className="flex flex-wrap items-center justify-between gap-4">
           <div>
             <h1 className="mt-3 text-3xl font-bold">French courses</h1>
             <p className="mt-2 text-slate-600 dark:text-slate-300">
-              Browse published lessons at any level without changing your
+              Browse available lessons at any level without changing your
               account level.
             </p>
           </div>

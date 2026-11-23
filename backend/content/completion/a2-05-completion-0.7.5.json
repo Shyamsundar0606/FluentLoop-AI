@@ -1,0 +1,225 @@
+{
+  "version": "0.7.5",
+  "level": "A2",
+  "status": "draft",
+  "source_license": "Original AI-assisted module drafts. Qualified independent linguistic, pedagogical, phonetic, answer-key and CEFR reviews pending.",
+  "tasks": [
+    {
+      "key": "read-and-notice",
+      "skill": "grammar",
+      "title": "A routine health appointment: read and notice",
+      "objective": "Polite requests use a conditional chunk such as Je voudrais; availability and constraints can be stated in the present. Distinguish the rejected slot from the accepted one.",
+      "context": "Nora téléphone au cabinet pour un rendez-vous de routine. Elle préfère mercredi matin, mais le premier créneau proposé est jeudi à quinze heures. Elle travaille jeudi après-midi. La secrétaire lui propose alors vendredi à neuf heures et lui demande de confirmer son numéro directement au cabinet. Nora accepte vendredi. Elle veut seulement organiser une consultation ; elle ne demande pas de diagnostic par téléphone. Dans cet exercice, aucun numéro ni symptôme personnel ne doit être communiqué.",
+      "vocabulary": [
+        "le premier créneau proposé",
+        "une consultation de routine",
+        "l’entrée dans la petite cour"
+      ],
+      "exercises": [
+        {
+          "key": "read-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which appointment does Nora accept?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Friday at nine. Source: Nora téléphone au cabinet pour un rendez-vous de routine. Elle préfère mercredi matin, mais le premier créneau proposé est jeudi à quinze heures. Elle travaille jeudi après-midi. La secrétaire lui propose alors vendredi à neuf heures et lui demande de confirmer son numéro directement au cabinet. Nora accepte vendredi. Elle veut seulement organiser une consultation ; elle ne demande pas de diagnostic par téléphone. Dans cet exercice, aucun numéro ni symptôme personnel ne doit être communiqué.",
+          "options": [
+            "Thursday at three",
+            "Wednesday morning",
+            "Friday at nine"
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "grammar-scope",
+          "type": "multiple_choice",
+          "prompt": "Which request politely asks for an appointment?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Polite requests use a conditional chunk such as Je voudrais; availability and constraints can be stated in the present. Distinguish the rejected slot from the accepted one.",
+          "options": [
+            "Je voudrais un rendez-vous.",
+            "Je voulais dire au revoir.",
+            "Je viens de quitter le cabinet."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "contextual-vocabulary",
+          "type": "matching",
+          "prompt": "Match the contextual expressions with their meanings.",
+          "instructions": "Use each meaning once; these are contextual definitions.",
+          "explanation": "le premier créneau proposé — the first proposed time slot; une consultation de routine — a routine consultation; l’entrée dans la petite cour — the entrance in the small courtyard",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "10d7fa9a-2f5f-5b3e-9390-6c1942f92cdb",
+                "text": "le premier créneau proposé"
+              },
+              {
+                "id": "7530352c-5d4d-5a26-840a-5df998d7e2fe",
+                "text": "une consultation de routine"
+              },
+              {
+                "id": "94b944e4-2a71-54b7-8029-75f99590d933",
+                "text": "l’entrée dans la petite cour"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "0d5c0c40-4026-5ef9-a02b-243e1384bf46",
+                "text": "the entrance in the small courtyard"
+              },
+              {
+                "id": "81b2e915-59e6-5e97-9cf5-3650d1f87819",
+                "text": "a routine consultation"
+              },
+              {
+                "id": "ea3c4470-282a-5d96-89ea-aa09cd392b93",
+                "text": "the first proposed time slot"
+              }
+            ],
+            "answer_pairs": {
+              "10d7fa9a-2f5f-5b3e-9390-6c1942f92cdb": "ea3c4470-282a-5d96-89ea-aa09cd392b93",
+              "7530352c-5d4d-5a26-840a-5df998d7e2fe": "81b2e915-59e6-5e97-9cf5-3650d1f87819",
+              "94b944e4-2a71-54b7-8029-75f99590d933": "0d5c0c40-4026-5ef9-a02b-243e1384bf46"
+            }
+          }
+        }
+      ],
+      "module_title": "A routine health appointment",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "completion-a2-05",
+          "title": "A routine health appointment",
+          "summary": "Polite requests use a conditional chunk such as Je voudrais; availability and constraints can be stated in the present. Distinguish the rejected slot from the accepted one.",
+          "rule_code": "completion-a2-05",
+          "explanation_english": "Polite requests use a conditional chunk such as Je voudrais; availability and constraints can be stated in the present. Distinguish the rejected slot from the accepted one.",
+          "examples": [
+            [
+              "Je voudrais un rendez-vous vendredi matin.",
+              "I would like an appointment on Friday morning."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "listen-and-integrate",
+      "skill": "reading",
+      "title": "A routine health appointment: listen and integrate",
+      "objective": "Identify details, stance and limits of commitment in the scripted exchange, then integrate both sources.",
+      "context": "Original scripted exchange for listening and transcript-assisted review. One synthetic voice may perform every role; this does not demonstrate spontaneous multi-speaker comprehension.\n\nSecrétaire : Vendredi à neuf heures, est-ce que cela vous convient ? Nora : Oui. C’est au cabinet habituel ? Secrétaire : Oui, mais l’entrée est dans la petite cour. Nora : Très bien, vendredi à neuf heures, par la cour. Je vous remercie.",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "listen-position",
+          "type": "listening",
+          "prompt": "What extra detail does Nora confirm?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "The entrance is through the courtyard. Script: Secrétaire : Vendredi à neuf heures, est-ce que cela vous convient ? Nora : Oui. C’est au cabinet habituel ? Secrétaire : Oui, mais l’entrée est dans la petite cour. Nora : Très bien, vendredi à neuf heures, par la cour. Je vous remercie.",
+          "options": [
+            "The appointment is Thursday",
+            "The entrance is through the courtyard",
+            "The consultation is online"
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Secrétaire : Vendredi à neuf heures, est-ce que cela vous convient ? Nora : Oui. C’est au cabinet habituel ? Secrétaire : Oui, mais l’entrée est dans la petite cour. Nora : Très bien, vendredi à neuf heures, par la cour. Je vous remercie."
+          }
+        },
+        {
+          "key": "integrate-sources",
+          "type": "multiple_choice",
+          "prompt": "Which summary keeps the final arrangement?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Friday at nine, with the courtyard entrance. Compare the reading and listening sources.",
+          "options": [
+            "Friday at nine, with the courtyard entrance",
+            "Thursday at three, at a new address",
+            "Wednesday, by video"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "locate-phrase",
+          "type": "short_answer",
+          "prompt": "Copy the exact three-word phrase Nora uses for the entrance.",
+          "instructions": "Transcript available in this lesson: copy the exact requested phrase. This item checks location/spelling, not open-ended interpretation.",
+          "explanation": "Exact source phrase: par la cour",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "par la cour"
+            ]
+          }
+        }
+      ],
+      "module_title": "A routine health appointment",
+      "estimated_minutes": 25,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice"
+      ]
+    },
+    {
+      "key": "transfer-and-assess",
+      "skill": "writing",
+      "title": "A routine health appointment: transfer and assess",
+      "objective": "Transfer the module language to an unfamiliar situation and review comprehension, writing and interaction separately.",
+      "context": "Write 80–100 French words as an exchange arranging a routine appointment. Decline one incompatible slot, accept another and confirm the place. Use invented details only; do not give medical advice. With the Tutor as receptionist, ask a clarification question and repeat the final arrangement.\n\nRevision: retrieve the three contextual expressions without the model on a later day; correct saved errors and reuse them in a new scenario.\n\nReview task fulfilment, source fidelity, grammar, vocabulary, organisation and interaction/repair separately. Treat spelling extraction as supported practice, not proficiency evidence. Optional AI feedback is advisory. Independent human language/phonetic review and empirical calibration remain pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "A routine health appointment",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice",
+        "listen-and-integrate"
+      ]
+    }
+  ],
+  "title": "A2 module completion: A routine health appointment",
+  "glossary": [
+    {
+      "lemma": "le premier créneau proposé",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "the first proposed time slot",
+      "definition_french": "Le premier horaire offert pour le rendez-vous.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "une consultation de routine",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "a routine consultation",
+      "definition_french": "Un rendez-vous ordinaire, sans caractère urgent dans cette situation.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "l’entrée dans la petite cour",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "the entrance in the small courtyard",
+      "definition_french": "L’accès indiqué dans cette petite cour.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    }
+  ],
+  "learning_stage": null
+}

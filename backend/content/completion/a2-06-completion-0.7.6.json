@@ -1,0 +1,225 @@
+{
+  "version": "0.7.6",
+  "level": "A2",
+  "status": "draft",
+  "source_license": "Original AI-assisted module drafts. Qualified independent linguistic, pedagogical, phonetic, answer-key and CEFR reviews pending.",
+  "tasks": [
+    {
+      "key": "read-and-notice",
+      "skill": "grammar",
+      "title": "Move a picnic and apologise clearly: read and notice",
+      "objective": "Use parce que for a reason and mais for a contrasting constraint. À partir de sets an earliest time; it does not change everyone’s arrangement.",
+      "context": "Léa a invité trois amis à un pique-nique samedi à midi. La météo annonce de fortes pluies. Elle propose de se retrouver chez elle à treize heures, sans changer le jour. Hugo répond qu’il peut venir, mais seulement à partir de quatorze heures. Léa lui dit de les rejoindre plus tard : les autres commenceront à treize heures. Elle s’excuse pour ce changement et demande à chacun de confirmer. Son message ne dit pas que le pique-nique est reporté au dimanche.",
+      "vocabulary": [
+        "s’excuser pour ce changement",
+        "rejoindre le groupe plus tard",
+        "confirmer sa présence au pique-nique"
+      ],
+      "exercises": [
+        {
+          "key": "read-meaning",
+          "type": "multiple_choice",
+          "prompt": "What changes for the whole group?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "The place and the starting time. Source: Léa a invité trois amis à un pique-nique samedi à midi. La météo annonce de fortes pluies. Elle propose de se retrouver chez elle à treize heures, sans changer le jour. Hugo répond qu’il peut venir, mais seulement à partir de quatorze heures. Léa lui dit de les rejoindre plus tard : les autres commenceront à treize heures. Elle s’excuse pour ce changement et demande à chacun de confirmer. Son message ne dit pas que le pique-nique est reporté au dimanche.",
+          "options": [
+            "The place and the starting time",
+            "The day becomes Sunday",
+            "Everyone must arrive at two"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "grammar-scope",
+          "type": "multiple_choice",
+          "prompt": "Which connector introduces the reason in the model?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Use parce que for a reason and mais for a contrasting constraint. À partir de sets an earliest time; it does not change everyone’s arrangement.",
+          "options": [
+            "mais",
+            "parce que",
+            "ou"
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "contextual-vocabulary",
+          "type": "matching",
+          "prompt": "Match the contextual expressions with their meanings.",
+          "instructions": "Use each meaning once; these are contextual definitions.",
+          "explanation": "s’excuser pour ce changement — to apologise for this change; rejoindre le groupe plus tard — to join the group later; confirmer sa présence au pique-nique — to confirm attendance at the picnic",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "5cb45be6-2a39-54e1-93ae-b3d3c1f94528",
+                "text": "s’excuser pour ce changement"
+              },
+              {
+                "id": "850a7f6b-8426-585d-ba9a-e00a2cdc8c59",
+                "text": "rejoindre le groupe plus tard"
+              },
+              {
+                "id": "590e29e7-3063-587b-bfd5-b305a0aa1ab1",
+                "text": "confirmer sa présence au pique-nique"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "3278b381-fa42-5575-96cc-495c98a3de3a",
+                "text": "to confirm attendance at the picnic"
+              },
+              {
+                "id": "45475f03-d319-54a4-91d8-43075de0779f",
+                "text": "to join the group later"
+              },
+              {
+                "id": "70031eff-2b2d-5d26-b8ad-ac328c5378ef",
+                "text": "to apologise for this change"
+              }
+            ],
+            "answer_pairs": {
+              "5cb45be6-2a39-54e1-93ae-b3d3c1f94528": "70031eff-2b2d-5d26-b8ad-ac328c5378ef",
+              "850a7f6b-8426-585d-ba9a-e00a2cdc8c59": "45475f03-d319-54a4-91d8-43075de0779f",
+              "590e29e7-3063-587b-bfd5-b305a0aa1ab1": "3278b381-fa42-5575-96cc-495c98a3de3a"
+            }
+          }
+        }
+      ],
+      "module_title": "Move a picnic and apologise clearly",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "completion-a2-06",
+          "title": "Move a picnic and apologise clearly",
+          "summary": "Use parce que for a reason and mais for a contrasting constraint. À partir de sets an earliest time; it does not change everyone’s arrangement.",
+          "rule_code": "completion-a2-06",
+          "explanation_english": "Use parce que for a reason and mais for a contrasting constraint. À partir de sets an earliest time; it does not change everyone’s arrangement.",
+          "examples": [
+            [
+              "On se retrouve chez moi parce qu’il va pleuvoir.",
+              "We are meeting at my place because it is going to rain."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "listen-and-integrate",
+      "skill": "reading",
+      "title": "Move a picnic and apologise clearly: listen and integrate",
+      "objective": "Identify details, stance and limits of commitment in the scripted exchange, then integrate both sources.",
+      "context": "Original scripted exchange for listening and transcript-assisted review. One synthetic voice may perform every role; this does not demonstrate spontaneous multi-speaker comprehension.\n\nLéa : Désolée pour le changement. On commence samedi à treize heures chez moi. Hugo : Je finis à treize heures trente ; je peux arriver vers quatorze heures. Léa : Pas de problème, rejoins-nous après. Apporte seulement ce que tu avais prévu.",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "listen-position",
+          "type": "listening",
+          "prompt": "What should Hugo bring?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "What he had already planned. Script: Léa : Désolée pour le changement. On commence samedi à treize heures chez moi. Hugo : Je finis à treize heures trente ; je peux arriver vers quatorze heures. Léa : Pas de problème, rejoins-nous après. Apporte seulement ce que tu avais prévu.",
+          "options": [
+            "Nothing at all",
+            "An extra table",
+            "What he had already planned"
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Léa : Désolée pour le changement. On commence samedi à treize heures chez moi. Hugo : Je finis à treize heures trente ; je peux arriver vers quatorze heures. Léa : Pas de problème, rejoins-nous après. Apporte seulement ce que tu avais prévu."
+          }
+        },
+        {
+          "key": "integrate-sources",
+          "type": "multiple_choice",
+          "prompt": "Which reply avoids a new misunderstanding?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "I will join you around two; the others start at one. Compare the reading and listening sources.",
+          "options": [
+            "I will see everyone on Sunday",
+            "I will join you around two; the others start at one",
+            "We all start at two"
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "locate-phrase",
+          "type": "short_answer",
+          "prompt": "Copy Hugo’s exact approximate arrival-time phrase.",
+          "instructions": "Transcript available in this lesson: copy the exact requested phrase. This item checks location/spelling, not open-ended interpretation.",
+          "explanation": "Exact source phrase: vers quatorze heures",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "vers quatorze heures"
+            ]
+          }
+        }
+      ],
+      "module_title": "Move a picnic and apologise clearly",
+      "estimated_minutes": 25,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice"
+      ]
+    },
+    {
+      "key": "transfer-and-assess",
+      "skill": "writing",
+      "title": "Move a picnic and apologise clearly: transfer and assess",
+      "objective": "Transfer the module language to an unfamiliar situation and review comprehension, writing and interaction separately.",
+      "context": "Write 80–110 French words inviting an imaginary friend, changing one detail because of a practical problem and apologising. Keep the date and times consistent. Role-play a reply from a friend who can arrive late, and confirm what changes for that friend only.\n\nRevision: retrieve the three contextual expressions without the model on a later day; correct saved errors and reuse them in a new scenario.\n\nReview task fulfilment, source fidelity, grammar, vocabulary, organisation and interaction/repair separately. Treat spelling extraction as supported practice, not proficiency evidence. Optional AI feedback is advisory. Independent human language/phonetic review and empirical calibration remain pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Move a picnic and apologise clearly",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice",
+        "listen-and-integrate"
+      ]
+    }
+  ],
+  "title": "A2 module completion: Move a picnic and apologise clearly",
+  "glossary": [
+    {
+      "lemma": "s’excuser pour ce changement",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to apologise for this change",
+      "definition_french": "Présenter des excuses à propos de la modification annoncée.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "rejoindre le groupe plus tard",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to join the group later",
+      "definition_french": "Arriver après le début de la rencontre.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "confirmer sa présence au pique-nique",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to confirm attendance at the picnic",
+      "definition_french": "Dire clairement que l’on participera à cette rencontre.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    }
+  ],
+  "learning_stage": null
+}

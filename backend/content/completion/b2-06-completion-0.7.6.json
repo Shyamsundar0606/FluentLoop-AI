@@ -1,0 +1,225 @@
+{
+  "version": "0.7.6",
+  "level": "B2",
+  "status": "draft",
+  "source_license": "Original AI-assisted module drafts. Qualified independent linguistic, pedagogical, phonetic, answer-key and CEFR reviews pending.",
+  "tasks": [
+    {
+      "key": "read-and-notice",
+      "skill": "grammar",
+      "title": "Build a reasoned position on a university attendance policy: read and notice",
+      "objective": "Concession acknowledges the force of a consideration without granting the opponent’s whole conclusion. Use certes… mais, bien que and conditional claims with clear scope; an identified risk is not an observed effect.",
+      "context": "Une université propose d’enregistrer les cours magistraux tout en maintenant certaines séances obligatoires. Les partisans du projet soulignent que les enregistrements aideraient les étudiants salariés et permettraient de reprendre une explication difficile. Des enseignants craignent cependant qu’une offre identique pour toutes les séances ne réduise les occasions de discussion. Leur objection ne prouve pas que l’enregistrement ferait baisser la participation ; elle identifie un risque à examiner. Une proposition intermédiaire distingue les exposés destinés à transmettre des connaissances et les séances consacrées à discuter des problèmes. Cette distinction peut être utile, mais elle ne doit pas devenir une étiquette commode qui dispense d’expliquer le rôle pédagogique de chaque séance. Une argumentation solide doit donc préciser ce qu’elle cherche à rendre accessible et les interactions qu’elle souhaite préserver.",
+      "vocabulary": [
+        "préserver les occasions de discussion",
+        "répondre à une objection de fond",
+        "justifier le format de chaque séance"
+      ],
+      "exercises": [
+        {
+          "key": "read-meaning",
+          "type": "multiple_choice",
+          "prompt": "What is a justified middle position?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Differentiate formats by their explained teaching purpose. Source: Une université propose d’enregistrer les cours magistraux tout en maintenant certaines séances obligatoires. Les partisans du projet soulignent que les enregistrements aideraient les étudiants salariés et permettraient de reprendre une explication difficile. Des enseignants craignent cependant qu’une offre identique pour toutes les séances ne réduise les occasions de discussion. Leur objection ne prouve pas que l’enregistrement ferait baisser la participation ; elle identifie un risque à examiner. Une proposition intermédiaire distingue les exposés destinés à transmettre des connaissances et les séances consacrées à discuter des problèmes. Cette distinction peut être utile, mais elle ne doit pas devenir une étiquette commode qui dispense d’expliquer le rôle pédagogique de chaque séance. Une argumentation solide doit donc préciser ce qu’elle cherche à rendre accessible et les interactions qu’elle souhaite préserver.",
+          "options": [
+            "Differentiate formats by their explained teaching purpose",
+            "Assume every recording reduces participation",
+            "Make every session identical without justification"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "grammar-scope",
+          "type": "multiple_choice",
+          "prompt": "What does the concession in the model preserve?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Concession acknowledges the force of a consideration without granting the opponent’s whole conclusion. Use certes… mais, bien que and conditional claims with clear scope; an identified risk is not an observed effect.",
+          "options": [
+            "A denial of every access benefit",
+            "An access benefit alongside an interaction limitation",
+            "Proof that all interaction is impossible"
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "contextual-vocabulary",
+          "type": "matching",
+          "prompt": "Match the contextual expressions with their meanings.",
+          "instructions": "Use each meaning once; these are contextual definitions.",
+          "explanation": "préserver les occasions de discussion — to preserve opportunities for discussion; répondre à une objection de fond — to answer a substantive objection; justifier le format de chaque séance — to justify the format of each session",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "cc8a525e-3969-581f-baf7-ac8f66cae91d",
+                "text": "préserver les occasions de discussion"
+              },
+              {
+                "id": "a1c29bc6-3d4f-5b19-8202-df4d619f0be3",
+                "text": "répondre à une objection de fond"
+              },
+              {
+                "id": "f9ea18ec-a303-509e-8202-ccbaa320c947",
+                "text": "justifier le format de chaque séance"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "d2e64d38-2f55-5748-b75c-0dee0aa5124b",
+                "text": "to justify the format of each session"
+              },
+              {
+                "id": "54dbcce0-367b-5e5d-86f6-149f5ada6b71",
+                "text": "to answer a substantive objection"
+              },
+              {
+                "id": "4921090c-06b1-5d47-ad4f-b048306ed529",
+                "text": "to preserve opportunities for discussion"
+              }
+            ],
+            "answer_pairs": {
+              "cc8a525e-3969-581f-baf7-ac8f66cae91d": "4921090c-06b1-5d47-ad4f-b048306ed529",
+              "a1c29bc6-3d4f-5b19-8202-df4d619f0be3": "54dbcce0-367b-5e5d-86f6-149f5ada6b71",
+              "f9ea18ec-a303-509e-8202-ccbaa320c947": "d2e64d38-2f55-5748-b75c-0dee0aa5124b"
+            }
+          }
+        }
+      ],
+      "module_title": "Build a reasoned position on a university attendance policy",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "completion-b2-06",
+          "title": "Build a reasoned position on a university attendance policy",
+          "summary": "Concession acknowledges the force of a consideration without granting the opponent’s whole conclusion. Use certes… mais, bien que and conditional claims with clear scope; an identified risk is not an observed effect.",
+          "rule_code": "completion-b2-06",
+          "explanation_english": "Concession acknowledges the force of a consideration without granting the opponent’s whole conclusion. Use certes… mais, bien que and conditional claims with clear scope; an identified risk is not an observed effect.",
+          "examples": [
+            [
+              "Bien que les enregistrements facilitent l’accès, ils ne remplacent pas toute interaction.",
+              "Although recordings facilitate access, they do not replace every interaction."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "listen-and-integrate",
+      "skill": "reading",
+      "title": "Build a reasoned position on a university attendance policy: listen and integrate",
+      "objective": "Identify details, stance and limits of commitment in the scripted exchange, then integrate both sources.",
+      "context": "Original scripted exchange for listening and transcript-assisted review. One synthetic voice may perform every role; this does not demonstrate spontaneous multi-speaker comprehension.\n\nÉtudiante : Je ne demande pas que chaque discussion soit transformée en vidéo. Je demande que mon absence à un exposé ne m’empêche pas d’accéder à son contenu. Enseignant : Je peux accepter cette distinction, à condition qu’on examine aussi ce que les étudiants ne pourront pas demander après coup. Étudiante : Alors évaluons les deux aspects, plutôt que de traiter l’accès et l’échange comme deux objectifs incompatibles.",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "listen-position",
+          "type": "listening",
+          "prompt": "What compromise emerges?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Evaluate access and opportunities for questions together. Script: Étudiante : Je ne demande pas que chaque discussion soit transformée en vidéo. Je demande que mon absence à un exposé ne m’empêche pas d’accéder à son contenu. Enseignant : Je peux accepter cette distinction, à condition qu’on examine aussi ce que les étudiants ne pourront pas demander après coup. Étudiante : Alors évaluons les deux aspects, plutôt que de traiter l’accès et l’échange comme deux objectifs incompatibles.",
+          "options": [
+            "Replace every discussion by a video",
+            "Treat access as irrelevant",
+            "Evaluate access and opportunities for questions together"
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Étudiante : Je ne demande pas que chaque discussion soit transformée en vidéo. Je demande que mon absence à un exposé ne m’empêche pas d’accéder à son contenu. Enseignant : Je peux accepter cette distinction, à condition qu’on examine aussi ce que les étudiants ne pourront pas demander après coup. Étudiante : Alors évaluons les deux aspects, plutôt que de traiter l’accès et l’échange comme deux objectifs incompatibles."
+          }
+        },
+        {
+          "key": "integrate-sources",
+          "type": "multiple_choice",
+          "prompt": "Which objection deserves a substantive response?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "How absent students can ask follow-up questions. Compare the reading and listening sources.",
+          "options": [
+            "Whether recordings have any possible use at all",
+            "How absent students can ask follow-up questions",
+            "A claim that the student rejects all interaction"
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "locate-phrase",
+          "type": "short_answer",
+          "prompt": "Copy the exact phrase naming the false opposition rejected by the student.",
+          "instructions": "Transcript available in this lesson: copy the exact requested phrase. This item checks location/spelling, not open-ended interpretation.",
+          "explanation": "Exact source phrase: deux objectifs incompatibles",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "deux objectifs incompatibles"
+            ]
+          }
+        }
+      ],
+      "module_title": "Build a reasoned position on a university attendance policy",
+      "estimated_minutes": 25,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice"
+      ]
+    },
+    {
+      "key": "transfer-and-assess",
+      "skill": "writing",
+      "title": "Build a reasoned position on a university attendance policy: transfer and assess",
+      "objective": "Transfer the module language to an unfamiliar situation and review comprehension, writing and interaction separately.",
+      "context": "Write 280–330 French words for the university council. State a qualified position, compare two arrangements, support each claim from the dossier and answer a substantive counterargument. Revise a false opposition and one overstatement. Present a three-minute defence and ask the Tutor to challenge the strongest assumption.\n\nRevision: retrieve the three contextual expressions without the model on a later day; correct saved errors and reuse them in a new scenario.\n\nReview task fulfilment, source fidelity, grammar, vocabulary, organisation and interaction/repair separately. Treat spelling extraction as supported practice, not proficiency evidence. Optional AI feedback is advisory. Independent human language/phonetic review and empirical calibration remain pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Build a reasoned position on a university attendance policy",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice",
+        "listen-and-integrate"
+      ]
+    }
+  ],
+  "title": "B2 module completion: Build a reasoned position on a university attendance policy",
+  "glossary": [
+    {
+      "lemma": "préserver les occasions de discussion",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to preserve opportunities for discussion",
+      "definition_french": "Maintenir les moments où des questions peuvent être débattues.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "répondre à une objection de fond",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to answer a substantive objection",
+      "definition_french": "Traiter une difficulté qui touche réellement l’argument.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "justifier le format de chaque séance",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to justify the format of each session",
+      "definition_french": "Expliquer pourquoi une organisation convient à son objectif pédagogique.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    }
+  ],
+  "learning_stage": null
+}

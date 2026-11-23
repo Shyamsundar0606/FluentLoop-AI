@@ -1,0 +1,1577 @@
+{
+  "version": "0.2.1",
+  "level": "B1",
+  "status": "draft",
+  "title": "Personal French B1: daily life and expression",
+  "source_license": "Original AI-assisted drafts; independent linguistic, phonetic, pedagogical, answer-key and licensing reviews pending.",
+  "glossary": [
+    {
+      "lemma": "à l’époque",
+      "part_of_speech": "phrase",
+      "translation": "at that time",
+      "definition_french": "Au moment passé dont on parle."
+    },
+    {
+      "lemma": "changer ses horaires",
+      "part_of_speech": "phrase",
+      "translation": "to change one’s working hours",
+      "definition_french": "Modifier les heures auxquelles on travaille."
+    },
+    {
+      "lemma": "un événement précis",
+      "part_of_speech": "phrase",
+      "translation": "a specific event",
+      "definition_french": "Un fait particulier situé dans le récit."
+    },
+    {
+      "lemma": "mettre en valeur",
+      "part_of_speech": "phrase",
+      "translation": "to highlight",
+      "definition_french": "Présenter clairement les points forts."
+    },
+    {
+      "lemma": "une reformulation",
+      "part_of_speech": "phrase",
+      "translation": "a rephrasing",
+      "definition_french": "Une autre manière d’exprimer la même idée."
+    },
+    {
+      "lemma": "les tâches prioritaires",
+      "part_of_speech": "phrase",
+      "translation": "the priority tasks",
+      "definition_french": "Les travaux qu’il faut traiter en premier."
+    },
+    {
+      "lemma": "un créneau disponible",
+      "part_of_speech": "phrase",
+      "translation": "an available time slot",
+      "definition_french": "Une période pendant laquelle un rendez-vous est possible."
+    },
+    {
+      "lemma": "l’objet de la rencontre",
+      "part_of_speech": "phrase",
+      "translation": "the purpose of the meeting",
+      "definition_french": "Le sujet principal que l’on souhaite aborder."
+    },
+    {
+      "lemma": "prévenir le service",
+      "part_of_speech": "phrase",
+      "translation": "to notify the department",
+      "definition_french": "Informer le service à l’avance d’un changement."
+    }
+  ],
+  "tasks": [
+    {
+      "key": "module-1-grammar",
+      "skill": "grammar",
+      "module_title": "Narrating experience",
+      "title": "Describe student life: grammar",
+      "objective": "Practise B1-targeted grammar in the situation: Describe student life.",
+      "context": "French passage\nQuand j’étais étudiant, je travaillais le soir. En général, je suivais les cours le matin et je révisais à la bibliothèque l’après-midi. Un jour, le responsable de mon équipe m’a proposé de changer mes horaires. Cette proposition m’a permis de préparer un examen important. J’ai accepté, puis j’ai expliqué ma nouvelle organisation à mes collègues. Aujourd’hui, je raconte cette expérience pour montrer comment une discussion peut résoudre un problème concret. Je distingue mes habitudes des événements précis qui ont changé la situation.\n\nEnglish explanation\nThe imparfait can describe a repeated past situation: je travaillais le soir. The passé composé can move a story forward with a bounded event: le responsable m’a proposé. This is a choice of viewpoint, not a rule that every long action requires the imparfait. Use the explicitly requested tense in the gap.\nModel: Quand j’étais étudiant, je travaillais le soir.\nMeaning: When I was a student, I used to work in the evenings.\n\nGlossary\nà l’époque — at that time\nchanger ses horaires — to change one’s working hours\nun événement précis — a specific event\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Identify the target form, explain its function, and contrast it with the alternative in the explanation.",
+      "vocabulary": [
+        "à l’époque",
+        "changer ses horaires",
+        "un événement précis"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "What helped the speaker prepare an exam?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Quand j’étais étudiant, je travaillais le soir. En général, je suivais les cours le matin et je révisais à la bibliothèque l’après-midi. Un jour, le responsable de mon équipe m’a proposé de changer mes horaires. Cette proposition m’a permis de préparer un examen important. J’ai accepté, puis j’ai expliqué ma nouvelle organisation à mes collègues. Aujourd’hui, je raconte cette expérience pour montrer comment une discussion peut résoudre un problème concret. Je distingue mes habitudes des événements précis qui ont changé la situation.",
+          "data": {},
+          "options": [
+            "Leaving university permanently",
+            "A change to working hours",
+            "Cancelling every course"
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Imparfait de travailler : je ___ le soir.",
+          "instructions": "Use travailler in the imparfait, je form. Write only the missing form; keep accents.",
+          "explanation": "The imparfait can describe a repeated past situation: je travaillais le soir. The passé composé can move a story forward with a bounded event: le responsable m’a proposé. This is a choice of viewpoint, not a rule that every long action requires the imparfait. Use the explicitly requested tense in the gap.",
+          "data": {
+            "accepted_answers": [
+              "travaillais"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Quand j’étais étudiant, je travaillais le soir.",
+          "explanation": "The imparfait can describe a repeated past situation: je travaillais le soir. The passé composé can move a story forward with a bounded event: le responsable m’a proposé. This is a choice of viewpoint, not a rule that every long action requires the imparfait. Use the explicitly requested tense in the gap.",
+          "data": {
+            "tiles": [
+              {
+                "id": "ca752b0b-1862-5c9c-85b2-51ab5a99fee3",
+                "text": "Quand"
+              },
+              {
+                "id": "3dda731e-f78c-5f91-a863-84af45a311fd",
+                "text": "j’étais"
+              },
+              {
+                "id": "44f234da-4402-5e91-a6d9-5a2059c386e3",
+                "text": "étudiant,"
+              },
+              {
+                "id": "795a0421-0104-53be-8868-4a213a608f25",
+                "text": "je"
+              },
+              {
+                "id": "8438838e-cdec-5692-8e12-df9674486e18",
+                "text": "travaillais"
+              },
+              {
+                "id": "e18601a3-d928-5272-b907-822428e3c57a",
+                "text": "le"
+              },
+              {
+                "id": "4c62ad2e-5b85-5244-8930-05c4265e7d53",
+                "text": "soir."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "ca752b0b-1862-5c9c-85b2-51ab5a99fee3",
+                "3dda731e-f78c-5f91-a863-84af45a311fd",
+                "44f234da-4402-5e91-a6d9-5a2059c386e3",
+                "795a0421-0104-53be-8868-4a213a608f25",
+                "8438838e-cdec-5692-8e12-df9674486e18",
+                "e18601a3-d928-5272-b907-822428e3c57a",
+                "4c62ad2e-5b85-5244-8930-05c4265e7d53"
+              ]
+            ],
+            "correct_sentence": "Quand j’étais étudiant, je travaillais le soir."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "à l’époque — at that time; changer ses horaires — to change one’s working hours; un événement précis — a specific event",
+          "data": {
+            "left_items": [
+              {
+                "id": "b82a5f0e-2c3d-55e3-a7b4-9890f9a3735b",
+                "text": "à l’époque"
+              },
+              {
+                "id": "f725ca34-6f78-5eab-bb49-17c66f59f06b",
+                "text": "changer ses horaires"
+              },
+              {
+                "id": "19ea71ab-8b2a-5d69-8736-96c4efea8c31",
+                "text": "un événement précis"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "80ddeed7-bc4f-5164-831e-9e5174ab4c3a",
+                "text": "at that time"
+              },
+              {
+                "id": "137560f5-4d74-5b03-a928-73c73d76165b",
+                "text": "to change one’s working hours"
+              },
+              {
+                "id": "d87b15d5-cef6-5f8c-aeb5-6ad35ff14061",
+                "text": "a specific event"
+              }
+            ],
+            "answer_pairs": {
+              "b82a5f0e-2c3d-55e3-a7b4-9890f9a3735b": "80ddeed7-bc4f-5164-831e-9e5174ab4c3a",
+              "f725ca34-6f78-5eab-bb49-17c66f59f06b": "137560f5-4d74-5b03-a928-73c73d76165b",
+              "19ea71ab-8b2a-5d69-8736-96c4efea8c31": "d87b15d5-cef6-5f8c-aeb5-6ad35ff14061"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Quand j’étais étudiant, je travaillais le soir.\nEnglish meaning: When I was a student, I used to work in the evenings.",
+          "data": {
+            "text_fr": "Quand j’étais étudiant, je travaillais le soir."
+          },
+          "options": [
+            "When I was a student, I used to work in the mornings.",
+            "When I was a student, I used to work in the evenings.",
+            "When I was a student, I used to study in the evenings."
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: When I was a student, I used to work in the evenings.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Quand j’étais étudiant, je travaillais le soir.",
+          "explanation": "Exact model: Quand j’étais étudiant, je travaillais le soir.\nMeaning: When I was a student, I used to work in the evenings.",
+          "data": {
+            "accepted_answers": [
+              "Quand j’étais étudiant, je travaillais le soir."
+            ]
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "slug": "personal-module-1",
+          "title": "Past habits and events",
+          "summary": "The imparfait can describe a repeated past situation: je travaillais le soir. The passé composé can move a story forward with a bounded event: le responsable m’a proposé. This is a choice of viewpoint, not a rule that every long action requires the imparfait. Use the explicitly requested tense in the gap.",
+          "rule_code": "personal-b1-1",
+          "explanation_english": "The imparfait can describe a repeated past situation: je travaillais le soir. The passé composé can move a story forward with a bounded event: le responsable m’a proposé. This is a choice of viewpoint, not a rule that every long action requires the imparfait. Use the explicitly requested tense in the gap.",
+          "examples": [
+            [
+              "Quand j’étais étudiant, je travaillais le soir.",
+              "When I was a student, I used to work in the evenings."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "key": "module-1-vocabulary",
+      "skill": "vocabulary",
+      "module_title": "Narrating experience",
+      "title": "Describe student life: vocabulary",
+      "objective": "Practise B1-targeted vocabulary in the situation: Describe student life.",
+      "context": "French passage\nQuand j’étais étudiant, je travaillais le soir. En général, je suivais les cours le matin et je révisais à la bibliothèque l’après-midi. Un jour, le responsable de mon équipe m’a proposé de changer mes horaires. Cette proposition m’a permis de préparer un examen important. J’ai accepté, puis j’ai expliqué ma nouvelle organisation à mes collègues. Aujourd’hui, je raconte cette expérience pour montrer comment une discussion peut résoudre un problème concret. Je distingue mes habitudes des événements précis qui ont changé la situation.\n\nEnglish explanation\nThe imparfait can describe a repeated past situation: je travaillais le soir. The passé composé can move a story forward with a bounded event: le responsable m’a proposé. This is a choice of viewpoint, not a rule that every long action requires the imparfait. Use the explicitly requested tense in the gap.\nModel: Quand j’étais étudiant, je travaillais le soir.\nMeaning: When I was a student, I used to work in the evenings.\n\nGlossary\nà l’époque — at that time\nchanger ses horaires — to change one’s working hours\nun événement précis — a specific event\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Read each French definition, match meanings, then use the expressions in your own example.",
+      "vocabulary": [
+        "à l’époque",
+        "changer ses horaires",
+        "un événement précis"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Which French expression means “at that time”?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "Glossary meaning: à l’époque — at that time.",
+          "data": {},
+          "options": [
+            "changer ses horaires",
+            "un événement précis",
+            "à l’époque"
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Imparfait de travailler : je ___ le soir.",
+          "instructions": "Use travailler in the imparfait, je form. Write only the missing form; keep accents.",
+          "explanation": "The imparfait can describe a repeated past situation: je travaillais le soir. The passé composé can move a story forward with a bounded event: le responsable m’a proposé. This is a choice of viewpoint, not a rule that every long action requires the imparfait. Use the explicitly requested tense in the gap.",
+          "data": {
+            "accepted_answers": [
+              "travaillais"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Quand j’étais étudiant, je travaillais le soir.",
+          "explanation": "The imparfait can describe a repeated past situation: je travaillais le soir. The passé composé can move a story forward with a bounded event: le responsable m’a proposé. This is a choice of viewpoint, not a rule that every long action requires the imparfait. Use the explicitly requested tense in the gap.",
+          "data": {
+            "tiles": [
+              {
+                "id": "3c3e5f6c-da2d-563e-abaf-02b3409e890b",
+                "text": "Quand"
+              },
+              {
+                "id": "5086824d-cc28-5a54-9bc8-eec8e2d2c321",
+                "text": "j’étais"
+              },
+              {
+                "id": "a53694b8-16fe-5de2-824b-dabe6e21b6d9",
+                "text": "étudiant,"
+              },
+              {
+                "id": "03f74bba-8366-540e-b7bc-c8d3d528f06d",
+                "text": "je"
+              },
+              {
+                "id": "26073efd-ad30-5564-a3c4-bdc93ea5691d",
+                "text": "travaillais"
+              },
+              {
+                "id": "e1945bc3-4b28-544b-acb9-aa491c3e5791",
+                "text": "le"
+              },
+              {
+                "id": "b629ac1f-3b43-5fcc-980b-703f420e8c4b",
+                "text": "soir."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "3c3e5f6c-da2d-563e-abaf-02b3409e890b",
+                "5086824d-cc28-5a54-9bc8-eec8e2d2c321",
+                "a53694b8-16fe-5de2-824b-dabe6e21b6d9",
+                "03f74bba-8366-540e-b7bc-c8d3d528f06d",
+                "26073efd-ad30-5564-a3c4-bdc93ea5691d",
+                "e1945bc3-4b28-544b-acb9-aa491c3e5791",
+                "b629ac1f-3b43-5fcc-980b-703f420e8c4b"
+              ]
+            ],
+            "correct_sentence": "Quand j’étais étudiant, je travaillais le soir."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "à l’époque — at that time; changer ses horaires — to change one’s working hours; un événement précis — a specific event",
+          "data": {
+            "left_items": [
+              {
+                "id": "aee1e778-b395-5911-b1f7-2dfc3fedec72",
+                "text": "à l’époque"
+              },
+              {
+                "id": "3d16fafd-acd3-55c6-98af-df6cfdd05af0",
+                "text": "changer ses horaires"
+              },
+              {
+                "id": "0b83e89b-8566-5f8c-85d8-609d1e242bc3",
+                "text": "un événement précis"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "d9c86904-bf3c-54fe-b54c-baa3ae614fc1",
+                "text": "at that time"
+              },
+              {
+                "id": "ecea322f-d3cc-595d-9b3a-1e0a15e62f64",
+                "text": "to change one’s working hours"
+              },
+              {
+                "id": "37cb99f0-d431-562c-a965-42b71028dc8c",
+                "text": "a specific event"
+              }
+            ],
+            "answer_pairs": {
+              "aee1e778-b395-5911-b1f7-2dfc3fedec72": "d9c86904-bf3c-54fe-b54c-baa3ae614fc1",
+              "3d16fafd-acd3-55c6-98af-df6cfdd05af0": "ecea322f-d3cc-595d-9b3a-1e0a15e62f64",
+              "0b83e89b-8566-5f8c-85d8-609d1e242bc3": "37cb99f0-d431-562c-a965-42b71028dc8c"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Quand j’étais étudiant, je travaillais le soir.\nEnglish meaning: When I was a student, I used to work in the evenings.",
+          "data": {
+            "text_fr": "Quand j’étais étudiant, je travaillais le soir."
+          },
+          "options": [
+            "When I was a student, I used to work in the mornings.",
+            "When I was a student, I used to study in the evenings.",
+            "When I was a student, I used to work in the evenings."
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: When I was a student, I used to work in the evenings.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Quand j’étais étudiant, je travaillais le soir.",
+          "explanation": "Exact model: Quand j’étais étudiant, je travaillais le soir.\nMeaning: When I was a student, I used to work in the evenings.",
+          "data": {
+            "accepted_answers": [
+              "Quand j’étais étudiant, je travaillais le soir."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-1-reading",
+      "skill": "reading",
+      "module_title": "Narrating experience",
+      "title": "Describe student life: reading",
+      "objective": "Practise B1-targeted reading in the situation: Describe student life.",
+      "context": "French passage\nQuand j’étais étudiant, je travaillais le soir. En général, je suivais les cours le matin et je révisais à la bibliothèque l’après-midi. Un jour, le responsable de mon équipe m’a proposé de changer mes horaires. Cette proposition m’a permis de préparer un examen important. J’ai accepté, puis j’ai expliqué ma nouvelle organisation à mes collègues. Aujourd’hui, je raconte cette expérience pour montrer comment une discussion peut résoudre un problème concret. Je distingue mes habitudes des événements précis qui ont changé la situation.\n\nEnglish explanation\nThe imparfait can describe a repeated past situation: je travaillais le soir. The passé composé can move a story forward with a bounded event: le responsable m’a proposé. This is a choice of viewpoint, not a rule that every long action requires the imparfait. Use the explicitly requested tense in the gap.\nModel: Quand j’étais étudiant, je travaillais le soir.\nMeaning: When I was a student, I used to work in the evenings.\n\nGlossary\nà l’époque — at that time\nchanger ses horaires — to change one’s working hours\nun événement précis — a specific event\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Find evidence for the answer in the passage. Distinguish what is stated from what is merely possible.",
+      "vocabulary": [
+        "à l’époque",
+        "changer ses horaires",
+        "un événement précis"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "What helped the speaker prepare an exam?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Quand j’étais étudiant, je travaillais le soir. En général, je suivais les cours le matin et je révisais à la bibliothèque l’après-midi. Un jour, le responsable de mon équipe m’a proposé de changer mes horaires. Cette proposition m’a permis de préparer un examen important. J’ai accepté, puis j’ai expliqué ma nouvelle organisation à mes collègues. Aujourd’hui, je raconte cette expérience pour montrer comment une discussion peut résoudre un problème concret. Je distingue mes habitudes des événements précis qui ont changé la situation.",
+          "data": {},
+          "options": [
+            "A change to working hours",
+            "Leaving university permanently",
+            "Cancelling every course"
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Imparfait de travailler : je ___ le soir.",
+          "instructions": "Use travailler in the imparfait, je form. Write only the missing form; keep accents.",
+          "explanation": "The imparfait can describe a repeated past situation: je travaillais le soir. The passé composé can move a story forward with a bounded event: le responsable m’a proposé. This is a choice of viewpoint, not a rule that every long action requires the imparfait. Use the explicitly requested tense in the gap.",
+          "data": {
+            "accepted_answers": [
+              "travaillais"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Quand j’étais étudiant, je travaillais le soir.",
+          "explanation": "The imparfait can describe a repeated past situation: je travaillais le soir. The passé composé can move a story forward with a bounded event: le responsable m’a proposé. This is a choice of viewpoint, not a rule that every long action requires the imparfait. Use the explicitly requested tense in the gap.",
+          "data": {
+            "tiles": [
+              {
+                "id": "a596826d-abb3-58e5-9b69-38274a12e1f4",
+                "text": "Quand"
+              },
+              {
+                "id": "152cc3ac-d7ea-5b1b-9b89-c4200a0080d7",
+                "text": "j’étais"
+              },
+              {
+                "id": "ec8d9894-4a7d-5cd1-b230-88720cadf987",
+                "text": "étudiant,"
+              },
+              {
+                "id": "14b934b3-2700-5659-b711-5c107970115f",
+                "text": "je"
+              },
+              {
+                "id": "fe9f2fb6-1d44-5558-bb12-dad79bb4fd69",
+                "text": "travaillais"
+              },
+              {
+                "id": "dd72ee4e-cca7-5f1c-9f2c-a65eeb906cbf",
+                "text": "le"
+              },
+              {
+                "id": "4af85f8f-9358-5a0e-a983-21180ce0ab7d",
+                "text": "soir."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "a596826d-abb3-58e5-9b69-38274a12e1f4",
+                "152cc3ac-d7ea-5b1b-9b89-c4200a0080d7",
+                "ec8d9894-4a7d-5cd1-b230-88720cadf987",
+                "14b934b3-2700-5659-b711-5c107970115f",
+                "fe9f2fb6-1d44-5558-bb12-dad79bb4fd69",
+                "dd72ee4e-cca7-5f1c-9f2c-a65eeb906cbf",
+                "4af85f8f-9358-5a0e-a983-21180ce0ab7d"
+              ]
+            ],
+            "correct_sentence": "Quand j’étais étudiant, je travaillais le soir."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "à l’époque — at that time; changer ses horaires — to change one’s working hours; un événement précis — a specific event",
+          "data": {
+            "left_items": [
+              {
+                "id": "755a9c30-75ca-5eb8-9635-25a9c09cb155",
+                "text": "à l’époque"
+              },
+              {
+                "id": "582bf5ee-6421-5769-8f73-f63d7d818f5c",
+                "text": "changer ses horaires"
+              },
+              {
+                "id": "970f3b63-77cc-5e32-87c6-911d8185ffaf",
+                "text": "un événement précis"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "1f152cbb-e3bd-5822-9bcf-99560db4c9ba",
+                "text": "at that time"
+              },
+              {
+                "id": "827551cc-7d10-5bc0-b1c3-505677d88341",
+                "text": "to change one’s working hours"
+              },
+              {
+                "id": "2e2b83e7-b5b7-52d0-a5f8-02ab2d4ae561",
+                "text": "a specific event"
+              }
+            ],
+            "answer_pairs": {
+              "755a9c30-75ca-5eb8-9635-25a9c09cb155": "1f152cbb-e3bd-5822-9bcf-99560db4c9ba",
+              "582bf5ee-6421-5769-8f73-f63d7d818f5c": "827551cc-7d10-5bc0-b1c3-505677d88341",
+              "970f3b63-77cc-5e32-87c6-911d8185ffaf": "2e2b83e7-b5b7-52d0-a5f8-02ab2d4ae561"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Quand j’étais étudiant, je travaillais le soir.\nEnglish meaning: When I was a student, I used to work in the evenings.",
+          "data": {
+            "text_fr": "Quand j’étais étudiant, je travaillais le soir."
+          },
+          "options": [
+            "When I was a student, I used to work in the evenings.",
+            "When I was a student, I used to work in the mornings.",
+            "When I was a student, I used to study in the evenings."
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: When I was a student, I used to work in the evenings.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Quand j’étais étudiant, je travaillais le soir.",
+          "explanation": "Exact model: Quand j’étais étudiant, je travaillais le soir.\nMeaning: When I was a student, I used to work in the evenings.",
+          "data": {
+            "accepted_answers": [
+              "Quand j’étais étudiant, je travaillais le soir."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-1-writing",
+      "skill": "writing",
+      "module_title": "Narrating experience",
+      "title": "Describe student life: writing",
+      "objective": "Practise B1-targeted writing in the situation: Describe student life.",
+      "context": "French passage\nQuand j’étais étudiant, je travaillais le soir. En général, je suivais les cours le matin et je révisais à la bibliothèque l’après-midi. Un jour, le responsable de mon équipe m’a proposé de changer mes horaires. Cette proposition m’a permis de préparer un examen important. J’ai accepté, puis j’ai expliqué ma nouvelle organisation à mes collègues. Aujourd’hui, je raconte cette expérience pour montrer comment une discussion peut résoudre un problème concret. Je distingue mes habitudes des événements précis qui ont changé la situation.\n\nEnglish explanation\nThe imparfait can describe a repeated past situation: je travaillais le soir. The passé composé can move a story forward with a bounded event: le responsable m’a proposé. This is a choice of viewpoint, not a rule that every long action requires the imparfait. Use the explicitly requested tense in the gap.\nModel: Quand j’étais étudiant, je travaillais le soir.\nMeaning: When I was a student, I used to work in the evenings.\n\nGlossary\nà l’époque — at that time\nchanger ses horaires — to change one’s working hours\nun événement précis — a specific event\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nWrite 90–120 French words. Describe an earlier routine and one event that changed it. Distinguish repeated habits from the specific event. Use invented personal details. Feedback is advisory, not CEFR certification.\n\nLesson focus: Plan, draft and reread for task completion, grammatical accuracy, suitable vocabulary and audience.",
+      "vocabulary": [
+        "à l’époque",
+        "changer ses horaires",
+        "un événement précis"
+      ],
+      "estimated_minutes": 15,
+      "exercises": []
+    },
+    {
+      "key": "module-2-grammar",
+      "skill": "grammar",
+      "module_title": "Opinions and reasons",
+      "title": "Prepare for a job interview: grammar",
+      "objective": "Practise B1-targeted grammar in the situation: Prepare for a job interview.",
+      "context": "French passage\nAvant un entretien, je lis la présentation de l’entreprise et je prépare deux exemples de mon travail. Pendant l’échange, je présente mes compétences sans exagérer mon expérience. Je demande : « Pourriez-vous préciser les horaires ? » Je souhaite aussi connaître les tâches prioritaires et l’organisation de l’équipe. Si une question n’est pas claire, je demande une reformulation. À la fin, je résume ce que j’ai compris et j’explique pourquoi le poste m’intéresse. Je peux défendre mon point de vue tout en restant ouvert à une autre façon de travailler.\n\nEnglish explanation\nPourriez-vous + infinitive asks politely about someone’s ability or willingness to do something. Pourriez is the conditional present of pouvoir with vous. A hyphen links the inverted verb and pronoun. Politeness also depends on tone and context; a conditional form alone does not make every demand appropriate.\nModel: Pourriez-vous préciser les horaires ?\nMeaning: Could you clarify the working hours?\n\nGlossary\nmettre en valeur — to highlight\nune reformulation — a rephrasing\nles tâches prioritaires — the priority tasks\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Identify the target form, explain its function, and contrast it with the alternative in the explanation.",
+      "vocabulary": [
+        "mettre en valeur",
+        "une reformulation",
+        "les tâches prioritaires"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "What does the candidate ask to clarify?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Avant un entretien, je lis la présentation de l’entreprise et je prépare deux exemples de mon travail. Pendant l’échange, je présente mes compétences sans exagérer mon expérience. Je demande : « Pourriez-vous préciser les horaires ? » Je souhaite aussi connaître les tâches prioritaires et l’organisation de l’équipe. Si une question n’est pas claire, je demande une reformulation. À la fin, je résume ce que j’ai compris et j’explique pourquoi le poste m’intéresse. Je peux défendre mon point de vue tout en restant ouvert à une autre façon de travailler.",
+          "data": {},
+          "options": [
+            "A restaurant menu",
+            "The weather forecast",
+            "The working hours"
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "___-vous préciser les horaires ?",
+          "instructions": "Use pouvoir in the conditional present, vous form; keep the existing hyphen. Write only the missing form; keep accents.",
+          "explanation": "Pourriez-vous + infinitive asks politely about someone’s ability or willingness to do something. Pourriez is the conditional present of pouvoir with vous. A hyphen links the inverted verb and pronoun. Politeness also depends on tone and context; a conditional form alone does not make every demand appropriate.",
+          "data": {
+            "accepted_answers": [
+              "Pourriez"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Pourriez-vous préciser les horaires ?",
+          "explanation": "Pourriez-vous + infinitive asks politely about someone’s ability or willingness to do something. Pourriez is the conditional present of pouvoir with vous. A hyphen links the inverted verb and pronoun. Politeness also depends on tone and context; a conditional form alone does not make every demand appropriate.",
+          "data": {
+            "tiles": [
+              {
+                "id": "d3717341-bd82-51de-b1b5-a0386b89777e",
+                "text": "Pourriez-vous"
+              },
+              {
+                "id": "6f87a8db-a57b-50e3-8604-42504a9b0c79",
+                "text": "préciser"
+              },
+              {
+                "id": "b5bf4ce2-1273-5fab-a6e2-b7526860752b",
+                "text": "les"
+              },
+              {
+                "id": "f74b8434-b799-5258-8231-b243ac4dd086",
+                "text": "horaires"
+              },
+              {
+                "id": "5c6d3e3e-7548-5161-abba-458776ecdc99",
+                "text": "?"
+              }
+            ],
+            "accepted_orders": [
+              [
+                "d3717341-bd82-51de-b1b5-a0386b89777e",
+                "6f87a8db-a57b-50e3-8604-42504a9b0c79",
+                "b5bf4ce2-1273-5fab-a6e2-b7526860752b",
+                "f74b8434-b799-5258-8231-b243ac4dd086",
+                "5c6d3e3e-7548-5161-abba-458776ecdc99"
+              ]
+            ],
+            "correct_sentence": "Pourriez-vous préciser les horaires ?"
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "mettre en valeur — to highlight; une reformulation — a rephrasing; les tâches prioritaires — the priority tasks",
+          "data": {
+            "left_items": [
+              {
+                "id": "806f9984-d920-5cfa-a9ed-2a67ae964b8f",
+                "text": "mettre en valeur"
+              },
+              {
+                "id": "42d8f886-9141-5b63-8b10-31eee253e32c",
+                "text": "une reformulation"
+              },
+              {
+                "id": "5e1270fa-38ea-5720-ad83-f2309aa241b4",
+                "text": "les tâches prioritaires"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "85612944-be89-5300-adb4-d5c1672eea22",
+                "text": "to highlight"
+              },
+              {
+                "id": "ac8ef88c-b768-5e34-b013-f9adf3aa2834",
+                "text": "a rephrasing"
+              },
+              {
+                "id": "86e17312-e4ea-545b-8c42-7d922ff4eda6",
+                "text": "the priority tasks"
+              }
+            ],
+            "answer_pairs": {
+              "806f9984-d920-5cfa-a9ed-2a67ae964b8f": "85612944-be89-5300-adb4-d5c1672eea22",
+              "42d8f886-9141-5b63-8b10-31eee253e32c": "ac8ef88c-b768-5e34-b013-f9adf3aa2834",
+              "5e1270fa-38ea-5720-ad83-f2309aa241b4": "86e17312-e4ea-545b-8c42-7d922ff4eda6"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Pourriez-vous préciser les horaires ?\nEnglish meaning: Could you clarify the working hours?",
+          "data": {
+            "text_fr": "Pourriez-vous préciser les horaires ?"
+          },
+          "options": [
+            "Could you change the working hours?",
+            "Could you confirm the address?",
+            "Could you clarify the working hours?"
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: Could you clarify the working hours?",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Pourriez-vous préciser les horaires ?",
+          "explanation": "Exact model: Pourriez-vous préciser les horaires ?\nMeaning: Could you clarify the working hours?",
+          "data": {
+            "accepted_answers": [
+              "Pourriez-vous préciser les horaires ?"
+            ]
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "slug": "personal-module-2",
+          "title": "A polite conditional request",
+          "summary": "Pourriez-vous + infinitive asks politely about someone’s ability or willingness to do something. Pourriez is the conditional present of pouvoir with vous. A hyphen links the inverted verb and pronoun. Politeness also depends on tone and context; a conditional form alone does not make every demand appropriate.",
+          "rule_code": "personal-b1-2",
+          "explanation_english": "Pourriez-vous + infinitive asks politely about someone’s ability or willingness to do something. Pourriez is the conditional present of pouvoir with vous. A hyphen links the inverted verb and pronoun. Politeness also depends on tone and context; a conditional form alone does not make every demand appropriate.",
+          "examples": [
+            [
+              "Pourriez-vous préciser les horaires ?",
+              "Could you clarify the working hours?"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "key": "module-2-vocabulary",
+      "skill": "vocabulary",
+      "module_title": "Opinions and reasons",
+      "title": "Prepare for a job interview: vocabulary",
+      "objective": "Practise B1-targeted vocabulary in the situation: Prepare for a job interview.",
+      "context": "French passage\nAvant un entretien, je lis la présentation de l’entreprise et je prépare deux exemples de mon travail. Pendant l’échange, je présente mes compétences sans exagérer mon expérience. Je demande : « Pourriez-vous préciser les horaires ? » Je souhaite aussi connaître les tâches prioritaires et l’organisation de l’équipe. Si une question n’est pas claire, je demande une reformulation. À la fin, je résume ce que j’ai compris et j’explique pourquoi le poste m’intéresse. Je peux défendre mon point de vue tout en restant ouvert à une autre façon de travailler.\n\nEnglish explanation\nPourriez-vous + infinitive asks politely about someone’s ability or willingness to do something. Pourriez is the conditional present of pouvoir with vous. A hyphen links the inverted verb and pronoun. Politeness also depends on tone and context; a conditional form alone does not make every demand appropriate.\nModel: Pourriez-vous préciser les horaires ?\nMeaning: Could you clarify the working hours?\n\nGlossary\nmettre en valeur — to highlight\nune reformulation — a rephrasing\nles tâches prioritaires — the priority tasks\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Read each French definition, match meanings, then use the expressions in your own example.",
+      "vocabulary": [
+        "mettre en valeur",
+        "une reformulation",
+        "les tâches prioritaires"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Which French expression means “to highlight”?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "Glossary meaning: mettre en valeur — to highlight.",
+          "data": {},
+          "options": [
+            "mettre en valeur",
+            "une reformulation",
+            "les tâches prioritaires"
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "___-vous préciser les horaires ?",
+          "instructions": "Use pouvoir in the conditional present, vous form; keep the existing hyphen. Write only the missing form; keep accents.",
+          "explanation": "Pourriez-vous + infinitive asks politely about someone’s ability or willingness to do something. Pourriez is the conditional present of pouvoir with vous. A hyphen links the inverted verb and pronoun. Politeness also depends on tone and context; a conditional form alone does not make every demand appropriate.",
+          "data": {
+            "accepted_answers": [
+              "Pourriez"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Pourriez-vous préciser les horaires ?",
+          "explanation": "Pourriez-vous + infinitive asks politely about someone’s ability or willingness to do something. Pourriez is the conditional present of pouvoir with vous. A hyphen links the inverted verb and pronoun. Politeness also depends on tone and context; a conditional form alone does not make every demand appropriate.",
+          "data": {
+            "tiles": [
+              {
+                "id": "dd330ec7-96fb-59c1-bd87-39470dd316a7",
+                "text": "Pourriez-vous"
+              },
+              {
+                "id": "d9bbdfbd-a861-5519-bbb3-ad7f8702610d",
+                "text": "préciser"
+              },
+              {
+                "id": "f73d936b-a533-5cd6-8559-c03435e89865",
+                "text": "les"
+              },
+              {
+                "id": "0dccf057-6310-55a9-8299-0b2a8a145770",
+                "text": "horaires"
+              },
+              {
+                "id": "9c61ab07-a2bd-5e85-be3b-003c3b766563",
+                "text": "?"
+              }
+            ],
+            "accepted_orders": [
+              [
+                "dd330ec7-96fb-59c1-bd87-39470dd316a7",
+                "d9bbdfbd-a861-5519-bbb3-ad7f8702610d",
+                "f73d936b-a533-5cd6-8559-c03435e89865",
+                "0dccf057-6310-55a9-8299-0b2a8a145770",
+                "9c61ab07-a2bd-5e85-be3b-003c3b766563"
+              ]
+            ],
+            "correct_sentence": "Pourriez-vous préciser les horaires ?"
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "mettre en valeur — to highlight; une reformulation — a rephrasing; les tâches prioritaires — the priority tasks",
+          "data": {
+            "left_items": [
+              {
+                "id": "fe7645ef-9c2b-501c-b020-d343d95edd3b",
+                "text": "mettre en valeur"
+              },
+              {
+                "id": "3df0f42a-0066-5fa6-85a8-8b8f46725009",
+                "text": "une reformulation"
+              },
+              {
+                "id": "1b2ac8a5-a563-564d-8a89-166e841a87a7",
+                "text": "les tâches prioritaires"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "c94cb12a-5c83-54e7-a8fa-ef762683e8da",
+                "text": "to highlight"
+              },
+              {
+                "id": "ec20a666-4a2a-5303-85b4-f0cec42e3b06",
+                "text": "a rephrasing"
+              },
+              {
+                "id": "1d2e548e-64b5-5984-8715-7bd3f4964216",
+                "text": "the priority tasks"
+              }
+            ],
+            "answer_pairs": {
+              "fe7645ef-9c2b-501c-b020-d343d95edd3b": "c94cb12a-5c83-54e7-a8fa-ef762683e8da",
+              "3df0f42a-0066-5fa6-85a8-8b8f46725009": "ec20a666-4a2a-5303-85b4-f0cec42e3b06",
+              "1b2ac8a5-a563-564d-8a89-166e841a87a7": "1d2e548e-64b5-5984-8715-7bd3f4964216"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Pourriez-vous préciser les horaires ?\nEnglish meaning: Could you clarify the working hours?",
+          "data": {
+            "text_fr": "Pourriez-vous préciser les horaires ?"
+          },
+          "options": [
+            "Could you clarify the working hours?",
+            "Could you change the working hours?",
+            "Could you confirm the address?"
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: Could you clarify the working hours?",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Pourriez-vous préciser les horaires ?",
+          "explanation": "Exact model: Pourriez-vous préciser les horaires ?\nMeaning: Could you clarify the working hours?",
+          "data": {
+            "accepted_answers": [
+              "Pourriez-vous préciser les horaires ?"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-2-reading",
+      "skill": "reading",
+      "module_title": "Opinions and reasons",
+      "title": "Prepare for a job interview: reading",
+      "objective": "Practise B1-targeted reading in the situation: Prepare for a job interview.",
+      "context": "French passage\nAvant un entretien, je lis la présentation de l’entreprise et je prépare deux exemples de mon travail. Pendant l’échange, je présente mes compétences sans exagérer mon expérience. Je demande : « Pourriez-vous préciser les horaires ? » Je souhaite aussi connaître les tâches prioritaires et l’organisation de l’équipe. Si une question n’est pas claire, je demande une reformulation. À la fin, je résume ce que j’ai compris et j’explique pourquoi le poste m’intéresse. Je peux défendre mon point de vue tout en restant ouvert à une autre façon de travailler.\n\nEnglish explanation\nPourriez-vous + infinitive asks politely about someone’s ability or willingness to do something. Pourriez is the conditional present of pouvoir with vous. A hyphen links the inverted verb and pronoun. Politeness also depends on tone and context; a conditional form alone does not make every demand appropriate.\nModel: Pourriez-vous préciser les horaires ?\nMeaning: Could you clarify the working hours?\n\nGlossary\nmettre en valeur — to highlight\nune reformulation — a rephrasing\nles tâches prioritaires — the priority tasks\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Find evidence for the answer in the passage. Distinguish what is stated from what is merely possible.",
+      "vocabulary": [
+        "mettre en valeur",
+        "une reformulation",
+        "les tâches prioritaires"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "What does the candidate ask to clarify?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Avant un entretien, je lis la présentation de l’entreprise et je prépare deux exemples de mon travail. Pendant l’échange, je présente mes compétences sans exagérer mon expérience. Je demande : « Pourriez-vous préciser les horaires ? » Je souhaite aussi connaître les tâches prioritaires et l’organisation de l’équipe. Si une question n’est pas claire, je demande une reformulation. À la fin, je résume ce que j’ai compris et j’explique pourquoi le poste m’intéresse. Je peux défendre mon point de vue tout en restant ouvert à une autre façon de travailler.",
+          "data": {},
+          "options": [
+            "A restaurant menu",
+            "The working hours",
+            "The weather forecast"
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "___-vous préciser les horaires ?",
+          "instructions": "Use pouvoir in the conditional present, vous form; keep the existing hyphen. Write only the missing form; keep accents.",
+          "explanation": "Pourriez-vous + infinitive asks politely about someone’s ability or willingness to do something. Pourriez is the conditional present of pouvoir with vous. A hyphen links the inverted verb and pronoun. Politeness also depends on tone and context; a conditional form alone does not make every demand appropriate.",
+          "data": {
+            "accepted_answers": [
+              "Pourriez"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Pourriez-vous préciser les horaires ?",
+          "explanation": "Pourriez-vous + infinitive asks politely about someone’s ability or willingness to do something. Pourriez is the conditional present of pouvoir with vous. A hyphen links the inverted verb and pronoun. Politeness also depends on tone and context; a conditional form alone does not make every demand appropriate.",
+          "data": {
+            "tiles": [
+              {
+                "id": "5c72d5c9-bbd3-5f36-86c3-0335798e905b",
+                "text": "Pourriez-vous"
+              },
+              {
+                "id": "2596336d-6688-54ec-8810-1b025631e27b",
+                "text": "préciser"
+              },
+              {
+                "id": "8102665b-8195-5f42-8843-0c5884152a78",
+                "text": "les"
+              },
+              {
+                "id": "a5c5244c-f077-5ce4-b225-64a9543df017",
+                "text": "horaires"
+              },
+              {
+                "id": "d653e961-64d9-537d-baa4-150c1c43334b",
+                "text": "?"
+              }
+            ],
+            "accepted_orders": [
+              [
+                "5c72d5c9-bbd3-5f36-86c3-0335798e905b",
+                "2596336d-6688-54ec-8810-1b025631e27b",
+                "8102665b-8195-5f42-8843-0c5884152a78",
+                "a5c5244c-f077-5ce4-b225-64a9543df017",
+                "d653e961-64d9-537d-baa4-150c1c43334b"
+              ]
+            ],
+            "correct_sentence": "Pourriez-vous préciser les horaires ?"
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "mettre en valeur — to highlight; une reformulation — a rephrasing; les tâches prioritaires — the priority tasks",
+          "data": {
+            "left_items": [
+              {
+                "id": "1a870e12-43c7-5eed-91e7-55cf36dbba39",
+                "text": "mettre en valeur"
+              },
+              {
+                "id": "e72e6384-36ad-53b9-9ae5-f4ee060ac4f2",
+                "text": "une reformulation"
+              },
+              {
+                "id": "8e8edbd5-3fd3-5393-b616-a5f4f1498128",
+                "text": "les tâches prioritaires"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "37729116-6d23-5252-abb4-1d3df7379225",
+                "text": "to highlight"
+              },
+              {
+                "id": "b58d0fc7-70e9-59e3-86d7-14eb5b88ad59",
+                "text": "a rephrasing"
+              },
+              {
+                "id": "ae1a7b71-2a92-531b-8c51-c11d038ad8a8",
+                "text": "the priority tasks"
+              }
+            ],
+            "answer_pairs": {
+              "1a870e12-43c7-5eed-91e7-55cf36dbba39": "37729116-6d23-5252-abb4-1d3df7379225",
+              "e72e6384-36ad-53b9-9ae5-f4ee060ac4f2": "b58d0fc7-70e9-59e3-86d7-14eb5b88ad59",
+              "8e8edbd5-3fd3-5393-b616-a5f4f1498128": "ae1a7b71-2a92-531b-8c51-c11d038ad8a8"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Pourriez-vous préciser les horaires ?\nEnglish meaning: Could you clarify the working hours?",
+          "data": {
+            "text_fr": "Pourriez-vous préciser les horaires ?"
+          },
+          "options": [
+            "Could you change the working hours?",
+            "Could you clarify the working hours?",
+            "Could you confirm the address?"
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: Could you clarify the working hours?",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Pourriez-vous préciser les horaires ?",
+          "explanation": "Exact model: Pourriez-vous préciser les horaires ?\nMeaning: Could you clarify the working hours?",
+          "data": {
+            "accepted_answers": [
+              "Pourriez-vous préciser les horaires ?"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-2-writing",
+      "skill": "writing",
+      "module_title": "Opinions and reasons",
+      "title": "Prepare for a job interview: writing",
+      "objective": "Practise B1-targeted writing in the situation: Prepare for a job interview.",
+      "context": "French passage\nAvant un entretien, je lis la présentation de l’entreprise et je prépare deux exemples de mon travail. Pendant l’échange, je présente mes compétences sans exagérer mon expérience. Je demande : « Pourriez-vous préciser les horaires ? » Je souhaite aussi connaître les tâches prioritaires et l’organisation de l’équipe. Si une question n’est pas claire, je demande une reformulation. À la fin, je résume ce que j’ai compris et j’explique pourquoi le poste m’intéresse. Je peux défendre mon point de vue tout en restant ouvert à une autre façon de travailler.\n\nEnglish explanation\nPourriez-vous + infinitive asks politely about someone’s ability or willingness to do something. Pourriez is the conditional present of pouvoir with vous. A hyphen links the inverted verb and pronoun. Politeness also depends on tone and context; a conditional form alone does not make every demand appropriate.\nModel: Pourriez-vous préciser les horaires ?\nMeaning: Could you clarify the working hours?\n\nGlossary\nmettre en valeur — to highlight\nune reformulation — a rephrasing\nles tâches prioritaires — the priority tasks\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nWrite 90–120 French words. Write an interview follow-up explaining your interest and asking politely for clarification of the hours and priority tasks. Use invented personal details. Feedback is advisory, not CEFR certification.\n\nLesson focus: Plan, draft and reread for task completion, grammatical accuracy, suitable vocabulary and audience.",
+      "vocabulary": [
+        "mettre en valeur",
+        "une reformulation",
+        "les tâches prioritaires"
+      ],
+      "estimated_minutes": 15,
+      "exercises": []
+    },
+    {
+      "key": "module-3-grammar",
+      "skill": "grammar",
+      "module_title": "Practical problem solving",
+      "title": "Organise an appointment: grammar",
+      "objective": "Practise B1-targeted grammar in the situation: Organise an appointment.",
+      "context": "French passage\nJe dois rencontrer un conseiller pour discuter de mon projet d’études. Il faut que je prenne rendez-vous. Je consulte les créneaux proposés et j’en choisis un qui correspond à mes disponibilités. Dans mon message, je précise l’objet de la rencontre et je demande quels documents préparer. Si je ne peux plus venir, je préviens le service au lieu de laisser un créneau inutilisé. Cette situation est fictive : dans la vie réelle, je lis les instructions du service concerné. Mon objectif linguistique est d’exprimer une nécessité et de demander une précision.\n\nEnglish explanation\nIl faut que + a clause normally takes the subjunctive: il faut que je prenne. Prendre has the subjunctive form prenne with je. Il faut + infinitive is another structure: il faut prendre rendez-vous. Do not put an infinitive directly after il faut que.\nModel: Il faut que je prenne rendez-vous.\nMeaning: I need to make an appointment.\n\nGlossary\nun créneau disponible — an available time slot\nl’objet de la rencontre — the purpose of the meeting\nprévenir le service — to notify the department\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Identify the target form, explain its function, and contrast it with the alternative in the explanation.",
+      "vocabulary": [
+        "un créneau disponible",
+        "l’objet de la rencontre",
+        "prévenir le service"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "What should the speaker do if unable to attend?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Je dois rencontrer un conseiller pour discuter de mon projet d’études. Il faut que je prenne rendez-vous. Je consulte les créneaux proposés et j’en choisis un qui correspond à mes disponibilités. Dans mon message, je précise l’objet de la rencontre et je demande quels documents préparer. Si je ne peux plus venir, je préviens le service au lieu de laisser un créneau inutilisé. Cette situation est fictive : dans la vie réelle, je lis les instructions du service concerné. Mon objectif linguistique est d’exprimer une nécessité et de demander une précision.",
+          "data": {},
+          "options": [
+            "Notify the department",
+            "Keep the slot without saying anything",
+            "Send unrelated documents"
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Il faut que je ___ rendez-vous.",
+          "instructions": "Use prendre in the present subjunctive, je form. Write only the missing form; keep accents.",
+          "explanation": "Il faut que + a clause normally takes the subjunctive: il faut que je prenne. Prendre has the subjunctive form prenne with je. Il faut + infinitive is another structure: il faut prendre rendez-vous. Do not put an infinitive directly after il faut que.",
+          "data": {
+            "accepted_answers": [
+              "prenne"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Il faut que je prenne rendez-vous.",
+          "explanation": "Il faut que + a clause normally takes the subjunctive: il faut que je prenne. Prendre has the subjunctive form prenne with je. Il faut + infinitive is another structure: il faut prendre rendez-vous. Do not put an infinitive directly after il faut que.",
+          "data": {
+            "tiles": [
+              {
+                "id": "92d0c203-fc85-5589-b4b2-3da07e66e89e",
+                "text": "Il"
+              },
+              {
+                "id": "a834ca2a-3150-5cfe-b21d-3e106e0ffecf",
+                "text": "faut"
+              },
+              {
+                "id": "9e62de6f-a9dd-5229-9895-506fdbf539a2",
+                "text": "que"
+              },
+              {
+                "id": "6203f4e7-7633-5924-9ff2-2f0430202e5c",
+                "text": "je"
+              },
+              {
+                "id": "e90885ac-9219-5aeb-84be-021dda3b7f01",
+                "text": "prenne"
+              },
+              {
+                "id": "bc89b6da-6797-56f2-96fa-77e082745ec5",
+                "text": "rendez-vous."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "92d0c203-fc85-5589-b4b2-3da07e66e89e",
+                "a834ca2a-3150-5cfe-b21d-3e106e0ffecf",
+                "9e62de6f-a9dd-5229-9895-506fdbf539a2",
+                "6203f4e7-7633-5924-9ff2-2f0430202e5c",
+                "e90885ac-9219-5aeb-84be-021dda3b7f01",
+                "bc89b6da-6797-56f2-96fa-77e082745ec5"
+              ]
+            ],
+            "correct_sentence": "Il faut que je prenne rendez-vous."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "un créneau disponible — an available time slot; l’objet de la rencontre — the purpose of the meeting; prévenir le service — to notify the department",
+          "data": {
+            "left_items": [
+              {
+                "id": "2dfd6d33-12fe-5035-882c-b1816d3361d7",
+                "text": "un créneau disponible"
+              },
+              {
+                "id": "7304d0d2-134d-5908-aa94-add36d1b2ab5",
+                "text": "l’objet de la rencontre"
+              },
+              {
+                "id": "f5b00054-0407-5b94-bc38-941ab3615091",
+                "text": "prévenir le service"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "10ce264e-e316-53fe-b5cf-d33f6d9bb88b",
+                "text": "an available time slot"
+              },
+              {
+                "id": "a759ea49-fe25-52da-8772-5ddddfa2713c",
+                "text": "the purpose of the meeting"
+              },
+              {
+                "id": "78ea0dde-26a3-581f-a987-98115ff636ea",
+                "text": "to notify the department"
+              }
+            ],
+            "answer_pairs": {
+              "2dfd6d33-12fe-5035-882c-b1816d3361d7": "10ce264e-e316-53fe-b5cf-d33f6d9bb88b",
+              "7304d0d2-134d-5908-aa94-add36d1b2ab5": "a759ea49-fe25-52da-8772-5ddddfa2713c",
+              "f5b00054-0407-5b94-bc38-941ab3615091": "78ea0dde-26a3-581f-a987-98115ff636ea"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Il faut que je prenne rendez-vous.\nEnglish meaning: I need to make an appointment.",
+          "data": {
+            "text_fr": "Il faut que je prenne rendez-vous."
+          },
+          "options": [
+            "I need to make an appointment.",
+            "I need to cancel an appointment.",
+            "I need to attend the meeting."
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: I need to make an appointment.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Il faut que je prenne rendez-vous.",
+          "explanation": "Exact model: Il faut que je prenne rendez-vous.\nMeaning: I need to make an appointment.",
+          "data": {
+            "accepted_answers": [
+              "Il faut que je prenne rendez-vous."
+            ]
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "slug": "personal-module-3",
+          "title": "A common necessity pattern",
+          "summary": "Il faut que + a clause normally takes the subjunctive: il faut que je prenne. Prendre has the subjunctive form prenne with je. Il faut + infinitive is another structure: il faut prendre rendez-vous. Do not put an infinitive directly after il faut que.",
+          "rule_code": "personal-b1-3",
+          "explanation_english": "Il faut que + a clause normally takes the subjunctive: il faut que je prenne. Prendre has the subjunctive form prenne with je. Il faut + infinitive is another structure: il faut prendre rendez-vous. Do not put an infinitive directly after il faut que.",
+          "examples": [
+            [
+              "Il faut que je prenne rendez-vous.",
+              "I need to make an appointment."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "key": "module-3-vocabulary",
+      "skill": "vocabulary",
+      "module_title": "Practical problem solving",
+      "title": "Organise an appointment: vocabulary",
+      "objective": "Practise B1-targeted vocabulary in the situation: Organise an appointment.",
+      "context": "French passage\nJe dois rencontrer un conseiller pour discuter de mon projet d’études. Il faut que je prenne rendez-vous. Je consulte les créneaux proposés et j’en choisis un qui correspond à mes disponibilités. Dans mon message, je précise l’objet de la rencontre et je demande quels documents préparer. Si je ne peux plus venir, je préviens le service au lieu de laisser un créneau inutilisé. Cette situation est fictive : dans la vie réelle, je lis les instructions du service concerné. Mon objectif linguistique est d’exprimer une nécessité et de demander une précision.\n\nEnglish explanation\nIl faut que + a clause normally takes the subjunctive: il faut que je prenne. Prendre has the subjunctive form prenne with je. Il faut + infinitive is another structure: il faut prendre rendez-vous. Do not put an infinitive directly after il faut que.\nModel: Il faut que je prenne rendez-vous.\nMeaning: I need to make an appointment.\n\nGlossary\nun créneau disponible — an available time slot\nl’objet de la rencontre — the purpose of the meeting\nprévenir le service — to notify the department\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Read each French definition, match meanings, then use the expressions in your own example.",
+      "vocabulary": [
+        "un créneau disponible",
+        "l’objet de la rencontre",
+        "prévenir le service"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Which French expression means “an available time slot”?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "Glossary meaning: un créneau disponible — an available time slot.",
+          "data": {},
+          "options": [
+            "l’objet de la rencontre",
+            "un créneau disponible",
+            "prévenir le service"
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Il faut que je ___ rendez-vous.",
+          "instructions": "Use prendre in the present subjunctive, je form. Write only the missing form; keep accents.",
+          "explanation": "Il faut que + a clause normally takes the subjunctive: il faut que je prenne. Prendre has the subjunctive form prenne with je. Il faut + infinitive is another structure: il faut prendre rendez-vous. Do not put an infinitive directly after il faut que.",
+          "data": {
+            "accepted_answers": [
+              "prenne"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Il faut que je prenne rendez-vous.",
+          "explanation": "Il faut que + a clause normally takes the subjunctive: il faut que je prenne. Prendre has the subjunctive form prenne with je. Il faut + infinitive is another structure: il faut prendre rendez-vous. Do not put an infinitive directly after il faut que.",
+          "data": {
+            "tiles": [
+              {
+                "id": "fbb461c6-b441-5ce5-bada-b01d6a64aa93",
+                "text": "Il"
+              },
+              {
+                "id": "04152473-650c-5986-a8e8-69b88b54062e",
+                "text": "faut"
+              },
+              {
+                "id": "1cb10abe-2219-511e-9c2e-915ed8fbbfd9",
+                "text": "que"
+              },
+              {
+                "id": "99de140d-817a-50c8-8057-4b065d74d640",
+                "text": "je"
+              },
+              {
+                "id": "2f1e2ac8-d8ca-5323-91df-29068f2b5789",
+                "text": "prenne"
+              },
+              {
+                "id": "90b4ba31-77fd-5a17-aaa7-39e10cb1eb72",
+                "text": "rendez-vous."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "fbb461c6-b441-5ce5-bada-b01d6a64aa93",
+                "04152473-650c-5986-a8e8-69b88b54062e",
+                "1cb10abe-2219-511e-9c2e-915ed8fbbfd9",
+                "99de140d-817a-50c8-8057-4b065d74d640",
+                "2f1e2ac8-d8ca-5323-91df-29068f2b5789",
+                "90b4ba31-77fd-5a17-aaa7-39e10cb1eb72"
+              ]
+            ],
+            "correct_sentence": "Il faut que je prenne rendez-vous."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "un créneau disponible — an available time slot; l’objet de la rencontre — the purpose of the meeting; prévenir le service — to notify the department",
+          "data": {
+            "left_items": [
+              {
+                "id": "a3ad1013-f766-5c04-aaec-06d55cf27f45",
+                "text": "un créneau disponible"
+              },
+              {
+                "id": "7c2c6c5d-0aa7-59d6-b7fa-dbb7c7539ae7",
+                "text": "l’objet de la rencontre"
+              },
+              {
+                "id": "177cefd3-be5e-55b3-b1f3-acbb59f0d424",
+                "text": "prévenir le service"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "6fc59207-546a-50bb-a836-2193b8a34ee9",
+                "text": "an available time slot"
+              },
+              {
+                "id": "a03a7ece-8e81-5f4b-ae1f-52c8437e52d6",
+                "text": "the purpose of the meeting"
+              },
+              {
+                "id": "0df17d09-ac8a-5d54-8ad9-fdfff2907769",
+                "text": "to notify the department"
+              }
+            ],
+            "answer_pairs": {
+              "a3ad1013-f766-5c04-aaec-06d55cf27f45": "6fc59207-546a-50bb-a836-2193b8a34ee9",
+              "7c2c6c5d-0aa7-59d6-b7fa-dbb7c7539ae7": "a03a7ece-8e81-5f4b-ae1f-52c8437e52d6",
+              "177cefd3-be5e-55b3-b1f3-acbb59f0d424": "0df17d09-ac8a-5d54-8ad9-fdfff2907769"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Il faut que je prenne rendez-vous.\nEnglish meaning: I need to make an appointment.",
+          "data": {
+            "text_fr": "Il faut que je prenne rendez-vous."
+          },
+          "options": [
+            "I need to cancel an appointment.",
+            "I need to make an appointment.",
+            "I need to attend the meeting."
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: I need to make an appointment.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Il faut que je prenne rendez-vous.",
+          "explanation": "Exact model: Il faut que je prenne rendez-vous.\nMeaning: I need to make an appointment.",
+          "data": {
+            "accepted_answers": [
+              "Il faut que je prenne rendez-vous."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-3-reading",
+      "skill": "reading",
+      "module_title": "Practical problem solving",
+      "title": "Organise an appointment: reading",
+      "objective": "Practise B1-targeted reading in the situation: Organise an appointment.",
+      "context": "French passage\nJe dois rencontrer un conseiller pour discuter de mon projet d’études. Il faut que je prenne rendez-vous. Je consulte les créneaux proposés et j’en choisis un qui correspond à mes disponibilités. Dans mon message, je précise l’objet de la rencontre et je demande quels documents préparer. Si je ne peux plus venir, je préviens le service au lieu de laisser un créneau inutilisé. Cette situation est fictive : dans la vie réelle, je lis les instructions du service concerné. Mon objectif linguistique est d’exprimer une nécessité et de demander une précision.\n\nEnglish explanation\nIl faut que + a clause normally takes the subjunctive: il faut que je prenne. Prendre has the subjunctive form prenne with je. Il faut + infinitive is another structure: il faut prendre rendez-vous. Do not put an infinitive directly after il faut que.\nModel: Il faut que je prenne rendez-vous.\nMeaning: I need to make an appointment.\n\nGlossary\nun créneau disponible — an available time slot\nl’objet de la rencontre — the purpose of the meeting\nprévenir le service — to notify the department\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Find evidence for the answer in the passage. Distinguish what is stated from what is merely possible.",
+      "vocabulary": [
+        "un créneau disponible",
+        "l’objet de la rencontre",
+        "prévenir le service"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "What should the speaker do if unable to attend?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Je dois rencontrer un conseiller pour discuter de mon projet d’études. Il faut que je prenne rendez-vous. Je consulte les créneaux proposés et j’en choisis un qui correspond à mes disponibilités. Dans mon message, je précise l’objet de la rencontre et je demande quels documents préparer. Si je ne peux plus venir, je préviens le service au lieu de laisser un créneau inutilisé. Cette situation est fictive : dans la vie réelle, je lis les instructions du service concerné. Mon objectif linguistique est d’exprimer une nécessité et de demander une précision.",
+          "data": {},
+          "options": [
+            "Keep the slot without saying anything",
+            "Send unrelated documents",
+            "Notify the department"
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Il faut que je ___ rendez-vous.",
+          "instructions": "Use prendre in the present subjunctive, je form. Write only the missing form; keep accents.",
+          "explanation": "Il faut que + a clause normally takes the subjunctive: il faut que je prenne. Prendre has the subjunctive form prenne with je. Il faut + infinitive is another structure: il faut prendre rendez-vous. Do not put an infinitive directly after il faut que.",
+          "data": {
+            "accepted_answers": [
+              "prenne"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Il faut que je prenne rendez-vous.",
+          "explanation": "Il faut que + a clause normally takes the subjunctive: il faut que je prenne. Prendre has the subjunctive form prenne with je. Il faut + infinitive is another structure: il faut prendre rendez-vous. Do not put an infinitive directly after il faut que.",
+          "data": {
+            "tiles": [
+              {
+                "id": "52dbcdcc-78b2-54fc-9dec-c36e1d12bc5c",
+                "text": "Il"
+              },
+              {
+                "id": "fbce3145-51b6-5e6f-97d7-e6bfecd4f526",
+                "text": "faut"
+              },
+              {
+                "id": "2a75335b-76e7-5cdc-bb03-c7dca8fe9142",
+                "text": "que"
+              },
+              {
+                "id": "c7cbf2b0-06dc-5887-ab5a-f12bf10a9e89",
+                "text": "je"
+              },
+              {
+                "id": "b681576d-1561-534d-9f1c-529e4d16d29e",
+                "text": "prenne"
+              },
+              {
+                "id": "e1f79a45-d619-58fd-b1ff-c76d38980ada",
+                "text": "rendez-vous."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "52dbcdcc-78b2-54fc-9dec-c36e1d12bc5c",
+                "fbce3145-51b6-5e6f-97d7-e6bfecd4f526",
+                "2a75335b-76e7-5cdc-bb03-c7dca8fe9142",
+                "c7cbf2b0-06dc-5887-ab5a-f12bf10a9e89",
+                "b681576d-1561-534d-9f1c-529e4d16d29e",
+                "e1f79a45-d619-58fd-b1ff-c76d38980ada"
+              ]
+            ],
+            "correct_sentence": "Il faut que je prenne rendez-vous."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "un créneau disponible — an available time slot; l’objet de la rencontre — the purpose of the meeting; prévenir le service — to notify the department",
+          "data": {
+            "left_items": [
+              {
+                "id": "0fb3c2c4-e7e4-59d6-9b57-9429ddc52203",
+                "text": "un créneau disponible"
+              },
+              {
+                "id": "8fa749bc-f1d0-555f-9fe6-26da5fdda3d8",
+                "text": "l’objet de la rencontre"
+              },
+              {
+                "id": "e2ebf4ac-a1d7-56dd-b763-143135bb0ab9",
+                "text": "prévenir le service"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "1b56d99b-9e09-578c-b451-663ad5cf3bee",
+                "text": "an available time slot"
+              },
+              {
+                "id": "2ddef234-3dfa-504f-a211-ab5bc268eea2",
+                "text": "the purpose of the meeting"
+              },
+              {
+                "id": "958dba12-31cc-5a4f-8073-6bc97644fce7",
+                "text": "to notify the department"
+              }
+            ],
+            "answer_pairs": {
+              "0fb3c2c4-e7e4-59d6-9b57-9429ddc52203": "1b56d99b-9e09-578c-b451-663ad5cf3bee",
+              "8fa749bc-f1d0-555f-9fe6-26da5fdda3d8": "2ddef234-3dfa-504f-a211-ab5bc268eea2",
+              "e2ebf4ac-a1d7-56dd-b763-143135bb0ab9": "958dba12-31cc-5a4f-8073-6bc97644fce7"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Il faut que je prenne rendez-vous.\nEnglish meaning: I need to make an appointment.",
+          "data": {
+            "text_fr": "Il faut que je prenne rendez-vous."
+          },
+          "options": [
+            "I need to cancel an appointment.",
+            "I need to attend the meeting.",
+            "I need to make an appointment."
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: I need to make an appointment.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Il faut que je prenne rendez-vous.",
+          "explanation": "Exact model: Il faut que je prenne rendez-vous.\nMeaning: I need to make an appointment.",
+          "data": {
+            "accepted_answers": [
+              "Il faut que je prenne rendez-vous."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-3-writing",
+      "skill": "writing",
+      "module_title": "Practical problem solving",
+      "title": "Organise an appointment: writing",
+      "objective": "Practise B1-targeted writing in the situation: Organise an appointment.",
+      "context": "French passage\nJe dois rencontrer un conseiller pour discuter de mon projet d’études. Il faut que je prenne rendez-vous. Je consulte les créneaux proposés et j’en choisis un qui correspond à mes disponibilités. Dans mon message, je précise l’objet de la rencontre et je demande quels documents préparer. Si je ne peux plus venir, je préviens le service au lieu de laisser un créneau inutilisé. Cette situation est fictive : dans la vie réelle, je lis les instructions du service concerné. Mon objectif linguistique est d’exprimer une nécessité et de demander une précision.\n\nEnglish explanation\nIl faut que + a clause normally takes the subjunctive: il faut que je prenne. Prendre has the subjunctive form prenne with je. Il faut + infinitive is another structure: il faut prendre rendez-vous. Do not put an infinitive directly after il faut que.\nModel: Il faut que je prenne rendez-vous.\nMeaning: I need to make an appointment.\n\nGlossary\nun créneau disponible — an available time slot\nl’objet de la rencontre — the purpose of the meeting\nprévenir le service — to notify the department\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nWrite 90–120 French words. Write to arrange a study appointment. Explain its purpose, ask what to prepare, and say what you would do if unavailable. Use invented personal details. Feedback is advisory, not CEFR certification.\n\nLesson focus: Plan, draft and reread for task completion, grammatical accuracy, suitable vocabulary and audience.",
+      "vocabulary": [
+        "un créneau disponible",
+        "l’objet de la rencontre",
+        "prévenir le service"
+      ],
+      "estimated_minutes": 15,
+      "exercises": []
+    }
+  ]
+}

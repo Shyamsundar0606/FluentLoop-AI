@@ -1,0 +1,69 @@
+{
+  "version": "0.9.1",
+  "level": "A1",
+  "status": "draft",
+  "source_license": "Original AI-assisted beginner drafts; independent language, pedagogy and phonetic review pending.",
+  "tasks": [
+    {
+      "key": "greet-introduce-close",
+      "skill": "writing",
+      "title": "Open and close a classroom exchange",
+      "objective": "Combine the module language in a short supported written exchange and a spoken repair task.",
+      "context": "Write a short two-person exchange for a first French class. Greet politely, introduce an invented name, acknowledge the introduction and close when the class finishes. Model: « Bonjour, je m’appelle Amine. — Bonjour Amine, moi, c’est Léa. — Au revoir et bonne journée ! — Au revoir ! » Change the names, then practise both roles with the Tutor. Do not use real contact details.\n\nReview criteria: Check who speaks, a suitable greeting/closing and familiar versus polite address. Read the exchange aloud; transcription is not a pronunciation score.\n\nNo objective correctness, independent human approval or CEFR score is claimed.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Beginner writing and speaking bridges",
+      "estimated_minutes": 20,
+      "grammar": [],
+      "prerequisites": []
+    },
+    {
+      "key": "first-sentences-writing",
+      "skill": "writing",
+      "title": "Build clear first sentences",
+      "objective": "Combine the module language in a short supported written exchange and a spoken repair task.",
+      "context": "Write four short French sentences about an imaginary student: identify them, locate them, say one thing they are not and ask a question. Model: « Je suis étudiante. Je suis à Lyon. Je ne suis pas professeure. Et toi, tu es étudiant ? » Masculine and feminine forms can vary with the invented person; do not treat the model as a unique answer. Ask the Tutor to answer the question.\n\nReview criteria: Check the subject and être form, ne… pas around the verb, an intelligible question and accents. Retrieve two sentences on a later day.\n\nNo objective correctness, independent human approval or CEFR score is claimed.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Beginner writing and speaking bridges",
+      "estimated_minutes": 20,
+      "grammar": [],
+      "prerequisites": [
+        "greet-introduce-close"
+      ]
+    },
+    {
+      "key": "people-and-possessions-writing",
+      "skill": "writing",
+      "title": "Describe people and their possessions",
+      "objective": "Combine the module language in a short supported written exchange and a spoken repair task.",
+      "context": "Write 35–50 French words describing two invented people and one possession each. Use avoir and familiar colour adjectives. Model: « Mon frère a un sac bleu. Ma sœur a une veste rouge. Le sac est petit. La veste est grande. Le sac n’est pas rouge. » This is a supported example; other coherent details are acceptable. Describe one item aloud and ask the Tutor which person owns it.\n\nReview criteria: Check mon/ma with the possessed noun, avoir forms, adjective agreement and a clear owner for each object. Review by describing a different possession tomorrow.\n\nNo objective correctness, independent human approval or CEFR score is claimed.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Beginner writing and speaking bridges",
+      "estimated_minutes": 20,
+      "grammar": [],
+      "prerequisites": [
+        "first-sentences-writing"
+      ]
+    },
+    {
+      "key": "routine-writing-and-repair",
+      "skill": "writing",
+      "title": "Describe a routine and clarify a time",
+      "objective": "Combine the module language in a short supported written exchange and a spoken repair task.",
+      "context": "Write 40–60 French words about an invented weekday. Include three activities and two times. Model: « Je me lève à sept heures. Je prends le bus à huit heures. Je travaille le matin et je déjeune à midi. Le soir, je lis un peu, puis je prépare mon sac pour le lendemain. » Use familiar model chunks; do not assume all these verbs follow one rule. Ask the Tutor to mishear one time, then correct it politely.\n\nReview criteria: Check present forms, chronological order, the two times and the repair phrase. Repeat without the original text on a later day; AI suggestions remain advisory.\n\nNo objective correctness, independent human approval or CEFR score is claimed.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Beginner writing and speaking bridges",
+      "estimated_minutes": 20,
+      "grammar": [],
+      "prerequisites": [
+        "people-and-possessions-writing"
+      ]
+    }
+  ],
+  "title": "A1 future writing and speaking bridges",
+  "glossary": [],
+  "learning_stage": null
+}

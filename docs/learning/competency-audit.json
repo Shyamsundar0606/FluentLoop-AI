@@ -1,0 +1,1473 @@
+{
+  "version": "2.0.0",
+  "scope": "Project competency blueprint and source inventory, not an exhaustive official CEFR descriptor inventory",
+  "references": [
+    "https://www.coe.int/en/web/common-european-framework-reference-languages/cefr-companion-volume-and-its-language-versions",
+    "https://www.coe.int/en/web/common-european-framework-reference-languages/tests-and-examinations"
+  ],
+  "status_method": "Main release identities and digests from verified import registry; source counts do not imply competency approval",
+  "source_sha256": {
+    "backend\\content\\personal\\a1-personal-0.2.1.json": "8dd833c56d13ec78fc2bfdddaf1a3edc613ca0a0e782f4b9c52d239d0cb6be8e",
+    "backend\\content\\personal\\a2-personal-0.2.1.json": "3cd0707308752c35babb8cfd31947b84f42d6fccd9239657a2d77417c655d3b8",
+    "backend\\content\\personal\\b1-personal-0.2.1.json": "a9d0cabdd20607fc1e3f0fdd1d9e9c750b8715ad9e88d88df8bef897aebc6953",
+    "backend\\content\\personal\\b2-personal-0.2.1.json": "53cddd6fef9f26994cee954fc9057a725c0710814945f977c63c52b2540e6d45",
+    "backend\\content\\personal\\c1-personal-0.2.1.json": "a2b8f85d85cf3608fe695e37a84fcb3941efce5d8a3d682959b6e4815716cac0",
+    "backend\\content\\personal\\c2-personal-0.2.1.json": "d1281e7564162728807cb2838edb2cb4eb9df3396de4a3cd2b50beea56f8097b",
+    "backend\\content\\foundations\\a0-foundations-0.3.0.json": "3bee36f662654914e8393579e20548e655194a1b9defae35ad996127ecd51a9c",
+    "backend\\content\\foundations\\a1-foundations-0.3.2.json": "069e42cfc0310d2ca1403c9ccf33da88661d7de5632bbdb2c9b4153bc35801dc",
+    "backend\\content\\scenarios\\a0-scenarios-0.4.7.json": "5b546c2f11750e97f198338a934920e0e4dff0087b4f3c28116ca12221263ed8",
+    "backend\\content\\scenarios\\a1-scenarios-0.4.1.json": "f72362adeee1f6f3e76e1fae5782d76b408f5b47156dbcebe568f6eedbed0806",
+    "backend\\content\\scenarios\\a2-scenarios-0.4.2.json": "cf32434b7030a1d8aae13dd439cb6463645e43fa2014097974eb9ee3f01fdfac",
+    "backend\\content\\scenarios\\b1-scenarios-0.4.3.json": "28f0cfd55826aeebbf4e52d3c4ff3259620244a5696a5dc6f199a5844728cfe6",
+    "backend\\content\\scenarios\\b2-scenarios-0.4.4.json": "317d86faa6b345c34398629b624619920f42db1587c8219aa2e442e0fff58656",
+    "backend\\content\\scenarios\\c1-scenarios-0.4.5.json": "a70720d0022fcccfc355e9f8d84a85ed95df851f5d844408c187dbaec71f2fad",
+    "backend\\content\\scenarios\\c2-scenarios-0.4.6.json": "e85923a7a3ff3d94b5da596b774c45fb23a26a00323c3c5b294e93d0529bfc84",
+    "backend\\content\\depth\\a0-depth-0.6.0.json": "df3c21da390bccd1dc5c1e7b1da0260a507b3ab1d1324c29dded3a84ba0bc6ef",
+    "backend\\content\\depth\\a1-depth-0.6.1.json": "156b36fd2a138efafe95854f0939ef00bb1cc2d0f6e51db3286f08a77e5a333d",
+    "backend\\content\\depth\\b2-depth-0.6.2.json": "0c97c9fc89a49070b7690f91bd22ec2fe27e10ddef04998301f9cdbde6da528b",
+    "backend\\content\\depth\\c1-depth-0.6.3.json": "3ba534e898ff22ade6d0f234211995d2f417142eed5c8253d9aeb647f09e2862",
+    "backend\\content\\depth\\c2-depth-0.6.4.json": "0ce68ef0e356f42f4dfbd4125b8809aec25b03fb5ff643bd79eaf27f03fb7717",
+    "backend\\content\\completion\\a2-05-completion-0.7.5.json": "89a32067b2be17a157cfb14553d34d308db4b375e045dbb43a7823f1e0f7e6f4",
+    "backend\\content\\completion\\a2-06-completion-0.7.6.json": "202c574df02c46322a2b56010ec570322dd4b97962dfbea63f57ea342c2c2983",
+    "backend\\content\\completion\\a2-07-completion-0.7.7.json": "c4028d3455a08379835ca9c501df82d444db07553c4e162a91800c1e28653e08",
+    "backend\\content\\completion\\a2-08-completion-0.7.8.json": "780bd381614bdee987f5d06cf669b480748905fa9fa57742c11a7b6b8199d186",
+    "backend\\content\\completion\\b1-05-completion-0.7.5.json": "cb3035894f9a5a8521b7d5dd09902550544c85ab59f0569c29a9003abe515547",
+    "backend\\content\\completion\\b1-06-completion-0.7.6.json": "56d127f039101aaff9e4c91fc37b061285352c1157e6588b4cd3dc0e41f8d2d7",
+    "backend\\content\\completion\\b1-07-completion-0.7.7.json": "bdc5044ab7b5ca3e92349641182f96abcbf7a3fad0c9feb3e86324c57e96e55e",
+    "backend\\content\\completion\\b1-08-completion-0.7.8.json": "86b05329c18a4b9d1b29734f50da2498b28b12aa0b103a2c7b3f59de44882318",
+    "backend\\content\\completion\\b2-06-completion-0.7.6.json": "76c493cbe26c69aae9600bba670ffc65572aad0492fa467720f4f64a5b2edb2e",
+    "backend\\content\\completion\\b2-07-completion-0.7.7.json": "229f92b72b7ce46ee789418af2aa6c9b767082a01bdd88273494a3ae4356ab3f",
+    "backend\\content\\completion\\b2-08-completion-0.7.8.json": "d2bad0ded56cc3462768905e67e04f04c440ae9a734c854054c9821727ba5263",
+    "backend\\content\\completion\\c1-05-completion-0.7.5.json": "522749be87f678cbe6d4f42259e680891f49a525d7e88e0a16d72638e0b281ba",
+    "backend\\content\\completion\\c1-07-completion-0.7.7.json": "e0ab71db25b76b4c4b7a2ec154a9f6adcdf314724363e890e196bbfba3926073",
+    "backend\\content\\completion\\c1-08-completion-0.7.8.json": "a67998b7bc072d55d21c71591ec397aa464c2d7e512716463f91ee86a056a7ac",
+    "backend\\content\\completion\\c2-05-completion-0.7.5.json": "8f9da428ea24d49aa54207f2ffb4759739df9eca099e6ed660b022b9d728bfba",
+    "backend\\content\\completion\\c2-06-completion-0.7.6.json": "b4953def141b6858156191032e2e35a2c95ae2e3a1df1918f2fdfa15331599d1",
+    "backend\\content\\completion\\c2-08-completion-0.7.8.json": "9ba419554f359cf5e55308b12b7d1d0765fc8b2331777b57ea93a4d9ae10d8c4",
+    "backend\\content\\writing-bridges\\a0-writing-0.9.0.json": "70a6ac35a10d1341c83a2791d39d40e756030de9bda5c42fc0d76a3751027931",
+    "backend\\content\\writing-bridges\\a1-writing-0.9.1.json": "a5767582046a267c3f656e3ebf9b84f56c41fc199e4781717020c1e706cc133b"
+  },
+  "stages": [
+    {
+      "stage": "A0",
+      "blueprint": {
+        "grammar": [
+          "Recognise je/tu in memorised chunks",
+          "Distinguish a question from a statement",
+          "Use un/une as part of a familiar noun phrase"
+        ],
+        "domains": [
+          "alphabet and spelling",
+          "sound discrimination",
+          "greetings and politeness",
+          "objects and numbers",
+          "classroom repair",
+          "typing and recording"
+        ],
+        "reading": "Identify a familiar word or instruction with explicit support.",
+        "listening": "Recognise a very short model with repeats and visual/text support.",
+        "writing": "Copy accurately, then combine two modelled lines.",
+        "speaking": "Say an invented name and a memorised polite request; ask for repetition."
+      },
+      "modules": [
+        {
+          "id": "a0-01",
+          "title": "Meet French sounds and letters",
+          "objective": "Recognise the alphabet, distinguish a few French sounds and spell an invented first name.",
+          "prerequisites": [],
+          "main_lessons": 2,
+          "staged_lessons": 1,
+          "structured_grammar_rules": 0,
+          "linked_vocabulary": 6,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 2,
+          "longest_script_words": 4,
+          "longest_context_words": 186,
+          "gaps": [
+            "No structured grammar rule linked; prose notes may still exist",
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "a0-02",
+          "title": "First words and polite exchanges",
+          "objective": "Greet someone, say an invented name and use a memorised polite request.",
+          "prerequisites": [
+            "a0-01"
+          ],
+          "main_lessons": 4,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 0,
+          "linked_vocabulary": 9,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 3,
+          "longest_script_words": 7,
+          "longest_context_words": 161,
+          "gaps": [
+            "No structured grammar rule linked; prose notes may still exist",
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "a0-03",
+          "title": "Read, type and practise safely",
+          "objective": "Read simple signs, type French accents and record/review one short phrase.",
+          "prerequisites": [
+            "a0-02"
+          ],
+          "main_lessons": 6,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 0,
+          "linked_vocabulary": 6,
+          "dedicated_writing_tasks": 2,
+          "scripted_listening_items": 4,
+          "longest_script_words": 9,
+          "longest_context_words": 187,
+          "gaps": [
+            "No structured grammar rule linked; prose notes may still exist",
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        }
+      ],
+      "full_coverage": false,
+      "cefr_calibration": "not applicable"
+    },
+    {
+      "stage": "A1",
+      "blueprint": {
+        "grammar": [
+          "Present être/avoir and regular verbs",
+          "Common irregular present verbs",
+          "Articles, gender and adjective agreement",
+          "Questions and negation",
+          "Possessives and demonstratives",
+          "Quantity and partitives",
+          "Place/time prepositions and contractions",
+          "Imperative and near future"
+        ],
+        "domains": [
+          "identity and family",
+          "routine and time",
+          "food and money",
+          "transport and directions",
+          "study and basic work",
+          "housing",
+          "routine health appointment",
+          "simple forms and messages"
+        ],
+        "reading": "Extract who, where, when and price from a short practical text.",
+        "listening": "Follow a slow clear exchange and check one detail.",
+        "writing": "Write a short intelligible message with day, time and purpose.",
+        "speaking": "Complete a predictable exchange with support and clarification."
+      },
+      "modules": [
+        {
+          "id": "a1-01",
+          "title": "Sounds, greetings and politeness",
+          "objective": "Recognise common spelling patterns and open/close a short exchange.",
+          "prerequisites": [
+            "a0-03"
+          ],
+          "main_lessons": 2,
+          "staged_lessons": 1,
+          "structured_grammar_rules": 2,
+          "linked_vocabulary": 16,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 0,
+          "longest_script_words": 0,
+          "longest_context_words": 99,
+          "gaps": [
+            "No scripted listening exercise",
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "a1-02",
+          "title": "Identity, numbers, dates and time",
+          "objective": "Give an invented name/age and ask simple personal questions.",
+          "prerequisites": [
+            "a1-01"
+          ],
+          "main_lessons": 5,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 4,
+          "linked_vocabulary": 22,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 2,
+          "longest_script_words": 6,
+          "longest_context_words": 154,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "a1-03",
+          "title": "Build a first sentence",
+          "objective": "Choose an article and subject pronoun and use a present form of être.",
+          "prerequisites": [
+            "a1-02"
+          ],
+          "main_lessons": 4,
+          "staged_lessons": 1,
+          "structured_grammar_rules": 4,
+          "linked_vocabulary": 23,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 2,
+          "longest_script_words": 5,
+          "longest_context_words": 166,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "a1-04",
+          "title": "People, possession and description",
+          "objective": "Describe family and possessions with avoir and basic agreement.",
+          "prerequisites": [
+            "a1-03"
+          ],
+          "main_lessons": 2,
+          "staged_lessons": 1,
+          "structured_grammar_rules": 3,
+          "linked_vocabulary": 18,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 0,
+          "longest_script_words": 0,
+          "longest_context_words": 105,
+          "gaps": [
+            "No scripted listening exercise",
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "a1-05",
+          "title": "Routine and present verbs",
+          "objective": "Describe an ordinary day and ask about another person's routine.",
+          "prerequisites": [
+            "a1-04"
+          ],
+          "main_lessons": 2,
+          "staged_lessons": 1,
+          "structured_grammar_rules": 2,
+          "linked_vocabulary": 11,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 1,
+          "longest_script_words": 6,
+          "longest_context_words": 161,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "a1-06",
+          "title": "Food, prices and shopping",
+          "objective": "Find familiar items, request an order and understand a simple price.",
+          "prerequisites": [
+            "a1-05"
+          ],
+          "main_lessons": 8,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 2,
+          "linked_vocabulary": 26,
+          "dedicated_writing_tasks": 2,
+          "scripted_listening_items": 5,
+          "longest_script_words": 13,
+          "longest_context_words": 194,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "a1-07",
+          "title": "Transport and directions",
+          "objective": "Ask where a place is and follow a short set of directions.",
+          "prerequisites": [
+            "a1-06"
+          ],
+          "main_lessons": 6,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 3,
+          "linked_vocabulary": 18,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 5,
+          "longest_script_words": 9,
+          "longest_context_words": 189,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "a1-08",
+          "title": "Appointments and study",
+          "objective": "Request a time, state availability and check the details.",
+          "prerequisites": [
+            "a1-07"
+          ],
+          "main_lessons": 9,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 2,
+          "linked_vocabulary": 18,
+          "dedicated_writing_tasks": 2,
+          "scripted_listening_items": 7,
+          "longest_script_words": 10,
+          "longest_context_words": 200,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "a1-09",
+          "title": "A1 cumulative review",
+          "objective": "Combine greetings, simple questions and short written/spoken messages in a new situation.",
+          "prerequisites": [
+            "a1-08"
+          ],
+          "main_lessons": 1,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 0,
+          "linked_vocabulary": 0,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 0,
+          "longest_script_words": 0,
+          "longest_context_words": 68,
+          "gaps": [
+            "No structured grammar rule linked; prose notes may still exist",
+            "No scripted listening exercise",
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        }
+      ],
+      "full_coverage": false,
+      "cefr_calibration": "pending"
+    },
+    {
+      "stage": "A2",
+      "blueprint": {
+        "grammar": [
+          "Passé composé with avoir/être",
+          "Imparfait for familiar background",
+          "Near/simple future",
+          "Comparatives and superlatives",
+          "Object pronouns, y and en",
+          "Relative qui/que/où",
+          "Modal requests and basic conditions",
+          "Agreement and connected negation"
+        ],
+        "domains": [
+          "journeys and disruptions",
+          "housing and services",
+          "health appointments",
+          "social invitations",
+          "shopping returns",
+          "university arrangements",
+          "work schedules",
+          "everyday online messages"
+        ],
+        "reading": "Understand linked routine messages and a short narrative.",
+        "listening": "Track key details, changes of plan and a simple explanation.",
+        "writing": "Explain an event and propose a practical next step.",
+        "speaking": "Exchange routine information and repair a misunderstanding."
+      },
+      "modules": [
+        {
+          "id": "a2-01",
+          "title": "Plans and housing",
+          "objective": "Arrange a viewing and compare practical constraints using near-future plans.",
+          "prerequisites": [
+            "a1-09"
+          ],
+          "main_lessons": 4,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 12,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 3,
+          "longest_script_words": 5,
+          "longest_context_words": 212,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "a2-02",
+          "title": "Past events and journeys",
+          "objective": "Describe a completed journey and explain a delay in sequence.",
+          "prerequisites": [
+            "a2-01"
+          ],
+          "main_lessons": 4,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 12,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 3,
+          "longest_script_words": 5,
+          "longest_context_words": 198,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "a2-03",
+          "title": "Travel services and relative clauses",
+          "objective": "Specify travel preferences and link information with qui/que.",
+          "prerequisites": [
+            "a2-02"
+          ],
+          "main_lessons": 4,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 12,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 3,
+          "longest_script_words": 7,
+          "longest_context_words": 219,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "a2-04",
+          "title": "Describe, compare and quantify",
+          "objective": "Compare people/places and express quantities with suitable pronouns.",
+          "prerequisites": [
+            "a2-03"
+          ],
+          "main_lessons": 2,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 0,
+          "linked_vocabulary": 3,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 1,
+          "longest_script_words": 18,
+          "longest_context_words": 140,
+          "gaps": [
+            "No structured grammar rule linked; prose notes may still exist",
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "a2-05",
+          "title": "Health and everyday appointments",
+          "objective": "Describe a simple non-emergency problem and ask for an appointment or clarification.",
+          "prerequisites": [
+            "a2-04"
+          ],
+          "main_lessons": 3,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 3,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 1,
+          "longest_script_words": 44,
+          "longest_context_words": 101,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "a2-06",
+          "title": "Messages and social arrangements",
+          "objective": "Understand and write invitations, apologies and short explanations.",
+          "prerequisites": [
+            "a2-05"
+          ],
+          "main_lessons": 3,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 3,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 1,
+          "longest_script_words": 43,
+          "longest_context_words": 99,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "a2-07",
+          "title": "Routine listening and interaction",
+          "objective": "Extract key details from a short exchange and repair a misunderstanding.",
+          "prerequisites": [
+            "a2-06"
+          ],
+          "main_lessons": 3,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 3,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 1,
+          "longest_script_words": 36,
+          "longest_context_words": 101,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "a2-08",
+          "title": "A2 cumulative review",
+          "objective": "Handle a new everyday problem across reading, listening, writing and speaking.",
+          "prerequisites": [
+            "a2-07"
+          ],
+          "main_lessons": 3,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 3,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 1,
+          "longest_script_words": 43,
+          "longest_context_words": 110,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        }
+      ],
+      "full_coverage": false,
+      "cefr_calibration": "pending"
+    },
+    {
+      "stage": "B1",
+      "blueprint": {
+        "grammar": [
+          "Past narrative sequencing",
+          "Plus-que-parfait in a clear sequence",
+          "Future and conditional",
+          "Si clauses in familiar hypotheses",
+          "Subjunctive for common needs",
+          "Pronoun reference across sentences",
+          "Reported statements and questions",
+          "Cause, consequence and concession"
+        ],
+        "domains": [
+          "work and study choices",
+          "housing problems",
+          "travel complaints",
+          "news in familiar domains",
+          "community activities",
+          "health-service explanations",
+          "personal and formal correspondence"
+        ],
+        "reading": "Follow a connected narrative and distinguish a claim from an assumption.",
+        "listening": "Identify main points and relevant detail in clear extended speech.",
+        "writing": "Write a coherent account or reasoned practical request.",
+        "speaking": "Explain an experience, justify a choice and answer follow-up questions."
+      },
+      "modules": [
+        {
+          "id": "b1-01",
+          "title": "Narrate experience",
+          "objective": "Distinguish past habits, background and bounded events in a connected story.",
+          "prerequisites": [
+            "a2-08"
+          ],
+          "main_lessons": 4,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 12,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 3,
+          "longest_script_words": 7,
+          "longest_context_words": 243,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "b1-02",
+          "title": "Work, reasons and opinions",
+          "objective": "Explain interest in a role and ask polite follow-up questions.",
+          "prerequisites": [
+            "b1-01"
+          ],
+          "main_lessons": 4,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 12,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 3,
+          "longest_script_words": 5,
+          "longest_context_words": 235,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "b1-03",
+          "title": "Necessity and practical problems",
+          "objective": "Explain a need, request clarification and propose a workable next step.",
+          "prerequisites": [
+            "b1-02"
+          ],
+          "main_lessons": 4,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 12,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 3,
+          "longest_script_words": 6,
+          "longest_context_words": 245,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "b1-04",
+          "title": "Hypotheses and future consequences",
+          "objective": "Describe realistic and hypothetical alternatives with reasons.",
+          "prerequisites": [
+            "b1-03"
+          ],
+          "main_lessons": 2,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 0,
+          "linked_vocabulary": 3,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 1,
+          "longest_script_words": 20,
+          "longest_context_words": 156,
+          "gaps": [
+            "No structured grammar rule linked; prose notes may still exist",
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "b1-05",
+          "title": "Connected speech and pronouns",
+          "objective": "Maintain a clear reference chain and link contrasting ideas.",
+          "prerequisites": [
+            "b1-04"
+          ],
+          "main_lessons": 3,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 3,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 1,
+          "longest_script_words": 42,
+          "longest_context_words": 98,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "b1-06",
+          "title": "News and longer conversations",
+          "objective": "Identify main points, details and speaker positions in familiar material.",
+          "prerequisites": [
+            "b1-05"
+          ],
+          "main_lessons": 3,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 3,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 1,
+          "longest_script_words": 47,
+          "longest_context_words": 96,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "b1-07",
+          "title": "Personal and formal writing",
+          "objective": "Write a coherent account and adapt a request to its recipient.",
+          "prerequisites": [
+            "b1-06"
+          ],
+          "main_lessons": 3,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 3,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 1,
+          "longest_script_words": 45,
+          "longest_context_words": 101,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "b1-08",
+          "title": "B1 cumulative review",
+          "objective": "Explain a new problem, justify a choice and respond to a follow-up.",
+          "prerequisites": [
+            "b1-07"
+          ],
+          "main_lessons": 3,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 3,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 1,
+          "longest_script_words": 49,
+          "longest_context_words": 103,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        }
+      ],
+      "full_coverage": false,
+      "cefr_calibration": "pending"
+    },
+    {
+      "stage": "B2",
+      "blueprint": {
+        "grammar": [
+          "Concession and restriction",
+          "Subjunctive/indicative stance distinctions",
+          "Conditional reporting and hypothesis",
+          "Complex relative clauses",
+          "Passive and impersonal framing",
+          "Cohesive reference and nominalisation",
+          "Modal force and register"
+        ],
+        "domains": [
+          "public policy",
+          "university and professional debates",
+          "formal complaints",
+          "media evidence",
+          "workplace negotiation",
+          "culture and social issues"
+        ],
+        "reading": "Compare arguments, evidence limitations and implicit assumptions in complex texts.",
+        "listening": "Follow extended argument and changing positions across speakers.",
+        "writing": "Develop a structured position with evidence and a substantive counterargument.",
+        "speaking": "Sustain and qualify an argument, negotiate and respond spontaneously."
+      },
+      "modules": [
+        {
+          "id": "b2-01",
+          "title": "Debate and concession",
+          "objective": "Defend an option, acknowledge constraints and formulate a qualified compromise.",
+          "prerequisites": [
+            "b1-08"
+          ],
+          "main_lessons": 4,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 12,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 3,
+          "longest_script_words": 10,
+          "longest_context_words": 256,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "b2-02",
+          "title": "Formal requests and tone",
+          "objective": "Compare formulations and revise an unnecessarily insistent message.",
+          "prerequisites": [
+            "b2-01"
+          ],
+          "main_lessons": 4,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 12,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 3,
+          "longest_script_words": 7,
+          "longest_context_words": 255,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "b2-03",
+          "title": "Documents and precise reference",
+          "objective": "Clarify a document request and adapt the same information for two audiences.",
+          "prerequisites": [
+            "b2-02"
+          ],
+          "main_lessons": 4,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 12,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 3,
+          "longest_script_words": 7,
+          "longest_context_words": 254,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "b2-04",
+          "title": "Complex clauses and hypotheses",
+          "objective": "Control relative clauses, concession and hypothetical consequences in context.",
+          "prerequisites": [
+            "b2-03"
+          ],
+          "main_lessons": 2,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 0,
+          "linked_vocabulary": 3,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 1,
+          "longest_script_words": 26,
+          "longest_context_words": 184,
+          "gaps": [
+            "No structured grammar rule linked; prose notes may still exist",
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "b2-05",
+          "title": "Extended reading and listening",
+          "objective": "Infer a stance, distinguish evidence from assertion and compare arguments.",
+          "prerequisites": [
+            "b2-04"
+          ],
+          "main_lessons": 3,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 0,
+          "linked_vocabulary": 0,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 2,
+          "longest_script_words": 22,
+          "longest_context_words": 233,
+          "gaps": [
+            "No structured grammar rule linked; prose notes may still exist",
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "b2-06",
+          "title": "Structured argument in writing",
+          "objective": "Develop a supported argument, address an objection and revise cohesion.",
+          "prerequisites": [
+            "b2-05"
+          ],
+          "main_lessons": 3,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 3,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 1,
+          "longest_script_words": 68,
+          "longest_context_words": 127,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "b2-07",
+          "title": "Negotiation and sustained speaking",
+          "objective": "Negotiate alternatives and maintain an extended exchange with clarification.",
+          "prerequisites": [
+            "b2-06"
+          ],
+          "main_lessons": 3,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 3,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 1,
+          "longest_script_words": 56,
+          "longest_context_words": 124,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "b2-08",
+          "title": "B2 cumulative review",
+          "objective": "Respond to an unfamiliar dossier through supported written and spoken argument.",
+          "prerequisites": [
+            "b2-07"
+          ],
+          "main_lessons": 3,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 3,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 1,
+          "longest_script_words": 59,
+          "longest_context_words": 128,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        }
+      ],
+      "full_coverage": false,
+      "cefr_calibration": "pending"
+    },
+    {
+      "stage": "C1",
+      "blueprint": {
+        "grammar": [
+          "Temporal viewpoint in complex reporting",
+          "Modal qualification and evidentiality",
+          "Subtle concession and causal scope",
+          "Dense noun phrases and information structure",
+          "Register-sensitive reformulation",
+          "Complex cohesion and stylistic variation"
+        ],
+        "domains": [
+          "methodological reports",
+          "academic synthesis",
+          "professional decisions",
+          "cultural criticism",
+          "institutional negotiation",
+          "multi-source mediation"
+        ],
+        "reading": "Interpret demanding prose, implicit stance and methodological qualification.",
+        "listening": "Track implicit attitudes and qualifications in extended multi-speaker input.",
+        "writing": "Synthesise sources coherently while preserving uncertainty and attribution.",
+        "speaking": "Reformulate fluently and defend a precise qualified recommendation."
+      },
+      "modules": [
+        {
+          "id": "c1-01",
+          "title": "Evaluate evidence and alternatives",
+          "objective": "Separate evidence, retrospective hypothesis and causal inference.",
+          "prerequisites": [
+            "b2-08"
+          ],
+          "main_lessons": 4,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 12,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 3,
+          "longest_script_words": 11,
+          "longest_context_words": 267,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "c1-02",
+          "title": "Report professional discussion",
+          "objective": "Preserve temporal viewpoint and distinguish commitments from unresolved points.",
+          "prerequisites": [
+            "c1-01"
+          ],
+          "main_lessons": 4,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 12,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 3,
+          "longest_script_words": 9,
+          "longest_context_words": 257,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "c1-03",
+          "title": "Synthesis and qualification",
+          "objective": "Integrate viewpoints, explain methodological differences and qualify a conclusion.",
+          "prerequisites": [
+            "c1-02"
+          ],
+          "main_lessons": 4,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 12,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 3,
+          "longest_script_words": 7,
+          "longest_context_words": 267,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "c1-04",
+          "title": "Complex prose and register",
+          "objective": "Interpret implicit relations and explain stylistic effects in varied texts.",
+          "prerequisites": [
+            "c1-03"
+          ],
+          "main_lessons": 2,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 0,
+          "linked_vocabulary": 3,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 1,
+          "longest_script_words": 25,
+          "longest_context_words": 200,
+          "gaps": [
+            "No structured grammar rule linked; prose notes may still exist",
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "c1-05",
+          "title": "Extended multi-speaker listening",
+          "objective": "Track stance changes, qualifications and implicit assumptions across speakers.",
+          "prerequisites": [
+            "c1-04"
+          ],
+          "main_lessons": 3,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 3,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 1,
+          "longest_script_words": 67,
+          "longest_context_words": 123,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "c1-06",
+          "title": "Multi-source written argument",
+          "objective": "Produce a well-structured synthesis that handles counterarguments accurately.",
+          "prerequisites": [
+            "c1-05"
+          ],
+          "main_lessons": 3,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 0,
+          "linked_vocabulary": 0,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 2,
+          "longest_script_words": 20,
+          "longest_context_words": 242,
+          "gaps": [
+            "No structured grammar rule linked; prose notes may still exist",
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "c1-07",
+          "title": "Fluent speaking and prosody",
+          "objective": "Reformulate flexibly and use emphasis/rhythm to support a nuanced argument.",
+          "prerequisites": [
+            "c1-06"
+          ],
+          "main_lessons": 3,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 3,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 1,
+          "longest_script_words": 67,
+          "longest_context_words": 131,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "c1-08",
+          "title": "C1 cumulative review",
+          "objective": "Integrate complex sources and defend a precise, appropriately qualified position.",
+          "prerequisites": [
+            "c1-07"
+          ],
+          "main_lessons": 3,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 3,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 1,
+          "longest_script_words": 58,
+          "longest_context_words": 131,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        }
+      ],
+      "full_coverage": false,
+      "cefr_calibration": "pending"
+    },
+    {
+      "stage": "C2",
+      "blueprint": {
+        "grammar": [
+          "Fine modal commitment and scope",
+          "Presupposition and implicature",
+          "Marked syntax and rhetorical emphasis",
+          "Irony and figurative interpretation",
+          "Genre-sensitive rhythm and register",
+          "Ambiguity, allusion and precise reformulation"
+        ],
+        "domains": [
+          "dense literary and non-literary texts",
+          "rhetorical criticism",
+          "public/professional mediation",
+          "spontaneous challenging debate",
+          "contrasting genres and audiences"
+        ],
+        "reading": "Interpret subtle stylistic distinctions, allusion and competing plausible readings.",
+        "listening": "Explain nuanced attitudes, humour and register in demanding varied speech.",
+        "writing": "Produce precise extended synthesis adapted to audience, including stylistic justification.",
+        "speaking": "Handle ambiguity and challenge flexibly without losing precision or nuance."
+      },
+      "modules": [
+        {
+          "id": "c2-01",
+          "title": "Rhetoric and implied conditions",
+          "objective": "Analyse what a promise presupposes without confusing rhetoric with evidence.",
+          "prerequisites": [
+            "c1-08"
+          ],
+          "main_lessons": 4,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 12,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 3,
+          "longest_script_words": 8,
+          "longest_context_words": 273,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "c2-02",
+          "title": "Concession and logical scope",
+          "objective": "Concede the force of an objection while delimiting what it establishes.",
+          "prerequisites": [
+            "c2-01"
+          ],
+          "main_lessons": 4,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 12,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 3,
+          "longest_script_words": 11,
+          "longest_context_words": 282,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "c2-03",
+          "title": "Pragmatics, irony and audience",
+          "objective": "Adapt commitment, presupposition and irony to two different audiences.",
+          "prerequisites": [
+            "c2-02"
+          ],
+          "main_lessons": 4,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 12,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 3,
+          "longest_script_words": 13,
+          "longest_context_words": 281,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "c2-04",
+          "title": "Dense and varied texts",
+          "objective": "Interpret allusion, ambiguity and fine stylistic distinctions across genres.",
+          "prerequisites": [
+            "c2-03"
+          ],
+          "main_lessons": 2,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 0,
+          "linked_vocabulary": 3,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 1,
+          "longest_script_words": 34,
+          "longest_context_words": 247,
+          "gaps": [
+            "No structured grammar rule linked; prose notes may still exist",
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "c2-05",
+          "title": "Nuanced spoken comprehension",
+          "objective": "Explain implicit attitudes, humour and shifts of register in extended speech.",
+          "prerequisites": [
+            "c2-04"
+          ],
+          "main_lessons": 3,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 3,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 1,
+          "longest_script_words": 61,
+          "longest_context_words": 138,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "c2-06",
+          "title": "Sophisticated spontaneous interaction",
+          "objective": "Handle challenge and ambiguity while maintaining precision and flexibility.",
+          "prerequisites": [
+            "c2-05"
+          ],
+          "main_lessons": 3,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 3,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 1,
+          "longest_script_words": 57,
+          "longest_context_words": 136,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "c2-07",
+          "title": "Critical synthesis and mediation",
+          "objective": "Reconstruct a complex argument and reformulate it without losing nuance.",
+          "prerequisites": [
+            "c2-06"
+          ],
+          "main_lessons": 3,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 0,
+          "linked_vocabulary": 0,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 2,
+          "longest_script_words": 20,
+          "longest_context_words": 243,
+          "gaps": [
+            "No structured grammar rule linked; prose notes may still exist",
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        },
+        {
+          "id": "c2-08",
+          "title": "C2 cumulative review",
+          "objective": "Integrate demanding sources and produce precise extended speech and writing for a defined audience.",
+          "prerequisites": [
+            "c2-07"
+          ],
+          "main_lessons": 3,
+          "staged_lessons": 0,
+          "structured_grammar_rules": 1,
+          "linked_vocabulary": 3,
+          "dedicated_writing_tasks": 1,
+          "scripted_listening_items": 1,
+          "longest_script_words": 63,
+          "longest_context_words": 135,
+          "gaps": [
+            "Independent productive-skill rating and unseen transfer evidence pending",
+            "Varied-speaker and spontaneous listening not established by synthetic scripts",
+            "Diagnostic/module/level-end empirical calibration pending"
+          ],
+          "competency_demonstrated": false,
+          "qualified_human_review": "pending"
+        }
+      ],
+      "full_coverage": false,
+      "cefr_calibration": "pending"
+    }
+  ],
+  "certification": false
+}

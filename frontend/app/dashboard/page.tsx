@@ -102,6 +102,9 @@ function DashboardContent() {
         description="Pick up where you left off, or try something new today."
       />
       <DailyPlanPanel />
+      <nav aria-label="Personal learning tools" className="flex flex-wrap gap-4 text-violet-700 underline">
+        <Link href="/learning-path">A0–C2 learning path</Link><Link href="/checkpoints">Module and level check plans</Link><Link href="/assessments">Assessments and writing history</Link><Link href="/progress">Progress</Link><Link href="/ai-tutor">AI Tutor</Link><Link href="/voice-practice">Speaking and voice history</Link>
+      </nav>
       <LearningMotivation />
       <div className="home-grid">
         <Card className="welcome-panel">

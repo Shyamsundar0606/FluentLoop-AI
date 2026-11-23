@@ -1,0 +1,166 @@
+{
+  "version": "0.4.0",
+  "level": "A1",
+  "status": "draft",
+  "source_license": "Original AI-assisted scenario drafts. Independent human language, pedagogy, answer-key and CEFR calibration reviews pending.",
+  "tasks": [
+    {
+      "key": "interpret-scenario",
+      "skill": "reading",
+      "title": "At the bakery: point, ask, thank",
+      "objective": "Recognise a greeting, one object and a polite request, and reproduce the exchange with help.",
+      "context": "— Bonjour, madame. Une baguette, s’il vous plaît.\n— Voilà.\n— Merci. Au revoir !\n— Au revoir !\n\nUnderstand: Learn une baguette as a whole group: a baguette. S’il vous plaît makes this short request polite. Voilà accompanies handing something over here. First greet, then ask, then thank. Point to the phrase while listening. No analysis of every word is needed yet.\n\nLanguage: Memorise une baguette and the request as chunks; do not generalise noun gender from this example.",
+      "vocabulary": [
+        "une baguette",
+        "s’il vous plaît",
+        "merci"
+      ],
+      "exercises": [
+        {
+          "key": "read-1",
+          "type": "multiple_choice",
+          "prompt": "What does the customer request?",
+          "instructions": "Read the French passage. Choose the claim supported by this text, not a broader assumption.",
+          "explanation": "The supported interpretation is: One baguette. Learn une baguette as a whole group: a baguette. S’il vous plaît makes this short request polite. Voilà accompanies handing something over here. First greet, then ask, then thank. Point to the phrase while listening. No analysis of every word is needed yet.",
+          "options": [
+            "One baguette",
+            "Two coffees",
+            "A train ticket"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "read-2",
+          "type": "multiple_choice",
+          "prompt": "Which line thanks the seller?",
+          "instructions": "Read the French passage. Choose the claim supported by this text, not a broader assumption.",
+          "explanation": "The supported interpretation is: Merci.. Learn une baguette as a whole group: a baguette. S’il vous plaît makes this short request polite. Voilà accompanies handing something over here. First greet, then ask, then thank. Point to the phrase while listening. No analysis of every word is needed yet.",
+          "options": [
+            "Voilà.",
+            "Merci.",
+            "Bonjour."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "listen-stance",
+          "type": "listening",
+          "prompt": "What is the customer doing?",
+          "instructions": "Listen before answering. The audio is an original scripted excerpt; synthetic playback is not an authentic multi-speaker recording.",
+          "explanation": "Bonjour. Une baguette, s’il vous plaît. Merci. — Making a polite request",
+          "options": [
+            "Giving a street address",
+            "Introducing a friend",
+            "Making a polite request"
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Bonjour. Une baguette, s’il vous plaît. Merci."
+          }
+        },
+        {
+          "key": "lexical-scope",
+          "type": "matching",
+          "prompt": "Match expressions with their contextual meanings.",
+          "instructions": "Match the meaning used in this scenario; these are not exhaustive dictionary definitions.",
+          "explanation": "une baguette — a baguette; s’il vous plaît — please; merci — thank you",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "271a1d67-c4c6-5e1d-bf5a-efeac41194b1",
+                "text": "une baguette"
+              },
+              {
+                "id": "1884b88b-baf3-5210-81d4-b87c9e387420",
+                "text": "s’il vous plaît"
+              },
+              {
+                "id": "7fdf7932-3c35-52b5-9945-78449afbf0a4",
+                "text": "merci"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "b73c16a6-dc76-5cb1-90d9-d78ee0a6447f",
+                "text": "thank you"
+              },
+              {
+                "id": "8f3baff3-4d26-5579-8366-546f6a710fa0",
+                "text": "please"
+              },
+              {
+                "id": "b6d3e632-e0a3-55aa-bd56-ef2c0591398c",
+                "text": "a baguette"
+              }
+            ],
+            "answer_pairs": {
+              "271a1d67-c4c6-5e1d-bf5a-efeac41194b1": "b6d3e632-e0a3-55aa-bd56-ef2c0591398c",
+              "1884b88b-baf3-5210-81d4-b87c9e387420": "8f3baff3-4d26-5579-8366-546f6a710fa0",
+              "7fdf7932-3c35-52b5-9945-78449afbf0a4": "b73c16a6-dc76-5cb1-90d9-d78ee0a6447f"
+            }
+          }
+        }
+      ],
+      "module_title": "At the bakery: point, ask, thank",
+      "estimated_minutes": 20,
+      "grammar": [],
+      "prerequisites": []
+    },
+    {
+      "key": "transfer-and-review",
+      "skill": "writing",
+      "title": "Transfer and review: At the bakery: point, ask, thank",
+      "objective": "Recognise a greeting, one object and a polite request, and reproduce the exchange with help.",
+      "context": "Write three short lines for an imaginary bakery visit: a greeting, a request for une baguette, and thanks. Use the displayed model if needed. Then say the three lines aloud, slowly. This is supported retrieval, not an independent-level exam.\n\nSpeaking transfer: Ask the Tutor to act as a patient bakery seller. Use only the model phrases and request a slow repeat.\n\nRevision: Hide the model and recall Bonjour, s’il vous plaît and Merci tomorrow; reopen it if needed.\n\nSelf-review: check task fulfilment, evidence, sequence, grammar and spelling. Save a revised version after feedback. AI feedback is advisory; this module check is not a calibrated diagnostic or CEFR level-end examination.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "At the bakery: point, ask, thank",
+      "estimated_minutes": 25,
+      "grammar": [],
+      "prerequisites": [
+        "interpret-scenario"
+      ]
+    }
+  ],
+  "title": "A0 scenario: At the bakery: point, ask, thank",
+  "glossary": [
+    {
+      "lemma": "une baguette",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "a baguette",
+      "definition_french": "Dans ce contexte : une baguette.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "s’il vous plaît",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "please",
+      "definition_french": "Dans ce contexte : s’il vous plaît.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "merci",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "thank you",
+      "definition_french": "Dans ce contexte : merci.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    }
+  ],
+  "learning_stage": "A0"
+}

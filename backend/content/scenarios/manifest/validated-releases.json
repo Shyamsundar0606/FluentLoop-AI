@@ -1,0 +1,110 @@
+{
+  "lessons": 14,
+  "exercises": 28,
+  "status": "validated drafts; main import requires separate authorization",
+  "releases": [
+    {
+      "file": "backend\\content\\scenarios\\a0-scenarios-0.4.7.json",
+      "version": "0.4.7",
+      "stage": "A0",
+      "lessons": 2,
+      "exercises": 4,
+      "prerequisite_links": 1,
+      "file_sha256": "5b546c2f11750e97f198338a934920e0e4dff0087b4f3c28116ca12221263ed8",
+      "source_sha256": "e3c27092168713ac81a73fc460c3fb1b3d317181af4dc89612bae613921a2198",
+      "automated_validation": "passed",
+      "independent_human_review": "pending",
+      "cefr_calibration": "pending",
+      "main_import_authorized": true
+    },
+    {
+      "file": "backend\\content\\scenarios\\a1-scenarios-0.4.1.json",
+      "version": "0.4.1",
+      "stage": "A1",
+      "lessons": 2,
+      "exercises": 4,
+      "prerequisite_links": 1,
+      "file_sha256": "f72362adeee1f6f3e76e1fae5782d76b408f5b47156dbcebe568f6eedbed0806",
+      "source_sha256": "34df69ccbec8654e53e169a9c3c272bc68d69d34f1b7ea0f3a374fafa0ecbb3e",
+      "automated_validation": "passed",
+      "independent_human_review": "pending",
+      "cefr_calibration": "pending",
+      "main_import_authorized": true
+    },
+    {
+      "file": "backend\\content\\scenarios\\a2-scenarios-0.4.2.json",
+      "version": "0.4.2",
+      "stage": "A2",
+      "lessons": 2,
+      "exercises": 4,
+      "prerequisite_links": 1,
+      "file_sha256": "cf32434b7030a1d8aae13dd439cb6463645e43fa2014097974eb9ee3f01fdfac",
+      "source_sha256": "219e82f74f63b31e4b89b7ed04532a399b09e8160a652d2b56d14b82ecc460ca",
+      "automated_validation": "passed",
+      "independent_human_review": "pending",
+      "cefr_calibration": "pending",
+      "main_import_authorized": true
+    },
+    {
+      "file": "backend\\content\\scenarios\\b1-scenarios-0.4.3.json",
+      "version": "0.4.3",
+      "stage": "B1",
+      "lessons": 2,
+      "exercises": 4,
+      "prerequisite_links": 1,
+      "file_sha256": "28f0cfd55826aeebbf4e52d3c4ff3259620244a5696a5dc6f199a5844728cfe6",
+      "source_sha256": "26be87cad6360701b4374719d48ad685531de93a1f6dbddac943a5f6b14bcff9",
+      "automated_validation": "passed",
+      "independent_human_review": "pending",
+      "cefr_calibration": "pending",
+      "main_import_authorized": true
+    },
+    {
+      "file": "backend\\content\\scenarios\\b2-scenarios-0.4.4.json",
+      "version": "0.4.4",
+      "stage": "B2",
+      "lessons": 2,
+      "exercises": 4,
+      "prerequisite_links": 1,
+      "file_sha256": "317d86faa6b345c34398629b624619920f42db1587c8219aa2e442e0fff58656",
+      "source_sha256": "5a21fc53b85e6a9b0c54ba56d0eaaf182e169a4d08b82f0887c987b7922a01c4",
+      "automated_validation": "passed",
+      "independent_human_review": "pending",
+      "cefr_calibration": "pending",
+      "main_import_authorized": true
+    },
+    {
+      "file": "backend\\content\\scenarios\\c1-scenarios-0.4.5.json",
+      "version": "0.4.5",
+      "stage": "C1",
+      "lessons": 2,
+      "exercises": 4,
+      "prerequisite_links": 1,
+      "file_sha256": "a70720d0022fcccfc355e9f8d84a85ed95df851f5d844408c187dbaec71f2fad",
+      "source_sha256": "6e7bb0fbb7caae90d7791e73186edd532ad3bbb72f245d3b38e3ff3580abfd8e",
+      "automated_validation": "passed",
+      "independent_human_review": "pending",
+      "cefr_calibration": "pending",
+      "main_import_authorized": true
+    },
+    {
+      "file": "backend\\content\\scenarios\\c2-scenarios-0.4.6.json",
+      "version": "0.4.6",
+      "stage": "C2",
+      "lessons": 2,
+      "exercises": 4,
+      "prerequisite_links": 1,
+      "file_sha256": "e85923a7a3ff3d94b5da596b774c45fb23a26a00323c3c5b294e93d0529bfc84",
+      "source_sha256": "f3279e5561256f0e398eb59dd7a1ae9443b20e537ec008acba154c2a8671d19e",
+      "automated_validation": "passed",
+      "independent_human_review": "pending",
+      "cefr_calibration": "pending",
+      "main_import_authorized": true
+    }
+  ],
+  "references": [
+    "https://www.coe.int/en/web/common-european-framework-reference-languages/cefr-companion-volume-and-its-language-versions"
+  ],
+  "current_main_status": "Imported unpublished on23 November2026 after exact-batch owner authorization, fresh backup and restored-copy rehearsal",
+  "main_import_authorized": true
+}

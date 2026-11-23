@@ -1,0 +1,225 @@
+{
+  "version": "0.7.5",
+  "level": "C2",
+  "status": "draft",
+  "source_license": "Original AI-assisted module drafts. Qualified independent linguistic, pedagogical, phonetic, answer-key and CEFR reviews pending.",
+  "tasks": [
+    {
+      "key": "read-and-notice",
+      "skill": "grammar",
+      "title": "Interpret humour and stance in a public discussion: read and notice",
+      "objective": "Irony can target one implication without reversing every proposition. Distinguish a humorous echo, a change in evaluation criterion and an attributed consensus. Modal commitment survives changes of register.",
+      "context": "Dans une émission fictive, une intervenante salue un nouveau formulaire « si simple qu’il mérite désormais sa propre formation ». La formule peut faire rire parce qu’elle rapproche une promesse de simplicité d’un dispositif qui semble la démentir. Elle ne constitue pas à elle seule un bilan des usages. Un second invité répond que la formation a précisément permis à de nouveaux publics de participer. Il ne réfute pas nécessairement l’ironie ; il déplace le critère d’évaluation, de la simplicité intrinsèque vers la possibilité d’un apprentissage accompagné. L’animateur résume : « Vous êtes donc d’accord sur l’échec. » Cette synthèse force une convergence que les propos n’établissent pas. Une écoute fine doit reconnaître l’effet humoristique, la concession possible et le changement de critère, sans décider que l’un des locuteurs dit secrètement le contraire de tout ce qu’il affirme.",
+      "vocabulary": [
+        "un critère d’évaluation déplacé",
+        "une convergence indûment attribuée",
+        "un bénéfice que l’ironie ne nie pas"
+      ],
+      "exercises": [
+        {
+          "key": "read-meaning",
+          "type": "multiple_choice",
+          "prompt": "What does the second guest mainly change?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "The criterion, towards supported participation. Source: Dans une émission fictive, une intervenante salue un nouveau formulaire « si simple qu’il mérite désormais sa propre formation ». La formule peut faire rire parce qu’elle rapproche une promesse de simplicité d’un dispositif qui semble la démentir. Elle ne constitue pas à elle seule un bilan des usages. Un second invité répond que la formation a précisément permis à de nouveaux publics de participer. Il ne réfute pas nécessairement l’ironie ; il déplace le critère d’évaluation, de la simplicité intrinsèque vers la possibilité d’un apprentissage accompagné. L’animateur résume : « Vous êtes donc d’accord sur l’échec. » Cette synthèse force une convergence que les propos n’établissent pas. Une écoute fine doit reconnaître l’effet humoristique, la concession possible et le changement de critère, sans décider que l’un des locuteurs dit secrètement le contraire de tout ce qu’il affirme.",
+          "options": [
+            "Every factual claim made by the first guest",
+            "The topic to an unrelated personal anecdote",
+            "The criterion, towards supported participation"
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "grammar-scope",
+          "type": "multiple_choice",
+          "prompt": "What logical scope does ne suffit pas preserve?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Irony can target one implication without reversing every proposition. Distinguish a humorous echo, a change in evaluation criterion and an attributed consensus. Modal commitment survives changes of register.",
+          "options": [
+            "Usefulness is insufficient evidence of intrinsic simplicity",
+            "Training must be useless",
+            "The form is proved inaccessible to everyone"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "contextual-vocabulary",
+          "type": "matching",
+          "prompt": "Match the contextual expressions with their meanings.",
+          "instructions": "Use each meaning once; these are contextual definitions.",
+          "explanation": "un critère d’évaluation déplacé — a shifted evaluation criterion; une convergence indûment attribuée — an unduly attributed convergence; un bénéfice que l’ironie ne nie pas — a benefit the irony does not deny",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "602c08fd-07ca-5624-b76b-45b7e31c7f1b",
+                "text": "un critère d’évaluation déplacé"
+              },
+              {
+                "id": "18805ee5-85a5-544d-aec4-cec6eec363b6",
+                "text": "une convergence indûment attribuée"
+              },
+              {
+                "id": "e4998494-d948-582e-9441-d054915f95cf",
+                "text": "un bénéfice que l’ironie ne nie pas"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "f0d89f87-0552-51c2-915a-662620eb4c98",
+                "text": "a benefit the irony does not deny"
+              },
+              {
+                "id": "4cf60de3-6a66-540d-b3a8-e887e28ad3bb",
+                "text": "an unduly attributed convergence"
+              },
+              {
+                "id": "28ed0446-4f58-56c7-910d-2798cfe0e0a2",
+                "text": "a shifted evaluation criterion"
+              }
+            ],
+            "answer_pairs": {
+              "602c08fd-07ca-5624-b76b-45b7e31c7f1b": "28ed0446-4f58-56c7-910d-2798cfe0e0a2",
+              "18805ee5-85a5-544d-aec4-cec6eec363b6": "4cf60de3-6a66-540d-b3a8-e887e28ad3bb",
+              "e4998494-d948-582e-9441-d054915f95cf": "f0d89f87-0552-51c2-915a-662620eb4c98"
+            }
+          }
+        }
+      ],
+      "module_title": "Interpret humour and stance in a public discussion",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "completion-c2-05",
+          "title": "Interpret humour and stance in a public discussion",
+          "summary": "Irony can target one implication without reversing every proposition. Distinguish a humorous echo, a change in evaluation criterion and an attributed consensus. Modal commitment survives changes of register.",
+          "rule_code": "completion-c2-05",
+          "explanation_english": "Irony can target one implication without reversing every proposition. Distinguish a humorous echo, a change in evaluation criterion and an attributed consensus. Modal commitment survives changes of register.",
+          "examples": [
+            [
+              "Qu’une formation soit utile ne suffit pas à rendre le formulaire intrinsèquement simple.",
+              "That training is useful is not sufficient to make the form intrinsically simple."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "listen-and-integrate",
+      "skill": "reading",
+      "title": "Interpret humour and stance in a public discussion: listen and integrate",
+      "objective": "Identify details, stance and limits of commitment in the scripted exchange, then integrate both sources.",
+      "context": "Original scripted exchange for listening and transcript-assisted review. One synthetic voice may perform every role; this does not demonstrate spontaneous multi-speaker comprehension.\n\nAnimatrice : Un progrès, alors ? Invitée : Si vous appelez progrès le fait de mieux expliquer une difficulté qu’on promettait de supprimer, oui ; mais gardons les deux idées distinctes. Invité : Et reconnaissons que mieux expliquer change réellement la situation de certains usagers. Invitée : Certainement. Mon ironie ne leur retire pas ce bénéfice. Elle interroge la promesse initiale.",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "listen-position",
+          "type": "listening",
+          "prompt": "What does the first guest explicitly concede?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Explanation can bring a real benefit to some users. Script: Animatrice : Un progrès, alors ? Invitée : Si vous appelez progrès le fait de mieux expliquer une difficulté qu’on promettait de supprimer, oui ; mais gardons les deux idées distinctes. Invité : Et reconnaissons que mieux expliquer change réellement la situation de certains usagers. Invitée : Certainement. Mon ironie ne leur retire pas ce bénéfice. Elle interroge la promesse initiale.",
+          "options": [
+            "The initial simplicity promise is fully fulfilled",
+            "Explanation can bring a real benefit to some users",
+            "Her irony denies every benefit"
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Animatrice : Un progrès, alors ? Invitée : Si vous appelez progrès le fait de mieux expliquer une difficulté qu’on promettait de supprimer, oui ; mais gardons les deux idées distinctes. Invité : Et reconnaissons que mieux expliquer change réellement la situation de certains usagers. Invitée : Certainement. Mon ironie ne leur retire pas ce bénéfice. Elle interroge la promesse initiale."
+          }
+        },
+        {
+          "key": "integrate-sources",
+          "type": "multiple_choice",
+          "prompt": "Which mediation preserves the nuanced exchange?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "A real supported-access benefit can coexist with criticism of the original promise. Compare the reading and listening sources.",
+          "options": [
+            "A real supported-access benefit can coexist with criticism of the original promise",
+            "Both guests prove universal failure",
+            "The disagreement is only personal hostility"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "locate-phrase",
+          "type": "short_answer",
+          "prompt": "Copy the precise object of the final criticism.",
+          "instructions": "Transcript available in this lesson: copy the exact requested phrase. This item checks location/spelling, not open-ended interpretation.",
+          "explanation": "Exact source phrase: la promesse initiale",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "la promesse initiale"
+            ]
+          }
+        }
+      ],
+      "module_title": "Interpret humour and stance in a public discussion",
+      "estimated_minutes": 25,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice"
+      ]
+    },
+    {
+      "key": "transfer-and-assess",
+      "skill": "writing",
+      "title": "Interpret humour and stance in a public discussion: transfer and assess",
+      "objective": "Transfer the module language to an unfamiliar situation and review comprehension, writing and interaction separately.",
+      "context": "Listen first without the script and annotate tone, target of humour and changes of commitment. Write 450–520 French words comparing two plausible readings and delimit the evidence for each. Mediate orally without humour for one audience, then with a restrained rhetorical contrast for another. Synthetic performance cannot validate spontaneous prosodic comprehension; obtain qualified human review.\n\nRevision: retrieve the three contextual expressions without the model on a later day; correct saved errors and reuse them in a new scenario.\n\nReview task fulfilment, source fidelity, grammar, vocabulary, organisation and interaction/repair separately. Treat spelling extraction as supported practice, not proficiency evidence. Optional AI feedback is advisory. Independent human language/phonetic review and empirical calibration remain pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Interpret humour and stance in a public discussion",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice",
+        "listen-and-integrate"
+      ]
+    }
+  ],
+  "title": "C2 module completion: Interpret humour and stance in a public discussion",
+  "glossary": [
+    {
+      "lemma": "un critère d’évaluation déplacé",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "a shifted evaluation criterion",
+      "definition_french": "Un changement de ce à partir de quoi l’on juge une situation.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "une convergence indûment attribuée",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "an unduly attributed convergence",
+      "definition_french": "Un accord présenté comme établi alors que les propos ne le démontrent pas.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "un bénéfice que l’ironie ne nie pas",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "a benefit the irony does not deny",
+      "definition_french": "Un avantage qui reste reconnu malgré la critique humoristique.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    }
+  ],
+  "learning_stage": null
+}

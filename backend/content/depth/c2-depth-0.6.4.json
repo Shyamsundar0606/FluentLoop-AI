@@ -1,0 +1,117 @@
+{
+  "version": "0.6.4",
+  "level": "C2",
+  "status": "draft",
+  "source_license": "Original AI-assisted depth dossiers; independent human language, pedagogical, phonetic, answer-key and CEFR reviews pending.",
+  "tasks": [
+    {
+      "key": "input-1",
+      "skill": "reading",
+      "title": "A deliberately ambivalent editorial",
+      "objective": "Compare rhetorical and institutional genres, delimit competing interpretations and reformulate a complex position while preserving pragmatic nuance.",
+      "context": "« La ville a enfin trouvé le moyen de faire disparaître l’attente : elle a supprimé la salle où l’on attendait. » Ainsi s’ouvre une chronique fictive consacrée à la dématérialisation des démarches. La pointe ne prétend évidemment pas établir, par elle-même, que les délais ont augmenté. Elle déplace le regard : ce que l’institution ne voit plus risque de cesser de compter dans la description de son succès.\nLa chronique concède ensuite que nombre d’usagers accomplissent désormais leurs formalités plus vite. Cette concession n’est pas une précaution décorative que la suite annulerait. Elle interdit de réduire le texte à une nostalgie du guichet. L’objection concerne le passage d’une commodité offerte à une autonomie présumée, puis d’une autonomie présumée à une responsabilité imputée à ceux qui n’y parviennent pas.\nLe lecteur peut trouver la formule initiale injuste, tant elle rapproche une réorganisation concrète d’un effacement symbolique. Encore faut-il distinguer cette critique de l’idée que l’ironie serait, par nature, incompatible avec un raisonnement sérieux. Son intérêt tient ici à la question qu’elle rend saillante ; sa limite, à tout ce qu’elle ne mesure pas. Une lecture précise doit pouvoir tenir ensemble la force de l’objection et l’insuffisance d’une image pour en établir empiriquement l’étendue.\n\nUnderstand: Distinguish rhetorical salience from empirical demonstration. The concession retains force. A competing interpretation may criticise the analogy without denying the accessibility question. Do not infer an accusation of deliberate fraud.",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "read-scope",
+          "type": "multiple_choice",
+          "prompt": "Which interpretation preserves both the concession and the irony?",
+          "instructions": "Choose the interpretation warranted by this input.",
+          "explanation": "Faster service for many does not settle who bears invisible burdens. Distinguish rhetorical salience from empirical demonstration. The concession retains force. A competing interpretation may criticise the analogy without denying the accessibility question. Do not infer an accusation of deliberate fraud.",
+          "options": [
+            "Faster service for many does not settle who bears invisible burdens",
+            "The author denies every improvement",
+            "The opening proves that all waiting times rose"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "listen-scope",
+          "type": "listening",
+          "prompt": "What relationship is expressed?",
+          "instructions": "Play the original scripted French excerpt. Synthetic playback is not a multi-speaker authenticity claim.",
+          "explanation": "La formule éclaire un angle mort ; elle ne dispense pas de chercher ce qui s’y trouve réellement. — Rhetoric can direct inquiry without replacing evidence",
+          "options": [
+            "An image is sufficient proof",
+            "The objection is withdrawn entirely",
+            "Rhetoric can direct inquiry without replacing evidence"
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "La formule éclaire un angle mort ; elle ne dispense pas de chercher ce qui s’y trouve réellement."
+          }
+        }
+      ],
+      "module_title": "Public rhetoric: analyse implication without over-reading",
+      "estimated_minutes": 35,
+      "grammar": [],
+      "prerequisites": []
+    },
+    {
+      "key": "input-2",
+      "skill": "reading",
+      "title": "An institutional reply and a change of genre",
+      "objective": "Compare rhetorical and institutional genres, delimit competing interpretations and reformulate a complex position while preserving pragmatic nuance.",
+      "context": "La réponse municipale rappelle que « toute personne qui en manifeste le besoin peut être accompagnée ». Prise littéralement, la phrase affirme l’existence d’une possibilité ; elle ne dit ni combien de personnes l’utilisent, ni comment elles découvrent le dispositif. Dans le contexte de la polémique, elle peut pourtant être reçue comme une réponse complète à une difficulté qui portait précisément sur les conditions d’accès à cette possibilité.\nIl serait excessif d’en conclure que la mairie reconnaît secrètement un échec ou organise sciemment une exclusion. Il serait tout aussi réducteur de traiter la chronique et la réponse comme deux propositions symétriques, dont l’une suffirait à réfuter l’autre. L’une interroge un déplacement de la charge pratique ; l’autre décrit une garantie formelle, dans un genre où la maîtrise de l’engagement institutionnel compte autant que l’explication.\nUne médiation destinée à des usagers ne reproduirait donc pas simplement les deux formulations. Elle préciserait comment demander de l’aide et signalerait ce qui reste à vérifier sur l’accès effectif. Une analyse destinée au conseil municipal pourrait, elle, expliciter les présupposés des deux textes et proposer une enquête. Changer de registre ne signifie pas choisir arbitrairement un camp : c’est redistribuer l’explicite et l’implicite en fonction d’une tâche, sans transformer les incertitudes en certitudes de convenance.\n\nUnderstand: Interpret literal commitment, contextual uptake and genre constraints separately. Two audiences require different information design. Do not treat formal availability as proof of effective access, or rhetorical criticism as proof of intent.",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "read-scope",
+          "type": "multiple_choice",
+          "prompt": "Which reformulation avoids adding an unsupported claim?",
+          "instructions": "Choose the interpretation warranted by this input.",
+          "explanation": "Explain how to obtain help and distinguish availability from verified accessibility. Interpret literal commitment, contextual uptake and genre constraints separately. Two audiences require different information design. Do not treat formal availability as proof of effective access, or rhetorical criticism as proof of intent.",
+          "options": [
+            "Explain how to obtain help and distinguish availability from verified accessibility",
+            "State that deliberate exclusion is proven",
+            "Claim that formal availability settles every practical objection"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "listen-scope",
+          "type": "listening",
+          "prompt": "What is the criticism?",
+          "instructions": "Play the original scripted French excerpt. Synthetic playback is not a multi-speaker authenticity claim.",
+          "explanation": "À vouloir rendre les deux textes parfaitement symétriques, on risque surtout d’effacer ce sur quoi ils ne se répondent pas. — A forced symmetry may obscure different argumentative targets",
+          "options": [
+            "The texts make exactly the same claim",
+            "Only the institutional text can be interpreted",
+            "A forced symmetry may obscure different argumentative targets"
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "À vouloir rendre les deux textes parfaitement symétriques, on risque surtout d’effacer ce sur quoi ils ne se répondent pas."
+          }
+        }
+      ],
+      "module_title": "Public rhetoric: analyse implication without over-reading",
+      "estimated_minutes": 35,
+      "grammar": [],
+      "prerequisites": [
+        "input-1"
+      ]
+    },
+    {
+      "key": "integrate-and-transfer",
+      "skill": "writing",
+      "title": "Integrate and transfer: Public rhetoric: analyse implication without over-reading",
+      "objective": "Compare rhetorical and institutional genres, delimit competing interpretations and reformulate a complex position while preserving pragmatic nuance.",
+      "context": "Write a 480–580-word French critical synthesis. Examine the irony, the concession, the institutional commitment and one plausible alternative reading. Delimit every inference. Then write two 80-word reformulations: practical guidance for a service user and an analytical recommendation for a municipal committee. Explain the register changes orally and respond to an objection from the Tutor without flattening the uncertainty.\n\nReview criteria: Review pragmatic fidelity, alternative interpretation, control of commitment, sustained organisation and audience-specific nuance. Cite exact textual evidence for interpretations. A human reviewer is needed for qualitative judgement; these tasks cannot certify C2. Revisit one interpretation after a delay and revise if its evidence is insufficient.\n\nUse the existing writing workspace to save and revise; voice/Tutor practice is optional and must use your selected level. No automatic mastery or CEFR award.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Public rhetoric: analyse implication without over-reading",
+      "estimated_minutes": 45,
+      "grammar": [],
+      "prerequisites": [
+        "input-1",
+        "input-2"
+      ]
+    }
+  ],
+  "title": "C2 depth: Public rhetoric: analyse implication without over-reading",
+  "glossary": [],
+  "learning_stage": null
+}

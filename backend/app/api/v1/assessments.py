@@ -21,8 +21,9 @@ class StartAssessment(BaseModel):
 
 
 @router.get("")
-def catalog(context: AuthContext = Depends(current_auth_context), db: Session = Depends(get_db)):
-    return assessment_service.catalog(db, context.user)
+def catalog(level: Literal['A1','A2','B1','B2','C1','C2'] | None = None,
+            context: AuthContext = Depends(current_auth_context), db: Session = Depends(get_db)):
+    return assessment_service.catalog(db, context.user, level)
 
 
 @router.post("/sessions", response_model=LearningSessionResponse)
@@ -52,7 +53,7 @@ class SubmitWriting(BaseModel):
     model_config = ConfigDict(extra="forbid")
     lesson_id: UUID
     idempotency_key: UUID
-    text: str = Field(min_length=1, max_length=4000)
+    text: str = Field(min_length=1, max_length=writing_service.MAX_WRITING_CHARACTERS)
 
     @field_validator("text")
     @classmethod

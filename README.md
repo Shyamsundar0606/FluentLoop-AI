@@ -1,5 +1,20 @@
 ﻿# FluentLoop AI
 
+This installation is for **personal local-only French learning**. Use the
+[Windows personal-operation guide](docs/learning/personal-local-operation.md)
+for guarded startup/shutdown, scoped draft access and final acceptance steps.
+Public deployment is outside the current objective. Docker/demo quick starts
+below are historical workflows; do not run them against protected databases
+without the documented approvals.
+
+Current personal checkpoint (23 November 2026): **181 unpublished lessons, 620
+scored exercises and 50 open writing/transfer task lessons across 52 modules**.
+The confirmed learner has scoped preview access. Use `/learning-path` for A0–C2
+and `/checkpoints` for module/level practice plans. Five further unscored writing
+bridges remain staged. See [current verification](docs/verification/PERSONAL_LOCAL_COMPLETION.md)
+and [competency gaps](docs/learning/COMPETENCY-AUDIT.md). Draft coverage does not
+establish qualified human approval, complete CEFR coverage or certification.
+
 A local-first French learning application built with Next.js and FastAPI. Milestones 01–07 provide secure accounts, curriculum-based lessons, a local AI tutor, voice conversations, daily learning plans and spaced repetition. Milestone 08 adds interactive lesson formats and focused grammar practice, implemented locally only.
 
 For the isolated M08 demo, migration scope, actual test results and manual steps, see [Milestone 08 verification](docs/verification/MILESTONE_08_VERIFICATION.md). Existing main and preview environments were not deployed or migrated during this work.
@@ -23,7 +38,7 @@ For current authorized access on port 3008, use [Milestone 08.1 manual testing](
 
 ## Current limitations
 
-**Ten A1 lessons remain unpublished drafts awaiting independent French and licensing review.** Ordinary learners cannot access them. A separately gated development preview is available to authorized administrators. Supporting six CEFR preferences does not imply complete curriculum coverage at all six levels.
+**All 181 personal lessons remain unpublished drafts awaiting qualified independent review.** Ordinary learners cannot access them. The confirmed personal learner has a narrowly scoped preview permission without administrator or publisher rights. Supporting A0 preparation through C2-targeted modules does not imply complete or calibrated CEFR coverage.
 
 The corrected A1 draft is version **1.0.2**. See [correction results](docs/content/reviews/A1_CONTENT_CORRECTION_RESULTS.md), [independent review checklist](docs/content/reviews/A1_INDEPENDENT_REVIEW_CHECKLIST.md) and [publication readiness](docs/verification/A1_CURRICULUM_PUBLICATION_READINESS.md). Technical validation does not authorize publication.
 
@@ -48,7 +63,7 @@ The backend obtains identity from the authenticated session. Tutor requests rece
 
 ```text
 backend/app/          API, models, learning services, AI and speech providers
-backend/alembic/      Nine ordered database migrations (M08 applied only to isolated local/test databases)
+backend/alembic/      Ordered migrations; personal main verified at 20261115_0016
 backend/content/a1/   Versioned draft curriculum source
 backend/tests/        Functional, security and opt-in PostgreSQL tests
 backend/scripts/      Guarded isolated integration-test servers

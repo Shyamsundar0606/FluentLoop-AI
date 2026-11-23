@@ -10,7 +10,24 @@ Draft learning preview is disabled by default. Access requires all of the follow
 
 The settings property `draft_learning_preview_enabled` evaluates to false outside development, even when the preview flag is true. Do not configure production with development environment values. Preview access does not publish or modify curriculum records.
 
-Ordinary users continue to receive published content only. Draft and review content is returned as not found for direct learner requests, including course, lesson, session, and progress operations. A preview session stores a `preview_mode` marker and remains inaccessible when the preview setting or admin role is removed.
+Ordinary users continue to receive published content only. An additional personal
+learning-only grant is available in development: `ENABLE_PERSONAL_LEARNING_PREVIEW=true`
+and `PERSONAL_PREVIEW_USER_IDS=["confirmed-learner-uuid"]`. Both frontend origin and
+all CORS origins must be loopback origins. The user must be an active, verified
+learner. The grant defaults off and cannot be enabled by a browser request.
+Bind the API to loopback as the personal launcher does; origin configuration is
+an additional gate, not a substitute for listener/network isolation.
+
+Personal preview reuses the existing `preview_mode` session marker, ownership,
+grading and per-request authorization. Revocation hides retained preview sessions
+and answers without deleting them; restoring the grant restores access. Existing
+preview exclusions from published-only analytics and XP remain in effect. No
+schema, lesson version, publication status or frozen answer key is changed.
+
+Learning preview and curriculum authoring now use separate predicates. The personal
+grant does not permit review-console access, draft edits, independent reviews or
+publication. Administrator authoring retains the original development/admin gate.
+Never replace a content-authoring permission check with the learning-preview check.
 
 ## Data and grading controls
 

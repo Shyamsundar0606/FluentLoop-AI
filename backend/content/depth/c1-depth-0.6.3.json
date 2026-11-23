@@ -1,0 +1,117 @@
+{
+  "version": "0.6.3",
+  "level": "C1",
+  "status": "draft",
+  "source_license": "Original AI-assisted depth dossiers; independent human language, pedagogical, phonetic, answer-key and CEFR reviews pending.",
+  "tasks": [
+    {
+      "key": "input-1",
+      "skill": "reading",
+      "title": "Read a qualified institutional report",
+      "objective": "Synthesize methodological qualifications across two substantial sources and mediate a decision without implying causality that the evidence cannot establish.",
+      "context": "Un établissement expérimente un accompagnement à l’écriture universitaire. Le rapport indique que les étudiants ayant participé aux ateliers rendent davantage de travaux dans les délais. Il précise aussitôt que la participation était volontaire et que l’équipe ne dispose pas d’un indicateur comparable de motivation initiale. Le résultat est encourageant ; il ne permet pas, à lui seul, d’attribuer l’amélioration aux ateliers.\nUne seconde difficulté tient au calendrier. Les groupes comparés n’ont pas tous suivi les mêmes enseignements, et certains responsables ont modifié leurs consignes pendant la période observée. Les auteurs proposent de documenter ces différences avant une nouvelle comparaison. Ils refusent cependant de considérer l’absence d’une expérience parfaitement contrôlée comme une raison de suspendre toute action.\nLeur recommandation consiste à poursuivre le dispositif à petite échelle, tout en annonçant les limites de ce que l’on saura mesurer. Le rapport distingue ainsi trois décisions souvent confondues : offrir une aide jugée utile, étudier ses effets et communiquer sur son efficacité. La première peut être défendable sans que la troisième autorise un langage de certitude. Transformer cette prudence en aveu d’inutilité serait aussi inexact que transformer une association observée en démonstration causale.\n\nUnderstand: The report separates practical justification from causal attribution and communication. Preserve the selection issue and the changing-course issue as distinct limitations; neither proves that the workshops have no effect.",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "read-scope",
+          "type": "multiple_choice",
+          "prompt": "Which inference is justified?",
+          "instructions": "Choose the interpretation warranted by this input.",
+          "explanation": "Continuation may be defensible while causal claims remain limited. The report separates practical justification from causal attribution and communication. Preserve the selection issue and the changing-course issue as distinct limitations; neither proves that the workshops have no effect.",
+          "options": [
+            "Continuation may be defensible while causal claims remain limited",
+            "Voluntary participation proves causation",
+            "The report demonstrates that workshops are useless"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "listen-scope",
+          "type": "listening",
+          "prompt": "What distinction is made?",
+          "instructions": "Play the original scripted French excerpt. Synthetic playback is not a multi-speaker authenticity claim.",
+          "explanation": "Poursuivre un dispositif et déclarer son efficacité ne demandent pas exactement les mêmes justifications. — The evidential demands differ between acting and claiming proven effectiveness",
+          "options": [
+            "Evidence has no role in action",
+            "Effectiveness has already been disproved",
+            "The evidential demands differ between acting and claiming proven effectiveness"
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Poursuivre un dispositif et déclarer son efficacité ne demandent pas exactement les mêmes justifications."
+          }
+        }
+      ],
+      "module_title": "Research communication: preserve uncertainty across audiences",
+      "estimated_minutes": 35,
+      "grammar": [],
+      "prerequisites": []
+    },
+    {
+      "key": "input-2",
+      "skill": "reading",
+      "title": "Compare the communication response",
+      "objective": "Synthesize methodological qualifications across two substantial sources and mediate a decision without implying causality that the evidence cannot establish.",
+      "context": "Le service de communication souhaite annoncer que les ateliers « font progresser la réussite ». Une enseignante juge cette formule trop forte : elle transforme, selon elle, une observation située en relation générale. Le responsable répond qu’une accumulation de réserves rendrait le message illisible et empêcherait les étudiants de comprendre l’intérêt concret de l’offre.\nLe désaccord ne porte donc pas seulement sur la véracité d’une phrase isolée. Il concerne aussi ce qu’un lecteur est susceptible d’en retenir, les décisions que le message encourage et la visibilité accordée aux limites. Remplacer « font progresser » par « ont été associés à » réduit la portée causale, sans expliquer pourquoi l’association doit être interprétée avec prudence. À l’inverse, une description méthodologique exhaustive pourrait masquer l’information pratique recherchée.\nUne médiation possible consisterait à séparer l’invitation et le bilan : présenter clairement l’aide proposée, puis indiquer que les premiers résultats sont favorables mais ne permettent pas d’isoler l’effet propre des ateliers. Un lien vers le rapport donnerait accès aux détails, sans faire de ce lien un substitut à toute qualification dans le message principal. Cette solution ne supprime pas la tension entre simplicité et précision ; elle la rend explicite et organise l’information en fonction des besoins du destinataire.\n\nUnderstand: Evaluate what the audience is likely to infer, not only the literal wording. A link does not automatically neutralise an overclaim in the headline. The proposed mediation is one defensible design, not a uniquely compulsory formula.",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "read-scope",
+          "type": "multiple_choice",
+          "prompt": "Why is changing the verb alone insufficient?",
+          "instructions": "Choose the interpretation warranted by this input.",
+          "explanation": "It may not explain the limits of the observed association. Evaluate what the audience is likely to infer, not only the literal wording. A link does not automatically neutralise an overclaim in the headline. The proposed mediation is one defensible design, not a uniquely compulsory formula.",
+          "options": [
+            "It may not explain the limits of the observed association",
+            "A cautious verb guarantees perfect comprehension",
+            "Every practical message must reproduce the full method"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "listen-scope",
+          "type": "listening",
+          "prompt": "What concern is expressed?",
+          "instructions": "Play the original scripted French excerpt. Synthetic playback is not a multi-speaker authenticity claim.",
+          "explanation": "La réserve ne doit pas être enterrée dans un document que le message principal invite précisément à ne pas lire. — A remote qualification may fail to correct the headline’s implication",
+          "options": [
+            "Readers must never access a report",
+            "Practical information is inherently misleading",
+            "A remote qualification may fail to correct the headline’s implication"
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "La réserve ne doit pas être enterrée dans un document que le message principal invite précisément à ne pas lire."
+          }
+        }
+      ],
+      "module_title": "Research communication: preserve uncertainty across audiences",
+      "estimated_minutes": 35,
+      "grammar": [],
+      "prerequisites": [
+        "input-1"
+      ]
+    },
+    {
+      "key": "integrate-and-transfer",
+      "skill": "writing",
+      "title": "Integrate and transfer: Research communication: preserve uncertainty across audiences",
+      "objective": "Synthesize methodological qualifications across two substantial sources and mediate a decision without implying causality that the evidence cannot establish.",
+      "context": "Write a 360–430-word French synthesis for the institution. Preserve both methodological limitations and the communication dilemma. Propose a justified two-layer message, then append a 70-word student-facing invitation. Explain one simplification and one qualification you deliberately retained. Defend the choices orally against a sceptical communications officer played by the Tutor.\n\nReview criteria: Review attribution, causal scope, integrated synthesis, audience design and linguistic precision. Mark what is observed, inferred and recommended. A qualified reviewer must assess the open production; AI comments are advisory. Rework a sentence after a two-day delay.\n\nUse the existing writing workspace to save and revise; voice/Tutor practice is optional and must use your selected level. No automatic mastery or CEFR award.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Research communication: preserve uncertainty across audiences",
+      "estimated_minutes": 45,
+      "grammar": [],
+      "prerequisites": [
+        "input-1",
+        "input-2"
+      ]
+    }
+  ],
+  "title": "C1 depth: Research communication: preserve uncertainty across audiences",
+  "glossary": [],
+  "learning_stage": null
+}

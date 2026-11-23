@@ -1,0 +1,36 @@
+{
+  "lessons": 5,
+  "scored_exercises": 0,
+  "open_transfer_tasks": 5,
+  "validation": "disposable PostgreSQL import/idempotency/prerequisites/preservation passed; open tasks unscored",
+  "releases": [
+    {
+      "file": "backend\\content\\writing-bridges\\a0-writing-0.9.0.json",
+      "version": "0.9.0",
+      "stage": "A0",
+      "lessons": 1,
+      "scored_exercises": 0,
+      "open_transfer_tasks": 1,
+      "prerequisite_links": 0,
+      "file_sha256": "70a6ac35a10d1341c83a2791d39d40e756030de9bda5c42fc0d76a3751027931",
+      "source_sha256": "6102cfda6c4bf9186cf9359b2bf2b01af4e70e397616ecb3241dda334ec6aab2",
+      "main_import_authorized": false,
+      "human_review": "pending"
+    },
+    {
+      "file": "backend\\content\\writing-bridges\\a1-writing-0.9.1.json",
+      "version": "0.9.1",
+      "stage": "A1",
+      "lessons": 4,
+      "scored_exercises": 0,
+      "open_transfer_tasks": 4,
+      "prerequisite_links": 3,
+      "file_sha256": "a5767582046a267c3f656e3ebf9b84f56c41fc199e4781717020c1e706cc133b",
+      "source_sha256": "5a58e9ba4ab26140420f3d7418267a7eef60651636b56c146b72ac336f0445d7",
+      "main_import_authorized": false,
+      "human_review": "pending"
+    }
+  ],
+  "main_import_authorized": false,
+  "qualified_human_review": "pending"
+}

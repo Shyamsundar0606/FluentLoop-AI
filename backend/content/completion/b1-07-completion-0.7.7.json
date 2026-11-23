@@ -1,0 +1,225 @@
+{
+  "version": "0.7.7",
+  "level": "B1",
+  "status": "draft",
+  "source_license": "Original AI-assisted module drafts. Qualified independent linguistic, pedagogical, phonetic, answer-key and CEFR reviews pending.",
+  "tasks": [
+    {
+      "key": "read-and-notice",
+      "skill": "grammar",
+      "title": "Adapt a practical request to two recipients: read and notice",
+      "objective": "Adapt address and request forms to the recipient while keeping factual content stable. Je crois que marks uncertainty; pourriez-vous frames a polite request rather than an accusation.",
+      "context": "Après avoir oublié un sac dans une salle de cours, Marc écrit d’abord à une amie : « Tu as vu mon sac bleu ? Je crois que je l’ai laissé près de la fenêtre. » Il doit ensuite contacter l’accueil de l’université. Il reprend les mêmes faits, mais ajoute le numéro de la salle, le moment du cours et une demande précise. Il évite d’affirmer que le personnel a déplacé le sac : il ne le sait pas. Son objectif est d’aider à vérifier, pas de raconter tous les détails de sa journée ni de reprocher une faute à quelqu’un.",
+      "vocabulary": [
+        "préciser la salle du cours",
+        "une demande précise à l’accueil",
+        "un objet peut-être retrouvé"
+      ],
+      "exercises": [
+        {
+          "key": "read-meaning",
+          "type": "multiple_choice",
+          "prompt": "What should change between the two messages?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Address, useful identifying details and request form. Source: Après avoir oublié un sac dans une salle de cours, Marc écrit d’abord à une amie : « Tu as vu mon sac bleu ? Je crois que je l’ai laissé près de la fenêtre. » Il doit ensuite contacter l’accueil de l’université. Il reprend les mêmes faits, mais ajoute le numéro de la salle, le moment du cours et une demande précise. Il évite d’affirmer que le personnel a déplacé le sac : il ne le sait pas. Son objectif est d’aider à vérifier, pas de raconter tous les détails de sa journée ni de reprocher une faute à quelqu’un.",
+          "options": [
+            "The colour of the bag",
+            "Address, useful identifying details and request form",
+            "An uncertain fact into a proven accusation"
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "grammar-scope",
+          "type": "multiple_choice",
+          "prompt": "Which phrase preserves uncertainty about the location?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Adapt address and request forms to the recipient while keeping factual content stable. Je crois que marks uncertainty; pourriez-vous frames a polite request rather than an accusation.",
+          "options": [
+            "Vous l’avez certainement déplacé.",
+            "Je sais que vous l’avez pris.",
+            "Je crois l’avoir laissé près de la fenêtre."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "contextual-vocabulary",
+          "type": "matching",
+          "prompt": "Match the contextual expressions with their meanings.",
+          "instructions": "Use each meaning once; these are contextual definitions.",
+          "explanation": "préciser la salle du cours — to specify the classroom; une demande précise à l’accueil — a specific request to reception; un objet peut-être retrouvé — an item that may have been found",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "7301edc2-a135-50bf-b2e2-e91776a3cd9a",
+                "text": "préciser la salle du cours"
+              },
+              {
+                "id": "8177473f-5190-5728-aaa3-f4f0a2437ddf",
+                "text": "une demande précise à l’accueil"
+              },
+              {
+                "id": "7603eb18-5b23-52d8-86ad-14e09e7e2ed0",
+                "text": "un objet peut-être retrouvé"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "34ee8bcc-e9fe-53df-baa9-98f6e79e7075",
+                "text": "an item that may have been found"
+              },
+              {
+                "id": "d772f9fc-f5c8-5e39-9122-a3109a98e9e6",
+                "text": "a specific request to reception"
+              },
+              {
+                "id": "7075de3b-8f92-5071-92e1-8cdaba8ae813",
+                "text": "to specify the classroom"
+              }
+            ],
+            "answer_pairs": {
+              "7301edc2-a135-50bf-b2e2-e91776a3cd9a": "7075de3b-8f92-5071-92e1-8cdaba8ae813",
+              "8177473f-5190-5728-aaa3-f4f0a2437ddf": "d772f9fc-f5c8-5e39-9122-a3109a98e9e6",
+              "7603eb18-5b23-52d8-86ad-14e09e7e2ed0": "34ee8bcc-e9fe-53df-baa9-98f6e79e7075"
+            }
+          }
+        }
+      ],
+      "module_title": "Adapt a practical request to two recipients",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "completion-b1-07",
+          "title": "Adapt a practical request to two recipients",
+          "summary": "Adapt address and request forms to the recipient while keeping factual content stable. Je crois que marks uncertainty; pourriez-vous frames a polite request rather than an accusation.",
+          "rule_code": "completion-b1-07",
+          "explanation_english": "Adapt address and request forms to the recipient while keeping factual content stable. Je crois que marks uncertainty; pourriez-vous frames a polite request rather than an accusation.",
+          "examples": [
+            [
+              "Pourriez-vous vérifier si un sac bleu a été retrouvé ?",
+              "Could you check whether a blue bag has been found?"
+            ]
+          ]
+        }
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "listen-and-integrate",
+      "skill": "reading",
+      "title": "Adapt a practical request to two recipients: listen and integrate",
+      "objective": "Identify details, stance and limits of commitment in the scripted exchange, then integrate both sources.",
+      "context": "Original scripted exchange for listening and transcript-assisted review. One synthetic voice may perform every role; this does not demonstrate spontaneous multi-speaker comprehension.\n\nAccueil : Pouvez-vous préciser la salle et l’heure ? Marc : Salle douze, après le cours de neuf heures. Je crois avoir laissé le sac près de la fenêtre. Accueil : Merci. Nous allons vérifier ; cela ne signifie pas encore qu’il a été retrouvé.",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "listen-position",
+          "type": "listening",
+          "prompt": "What does the reception desk commit to?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Checking the information. Script: Accueil : Pouvez-vous préciser la salle et l’heure ? Marc : Salle douze, après le cours de neuf heures. Je crois avoir laissé le sac près de la fenêtre. Accueil : Merci. Nous allons vérifier ; cela ne signifie pas encore qu’il a été retrouvé.",
+          "options": [
+            "Checking the information",
+            "Confirming the bag is found",
+            "Replacing the bag immediately"
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Accueil : Pouvez-vous préciser la salle et l’heure ? Marc : Salle douze, après le cours de neuf heures. Je crois avoir laissé le sac près de la fenêtre. Accueil : Merci. Nous allons vérifier ; cela ne signifie pas encore qu’il a été retrouvé."
+          }
+        },
+        {
+          "key": "integrate-sources",
+          "type": "multiple_choice",
+          "prompt": "Which follow-up is most accurate?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Reception will check; recovery is not yet confirmed. Compare the reading and listening sources.",
+          "options": [
+            "The bag has certainly been found",
+            "Reception admits taking it",
+            "Reception will check; recovery is not yet confirmed"
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "locate-phrase",
+          "type": "short_answer",
+          "prompt": "Copy the reception desk’s exact three-word commitment.",
+          "instructions": "Transcript available in this lesson: copy the exact requested phrase. This item checks location/spelling, not open-ended interpretation.",
+          "explanation": "Exact source phrase: Nous allons vérifier",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "Nous allons vérifier"
+            ]
+          }
+        }
+      ],
+      "module_title": "Adapt a practical request to two recipients",
+      "estimated_minutes": 25,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice"
+      ]
+    },
+    {
+      "key": "transfer-and-assess",
+      "skill": "writing",
+      "title": "Adapt a practical request to two recipients: transfer and assess",
+      "objective": "Transfer the module language to an unfamiliar situation and review comprehension, writing and interaction separately.",
+      "context": "Write a 60-word informal message and a 110-word formal request about a fictional lost object. Preserve the same facts and uncertainty. Explain aloud why you changed the address, detail and closing, then answer the Tutor’s follow-up as reception. Do not include real identity documents.\n\nRevision: retrieve the three contextual expressions without the model on a later day; correct saved errors and reuse them in a new scenario.\n\nReview task fulfilment, source fidelity, grammar, vocabulary, organisation and interaction/repair separately. Treat spelling extraction as supported practice, not proficiency evidence. Optional AI feedback is advisory. Independent human language/phonetic review and empirical calibration remain pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Adapt a practical request to two recipients",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice",
+        "listen-and-integrate"
+      ]
+    }
+  ],
+  "title": "B1 module completion: Adapt a practical request to two recipients",
+  "glossary": [
+    {
+      "lemma": "préciser la salle du cours",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to specify the classroom",
+      "definition_french": "Donner le numéro ou le nom de la salle concernée.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "une demande précise à l’accueil",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "a specific request to reception",
+      "definition_french": "Une question qui indique clairement la vérification souhaitée.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "un objet peut-être retrouvé",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "an item that may have been found",
+      "definition_french": "Un objet dont la récupération reste incertaine.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    }
+  ],
+  "learning_stage": null
+}

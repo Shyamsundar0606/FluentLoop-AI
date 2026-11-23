@@ -1,9 +1,9 @@
 import {test,expect,type Page} from '@playwright/test';
-import {readFileSync} from 'node:fs';
+import {adminFixture} from './admin-fixture';
 import {enterExercises} from './learning-navigation';
 let fixture:{admin:string;learner:string;lesson_id:string;password:string};
 const base=process.env.PLAYWRIGHT_API_BASE_URL??'';
-test.beforeEach(()=>{test.skip(process.env.M08_E2E_REAL_API!=='1','Requires isolated real M08 PostgreSQL/API.');fixture=JSON.parse(readFileSync('../.speech-data/m08-browser-fixture.json','utf8'));});
+test.beforeEach(()=>{test.skip(process.env.M08_E2E_REAL_API!=='1','Requires isolated real M08 PostgreSQL/API.');fixture=adminFixture();});
 async function login(page:Page,email:string){await page.goto('/login');await page.getByLabel('Email').fill(email);await page.locator('input[autocomplete="current-password"]').fill(fixture.password);await page.getByRole('button',{name:'Sign in',exact:true}).click();await expect(page).toHaveURL(/\/dashboard$/);}
 async function fresh(page:Page){
   const csrf=(await page.context().cookies()).find(c=>c.name===(process.env.PLAYWRIGHT_CSRF_COOKIE_NAME??'fluentloop_csrf'))!.value;

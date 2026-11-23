@@ -1,0 +1,1787 @@
+{
+  "version": "0.2.1",
+  "level": "C2",
+  "status": "draft",
+  "title": "Personal French C2: daily life and expression",
+  "source_license": "Original AI-assisted drafts; independent linguistic, phonetic, pedagogical, answer-key and licensing reviews pending.",
+  "glossary": [
+    {
+      "lemma": "suivi d’effets",
+      "part_of_speech": "phrase",
+      "translation": "followed by action",
+      "definition_french": "Accompagné de réalisations concrètes, et pas seulement de paroles."
+    },
+    {
+      "lemma": "tenir lieu de",
+      "part_of_speech": "phrase",
+      "translation": "to serve in place of",
+      "definition_french": "Remplacer quelque chose dans la fonction considérée."
+    },
+    {
+      "lemma": "en suspens",
+      "part_of_speech": "phrase",
+      "translation": "unresolved",
+      "definition_french": "Qui attend encore une décision ou une réponse."
+    },
+    {
+      "lemma": "circonscrire une question",
+      "part_of_speech": "phrase",
+      "translation": "to delimit an issue",
+      "definition_french": "Définir précisément les limites de la question examinée."
+    },
+    {
+      "lemma": "une objection fondée",
+      "part_of_speech": "phrase",
+      "translation": "a well-founded objection",
+      "definition_french": "Une critique appuyée sur des raisons pertinentes."
+    },
+    {
+      "lemma": "une opposition binaire",
+      "part_of_speech": "phrase",
+      "translation": "a binary opposition",
+      "definition_french": "Une présentation qui réduit le débat à deux positions exclusives."
+    },
+    {
+      "lemma": "le degré d’engagement",
+      "part_of_speech": "phrase",
+      "translation": "the degree of commitment",
+      "definition_french": "La force avec laquelle une personne assume une affirmation."
+    },
+    {
+      "lemma": "un présupposé",
+      "part_of_speech": "phrase",
+      "translation": "a presupposition",
+      "definition_french": "Un élément présenté comme déjà admis dans un énoncé."
+    },
+    {
+      "lemma": "une formulation catégorique",
+      "part_of_speech": "phrase",
+      "translation": "a categorical formulation",
+      "definition_french": "Une manière d’affirmer sans laisser place à une réserve."
+    }
+  ],
+  "tasks": [
+    {
+      "key": "module-1-grammar",
+      "skill": "grammar",
+      "module_title": "Precision and idiom",
+      "title": "Examine the force of a promise: grammar",
+      "objective": "Practise C2-targeted grammar in the situation: Examine the force of a promise.",
+      "context": "French passage\nDans une tribune fictive, une porte-parole promet une réforme ambitieuse. Encore faut-il que cette promesse soit suivie d’effets. La formule ne répète pas simplement une nécessité : elle met au jour la condition qui demeure en suspens derrière l’annonce. Pour autant, la réserve exprimée ne saurait tenir lieu d’évaluation. Mon commentaire distingue donc l’effet rhétorique de la promesse, les moyens effectivement annoncés et les critères qui permettraient d’en apprécier la réalisation. Je m’interdis d’attribuer à l’oratrice une intention que le texte ne permet pas d’établir. La discussion peut être incisive sans devenir péremptoire ; elle gagne en force lorsque les limites de son propre raisonnement sont rendues visibles.\n\nEnglish explanation\nEncore faut-il que means roughly but it remains necessary that. In this rhetorical construction, inversion belongs to the fixed presentational pattern; que is followed by the subjunctive soit. It does not literally say an action happens again. This sustained-register pattern is suited to argument rather than an elementary request at a shop.\nModel: Encore faut-il que cette promesse soit suivie d’effets.\nMeaning: But that promise still needs to be followed by action.\n\nGlossary\nsuivi d’effets — followed by action\ntenir lieu de — to serve in place of\nen suspens — unresolved\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Identify the target form, explain its function, and contrast it with the alternative in the explanation.",
+      "vocabulary": [
+        "suivi d’effets",
+        "tenir lieu de",
+        "en suspens"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "What does the comment distinguish?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Dans une tribune fictive, une porte-parole promet une réforme ambitieuse. Encore faut-il que cette promesse soit suivie d’effets. La formule ne répète pas simplement une nécessité : elle met au jour la condition qui demeure en suspens derrière l’annonce. Pour autant, la réserve exprimée ne saurait tenir lieu d’évaluation. Mon commentaire distingue donc l’effet rhétorique de la promesse, les moyens effectivement annoncés et les critères qui permettraient d’en apprécier la réalisation. Je m’interdis d’attribuer à l’oratrice une intention que le texte ne permet pas d’établir. La discussion peut être incisive sans devenir péremptoire ; elle gagne en force lorsque les limites de son propre raisonnement sont rendues visibles.",
+          "data": {},
+          "options": [
+            "The speaker’s private intentions as established fact",
+            "Rhetorical effect, announced means and evaluation criteria",
+            "Only the number of promises"
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Encore faut-il que cette promesse ___ suivie d’effets.",
+          "instructions": "Use être in the present subjunctive, third-person singular. Write only the missing form; keep accents.",
+          "explanation": "Encore faut-il que means roughly but it remains necessary that. In this rhetorical construction, inversion belongs to the fixed presentational pattern; que is followed by the subjunctive soit. It does not literally say an action happens again. This sustained-register pattern is suited to argument rather than an elementary request at a shop.",
+          "data": {
+            "accepted_answers": [
+              "soit"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Encore faut-il que cette promesse soit suivie d’effets.",
+          "explanation": "Encore faut-il que means roughly but it remains necessary that. In this rhetorical construction, inversion belongs to the fixed presentational pattern; que is followed by the subjunctive soit. It does not literally say an action happens again. This sustained-register pattern is suited to argument rather than an elementary request at a shop.",
+          "data": {
+            "tiles": [
+              {
+                "id": "73288d1e-0fe9-536e-a338-88412a1418fb",
+                "text": "Encore"
+              },
+              {
+                "id": "64404512-704c-51c6-a43e-eebd7d568574",
+                "text": "faut-il"
+              },
+              {
+                "id": "24723461-8573-5a9c-ad70-86c9122e6b21",
+                "text": "que"
+              },
+              {
+                "id": "f840eaf5-8f9d-5f10-b11e-7bb7282646b3",
+                "text": "cette"
+              },
+              {
+                "id": "d387b6dc-d7a8-5d1a-885f-dd32e8b7b82d",
+                "text": "promesse"
+              },
+              {
+                "id": "d1388a2a-8916-5001-9ef8-0f293b1a9c7d",
+                "text": "soit"
+              },
+              {
+                "id": "00ae4c9e-0077-51db-bc1a-8783bc4381c6",
+                "text": "suivie"
+              },
+              {
+                "id": "e720246a-1a83-57cb-838d-3181d7685f06",
+                "text": "d’effets."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "73288d1e-0fe9-536e-a338-88412a1418fb",
+                "64404512-704c-51c6-a43e-eebd7d568574",
+                "24723461-8573-5a9c-ad70-86c9122e6b21",
+                "f840eaf5-8f9d-5f10-b11e-7bb7282646b3",
+                "d387b6dc-d7a8-5d1a-885f-dd32e8b7b82d",
+                "d1388a2a-8916-5001-9ef8-0f293b1a9c7d",
+                "00ae4c9e-0077-51db-bc1a-8783bc4381c6",
+                "e720246a-1a83-57cb-838d-3181d7685f06"
+              ]
+            ],
+            "correct_sentence": "Encore faut-il que cette promesse soit suivie d’effets."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "suivi d’effets — followed by action; tenir lieu de — to serve in place of; en suspens — unresolved",
+          "data": {
+            "left_items": [
+              {
+                "id": "64f83db2-1808-573a-aa69-8494563f6a37",
+                "text": "suivi d’effets"
+              },
+              {
+                "id": "9c279432-3f41-5702-8ed1-36695fd463f5",
+                "text": "tenir lieu de"
+              },
+              {
+                "id": "742ff9de-c67a-54f9-b4f6-ac4a44a02a82",
+                "text": "en suspens"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "f7255630-9689-533a-84c0-d1f63bf5184a",
+                "text": "followed by action"
+              },
+              {
+                "id": "8b892fab-d9e0-5a5b-a838-7d340f2178ca",
+                "text": "to serve in place of"
+              },
+              {
+                "id": "72e398f4-261e-5bf4-a1a7-82d48ecfb024",
+                "text": "unresolved"
+              }
+            ],
+            "answer_pairs": {
+              "64f83db2-1808-573a-aa69-8494563f6a37": "f7255630-9689-533a-84c0-d1f63bf5184a",
+              "9c279432-3f41-5702-8ed1-36695fd463f5": "8b892fab-d9e0-5a5b-a838-7d340f2178ca",
+              "742ff9de-c67a-54f9-b4f6-ac4a44a02a82": "72e398f4-261e-5bf4-a1a7-82d48ecfb024"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Encore faut-il que cette promesse soit suivie d’effets.\nEnglish meaning: But that promise still needs to be followed by action.",
+          "data": {
+            "text_fr": "Encore faut-il que cette promesse soit suivie d’effets."
+          },
+          "options": [
+            "But that promise has already been followed by action.",
+            "But that promise still needs to be followed by action.",
+            "But that promise no longer needs to be followed by action."
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: But that promise still needs to be followed by action.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Encore faut-il que cette promesse soit suivie d’effets.",
+          "explanation": "Exact model: Encore faut-il que cette promesse soit suivie d’effets.\nMeaning: But that promise still needs to be followed by action.",
+          "data": {
+            "accepted_answers": [
+              "Encore faut-il que cette promesse soit suivie d’effets."
+            ]
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "slug": "personal-module-1",
+          "title": "A remaining condition and rhetorical inversion",
+          "summary": "Encore faut-il que means roughly but it remains necessary that. In this rhetorical construction, inversion belongs to the fixed presentational pattern; que is followed by the subjunctive soit. It does not literally say an action happens again. This sustained-register pattern is suited to argument rather than an elementary request at a shop.",
+          "rule_code": "personal-c2-1",
+          "explanation_english": "Encore faut-il que means roughly but it remains necessary that. In this rhetorical construction, inversion belongs to the fixed presentational pattern; que is followed by the subjunctive soit. It does not literally say an action happens again. This sustained-register pattern is suited to argument rather than an elementary request at a shop.",
+          "examples": [
+            [
+              "Encore faut-il que cette promesse soit suivie d’effets.",
+              "But that promise still needs to be followed by action."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "key": "module-1-vocabulary",
+      "skill": "vocabulary",
+      "module_title": "Precision and idiom",
+      "title": "Examine the force of a promise: vocabulary",
+      "objective": "Practise C2-targeted vocabulary in the situation: Examine the force of a promise.",
+      "context": "French passage\nDans une tribune fictive, une porte-parole promet une réforme ambitieuse. Encore faut-il que cette promesse soit suivie d’effets. La formule ne répète pas simplement une nécessité : elle met au jour la condition qui demeure en suspens derrière l’annonce. Pour autant, la réserve exprimée ne saurait tenir lieu d’évaluation. Mon commentaire distingue donc l’effet rhétorique de la promesse, les moyens effectivement annoncés et les critères qui permettraient d’en apprécier la réalisation. Je m’interdis d’attribuer à l’oratrice une intention que le texte ne permet pas d’établir. La discussion peut être incisive sans devenir péremptoire ; elle gagne en force lorsque les limites de son propre raisonnement sont rendues visibles.\n\nEnglish explanation\nEncore faut-il que means roughly but it remains necessary that. In this rhetorical construction, inversion belongs to the fixed presentational pattern; que is followed by the subjunctive soit. It does not literally say an action happens again. This sustained-register pattern is suited to argument rather than an elementary request at a shop.\nModel: Encore faut-il que cette promesse soit suivie d’effets.\nMeaning: But that promise still needs to be followed by action.\n\nGlossary\nsuivi d’effets — followed by action\ntenir lieu de — to serve in place of\nen suspens — unresolved\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Read each French definition, match meanings, then use the expressions in your own example.",
+      "vocabulary": [
+        "suivi d’effets",
+        "tenir lieu de",
+        "en suspens"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Which French expression means “followed by action”?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "Glossary meaning: suivi d’effets — followed by action.",
+          "data": {},
+          "options": [
+            "tenir lieu de",
+            "en suspens",
+            "suivi d’effets"
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Encore faut-il que cette promesse ___ suivie d’effets.",
+          "instructions": "Use être in the present subjunctive, third-person singular. Write only the missing form; keep accents.",
+          "explanation": "Encore faut-il que means roughly but it remains necessary that. In this rhetorical construction, inversion belongs to the fixed presentational pattern; que is followed by the subjunctive soit. It does not literally say an action happens again. This sustained-register pattern is suited to argument rather than an elementary request at a shop.",
+          "data": {
+            "accepted_answers": [
+              "soit"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Encore faut-il que cette promesse soit suivie d’effets.",
+          "explanation": "Encore faut-il que means roughly but it remains necessary that. In this rhetorical construction, inversion belongs to the fixed presentational pattern; que is followed by the subjunctive soit. It does not literally say an action happens again. This sustained-register pattern is suited to argument rather than an elementary request at a shop.",
+          "data": {
+            "tiles": [
+              {
+                "id": "2f7bf181-0b10-55e8-903a-6d51a5b31933",
+                "text": "Encore"
+              },
+              {
+                "id": "e559d061-ff97-5d96-b11e-7d684717edb1",
+                "text": "faut-il"
+              },
+              {
+                "id": "3f5e5a26-e454-5277-93ed-af141b6b26b3",
+                "text": "que"
+              },
+              {
+                "id": "a37cd074-95d6-5255-935b-dce327ad8a8b",
+                "text": "cette"
+              },
+              {
+                "id": "7b1618c2-b98c-5b2c-9ca0-fa8ba8d19993",
+                "text": "promesse"
+              },
+              {
+                "id": "730ea2ac-5884-563d-9764-e4fa9613aac4",
+                "text": "soit"
+              },
+              {
+                "id": "0c8bd924-702b-5961-a4a5-8c68170e3a59",
+                "text": "suivie"
+              },
+              {
+                "id": "ced8268c-ce1b-5db0-88fd-2e6c53e9679d",
+                "text": "d’effets."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "2f7bf181-0b10-55e8-903a-6d51a5b31933",
+                "e559d061-ff97-5d96-b11e-7d684717edb1",
+                "3f5e5a26-e454-5277-93ed-af141b6b26b3",
+                "a37cd074-95d6-5255-935b-dce327ad8a8b",
+                "7b1618c2-b98c-5b2c-9ca0-fa8ba8d19993",
+                "730ea2ac-5884-563d-9764-e4fa9613aac4",
+                "0c8bd924-702b-5961-a4a5-8c68170e3a59",
+                "ced8268c-ce1b-5db0-88fd-2e6c53e9679d"
+              ]
+            ],
+            "correct_sentence": "Encore faut-il que cette promesse soit suivie d’effets."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "suivi d’effets — followed by action; tenir lieu de — to serve in place of; en suspens — unresolved",
+          "data": {
+            "left_items": [
+              {
+                "id": "f2acf265-25b0-5cc7-b862-040bae420421",
+                "text": "suivi d’effets"
+              },
+              {
+                "id": "4e6efa4b-b8b9-5451-b5e1-a18634b71187",
+                "text": "tenir lieu de"
+              },
+              {
+                "id": "3719f802-7164-5b39-b67d-b7ea601fe5dc",
+                "text": "en suspens"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "06e24f33-e259-5ed3-a66a-18b740606c66",
+                "text": "followed by action"
+              },
+              {
+                "id": "7d5de148-39cd-5c73-b3a6-2173e62f361d",
+                "text": "to serve in place of"
+              },
+              {
+                "id": "52edd989-5991-528a-aa3d-00f8864ee07e",
+                "text": "unresolved"
+              }
+            ],
+            "answer_pairs": {
+              "f2acf265-25b0-5cc7-b862-040bae420421": "06e24f33-e259-5ed3-a66a-18b740606c66",
+              "4e6efa4b-b8b9-5451-b5e1-a18634b71187": "7d5de148-39cd-5c73-b3a6-2173e62f361d",
+              "3719f802-7164-5b39-b67d-b7ea601fe5dc": "52edd989-5991-528a-aa3d-00f8864ee07e"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Encore faut-il que cette promesse soit suivie d’effets.\nEnglish meaning: But that promise still needs to be followed by action.",
+          "data": {
+            "text_fr": "Encore faut-il que cette promesse soit suivie d’effets."
+          },
+          "options": [
+            "But that promise has already been followed by action.",
+            "But that promise no longer needs to be followed by action.",
+            "But that promise still needs to be followed by action."
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: But that promise still needs to be followed by action.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Encore faut-il que cette promesse soit suivie d’effets.",
+          "explanation": "Exact model: Encore faut-il que cette promesse soit suivie d’effets.\nMeaning: But that promise still needs to be followed by action.",
+          "data": {
+            "accepted_answers": [
+              "Encore faut-il que cette promesse soit suivie d’effets."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-1-reading",
+      "skill": "reading",
+      "module_title": "Precision and idiom",
+      "title": "Examine the force of a promise: reading",
+      "objective": "Practise C2-targeted reading in the situation: Examine the force of a promise.",
+      "context": "French passage\nDans une tribune fictive, une porte-parole promet une réforme ambitieuse. Encore faut-il que cette promesse soit suivie d’effets. La formule ne répète pas simplement une nécessité : elle met au jour la condition qui demeure en suspens derrière l’annonce. Pour autant, la réserve exprimée ne saurait tenir lieu d’évaluation. Mon commentaire distingue donc l’effet rhétorique de la promesse, les moyens effectivement annoncés et les critères qui permettraient d’en apprécier la réalisation. Je m’interdis d’attribuer à l’oratrice une intention que le texte ne permet pas d’établir. La discussion peut être incisive sans devenir péremptoire ; elle gagne en force lorsque les limites de son propre raisonnement sont rendues visibles.\n\nEnglish explanation\nEncore faut-il que means roughly but it remains necessary that. In this rhetorical construction, inversion belongs to the fixed presentational pattern; que is followed by the subjunctive soit. It does not literally say an action happens again. This sustained-register pattern is suited to argument rather than an elementary request at a shop.\nModel: Encore faut-il que cette promesse soit suivie d’effets.\nMeaning: But that promise still needs to be followed by action.\n\nGlossary\nsuivi d’effets — followed by action\ntenir lieu de — to serve in place of\nen suspens — unresolved\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Find evidence for the answer in the passage. Distinguish what is stated from what is merely possible.",
+      "vocabulary": [
+        "suivi d’effets",
+        "tenir lieu de",
+        "en suspens"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "What does the comment distinguish?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Dans une tribune fictive, une porte-parole promet une réforme ambitieuse. Encore faut-il que cette promesse soit suivie d’effets. La formule ne répète pas simplement une nécessité : elle met au jour la condition qui demeure en suspens derrière l’annonce. Pour autant, la réserve exprimée ne saurait tenir lieu d’évaluation. Mon commentaire distingue donc l’effet rhétorique de la promesse, les moyens effectivement annoncés et les critères qui permettraient d’en apprécier la réalisation. Je m’interdis d’attribuer à l’oratrice une intention que le texte ne permet pas d’établir. La discussion peut être incisive sans devenir péremptoire ; elle gagne en force lorsque les limites de son propre raisonnement sont rendues visibles.",
+          "data": {},
+          "options": [
+            "Rhetorical effect, announced means and evaluation criteria",
+            "The speaker’s private intentions as established fact",
+            "Only the number of promises"
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Encore faut-il que cette promesse ___ suivie d’effets.",
+          "instructions": "Use être in the present subjunctive, third-person singular. Write only the missing form; keep accents.",
+          "explanation": "Encore faut-il que means roughly but it remains necessary that. In this rhetorical construction, inversion belongs to the fixed presentational pattern; que is followed by the subjunctive soit. It does not literally say an action happens again. This sustained-register pattern is suited to argument rather than an elementary request at a shop.",
+          "data": {
+            "accepted_answers": [
+              "soit"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Encore faut-il que cette promesse soit suivie d’effets.",
+          "explanation": "Encore faut-il que means roughly but it remains necessary that. In this rhetorical construction, inversion belongs to the fixed presentational pattern; que is followed by the subjunctive soit. It does not literally say an action happens again. This sustained-register pattern is suited to argument rather than an elementary request at a shop.",
+          "data": {
+            "tiles": [
+              {
+                "id": "5d59ba65-2b62-5d4c-aace-1bbf7bb9d7d5",
+                "text": "Encore"
+              },
+              {
+                "id": "428ad6d2-91ba-5a2d-9126-baa2bc163925",
+                "text": "faut-il"
+              },
+              {
+                "id": "07077465-5df5-5deb-b15e-b128f6fbb45c",
+                "text": "que"
+              },
+              {
+                "id": "bc18292a-e23f-51f9-a7c9-8733cd59312f",
+                "text": "cette"
+              },
+              {
+                "id": "add05b83-d41c-5fa9-aaa7-3d29beb2aba1",
+                "text": "promesse"
+              },
+              {
+                "id": "9d251817-85d0-53d3-9539-940398af37f2",
+                "text": "soit"
+              },
+              {
+                "id": "773e219d-3967-58e5-81a1-4b39feb831e2",
+                "text": "suivie"
+              },
+              {
+                "id": "a184fed7-c4a7-5f6d-b4fb-000ceab39aef",
+                "text": "d’effets."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "5d59ba65-2b62-5d4c-aace-1bbf7bb9d7d5",
+                "428ad6d2-91ba-5a2d-9126-baa2bc163925",
+                "07077465-5df5-5deb-b15e-b128f6fbb45c",
+                "bc18292a-e23f-51f9-a7c9-8733cd59312f",
+                "add05b83-d41c-5fa9-aaa7-3d29beb2aba1",
+                "9d251817-85d0-53d3-9539-940398af37f2",
+                "773e219d-3967-58e5-81a1-4b39feb831e2",
+                "a184fed7-c4a7-5f6d-b4fb-000ceab39aef"
+              ]
+            ],
+            "correct_sentence": "Encore faut-il que cette promesse soit suivie d’effets."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "suivi d’effets — followed by action; tenir lieu de — to serve in place of; en suspens — unresolved",
+          "data": {
+            "left_items": [
+              {
+                "id": "ff37938e-92a6-55a1-ad1c-00540d13f82b",
+                "text": "suivi d’effets"
+              },
+              {
+                "id": "86e68db3-79a3-562f-859a-e45658afe1af",
+                "text": "tenir lieu de"
+              },
+              {
+                "id": "3a011783-0767-51ba-aa64-50543fc146b1",
+                "text": "en suspens"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "c199249a-0679-577f-8e95-9bb6dbc13098",
+                "text": "followed by action"
+              },
+              {
+                "id": "b495f822-233c-563c-99d7-edf4c51790fb",
+                "text": "to serve in place of"
+              },
+              {
+                "id": "bd96e32e-e960-57c7-9870-cce2accaa0f9",
+                "text": "unresolved"
+              }
+            ],
+            "answer_pairs": {
+              "ff37938e-92a6-55a1-ad1c-00540d13f82b": "c199249a-0679-577f-8e95-9bb6dbc13098",
+              "86e68db3-79a3-562f-859a-e45658afe1af": "b495f822-233c-563c-99d7-edf4c51790fb",
+              "3a011783-0767-51ba-aa64-50543fc146b1": "bd96e32e-e960-57c7-9870-cce2accaa0f9"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Encore faut-il que cette promesse soit suivie d’effets.\nEnglish meaning: But that promise still needs to be followed by action.",
+          "data": {
+            "text_fr": "Encore faut-il que cette promesse soit suivie d’effets."
+          },
+          "options": [
+            "But that promise still needs to be followed by action.",
+            "But that promise has already been followed by action.",
+            "But that promise no longer needs to be followed by action."
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: But that promise still needs to be followed by action.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Encore faut-il que cette promesse soit suivie d’effets.",
+          "explanation": "Exact model: Encore faut-il que cette promesse soit suivie d’effets.\nMeaning: But that promise still needs to be followed by action.",
+          "data": {
+            "accepted_answers": [
+              "Encore faut-il que cette promesse soit suivie d’effets."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-1-writing",
+      "skill": "writing",
+      "module_title": "Precision and idiom",
+      "title": "Examine the force of a promise: writing",
+      "objective": "Practise C2-targeted writing in the situation: Examine the force of a promise.",
+      "context": "French passage\nDans une tribune fictive, une porte-parole promet une réforme ambitieuse. Encore faut-il que cette promesse soit suivie d’effets. La formule ne répète pas simplement une nécessité : elle met au jour la condition qui demeure en suspens derrière l’annonce. Pour autant, la réserve exprimée ne saurait tenir lieu d’évaluation. Mon commentaire distingue donc l’effet rhétorique de la promesse, les moyens effectivement annoncés et les critères qui permettraient d’en apprécier la réalisation. Je m’interdis d’attribuer à l’oratrice une intention que le texte ne permet pas d’établir. La discussion peut être incisive sans devenir péremptoire ; elle gagne en force lorsque les limites de son propre raisonnement sont rendues visibles.\n\nEnglish explanation\nEncore faut-il que means roughly but it remains necessary that. In this rhetorical construction, inversion belongs to the fixed presentational pattern; que is followed by the subjunctive soit. It does not literally say an action happens again. This sustained-register pattern is suited to argument rather than an elementary request at a shop.\nModel: Encore faut-il que cette promesse soit suivie d’effets.\nMeaning: But that promise still needs to be followed by action.\n\nGlossary\nsuivi d’effets — followed by action\ntenir lieu de — to serve in place of\nen suspens — unresolved\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nWrite 220–280 French words. Write an incisive commentary on the promise. Analyse its implied remaining condition, distinguish rhetorical effect from evidence and reformulate the criticism for a non-specialist audience. Use invented personal details. Feedback is advisory, not CEFR certification.\n\nLesson focus: Plan, draft and reread for task completion, grammatical accuracy, suitable vocabulary and audience.",
+      "vocabulary": [
+        "suivi d’effets",
+        "tenir lieu de",
+        "en suspens"
+      ],
+      "estimated_minutes": 15,
+      "exercises": []
+    },
+    {
+      "key": "module-2-grammar",
+      "skill": "grammar",
+      "module_title": "Specialized discourse",
+      "title": "Acknowledge reservations precisely: grammar",
+      "objective": "Practise C2-targeted grammar in the situation: Acknowledge reservations precisely.",
+      "context": "French passage\nUn comité examine plusieurs réserves concernant une méthode de travail. Quelque fondées que soient ces réserves, elles n’épuisent pas le débat. La concession reconnaît leur valeur sans leur attribuer une portée illimitée. Le rapport distingue la solidité d’une objection de son aptitude à invalider l’ensemble d’un dispositif ; il examine aussi les réponses possibles et les questions qui demeurent ouvertes. Cette situation est fictive et ne constitue pas un avis juridique ou technique. L’exercice porte sur l’articulation du raisonnement : concéder un point, circonscrire ce qu’il établit, puis maintenir une question légitime. Une reformulation accessible conserve ces nuances au lieu de réduire le propos à une opposition binaire.\n\nEnglish explanation\nIn quelque fondées que soient ces réserves, quelque modifies the adjective and is an invariable adverb meaning however. The conceded clause takes the subjunctive soient. Contrast plural quelques in quelques réserves, where it determines a noun. Do not mechanically substitute this sustained-register pattern for every même si clause.\nModel: Quelque fondées que soient ces réserves, elles n’épuisent pas le débat.\nMeaning: However well-founded these reservations may be, they do not settle the entire debate.\n\nGlossary\ncirconscrire une question — to delimit an issue\nune objection fondée — a well-founded objection\nune opposition binaire — a binary opposition\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Identify the target form, explain its function, and contrast it with the alternative in the explanation.",
+      "vocabulary": [
+        "circonscrire une question",
+        "une objection fondée",
+        "une opposition binaire"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "What does acknowledging the objections avoid?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Un comité examine plusieurs réserves concernant une méthode de travail. Quelque fondées que soient ces réserves, elles n’épuisent pas le débat. La concession reconnaît leur valeur sans leur attribuer une portée illimitée. Le rapport distingue la solidité d’une objection de son aptitude à invalider l’ensemble d’un dispositif ; il examine aussi les réponses possibles et les questions qui demeurent ouvertes. Cette situation est fictive et ne constitue pas un avis juridique ou technique. L’exercice porte sur l’articulation du raisonnement : concéder un point, circonscrire ce qu’il établit, puis maintenir une question légitime. Une reformulation accessible conserve ces nuances au lieu de réduire le propos à une opposition binaire.",
+          "data": {},
+          "options": [
+            "Pretending no reservation exists",
+            "Reducing every issue to exactly two positions",
+            "Treating valid reservations as an unlimited refutation"
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Quelque fondées que ___ ces réserves, elles n’épuisent pas le débat.",
+          "instructions": "Use être in the present subjunctive, third-person plural, agreeing with ces réserves. Write only the missing form; keep accents.",
+          "explanation": "In quelque fondées que soient ces réserves, quelque modifies the adjective and is an invariable adverb meaning however. The conceded clause takes the subjunctive soient. Contrast plural quelques in quelques réserves, where it determines a noun. Do not mechanically substitute this sustained-register pattern for every même si clause.",
+          "data": {
+            "accepted_answers": [
+              "soient"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Quelque fondées que soient ces réserves, elles n’épuisent pas le débat.",
+          "explanation": "In quelque fondées que soient ces réserves, quelque modifies the adjective and is an invariable adverb meaning however. The conceded clause takes the subjunctive soient. Contrast plural quelques in quelques réserves, where it determines a noun. Do not mechanically substitute this sustained-register pattern for every même si clause.",
+          "data": {
+            "tiles": [
+              {
+                "id": "37caef33-8f63-5302-bfa7-a7f62246e9e0",
+                "text": "Quelque"
+              },
+              {
+                "id": "7e531243-83d4-54af-815a-2b9b41f3a6ce",
+                "text": "fondées"
+              },
+              {
+                "id": "41999a43-9565-590d-8d13-d51dc5e183be",
+                "text": "que"
+              },
+              {
+                "id": "3ac5f7db-4614-55b7-8f89-f6f624307c24",
+                "text": "soient"
+              },
+              {
+                "id": "4085bcfd-537e-5d6c-bd93-b023a05b8f29",
+                "text": "ces"
+              },
+              {
+                "id": "161e32f9-0619-5dd6-9198-7488be5a866d",
+                "text": "réserves,"
+              },
+              {
+                "id": "d80a001c-9d0c-576e-b378-c232ab48dd13",
+                "text": "elles"
+              },
+              {
+                "id": "3d69779f-2e63-5174-96ea-3b75edf40af3",
+                "text": "n’épuisent"
+              },
+              {
+                "id": "2d7b5c0d-91c1-5ad3-808e-3f6c7492be6e",
+                "text": "pas"
+              },
+              {
+                "id": "b2931c8f-94a5-58e7-a4db-6db47b20929c",
+                "text": "le"
+              },
+              {
+                "id": "3a98b510-b78e-5f80-ab48-372fc4ac2ce6",
+                "text": "débat."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "37caef33-8f63-5302-bfa7-a7f62246e9e0",
+                "7e531243-83d4-54af-815a-2b9b41f3a6ce",
+                "41999a43-9565-590d-8d13-d51dc5e183be",
+                "3ac5f7db-4614-55b7-8f89-f6f624307c24",
+                "4085bcfd-537e-5d6c-bd93-b023a05b8f29",
+                "161e32f9-0619-5dd6-9198-7488be5a866d",
+                "d80a001c-9d0c-576e-b378-c232ab48dd13",
+                "3d69779f-2e63-5174-96ea-3b75edf40af3",
+                "2d7b5c0d-91c1-5ad3-808e-3f6c7492be6e",
+                "b2931c8f-94a5-58e7-a4db-6db47b20929c",
+                "3a98b510-b78e-5f80-ab48-372fc4ac2ce6"
+              ]
+            ],
+            "correct_sentence": "Quelque fondées que soient ces réserves, elles n’épuisent pas le débat."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "circonscrire une question — to delimit an issue; une objection fondée — a well-founded objection; une opposition binaire — a binary opposition",
+          "data": {
+            "left_items": [
+              {
+                "id": "6d77c401-7a2e-5007-a595-dc58c1c64409",
+                "text": "circonscrire une question"
+              },
+              {
+                "id": "e3c2c5cc-5352-5690-8a47-b6305871ecbe",
+                "text": "une objection fondée"
+              },
+              {
+                "id": "2e2ec33c-eb7e-5131-b314-2b8a9e775c81",
+                "text": "une opposition binaire"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "1051d894-98b8-5de0-bc20-da4269d0c6ac",
+                "text": "to delimit an issue"
+              },
+              {
+                "id": "b73b004c-dd4a-5d58-ba0c-a70b24eda32e",
+                "text": "a well-founded objection"
+              },
+              {
+                "id": "13c5534e-4ee6-5ab9-8e21-dd7fb5aa0b36",
+                "text": "a binary opposition"
+              }
+            ],
+            "answer_pairs": {
+              "6d77c401-7a2e-5007-a595-dc58c1c64409": "1051d894-98b8-5de0-bc20-da4269d0c6ac",
+              "e3c2c5cc-5352-5690-8a47-b6305871ecbe": "b73b004c-dd4a-5d58-ba0c-a70b24eda32e",
+              "2e2ec33c-eb7e-5131-b314-2b8a9e775c81": "13c5534e-4ee6-5ab9-8e21-dd7fb5aa0b36"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Quelque fondées que soient ces réserves, elles n’épuisent pas le débat.\nEnglish meaning: However well-founded these reservations may be, they do not settle the entire debate.",
+          "data": {
+            "text_fr": "Quelque fondées que soient ces réserves, elles n’épuisent pas le débat."
+          },
+          "options": [
+            "However well-founded these reservations may be, they settle the entire debate.",
+            "However poorly founded these reservations may be, they settle the entire debate.",
+            "However well-founded these reservations may be, they do not settle the entire debate."
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: However well-founded these reservations may be, they do not settle the entire debate.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Quelque fondées que soient ces réserves, elles n’épuisent pas le débat.",
+          "explanation": "Exact model: Quelque fondées que soient ces réserves, elles n’épuisent pas le débat.\nMeaning: However well-founded these reservations may be, they do not settle the entire debate.",
+          "data": {
+            "accepted_answers": [
+              "Quelque fondées que soient ces réserves, elles n’épuisent pas le débat."
+            ]
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "slug": "personal-module-2",
+          "title": "Quelque…que in a concession",
+          "summary": "In quelque fondées que soient ces réserves, quelque modifies the adjective and is an invariable adverb meaning however. The conceded clause takes the subjunctive soient. Contrast plural quelques in quelques réserves, where it determines a noun. Do not mechanically substitute this sustained-register pattern for every même si clause.",
+          "rule_code": "personal-c2-2",
+          "explanation_english": "In quelque fondées que soient ces réserves, quelque modifies the adjective and is an invariable adverb meaning however. The conceded clause takes the subjunctive soient. Contrast plural quelques in quelques réserves, where it determines a noun. Do not mechanically substitute this sustained-register pattern for every même si clause.",
+          "examples": [
+            [
+              "Quelque fondées que soient ces réserves, elles n’épuisent pas le débat.",
+              "However well-founded these reservations may be, they do not settle the entire debate."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "key": "module-2-vocabulary",
+      "skill": "vocabulary",
+      "module_title": "Specialized discourse",
+      "title": "Acknowledge reservations precisely: vocabulary",
+      "objective": "Practise C2-targeted vocabulary in the situation: Acknowledge reservations precisely.",
+      "context": "French passage\nUn comité examine plusieurs réserves concernant une méthode de travail. Quelque fondées que soient ces réserves, elles n’épuisent pas le débat. La concession reconnaît leur valeur sans leur attribuer une portée illimitée. Le rapport distingue la solidité d’une objection de son aptitude à invalider l’ensemble d’un dispositif ; il examine aussi les réponses possibles et les questions qui demeurent ouvertes. Cette situation est fictive et ne constitue pas un avis juridique ou technique. L’exercice porte sur l’articulation du raisonnement : concéder un point, circonscrire ce qu’il établit, puis maintenir une question légitime. Une reformulation accessible conserve ces nuances au lieu de réduire le propos à une opposition binaire.\n\nEnglish explanation\nIn quelque fondées que soient ces réserves, quelque modifies the adjective and is an invariable adverb meaning however. The conceded clause takes the subjunctive soient. Contrast plural quelques in quelques réserves, where it determines a noun. Do not mechanically substitute this sustained-register pattern for every même si clause.\nModel: Quelque fondées que soient ces réserves, elles n’épuisent pas le débat.\nMeaning: However well-founded these reservations may be, they do not settle the entire debate.\n\nGlossary\ncirconscrire une question — to delimit an issue\nune objection fondée — a well-founded objection\nune opposition binaire — a binary opposition\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Read each French definition, match meanings, then use the expressions in your own example.",
+      "vocabulary": [
+        "circonscrire une question",
+        "une objection fondée",
+        "une opposition binaire"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Which French expression means “to delimit an issue”?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "Glossary meaning: circonscrire une question — to delimit an issue.",
+          "data": {},
+          "options": [
+            "circonscrire une question",
+            "une objection fondée",
+            "une opposition binaire"
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Quelque fondées que ___ ces réserves, elles n’épuisent pas le débat.",
+          "instructions": "Use être in the present subjunctive, third-person plural, agreeing with ces réserves. Write only the missing form; keep accents.",
+          "explanation": "In quelque fondées que soient ces réserves, quelque modifies the adjective and is an invariable adverb meaning however. The conceded clause takes the subjunctive soient. Contrast plural quelques in quelques réserves, where it determines a noun. Do not mechanically substitute this sustained-register pattern for every même si clause.",
+          "data": {
+            "accepted_answers": [
+              "soient"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Quelque fondées que soient ces réserves, elles n’épuisent pas le débat.",
+          "explanation": "In quelque fondées que soient ces réserves, quelque modifies the adjective and is an invariable adverb meaning however. The conceded clause takes the subjunctive soient. Contrast plural quelques in quelques réserves, where it determines a noun. Do not mechanically substitute this sustained-register pattern for every même si clause.",
+          "data": {
+            "tiles": [
+              {
+                "id": "c88e85ac-4ead-55b4-9cc9-bc74887963aa",
+                "text": "Quelque"
+              },
+              {
+                "id": "7a6720c4-f09a-50df-9860-92989e1a9510",
+                "text": "fondées"
+              },
+              {
+                "id": "2f7def4c-2b26-5a76-871f-211af70e383b",
+                "text": "que"
+              },
+              {
+                "id": "a72afec8-ce83-5a89-ba4f-d6cdf2dc67fc",
+                "text": "soient"
+              },
+              {
+                "id": "6a0c4f8f-d5e8-53e6-8de0-2782027c9ce1",
+                "text": "ces"
+              },
+              {
+                "id": "ac575988-b5b7-5089-ba6f-64fa54506679",
+                "text": "réserves,"
+              },
+              {
+                "id": "0c5b09d6-b73e-53ac-a23a-efa3f33bdc84",
+                "text": "elles"
+              },
+              {
+                "id": "3526a30c-0552-5739-94e1-a7aa4594aac5",
+                "text": "n’épuisent"
+              },
+              {
+                "id": "236a4874-2aff-5230-ac5a-8aca4ae2354f",
+                "text": "pas"
+              },
+              {
+                "id": "e8baf0e7-4542-529a-a7dd-ab94ab3c2724",
+                "text": "le"
+              },
+              {
+                "id": "e5d79ec1-ad94-5e61-a873-055c770d5162",
+                "text": "débat."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "c88e85ac-4ead-55b4-9cc9-bc74887963aa",
+                "7a6720c4-f09a-50df-9860-92989e1a9510",
+                "2f7def4c-2b26-5a76-871f-211af70e383b",
+                "a72afec8-ce83-5a89-ba4f-d6cdf2dc67fc",
+                "6a0c4f8f-d5e8-53e6-8de0-2782027c9ce1",
+                "ac575988-b5b7-5089-ba6f-64fa54506679",
+                "0c5b09d6-b73e-53ac-a23a-efa3f33bdc84",
+                "3526a30c-0552-5739-94e1-a7aa4594aac5",
+                "236a4874-2aff-5230-ac5a-8aca4ae2354f",
+                "e8baf0e7-4542-529a-a7dd-ab94ab3c2724",
+                "e5d79ec1-ad94-5e61-a873-055c770d5162"
+              ]
+            ],
+            "correct_sentence": "Quelque fondées que soient ces réserves, elles n’épuisent pas le débat."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "circonscrire une question — to delimit an issue; une objection fondée — a well-founded objection; une opposition binaire — a binary opposition",
+          "data": {
+            "left_items": [
+              {
+                "id": "e917b9c9-0ee3-5055-9675-8e80ebf8c5ba",
+                "text": "circonscrire une question"
+              },
+              {
+                "id": "56aedda1-53f4-524e-a134-3f68e98d889f",
+                "text": "une objection fondée"
+              },
+              {
+                "id": "29efaec0-4be3-5584-8fb9-b2b5c8717d19",
+                "text": "une opposition binaire"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "4210084c-e5d7-5bc2-a9c3-d3d4d42904fa",
+                "text": "to delimit an issue"
+              },
+              {
+                "id": "101a4a6b-5235-5ced-a901-d2e504265e96",
+                "text": "a well-founded objection"
+              },
+              {
+                "id": "4b42ae30-e630-5eb8-8a8f-c75b7b52ecba",
+                "text": "a binary opposition"
+              }
+            ],
+            "answer_pairs": {
+              "e917b9c9-0ee3-5055-9675-8e80ebf8c5ba": "4210084c-e5d7-5bc2-a9c3-d3d4d42904fa",
+              "56aedda1-53f4-524e-a134-3f68e98d889f": "101a4a6b-5235-5ced-a901-d2e504265e96",
+              "29efaec0-4be3-5584-8fb9-b2b5c8717d19": "4b42ae30-e630-5eb8-8a8f-c75b7b52ecba"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Quelque fondées que soient ces réserves, elles n’épuisent pas le débat.\nEnglish meaning: However well-founded these reservations may be, they do not settle the entire debate.",
+          "data": {
+            "text_fr": "Quelque fondées que soient ces réserves, elles n’épuisent pas le débat."
+          },
+          "options": [
+            "However well-founded these reservations may be, they do not settle the entire debate.",
+            "However well-founded these reservations may be, they settle the entire debate.",
+            "However poorly founded these reservations may be, they settle the entire debate."
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: However well-founded these reservations may be, they do not settle the entire debate.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Quelque fondées que soient ces réserves, elles n’épuisent pas le débat.",
+          "explanation": "Exact model: Quelque fondées que soient ces réserves, elles n’épuisent pas le débat.\nMeaning: However well-founded these reservations may be, they do not settle the entire debate.",
+          "data": {
+            "accepted_answers": [
+              "Quelque fondées que soient ces réserves, elles n’épuisent pas le débat."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-2-reading",
+      "skill": "reading",
+      "module_title": "Specialized discourse",
+      "title": "Acknowledge reservations precisely: reading",
+      "objective": "Practise C2-targeted reading in the situation: Acknowledge reservations precisely.",
+      "context": "French passage\nUn comité examine plusieurs réserves concernant une méthode de travail. Quelque fondées que soient ces réserves, elles n’épuisent pas le débat. La concession reconnaît leur valeur sans leur attribuer une portée illimitée. Le rapport distingue la solidité d’une objection de son aptitude à invalider l’ensemble d’un dispositif ; il examine aussi les réponses possibles et les questions qui demeurent ouvertes. Cette situation est fictive et ne constitue pas un avis juridique ou technique. L’exercice porte sur l’articulation du raisonnement : concéder un point, circonscrire ce qu’il établit, puis maintenir une question légitime. Une reformulation accessible conserve ces nuances au lieu de réduire le propos à une opposition binaire.\n\nEnglish explanation\nIn quelque fondées que soient ces réserves, quelque modifies the adjective and is an invariable adverb meaning however. The conceded clause takes the subjunctive soient. Contrast plural quelques in quelques réserves, where it determines a noun. Do not mechanically substitute this sustained-register pattern for every même si clause.\nModel: Quelque fondées que soient ces réserves, elles n’épuisent pas le débat.\nMeaning: However well-founded these reservations may be, they do not settle the entire debate.\n\nGlossary\ncirconscrire une question — to delimit an issue\nune objection fondée — a well-founded objection\nune opposition binaire — a binary opposition\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Find evidence for the answer in the passage. Distinguish what is stated from what is merely possible.",
+      "vocabulary": [
+        "circonscrire une question",
+        "une objection fondée",
+        "une opposition binaire"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "What does acknowledging the objections avoid?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Un comité examine plusieurs réserves concernant une méthode de travail. Quelque fondées que soient ces réserves, elles n’épuisent pas le débat. La concession reconnaît leur valeur sans leur attribuer une portée illimitée. Le rapport distingue la solidité d’une objection de son aptitude à invalider l’ensemble d’un dispositif ; il examine aussi les réponses possibles et les questions qui demeurent ouvertes. Cette situation est fictive et ne constitue pas un avis juridique ou technique. L’exercice porte sur l’articulation du raisonnement : concéder un point, circonscrire ce qu’il établit, puis maintenir une question légitime. Une reformulation accessible conserve ces nuances au lieu de réduire le propos à une opposition binaire.",
+          "data": {},
+          "options": [
+            "Pretending no reservation exists",
+            "Treating valid reservations as an unlimited refutation",
+            "Reducing every issue to exactly two positions"
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Quelque fondées que ___ ces réserves, elles n’épuisent pas le débat.",
+          "instructions": "Use être in the present subjunctive, third-person plural, agreeing with ces réserves. Write only the missing form; keep accents.",
+          "explanation": "In quelque fondées que soient ces réserves, quelque modifies the adjective and is an invariable adverb meaning however. The conceded clause takes the subjunctive soient. Contrast plural quelques in quelques réserves, where it determines a noun. Do not mechanically substitute this sustained-register pattern for every même si clause.",
+          "data": {
+            "accepted_answers": [
+              "soient"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Quelque fondées que soient ces réserves, elles n’épuisent pas le débat.",
+          "explanation": "In quelque fondées que soient ces réserves, quelque modifies the adjective and is an invariable adverb meaning however. The conceded clause takes the subjunctive soient. Contrast plural quelques in quelques réserves, where it determines a noun. Do not mechanically substitute this sustained-register pattern for every même si clause.",
+          "data": {
+            "tiles": [
+              {
+                "id": "ac459ec1-cbaa-5e70-8a66-d34d405f3c81",
+                "text": "Quelque"
+              },
+              {
+                "id": "a3117b5f-e5ab-5c33-a1e0-cb82b78a956e",
+                "text": "fondées"
+              },
+              {
+                "id": "079c3990-8fcf-5d92-bffb-26f92b2de89c",
+                "text": "que"
+              },
+              {
+                "id": "93745cf1-ca52-517c-92f7-f311d90d4cf9",
+                "text": "soient"
+              },
+              {
+                "id": "b13cbe44-9e8d-58a6-b372-40cf7bcfbfff",
+                "text": "ces"
+              },
+              {
+                "id": "59ef7351-4c54-5878-b89a-54d731ec8ed6",
+                "text": "réserves,"
+              },
+              {
+                "id": "18823c6c-82c7-51c1-905a-beb4ba8a4ebf",
+                "text": "elles"
+              },
+              {
+                "id": "c5cccce0-155f-524c-a359-8862e10b6d94",
+                "text": "n’épuisent"
+              },
+              {
+                "id": "24154ffa-1ed0-5172-a76a-d4ead5777881",
+                "text": "pas"
+              },
+              {
+                "id": "d7b0e447-02e2-503c-9140-9060ca4dc32a",
+                "text": "le"
+              },
+              {
+                "id": "93543cf1-5d38-5a59-8c5f-fa947713a8d4",
+                "text": "débat."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "ac459ec1-cbaa-5e70-8a66-d34d405f3c81",
+                "a3117b5f-e5ab-5c33-a1e0-cb82b78a956e",
+                "079c3990-8fcf-5d92-bffb-26f92b2de89c",
+                "93745cf1-ca52-517c-92f7-f311d90d4cf9",
+                "b13cbe44-9e8d-58a6-b372-40cf7bcfbfff",
+                "59ef7351-4c54-5878-b89a-54d731ec8ed6",
+                "18823c6c-82c7-51c1-905a-beb4ba8a4ebf",
+                "c5cccce0-155f-524c-a359-8862e10b6d94",
+                "24154ffa-1ed0-5172-a76a-d4ead5777881",
+                "d7b0e447-02e2-503c-9140-9060ca4dc32a",
+                "93543cf1-5d38-5a59-8c5f-fa947713a8d4"
+              ]
+            ],
+            "correct_sentence": "Quelque fondées que soient ces réserves, elles n’épuisent pas le débat."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "circonscrire une question — to delimit an issue; une objection fondée — a well-founded objection; une opposition binaire — a binary opposition",
+          "data": {
+            "left_items": [
+              {
+                "id": "7c6fbcbd-62aa-505a-9179-aa31876e1c61",
+                "text": "circonscrire une question"
+              },
+              {
+                "id": "6995d10b-06d8-516f-8ad0-1f6a39ca30d9",
+                "text": "une objection fondée"
+              },
+              {
+                "id": "dc50e987-7f36-52ba-9005-c52ad49f460f",
+                "text": "une opposition binaire"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "3bbe10eb-ff3f-5638-abd6-02808f541fbc",
+                "text": "to delimit an issue"
+              },
+              {
+                "id": "858768eb-fee3-548f-aaf8-192f4212d23b",
+                "text": "a well-founded objection"
+              },
+              {
+                "id": "6c35b642-5387-546c-b6b6-420a80da32f5",
+                "text": "a binary opposition"
+              }
+            ],
+            "answer_pairs": {
+              "7c6fbcbd-62aa-505a-9179-aa31876e1c61": "3bbe10eb-ff3f-5638-abd6-02808f541fbc",
+              "6995d10b-06d8-516f-8ad0-1f6a39ca30d9": "858768eb-fee3-548f-aaf8-192f4212d23b",
+              "dc50e987-7f36-52ba-9005-c52ad49f460f": "6c35b642-5387-546c-b6b6-420a80da32f5"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Quelque fondées que soient ces réserves, elles n’épuisent pas le débat.\nEnglish meaning: However well-founded these reservations may be, they do not settle the entire debate.",
+          "data": {
+            "text_fr": "Quelque fondées que soient ces réserves, elles n’épuisent pas le débat."
+          },
+          "options": [
+            "However well-founded these reservations may be, they settle the entire debate.",
+            "However well-founded these reservations may be, they do not settle the entire debate.",
+            "However poorly founded these reservations may be, they settle the entire debate."
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: However well-founded these reservations may be, they do not settle the entire debate.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Quelque fondées que soient ces réserves, elles n’épuisent pas le débat.",
+          "explanation": "Exact model: Quelque fondées que soient ces réserves, elles n’épuisent pas le débat.\nMeaning: However well-founded these reservations may be, they do not settle the entire debate.",
+          "data": {
+            "accepted_answers": [
+              "Quelque fondées que soient ces réserves, elles n’épuisent pas le débat."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-2-writing",
+      "skill": "writing",
+      "module_title": "Specialized discourse",
+      "title": "Acknowledge reservations precisely: writing",
+      "objective": "Practise C2-targeted writing in the situation: Acknowledge reservations precisely.",
+      "context": "French passage\nUn comité examine plusieurs réserves concernant une méthode de travail. Quelque fondées que soient ces réserves, elles n’épuisent pas le débat. La concession reconnaît leur valeur sans leur attribuer une portée illimitée. Le rapport distingue la solidité d’une objection de son aptitude à invalider l’ensemble d’un dispositif ; il examine aussi les réponses possibles et les questions qui demeurent ouvertes. Cette situation est fictive et ne constitue pas un avis juridique ou technique. L’exercice porte sur l’articulation du raisonnement : concéder un point, circonscrire ce qu’il établit, puis maintenir une question légitime. Une reformulation accessible conserve ces nuances au lieu de réduire le propos à une opposition binaire.\n\nEnglish explanation\nIn quelque fondées que soient ces réserves, quelque modifies the adjective and is an invariable adverb meaning however. The conceded clause takes the subjunctive soient. Contrast plural quelques in quelques réserves, where it determines a noun. Do not mechanically substitute this sustained-register pattern for every même si clause.\nModel: Quelque fondées que soient ces réserves, elles n’épuisent pas le débat.\nMeaning: However well-founded these reservations may be, they do not settle the entire debate.\n\nGlossary\ncirconscrire une question — to delimit an issue\nune objection fondée — a well-founded objection\nune opposition binaire — a binary opposition\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nWrite 220–280 French words. Write a nuanced response to the committee's reservations. Concede their force, delimit what they establish and explain what remains unresolved. Finish with an accessible paraphrase that preserves the nuance. Use invented personal details. Feedback is advisory, not CEFR certification.\n\nLesson focus: Plan, draft and reread for task completion, grammatical accuracy, suitable vocabulary and audience.",
+      "vocabulary": [
+        "circonscrire une question",
+        "une objection fondée",
+        "une opposition binaire"
+      ],
+      "estimated_minutes": 15,
+      "exercises": []
+    },
+    {
+      "key": "module-3-grammar",
+      "skill": "grammar",
+      "module_title": "Context-sensitive expression",
+      "title": "Negotiate interview wording: grammar",
+      "objective": "Practise C2-targeted grammar in the situation: Negotiate interview wording.",
+      "context": "French passage\nLors de la préparation d’un entretien, deux collègues discutent d’une formule destinée à résumer un désaccord. Si tant est que cette formule convienne, encore faudrait-il en préciser la portée. L’une juge l’expression trop catégorique ; l’autre craint qu’une atténuation excessive n’efface le point de divergence. Ils recherchent une formulation intelligible à un public non spécialiste, sans trahir la complexité du sujet. Une pointe d’ironie, efficace à l’oral entre collègues, pourrait sembler désobligeante dans un compte rendu. La révision consiste donc à ajuster simultanément le degré d’engagement, le registre et les présupposés. Aucune formule n’est tenue pour élégante indépendamment de son destinataire et de l’effet qu’elle produit.\n\nEnglish explanation\nSi tant est que introduces a reservation about an assumption and takes the subjunctive here: convienne. It differs from an ordinary si + indicative conditional. Encore faudrait-il adds a further qualified condition. This is cautious argument, not a recommendation to make every practical request indirect; register and the listener’s needs remain central.\nModel: Si tant est que cette formule convienne, encore faudrait-il en préciser la portée.\nMeaning: Even assuming that this wording is suitable, its scope would still need to be clarified.\n\nGlossary\nle degré d’engagement — the degree of commitment\nun présupposé — a presupposition\nune formulation catégorique — a categorical formulation\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Identify the target form, explain its function, and contrast it with the alternative in the explanation.",
+      "vocabulary": [
+        "le degré d’engagement",
+        "un présupposé",
+        "une formulation catégorique"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Why might irony be changed in the report?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Lors de la préparation d’un entretien, deux collègues discutent d’une formule destinée à résumer un désaccord. Si tant est que cette formule convienne, encore faudrait-il en préciser la portée. L’une juge l’expression trop catégorique ; l’autre craint qu’une atténuation excessive n’efface le point de divergence. Ils recherchent une formulation intelligible à un public non spécialiste, sans trahir la complexité du sujet. Une pointe d’ironie, efficace à l’oral entre collègues, pourrait sembler désobligeante dans un compte rendu. La révision consiste donc à ajuster simultanément le degré d’engagement, le registre et les présupposés. Aucune formule n’est tenue pour élégante indépendamment de son destinataire et de l’effet qu’elle produit.",
+          "data": {},
+          "options": [
+            "Its effect depends on audience and context",
+            "It always makes formal writing clearer",
+            "It eliminates every disagreement"
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Si tant est que cette formule ___, encore faudrait-il en préciser la portée.",
+          "instructions": "Use convenir in the present subjunctive, third-person singular. Write only the missing form; keep accents.",
+          "explanation": "Si tant est que introduces a reservation about an assumption and takes the subjunctive here: convienne. It differs from an ordinary si + indicative conditional. Encore faudrait-il adds a further qualified condition. This is cautious argument, not a recommendation to make every practical request indirect; register and the listener’s needs remain central.",
+          "data": {
+            "accepted_answers": [
+              "convienne"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Si tant est que cette formule convienne, encore faudrait-il en préciser la portée.",
+          "explanation": "Si tant est que introduces a reservation about an assumption and takes the subjunctive here: convienne. It differs from an ordinary si + indicative conditional. Encore faudrait-il adds a further qualified condition. This is cautious argument, not a recommendation to make every practical request indirect; register and the listener’s needs remain central.",
+          "data": {
+            "tiles": [
+              {
+                "id": "7ca48742-197a-5641-a627-865a7be8ecfb",
+                "text": "Si"
+              },
+              {
+                "id": "e7afc4ad-cf54-5da9-a23b-802dd74eaddf",
+                "text": "tant"
+              },
+              {
+                "id": "0ad9b578-f35a-5a86-b5e8-802a23fb2ecb",
+                "text": "est"
+              },
+              {
+                "id": "54fe7e1c-303f-561c-aae8-69316e15da04",
+                "text": "que"
+              },
+              {
+                "id": "1d2efd0a-9be5-516a-a410-dbe1ebea6747",
+                "text": "cette"
+              },
+              {
+                "id": "6acc7052-7d15-5aa6-b8e5-15758ec3d175",
+                "text": "formule"
+              },
+              {
+                "id": "b0a24969-44fd-5393-a505-7886f3ed0f96",
+                "text": "convienne,"
+              },
+              {
+                "id": "0bbbf297-5a08-58b3-9d60-7b91e4fac0a8",
+                "text": "encore"
+              },
+              {
+                "id": "8ca380df-2a4e-5e8e-a589-7a8a996fe0a3",
+                "text": "faudrait-il"
+              },
+              {
+                "id": "83e20f00-a4a1-5090-a03d-330820b79ba2",
+                "text": "en"
+              },
+              {
+                "id": "a4db1616-e1e2-53ff-b4ce-a09f224038f3",
+                "text": "préciser"
+              },
+              {
+                "id": "b74d4715-ee50-5ae6-b35f-7b9dcd0e8a79",
+                "text": "la"
+              },
+              {
+                "id": "936ed332-026b-59a6-ae45-3cbd53bcdb0e",
+                "text": "portée."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "7ca48742-197a-5641-a627-865a7be8ecfb",
+                "e7afc4ad-cf54-5da9-a23b-802dd74eaddf",
+                "0ad9b578-f35a-5a86-b5e8-802a23fb2ecb",
+                "54fe7e1c-303f-561c-aae8-69316e15da04",
+                "1d2efd0a-9be5-516a-a410-dbe1ebea6747",
+                "6acc7052-7d15-5aa6-b8e5-15758ec3d175",
+                "b0a24969-44fd-5393-a505-7886f3ed0f96",
+                "0bbbf297-5a08-58b3-9d60-7b91e4fac0a8",
+                "8ca380df-2a4e-5e8e-a589-7a8a996fe0a3",
+                "83e20f00-a4a1-5090-a03d-330820b79ba2",
+                "a4db1616-e1e2-53ff-b4ce-a09f224038f3",
+                "b74d4715-ee50-5ae6-b35f-7b9dcd0e8a79",
+                "936ed332-026b-59a6-ae45-3cbd53bcdb0e"
+              ]
+            ],
+            "correct_sentence": "Si tant est que cette formule convienne, encore faudrait-il en préciser la portée."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "le degré d’engagement — the degree of commitment; un présupposé — a presupposition; une formulation catégorique — a categorical formulation",
+          "data": {
+            "left_items": [
+              {
+                "id": "c5e109ed-5ec7-5085-9740-c575396f81fe",
+                "text": "le degré d’engagement"
+              },
+              {
+                "id": "aff2f373-d3e1-55fd-8080-5bb1e8ebb45f",
+                "text": "un présupposé"
+              },
+              {
+                "id": "16c207ee-e7eb-58cc-8e05-491886d9d7cb",
+                "text": "une formulation catégorique"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "7cc04d3e-65d2-5e0b-9463-24b0d5b6f4ff",
+                "text": "the degree of commitment"
+              },
+              {
+                "id": "e4ecabb4-41da-5a43-a2e0-3691ba81da45",
+                "text": "a presupposition"
+              },
+              {
+                "id": "fc97eda6-d1ac-5f94-b3bf-b3ace0b7dd51",
+                "text": "a categorical formulation"
+              }
+            ],
+            "answer_pairs": {
+              "c5e109ed-5ec7-5085-9740-c575396f81fe": "7cc04d3e-65d2-5e0b-9463-24b0d5b6f4ff",
+              "aff2f373-d3e1-55fd-8080-5bb1e8ebb45f": "e4ecabb4-41da-5a43-a2e0-3691ba81da45",
+              "16c207ee-e7eb-58cc-8e05-491886d9d7cb": "fc97eda6-d1ac-5f94-b3bf-b3ace0b7dd51"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Si tant est que cette formule convienne, encore faudrait-il en préciser la portée.\nEnglish meaning: Even assuming that this wording is suitable, its scope would still need to be clarified.",
+          "data": {
+            "text_fr": "Si tant est que cette formule convienne, encore faudrait-il en préciser la portée."
+          },
+          "options": [
+            "Even assuming that this wording is suitable, its scope would still need to be clarified.",
+            "Even assuming that this wording is suitable, its scope is already clear.",
+            "Even assuming that this wording is unsuitable, its scope need not be clarified."
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: Even assuming that this wording is suitable, its scope would still need to be clarified.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Si tant est que cette formule convienne, encore faudrait-il en préciser la portée.",
+          "explanation": "Exact model: Si tant est que cette formule convienne, encore faudrait-il en préciser la portée.\nMeaning: Even assuming that this wording is suitable, its scope would still need to be clarified.",
+          "data": {
+            "accepted_answers": [
+              "Si tant est que cette formule convienne, encore faudrait-il en préciser la portée."
+            ]
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "slug": "personal-module-3",
+          "title": "Qualified assumptions and pragmatic scope",
+          "summary": "Si tant est que introduces a reservation about an assumption and takes the subjunctive here: convienne. It differs from an ordinary si + indicative conditional. Encore faudrait-il adds a further qualified condition. This is cautious argument, not a recommendation to make every practical request indirect; register and the listener’s needs remain central.",
+          "rule_code": "personal-c2-3",
+          "explanation_english": "Si tant est que introduces a reservation about an assumption and takes the subjunctive here: convienne. It differs from an ordinary si + indicative conditional. Encore faudrait-il adds a further qualified condition. This is cautious argument, not a recommendation to make every practical request indirect; register and the listener’s needs remain central.",
+          "examples": [
+            [
+              "Si tant est que cette formule convienne, encore faudrait-il en préciser la portée.",
+              "Even assuming that this wording is suitable, its scope would still need to be clarified."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "key": "module-3-vocabulary",
+      "skill": "vocabulary",
+      "module_title": "Context-sensitive expression",
+      "title": "Negotiate interview wording: vocabulary",
+      "objective": "Practise C2-targeted vocabulary in the situation: Negotiate interview wording.",
+      "context": "French passage\nLors de la préparation d’un entretien, deux collègues discutent d’une formule destinée à résumer un désaccord. Si tant est que cette formule convienne, encore faudrait-il en préciser la portée. L’une juge l’expression trop catégorique ; l’autre craint qu’une atténuation excessive n’efface le point de divergence. Ils recherchent une formulation intelligible à un public non spécialiste, sans trahir la complexité du sujet. Une pointe d’ironie, efficace à l’oral entre collègues, pourrait sembler désobligeante dans un compte rendu. La révision consiste donc à ajuster simultanément le degré d’engagement, le registre et les présupposés. Aucune formule n’est tenue pour élégante indépendamment de son destinataire et de l’effet qu’elle produit.\n\nEnglish explanation\nSi tant est que introduces a reservation about an assumption and takes the subjunctive here: convienne. It differs from an ordinary si + indicative conditional. Encore faudrait-il adds a further qualified condition. This is cautious argument, not a recommendation to make every practical request indirect; register and the listener’s needs remain central.\nModel: Si tant est que cette formule convienne, encore faudrait-il en préciser la portée.\nMeaning: Even assuming that this wording is suitable, its scope would still need to be clarified.\n\nGlossary\nle degré d’engagement — the degree of commitment\nun présupposé — a presupposition\nune formulation catégorique — a categorical formulation\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Read each French definition, match meanings, then use the expressions in your own example.",
+      "vocabulary": [
+        "le degré d’engagement",
+        "un présupposé",
+        "une formulation catégorique"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Which French expression means “the degree of commitment”?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "Glossary meaning: le degré d’engagement — the degree of commitment.",
+          "data": {},
+          "options": [
+            "un présupposé",
+            "le degré d’engagement",
+            "une formulation catégorique"
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Si tant est que cette formule ___, encore faudrait-il en préciser la portée.",
+          "instructions": "Use convenir in the present subjunctive, third-person singular. Write only the missing form; keep accents.",
+          "explanation": "Si tant est que introduces a reservation about an assumption and takes the subjunctive here: convienne. It differs from an ordinary si + indicative conditional. Encore faudrait-il adds a further qualified condition. This is cautious argument, not a recommendation to make every practical request indirect; register and the listener’s needs remain central.",
+          "data": {
+            "accepted_answers": [
+              "convienne"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Si tant est que cette formule convienne, encore faudrait-il en préciser la portée.",
+          "explanation": "Si tant est que introduces a reservation about an assumption and takes the subjunctive here: convienne. It differs from an ordinary si + indicative conditional. Encore faudrait-il adds a further qualified condition. This is cautious argument, not a recommendation to make every practical request indirect; register and the listener’s needs remain central.",
+          "data": {
+            "tiles": [
+              {
+                "id": "e300710a-2594-595d-9436-b18e85b36dc9",
+                "text": "Si"
+              },
+              {
+                "id": "771dc071-ad24-5371-983c-dcb4a335ae69",
+                "text": "tant"
+              },
+              {
+                "id": "7f867028-396d-517a-9df2-6bb91225b46d",
+                "text": "est"
+              },
+              {
+                "id": "3cd889b4-175a-5387-b050-f4b8e8d31ff7",
+                "text": "que"
+              },
+              {
+                "id": "33e3d30c-a9d4-51ce-811f-4630ff06ef97",
+                "text": "cette"
+              },
+              {
+                "id": "f2e69f57-4d56-5acd-81d4-2bd583f98dca",
+                "text": "formule"
+              },
+              {
+                "id": "7fefd683-2c7b-5110-b328-cb06336e6d22",
+                "text": "convienne,"
+              },
+              {
+                "id": "8afe4afb-9fb0-5ae8-bec6-4aa3e1ed359c",
+                "text": "encore"
+              },
+              {
+                "id": "4c6de1ce-e614-59a6-8ac0-671d3ba6cc06",
+                "text": "faudrait-il"
+              },
+              {
+                "id": "a5ec567d-becd-5c4c-a05f-cd89c9dcf188",
+                "text": "en"
+              },
+              {
+                "id": "241ec620-2a8f-5b4f-96da-fa5ae56ebdb3",
+                "text": "préciser"
+              },
+              {
+                "id": "b440e609-025c-5e3b-b284-7907a516f07a",
+                "text": "la"
+              },
+              {
+                "id": "3cb3e7a9-50cf-5434-9230-379a0b58a667",
+                "text": "portée."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "e300710a-2594-595d-9436-b18e85b36dc9",
+                "771dc071-ad24-5371-983c-dcb4a335ae69",
+                "7f867028-396d-517a-9df2-6bb91225b46d",
+                "3cd889b4-175a-5387-b050-f4b8e8d31ff7",
+                "33e3d30c-a9d4-51ce-811f-4630ff06ef97",
+                "f2e69f57-4d56-5acd-81d4-2bd583f98dca",
+                "7fefd683-2c7b-5110-b328-cb06336e6d22",
+                "8afe4afb-9fb0-5ae8-bec6-4aa3e1ed359c",
+                "4c6de1ce-e614-59a6-8ac0-671d3ba6cc06",
+                "a5ec567d-becd-5c4c-a05f-cd89c9dcf188",
+                "241ec620-2a8f-5b4f-96da-fa5ae56ebdb3",
+                "b440e609-025c-5e3b-b284-7907a516f07a",
+                "3cb3e7a9-50cf-5434-9230-379a0b58a667"
+              ]
+            ],
+            "correct_sentence": "Si tant est que cette formule convienne, encore faudrait-il en préciser la portée."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "le degré d’engagement — the degree of commitment; un présupposé — a presupposition; une formulation catégorique — a categorical formulation",
+          "data": {
+            "left_items": [
+              {
+                "id": "ff747032-2b30-5c7c-8c86-90631116a814",
+                "text": "le degré d’engagement"
+              },
+              {
+                "id": "04f6d9a0-4303-5d6d-9a2d-4f5ee9d21b30",
+                "text": "un présupposé"
+              },
+              {
+                "id": "580f9bb6-27cb-55ca-bb17-d654f4882593",
+                "text": "une formulation catégorique"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "328aeac9-099b-5ef6-ad23-4e56c994f73e",
+                "text": "the degree of commitment"
+              },
+              {
+                "id": "7623419e-1e8e-55d9-b114-e7c94349d852",
+                "text": "a presupposition"
+              },
+              {
+                "id": "4bab412f-67d3-5cf4-8b55-f6b2ffbd041d",
+                "text": "a categorical formulation"
+              }
+            ],
+            "answer_pairs": {
+              "ff747032-2b30-5c7c-8c86-90631116a814": "328aeac9-099b-5ef6-ad23-4e56c994f73e",
+              "04f6d9a0-4303-5d6d-9a2d-4f5ee9d21b30": "7623419e-1e8e-55d9-b114-e7c94349d852",
+              "580f9bb6-27cb-55ca-bb17-d654f4882593": "4bab412f-67d3-5cf4-8b55-f6b2ffbd041d"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Si tant est que cette formule convienne, encore faudrait-il en préciser la portée.\nEnglish meaning: Even assuming that this wording is suitable, its scope would still need to be clarified.",
+          "data": {
+            "text_fr": "Si tant est que cette formule convienne, encore faudrait-il en préciser la portée."
+          },
+          "options": [
+            "Even assuming that this wording is suitable, its scope is already clear.",
+            "Even assuming that this wording is suitable, its scope would still need to be clarified.",
+            "Even assuming that this wording is unsuitable, its scope need not be clarified."
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: Even assuming that this wording is suitable, its scope would still need to be clarified.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Si tant est que cette formule convienne, encore faudrait-il en préciser la portée.",
+          "explanation": "Exact model: Si tant est que cette formule convienne, encore faudrait-il en préciser la portée.\nMeaning: Even assuming that this wording is suitable, its scope would still need to be clarified.",
+          "data": {
+            "accepted_answers": [
+              "Si tant est que cette formule convienne, encore faudrait-il en préciser la portée."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-3-reading",
+      "skill": "reading",
+      "module_title": "Context-sensitive expression",
+      "title": "Negotiate interview wording: reading",
+      "objective": "Practise C2-targeted reading in the situation: Negotiate interview wording.",
+      "context": "French passage\nLors de la préparation d’un entretien, deux collègues discutent d’une formule destinée à résumer un désaccord. Si tant est que cette formule convienne, encore faudrait-il en préciser la portée. L’une juge l’expression trop catégorique ; l’autre craint qu’une atténuation excessive n’efface le point de divergence. Ils recherchent une formulation intelligible à un public non spécialiste, sans trahir la complexité du sujet. Une pointe d’ironie, efficace à l’oral entre collègues, pourrait sembler désobligeante dans un compte rendu. La révision consiste donc à ajuster simultanément le degré d’engagement, le registre et les présupposés. Aucune formule n’est tenue pour élégante indépendamment de son destinataire et de l’effet qu’elle produit.\n\nEnglish explanation\nSi tant est que introduces a reservation about an assumption and takes the subjunctive here: convienne. It differs from an ordinary si + indicative conditional. Encore faudrait-il adds a further qualified condition. This is cautious argument, not a recommendation to make every practical request indirect; register and the listener’s needs remain central.\nModel: Si tant est que cette formule convienne, encore faudrait-il en préciser la portée.\nMeaning: Even assuming that this wording is suitable, its scope would still need to be clarified.\n\nGlossary\nle degré d’engagement — the degree of commitment\nun présupposé — a presupposition\nune formulation catégorique — a categorical formulation\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Find evidence for the answer in the passage. Distinguish what is stated from what is merely possible.",
+      "vocabulary": [
+        "le degré d’engagement",
+        "un présupposé",
+        "une formulation catégorique"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Why might irony be changed in the report?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Lors de la préparation d’un entretien, deux collègues discutent d’une formule destinée à résumer un désaccord. Si tant est que cette formule convienne, encore faudrait-il en préciser la portée. L’une juge l’expression trop catégorique ; l’autre craint qu’une atténuation excessive n’efface le point de divergence. Ils recherchent une formulation intelligible à un public non spécialiste, sans trahir la complexité du sujet. Une pointe d’ironie, efficace à l’oral entre collègues, pourrait sembler désobligeante dans un compte rendu. La révision consiste donc à ajuster simultanément le degré d’engagement, le registre et les présupposés. Aucune formule n’est tenue pour élégante indépendamment de son destinataire et de l’effet qu’elle produit.",
+          "data": {},
+          "options": [
+            "It always makes formal writing clearer",
+            "It eliminates every disagreement",
+            "Its effect depends on audience and context"
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Si tant est que cette formule ___, encore faudrait-il en préciser la portée.",
+          "instructions": "Use convenir in the present subjunctive, third-person singular. Write only the missing form; keep accents.",
+          "explanation": "Si tant est que introduces a reservation about an assumption and takes the subjunctive here: convienne. It differs from an ordinary si + indicative conditional. Encore faudrait-il adds a further qualified condition. This is cautious argument, not a recommendation to make every practical request indirect; register and the listener’s needs remain central.",
+          "data": {
+            "accepted_answers": [
+              "convienne"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Si tant est que cette formule convienne, encore faudrait-il en préciser la portée.",
+          "explanation": "Si tant est que introduces a reservation about an assumption and takes the subjunctive here: convienne. It differs from an ordinary si + indicative conditional. Encore faudrait-il adds a further qualified condition. This is cautious argument, not a recommendation to make every practical request indirect; register and the listener’s needs remain central.",
+          "data": {
+            "tiles": [
+              {
+                "id": "d6659642-ac47-54ae-8ffb-33db65d3d06e",
+                "text": "Si"
+              },
+              {
+                "id": "a16d5967-1722-5f8e-a17c-f17f911dd7ff",
+                "text": "tant"
+              },
+              {
+                "id": "ecbf5a61-dd63-5b54-b652-0f8f165aaade",
+                "text": "est"
+              },
+              {
+                "id": "d16e2357-cc75-55c3-ba4e-49bffb763715",
+                "text": "que"
+              },
+              {
+                "id": "d19dcbf7-c167-5140-8877-91b64b907e6b",
+                "text": "cette"
+              },
+              {
+                "id": "f9feba75-fcf6-5abd-9a5a-fc6f11c7ce6f",
+                "text": "formule"
+              },
+              {
+                "id": "eb932e48-37c3-5817-8b82-67cbd98b36ad",
+                "text": "convienne,"
+              },
+              {
+                "id": "d328e99f-9f3d-5d28-a198-0039ffa3b3b8",
+                "text": "encore"
+              },
+              {
+                "id": "71ca627b-822a-5684-a837-21a2e990bd24",
+                "text": "faudrait-il"
+              },
+              {
+                "id": "71ea01f2-25c0-57de-a4ed-98aa9b3088a6",
+                "text": "en"
+              },
+              {
+                "id": "cc6bdcdc-bd58-53d5-8670-416ceba822f5",
+                "text": "préciser"
+              },
+              {
+                "id": "92e4ef71-b947-5798-9e40-618ef6a8f0c3",
+                "text": "la"
+              },
+              {
+                "id": "1f254811-7763-56de-abc3-c8d8d8b04f3b",
+                "text": "portée."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "d6659642-ac47-54ae-8ffb-33db65d3d06e",
+                "a16d5967-1722-5f8e-a17c-f17f911dd7ff",
+                "ecbf5a61-dd63-5b54-b652-0f8f165aaade",
+                "d16e2357-cc75-55c3-ba4e-49bffb763715",
+                "d19dcbf7-c167-5140-8877-91b64b907e6b",
+                "f9feba75-fcf6-5abd-9a5a-fc6f11c7ce6f",
+                "eb932e48-37c3-5817-8b82-67cbd98b36ad",
+                "d328e99f-9f3d-5d28-a198-0039ffa3b3b8",
+                "71ca627b-822a-5684-a837-21a2e990bd24",
+                "71ea01f2-25c0-57de-a4ed-98aa9b3088a6",
+                "cc6bdcdc-bd58-53d5-8670-416ceba822f5",
+                "92e4ef71-b947-5798-9e40-618ef6a8f0c3",
+                "1f254811-7763-56de-abc3-c8d8d8b04f3b"
+              ]
+            ],
+            "correct_sentence": "Si tant est que cette formule convienne, encore faudrait-il en préciser la portée."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "le degré d’engagement — the degree of commitment; un présupposé — a presupposition; une formulation catégorique — a categorical formulation",
+          "data": {
+            "left_items": [
+              {
+                "id": "79f54384-d8cc-51d6-a667-74fdc0cbf737",
+                "text": "le degré d’engagement"
+              },
+              {
+                "id": "4b09dcc6-6e14-5f73-8c14-58018647d12f",
+                "text": "un présupposé"
+              },
+              {
+                "id": "56389d08-48ab-5399-8506-259be2537b21",
+                "text": "une formulation catégorique"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "de695209-6b06-57b5-a888-5646bd5e6df8",
+                "text": "the degree of commitment"
+              },
+              {
+                "id": "be31a6c5-4445-523e-8d80-2b59d0edc5d9",
+                "text": "a presupposition"
+              },
+              {
+                "id": "a72312ef-656d-590d-847f-29b5983c8deb",
+                "text": "a categorical formulation"
+              }
+            ],
+            "answer_pairs": {
+              "79f54384-d8cc-51d6-a667-74fdc0cbf737": "de695209-6b06-57b5-a888-5646bd5e6df8",
+              "4b09dcc6-6e14-5f73-8c14-58018647d12f": "be31a6c5-4445-523e-8d80-2b59d0edc5d9",
+              "56389d08-48ab-5399-8506-259be2537b21": "a72312ef-656d-590d-847f-29b5983c8deb"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Si tant est que cette formule convienne, encore faudrait-il en préciser la portée.\nEnglish meaning: Even assuming that this wording is suitable, its scope would still need to be clarified.",
+          "data": {
+            "text_fr": "Si tant est que cette formule convienne, encore faudrait-il en préciser la portée."
+          },
+          "options": [
+            "Even assuming that this wording is suitable, its scope is already clear.",
+            "Even assuming that this wording is unsuitable, its scope need not be clarified.",
+            "Even assuming that this wording is suitable, its scope would still need to be clarified."
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: Even assuming that this wording is suitable, its scope would still need to be clarified.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Si tant est que cette formule convienne, encore faudrait-il en préciser la portée.",
+          "explanation": "Exact model: Si tant est que cette formule convienne, encore faudrait-il en préciser la portée.\nMeaning: Even assuming that this wording is suitable, its scope would still need to be clarified.",
+          "data": {
+            "accepted_answers": [
+              "Si tant est que cette formule convienne, encore faudrait-il en préciser la portée."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-3-writing",
+      "skill": "writing",
+      "module_title": "Context-sensitive expression",
+      "title": "Negotiate interview wording: writing",
+      "objective": "Practise C2-targeted writing in the situation: Negotiate interview wording.",
+      "context": "French passage\nLors de la préparation d’un entretien, deux collègues discutent d’une formule destinée à résumer un désaccord. Si tant est que cette formule convienne, encore faudrait-il en préciser la portée. L’une juge l’expression trop catégorique ; l’autre craint qu’une atténuation excessive n’efface le point de divergence. Ils recherchent une formulation intelligible à un public non spécialiste, sans trahir la complexité du sujet. Une pointe d’ironie, efficace à l’oral entre collègues, pourrait sembler désobligeante dans un compte rendu. La révision consiste donc à ajuster simultanément le degré d’engagement, le registre et les présupposés. Aucune formule n’est tenue pour élégante indépendamment de son destinataire et de l’effet qu’elle produit.\n\nEnglish explanation\nSi tant est que introduces a reservation about an assumption and takes the subjunctive here: convienne. It differs from an ordinary si + indicative conditional. Encore faudrait-il adds a further qualified condition. This is cautious argument, not a recommendation to make every practical request indirect; register and the listener’s needs remain central.\nModel: Si tant est que cette formule convienne, encore faudrait-il en préciser la portée.\nMeaning: Even assuming that this wording is suitable, its scope would still need to be clarified.\n\nGlossary\nle degré d’engagement — the degree of commitment\nun présupposé — a presupposition\nune formulation catégorique — a categorical formulation\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nWrite 220–280 French words. Write two versions of the disagreement: an informal spoken exchange and a formal report. Explain how commitment, irony and presuppositions change with the audience. Use invented personal details. Feedback is advisory, not CEFR certification.\n\nLesson focus: Plan, draft and reread for task completion, grammatical accuracy, suitable vocabulary and audience.",
+      "vocabulary": [
+        "le degré d’engagement",
+        "un présupposé",
+        "une formulation catégorique"
+      ],
+      "estimated_minutes": 15,
+      "exercises": []
+    }
+  ]
+}

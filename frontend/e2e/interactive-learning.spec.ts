@@ -7,7 +7,7 @@ let fixture:Fixture;
 const csrfCookie=process.env.PLAYWRIGHT_CSRF_COOKIE_NAME ?? 'fluentloop_csrf';
 test.beforeEach(()=>{
   test.skip(process.env.M08_E2E_REAL_API!=='1','Requires isolated M08 PostgreSQL API and prepared synthetic accounts.');
-  fixture=JSON.parse(readFileSync('../.speech-data/m08-browser-fixture.json','utf8')) as Fixture;
+  fixture=JSON.parse(readFileSync(process.env.PLAYWRIGHT_LEARNING_FIXTURE ?? '../.speech-data/m08-browser-fixture.json','utf8')) as Fixture;
 });
 async function login(page:Page,email:string){
   await page.goto('/login');await page.getByLabel('Email').fill(email);
@@ -25,7 +25,7 @@ test('real PostgreSQL six formats, Piper audio, saved feedback, resume and compl
   const csrf=(await page.context().cookies()).find(c=>c.name===csrfCookie)!.value;
   const active=await (await page.request.get(`${base}/learning/sessions?status=in_progress`)).json();
   for(const item of active.items)if(item.lesson_id===fixture.lesson_id && item.activity_key==='lesson')
-    expect((await page.request.post(`${base}/learning/sessions/${item.id}/abandon`,{headers:{Origin:'http://127.0.0.1:3008','X-CSRF-Token':csrf}})).status()).toBe(200);
+    expect((await page.request.post(`${base}/learning/sessions/${item.id}/abandon`,{headers:{Origin:new URL(page.url()).origin,'X-CSRF-Token':csrf}})).status()).toBe(200);
   await page.goto('/courses');const tabs=page.getByRole('navigation',{name:'Learn sections'});
   await expect(tabs.getByRole('link')).toHaveCount(4);
   await expect(tabs.getByRole('link',{name:'Assessments',exact:true})).toBeVisible();
@@ -73,7 +73,7 @@ test('ordinary account cannot use draft library, grammar, practice, AI context o
   for(const path of ['/learning/library','/learning/grammar'])expect((await (await page.request.get(base+path)).json()).items).toEqual([]);
   await page.goto('/practice');await expect(page.getByRole('button',{name:'Start practice'}).first()).toBeDisabled();
   const cookies=await page.context().cookies();const csrf=cookies.find(c=>c.name===csrfCookie)!.value;
-  for(const action of ['tutor','speaking'])expect((await page.request.post(`${base}/learning/lessons/${fixture.lesson_id}/${action}`,{headers:{Origin:'http://127.0.0.1:3008','X-CSRF-Token':csrf}})).status()).toBe(404);
+  for(const action of ['tutor','speaking'])expect((await page.request.post(`${base}/learning/lessons/${fixture.lesson_id}/${action}`,{headers:{Origin:new URL(page.url()).origin,'X-CSRF-Token':csrf}})).status()).toBe(404);
 });
 
 test('grammar AI and speaking actions reuse owned linked conversations',async({page})=>{
@@ -88,8 +88,14 @@ test('mobile sentence controls support keyboard and reset without overflow',asyn
   await page.setViewportSize({width:390,height:844});await login(page,fixture.admin);await page.goto('/practice');
   const card=page.getByRole('article').filter({has:page.getByRole('heading',{name:'Sentence building',exact:true})});
   await card.getByRole('button',{name:'Start practice'}).click();await expect(page).toHaveURL(/\/learning\/sessions\//);
-  await page.getByLabel('Available words').getByRole('button',{name:'Je',exact:true}).focus();await page.keyboard.press('Enter');
-  await expect(page.getByRole('button',{name:'Remove Je',exact:true})).toBeVisible();
-  await page.getByRole('button',{name:'Reset sentence'}).click();await expect(page.getByLabel('Available words').getByRole('button')).toHaveCount(3);
+  await expect(page.getByLabel('Available words')).toBeVisible();
+  const originalWords = await page.getByLabel('Available words').getByRole('button').allTextContents();
+  expect(originalWords.length).toBeGreaterThanOrEqual(2);
+  const selectedWord=originalWords[0];
+  await page.getByLabel('Available words').getByRole('button').first().focus();await page.keyboard.press('Enter');
+  await expect(page.getByRole('button',{name:`Remove ${selectedWord}`,exact:true})).toBeVisible();
+  await page.getByRole('button',{name:'Reset sentence'}).click();
+  await expect(page.getByLabel('Available words').getByRole('button')).toHaveText(originalWords);
+  await expect(page.getByRole('button',{name:`Remove ${selectedWord}`,exact:true})).toHaveCount(0);
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
 });

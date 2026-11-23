@@ -1,0 +1,166 @@
+{
+  "version": "0.4.3",
+  "level": "B1",
+  "status": "draft",
+  "source_license": "Original AI-assisted scenario drafts. Independent human language, pedagogy, answer-key and CEFR calibration reviews pending.",
+  "tasks": [
+    {
+      "key": "interpret-scenario",
+      "skill": "reading",
+      "title": "Resolve a housing repair misunderstanding",
+      "objective": "Explain a misunderstanding, acknowledge uncertainty and request a practical solution without unsupported accusations.",
+      "context": "Quand Samir a signalé une fuite sous l’évier, l’agence lui a proposé un passage mardi matin. Il a accepté, puis a demandé si le technicien pouvait prévenir une demi-heure avant son arrivée. L’agence a répondu : « Nous transmettons votre demande. » Mardi, personne n’a appelé. Samir est donc parti travailler et a trouvé, le soir, un avis de passage. Il reconnaît qu’aucune confirmation d’appel ne lui avait été donnée, mais estime que la réponse de l’agence prêtait à confusion. Il souhaite un nouveau créneau et une confirmation écrite des modalités, plutôt qu’accuser le technicien d’avoir manqué un rendez-vous.\n\nUnderstand: Distinguish a request being forwarded from a commitment being accepted. The narrative acknowledges Samir’s assumption while explaining his dissatisfaction. Prêter à confusion evaluates clarity; it does not prove deliberate deception.\n\nLanguage: Use avait été donnée to locate a missing confirmation before the later discovery; plutôt que contrasts possible responses. Retain who said or assumed each claim.",
+      "vocabulary": [
+        "un créneau",
+        "prêter à confusion",
+        "un avis de passage"
+      ],
+      "exercises": [
+        {
+          "key": "read-1",
+          "type": "multiple_choice",
+          "prompt": "What had the agency explicitly promised?",
+          "instructions": "Read the French passage. Choose the claim supported by this text, not a broader assumption.",
+          "explanation": "The supported interpretation is: To pass on the request. Distinguish a request being forwarded from a commitment being accepted. The narrative acknowledges Samir’s assumption while explaining his dissatisfaction. Prêter à confusion evaluates clarity; it does not prove deliberate deception.",
+          "options": [
+            "To pass on the request",
+            "That the technician would call",
+            "A free repair that evening"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "read-2",
+          "type": "multiple_choice",
+          "prompt": "Which response best fits Samir’s stated aim?",
+          "instructions": "Read the French passage. Choose the claim supported by this text, not a broader assumption.",
+          "explanation": "The supported interpretation is: Ask for another slot and written arrangements. Distinguish a request being forwarded from a commitment being accepted. The narrative acknowledges Samir’s assumption while explaining his dissatisfaction. Prêter à confusion evaluates clarity; it does not prove deliberate deception.",
+          "options": [
+            "Accuse the technician of lying",
+            "Ask for another slot and written arrangements",
+            "Claim no visit ever occurred"
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "listen-stance",
+          "type": "listening",
+          "prompt": "What remains uncertain?",
+          "instructions": "Listen before answering. The audio is an original scripted excerpt; synthetic playback is not an authentic multi-speaker recording.",
+          "explanation": "Nous transmettons votre demande. Je peux vous proposer jeudi après-midi, mais je dois encore confirmer le passage avec le technicien. — The technician’s visit is not yet confirmed",
+          "options": [
+            "The agency refuses every visit",
+            "Thursday has already been cancelled",
+            "The technician’s visit is not yet confirmed"
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Nous transmettons votre demande. Je peux vous proposer jeudi après-midi, mais je dois encore confirmer le passage avec le technicien."
+          }
+        },
+        {
+          "key": "lexical-scope",
+          "type": "matching",
+          "prompt": "Match expressions with their contextual meanings.",
+          "instructions": "Match the meaning used in this scenario; these are not exhaustive dictionary definitions.",
+          "explanation": "un créneau — a time slot; prêter à confusion — to be liable to cause confusion; un avis de passage — a notice of an attempted visit",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "9f85d2d8-98bb-5964-b497-d684df03941f",
+                "text": "un créneau"
+              },
+              {
+                "id": "5ffb7a36-d48e-548f-a753-d035899ccba0",
+                "text": "prêter à confusion"
+              },
+              {
+                "id": "7a317412-6793-5225-a0f9-9038c08edeb2",
+                "text": "un avis de passage"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "fe2249c1-a9b5-58cb-affb-66a545db19e5",
+                "text": "a notice of an attempted visit"
+              },
+              {
+                "id": "956e7162-9503-5083-9b10-12ba9f20704f",
+                "text": "to be liable to cause confusion"
+              },
+              {
+                "id": "fcf00b21-bd4e-5b48-87c8-3901a70ad5b2",
+                "text": "a time slot"
+              }
+            ],
+            "answer_pairs": {
+              "9f85d2d8-98bb-5964-b497-d684df03941f": "fcf00b21-bd4e-5b48-87c8-3901a70ad5b2",
+              "5ffb7a36-d48e-548f-a753-d035899ccba0": "956e7162-9503-5083-9b10-12ba9f20704f",
+              "7a317412-6793-5225-a0f9-9038c08edeb2": "fe2249c1-a9b5-58cb-affb-66a545db19e5"
+            }
+          }
+        }
+      ],
+      "module_title": "Resolve a housing repair misunderstanding",
+      "estimated_minutes": 35,
+      "grammar": [],
+      "prerequisites": []
+    },
+    {
+      "key": "transfer-and-review",
+      "skill": "writing",
+      "title": "Transfer and review: Resolve a housing repair misunderstanding",
+      "objective": "Explain a misunderstanding, acknowledge uncertainty and request a practical solution without unsupported accusations.",
+      "context": "Write 140–170 French words to the agency. State the sequence, acknowledge what was not confirmed, explain the effect and request a new slot with written conditions. Avoid inventing legal rights. Check tone, chronology and ownership of claims.\n\nSpeaking transfer: Negotiate a new repair slot with the Tutor as the agency. Explain your assumption, accept one limitation and obtain an explicit confirmation.\n\nRevision: Retell using request, response, assumption and consequence. Reuse two expressions in a different service problem.\n\nSelf-review: check task fulfilment, evidence, sequence, grammar and spelling. Save a revised version after feedback. AI feedback is advisory; this module check is not a calibrated diagnostic or CEFR level-end examination.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Resolve a housing repair misunderstanding",
+      "estimated_minutes": 45,
+      "grammar": [],
+      "prerequisites": [
+        "interpret-scenario"
+      ]
+    }
+  ],
+  "title": "B1 scenario: Resolve a housing repair misunderstanding",
+  "glossary": [
+    {
+      "lemma": "un créneau",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "a time slot",
+      "definition_french": "Dans ce contexte : un créneau.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "prêter à confusion",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to be liable to cause confusion",
+      "definition_french": "Dans ce contexte : prêter à confusion.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "un avis de passage",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "a notice of an attempted visit",
+      "definition_french": "Dans ce contexte : un avis de passage.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    }
+  ],
+  "learning_stage": null
+}

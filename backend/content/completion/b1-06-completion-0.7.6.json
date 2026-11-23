@@ -1,0 +1,225 @@
+{
+  "version": "0.7.6",
+  "level": "B1",
+  "status": "draft",
+  "source_license": "Original AI-assisted module drafts. Qualified independent linguistic, pedagogical, phonetic, answer-key and CEFR reviews pending.",
+  "tasks": [
+    {
+      "key": "read-and-notice",
+      "skill": "grammar",
+      "title": "Follow a local news discussion without exaggerating: read and notice",
+      "objective": "Use reported statements to distinguish an announcement, a question and an unanswered point. Pendant un mois limits the trial; après l’essai locates the later review.",
+      "context": "Un journal local annonce que la piscine municipale ouvrira plus tôt deux jours par semaine pendant un mois d’essai. La mairie dit vouloir observer la demande des personnes qui travaillent le matin. Un habitant s’en réjouit, mais rappelle que le bus arrive après la nouvelle ouverture. Une association demande aussi si le tarif restera identique. L’article ne donne pas encore la réponse. Le journaliste précise qu’une réunion aura lieu après l’essai. Dire que les nouveaux horaires seront définitifs, ou que le prix a augmenté, irait au-delà de l’information publiée.",
+      "vocabulary": [
+        "un mois d’essai annoncé",
+        "une question restée sans réponse",
+        "regarder aussi le trajet"
+      ],
+      "exercises": [
+        {
+          "key": "read-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which point is not answered in the article?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Whether the price stays the same. Source: Un journal local annonce que la piscine municipale ouvrira plus tôt deux jours par semaine pendant un mois d’essai. La mairie dit vouloir observer la demande des personnes qui travaillent le matin. Un habitant s’en réjouit, mais rappelle que le bus arrive après la nouvelle ouverture. Une association demande aussi si le tarif restera identique. L’article ne donne pas encore la réponse. Le journaliste précise qu’une réunion aura lieu après l’essai. Dire que les nouveaux horaires seront définitifs, ou que le prix a augmenté, irait au-delà de l’information publiée.",
+          "options": [
+            "Whether the price stays the same",
+            "Whether there will be a trial",
+            "Whether the pool is municipal"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "grammar-scope",
+          "type": "multiple_choice",
+          "prompt": "Which report preserves the temporary nature?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Use reported statements to distinguish an announcement, a question and an unanswered point. Pendant un mois limits the trial; après l’essai locates the later review.",
+          "options": [
+            "Les horaires sont définitivement adoptés.",
+            "Les horaires seront testés pendant un mois.",
+            "L’essai est déjà terminé."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "contextual-vocabulary",
+          "type": "matching",
+          "prompt": "Match the contextual expressions with their meanings.",
+          "instructions": "Use each meaning once; these are contextual definitions.",
+          "explanation": "un mois d’essai annoncé — an announced one-month trial; une question restée sans réponse — a question left unanswered; regarder aussi le trajet — to examine the journey as well",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "e92339e7-6609-54e3-8a2a-a8d2a0ea0434",
+                "text": "un mois d’essai annoncé"
+              },
+              {
+                "id": "8629f10c-7f6b-5475-be71-fc0cd03868e9",
+                "text": "une question restée sans réponse"
+              },
+              {
+                "id": "0d479145-852c-5f8a-a77d-51c065b85b0a",
+                "text": "regarder aussi le trajet"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "49565f85-dfba-50b3-9a15-233b604ea332",
+                "text": "to examine the journey as well"
+              },
+              {
+                "id": "8cdc35f4-806d-5cdf-af1a-4564593812a2",
+                "text": "a question left unanswered"
+              },
+              {
+                "id": "3c0f6e6a-fb75-5ef2-b667-0010ac082c32",
+                "text": "an announced one-month trial"
+              }
+            ],
+            "answer_pairs": {
+              "e92339e7-6609-54e3-8a2a-a8d2a0ea0434": "3c0f6e6a-fb75-5ef2-b667-0010ac082c32",
+              "8629f10c-7f6b-5475-be71-fc0cd03868e9": "8cdc35f4-806d-5cdf-af1a-4564593812a2",
+              "0d479145-852c-5f8a-a77d-51c065b85b0a": "49565f85-dfba-50b3-9a15-233b604ea332"
+            }
+          }
+        }
+      ],
+      "module_title": "Follow a local news discussion without exaggerating",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "completion-b1-06",
+          "title": "Follow a local news discussion without exaggerating",
+          "summary": "Use reported statements to distinguish an announcement, a question and an unanswered point. Pendant un mois limits the trial; après l’essai locates the later review.",
+          "rule_code": "completion-b1-06",
+          "explanation_english": "Use reported statements to distinguish an announcement, a question and an unanswered point. Pendant un mois limits the trial; après l’essai locates the later review.",
+          "examples": [
+            [
+              "Le journal annonce que l’essai durera un mois.",
+              "The newspaper reports that the trial will last one month."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "listen-and-integrate",
+      "skill": "reading",
+      "title": "Follow a local news discussion without exaggerating: listen and integrate",
+      "objective": "Identify details, stance and limits of commitment in the scripted exchange, then integrate both sources.",
+      "context": "Original scripted exchange for listening and transcript-assisted review. One synthetic voice may perform every role; this does not demonstrate spontaneous multi-speaker comprehension.\n\nJournaliste : Vous soutenez cette ouverture ? Habitante : Oui, si l’accès suit. Pour moi, gagner une heure à la piscine ne sert pas beaucoup si le premier bus arrive trop tard. Je ne demande pas de supprimer l’essai ; je demande qu’on regarde aussi le trajet.",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "listen-position",
+          "type": "listening",
+          "prompt": "What is the inhabitant’s position?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Support the trial while checking transport access. Script: Journaliste : Vous soutenez cette ouverture ? Habitante : Oui, si l’accès suit. Pour moi, gagner une heure à la piscine ne sert pas beaucoup si le premier bus arrive trop tard. Je ne demande pas de supprimer l’essai ; je demande qu’on regarde aussi le trajet.",
+          "options": [
+            "Cancel every early opening",
+            "Claim the bus timetable has already changed",
+            "Support the trial while checking transport access"
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Journaliste : Vous soutenez cette ouverture ? Habitante : Oui, si l’accès suit. Pour moi, gagner une heure à la piscine ne sert pas beaucoup si le premier bus arrive trop tard. Je ne demande pas de supprimer l’essai ; je demande qu’on regarde aussi le trajet."
+          }
+        },
+        {
+          "key": "integrate-sources",
+          "type": "multiple_choice",
+          "prompt": "Which headline would be misleading?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Early opening permanently adopted. Compare the reading and listening sources.",
+          "options": [
+            "One-month trial announced",
+            "Early opening permanently adopted",
+            "Transport access questioned"
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "locate-phrase",
+          "type": "short_answer",
+          "prompt": "Copy the short phrase naming the additional issue to examine.",
+          "instructions": "Transcript available in this lesson: copy the exact requested phrase. This item checks location/spelling, not open-ended interpretation.",
+          "explanation": "Exact source phrase: le trajet",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "le trajet"
+            ]
+          }
+        }
+      ],
+      "module_title": "Follow a local news discussion without exaggerating",
+      "estimated_minutes": 25,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice"
+      ]
+    },
+    {
+      "key": "transfer-and-assess",
+      "skill": "writing",
+      "title": "Follow a local news discussion without exaggerating: transfer and assess",
+      "objective": "Transfer the module language to an unfamiliar situation and review comprehension, writing and interaction separately.",
+      "context": "Write 150–180 French words summarising the news for a classmate. Separate facts, a resident’s opinion and one unanswered question. Role-play a short interview with the Tutor and reformulate the reply without changing a conditional opinion into an unconditional one.\n\nRevision: retrieve the three contextual expressions without the model on a later day; correct saved errors and reuse them in a new scenario.\n\nReview task fulfilment, source fidelity, grammar, vocabulary, organisation and interaction/repair separately. Treat spelling extraction as supported practice, not proficiency evidence. Optional AI feedback is advisory. Independent human language/phonetic review and empirical calibration remain pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Follow a local news discussion without exaggerating",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice",
+        "listen-and-integrate"
+      ]
+    }
+  ],
+  "title": "B1 module completion: Follow a local news discussion without exaggerating",
+  "glossary": [
+    {
+      "lemma": "un mois d’essai annoncé",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "an announced one-month trial",
+      "definition_french": "Une période temporaire prévue pour tester le changement.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "une question restée sans réponse",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "a question left unanswered",
+      "definition_french": "Un point sur lequel aucune réponse n’a encore été donnée.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "regarder aussi le trajet",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to examine the journey as well",
+      "definition_french": "Prendre en compte le déplacement nécessaire pour accéder au service.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    }
+  ],
+  "learning_stage": null
+}

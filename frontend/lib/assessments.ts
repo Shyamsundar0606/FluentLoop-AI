@@ -1,5 +1,6 @@
 import { apiRequest } from "@/lib/api";
 import type { LearningSession } from "@/lib/learning";
+export const MAX_WRITING_CHARACTERS = 8000;
 
 export type AssessmentSkill = "grammar" | "vocabulary" | "reading" | "listening" | "writing";
 export type AssessmentDefinition = {
@@ -60,7 +61,7 @@ export type WritingSubmission = {
 };
 
 export const assessments = {
-  catalog: () => apiRequest<{ level: string; draft_preview: boolean; items: AssessmentDefinition[] }>("/learning/assessments"),
+  catalog: (level?: string) => apiRequest<{ level: string; draft_preview: boolean; items: AssessmentDefinition[] }>(`/learning/assessments${level ? `?level=${encodeURIComponent(level.toUpperCase())}` : ''}`),
   start: (item: AssessmentDefinition) => apiRequest<LearningSession>("/learning/assessments/sessions", {
     method: "POST", body: JSON.stringify({ skill: item.skill, lesson_id: item.lesson_id }),
   }),

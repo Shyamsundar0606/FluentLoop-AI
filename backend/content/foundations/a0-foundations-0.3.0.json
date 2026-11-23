@@ -1,0 +1,1168 @@
+{
+  "version": "0.3.0",
+  "level": "A1",
+  "status": "draft",
+  "source_license": "Original AI-assisted introductory drafts; independent linguistic, phonetic, pedagogical, answer-key and licensing reviews pending.",
+  "tasks": [
+    {
+      "key": "letters-and-name",
+      "skill": "vocabulary",
+      "title": "Letters and your first name",
+      "objective": "Recognise, understand, type and say this short model: Je m’appelle Léa.",
+      "context": "Start here\nBonjour. Je m’appelle Léa. Mon prénom commence par L.\n\nUnderstand\nA first name is a useful starting point for spelling. The French alphabet has 26 letters: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z. Letter names and the sounds in words are different: do not pronounce a word by reading English letter names. Learn je m’appelle as a complete expression meaning my name is. Use an invented name here.\n\nHear and say\nListen to the whole model, repeat it, and ask the Tutor to practise spelling a name one letter at a time. Synthetic letter-name playback needs human checking; a speech transcript does not score pronunciation.\nModel: Je m’appelle Léa.\nMeaning: My name is Léa.\n\nGlossary\nla lettre A — the letter A\nla lettre B — the letter B\nmon prénom — my first name\n\nPractise: listen, point to the matching words, then say the model. Ask the Tutor to repeat slowly. Review the previous model before continuing. No CEFR or pronunciation score is awarded.",
+      "vocabulary": [
+        "la lettre A",
+        "la lettre B",
+        "mon prénom"
+      ],
+      "exercises": [
+        {
+          "key": "read-detail",
+          "type": "multiple_choice",
+          "prompt": "What is the speaker’s first name?",
+          "instructions": "Find the answer in the short French passage.",
+          "explanation": "Passage: Bonjour. Je m’appelle Léa. Mon prénom commence par L.",
+          "options": [
+            "Marie",
+            "Léa",
+            "Paul"
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "complete-model",
+          "type": "fill_blank",
+          "prompt": "Je m’___ Léa.",
+          "instructions": "Copy the missing word from the model expression je m’appelle.",
+          "explanation": "A first name is a useful starting point for spelling. The French alphabet has 26 letters: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z. Letter names and the sounds in words are different: do not pronounce a word by reading English letter names. Learn je m’appelle as a complete expression meaning my name is. Use an invented name here.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "appelle"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild this exact model: Je m’appelle Léa.",
+          "instructions": "Use every tile once in the quoted model order.",
+          "explanation": "A first name is a useful starting point for spelling. The French alphabet has 26 letters: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z. Letter names and the sounds in words are different: do not pronounce a word by reading English letter names. Learn je m’appelle as a complete expression meaning my name is. Use an invented name here.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "fd8296e4-17eb-5e26-bd19-a75e6c3c59db",
+                "text": "Je"
+              },
+              {
+                "id": "d617954c-fd14-5963-9d25-bb8b4de08412",
+                "text": "m’appelle"
+              },
+              {
+                "id": "a8eeaf4d-e197-5fa5-8db8-1fb81100f967",
+                "text": "Léa."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "fd8296e4-17eb-5e26-bd19-a75e6c3c59db",
+                "d617954c-fd14-5963-9d25-bb8b4de08412",
+                "a8eeaf4d-e197-5fa5-8db8-1fb81100f967"
+              ]
+            ],
+            "correct_sentence": "Je m’appelle Léa."
+          }
+        },
+        {
+          "key": "match-meaning",
+          "type": "matching",
+          "prompt": "Match the expressions and meanings.",
+          "instructions": "Use each meaning once.",
+          "explanation": "la lettre A — the letter A; la lettre B — the letter B; mon prénom — my first name",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "d6f8a13f-714b-5e91-875e-3c32275c06d8",
+                "text": "la lettre A"
+              },
+              {
+                "id": "f2a2588d-305b-513a-a543-298b4defbe63",
+                "text": "la lettre B"
+              },
+              {
+                "id": "45632d47-6a2f-5799-8575-08f609ae5367",
+                "text": "mon prénom"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "9c931040-1362-5d08-934b-5b7d201778e3",
+                "text": "the letter A"
+              },
+              {
+                "id": "65ed1941-1560-59b0-8934-fdd93ad5738e",
+                "text": "the letter B"
+              },
+              {
+                "id": "0ac9d71f-7ef5-5995-a713-954aac1374bc",
+                "text": "my first name"
+              }
+            ],
+            "answer_pairs": {
+              "d6f8a13f-714b-5e91-875e-3c32275c06d8": "9c931040-1362-5d08-934b-5b7d201778e3",
+              "f2a2588d-305b-513a-a543-298b4defbe63": "65ed1941-1560-59b0-8934-fdd93ad5738e",
+              "45632d47-6a2f-5799-8575-08f609ae5367": "0ac9d71f-7ef5-5995-a713-954aac1374bc"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering.",
+          "explanation": "Je m’appelle Léa. — My name is Léa.",
+          "options": [
+            "My name is Marie.",
+            "My name is Léa.",
+            "Her name is Léa."
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Je m’appelle Léa."
+          }
+        },
+        {
+          "key": "copy-model",
+          "type": "short_answer",
+          "prompt": "Write the quoted French model for: My name is Léa.",
+          "instructions": "Exact-model spelling practice: Je m’appelle Léa.",
+          "explanation": "Je m’appelle Léa.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "Je m’appelle Léa."
+            ]
+          }
+        }
+      ],
+      "module_title": "Meet French sounds and letters",
+      "estimated_minutes": 15,
+      "grammar": [],
+      "prerequisites": []
+    },
+    {
+      "key": "hear-u-and-ou",
+      "skill": "reading",
+      "title": "Hear u and ou in short phrases",
+      "objective": "Recognise, understand, type and say this short model: Tu es où ?",
+      "context": "Start here\nTu es où ? — Je suis ici. Tout va bien.\n\nUnderstand\nFrench u and ou represent different vowel sounds in these examples: tu and tout. Hear the difference before trying to explain the grammar. Tu es où ? is a familiar spoken question meaning Where are you? Je suis ici means I am here. Practise with someone you know; tu is informal singular.\n\nHear and say\nFrench u is /y/ and ou is /u/ in these examples. For /y/, keep the tongue near the position for /i/ while rounding the lips; /u/ has a farther-back tongue position. Listen, repeat slowly and compare by ear. These are introductory cues, not an acoustic score.\nModel: Tu es où ?\nMeaning: Where are you?\n\nGlossary\ntu es où — where are you\ntout va bien — everything is fine\nje suis ici — I am here\n\nPractise: listen, point to the matching words, then say the model. Ask the Tutor to repeat slowly. Review the previous model before continuing. No CEFR or pronunciation score is awarded.",
+      "vocabulary": [
+        "tu es où",
+        "tout va bien",
+        "je suis ici"
+      ],
+      "exercises": [
+        {
+          "key": "read-detail",
+          "type": "multiple_choice",
+          "prompt": "Which reply gives the speaker’s location?",
+          "instructions": "Find the answer in the short French passage.",
+          "explanation": "Passage: Tu es où ? — Je suis ici. Tout va bien.",
+          "options": [
+            "Tout va bien.",
+            "Bonjour.",
+            "Je suis ici."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "complete-model",
+          "type": "fill_blank",
+          "prompt": "___ es où ?",
+          "instructions": "Use the informal singular pronoun from the model question.",
+          "explanation": "French u and ou represent different vowel sounds in these examples: tu and tout. Hear the difference before trying to explain the grammar. Tu es où ? is a familiar spoken question meaning Where are you? Je suis ici means I am here. Practise with someone you know; tu is informal singular.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "Tu"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild this exact model: Tu es où ?",
+          "instructions": "Use every tile once in the quoted model order.",
+          "explanation": "French u and ou represent different vowel sounds in these examples: tu and tout. Hear the difference before trying to explain the grammar. Tu es où ? is a familiar spoken question meaning Where are you? Je suis ici means I am here. Practise with someone you know; tu is informal singular.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "233a4805-db72-59b0-b380-e95e9c1eff98",
+                "text": "Tu"
+              },
+              {
+                "id": "59481711-0475-5769-b84a-9e8f0a5730c6",
+                "text": "es"
+              },
+              {
+                "id": "4b3fd5b9-4dfc-5d7e-9023-8bb71a2dd13b",
+                "text": "où"
+              },
+              {
+                "id": "183ec696-ced0-5aa4-b815-d22bc2b00ced",
+                "text": "?"
+              }
+            ],
+            "accepted_orders": [
+              [
+                "233a4805-db72-59b0-b380-e95e9c1eff98",
+                "59481711-0475-5769-b84a-9e8f0a5730c6",
+                "4b3fd5b9-4dfc-5d7e-9023-8bb71a2dd13b",
+                "183ec696-ced0-5aa4-b815-d22bc2b00ced"
+              ]
+            ],
+            "correct_sentence": "Tu es où ?"
+          }
+        },
+        {
+          "key": "match-meaning",
+          "type": "matching",
+          "prompt": "Match the expressions and meanings.",
+          "instructions": "Use each meaning once.",
+          "explanation": "tu es où — where are you; tout va bien — everything is fine; je suis ici — I am here",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "1f4e4fd9-e608-55fe-a648-ede882255509",
+                "text": "tu es où"
+              },
+              {
+                "id": "2904afbf-9c10-5316-bdec-59670373adcb",
+                "text": "tout va bien"
+              },
+              {
+                "id": "40c10e2e-8a05-5889-8639-51335db2b660",
+                "text": "je suis ici"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "42301fee-5e7e-5c3f-914e-90a1fe118db5",
+                "text": "where are you"
+              },
+              {
+                "id": "3331ae3b-3704-5a32-aea4-32c053bd298c",
+                "text": "everything is fine"
+              },
+              {
+                "id": "60e352d3-524e-5225-bf26-4962c13614ba",
+                "text": "I am here"
+              }
+            ],
+            "answer_pairs": {
+              "1f4e4fd9-e608-55fe-a648-ede882255509": "42301fee-5e7e-5c3f-914e-90a1fe118db5",
+              "2904afbf-9c10-5316-bdec-59670373adcb": "3331ae3b-3704-5a32-aea4-32c053bd298c",
+              "40c10e2e-8a05-5889-8639-51335db2b660": "60e352d3-524e-5225-bf26-4962c13614ba"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering.",
+          "explanation": "Tu es où ? — Where are you?",
+          "options": [
+            "Who are you?",
+            "Where am I?",
+            "Where are you?"
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Tu es où ?"
+          }
+        },
+        {
+          "key": "copy-model",
+          "type": "short_answer",
+          "prompt": "Write the quoted French model for: Where are you?",
+          "instructions": "Exact-model spelling practice: Tu es où ?",
+          "explanation": "Tu es où ?",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "Tu es où ?"
+            ]
+          }
+        }
+      ],
+      "module_title": "Meet French sounds and letters",
+      "estimated_minutes": 15,
+      "grammar": [],
+      "prerequisites": [
+        "letters-and-name"
+      ]
+    },
+    {
+      "key": "greet-and-leave",
+      "skill": "vocabulary",
+      "title": "Greet someone and say goodbye",
+      "objective": "Recognise, understand, type and say this short model: Bonjour, madame.",
+      "context": "Start here\nBonjour, madame. — Bonjour ! — Au revoir, madame. — Au revoir !\n\nUnderstand\nBonjour opens a daytime exchange. Au revoir closes it. Madame and monsieur address people politely when appropriate. Salut is familiar and can mean hi or bye; learn it with a clear context rather than assuming it suits every service encounter.\n\nHear and say\nBonjour contains a nasal vowel in bon. Do not add a separate English n after it. The final r in bonjour and au revoir is pronounced. Listen and copy the whole phrase at a comfortable speed.\nModel: Bonjour, madame.\nMeaning: Hello, madam.\n\nGlossary\nbonjour, madame — hello, madam\nau revoir, monsieur — goodbye, sir\nsalut, Léa — hi, Léa\n\nPractise: listen, point to the matching words, then say the model. Ask the Tutor to repeat slowly. Review the previous model before continuing. No CEFR or pronunciation score is awarded.",
+      "vocabulary": [
+        "bonjour, madame",
+        "au revoir, monsieur",
+        "salut, Léa"
+      ],
+      "exercises": [
+        {
+          "key": "read-detail",
+          "type": "multiple_choice",
+          "prompt": "Which expression closes the exchange?",
+          "instructions": "Find the answer in the short French passage.",
+          "explanation": "Passage: Bonjour, madame. — Bonjour ! — Au revoir, madame. — Au revoir !",
+          "options": [
+            "Au revoir.",
+            "Bonjour.",
+            "Madame."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "complete-model",
+          "type": "fill_blank",
+          "prompt": "___, madame.",
+          "instructions": "Use the daytime greeting in the opening line, not the closing expression.",
+          "explanation": "Bonjour opens a daytime exchange. Au revoir closes it. Madame and monsieur address people politely when appropriate. Salut is familiar and can mean hi or bye; learn it with a clear context rather than assuming it suits every service encounter.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "Bonjour"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild this exact model: Bonjour, madame.",
+          "instructions": "Use every tile once in the quoted model order.",
+          "explanation": "Bonjour opens a daytime exchange. Au revoir closes it. Madame and monsieur address people politely when appropriate. Salut is familiar and can mean hi or bye; learn it with a clear context rather than assuming it suits every service encounter.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "7758e35d-7b37-5894-9ffb-c1400659aad1",
+                "text": "Bonjour,"
+              },
+              {
+                "id": "8a7fe85c-eac0-5158-8455-55c5f16c9810",
+                "text": "madame."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "7758e35d-7b37-5894-9ffb-c1400659aad1",
+                "8a7fe85c-eac0-5158-8455-55c5f16c9810"
+              ]
+            ],
+            "correct_sentence": "Bonjour, madame."
+          }
+        },
+        {
+          "key": "match-meaning",
+          "type": "matching",
+          "prompt": "Match the expressions and meanings.",
+          "instructions": "Use each meaning once.",
+          "explanation": "bonjour, madame — hello, madam; au revoir, monsieur — goodbye, sir; salut, Léa — hi, Léa",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "e2aae068-ca82-525d-846c-8ab4455cc678",
+                "text": "bonjour, madame"
+              },
+              {
+                "id": "dd591e45-63c9-56fb-9731-569518fd409b",
+                "text": "au revoir, monsieur"
+              },
+              {
+                "id": "1ebe05e3-ab7f-5501-a184-00557049f158",
+                "text": "salut, Léa"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "fa400662-e671-542f-9d14-0e98a358f2ee",
+                "text": "hello, madam"
+              },
+              {
+                "id": "48a0200e-b47d-5dbd-a13b-291ae07996e0",
+                "text": "goodbye, sir"
+              },
+              {
+                "id": "997c25aa-569a-582a-b2ae-7a2a13aa9858",
+                "text": "hi, Léa"
+              }
+            ],
+            "answer_pairs": {
+              "e2aae068-ca82-525d-846c-8ab4455cc678": "fa400662-e671-542f-9d14-0e98a358f2ee",
+              "dd591e45-63c9-56fb-9731-569518fd409b": "48a0200e-b47d-5dbd-a13b-291ae07996e0",
+              "1ebe05e3-ab7f-5501-a184-00557049f158": "997c25aa-569a-582a-b2ae-7a2a13aa9858"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering.",
+          "explanation": "Bonjour, madame. — Hello, madam.",
+          "options": [
+            "Hello, madam.",
+            "Goodbye, madam.",
+            "Hello, sir."
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Bonjour, madame."
+          }
+        },
+        {
+          "key": "copy-model",
+          "type": "short_answer",
+          "prompt": "Write the quoted French model for: Hello, madam.",
+          "instructions": "Exact-model spelling practice: Bonjour, madame.",
+          "explanation": "Bonjour, madame.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "Bonjour, madame."
+            ]
+          }
+        }
+      ],
+      "module_title": "First words and polite exchanges",
+      "estimated_minutes": 15,
+      "grammar": [],
+      "prerequisites": [
+        "hear-u-and-ou"
+      ]
+    },
+    {
+      "key": "first-polite-request",
+      "skill": "reading",
+      "title": "A first request at a café",
+      "objective": "Recognise, understand, type and say this short model: Un café, s’il vous plaît.",
+      "context": "Start here\nBonjour. Un café, s’il vous plaît. — Voilà. — Merci beaucoup. Au revoir.\n\nUnderstand\nA noun phrase followed by s’il vous plaît can make a short polite request in a café. Learn the whole expression before analysing its grammar. Merci beaucoup means thank you very much. Politeness includes greeting the person and listening to the reply.\n\nHear and say\nCafé ends with the vowel /e/: the accent is part of the spelling, not a stress mark. Listen to the rhythm of s’il vous plaît as a group rather than inserting an English-style stress on every word.\nModel: Un café, s’il vous plaît.\nMeaning: A coffee, please.\n\nGlossary\nun café, s’il vous plaît — a coffee, please\nmerci beaucoup — thank you very much\nexcusez-moi, madame — excuse me, madam\n\nPractise: listen, point to the matching words, then say the model. Ask the Tutor to repeat slowly. Review the previous model before continuing. No CEFR or pronunciation score is awarded.",
+      "vocabulary": [
+        "un café, s’il vous plaît",
+        "merci beaucoup",
+        "excusez-moi, madame"
+      ],
+      "exercises": [
+        {
+          "key": "read-detail",
+          "type": "multiple_choice",
+          "prompt": "What is ordered?",
+          "instructions": "Find the answer in the short French passage.",
+          "explanation": "Passage: Bonjour. Un café, s’il vous plaît. — Voilà. — Merci beaucoup. Au revoir.",
+          "options": [
+            "A train ticket",
+            "A coffee",
+            "A glass of milk"
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "complete-model",
+          "type": "fill_blank",
+          "prompt": "Un café, s’il vous ___.",
+          "instructions": "Complete the quoted polite expression and retain the circumflex accent.",
+          "explanation": "A noun phrase followed by s’il vous plaît can make a short polite request in a café. Learn the whole expression before analysing its grammar. Merci beaucoup means thank you very much. Politeness includes greeting the person and listening to the reply.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "plaît"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild this exact model: Un café, s’il vous plaît.",
+          "instructions": "Use every tile once in the quoted model order.",
+          "explanation": "A noun phrase followed by s’il vous plaît can make a short polite request in a café. Learn the whole expression before analysing its grammar. Merci beaucoup means thank you very much. Politeness includes greeting the person and listening to the reply.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "f8d29885-6d7d-57b2-98c4-d0047b6c5323",
+                "text": "Un"
+              },
+              {
+                "id": "1964110a-0556-59c1-918c-bcd32358cff3",
+                "text": "café,"
+              },
+              {
+                "id": "2976bd5b-0565-5e94-8be4-4ea89f075c63",
+                "text": "s’il"
+              },
+              {
+                "id": "a43833c0-1b66-5c6b-99d2-a650ba3bb35c",
+                "text": "vous"
+              },
+              {
+                "id": "ecf195d6-f267-5e98-bd9f-63b7695c2ded",
+                "text": "plaît."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "f8d29885-6d7d-57b2-98c4-d0047b6c5323",
+                "1964110a-0556-59c1-918c-bcd32358cff3",
+                "2976bd5b-0565-5e94-8be4-4ea89f075c63",
+                "a43833c0-1b66-5c6b-99d2-a650ba3bb35c",
+                "ecf195d6-f267-5e98-bd9f-63b7695c2ded"
+              ]
+            ],
+            "correct_sentence": "Un café, s’il vous plaît."
+          }
+        },
+        {
+          "key": "match-meaning",
+          "type": "matching",
+          "prompt": "Match the expressions and meanings.",
+          "instructions": "Use each meaning once.",
+          "explanation": "un café, s’il vous plaît — a coffee, please; merci beaucoup — thank you very much; excusez-moi, madame — excuse me, madam",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "9d1cfd26-7a9a-5832-b902-3f17832c4ead",
+                "text": "un café, s’il vous plaît"
+              },
+              {
+                "id": "5aa02f93-72cd-5e23-9641-b58d8982b330",
+                "text": "merci beaucoup"
+              },
+              {
+                "id": "ddf1cc1b-e8ea-5f2d-87d7-c24dcba53485",
+                "text": "excusez-moi, madame"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "a58381ad-ab88-5427-aa88-23d4b93b846f",
+                "text": "a coffee, please"
+              },
+              {
+                "id": "0c996f7f-124b-5113-a539-52c27862cfaa",
+                "text": "thank you very much"
+              },
+              {
+                "id": "45dfe12b-fdd7-5eb6-bd09-53bf9793019b",
+                "text": "excuse me, madam"
+              }
+            ],
+            "answer_pairs": {
+              "9d1cfd26-7a9a-5832-b902-3f17832c4ead": "a58381ad-ab88-5427-aa88-23d4b93b846f",
+              "5aa02f93-72cd-5e23-9641-b58d8982b330": "0c996f7f-124b-5113-a539-52c27862cfaa",
+              "ddf1cc1b-e8ea-5f2d-87d7-c24dcba53485": "45dfe12b-fdd7-5eb6-bd09-53bf9793019b"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering.",
+          "explanation": "Un café, s’il vous plaît. — A coffee, please.",
+          "options": [
+            "A tea, please.",
+            "A coffee, please.",
+            "Two coffees, please."
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Un café, s’il vous plaît."
+          }
+        },
+        {
+          "key": "copy-model",
+          "type": "short_answer",
+          "prompt": "Write the quoted French model for: A coffee, please.",
+          "instructions": "Exact-model spelling practice: Un café, s’il vous plaît.",
+          "explanation": "Un café, s’il vous plaît.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "Un café, s’il vous plaît."
+            ]
+          }
+        }
+      ],
+      "module_title": "First words and polite exchanges",
+      "estimated_minutes": 15,
+      "grammar": [],
+      "prerequisites": [
+        "greet-and-leave"
+      ]
+    },
+    {
+      "key": "first-numbers",
+      "skill": "vocabulary",
+      "title": "Count objects from zero to ten",
+      "objective": "Recognise, understand, type and say this short model: J’ai deux stylos.",
+      "context": "Start here\nZéro, un, deux, trois, quatre, cinq, six, sept, huit, neuf, dix. J’ai deux stylos et trois cahiers.\n\nUnderstand\nStart by recognising the numbers, then use them with a small number of objects. J’ai means I have; learn it as a fixed expression now. Deux stylos means two pens. This lesson practises quantities, not every pronunciation of a number in every context.\n\nHear and say\nSome number pronunciations change with the following word. Practise deux stylos and trois cahiers as complete groups. A written final consonant is not automatically pronounced; do not invent a universal silent-letter rule.\nModel: J’ai deux stylos.\nMeaning: I have two pens.\n\nGlossary\ndeux stylos — two pens\ntrois cahiers — three notebooks\nzéro euro — zero euros\n\nPractise: listen, point to the matching words, then say the model. Ask the Tutor to repeat slowly. Review the previous model before continuing. No CEFR or pronunciation score is awarded.",
+      "vocabulary": [
+        "deux stylos",
+        "trois cahiers",
+        "zéro euro"
+      ],
+      "exercises": [
+        {
+          "key": "read-detail",
+          "type": "multiple_choice",
+          "prompt": "How many notebooks does the speaker have?",
+          "instructions": "Find the answer in the short French passage.",
+          "explanation": "Passage: Zéro, un, deux, trois, quatre, cinq, six, sept, huit, neuf, dix. J’ai deux stylos et trois cahiers.",
+          "options": [
+            "Two",
+            "Ten",
+            "Three"
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "complete-model",
+          "type": "fill_blank",
+          "prompt": "J’ai ___ stylos.",
+          "instructions": "Write the French word for the number 2.",
+          "explanation": "Start by recognising the numbers, then use them with a small number of objects. J’ai means I have; learn it as a fixed expression now. Deux stylos means two pens. This lesson practises quantities, not every pronunciation of a number in every context.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "deux"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild this exact model: J’ai deux stylos.",
+          "instructions": "Use every tile once in the quoted model order.",
+          "explanation": "Start by recognising the numbers, then use them with a small number of objects. J’ai means I have; learn it as a fixed expression now. Deux stylos means two pens. This lesson practises quantities, not every pronunciation of a number in every context.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "b1560361-83b7-5c78-86ca-b5de6a1c8c90",
+                "text": "J’ai"
+              },
+              {
+                "id": "d97a64bd-134a-5f66-a808-d35b728d2a6b",
+                "text": "deux"
+              },
+              {
+                "id": "7ab75b57-de5d-50b9-bd2e-03dd2c68690f",
+                "text": "stylos."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "b1560361-83b7-5c78-86ca-b5de6a1c8c90",
+                "d97a64bd-134a-5f66-a808-d35b728d2a6b",
+                "7ab75b57-de5d-50b9-bd2e-03dd2c68690f"
+              ]
+            ],
+            "correct_sentence": "J’ai deux stylos."
+          }
+        },
+        {
+          "key": "match-meaning",
+          "type": "matching",
+          "prompt": "Match the expressions and meanings.",
+          "instructions": "Use each meaning once.",
+          "explanation": "deux stylos — two pens; trois cahiers — three notebooks; zéro euro — zero euros",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "b3968ab6-e4ba-5e71-bb70-a257848577a6",
+                "text": "deux stylos"
+              },
+              {
+                "id": "6fbf84a0-ad91-5e29-b05f-6e34ca630671",
+                "text": "trois cahiers"
+              },
+              {
+                "id": "e300e870-cf7d-57f1-a517-121fa1a26f69",
+                "text": "zéro euro"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "bd44ede0-0ad4-5d3f-9fb6-a3c118445e2f",
+                "text": "two pens"
+              },
+              {
+                "id": "f74ec6cd-d9f4-5350-bc7f-9c2c12efaff8",
+                "text": "three notebooks"
+              },
+              {
+                "id": "dce3a4a5-1264-508e-8092-a08e0bcdfc1b",
+                "text": "zero euros"
+              }
+            ],
+            "answer_pairs": {
+              "b3968ab6-e4ba-5e71-bb70-a257848577a6": "bd44ede0-0ad4-5d3f-9fb6-a3c118445e2f",
+              "6fbf84a0-ad91-5e29-b05f-6e34ca630671": "f74ec6cd-d9f4-5350-bc7f-9c2c12efaff8",
+              "e300e870-cf7d-57f1-a517-121fa1a26f69": "dce3a4a5-1264-508e-8092-a08e0bcdfc1b"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering.",
+          "explanation": "J’ai deux stylos. — I have two pens.",
+          "options": [
+            "I have three pens.",
+            "I have two notebooks.",
+            "I have two pens."
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "J’ai deux stylos."
+          }
+        },
+        {
+          "key": "copy-model",
+          "type": "short_answer",
+          "prompt": "Write the quoted French model for: I have two pens.",
+          "instructions": "Exact-model spelling practice: J’ai deux stylos.",
+          "explanation": "J’ai deux stylos.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "J’ai deux stylos."
+            ]
+          }
+        }
+      ],
+      "module_title": "Read, type and practise safely",
+      "estimated_minutes": 15,
+      "grammar": [],
+      "prerequisites": [
+        "first-polite-request"
+      ]
+    },
+    {
+      "key": "type-french-accents",
+      "skill": "reading",
+      "title": "Keep accents when typing French",
+      "objective": "Recognise, understand, type and say this short model: Ça va très bien.",
+      "context": "Start here\nÇa va très bien. À Paris, Léa entre dans une école. Elle prend un café après le cours.\n\nUnderstand\nAccents and the cedilla belong to French spelling. Compare é in école/café, è in très/après, à in à Paris and ç in ça. Capitals retain their accents: Ça and À. Use the on-screen French character keys in written-answer exercises, or your keyboard’s French/International layout. Do not remove accents to make a spelling answer fit.\n\nHear and say\nThe spelling marks do not all mean the same sound. É often represents /e/ and è often represents /ɛ/; accent marks are not English stress marks. The cedilla gives ç an /s/ sound here. Listen to each complete word.\nModel: Ça va très bien.\nMeaning: Things are going very well.\n\nGlossary\nça va très bien — things are going very well\nune école à Paris — a school in Paris\nun café à Lyon — a coffee in Lyon\n\nPractise: listen, point to the matching words, then say the model. Ask the Tutor to repeat slowly. Review the previous model before continuing. No CEFR or pronunciation score is awarded.",
+      "vocabulary": [
+        "ça va très bien",
+        "une école à Paris",
+        "un café à Lyon"
+      ],
+      "exercises": [
+        {
+          "key": "read-detail",
+          "type": "multiple_choice",
+          "prompt": "Which spelling mark appears in Ça?",
+          "instructions": "Find the answer in the short French passage.",
+          "explanation": "Passage: Ça va très bien. À Paris, Léa entre dans une école. Elle prend un café après le cours.",
+          "options": [
+            "A cedilla",
+            "An acute accent",
+            "A circumflex"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "complete-model",
+          "type": "fill_blank",
+          "prompt": "___ va très bien.",
+          "instructions": "Write Ça with its capital C and cedilla, as in the model.",
+          "explanation": "Accents and the cedilla belong to French spelling. Compare é in école/café, è in très/après, à in à Paris and ç in ça. Capitals retain their accents: Ça and À. Use the on-screen French character keys in written-answer exercises, or your keyboard’s French/International layout. Do not remove accents to make a spelling answer fit.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "Ça"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild this exact model: Ça va très bien.",
+          "instructions": "Use every tile once in the quoted model order.",
+          "explanation": "Accents and the cedilla belong to French spelling. Compare é in école/café, è in très/après, à in à Paris and ç in ça. Capitals retain their accents: Ça and À. Use the on-screen French character keys in written-answer exercises, or your keyboard’s French/International layout. Do not remove accents to make a spelling answer fit.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "d93365ec-4b91-5d76-8b64-728f5575ea51",
+                "text": "Ça"
+              },
+              {
+                "id": "cb87c38b-5da1-5da5-aa83-7788682d22d0",
+                "text": "va"
+              },
+              {
+                "id": "b6038620-6632-54cb-9362-d93dfa2009d5",
+                "text": "très"
+              },
+              {
+                "id": "f22c7494-0f05-5938-b6d2-8035d33fd119",
+                "text": "bien."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "d93365ec-4b91-5d76-8b64-728f5575ea51",
+                "cb87c38b-5da1-5da5-aa83-7788682d22d0",
+                "b6038620-6632-54cb-9362-d93dfa2009d5",
+                "f22c7494-0f05-5938-b6d2-8035d33fd119"
+              ]
+            ],
+            "correct_sentence": "Ça va très bien."
+          }
+        },
+        {
+          "key": "match-meaning",
+          "type": "matching",
+          "prompt": "Match the expressions and meanings.",
+          "instructions": "Use each meaning once.",
+          "explanation": "ça va très bien — things are going very well; une école à Paris — a school in Paris; un café à Lyon — a coffee in Lyon",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "8660f2f4-2119-552f-b94a-07d32c9ec359",
+                "text": "ça va très bien"
+              },
+              {
+                "id": "8a8a4a5a-c64b-512b-88c2-203f2ce7be12",
+                "text": "une école à Paris"
+              },
+              {
+                "id": "227b3bb3-467f-587e-aa94-091f6faf54e1",
+                "text": "un café à Lyon"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "c7a7df74-250b-59b8-8387-4397206e9fa2",
+                "text": "things are going very well"
+              },
+              {
+                "id": "608ada5a-1150-58a3-9343-9b5c13f28ab4",
+                "text": "a school in Paris"
+              },
+              {
+                "id": "1cb951ee-cd40-5bc3-8033-ed9a0fce6117",
+                "text": "a coffee in Lyon"
+              }
+            ],
+            "answer_pairs": {
+              "8660f2f4-2119-552f-b94a-07d32c9ec359": "c7a7df74-250b-59b8-8387-4397206e9fa2",
+              "8a8a4a5a-c64b-512b-88c2-203f2ce7be12": "608ada5a-1150-58a3-9343-9b5c13f28ab4",
+              "227b3bb3-467f-587e-aa94-091f6faf54e1": "1cb951ee-cd40-5bc3-8033-ed9a0fce6117"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering.",
+          "explanation": "Ça va très bien. — Things are going very well.",
+          "options": [
+            "Things are going very well.",
+            "Things are going badly.",
+            "Things were going very well."
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Ça va très bien."
+          }
+        },
+        {
+          "key": "copy-model",
+          "type": "short_answer",
+          "prompt": "Write the quoted French model for: Things are going very well.",
+          "instructions": "Exact-model spelling practice: Ça va très bien.",
+          "explanation": "Ça va très bien.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "Ça va très bien."
+            ]
+          }
+        }
+      ],
+      "module_title": "Read, type and practise safely",
+      "estimated_minutes": 15,
+      "grammar": [],
+      "prerequisites": [
+        "first-numbers"
+      ]
+    },
+    {
+      "key": "first-two-lines",
+      "skill": "writing",
+      "title": "Write your first two friendly lines",
+      "objective": "Combine a greeting, an invented name and a polite closing using the models already practised.",
+      "context": "Write two short lines to an imaginary classmate. Start with Bonjour, give an invented first name using Je m’appelle, then finish with Merci or Au revoir. Copy accents carefully. Example: Bonjour. Je m’appelle Léa. Merci et au revoir. Use your own invented name; do not share personal details. Reread: is the greeting present, is the name clear, and is the closing suitable? Optional AI feedback is advisory, not a CEFR or pronunciation score.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Read, type and practise safely",
+      "estimated_minutes": 15,
+      "grammar": [],
+      "prerequisites": [
+        "type-french-accents"
+      ]
+    }
+  ],
+  "title": "A0: French from absolutely zero",
+  "glossary": [
+    {
+      "lemma": "la lettre A",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "the letter A",
+      "definition_french": "La première lettre de l’alphabet.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "la lettre B",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "the letter B",
+      "definition_french": "La deuxième lettre de l’alphabet.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "mon prénom",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "my first name",
+      "definition_french": "Le nom personnel utilisé avant le nom de famille.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "tu es où",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "where are you",
+      "definition_french": "Une question familière pour demander la position d’une personne.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "tout va bien",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "everything is fine",
+      "definition_french": "Une expression pour dire que la situation est bonne.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "je suis ici",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "I am here",
+      "definition_french": "Une expression pour indiquer sa propre position.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "bonjour, madame",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "hello, madam",
+      "definition_french": "Une salutation polie pour commencer un échange.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "au revoir, monsieur",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "goodbye, sir",
+      "definition_french": "Une formule polie pour terminer un échange.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "salut, Léa",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "hi, Léa",
+      "definition_french": "Une salutation familière adressée ici à Léa.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "un café, s’il vous plaît",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "a coffee, please",
+      "definition_french": "Une demande courte et polie pour commander un café.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "merci beaucoup",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "thank you very much",
+      "definition_french": "Une expression pour remercier chaleureusement.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "excusez-moi, madame",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "excuse me, madam",
+      "definition_french": "Une formule pour attirer poliment l’attention de son interlocutrice.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "deux stylos",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "two pens",
+      "definition_french": "Deux instruments utilisés pour écrire.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "trois cahiers",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "three notebooks",
+      "definition_french": "Trois petits livres de feuilles pour écrire.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "zéro euro",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "zero euros",
+      "definition_french": "Une quantité de zéro dans cette monnaie.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "ça va très bien",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "things are going very well",
+      "definition_french": "Une expression pour dire que tout se passe bien.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "une école à Paris",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "a school in Paris",
+      "definition_french": "Un lieu d’enseignement situé à Paris.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "un café à Lyon",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "a coffee in Lyon",
+      "definition_french": "Une boisson prise ici dans la ville de Lyon.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    }
+  ],
+  "learning_stage": "A0"
+}

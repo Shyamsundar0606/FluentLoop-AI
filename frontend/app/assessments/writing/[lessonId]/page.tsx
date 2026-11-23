@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useParams, useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { ProtectedPage } from "@/components/auth-provider";
-import { assessments, type WritingSubmission, type WritingTask } from "@/lib/assessments";
+import { assessments, MAX_WRITING_CHARACTERS, type WritingSubmission, type WritingTask } from "@/lib/assessments";
 
 export default function WritingPage() {
   return <ProtectedPage><WritingPractice /></ProtectedPage>;
@@ -67,9 +67,9 @@ function WritingPractice() {
       </section>
       {!saved ? <form onSubmit={event => { event.preventDefault(); void submit(); }} className="space-y-3">
         <label htmlFor="writing-response" className="block font-semibold">Your French response</label>
-        <textarea id="writing-response" lang="fr" className="min-h-44 w-full rounded-xl border border-slate-300 p-3" maxLength={4000}
+        <textarea id="writing-response" lang="fr" className="min-h-44 w-full rounded-xl border border-slate-300 p-3" maxLength={MAX_WRITING_CHARACTERS}
           value={text} onChange={event => { setText(event.target.value); requestKey.current = null; }} disabled={busy} />
-        <p className="text-sm text-slate-600">{text.length} / 4000 characters. Avoid personal contact details.</p>
+        <p className="text-sm text-slate-600">{text.length} / {MAX_WRITING_CHARACTERS} characters. Avoid personal contact details.</p>
         <button className="button button-primary" disabled={busy || !text.trim()}>{busy ? "Saving…" : "Save writing"}</button>
       </form> : <section aria-labelledby="saved-writing" className="space-y-4 rounded-2xl border border-violet-100 bg-white p-5">
         <h2 id="saved-writing" className="text-xl font-semibold">Your saved original response</h2>

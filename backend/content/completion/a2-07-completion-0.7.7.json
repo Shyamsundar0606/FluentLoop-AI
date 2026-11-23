@@ -1,0 +1,225 @@
+{
+  "version": "0.7.7",
+  "level": "A2",
+  "status": "draft",
+  "source_license": "Original AI-assisted module drafts. Qualified independent linguistic, pedagogical, phonetic, answer-key and CEFR reviews pending.",
+  "tasks": [
+    {
+      "key": "read-and-notice",
+      "skill": "grammar",
+      "title": "Repair a parcel-pickup misunderstanding: read and notice",
+      "objective": "Jusqu’à gives an end point; avant gives a boundary. Use est-ce que or a short confirmation question to check a detail instead of silently assuming it.",
+      "context": "Un avis indique que le colis de Malik est disponible au point relais de la rue des Écoles jusqu’à samedi. Malik pense d’abord qu’il doit aller au bureau de poste. En relisant, il remarque le nom du commerce et vérifie son horaire. Le magasin ferme à dix-neuf heures en semaine et à dix-sept heures le samedi. L’avis demande un justificatif pour retirer le colis. Les détails de cette situation sont fictifs : il faut toujours vérifier les instructions de son propre avis.",
+      "vocabulary": [
+        "le point relais indiqué",
+        "relire l’avis de passage",
+        "vérifier l’heure de fermeture"
+      ],
+      "exercises": [
+        {
+          "key": "read-meaning",
+          "type": "multiple_choice",
+          "prompt": "Where should Malik collect the parcel?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "At the named collection shop. Source: Un avis indique que le colis de Malik est disponible au point relais de la rue des Écoles jusqu’à samedi. Malik pense d’abord qu’il doit aller au bureau de poste. En relisant, il remarque le nom du commerce et vérifie son horaire. Le magasin ferme à dix-neuf heures en semaine et à dix-sept heures le samedi. L’avis demande un justificatif pour retirer le colis. Les détails de cette situation sont fictifs : il faut toujours vérifier les instructions de son propre avis.",
+          "options": [
+            "At any post office",
+            "At the named collection shop",
+            "At the station"
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "grammar-scope",
+          "type": "multiple_choice",
+          "prompt": "What does jusqu’à samedi express here?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Jusqu’à gives an end point; avant gives a boundary. Use est-ce que or a short confirmation question to check a detail instead of silently assuming it.",
+          "options": [
+            "An opening time every Saturday",
+            "A requirement to wait until Saturday",
+            "The stated availability end point"
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "contextual-vocabulary",
+          "type": "matching",
+          "prompt": "Match the contextual expressions with their meanings.",
+          "instructions": "Use each meaning once; these are contextual definitions.",
+          "explanation": "le point relais indiqué — the indicated collection point; relire l’avis de passage — to reread the delivery notice; vérifier l’heure de fermeture — to check the closing time",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "82621521-fc45-5c7b-aec4-ef0a98b08239",
+                "text": "le point relais indiqué"
+              },
+              {
+                "id": "a47135f6-c769-564e-a756-6df44375c69f",
+                "text": "relire l’avis de passage"
+              },
+              {
+                "id": "3773d186-e315-5fd7-bcd1-7b840f18e8e8",
+                "text": "vérifier l’heure de fermeture"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "3349094d-c55f-5469-8b19-6cb8f69ed5eb",
+                "text": "to check the closing time"
+              },
+              {
+                "id": "6bd2d4fa-4890-55c3-9df5-4fc95b16efe6",
+                "text": "to reread the delivery notice"
+              },
+              {
+                "id": "a2cffed5-3783-5843-9f70-2f0ae6fcdaf4",
+                "text": "the indicated collection point"
+              }
+            ],
+            "answer_pairs": {
+              "82621521-fc45-5c7b-aec4-ef0a98b08239": "a2cffed5-3783-5843-9f70-2f0ae6fcdaf4",
+              "a47135f6-c769-564e-a756-6df44375c69f": "6bd2d4fa-4890-55c3-9df5-4fc95b16efe6",
+              "3773d186-e315-5fd7-bcd1-7b840f18e8e8": "3349094d-c55f-5469-8b19-6cb8f69ed5eb"
+            }
+          }
+        }
+      ],
+      "module_title": "Repair a parcel-pickup misunderstanding",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "completion-a2-07",
+          "title": "Repair a parcel-pickup misunderstanding",
+          "summary": "Jusqu’à gives an end point; avant gives a boundary. Use est-ce que or a short confirmation question to check a detail instead of silently assuming it.",
+          "rule_code": "completion-a2-07",
+          "explanation_english": "Jusqu’à gives an end point; avant gives a boundary. Use est-ce que or a short confirmation question to check a detail instead of silently assuming it.",
+          "examples": [
+            [
+              "Est-ce que le magasin ferme à dix-sept heures samedi ?",
+              "Does the shop close at five on Saturday?"
+            ]
+          ]
+        }
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "listen-and-integrate",
+      "skill": "reading",
+      "title": "Repair a parcel-pickup misunderstanding: listen and integrate",
+      "objective": "Identify details, stance and limits of commitment in the scripted exchange, then integrate both sources.",
+      "context": "Original scripted exchange for listening and transcript-assisted review. One synthetic voice may perform every role; this does not demonstrate spontaneous multi-speaker comprehension.\n\nMalik : Pardon, j’ai compris dix-neuf heures pour samedi. Employée : Dix-neuf heures en semaine, mais dix-sept heures le samedi. Malik : Donc samedi, je dois venir avant dix-sept heures ? Employée : Oui, c’est cela.",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "listen-position",
+          "type": "listening",
+          "prompt": "Which misunderstanding is corrected?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Saturday’s closing time. Script: Malik : Pardon, j’ai compris dix-neuf heures pour samedi. Employée : Dix-neuf heures en semaine, mais dix-sept heures le samedi. Malik : Donc samedi, je dois venir avant dix-sept heures ? Employée : Oui, c’est cela.",
+          "options": [
+            "Saturday’s closing time",
+            "The sender’s name",
+            "The number of parcels"
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Malik : Pardon, j’ai compris dix-neuf heures pour samedi. Employée : Dix-neuf heures en semaine, mais dix-sept heures le samedi. Malik : Donc samedi, je dois venir avant dix-sept heures ? Employée : Oui, c’est cela."
+          }
+        },
+        {
+          "key": "integrate-sources",
+          "type": "multiple_choice",
+          "prompt": "What is a useful next step?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Check the required document and come before Saturday’s closing. Compare the reading and listening sources.",
+          "options": [
+            "Assume the post office keeps the parcel",
+            "Wait until Saturday at nineteen hours",
+            "Check the required document and come before Saturday’s closing"
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "locate-phrase",
+          "type": "short_answer",
+          "prompt": "Copy Malik’s exact phrase giving the Saturday arrival boundary.",
+          "instructions": "Transcript available in this lesson: copy the exact requested phrase. This item checks location/spelling, not open-ended interpretation.",
+          "explanation": "Exact source phrase: avant dix-sept heures",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "avant dix-sept heures"
+            ]
+          }
+        }
+      ],
+      "module_title": "Repair a parcel-pickup misunderstanding",
+      "estimated_minutes": 25,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice"
+      ]
+    },
+    {
+      "key": "transfer-and-assess",
+      "skill": "writing",
+      "title": "Repair a parcel-pickup misunderstanding: transfer and assess",
+      "objective": "Transfer the module language to an unfamiliar situation and review comprehension, writing and interaction separately.",
+      "context": "Write a 90-word clarification exchange about a fictional parcel notice. Include the place, a weekday/weekend distinction and one corrected assumption. Ask the Tutor to state two similar times and confirm the right one before summarising. Do not use real parcel numbers or identification details.\n\nRevision: retrieve the three contextual expressions without the model on a later day; correct saved errors and reuse them in a new scenario.\n\nReview task fulfilment, source fidelity, grammar, vocabulary, organisation and interaction/repair separately. Treat spelling extraction as supported practice, not proficiency evidence. Optional AI feedback is advisory. Independent human language/phonetic review and empirical calibration remain pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Repair a parcel-pickup misunderstanding",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice",
+        "listen-and-integrate"
+      ]
+    }
+  ],
+  "title": "A2 module completion: Repair a parcel-pickup misunderstanding",
+  "glossary": [
+    {
+      "lemma": "le point relais indiqué",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "the indicated collection point",
+      "definition_french": "Le commerce nommé sur l’avis pour récupérer le colis.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "relire l’avis de passage",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to reread the delivery notice",
+      "definition_french": "Lire de nouveau le document laissé au destinataire.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "vérifier l’heure de fermeture",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to check the closing time",
+      "definition_french": "S’assurer de l’heure à laquelle le commerce ferme.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    }
+  ],
+  "learning_stage": null
+}

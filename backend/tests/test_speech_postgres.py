@@ -129,10 +129,12 @@ def test_speech_postgres_and_optional_live_pipeline(monkeypatch, tmp_path):
             speech.transcribe = original_transcribe
             if os.getenv("SPEECH_LIVE") == "1":
                 monkeypatch.setattr(
-                    get_settings(), "speech_worker_url", "http://127.0.0.1:8095"
+                    get_settings(), "speech_worker_url",
+                    os.getenv("SPEECH_TEST_WORKER_URL", "http://127.0.0.1:8095")
                 )
                 monkeypatch.setattr(
-                    get_settings(), "speech_worker_token", "isolated-speech-test-key"
+                    get_settings(), "speech_worker_token",
+                    os.getenv("SPEECH_TEST_WORKER_TOKEN", "isolated-speech-test-key")
                 )
                 live = RemoteSpeech()
                 assert live.health()["asr"] and live.health()["tts"]

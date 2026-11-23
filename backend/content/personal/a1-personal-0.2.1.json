@@ -1,0 +1,1592 @@
+{
+  "version": "0.2.1",
+  "level": "A1",
+  "status": "draft",
+  "title": "Personal French A1: daily life and expression",
+  "source_license": "Original AI-assisted drafts; independent linguistic, phonetic, pedagogical, answer-key and licensing reviews pending.",
+  "glossary": [
+    {
+      "lemma": "un reçu",
+      "part_of_speech": "phrase",
+      "translation": "a receipt",
+      "definition_french": "Un document qui confirme un paiement."
+    },
+    {
+      "lemma": "par carte",
+      "part_of_speech": "phrase",
+      "translation": "by card",
+      "definition_french": "Avec une carte de paiement."
+    },
+    {
+      "lemma": "à emporter",
+      "part_of_speech": "phrase",
+      "translation": "to take away",
+      "definition_french": "Pour consommer ailleurs, hors du magasin."
+    },
+    {
+      "lemma": "tout droit",
+      "part_of_speech": "phrase",
+      "translation": "straight ahead",
+      "definition_french": "Sans tourner à gauche ou à droite."
+    },
+    {
+      "lemma": "en face",
+      "part_of_speech": "phrase",
+      "translation": "opposite",
+      "definition_french": "De l’autre côté, devant soi."
+    },
+    {
+      "lemma": "à pied",
+      "part_of_speech": "phrase",
+      "translation": "on foot",
+      "definition_french": "En marchant, sans prendre de véhicule."
+    },
+    {
+      "lemma": "prendre rendez-vous",
+      "part_of_speech": "phrase",
+      "translation": "to make an appointment",
+      "definition_french": "Fixer une date pour rencontrer une personne."
+    },
+    {
+      "lemma": "être disponible",
+      "part_of_speech": "phrase",
+      "translation": "to be available",
+      "definition_french": "Pouvoir venir au moment proposé."
+    },
+    {
+      "lemma": "une carte d’étudiant",
+      "part_of_speech": "phrase",
+      "translation": "a student card",
+      "definition_french": "Un document qui indique que son titulaire est étudiant."
+    }
+  ],
+  "tasks": [
+    {
+      "key": "module-1-grammar",
+      "skill": "grammar",
+      "module_title": "Daily errands",
+      "title": "At a supermarket: grammar",
+      "objective": "Practise A1-targeted grammar in the situation: At a supermarket.",
+      "context": "French passage\nJe suis au supermarché. Je cherche du pain et du lait. Je ne prends pas de sucre. À la caisse, je paie par carte. Je demande un reçu. Après, je vais à la boulangerie. Je prends un café à emporter et je dis : « Merci, bonne journée ! »\n\nEnglish explanation\nPut ne before a conjugated verb and pas after it. In this example, de follows a negated indefinite quantity: pas de sucre. This does not apply to every article: je ne prends pas le bus keeps the definite article. Informal speakers often omit ne; practise the full written form.\nModel: Je ne prends pas de sucre.\nMeaning: I do not take sugar.\n\nGlossary\nun reçu — a receipt\npar carte — by card\nà emporter — to take away\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Identify the target form, explain its function, and contrast it with the alternative in the explanation.",
+      "vocabulary": [
+        "un reçu",
+        "par carte",
+        "à emporter"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "What is the customer looking for at the supermarket?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Je suis au supermarché. Je cherche du pain et du lait. Je ne prends pas de sucre. À la caisse, je paie par carte. Je demande un reçu. Après, je vais à la boulangerie. Je prends un café à emporter et je dis : « Merci, bonne journée ! »",
+          "data": {},
+          "options": [
+            "Only sugar",
+            "Bread and milk",
+            "A train ticket"
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Je ne prends ___ de sucre.",
+          "instructions": "Complete the full ne…pas negation with its missing negative word. Write only the missing form; keep accents.",
+          "explanation": "Put ne before a conjugated verb and pas after it. In this example, de follows a negated indefinite quantity: pas de sucre. This does not apply to every article: je ne prends pas le bus keeps the definite article. Informal speakers often omit ne; practise the full written form.",
+          "data": {
+            "accepted_answers": [
+              "pas"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Je ne prends pas de sucre.",
+          "explanation": "Put ne before a conjugated verb and pas after it. In this example, de follows a negated indefinite quantity: pas de sucre. This does not apply to every article: je ne prends pas le bus keeps the definite article. Informal speakers often omit ne; practise the full written form.",
+          "data": {
+            "tiles": [
+              {
+                "id": "5d3e97e3-253a-5bd6-b8dc-cfa58e04cb27",
+                "text": "Je"
+              },
+              {
+                "id": "a87e5bb4-c177-54af-bd06-12fc55813531",
+                "text": "ne"
+              },
+              {
+                "id": "3e0c6d61-a7f8-591a-a715-ec3687beaa74",
+                "text": "prends"
+              },
+              {
+                "id": "6a42ebc1-5ec7-5342-bb11-fc0e97669832",
+                "text": "pas"
+              },
+              {
+                "id": "323977eb-be5d-5978-8701-ca05d5320019",
+                "text": "de"
+              },
+              {
+                "id": "7ad96bba-70ca-598c-9083-b95f470bcfd3",
+                "text": "sucre."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "5d3e97e3-253a-5bd6-b8dc-cfa58e04cb27",
+                "a87e5bb4-c177-54af-bd06-12fc55813531",
+                "3e0c6d61-a7f8-591a-a715-ec3687beaa74",
+                "6a42ebc1-5ec7-5342-bb11-fc0e97669832",
+                "323977eb-be5d-5978-8701-ca05d5320019",
+                "7ad96bba-70ca-598c-9083-b95f470bcfd3"
+              ]
+            ],
+            "correct_sentence": "Je ne prends pas de sucre."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "un reçu — a receipt; par carte — by card; à emporter — to take away",
+          "data": {
+            "left_items": [
+              {
+                "id": "33290539-3c70-5952-9aae-b93b5e828664",
+                "text": "un reçu"
+              },
+              {
+                "id": "6540a038-5b4c-5b0c-880c-28f85d5d513a",
+                "text": "par carte"
+              },
+              {
+                "id": "f0166c63-8ff6-5f5b-bfbf-63acf0406600",
+                "text": "à emporter"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "d78b0f7a-cdbd-59d1-b022-830d82d02e42",
+                "text": "a receipt"
+              },
+              {
+                "id": "21e1c975-3376-5371-8570-79a80f470d4f",
+                "text": "by card"
+              },
+              {
+                "id": "a6959e83-059d-5333-8782-10a72a9c459b",
+                "text": "to take away"
+              }
+            ],
+            "answer_pairs": {
+              "33290539-3c70-5952-9aae-b93b5e828664": "d78b0f7a-cdbd-59d1-b022-830d82d02e42",
+              "6540a038-5b4c-5b0c-880c-28f85d5d513a": "21e1c975-3376-5371-8570-79a80f470d4f",
+              "f0166c63-8ff6-5f5b-bfbf-63acf0406600": "a6959e83-059d-5333-8782-10a72a9c459b"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Je ne prends pas de sucre.\nEnglish meaning: I do not take sugar.",
+          "data": {
+            "text_fr": "Je ne prends pas de sucre."
+          },
+          "options": [
+            "I take sugar.",
+            "I do not take sugar.",
+            "I do not take milk."
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: I do not take sugar.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Je ne prends pas de sucre.",
+          "explanation": "Exact model: Je ne prends pas de sucre.\nMeaning: I do not take sugar.",
+          "data": {
+            "accepted_answers": [
+              "Je ne prends pas de sucre."
+            ]
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "slug": "personal-module-1",
+          "title": "Negation with ne…pas",
+          "summary": "Put ne before a conjugated verb and pas after it. In this example, de follows a negated indefinite quantity: pas de sucre. This does not apply to every article: je ne prends pas le bus keeps the definite article. Informal speakers often omit ne; practise the full written form.",
+          "rule_code": "personal-a1-1",
+          "explanation_english": "Put ne before a conjugated verb and pas after it. In this example, de follows a negated indefinite quantity: pas de sucre. This does not apply to every article: je ne prends pas le bus keeps the definite article. Informal speakers often omit ne; practise the full written form.",
+          "examples": [
+            [
+              "Je ne prends pas de sucre.",
+              "I do not take sugar."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "key": "module-1-vocabulary",
+      "skill": "vocabulary",
+      "module_title": "Daily errands",
+      "title": "At a supermarket: vocabulary",
+      "objective": "Practise A1-targeted vocabulary in the situation: At a supermarket.",
+      "context": "French passage\nJe suis au supermarché. Je cherche du pain et du lait. Je ne prends pas de sucre. À la caisse, je paie par carte. Je demande un reçu. Après, je vais à la boulangerie. Je prends un café à emporter et je dis : « Merci, bonne journée ! »\n\nEnglish explanation\nPut ne before a conjugated verb and pas after it. In this example, de follows a negated indefinite quantity: pas de sucre. This does not apply to every article: je ne prends pas le bus keeps the definite article. Informal speakers often omit ne; practise the full written form.\nModel: Je ne prends pas de sucre.\nMeaning: I do not take sugar.\n\nGlossary\nun reçu — a receipt\npar carte — by card\nà emporter — to take away\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Read each French definition, match meanings, then use the expressions in your own example.",
+      "vocabulary": [
+        "un reçu",
+        "par carte",
+        "à emporter"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Which French expression means “a receipt”?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "Glossary meaning: un reçu — a receipt.",
+          "data": {},
+          "options": [
+            "par carte",
+            "à emporter",
+            "un reçu"
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Je ne prends ___ de sucre.",
+          "instructions": "Complete the full ne…pas negation with its missing negative word. Write only the missing form; keep accents.",
+          "explanation": "Put ne before a conjugated verb and pas after it. In this example, de follows a negated indefinite quantity: pas de sucre. This does not apply to every article: je ne prends pas le bus keeps the definite article. Informal speakers often omit ne; practise the full written form.",
+          "data": {
+            "accepted_answers": [
+              "pas"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Je ne prends pas de sucre.",
+          "explanation": "Put ne before a conjugated verb and pas after it. In this example, de follows a negated indefinite quantity: pas de sucre. This does not apply to every article: je ne prends pas le bus keeps the definite article. Informal speakers often omit ne; practise the full written form.",
+          "data": {
+            "tiles": [
+              {
+                "id": "29b089b0-990a-5972-94b4-9eccfb53f023",
+                "text": "Je"
+              },
+              {
+                "id": "f669b179-641b-5816-a4e9-d1ea8f29a2cd",
+                "text": "ne"
+              },
+              {
+                "id": "551819c1-15b4-53ad-92c3-ef8fdf41a9fb",
+                "text": "prends"
+              },
+              {
+                "id": "a49ae8a2-f533-562a-a543-e4b8ce736471",
+                "text": "pas"
+              },
+              {
+                "id": "3203b492-1922-5548-80fd-5a0d5ddc7caf",
+                "text": "de"
+              },
+              {
+                "id": "9b7b2805-f25a-590c-bc00-45f94dcb83af",
+                "text": "sucre."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "29b089b0-990a-5972-94b4-9eccfb53f023",
+                "f669b179-641b-5816-a4e9-d1ea8f29a2cd",
+                "551819c1-15b4-53ad-92c3-ef8fdf41a9fb",
+                "a49ae8a2-f533-562a-a543-e4b8ce736471",
+                "3203b492-1922-5548-80fd-5a0d5ddc7caf",
+                "9b7b2805-f25a-590c-bc00-45f94dcb83af"
+              ]
+            ],
+            "correct_sentence": "Je ne prends pas de sucre."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "un reçu — a receipt; par carte — by card; à emporter — to take away",
+          "data": {
+            "left_items": [
+              {
+                "id": "3696f09b-b5c8-505f-a058-bb5b8eac3336",
+                "text": "un reçu"
+              },
+              {
+                "id": "ab7ee6b7-36bf-5019-82d8-c7f270551ee8",
+                "text": "par carte"
+              },
+              {
+                "id": "608fccce-e5a8-5039-a7c9-b90b87ba3385",
+                "text": "à emporter"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "180051d4-c0c4-5e88-8d4b-1079f3e8da44",
+                "text": "a receipt"
+              },
+              {
+                "id": "3086b3af-55ed-59cd-9e3e-8ed003e98bdf",
+                "text": "by card"
+              },
+              {
+                "id": "437e6553-48aa-5902-b3ac-9b9fe4d01042",
+                "text": "to take away"
+              }
+            ],
+            "answer_pairs": {
+              "3696f09b-b5c8-505f-a058-bb5b8eac3336": "180051d4-c0c4-5e88-8d4b-1079f3e8da44",
+              "ab7ee6b7-36bf-5019-82d8-c7f270551ee8": "3086b3af-55ed-59cd-9e3e-8ed003e98bdf",
+              "608fccce-e5a8-5039-a7c9-b90b87ba3385": "437e6553-48aa-5902-b3ac-9b9fe4d01042"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Je ne prends pas de sucre.\nEnglish meaning: I do not take sugar.",
+          "data": {
+            "text_fr": "Je ne prends pas de sucre."
+          },
+          "options": [
+            "I take sugar.",
+            "I do not take milk.",
+            "I do not take sugar."
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: I do not take sugar.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Je ne prends pas de sucre.",
+          "explanation": "Exact model: Je ne prends pas de sucre.\nMeaning: I do not take sugar.",
+          "data": {
+            "accepted_answers": [
+              "Je ne prends pas de sucre."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-1-reading",
+      "skill": "reading",
+      "module_title": "Daily errands",
+      "title": "At a supermarket: reading",
+      "objective": "Practise A1-targeted reading in the situation: At a supermarket.",
+      "context": "French passage\nJe suis au supermarché. Je cherche du pain et du lait. Je ne prends pas de sucre. À la caisse, je paie par carte. Je demande un reçu. Après, je vais à la boulangerie. Je prends un café à emporter et je dis : « Merci, bonne journée ! »\n\nEnglish explanation\nPut ne before a conjugated verb and pas after it. In this example, de follows a negated indefinite quantity: pas de sucre. This does not apply to every article: je ne prends pas le bus keeps the definite article. Informal speakers often omit ne; practise the full written form.\nModel: Je ne prends pas de sucre.\nMeaning: I do not take sugar.\n\nGlossary\nun reçu — a receipt\npar carte — by card\nà emporter — to take away\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Find evidence for the answer in the passage. Distinguish what is stated from what is merely possible.",
+      "vocabulary": [
+        "un reçu",
+        "par carte",
+        "à emporter"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "What is the customer looking for at the supermarket?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Je suis au supermarché. Je cherche du pain et du lait. Je ne prends pas de sucre. À la caisse, je paie par carte. Je demande un reçu. Après, je vais à la boulangerie. Je prends un café à emporter et je dis : « Merci, bonne journée ! »",
+          "data": {},
+          "options": [
+            "Bread and milk",
+            "Only sugar",
+            "A train ticket"
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Je ne prends ___ de sucre.",
+          "instructions": "Complete the full ne…pas negation with its missing negative word. Write only the missing form; keep accents.",
+          "explanation": "Put ne before a conjugated verb and pas after it. In this example, de follows a negated indefinite quantity: pas de sucre. This does not apply to every article: je ne prends pas le bus keeps the definite article. Informal speakers often omit ne; practise the full written form.",
+          "data": {
+            "accepted_answers": [
+              "pas"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Je ne prends pas de sucre.",
+          "explanation": "Put ne before a conjugated verb and pas after it. In this example, de follows a negated indefinite quantity: pas de sucre. This does not apply to every article: je ne prends pas le bus keeps the definite article. Informal speakers often omit ne; practise the full written form.",
+          "data": {
+            "tiles": [
+              {
+                "id": "4726d206-a21b-5700-8381-2d0378e0985c",
+                "text": "Je"
+              },
+              {
+                "id": "f00a5d4b-bae1-5c85-b073-909f9dff13ba",
+                "text": "ne"
+              },
+              {
+                "id": "35966c7f-ada6-5d1a-8804-42adceb7b6f7",
+                "text": "prends"
+              },
+              {
+                "id": "1d4507e0-a83c-5a54-8425-c7d68804e127",
+                "text": "pas"
+              },
+              {
+                "id": "0f4b03dc-fe16-503c-b3f2-3e05f578401c",
+                "text": "de"
+              },
+              {
+                "id": "73445899-0c08-5328-84bb-4d65f9068f79",
+                "text": "sucre."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "4726d206-a21b-5700-8381-2d0378e0985c",
+                "f00a5d4b-bae1-5c85-b073-909f9dff13ba",
+                "35966c7f-ada6-5d1a-8804-42adceb7b6f7",
+                "1d4507e0-a83c-5a54-8425-c7d68804e127",
+                "0f4b03dc-fe16-503c-b3f2-3e05f578401c",
+                "73445899-0c08-5328-84bb-4d65f9068f79"
+              ]
+            ],
+            "correct_sentence": "Je ne prends pas de sucre."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "un reçu — a receipt; par carte — by card; à emporter — to take away",
+          "data": {
+            "left_items": [
+              {
+                "id": "398ec6db-f575-5f3e-b1bd-6029e2334d92",
+                "text": "un reçu"
+              },
+              {
+                "id": "0b04c170-d6a0-57f2-a166-292d79d77691",
+                "text": "par carte"
+              },
+              {
+                "id": "50ea0811-8af2-5fec-8214-54f8b29495bc",
+                "text": "à emporter"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "d5320bfc-376a-5123-a481-be7af7e22bf2",
+                "text": "a receipt"
+              },
+              {
+                "id": "5c539181-fd61-56de-89f7-9f2313895028",
+                "text": "by card"
+              },
+              {
+                "id": "3f9ce861-3fea-57bf-a95e-c4834ed2bb40",
+                "text": "to take away"
+              }
+            ],
+            "answer_pairs": {
+              "398ec6db-f575-5f3e-b1bd-6029e2334d92": "d5320bfc-376a-5123-a481-be7af7e22bf2",
+              "0b04c170-d6a0-57f2-a166-292d79d77691": "5c539181-fd61-56de-89f7-9f2313895028",
+              "50ea0811-8af2-5fec-8214-54f8b29495bc": "3f9ce861-3fea-57bf-a95e-c4834ed2bb40"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Je ne prends pas de sucre.\nEnglish meaning: I do not take sugar.",
+          "data": {
+            "text_fr": "Je ne prends pas de sucre."
+          },
+          "options": [
+            "I do not take sugar.",
+            "I take sugar.",
+            "I do not take milk."
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: I do not take sugar.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Je ne prends pas de sucre.",
+          "explanation": "Exact model: Je ne prends pas de sucre.\nMeaning: I do not take sugar.",
+          "data": {
+            "accepted_answers": [
+              "Je ne prends pas de sucre."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-1-writing",
+      "skill": "writing",
+      "module_title": "Daily errands",
+      "title": "At a supermarket: writing",
+      "objective": "Practise A1-targeted writing in the situation: At a supermarket.",
+      "context": "French passage\nJe suis au supermarché. Je cherche du pain et du lait. Je ne prends pas de sucre. À la caisse, je paie par carte. Je demande un reçu. Après, je vais à la boulangerie. Je prends un café à emporter et je dis : « Merci, bonne journée ! »\n\nEnglish explanation\nPut ne before a conjugated verb and pas after it. In this example, de follows a negated indefinite quantity: pas de sucre. This does not apply to every article: je ne prends pas le bus keeps the definite article. Informal speakers often omit ne; practise the full written form.\nModel: Je ne prends pas de sucre.\nMeaning: I do not take sugar.\n\nGlossary\nun reçu — a receipt\npar carte — by card\nà emporter — to take away\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nWrite 25–40 French words. Write a short shopping list and two simple sentences about what you want and do not want. Use invented personal details. Feedback is advisory, not CEFR certification.\n\nLesson focus: Plan, draft and reread for task completion, grammatical accuracy, suitable vocabulary and audience.",
+      "vocabulary": [
+        "un reçu",
+        "par carte",
+        "à emporter"
+      ],
+      "estimated_minutes": 15,
+      "exercises": []
+    },
+    {
+      "key": "module-2-grammar",
+      "skill": "grammar",
+      "module_title": "Getting around and asking for help",
+      "title": "Find the station: grammar",
+      "objective": "Practise A1-targeted grammar in the situation: Find the station.",
+      "context": "French passage\nJe suis devant la mairie. Je cherche la gare. Je demande : « Excusez-moi, est-ce que le bus va à la gare ? » Une personne répond : « Oui. L’arrêt est en face de la mairie. » Je traverse au passage piéton. À pied, je peux aussi aller tout droit, puis tourner à gauche. Je remercie la personne.\n\nEnglish explanation\nEst-ce que introduces a yes/no question without changing subject–verb order. Before a vowel, que becomes qu’: Est-ce qu’il arrive ? Practise this fixed question pattern. Start a polite request for directions with Excusez-moi.\nModel: Est-ce que le bus va à la gare ?\nMeaning: Does the bus go to the station?\n\nGlossary\ntout droit — straight ahead\nen face — opposite\nà pied — on foot\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Identify the target form, explain its function, and contrast it with the alternative in the explanation.",
+      "vocabulary": [
+        "tout droit",
+        "en face",
+        "à pied"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Where is the bus stop?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Je suis devant la mairie. Je cherche la gare. Je demande : « Excusez-moi, est-ce que le bus va à la gare ? » Une personne répond : « Oui. L’arrêt est en face de la mairie. » Je traverse au passage piéton. À pied, je peux aussi aller tout droit, puis tourner à gauche. Je remercie la personne.",
+          "data": {},
+          "options": [
+            "Inside the bakery",
+            "Behind the supermarket",
+            "Opposite the town hall"
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Est-ce ___ le bus va à la gare ?",
+          "instructions": "Complete the fixed question pattern est-ce que. Write only the missing form; keep accents.",
+          "explanation": "Est-ce que introduces a yes/no question without changing subject–verb order. Before a vowel, que becomes qu’: Est-ce qu’il arrive ? Practise this fixed question pattern. Start a polite request for directions with Excusez-moi.",
+          "data": {
+            "accepted_answers": [
+              "que"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Est-ce que le bus va à la gare ?",
+          "explanation": "Est-ce que introduces a yes/no question without changing subject–verb order. Before a vowel, que becomes qu’: Est-ce qu’il arrive ? Practise this fixed question pattern. Start a polite request for directions with Excusez-moi.",
+          "data": {
+            "tiles": [
+              {
+                "id": "20517f8e-b1f0-5b2d-b2c0-69c35b595d00",
+                "text": "Est-ce"
+              },
+              {
+                "id": "a857ddf3-4cbd-5abd-930a-3d479cbd94e9",
+                "text": "que"
+              },
+              {
+                "id": "db00c78d-72aa-5959-a99d-62a8cbf1cba2",
+                "text": "le"
+              },
+              {
+                "id": "ffbb198b-b567-581e-ad86-256ae65a5f16",
+                "text": "bus"
+              },
+              {
+                "id": "662f82ff-c434-5aeb-8218-c9eee41c5a2a",
+                "text": "va"
+              },
+              {
+                "id": "187e210c-dce1-5049-a5ab-0228f78f0417",
+                "text": "à"
+              },
+              {
+                "id": "c46cd008-495d-5f70-b7ff-18b7c0b6d855",
+                "text": "la"
+              },
+              {
+                "id": "7a8231c9-6507-5cb7-ae32-a810878ce1f0",
+                "text": "gare"
+              },
+              {
+                "id": "7f376107-78ab-56bb-b98c-a4d1290cfe55",
+                "text": "?"
+              }
+            ],
+            "accepted_orders": [
+              [
+                "20517f8e-b1f0-5b2d-b2c0-69c35b595d00",
+                "a857ddf3-4cbd-5abd-930a-3d479cbd94e9",
+                "db00c78d-72aa-5959-a99d-62a8cbf1cba2",
+                "ffbb198b-b567-581e-ad86-256ae65a5f16",
+                "662f82ff-c434-5aeb-8218-c9eee41c5a2a",
+                "187e210c-dce1-5049-a5ab-0228f78f0417",
+                "c46cd008-495d-5f70-b7ff-18b7c0b6d855",
+                "7a8231c9-6507-5cb7-ae32-a810878ce1f0",
+                "7f376107-78ab-56bb-b98c-a4d1290cfe55"
+              ]
+            ],
+            "correct_sentence": "Est-ce que le bus va à la gare ?"
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "tout droit — straight ahead; en face — opposite; à pied — on foot",
+          "data": {
+            "left_items": [
+              {
+                "id": "f4e5921e-0c0f-5814-9d98-b75f286c4c40",
+                "text": "tout droit"
+              },
+              {
+                "id": "6fd011e9-e154-5536-8c4f-ec98ecfb3ebb",
+                "text": "en face"
+              },
+              {
+                "id": "f74f7c70-13d7-54af-baed-8465ee6075e9",
+                "text": "à pied"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "e025b0ba-4d7e-503e-94a9-e4dd8ac44926",
+                "text": "straight ahead"
+              },
+              {
+                "id": "cf926c18-9654-594f-8bb8-70e8362a6849",
+                "text": "opposite"
+              },
+              {
+                "id": "33eb21aa-b060-5fae-886e-70b5b829243f",
+                "text": "on foot"
+              }
+            ],
+            "answer_pairs": {
+              "f4e5921e-0c0f-5814-9d98-b75f286c4c40": "e025b0ba-4d7e-503e-94a9-e4dd8ac44926",
+              "6fd011e9-e154-5536-8c4f-ec98ecfb3ebb": "cf926c18-9654-594f-8bb8-70e8362a6849",
+              "f74f7c70-13d7-54af-baed-8465ee6075e9": "33eb21aa-b060-5fae-886e-70b5b829243f"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Est-ce que le bus va à la gare ?\nEnglish meaning: Does the bus go to the station?",
+          "data": {
+            "text_fr": "Est-ce que le bus va à la gare ?"
+          },
+          "options": [
+            "Does the bus go to the town hall?",
+            "Does the train go to the station?",
+            "Does the bus go to the station?"
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: Does the bus go to the station?",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Est-ce que le bus va à la gare ?",
+          "explanation": "Exact model: Est-ce que le bus va à la gare ?\nMeaning: Does the bus go to the station?",
+          "data": {
+            "accepted_answers": [
+              "Est-ce que le bus va à la gare ?"
+            ]
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "slug": "personal-module-2",
+          "title": "Yes/no questions with est-ce que",
+          "summary": "Est-ce que introduces a yes/no question without changing subject–verb order. Before a vowel, que becomes qu’: Est-ce qu’il arrive ? Practise this fixed question pattern. Start a polite request for directions with Excusez-moi.",
+          "rule_code": "personal-a1-2",
+          "explanation_english": "Est-ce que introduces a yes/no question without changing subject–verb order. Before a vowel, que becomes qu’: Est-ce qu’il arrive ? Practise this fixed question pattern. Start a polite request for directions with Excusez-moi.",
+          "examples": [
+            [
+              "Est-ce que le bus va à la gare ?",
+              "Does the bus go to the station?"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "key": "module-2-vocabulary",
+      "skill": "vocabulary",
+      "module_title": "Getting around and asking for help",
+      "title": "Find the station: vocabulary",
+      "objective": "Practise A1-targeted vocabulary in the situation: Find the station.",
+      "context": "French passage\nJe suis devant la mairie. Je cherche la gare. Je demande : « Excusez-moi, est-ce que le bus va à la gare ? » Une personne répond : « Oui. L’arrêt est en face de la mairie. » Je traverse au passage piéton. À pied, je peux aussi aller tout droit, puis tourner à gauche. Je remercie la personne.\n\nEnglish explanation\nEst-ce que introduces a yes/no question without changing subject–verb order. Before a vowel, que becomes qu’: Est-ce qu’il arrive ? Practise this fixed question pattern. Start a polite request for directions with Excusez-moi.\nModel: Est-ce que le bus va à la gare ?\nMeaning: Does the bus go to the station?\n\nGlossary\ntout droit — straight ahead\nen face — opposite\nà pied — on foot\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Read each French definition, match meanings, then use the expressions in your own example.",
+      "vocabulary": [
+        "tout droit",
+        "en face",
+        "à pied"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Which French expression means “straight ahead”?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "Glossary meaning: tout droit — straight ahead.",
+          "data": {},
+          "options": [
+            "tout droit",
+            "en face",
+            "à pied"
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Est-ce ___ le bus va à la gare ?",
+          "instructions": "Complete the fixed question pattern est-ce que. Write only the missing form; keep accents.",
+          "explanation": "Est-ce que introduces a yes/no question without changing subject–verb order. Before a vowel, que becomes qu’: Est-ce qu’il arrive ? Practise this fixed question pattern. Start a polite request for directions with Excusez-moi.",
+          "data": {
+            "accepted_answers": [
+              "que"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Est-ce que le bus va à la gare ?",
+          "explanation": "Est-ce que introduces a yes/no question without changing subject–verb order. Before a vowel, que becomes qu’: Est-ce qu’il arrive ? Practise this fixed question pattern. Start a polite request for directions with Excusez-moi.",
+          "data": {
+            "tiles": [
+              {
+                "id": "28d6c8ba-9558-517f-b124-48208a30449a",
+                "text": "Est-ce"
+              },
+              {
+                "id": "9006db08-a16d-5de2-b04f-53cf5dbcae3e",
+                "text": "que"
+              },
+              {
+                "id": "70f1563c-fba4-55a0-8987-7a4f7b878c4f",
+                "text": "le"
+              },
+              {
+                "id": "55722473-ccde-5778-a015-030b3bbb1473",
+                "text": "bus"
+              },
+              {
+                "id": "c2438955-4eba-542a-aba0-3b7badc4e7f7",
+                "text": "va"
+              },
+              {
+                "id": "59056389-d1d6-589f-9edd-e5400c17022f",
+                "text": "à"
+              },
+              {
+                "id": "1f6a2655-381f-550e-b12c-5fce1fb199c4",
+                "text": "la"
+              },
+              {
+                "id": "e47081d9-9b62-50ff-b441-0c0c78f13c0d",
+                "text": "gare"
+              },
+              {
+                "id": "8b3c5fa1-5a40-5594-b6c6-eb82a6fb796c",
+                "text": "?"
+              }
+            ],
+            "accepted_orders": [
+              [
+                "28d6c8ba-9558-517f-b124-48208a30449a",
+                "9006db08-a16d-5de2-b04f-53cf5dbcae3e",
+                "70f1563c-fba4-55a0-8987-7a4f7b878c4f",
+                "55722473-ccde-5778-a015-030b3bbb1473",
+                "c2438955-4eba-542a-aba0-3b7badc4e7f7",
+                "59056389-d1d6-589f-9edd-e5400c17022f",
+                "1f6a2655-381f-550e-b12c-5fce1fb199c4",
+                "e47081d9-9b62-50ff-b441-0c0c78f13c0d",
+                "8b3c5fa1-5a40-5594-b6c6-eb82a6fb796c"
+              ]
+            ],
+            "correct_sentence": "Est-ce que le bus va à la gare ?"
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "tout droit — straight ahead; en face — opposite; à pied — on foot",
+          "data": {
+            "left_items": [
+              {
+                "id": "f8e41783-504f-5e2c-9f0b-37d77ca01b3e",
+                "text": "tout droit"
+              },
+              {
+                "id": "65e6fc13-70c0-5430-95cb-2e581fa7e3c1",
+                "text": "en face"
+              },
+              {
+                "id": "d6219441-7c7f-5a7f-b0f8-6766ba728f5e",
+                "text": "à pied"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "1f3a777a-1408-5c99-bc17-2e7747490138",
+                "text": "straight ahead"
+              },
+              {
+                "id": "dcb274b6-a46b-5e46-9fd7-3f45788ef435",
+                "text": "opposite"
+              },
+              {
+                "id": "b69ffa02-acc7-5d12-b590-7b7b2aa67f56",
+                "text": "on foot"
+              }
+            ],
+            "answer_pairs": {
+              "f8e41783-504f-5e2c-9f0b-37d77ca01b3e": "1f3a777a-1408-5c99-bc17-2e7747490138",
+              "65e6fc13-70c0-5430-95cb-2e581fa7e3c1": "dcb274b6-a46b-5e46-9fd7-3f45788ef435",
+              "d6219441-7c7f-5a7f-b0f8-6766ba728f5e": "b69ffa02-acc7-5d12-b590-7b7b2aa67f56"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Est-ce que le bus va à la gare ?\nEnglish meaning: Does the bus go to the station?",
+          "data": {
+            "text_fr": "Est-ce que le bus va à la gare ?"
+          },
+          "options": [
+            "Does the bus go to the station?",
+            "Does the bus go to the town hall?",
+            "Does the train go to the station?"
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: Does the bus go to the station?",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Est-ce que le bus va à la gare ?",
+          "explanation": "Exact model: Est-ce que le bus va à la gare ?\nMeaning: Does the bus go to the station?",
+          "data": {
+            "accepted_answers": [
+              "Est-ce que le bus va à la gare ?"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-2-reading",
+      "skill": "reading",
+      "module_title": "Getting around and asking for help",
+      "title": "Find the station: reading",
+      "objective": "Practise A1-targeted reading in the situation: Find the station.",
+      "context": "French passage\nJe suis devant la mairie. Je cherche la gare. Je demande : « Excusez-moi, est-ce que le bus va à la gare ? » Une personne répond : « Oui. L’arrêt est en face de la mairie. » Je traverse au passage piéton. À pied, je peux aussi aller tout droit, puis tourner à gauche. Je remercie la personne.\n\nEnglish explanation\nEst-ce que introduces a yes/no question without changing subject–verb order. Before a vowel, que becomes qu’: Est-ce qu’il arrive ? Practise this fixed question pattern. Start a polite request for directions with Excusez-moi.\nModel: Est-ce que le bus va à la gare ?\nMeaning: Does the bus go to the station?\n\nGlossary\ntout droit — straight ahead\nen face — opposite\nà pied — on foot\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Find evidence for the answer in the passage. Distinguish what is stated from what is merely possible.",
+      "vocabulary": [
+        "tout droit",
+        "en face",
+        "à pied"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Where is the bus stop?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Je suis devant la mairie. Je cherche la gare. Je demande : « Excusez-moi, est-ce que le bus va à la gare ? » Une personne répond : « Oui. L’arrêt est en face de la mairie. » Je traverse au passage piéton. À pied, je peux aussi aller tout droit, puis tourner à gauche. Je remercie la personne.",
+          "data": {},
+          "options": [
+            "Inside the bakery",
+            "Opposite the town hall",
+            "Behind the supermarket"
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Est-ce ___ le bus va à la gare ?",
+          "instructions": "Complete the fixed question pattern est-ce que. Write only the missing form; keep accents.",
+          "explanation": "Est-ce que introduces a yes/no question without changing subject–verb order. Before a vowel, que becomes qu’: Est-ce qu’il arrive ? Practise this fixed question pattern. Start a polite request for directions with Excusez-moi.",
+          "data": {
+            "accepted_answers": [
+              "que"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Est-ce que le bus va à la gare ?",
+          "explanation": "Est-ce que introduces a yes/no question without changing subject–verb order. Before a vowel, que becomes qu’: Est-ce qu’il arrive ? Practise this fixed question pattern. Start a polite request for directions with Excusez-moi.",
+          "data": {
+            "tiles": [
+              {
+                "id": "fc94d7f8-61f3-536f-84c7-07824060696a",
+                "text": "Est-ce"
+              },
+              {
+                "id": "cb48bbd3-34ae-52cb-b456-ae54e9af28fb",
+                "text": "que"
+              },
+              {
+                "id": "0b7edb81-0651-5e0e-9edf-53fead250e75",
+                "text": "le"
+              },
+              {
+                "id": "72d5330f-ebb0-5a81-93c1-39f0cb0fe256",
+                "text": "bus"
+              },
+              {
+                "id": "d570f044-5f65-517a-a335-933d522d5618",
+                "text": "va"
+              },
+              {
+                "id": "f739cf92-35b8-5764-afeb-64908da21be2",
+                "text": "à"
+              },
+              {
+                "id": "341182c7-ab89-5523-aeb4-79619dacea30",
+                "text": "la"
+              },
+              {
+                "id": "d0715d19-b29d-5b0f-9014-6406d052857b",
+                "text": "gare"
+              },
+              {
+                "id": "43a821f5-dfd2-5c85-a031-4cb6e117ac0c",
+                "text": "?"
+              }
+            ],
+            "accepted_orders": [
+              [
+                "fc94d7f8-61f3-536f-84c7-07824060696a",
+                "cb48bbd3-34ae-52cb-b456-ae54e9af28fb",
+                "0b7edb81-0651-5e0e-9edf-53fead250e75",
+                "72d5330f-ebb0-5a81-93c1-39f0cb0fe256",
+                "d570f044-5f65-517a-a335-933d522d5618",
+                "f739cf92-35b8-5764-afeb-64908da21be2",
+                "341182c7-ab89-5523-aeb4-79619dacea30",
+                "d0715d19-b29d-5b0f-9014-6406d052857b",
+                "43a821f5-dfd2-5c85-a031-4cb6e117ac0c"
+              ]
+            ],
+            "correct_sentence": "Est-ce que le bus va à la gare ?"
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "tout droit — straight ahead; en face — opposite; à pied — on foot",
+          "data": {
+            "left_items": [
+              {
+                "id": "25da49ed-c301-541d-8eea-fc8456a53e83",
+                "text": "tout droit"
+              },
+              {
+                "id": "f928d114-c606-56e8-bd27-56d65ae9b472",
+                "text": "en face"
+              },
+              {
+                "id": "e164eb76-4444-5c95-9bd5-e0219f3abb1a",
+                "text": "à pied"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "25a5f738-4e57-5d7c-b721-dd633551bdd7",
+                "text": "straight ahead"
+              },
+              {
+                "id": "3a35f0fd-8d01-5f7e-a4e0-ca64cf2f7cde",
+                "text": "opposite"
+              },
+              {
+                "id": "a937dd4a-227f-5c62-94dc-00e6ac715232",
+                "text": "on foot"
+              }
+            ],
+            "answer_pairs": {
+              "25da49ed-c301-541d-8eea-fc8456a53e83": "25a5f738-4e57-5d7c-b721-dd633551bdd7",
+              "f928d114-c606-56e8-bd27-56d65ae9b472": "3a35f0fd-8d01-5f7e-a4e0-ca64cf2f7cde",
+              "e164eb76-4444-5c95-9bd5-e0219f3abb1a": "a937dd4a-227f-5c62-94dc-00e6ac715232"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Est-ce que le bus va à la gare ?\nEnglish meaning: Does the bus go to the station?",
+          "data": {
+            "text_fr": "Est-ce que le bus va à la gare ?"
+          },
+          "options": [
+            "Does the bus go to the town hall?",
+            "Does the bus go to the station?",
+            "Does the train go to the station?"
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: Does the bus go to the station?",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Est-ce que le bus va à la gare ?",
+          "explanation": "Exact model: Est-ce que le bus va à la gare ?\nMeaning: Does the bus go to the station?",
+          "data": {
+            "accepted_answers": [
+              "Est-ce que le bus va à la gare ?"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-2-writing",
+      "skill": "writing",
+      "module_title": "Getting around and asking for help",
+      "title": "Find the station: writing",
+      "objective": "Practise A1-targeted writing in the situation: Find the station.",
+      "context": "French passage\nJe suis devant la mairie. Je cherche la gare. Je demande : « Excusez-moi, est-ce que le bus va à la gare ? » Une personne répond : « Oui. L’arrêt est en face de la mairie. » Je traverse au passage piéton. À pied, je peux aussi aller tout droit, puis tourner à gauche. Je remercie la personne.\n\nEnglish explanation\nEst-ce que introduces a yes/no question without changing subject–verb order. Before a vowel, que becomes qu’: Est-ce qu’il arrive ? Practise this fixed question pattern. Start a polite request for directions with Excusez-moi.\nModel: Est-ce que le bus va à la gare ?\nMeaning: Does the bus go to the station?\n\nGlossary\ntout droit — straight ahead\nen face — opposite\nà pied — on foot\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nWrite 25–40 French words. Write a short question asking how to get to the station, then give two simple directions. Use invented personal details. Feedback is advisory, not CEFR certification.\n\nLesson focus: Plan, draft and reread for task completion, grammatical accuracy, suitable vocabulary and audience.",
+      "vocabulary": [
+        "tout droit",
+        "en face",
+        "à pied"
+      ],
+      "estimated_minutes": 15,
+      "exercises": []
+    },
+    {
+      "key": "module-3-grammar",
+      "skill": "grammar",
+      "module_title": "Appointments and study",
+      "title": "Ask for an appointment: grammar",
+      "objective": "Practise A1-targeted grammar in the situation: Ask for an appointment.",
+      "context": "French passage\nJe téléphone au secrétariat de mon université. Je dis : « Bonjour, je voudrais prendre rendez-vous. » La personne propose mardi à dix heures. Je suis disponible. Elle demande mon nom et mon adresse électronique. Je les donne. Elle dit : « Apportez votre carte d’étudiant. » Je réponds : « D’accord, merci. À mardi ! »\n\nEnglish explanation\nJe voudrais + infinitive is a useful polite request. At A1, learn je voudrais as a fixed expression; study the full conditional later. Compare Je voudrais prendre rendez-vous and Je voudrais parler au secrétariat. Vous is appropriate with someone you do not know.\nModel: Je voudrais prendre rendez-vous.\nMeaning: I would like to make an appointment.\n\nGlossary\nprendre rendez-vous — to make an appointment\nêtre disponible — to be available\nune carte d’étudiant — a student card\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Identify the target form, explain its function, and contrast it with the alternative in the explanation.",
+      "vocabulary": [
+        "prendre rendez-vous",
+        "être disponible",
+        "une carte d’étudiant"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "When is the proposed appointment?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Je téléphone au secrétariat de mon université. Je dis : « Bonjour, je voudrais prendre rendez-vous. » La personne propose mardi à dix heures. Je suis disponible. Elle demande mon nom et mon adresse électronique. Je les donne. Elle dit : « Apportez votre carte d’étudiant. » Je réponds : « D’accord, merci. À mardi ! »",
+          "data": {},
+          "options": [
+            "Tuesday at ten",
+            "Monday at noon",
+            "Friday at eight"
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Je ___ prendre rendez-vous.",
+          "instructions": "Use the memorised polite request je voudrais + infinitive. Write only the missing form; keep accents.",
+          "explanation": "Je voudrais + infinitive is a useful polite request. At A1, learn je voudrais as a fixed expression; study the full conditional later. Compare Je voudrais prendre rendez-vous and Je voudrais parler au secrétariat. Vous is appropriate with someone you do not know.",
+          "data": {
+            "accepted_answers": [
+              "voudrais"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Je voudrais prendre rendez-vous.",
+          "explanation": "Je voudrais + infinitive is a useful polite request. At A1, learn je voudrais as a fixed expression; study the full conditional later. Compare Je voudrais prendre rendez-vous and Je voudrais parler au secrétariat. Vous is appropriate with someone you do not know.",
+          "data": {
+            "tiles": [
+              {
+                "id": "9227f8aa-105e-5e6c-800d-9af3c8f010b0",
+                "text": "Je"
+              },
+              {
+                "id": "4d1715b2-7aa7-50a2-91c0-dc5f90c93a07",
+                "text": "voudrais"
+              },
+              {
+                "id": "c035cb3c-0d94-532b-8a2d-ced09bd6c47c",
+                "text": "prendre"
+              },
+              {
+                "id": "ed7943ab-99a2-5570-bde1-e387a32c76bb",
+                "text": "rendez-vous."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "9227f8aa-105e-5e6c-800d-9af3c8f010b0",
+                "4d1715b2-7aa7-50a2-91c0-dc5f90c93a07",
+                "c035cb3c-0d94-532b-8a2d-ced09bd6c47c",
+                "ed7943ab-99a2-5570-bde1-e387a32c76bb"
+              ]
+            ],
+            "correct_sentence": "Je voudrais prendre rendez-vous."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "prendre rendez-vous — to make an appointment; être disponible — to be available; une carte d’étudiant — a student card",
+          "data": {
+            "left_items": [
+              {
+                "id": "95d825ee-29bc-5f2f-8bee-cee9a5127dd4",
+                "text": "prendre rendez-vous"
+              },
+              {
+                "id": "4add4381-0995-51cd-b852-7ab7e07ec6fb",
+                "text": "être disponible"
+              },
+              {
+                "id": "7539be2c-90f2-55a9-89de-03134ed2db44",
+                "text": "une carte d’étudiant"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "d00d3d5f-59b8-588c-bfbe-6767738514bf",
+                "text": "to make an appointment"
+              },
+              {
+                "id": "b5908baf-e964-5448-ace9-2667fe66dc17",
+                "text": "to be available"
+              },
+              {
+                "id": "bce29dcd-72a1-54e6-b3b0-875b233fe564",
+                "text": "a student card"
+              }
+            ],
+            "answer_pairs": {
+              "95d825ee-29bc-5f2f-8bee-cee9a5127dd4": "d00d3d5f-59b8-588c-bfbe-6767738514bf",
+              "4add4381-0995-51cd-b852-7ab7e07ec6fb": "b5908baf-e964-5448-ace9-2667fe66dc17",
+              "7539be2c-90f2-55a9-89de-03134ed2db44": "bce29dcd-72a1-54e6-b3b0-875b233fe564"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Je voudrais prendre rendez-vous.\nEnglish meaning: I would like to make an appointment.",
+          "data": {
+            "text_fr": "Je voudrais prendre rendez-vous."
+          },
+          "options": [
+            "I would like to make an appointment.",
+            "I would like to cancel an appointment.",
+            "I would like to change an appointment."
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: I would like to make an appointment.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Je voudrais prendre rendez-vous.",
+          "explanation": "Exact model: Je voudrais prendre rendez-vous.\nMeaning: I would like to make an appointment.",
+          "data": {
+            "accepted_answers": [
+              "Je voudrais prendre rendez-vous."
+            ]
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "slug": "personal-module-3",
+          "title": "A memorised polite request",
+          "summary": "Je voudrais + infinitive is a useful polite request. At A1, learn je voudrais as a fixed expression; study the full conditional later. Compare Je voudrais prendre rendez-vous and Je voudrais parler au secrétariat. Vous is appropriate with someone you do not know.",
+          "rule_code": "personal-a1-3",
+          "explanation_english": "Je voudrais + infinitive is a useful polite request. At A1, learn je voudrais as a fixed expression; study the full conditional later. Compare Je voudrais prendre rendez-vous and Je voudrais parler au secrétariat. Vous is appropriate with someone you do not know.",
+          "examples": [
+            [
+              "Je voudrais prendre rendez-vous.",
+              "I would like to make an appointment."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "key": "module-3-vocabulary",
+      "skill": "vocabulary",
+      "module_title": "Appointments and study",
+      "title": "Ask for an appointment: vocabulary",
+      "objective": "Practise A1-targeted vocabulary in the situation: Ask for an appointment.",
+      "context": "French passage\nJe téléphone au secrétariat de mon université. Je dis : « Bonjour, je voudrais prendre rendez-vous. » La personne propose mardi à dix heures. Je suis disponible. Elle demande mon nom et mon adresse électronique. Je les donne. Elle dit : « Apportez votre carte d’étudiant. » Je réponds : « D’accord, merci. À mardi ! »\n\nEnglish explanation\nJe voudrais + infinitive is a useful polite request. At A1, learn je voudrais as a fixed expression; study the full conditional later. Compare Je voudrais prendre rendez-vous and Je voudrais parler au secrétariat. Vous is appropriate with someone you do not know.\nModel: Je voudrais prendre rendez-vous.\nMeaning: I would like to make an appointment.\n\nGlossary\nprendre rendez-vous — to make an appointment\nêtre disponible — to be available\nune carte d’étudiant — a student card\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Read each French definition, match meanings, then use the expressions in your own example.",
+      "vocabulary": [
+        "prendre rendez-vous",
+        "être disponible",
+        "une carte d’étudiant"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Which French expression means “to make an appointment”?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "Glossary meaning: prendre rendez-vous — to make an appointment.",
+          "data": {},
+          "options": [
+            "être disponible",
+            "prendre rendez-vous",
+            "une carte d’étudiant"
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Je ___ prendre rendez-vous.",
+          "instructions": "Use the memorised polite request je voudrais + infinitive. Write only the missing form; keep accents.",
+          "explanation": "Je voudrais + infinitive is a useful polite request. At A1, learn je voudrais as a fixed expression; study the full conditional later. Compare Je voudrais prendre rendez-vous and Je voudrais parler au secrétariat. Vous is appropriate with someone you do not know.",
+          "data": {
+            "accepted_answers": [
+              "voudrais"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Je voudrais prendre rendez-vous.",
+          "explanation": "Je voudrais + infinitive is a useful polite request. At A1, learn je voudrais as a fixed expression; study the full conditional later. Compare Je voudrais prendre rendez-vous and Je voudrais parler au secrétariat. Vous is appropriate with someone you do not know.",
+          "data": {
+            "tiles": [
+              {
+                "id": "f56cafb9-32c4-55f2-b1ad-af719ac2f0af",
+                "text": "Je"
+              },
+              {
+                "id": "b296d1d1-91e8-5054-9670-b0809e79f303",
+                "text": "voudrais"
+              },
+              {
+                "id": "6c225315-e73d-55b6-93e1-a92f02021642",
+                "text": "prendre"
+              },
+              {
+                "id": "2b984fa6-71a9-5361-8f3a-ae6e7c044a00",
+                "text": "rendez-vous."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "f56cafb9-32c4-55f2-b1ad-af719ac2f0af",
+                "b296d1d1-91e8-5054-9670-b0809e79f303",
+                "6c225315-e73d-55b6-93e1-a92f02021642",
+                "2b984fa6-71a9-5361-8f3a-ae6e7c044a00"
+              ]
+            ],
+            "correct_sentence": "Je voudrais prendre rendez-vous."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "prendre rendez-vous — to make an appointment; être disponible — to be available; une carte d’étudiant — a student card",
+          "data": {
+            "left_items": [
+              {
+                "id": "329223a0-de2f-533e-9023-d1e3d36721cc",
+                "text": "prendre rendez-vous"
+              },
+              {
+                "id": "5ef5c9b7-c801-57ca-af2e-74e583cb5969",
+                "text": "être disponible"
+              },
+              {
+                "id": "82113302-73f9-5033-9932-5a493d23fc1d",
+                "text": "une carte d’étudiant"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "c4cf95be-9a12-591c-8805-4eaced1abd2e",
+                "text": "to make an appointment"
+              },
+              {
+                "id": "5aa30223-b6e1-5363-8651-8810f9bed5c1",
+                "text": "to be available"
+              },
+              {
+                "id": "0606cddb-455c-5a06-a8fc-a1a4ec83f48e",
+                "text": "a student card"
+              }
+            ],
+            "answer_pairs": {
+              "329223a0-de2f-533e-9023-d1e3d36721cc": "c4cf95be-9a12-591c-8805-4eaced1abd2e",
+              "5ef5c9b7-c801-57ca-af2e-74e583cb5969": "5aa30223-b6e1-5363-8651-8810f9bed5c1",
+              "82113302-73f9-5033-9932-5a493d23fc1d": "0606cddb-455c-5a06-a8fc-a1a4ec83f48e"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Je voudrais prendre rendez-vous.\nEnglish meaning: I would like to make an appointment.",
+          "data": {
+            "text_fr": "Je voudrais prendre rendez-vous."
+          },
+          "options": [
+            "I would like to cancel an appointment.",
+            "I would like to make an appointment.",
+            "I would like to change an appointment."
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: I would like to make an appointment.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Je voudrais prendre rendez-vous.",
+          "explanation": "Exact model: Je voudrais prendre rendez-vous.\nMeaning: I would like to make an appointment.",
+          "data": {
+            "accepted_answers": [
+              "Je voudrais prendre rendez-vous."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-3-reading",
+      "skill": "reading",
+      "module_title": "Appointments and study",
+      "title": "Ask for an appointment: reading",
+      "objective": "Practise A1-targeted reading in the situation: Ask for an appointment.",
+      "context": "French passage\nJe téléphone au secrétariat de mon université. Je dis : « Bonjour, je voudrais prendre rendez-vous. » La personne propose mardi à dix heures. Je suis disponible. Elle demande mon nom et mon adresse électronique. Je les donne. Elle dit : « Apportez votre carte d’étudiant. » Je réponds : « D’accord, merci. À mardi ! »\n\nEnglish explanation\nJe voudrais + infinitive is a useful polite request. At A1, learn je voudrais as a fixed expression; study the full conditional later. Compare Je voudrais prendre rendez-vous and Je voudrais parler au secrétariat. Vous is appropriate with someone you do not know.\nModel: Je voudrais prendre rendez-vous.\nMeaning: I would like to make an appointment.\n\nGlossary\nprendre rendez-vous — to make an appointment\nêtre disponible — to be available\nune carte d’étudiant — a student card\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Find evidence for the answer in the passage. Distinguish what is stated from what is merely possible.",
+      "vocabulary": [
+        "prendre rendez-vous",
+        "être disponible",
+        "une carte d’étudiant"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "When is the proposed appointment?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Je téléphone au secrétariat de mon université. Je dis : « Bonjour, je voudrais prendre rendez-vous. » La personne propose mardi à dix heures. Je suis disponible. Elle demande mon nom et mon adresse électronique. Je les donne. Elle dit : « Apportez votre carte d’étudiant. » Je réponds : « D’accord, merci. À mardi ! »",
+          "data": {},
+          "options": [
+            "Monday at noon",
+            "Friday at eight",
+            "Tuesday at ten"
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Je ___ prendre rendez-vous.",
+          "instructions": "Use the memorised polite request je voudrais + infinitive. Write only the missing form; keep accents.",
+          "explanation": "Je voudrais + infinitive is a useful polite request. At A1, learn je voudrais as a fixed expression; study the full conditional later. Compare Je voudrais prendre rendez-vous and Je voudrais parler au secrétariat. Vous is appropriate with someone you do not know.",
+          "data": {
+            "accepted_answers": [
+              "voudrais"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Je voudrais prendre rendez-vous.",
+          "explanation": "Je voudrais + infinitive is a useful polite request. At A1, learn je voudrais as a fixed expression; study the full conditional later. Compare Je voudrais prendre rendez-vous and Je voudrais parler au secrétariat. Vous is appropriate with someone you do not know.",
+          "data": {
+            "tiles": [
+              {
+                "id": "4cae84f6-592c-5118-a413-dba0bbb56018",
+                "text": "Je"
+              },
+              {
+                "id": "d1470dbc-0e89-50c2-a967-b91555ab25d3",
+                "text": "voudrais"
+              },
+              {
+                "id": "f1284e66-ce3c-54ad-bf5e-bd2f9351f163",
+                "text": "prendre"
+              },
+              {
+                "id": "8654e8b4-5ec6-55fb-a113-69cbfc5d3cb8",
+                "text": "rendez-vous."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "4cae84f6-592c-5118-a413-dba0bbb56018",
+                "d1470dbc-0e89-50c2-a967-b91555ab25d3",
+                "f1284e66-ce3c-54ad-bf5e-bd2f9351f163",
+                "8654e8b4-5ec6-55fb-a113-69cbfc5d3cb8"
+              ]
+            ],
+            "correct_sentence": "Je voudrais prendre rendez-vous."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "prendre rendez-vous — to make an appointment; être disponible — to be available; une carte d’étudiant — a student card",
+          "data": {
+            "left_items": [
+              {
+                "id": "de9488df-45dd-53a8-ada5-72f97dfaaadf",
+                "text": "prendre rendez-vous"
+              },
+              {
+                "id": "359a3269-e6d6-58c9-9795-d728831f6809",
+                "text": "être disponible"
+              },
+              {
+                "id": "833689d3-4bd9-50d2-9949-0edb22d7e159",
+                "text": "une carte d’étudiant"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "c381d4ce-0074-5fb3-96ed-1dd658e3c621",
+                "text": "to make an appointment"
+              },
+              {
+                "id": "55dbca66-9190-5313-9cca-956956d27d24",
+                "text": "to be available"
+              },
+              {
+                "id": "9e902364-ef9f-5e30-8d2f-bc39e5a4ea09",
+                "text": "a student card"
+              }
+            ],
+            "answer_pairs": {
+              "de9488df-45dd-53a8-ada5-72f97dfaaadf": "c381d4ce-0074-5fb3-96ed-1dd658e3c621",
+              "359a3269-e6d6-58c9-9795-d728831f6809": "55dbca66-9190-5313-9cca-956956d27d24",
+              "833689d3-4bd9-50d2-9949-0edb22d7e159": "9e902364-ef9f-5e30-8d2f-bc39e5a4ea09"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Je voudrais prendre rendez-vous.\nEnglish meaning: I would like to make an appointment.",
+          "data": {
+            "text_fr": "Je voudrais prendre rendez-vous."
+          },
+          "options": [
+            "I would like to cancel an appointment.",
+            "I would like to change an appointment.",
+            "I would like to make an appointment."
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: I would like to make an appointment.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Je voudrais prendre rendez-vous.",
+          "explanation": "Exact model: Je voudrais prendre rendez-vous.\nMeaning: I would like to make an appointment.",
+          "data": {
+            "accepted_answers": [
+              "Je voudrais prendre rendez-vous."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-3-writing",
+      "skill": "writing",
+      "module_title": "Appointments and study",
+      "title": "Ask for an appointment: writing",
+      "objective": "Practise A1-targeted writing in the situation: Ask for an appointment.",
+      "context": "French passage\nJe téléphone au secrétariat de mon université. Je dis : « Bonjour, je voudrais prendre rendez-vous. » La personne propose mardi à dix heures. Je suis disponible. Elle demande mon nom et mon adresse électronique. Je les donne. Elle dit : « Apportez votre carte d’étudiant. » Je réponds : « D’accord, merci. À mardi ! »\n\nEnglish explanation\nJe voudrais + infinitive is a useful polite request. At A1, learn je voudrais as a fixed expression; study the full conditional later. Compare Je voudrais prendre rendez-vous and Je voudrais parler au secrétariat. Vous is appropriate with someone you do not know.\nModel: Je voudrais prendre rendez-vous.\nMeaning: I would like to make an appointment.\n\nGlossary\nprendre rendez-vous — to make an appointment\nêtre disponible — to be available\nune carte d’étudiant — a student card\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nWrite 25–40 French words. Write a short appointment request. Give your invented name and a day and time when you are available. Use invented personal details. Feedback is advisory, not CEFR certification.\n\nLesson focus: Plan, draft and reread for task completion, grammatical accuracy, suitable vocabulary and audience.",
+      "vocabulary": [
+        "prendre rendez-vous",
+        "être disponible",
+        "une carte d’étudiant"
+      ],
+      "estimated_minutes": 15,
+      "exercises": []
+    }
+  ]
+}

@@ -46,7 +46,7 @@ export function GrammarDetails({level,onEnhancedTopics}:{level:string;onEnhanced
       </p>}
       <button type="button" className="button button-primary mt-6" disabled={!topic.available_exercises||pending} onClick={()=>void practice()}>{pending?'Opening…':'Practice this grammar'}</button>
       {!topic.available_exercises&&<p className="mt-2 text-sm text-slate-500">No explicitly linked authorized grammar exercises are available for this topic yet.</p>}
-      {topic.lesson_ids[0]&&<LessonActions lessonId={topic.lesson_ids[0]}/>}
+      {topic.lesson_ids[0]&&<LessonActions lessonId={topic.lesson_ids[0]} level={level}/>}
       <details className="mt-5 text-sm">
         <summary>Related vocabulary and source notes</summary>
         <ul className="mt-3 space-y-3">{topic.vocabulary.map(word => {

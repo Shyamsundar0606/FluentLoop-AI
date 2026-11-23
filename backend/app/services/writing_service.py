@@ -15,6 +15,7 @@ from app.services import assessment_service, learning_service
 from app.services.draft_preview import can_preview_drafts
 
 Suggestion = Annotated[str, StringConstraints(min_length=1, max_length=500)]
+MAX_WRITING_CHARACTERS = 8000  # Bounded extended essays plus short audience variants.
 
 
 class WritingFeedback(BaseModel):
@@ -31,8 +32,8 @@ def task(db, user, lesson_id):
     objective = db.scalar(select(LessonObjective).join(LearningObjective,
         LearningObjective.id == LessonObjective.objective_id).where(
             LessonObjective.lesson_id == lesson_id, LearningObjective.skill_category == "writing",
-            LearningObjective.level == user.preferences.current_level.upper()))
-    if not context or not objective or lesson.difficulty_level != user.preferences.current_level.upper():
+            LearningObjective.level == lesson.difficulty_level))
+    if not context or not objective:
         raise HTTPException(404, "Writing task unavailable at your selected level.")
     return dict(lesson_id=str(lesson.id), title=lesson.title, level=lesson.difficulty_level,
                 content_version=lesson.content_version, prompt=context, draft_preview=preview)

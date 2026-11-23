@@ -122,7 +122,8 @@ def test_writing_auth_csrf_validation_and_cross_user_denial(skills):
     body = dict(lesson_id=lessons["writing"], idempotency_key=str(uuid4()), text="Bonjour !")
     assert client.post(BASE + "/writing", json=body).status_code == 403
     assert client.post(BASE + "/writing", headers=_csrf(client), json={**body, "text": "  "}).status_code == 422
-    assert client.post(BASE + "/writing", headers=_csrf(client), json={**body, "text": "x" * 4001}).status_code == 422
+    # Extended essays now allow 8000 characters; the over-limit rejection stays.
+    assert client.post(BASE + "/writing", headers=_csrf(client), json={**body, "text": "x" * 8001}).status_code == 422
     saved = client.post(BASE + "/writing", headers=_csrf(client), json=body).json()
     client.cookies.clear()
     assert client.get(BASE + f"/writing/{saved['id']}").status_code == 401

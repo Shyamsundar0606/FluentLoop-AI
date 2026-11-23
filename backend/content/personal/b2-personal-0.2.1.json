@@ -1,0 +1,1667 @@
+{
+  "version": "0.2.1",
+  "level": "B2",
+  "status": "draft",
+  "title": "Personal French B2: daily life and expression",
+  "source_license": "Original AI-assisted drafts; independent linguistic, phonetic, pedagogical, answer-key and licensing reviews pending.",
+  "glossary": [
+    {
+      "lemma": "une contrainte individuelle",
+      "part_of_speech": "phrase",
+      "translation": "an individual constraint",
+      "definition_french": "Une limite liée à la situation particulière d’une personne."
+    },
+    {
+      "lemma": "un objectif collectif",
+      "part_of_speech": "phrase",
+      "translation": "a shared objective",
+      "definition_french": "Un but poursuivi par plusieurs personnes ensemble."
+    },
+    {
+      "lemma": "nuancer son propos",
+      "part_of_speech": "phrase",
+      "translation": "to qualify one’s statement",
+      "definition_french": "Préciser les limites de ce que l’on affirme."
+    },
+    {
+      "lemma": "un message de suivi",
+      "part_of_speech": "phrase",
+      "translation": "a follow-up message",
+      "definition_french": "Un message envoyé après un premier échange."
+    },
+    {
+      "lemma": "atténuer une demande",
+      "part_of_speech": "phrase",
+      "translation": "to soften a request",
+      "definition_french": "Rendre une demande moins directe dans sa formulation."
+    },
+    {
+      "lemma": "un registre formel",
+      "part_of_speech": "phrase",
+      "translation": "a formal register",
+      "definition_french": "Une manière de s’exprimer adaptée à un contexte officiel ou professionnel."
+    },
+    {
+      "lemma": "une pièce supplémentaire",
+      "part_of_speech": "phrase",
+      "translation": "an additional document",
+      "definition_french": "Un document ajouté à ceux déjà fournis."
+    },
+    {
+      "lemma": "la référence du dossier",
+      "part_of_speech": "phrase",
+      "translation": "the file reference",
+      "definition_french": "Le code qui permet d’identifier un dossier."
+    },
+    {
+      "lemma": "l’étape suivante",
+      "part_of_speech": "phrase",
+      "translation": "the next step",
+      "definition_french": "La prochaine phase d’une démarche."
+    }
+  ],
+  "tasks": [
+    {
+      "key": "module-1-grammar",
+      "skill": "grammar",
+      "module_title": "Discussion and debate",
+      "title": "Debate public transport: grammar",
+      "objective": "Practise B2-targeted grammar in the situation: Debate public transport.",
+      "context": "French passage\nUne association organise une discussion sur les déplacements quotidiens. Certains participants privilégient la voiture, car ils travaillent loin des lignes régulières. D’autres défendent le train en soulignant son confort et la possibilité de lire pendant le trajet. Bien que le trajet soit long, je préfère le train. Je reconnais cependant que mon choix dépend de ma situation : une personne qui commence très tôt n’a pas forcément les mêmes possibilités. Pour débattre utilement, je distingue les contraintes individuelles des objectifs collectifs et je propose de comparer plusieurs scénarios, sans présenter une préférence personnelle comme une solution universelle.\n\nEnglish explanation\nBien que introduces a conceded fact and takes the subjunctive: bien que le trajet soit long. The subjunctive here does not mean the fact is doubtful. Même si normally takes an indicative tense: même si le trajet est long. Similar meanings do not make these grammatical patterns interchangeable.\nModel: Bien que le trajet soit long, je préfère le train.\nMeaning: Although the journey is long, I prefer the train.\n\nGlossary\nune contrainte individuelle — an individual constraint\nun objectif collectif — a shared objective\nnuancer son propos — to qualify one’s statement\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Identify the target form, explain its function, and contrast it with the alternative in the explanation.",
+      "vocabulary": [
+        "une contrainte individuelle",
+        "un objectif collectif",
+        "nuancer son propos"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Why does the speaker qualify the preference for trains?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Une association organise une discussion sur les déplacements quotidiens. Certains participants privilégient la voiture, car ils travaillent loin des lignes régulières. D’autres défendent le train en soulignant son confort et la possibilité de lire pendant le trajet. Bien que le trajet soit long, je préfère le train. Je reconnais cependant que mon choix dépend de ma situation : une personne qui commence très tôt n’a pas forcément les mêmes possibilités. Pour débattre utilement, je distingue les contraintes individuelles des objectifs collectifs et je propose de comparer plusieurs scénarios, sans présenter une préférence personnelle comme une solution universelle.",
+          "data": {},
+          "options": [
+            "The speaker says every journey is identical",
+            "Different people face different constraints",
+            "The discussion forbids alternatives"
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Bien que le trajet ___ long, je préfère le train.",
+          "instructions": "Use être in the present subjunctive, third-person singular. Write only the missing form; keep accents.",
+          "explanation": "Bien que introduces a conceded fact and takes the subjunctive: bien que le trajet soit long. The subjunctive here does not mean the fact is doubtful. Même si normally takes an indicative tense: même si le trajet est long. Similar meanings do not make these grammatical patterns interchangeable.",
+          "data": {
+            "accepted_answers": [
+              "soit"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Bien que le trajet soit long, je préfère le train.",
+          "explanation": "Bien que introduces a conceded fact and takes the subjunctive: bien que le trajet soit long. The subjunctive here does not mean the fact is doubtful. Même si normally takes an indicative tense: même si le trajet est long. Similar meanings do not make these grammatical patterns interchangeable.",
+          "data": {
+            "tiles": [
+              {
+                "id": "4185c982-9652-5098-af4c-4dccf8a5b7aa",
+                "text": "Bien"
+              },
+              {
+                "id": "e6ad3430-afd3-5b72-8385-05888e650820",
+                "text": "que"
+              },
+              {
+                "id": "c74b93c6-7cae-57c6-8d95-106b1ba5baba",
+                "text": "le"
+              },
+              {
+                "id": "e35c2656-45e7-5550-baa1-feb6c9d95e32",
+                "text": "trajet"
+              },
+              {
+                "id": "a67a00d4-a9b3-5ac0-8bd0-33a134e83ff0",
+                "text": "soit"
+              },
+              {
+                "id": "3cfff947-55e1-5794-b5e9-0b42629c96a1",
+                "text": "long,"
+              },
+              {
+                "id": "014ad2be-dd37-51f7-9883-109abe0ec44e",
+                "text": "je"
+              },
+              {
+                "id": "1a15e8ce-c738-5438-9032-7a3b4e1f1417",
+                "text": "préfère"
+              },
+              {
+                "id": "696ee0f2-cb4c-5f25-b8cc-8ba2c9167c7d",
+                "text": "le"
+              },
+              {
+                "id": "b218214b-6bcb-541d-b8f3-cecaf783756e",
+                "text": "train."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "4185c982-9652-5098-af4c-4dccf8a5b7aa",
+                "e6ad3430-afd3-5b72-8385-05888e650820",
+                "c74b93c6-7cae-57c6-8d95-106b1ba5baba",
+                "e35c2656-45e7-5550-baa1-feb6c9d95e32",
+                "a67a00d4-a9b3-5ac0-8bd0-33a134e83ff0",
+                "3cfff947-55e1-5794-b5e9-0b42629c96a1",
+                "014ad2be-dd37-51f7-9883-109abe0ec44e",
+                "1a15e8ce-c738-5438-9032-7a3b4e1f1417",
+                "696ee0f2-cb4c-5f25-b8cc-8ba2c9167c7d",
+                "b218214b-6bcb-541d-b8f3-cecaf783756e"
+              ]
+            ],
+            "correct_sentence": "Bien que le trajet soit long, je préfère le train."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "une contrainte individuelle — an individual constraint; un objectif collectif — a shared objective; nuancer son propos — to qualify one’s statement",
+          "data": {
+            "left_items": [
+              {
+                "id": "26e6d3f7-4ad3-55f4-807a-b25e6ea39653",
+                "text": "une contrainte individuelle"
+              },
+              {
+                "id": "a277f782-6a64-504a-854c-0e0ab273c22f",
+                "text": "un objectif collectif"
+              },
+              {
+                "id": "f70cd68c-083a-5556-a499-f97421b266a8",
+                "text": "nuancer son propos"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "0ca51a15-1cae-5a83-ae3a-3f07e88270cc",
+                "text": "an individual constraint"
+              },
+              {
+                "id": "640073ff-0ef6-5953-b3b2-42ab8c352146",
+                "text": "a shared objective"
+              },
+              {
+                "id": "92dd5717-a5d9-5ccf-bfdd-dd7db84c25c8",
+                "text": "to qualify one’s statement"
+              }
+            ],
+            "answer_pairs": {
+              "26e6d3f7-4ad3-55f4-807a-b25e6ea39653": "0ca51a15-1cae-5a83-ae3a-3f07e88270cc",
+              "a277f782-6a64-504a-854c-0e0ab273c22f": "640073ff-0ef6-5953-b3b2-42ab8c352146",
+              "f70cd68c-083a-5556-a499-f97421b266a8": "92dd5717-a5d9-5ccf-bfdd-dd7db84c25c8"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Bien que le trajet soit long, je préfère le train.\nEnglish meaning: Although the journey is long, I prefer the train.",
+          "data": {
+            "text_fr": "Bien que le trajet soit long, je préfère le train."
+          },
+          "options": [
+            "Because the journey is long, I prefer the train.",
+            "Although the journey is long, I prefer the train.",
+            "Although the journey is short, I prefer the train."
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: Although the journey is long, I prefer the train.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Bien que le trajet soit long, je préfère le train.",
+          "explanation": "Exact model: Bien que le trajet soit long, je préfère le train.\nMeaning: Although the journey is long, I prefer the train.",
+          "data": {
+            "accepted_answers": [
+              "Bien que le trajet soit long, je préfère le train."
+            ]
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "slug": "personal-module-1",
+          "title": "Concession with bien que",
+          "summary": "Bien que introduces a conceded fact and takes the subjunctive: bien que le trajet soit long. The subjunctive here does not mean the fact is doubtful. Même si normally takes an indicative tense: même si le trajet est long. Similar meanings do not make these grammatical patterns interchangeable.",
+          "rule_code": "personal-b2-1",
+          "explanation_english": "Bien que introduces a conceded fact and takes the subjunctive: bien que le trajet soit long. The subjunctive here does not mean the fact is doubtful. Même si normally takes an indicative tense: même si le trajet est long. Similar meanings do not make these grammatical patterns interchangeable.",
+          "examples": [
+            [
+              "Bien que le trajet soit long, je préfère le train.",
+              "Although the journey is long, I prefer the train."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "key": "module-1-vocabulary",
+      "skill": "vocabulary",
+      "module_title": "Discussion and debate",
+      "title": "Debate public transport: vocabulary",
+      "objective": "Practise B2-targeted vocabulary in the situation: Debate public transport.",
+      "context": "French passage\nUne association organise une discussion sur les déplacements quotidiens. Certains participants privilégient la voiture, car ils travaillent loin des lignes régulières. D’autres défendent le train en soulignant son confort et la possibilité de lire pendant le trajet. Bien que le trajet soit long, je préfère le train. Je reconnais cependant que mon choix dépend de ma situation : une personne qui commence très tôt n’a pas forcément les mêmes possibilités. Pour débattre utilement, je distingue les contraintes individuelles des objectifs collectifs et je propose de comparer plusieurs scénarios, sans présenter une préférence personnelle comme une solution universelle.\n\nEnglish explanation\nBien que introduces a conceded fact and takes the subjunctive: bien que le trajet soit long. The subjunctive here does not mean the fact is doubtful. Même si normally takes an indicative tense: même si le trajet est long. Similar meanings do not make these grammatical patterns interchangeable.\nModel: Bien que le trajet soit long, je préfère le train.\nMeaning: Although the journey is long, I prefer the train.\n\nGlossary\nune contrainte individuelle — an individual constraint\nun objectif collectif — a shared objective\nnuancer son propos — to qualify one’s statement\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Read each French definition, match meanings, then use the expressions in your own example.",
+      "vocabulary": [
+        "une contrainte individuelle",
+        "un objectif collectif",
+        "nuancer son propos"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Which French expression means “an individual constraint”?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "Glossary meaning: une contrainte individuelle — an individual constraint.",
+          "data": {},
+          "options": [
+            "un objectif collectif",
+            "nuancer son propos",
+            "une contrainte individuelle"
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Bien que le trajet ___ long, je préfère le train.",
+          "instructions": "Use être in the present subjunctive, third-person singular. Write only the missing form; keep accents.",
+          "explanation": "Bien que introduces a conceded fact and takes the subjunctive: bien que le trajet soit long. The subjunctive here does not mean the fact is doubtful. Même si normally takes an indicative tense: même si le trajet est long. Similar meanings do not make these grammatical patterns interchangeable.",
+          "data": {
+            "accepted_answers": [
+              "soit"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Bien que le trajet soit long, je préfère le train.",
+          "explanation": "Bien que introduces a conceded fact and takes the subjunctive: bien que le trajet soit long. The subjunctive here does not mean the fact is doubtful. Même si normally takes an indicative tense: même si le trajet est long. Similar meanings do not make these grammatical patterns interchangeable.",
+          "data": {
+            "tiles": [
+              {
+                "id": "ac84b0c8-99ca-5e8a-a318-c1e6cd8adbd9",
+                "text": "Bien"
+              },
+              {
+                "id": "7f27e4fa-ed05-5da3-877d-0bb162578284",
+                "text": "que"
+              },
+              {
+                "id": "cf0a10e0-e82c-5f46-b6e2-e3211d567b40",
+                "text": "le"
+              },
+              {
+                "id": "16b7a260-f3fe-5960-a0b4-0668b077b7f2",
+                "text": "trajet"
+              },
+              {
+                "id": "3d6af323-d410-5e9f-a66c-65b55989b623",
+                "text": "soit"
+              },
+              {
+                "id": "0de6a011-6b67-5701-bb4d-4904008a322f",
+                "text": "long,"
+              },
+              {
+                "id": "bcd6c3df-96ab-52a8-a285-2ddd825a8b28",
+                "text": "je"
+              },
+              {
+                "id": "80cb925a-0a44-5dd8-8f23-f9779d702deb",
+                "text": "préfère"
+              },
+              {
+                "id": "c9830df4-2a74-5cbb-8e5f-95b167c7b1e7",
+                "text": "le"
+              },
+              {
+                "id": "5e13bc4f-8fe3-5fb9-9726-4a4cf9744e09",
+                "text": "train."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "ac84b0c8-99ca-5e8a-a318-c1e6cd8adbd9",
+                "7f27e4fa-ed05-5da3-877d-0bb162578284",
+                "cf0a10e0-e82c-5f46-b6e2-e3211d567b40",
+                "16b7a260-f3fe-5960-a0b4-0668b077b7f2",
+                "3d6af323-d410-5e9f-a66c-65b55989b623",
+                "0de6a011-6b67-5701-bb4d-4904008a322f",
+                "bcd6c3df-96ab-52a8-a285-2ddd825a8b28",
+                "80cb925a-0a44-5dd8-8f23-f9779d702deb",
+                "c9830df4-2a74-5cbb-8e5f-95b167c7b1e7",
+                "5e13bc4f-8fe3-5fb9-9726-4a4cf9744e09"
+              ]
+            ],
+            "correct_sentence": "Bien que le trajet soit long, je préfère le train."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "une contrainte individuelle — an individual constraint; un objectif collectif — a shared objective; nuancer son propos — to qualify one’s statement",
+          "data": {
+            "left_items": [
+              {
+                "id": "a5bd3132-54ed-5f72-8fc9-2bf4c5d4827b",
+                "text": "une contrainte individuelle"
+              },
+              {
+                "id": "c0493b46-e512-596b-ac68-0f964dabac7d",
+                "text": "un objectif collectif"
+              },
+              {
+                "id": "e6468cf0-0b87-50db-9453-e0511164950c",
+                "text": "nuancer son propos"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "4092122d-0cec-53df-84dd-38cec06475f7",
+                "text": "an individual constraint"
+              },
+              {
+                "id": "0426b0fa-0c30-5f5d-9ffc-83bfe09467d4",
+                "text": "a shared objective"
+              },
+              {
+                "id": "81211071-c1a2-57e3-b032-61f26be85499",
+                "text": "to qualify one’s statement"
+              }
+            ],
+            "answer_pairs": {
+              "a5bd3132-54ed-5f72-8fc9-2bf4c5d4827b": "4092122d-0cec-53df-84dd-38cec06475f7",
+              "c0493b46-e512-596b-ac68-0f964dabac7d": "0426b0fa-0c30-5f5d-9ffc-83bfe09467d4",
+              "e6468cf0-0b87-50db-9453-e0511164950c": "81211071-c1a2-57e3-b032-61f26be85499"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Bien que le trajet soit long, je préfère le train.\nEnglish meaning: Although the journey is long, I prefer the train.",
+          "data": {
+            "text_fr": "Bien que le trajet soit long, je préfère le train."
+          },
+          "options": [
+            "Because the journey is long, I prefer the train.",
+            "Although the journey is short, I prefer the train.",
+            "Although the journey is long, I prefer the train."
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: Although the journey is long, I prefer the train.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Bien que le trajet soit long, je préfère le train.",
+          "explanation": "Exact model: Bien que le trajet soit long, je préfère le train.\nMeaning: Although the journey is long, I prefer the train.",
+          "data": {
+            "accepted_answers": [
+              "Bien que le trajet soit long, je préfère le train."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-1-reading",
+      "skill": "reading",
+      "module_title": "Discussion and debate",
+      "title": "Debate public transport: reading",
+      "objective": "Practise B2-targeted reading in the situation: Debate public transport.",
+      "context": "French passage\nUne association organise une discussion sur les déplacements quotidiens. Certains participants privilégient la voiture, car ils travaillent loin des lignes régulières. D’autres défendent le train en soulignant son confort et la possibilité de lire pendant le trajet. Bien que le trajet soit long, je préfère le train. Je reconnais cependant que mon choix dépend de ma situation : une personne qui commence très tôt n’a pas forcément les mêmes possibilités. Pour débattre utilement, je distingue les contraintes individuelles des objectifs collectifs et je propose de comparer plusieurs scénarios, sans présenter une préférence personnelle comme une solution universelle.\n\nEnglish explanation\nBien que introduces a conceded fact and takes the subjunctive: bien que le trajet soit long. The subjunctive here does not mean the fact is doubtful. Même si normally takes an indicative tense: même si le trajet est long. Similar meanings do not make these grammatical patterns interchangeable.\nModel: Bien que le trajet soit long, je préfère le train.\nMeaning: Although the journey is long, I prefer the train.\n\nGlossary\nune contrainte individuelle — an individual constraint\nun objectif collectif — a shared objective\nnuancer son propos — to qualify one’s statement\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Find evidence for the answer in the passage. Distinguish what is stated from what is merely possible.",
+      "vocabulary": [
+        "une contrainte individuelle",
+        "un objectif collectif",
+        "nuancer son propos"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Why does the speaker qualify the preference for trains?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Une association organise une discussion sur les déplacements quotidiens. Certains participants privilégient la voiture, car ils travaillent loin des lignes régulières. D’autres défendent le train en soulignant son confort et la possibilité de lire pendant le trajet. Bien que le trajet soit long, je préfère le train. Je reconnais cependant que mon choix dépend de ma situation : une personne qui commence très tôt n’a pas forcément les mêmes possibilités. Pour débattre utilement, je distingue les contraintes individuelles des objectifs collectifs et je propose de comparer plusieurs scénarios, sans présenter une préférence personnelle comme une solution universelle.",
+          "data": {},
+          "options": [
+            "Different people face different constraints",
+            "The speaker says every journey is identical",
+            "The discussion forbids alternatives"
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Bien que le trajet ___ long, je préfère le train.",
+          "instructions": "Use être in the present subjunctive, third-person singular. Write only the missing form; keep accents.",
+          "explanation": "Bien que introduces a conceded fact and takes the subjunctive: bien que le trajet soit long. The subjunctive here does not mean the fact is doubtful. Même si normally takes an indicative tense: même si le trajet est long. Similar meanings do not make these grammatical patterns interchangeable.",
+          "data": {
+            "accepted_answers": [
+              "soit"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Bien que le trajet soit long, je préfère le train.",
+          "explanation": "Bien que introduces a conceded fact and takes the subjunctive: bien que le trajet soit long. The subjunctive here does not mean the fact is doubtful. Même si normally takes an indicative tense: même si le trajet est long. Similar meanings do not make these grammatical patterns interchangeable.",
+          "data": {
+            "tiles": [
+              {
+                "id": "a3fcfff6-c99d-59cc-9c2d-f0ae65e228ed",
+                "text": "Bien"
+              },
+              {
+                "id": "ebe5aecc-f3d9-56b0-9edd-7d627b5a4e28",
+                "text": "que"
+              },
+              {
+                "id": "2487cff2-252d-5639-80a7-4580972ac797",
+                "text": "le"
+              },
+              {
+                "id": "a6db05da-4ad3-5c81-bd35-e71cfe7a214c",
+                "text": "trajet"
+              },
+              {
+                "id": "e9592b44-d807-57c9-8ef7-15bbf0058a2b",
+                "text": "soit"
+              },
+              {
+                "id": "26eb0f6c-9332-5271-9370-929ae9263157",
+                "text": "long,"
+              },
+              {
+                "id": "4c2a5392-d8d5-5d0d-a467-4be9bc50149b",
+                "text": "je"
+              },
+              {
+                "id": "272ee032-3d9c-51fc-ad9b-dbaf30239caa",
+                "text": "préfère"
+              },
+              {
+                "id": "6557fb06-89fa-565a-a781-b36299f586cc",
+                "text": "le"
+              },
+              {
+                "id": "a73b7285-09bc-5786-9945-eb895bf6c3f6",
+                "text": "train."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "a3fcfff6-c99d-59cc-9c2d-f0ae65e228ed",
+                "ebe5aecc-f3d9-56b0-9edd-7d627b5a4e28",
+                "2487cff2-252d-5639-80a7-4580972ac797",
+                "a6db05da-4ad3-5c81-bd35-e71cfe7a214c",
+                "e9592b44-d807-57c9-8ef7-15bbf0058a2b",
+                "26eb0f6c-9332-5271-9370-929ae9263157",
+                "4c2a5392-d8d5-5d0d-a467-4be9bc50149b",
+                "272ee032-3d9c-51fc-ad9b-dbaf30239caa",
+                "6557fb06-89fa-565a-a781-b36299f586cc",
+                "a73b7285-09bc-5786-9945-eb895bf6c3f6"
+              ]
+            ],
+            "correct_sentence": "Bien que le trajet soit long, je préfère le train."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "une contrainte individuelle — an individual constraint; un objectif collectif — a shared objective; nuancer son propos — to qualify one’s statement",
+          "data": {
+            "left_items": [
+              {
+                "id": "e06c105d-beda-5018-9867-aaf78aebeeaa",
+                "text": "une contrainte individuelle"
+              },
+              {
+                "id": "992ea4b5-48e5-5aa9-a561-5a3fbbbf57aa",
+                "text": "un objectif collectif"
+              },
+              {
+                "id": "ddb9f5ba-8225-53db-99bc-0a01cb099f0a",
+                "text": "nuancer son propos"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "7fe13c86-9925-5658-a022-17432c7a8b04",
+                "text": "an individual constraint"
+              },
+              {
+                "id": "3ecfd165-80ca-547d-807a-de2e700f6584",
+                "text": "a shared objective"
+              },
+              {
+                "id": "9809610f-a283-5dde-b349-3322e69b16d0",
+                "text": "to qualify one’s statement"
+              }
+            ],
+            "answer_pairs": {
+              "e06c105d-beda-5018-9867-aaf78aebeeaa": "7fe13c86-9925-5658-a022-17432c7a8b04",
+              "992ea4b5-48e5-5aa9-a561-5a3fbbbf57aa": "3ecfd165-80ca-547d-807a-de2e700f6584",
+              "ddb9f5ba-8225-53db-99bc-0a01cb099f0a": "9809610f-a283-5dde-b349-3322e69b16d0"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Bien que le trajet soit long, je préfère le train.\nEnglish meaning: Although the journey is long, I prefer the train.",
+          "data": {
+            "text_fr": "Bien que le trajet soit long, je préfère le train."
+          },
+          "options": [
+            "Although the journey is long, I prefer the train.",
+            "Because the journey is long, I prefer the train.",
+            "Although the journey is short, I prefer the train."
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: Although the journey is long, I prefer the train.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Bien que le trajet soit long, je préfère le train.",
+          "explanation": "Exact model: Bien que le trajet soit long, je préfère le train.\nMeaning: Although the journey is long, I prefer the train.",
+          "data": {
+            "accepted_answers": [
+              "Bien que le trajet soit long, je préfère le train."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-1-writing",
+      "skill": "writing",
+      "module_title": "Discussion and debate",
+      "title": "Debate public transport: writing",
+      "objective": "Practise B2-targeted writing in the situation: Debate public transport.",
+      "context": "French passage\nUne association organise une discussion sur les déplacements quotidiens. Certains participants privilégient la voiture, car ils travaillent loin des lignes régulières. D’autres défendent le train en soulignant son confort et la possibilité de lire pendant le trajet. Bien que le trajet soit long, je préfère le train. Je reconnais cependant que mon choix dépend de ma situation : une personne qui commence très tôt n’a pas forcément les mêmes possibilités. Pour débattre utilement, je distingue les contraintes individuelles des objectifs collectifs et je propose de comparer plusieurs scénarios, sans présenter une préférence personnelle comme une solution universelle.\n\nEnglish explanation\nBien que introduces a conceded fact and takes the subjunctive: bien que le trajet soit long. The subjunctive here does not mean the fact is doubtful. Même si normally takes an indicative tense: même si le trajet est long. Similar meanings do not make these grammatical patterns interchangeable.\nModel: Bien que le trajet soit long, je préfère le train.\nMeaning: Although the journey is long, I prefer the train.\n\nGlossary\nune contrainte individuelle — an individual constraint\nun objectif collectif — a shared objective\nnuancer son propos — to qualify one’s statement\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nWrite 140–180 French words. Write a reasoned contribution to the transport discussion. Defend one option, acknowledge a constraint and propose a qualified compromise. Use invented personal details. Feedback is advisory, not CEFR certification.\n\nLesson focus: Plan, draft and reread for task completion, grammatical accuracy, suitable vocabulary and audience.",
+      "vocabulary": [
+        "une contrainte individuelle",
+        "un objectif collectif",
+        "nuancer son propos"
+      ],
+      "estimated_minutes": 15,
+      "exercises": []
+    },
+    {
+      "key": "module-2-grammar",
+      "skill": "grammar",
+      "module_title": "Register and nuance",
+      "title": "Write a formal follow-up: grammar",
+      "objective": "Practise B2-targeted grammar in the situation: Write a formal follow-up.",
+      "context": "French passage\nAprès un entretien, je rédige un message de suivi. Je remercie mon interlocutrice et je rappelle brièvement l’objet de notre échange. Comme une information manque encore, j’écris : « J’aurais souhaité recevoir une réponse plus tôt. » Cette phrase peut exprimer un regret ou atténuer une demande selon le contexte ; elle risque aussi de paraître insistante. Je relis donc le message pour vérifier le ton et je formule clairement ce dont j’ai besoin aujourd’hui. Un registre formel ne consiste pas à multiplier les mots compliqués : il demande surtout de la précision, de la courtoisie et une organisation lisible.\n\nEnglish explanation\nJ’aurais souhaité combines the conditional of avoir and the past participle souhaité. It can express an unrealised wish or sometimes soften a request. Its pragmatic effect depends on context. A neutral present request is Pourriez-vous m’indiquer… ? A conditional-past sentence is not automatically polite.\nModel: J’aurais souhaité recevoir une réponse plus tôt.\nMeaning: I would have liked to receive an answer earlier.\n\nGlossary\nun message de suivi — a follow-up message\natténuer une demande — to soften a request\nun registre formel — a formal register\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Identify the target form, explain its function, and contrast it with the alternative in the explanation.",
+      "vocabulary": [
+        "un message de suivi",
+        "atténuer une demande",
+        "un registre formel"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "What is the writer checking when rereading?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Après un entretien, je rédige un message de suivi. Je remercie mon interlocutrice et je rappelle brièvement l’objet de notre échange. Comme une information manque encore, j’écris : « J’aurais souhaité recevoir une réponse plus tôt. » Cette phrase peut exprimer un regret ou atténuer une demande selon le contexte ; elle risque aussi de paraître insistante. Je relis donc le message pour vérifier le ton et je formule clairement ce dont j’ai besoin aujourd’hui. Un registre formel ne consiste pas à multiplier les mots compliqués : il demande surtout de la précision, de la courtoisie et une organisation lisible.",
+          "data": {},
+          "options": [
+            "Only the number of long words",
+            "Whether the message contains no request",
+            "The tone and clarity of the message"
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "J’aurais ___ recevoir une réponse plus tôt.",
+          "instructions": "Write the past participle of souhaiter after j’aurais. Write only the missing form; keep accents.",
+          "explanation": "J’aurais souhaité combines the conditional of avoir and the past participle souhaité. It can express an unrealised wish or sometimes soften a request. Its pragmatic effect depends on context. A neutral present request is Pourriez-vous m’indiquer… ? A conditional-past sentence is not automatically polite.",
+          "data": {
+            "accepted_answers": [
+              "souhaité"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: J’aurais souhaité recevoir une réponse plus tôt.",
+          "explanation": "J’aurais souhaité combines the conditional of avoir and the past participle souhaité. It can express an unrealised wish or sometimes soften a request. Its pragmatic effect depends on context. A neutral present request is Pourriez-vous m’indiquer… ? A conditional-past sentence is not automatically polite.",
+          "data": {
+            "tiles": [
+              {
+                "id": "590861de-bd69-5db3-9bc1-60c3d004f959",
+                "text": "J’aurais"
+              },
+              {
+                "id": "a6cfb1f1-8155-534a-8ef4-1b02e36fd261",
+                "text": "souhaité"
+              },
+              {
+                "id": "b921c3d9-932b-58bf-af6d-48177a3d3b26",
+                "text": "recevoir"
+              },
+              {
+                "id": "a4969678-5037-5edd-9438-b85636ee7037",
+                "text": "une"
+              },
+              {
+                "id": "62a3140a-c840-50c8-af49-e4beaba0fa16",
+                "text": "réponse"
+              },
+              {
+                "id": "07070928-c474-51bc-841e-9c2439345617",
+                "text": "plus"
+              },
+              {
+                "id": "7fbdfaf6-3678-583e-9690-dcf472630f1e",
+                "text": "tôt."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "590861de-bd69-5db3-9bc1-60c3d004f959",
+                "a6cfb1f1-8155-534a-8ef4-1b02e36fd261",
+                "b921c3d9-932b-58bf-af6d-48177a3d3b26",
+                "a4969678-5037-5edd-9438-b85636ee7037",
+                "62a3140a-c840-50c8-af49-e4beaba0fa16",
+                "07070928-c474-51bc-841e-9c2439345617",
+                "7fbdfaf6-3678-583e-9690-dcf472630f1e"
+              ]
+            ],
+            "correct_sentence": "J’aurais souhaité recevoir une réponse plus tôt."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "un message de suivi — a follow-up message; atténuer une demande — to soften a request; un registre formel — a formal register",
+          "data": {
+            "left_items": [
+              {
+                "id": "92e8bebb-afc5-59dd-b7a1-8edc6694308c",
+                "text": "un message de suivi"
+              },
+              {
+                "id": "b6f84a4c-ce66-58c0-8fd7-dcff6948c246",
+                "text": "atténuer une demande"
+              },
+              {
+                "id": "5e3a5e11-eb1c-59ca-b62b-e91ce6652849",
+                "text": "un registre formel"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "996e4413-1b72-5c44-a4da-fd6b621439c8",
+                "text": "a follow-up message"
+              },
+              {
+                "id": "e4b88423-0159-5408-991f-3dde8c0413ad",
+                "text": "to soften a request"
+              },
+              {
+                "id": "e77cce4a-b4d1-5bb3-b960-bea1ac6d0d8f",
+                "text": "a formal register"
+              }
+            ],
+            "answer_pairs": {
+              "92e8bebb-afc5-59dd-b7a1-8edc6694308c": "996e4413-1b72-5c44-a4da-fd6b621439c8",
+              "b6f84a4c-ce66-58c0-8fd7-dcff6948c246": "e4b88423-0159-5408-991f-3dde8c0413ad",
+              "5e3a5e11-eb1c-59ca-b62b-e91ce6652849": "e77cce4a-b4d1-5bb3-b960-bea1ac6d0d8f"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: J’aurais souhaité recevoir une réponse plus tôt.\nEnglish meaning: I would have liked to receive an answer earlier.",
+          "data": {
+            "text_fr": "J’aurais souhaité recevoir une réponse plus tôt."
+          },
+          "options": [
+            "I would have liked to receive an answer later.",
+            "I would have liked to send an answer earlier.",
+            "I would have liked to receive an answer earlier."
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: I would have liked to receive an answer earlier.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: J’aurais souhaité recevoir une réponse plus tôt.",
+          "explanation": "Exact model: J’aurais souhaité recevoir une réponse plus tôt.\nMeaning: I would have liked to receive an answer earlier.",
+          "data": {
+            "accepted_answers": [
+              "J’aurais souhaité recevoir une réponse plus tôt."
+            ]
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "slug": "personal-module-2",
+          "title": "The conditional past in context",
+          "summary": "J’aurais souhaité combines the conditional of avoir and the past participle souhaité. It can express an unrealised wish or sometimes soften a request. Its pragmatic effect depends on context. A neutral present request is Pourriez-vous m’indiquer… ? A conditional-past sentence is not automatically polite.",
+          "rule_code": "personal-b2-2",
+          "explanation_english": "J’aurais souhaité combines the conditional of avoir and the past participle souhaité. It can express an unrealised wish or sometimes soften a request. Its pragmatic effect depends on context. A neutral present request is Pourriez-vous m’indiquer… ? A conditional-past sentence is not automatically polite.",
+          "examples": [
+            [
+              "J’aurais souhaité recevoir une réponse plus tôt.",
+              "I would have liked to receive an answer earlier."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "key": "module-2-vocabulary",
+      "skill": "vocabulary",
+      "module_title": "Register and nuance",
+      "title": "Write a formal follow-up: vocabulary",
+      "objective": "Practise B2-targeted vocabulary in the situation: Write a formal follow-up.",
+      "context": "French passage\nAprès un entretien, je rédige un message de suivi. Je remercie mon interlocutrice et je rappelle brièvement l’objet de notre échange. Comme une information manque encore, j’écris : « J’aurais souhaité recevoir une réponse plus tôt. » Cette phrase peut exprimer un regret ou atténuer une demande selon le contexte ; elle risque aussi de paraître insistante. Je relis donc le message pour vérifier le ton et je formule clairement ce dont j’ai besoin aujourd’hui. Un registre formel ne consiste pas à multiplier les mots compliqués : il demande surtout de la précision, de la courtoisie et une organisation lisible.\n\nEnglish explanation\nJ’aurais souhaité combines the conditional of avoir and the past participle souhaité. It can express an unrealised wish or sometimes soften a request. Its pragmatic effect depends on context. A neutral present request is Pourriez-vous m’indiquer… ? A conditional-past sentence is not automatically polite.\nModel: J’aurais souhaité recevoir une réponse plus tôt.\nMeaning: I would have liked to receive an answer earlier.\n\nGlossary\nun message de suivi — a follow-up message\natténuer une demande — to soften a request\nun registre formel — a formal register\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Read each French definition, match meanings, then use the expressions in your own example.",
+      "vocabulary": [
+        "un message de suivi",
+        "atténuer une demande",
+        "un registre formel"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Which French expression means “a follow-up message”?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "Glossary meaning: un message de suivi — a follow-up message.",
+          "data": {},
+          "options": [
+            "un message de suivi",
+            "atténuer une demande",
+            "un registre formel"
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "J’aurais ___ recevoir une réponse plus tôt.",
+          "instructions": "Write the past participle of souhaiter after j’aurais. Write only the missing form; keep accents.",
+          "explanation": "J’aurais souhaité combines the conditional of avoir and the past participle souhaité. It can express an unrealised wish or sometimes soften a request. Its pragmatic effect depends on context. A neutral present request is Pourriez-vous m’indiquer… ? A conditional-past sentence is not automatically polite.",
+          "data": {
+            "accepted_answers": [
+              "souhaité"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: J’aurais souhaité recevoir une réponse plus tôt.",
+          "explanation": "J’aurais souhaité combines the conditional of avoir and the past participle souhaité. It can express an unrealised wish or sometimes soften a request. Its pragmatic effect depends on context. A neutral present request is Pourriez-vous m’indiquer… ? A conditional-past sentence is not automatically polite.",
+          "data": {
+            "tiles": [
+              {
+                "id": "fc211178-599c-52aa-bc4b-53ae01e34b5a",
+                "text": "J’aurais"
+              },
+              {
+                "id": "5ce9af34-8d8b-5d35-8d1b-af8cac88ef3e",
+                "text": "souhaité"
+              },
+              {
+                "id": "878141c7-9479-5fb3-a727-a0eb52de54e9",
+                "text": "recevoir"
+              },
+              {
+                "id": "a4412386-f5e4-5ac9-931b-f2c62a0a43a3",
+                "text": "une"
+              },
+              {
+                "id": "3bc8235e-b8d9-5ab0-8c0a-5a1c16f1a359",
+                "text": "réponse"
+              },
+              {
+                "id": "6804382e-10c0-5445-9517-814d8b2be083",
+                "text": "plus"
+              },
+              {
+                "id": "a9ea342d-0546-5460-8078-2621fb9d3907",
+                "text": "tôt."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "fc211178-599c-52aa-bc4b-53ae01e34b5a",
+                "5ce9af34-8d8b-5d35-8d1b-af8cac88ef3e",
+                "878141c7-9479-5fb3-a727-a0eb52de54e9",
+                "a4412386-f5e4-5ac9-931b-f2c62a0a43a3",
+                "3bc8235e-b8d9-5ab0-8c0a-5a1c16f1a359",
+                "6804382e-10c0-5445-9517-814d8b2be083",
+                "a9ea342d-0546-5460-8078-2621fb9d3907"
+              ]
+            ],
+            "correct_sentence": "J’aurais souhaité recevoir une réponse plus tôt."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "un message de suivi — a follow-up message; atténuer une demande — to soften a request; un registre formel — a formal register",
+          "data": {
+            "left_items": [
+              {
+                "id": "268f8bdb-4fb6-5615-a459-57bfaf980d96",
+                "text": "un message de suivi"
+              },
+              {
+                "id": "eb19f2ed-2f4f-59e7-afc2-dec97275ef7c",
+                "text": "atténuer une demande"
+              },
+              {
+                "id": "e39860c6-c9e8-56d1-bf51-7f8657ab624b",
+                "text": "un registre formel"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "b7fd3af8-02ca-5628-93fa-9fd1f184d88f",
+                "text": "a follow-up message"
+              },
+              {
+                "id": "18b6b696-4c0b-5a9f-b930-33d937d6dbd9",
+                "text": "to soften a request"
+              },
+              {
+                "id": "afbefd27-2c9d-5627-b9e6-c58a9cab329d",
+                "text": "a formal register"
+              }
+            ],
+            "answer_pairs": {
+              "268f8bdb-4fb6-5615-a459-57bfaf980d96": "b7fd3af8-02ca-5628-93fa-9fd1f184d88f",
+              "eb19f2ed-2f4f-59e7-afc2-dec97275ef7c": "18b6b696-4c0b-5a9f-b930-33d937d6dbd9",
+              "e39860c6-c9e8-56d1-bf51-7f8657ab624b": "afbefd27-2c9d-5627-b9e6-c58a9cab329d"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: J’aurais souhaité recevoir une réponse plus tôt.\nEnglish meaning: I would have liked to receive an answer earlier.",
+          "data": {
+            "text_fr": "J’aurais souhaité recevoir une réponse plus tôt."
+          },
+          "options": [
+            "I would have liked to receive an answer earlier.",
+            "I would have liked to receive an answer later.",
+            "I would have liked to send an answer earlier."
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: I would have liked to receive an answer earlier.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: J’aurais souhaité recevoir une réponse plus tôt.",
+          "explanation": "Exact model: J’aurais souhaité recevoir une réponse plus tôt.\nMeaning: I would have liked to receive an answer earlier.",
+          "data": {
+            "accepted_answers": [
+              "J’aurais souhaité recevoir une réponse plus tôt."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-2-reading",
+      "skill": "reading",
+      "module_title": "Register and nuance",
+      "title": "Write a formal follow-up: reading",
+      "objective": "Practise B2-targeted reading in the situation: Write a formal follow-up.",
+      "context": "French passage\nAprès un entretien, je rédige un message de suivi. Je remercie mon interlocutrice et je rappelle brièvement l’objet de notre échange. Comme une information manque encore, j’écris : « J’aurais souhaité recevoir une réponse plus tôt. » Cette phrase peut exprimer un regret ou atténuer une demande selon le contexte ; elle risque aussi de paraître insistante. Je relis donc le message pour vérifier le ton et je formule clairement ce dont j’ai besoin aujourd’hui. Un registre formel ne consiste pas à multiplier les mots compliqués : il demande surtout de la précision, de la courtoisie et une organisation lisible.\n\nEnglish explanation\nJ’aurais souhaité combines the conditional of avoir and the past participle souhaité. It can express an unrealised wish or sometimes soften a request. Its pragmatic effect depends on context. A neutral present request is Pourriez-vous m’indiquer… ? A conditional-past sentence is not automatically polite.\nModel: J’aurais souhaité recevoir une réponse plus tôt.\nMeaning: I would have liked to receive an answer earlier.\n\nGlossary\nun message de suivi — a follow-up message\natténuer une demande — to soften a request\nun registre formel — a formal register\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Find evidence for the answer in the passage. Distinguish what is stated from what is merely possible.",
+      "vocabulary": [
+        "un message de suivi",
+        "atténuer une demande",
+        "un registre formel"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "What is the writer checking when rereading?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Après un entretien, je rédige un message de suivi. Je remercie mon interlocutrice et je rappelle brièvement l’objet de notre échange. Comme une information manque encore, j’écris : « J’aurais souhaité recevoir une réponse plus tôt. » Cette phrase peut exprimer un regret ou atténuer une demande selon le contexte ; elle risque aussi de paraître insistante. Je relis donc le message pour vérifier le ton et je formule clairement ce dont j’ai besoin aujourd’hui. Un registre formel ne consiste pas à multiplier les mots compliqués : il demande surtout de la précision, de la courtoisie et une organisation lisible.",
+          "data": {},
+          "options": [
+            "Only the number of long words",
+            "The tone and clarity of the message",
+            "Whether the message contains no request"
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "J’aurais ___ recevoir une réponse plus tôt.",
+          "instructions": "Write the past participle of souhaiter after j’aurais. Write only the missing form; keep accents.",
+          "explanation": "J’aurais souhaité combines the conditional of avoir and the past participle souhaité. It can express an unrealised wish or sometimes soften a request. Its pragmatic effect depends on context. A neutral present request is Pourriez-vous m’indiquer… ? A conditional-past sentence is not automatically polite.",
+          "data": {
+            "accepted_answers": [
+              "souhaité"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: J’aurais souhaité recevoir une réponse plus tôt.",
+          "explanation": "J’aurais souhaité combines the conditional of avoir and the past participle souhaité. It can express an unrealised wish or sometimes soften a request. Its pragmatic effect depends on context. A neutral present request is Pourriez-vous m’indiquer… ? A conditional-past sentence is not automatically polite.",
+          "data": {
+            "tiles": [
+              {
+                "id": "45fbef11-2c86-5ee6-8e21-6ded856f7b18",
+                "text": "J’aurais"
+              },
+              {
+                "id": "4069bf70-a531-5e79-9f0a-e9a8510154d2",
+                "text": "souhaité"
+              },
+              {
+                "id": "08d069d6-d474-50d9-87fa-85add1278132",
+                "text": "recevoir"
+              },
+              {
+                "id": "8f053077-4ba0-5cfd-91db-d11130117122",
+                "text": "une"
+              },
+              {
+                "id": "175ee5db-ef35-5799-8f0a-76b207da7ffe",
+                "text": "réponse"
+              },
+              {
+                "id": "2a2a234a-a1fe-5bd9-aa94-2fb77170f1c3",
+                "text": "plus"
+              },
+              {
+                "id": "e069836f-ac7d-5efd-b8d9-8d6542edc0fa",
+                "text": "tôt."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "45fbef11-2c86-5ee6-8e21-6ded856f7b18",
+                "4069bf70-a531-5e79-9f0a-e9a8510154d2",
+                "08d069d6-d474-50d9-87fa-85add1278132",
+                "8f053077-4ba0-5cfd-91db-d11130117122",
+                "175ee5db-ef35-5799-8f0a-76b207da7ffe",
+                "2a2a234a-a1fe-5bd9-aa94-2fb77170f1c3",
+                "e069836f-ac7d-5efd-b8d9-8d6542edc0fa"
+              ]
+            ],
+            "correct_sentence": "J’aurais souhaité recevoir une réponse plus tôt."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "un message de suivi — a follow-up message; atténuer une demande — to soften a request; un registre formel — a formal register",
+          "data": {
+            "left_items": [
+              {
+                "id": "942a0773-add7-594d-a5a4-90cf68b85ca8",
+                "text": "un message de suivi"
+              },
+              {
+                "id": "1ae0885b-7d63-575f-bfc7-1862c38ec5ad",
+                "text": "atténuer une demande"
+              },
+              {
+                "id": "c04ab8a8-6d69-5168-98fd-54e553d6af53",
+                "text": "un registre formel"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "7cbd6ffb-88f3-5fb0-8531-c3271c99b15c",
+                "text": "a follow-up message"
+              },
+              {
+                "id": "35ed8170-850c-592b-8222-4b47fcf20475",
+                "text": "to soften a request"
+              },
+              {
+                "id": "ef140877-b256-5a57-8b34-bd71d01cd443",
+                "text": "a formal register"
+              }
+            ],
+            "answer_pairs": {
+              "942a0773-add7-594d-a5a4-90cf68b85ca8": "7cbd6ffb-88f3-5fb0-8531-c3271c99b15c",
+              "1ae0885b-7d63-575f-bfc7-1862c38ec5ad": "35ed8170-850c-592b-8222-4b47fcf20475",
+              "c04ab8a8-6d69-5168-98fd-54e553d6af53": "ef140877-b256-5a57-8b34-bd71d01cd443"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: J’aurais souhaité recevoir une réponse plus tôt.\nEnglish meaning: I would have liked to receive an answer earlier.",
+          "data": {
+            "text_fr": "J’aurais souhaité recevoir une réponse plus tôt."
+          },
+          "options": [
+            "I would have liked to receive an answer later.",
+            "I would have liked to receive an answer earlier.",
+            "I would have liked to send an answer earlier."
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: I would have liked to receive an answer earlier.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: J’aurais souhaité recevoir une réponse plus tôt.",
+          "explanation": "Exact model: J’aurais souhaité recevoir une réponse plus tôt.\nMeaning: I would have liked to receive an answer earlier.",
+          "data": {
+            "accepted_answers": [
+              "J’aurais souhaité recevoir une réponse plus tôt."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-2-writing",
+      "skill": "writing",
+      "module_title": "Register and nuance",
+      "title": "Write a formal follow-up: writing",
+      "objective": "Practise B2-targeted writing in the situation: Write a formal follow-up.",
+      "context": "French passage\nAprès un entretien, je rédige un message de suivi. Je remercie mon interlocutrice et je rappelle brièvement l’objet de notre échange. Comme une information manque encore, j’écris : « J’aurais souhaité recevoir une réponse plus tôt. » Cette phrase peut exprimer un regret ou atténuer une demande selon le contexte ; elle risque aussi de paraître insistante. Je relis donc le message pour vérifier le ton et je formule clairement ce dont j’ai besoin aujourd’hui. Un registre formel ne consiste pas à multiplier les mots compliqués : il demande surtout de la précision, de la courtoisie et une organisation lisible.\n\nEnglish explanation\nJ’aurais souhaité combines the conditional of avoir and the past participle souhaité. It can express an unrealised wish or sometimes soften a request. Its pragmatic effect depends on context. A neutral present request is Pourriez-vous m’indiquer… ? A conditional-past sentence is not automatically polite.\nModel: J’aurais souhaité recevoir une réponse plus tôt.\nMeaning: I would have liked to receive an answer earlier.\n\nGlossary\nun message de suivi — a follow-up message\natténuer une demande — to soften a request\nun registre formel — a formal register\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nWrite 140–180 French words. Write two versions of a follow-up: a direct neutral request and a more formal version. Explain briefly how the tone changes. Use invented personal details. Feedback is advisory, not CEFR certification.\n\nLesson focus: Plan, draft and reread for task completion, grammatical accuracy, suitable vocabulary and audience.",
+      "vocabulary": [
+        "un message de suivi",
+        "atténuer une demande",
+        "un registre formel"
+      ],
+      "estimated_minutes": 15,
+      "exercises": []
+    },
+    {
+      "key": "module-3-grammar",
+      "skill": "grammar",
+      "module_title": "Long-form communication",
+      "title": "Clarify a document request: grammar",
+      "objective": "Practise B2-targeted grammar in the situation: Clarify a document request.",
+      "context": "French passage\nDans cet échange fictif, un service demande une pièce supplémentaire pour examiner un dossier. Je réponds : « Voici le document dont vous avez besoin. » Avant d’envoyer le message, je vérifie que la pièce correspond bien à la demande. Je rappelle la référence du dossier et je pose une seule question sur l’étape suivante. Le service peut ainsi comprendre rapidement le contexte sans relire tous les échanges. Pour m’exercer, je transforme ensuite le message en un résumé oral destiné à un ami. Je conserve les informations utiles, mais j’adapte le vocabulaire et le degré de formalité au destinataire.\n\nEnglish explanation\nAvoir besoin de explains dont: le document dont vous avez besoin. Dont can replace a complement introduced by de, but not every prepositional complement. Compare le service auquel je m’adresse, from s’adresser à. Do not add a redundant de after dont in this example.\nModel: Voici le document dont vous avez besoin.\nMeaning: Here is the document you need.\n\nGlossary\nune pièce supplémentaire — an additional document\nla référence du dossier — the file reference\nl’étape suivante — the next step\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Identify the target form, explain its function, and contrast it with the alternative in the explanation.",
+      "vocabulary": [
+        "une pièce supplémentaire",
+        "la référence du dossier",
+        "l’étape suivante"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Why include the file reference?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Dans cet échange fictif, un service demande une pièce supplémentaire pour examiner un dossier. Je réponds : « Voici le document dont vous avez besoin. » Avant d’envoyer le message, je vérifie que la pièce correspond bien à la demande. Je rappelle la référence du dossier et je pose une seule question sur l’étape suivante. Le service peut ainsi comprendre rapidement le contexte sans relire tous les échanges. Pour m’exercer, je transforme ensuite le message en un résumé oral destiné à un ami. Je conserve les informations utiles, mais j’adapte le vocabulaire et le degré de formalité au destinataire.",
+          "data": {},
+          "options": [
+            "To identify the context quickly",
+            "To replace the requested document",
+            "To avoid answering the department"
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Voici le document ___ vous avez besoin.",
+          "instructions": "Use the relative pronoun replacing de in avoir besoin de. Write only the missing form; keep accents.",
+          "explanation": "Avoir besoin de explains dont: le document dont vous avez besoin. Dont can replace a complement introduced by de, but not every prepositional complement. Compare le service auquel je m’adresse, from s’adresser à. Do not add a redundant de after dont in this example.",
+          "data": {
+            "accepted_answers": [
+              "dont"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Voici le document dont vous avez besoin.",
+          "explanation": "Avoir besoin de explains dont: le document dont vous avez besoin. Dont can replace a complement introduced by de, but not every prepositional complement. Compare le service auquel je m’adresse, from s’adresser à. Do not add a redundant de after dont in this example.",
+          "data": {
+            "tiles": [
+              {
+                "id": "66b2dd7f-396f-5f0f-a2c4-8f2a57a70ffb",
+                "text": "Voici"
+              },
+              {
+                "id": "a1554991-9608-5ddd-a7fc-1581e1d45936",
+                "text": "le"
+              },
+              {
+                "id": "c6522f75-d44a-571b-a884-ab3f604ec581",
+                "text": "document"
+              },
+              {
+                "id": "9fb9bbb0-d2c8-5d83-9f84-3ccb97627259",
+                "text": "dont"
+              },
+              {
+                "id": "67458c53-ec2e-5576-a2df-53da86a3a2d5",
+                "text": "vous"
+              },
+              {
+                "id": "033b6557-8e6a-57d6-8479-7560968f8688",
+                "text": "avez"
+              },
+              {
+                "id": "0cf71f5d-addb-5e23-ad05-c8d04d7fc665",
+                "text": "besoin."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "66b2dd7f-396f-5f0f-a2c4-8f2a57a70ffb",
+                "a1554991-9608-5ddd-a7fc-1581e1d45936",
+                "c6522f75-d44a-571b-a884-ab3f604ec581",
+                "9fb9bbb0-d2c8-5d83-9f84-3ccb97627259",
+                "67458c53-ec2e-5576-a2df-53da86a3a2d5",
+                "033b6557-8e6a-57d6-8479-7560968f8688",
+                "0cf71f5d-addb-5e23-ad05-c8d04d7fc665"
+              ]
+            ],
+            "correct_sentence": "Voici le document dont vous avez besoin."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "une pièce supplémentaire — an additional document; la référence du dossier — the file reference; l’étape suivante — the next step",
+          "data": {
+            "left_items": [
+              {
+                "id": "08ec42c4-35ed-54df-94ec-0c3c2d412232",
+                "text": "une pièce supplémentaire"
+              },
+              {
+                "id": "ee4e682d-e00c-5eb8-bc9b-7c817ce141a0",
+                "text": "la référence du dossier"
+              },
+              {
+                "id": "ffb1c589-3900-5d1e-a475-5b3a7cd2012b",
+                "text": "l’étape suivante"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "84a81c3c-d670-5335-86a0-55ff56e0f19a",
+                "text": "an additional document"
+              },
+              {
+                "id": "53729f6f-ac25-5cf4-b19d-11b7d7ebd2fe",
+                "text": "the file reference"
+              },
+              {
+                "id": "31f06b2b-faf5-54a1-8903-bd8e98a27512",
+                "text": "the next step"
+              }
+            ],
+            "answer_pairs": {
+              "08ec42c4-35ed-54df-94ec-0c3c2d412232": "84a81c3c-d670-5335-86a0-55ff56e0f19a",
+              "ee4e682d-e00c-5eb8-bc9b-7c817ce141a0": "53729f6f-ac25-5cf4-b19d-11b7d7ebd2fe",
+              "ffb1c589-3900-5d1e-a475-5b3a7cd2012b": "31f06b2b-faf5-54a1-8903-bd8e98a27512"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Voici le document dont vous avez besoin.\nEnglish meaning: Here is the document you need.",
+          "data": {
+            "text_fr": "Voici le document dont vous avez besoin."
+          },
+          "options": [
+            "Here is the document you need.",
+            "Here is the document I need.",
+            "Here is the document you have already sent."
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: Here is the document you need.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Voici le document dont vous avez besoin.",
+          "explanation": "Exact model: Voici le document dont vous avez besoin.\nMeaning: Here is the document you need.",
+          "data": {
+            "accepted_answers": [
+              "Voici le document dont vous avez besoin."
+            ]
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "slug": "personal-module-3",
+          "title": "Dont and a complement with de",
+          "summary": "Avoir besoin de explains dont: le document dont vous avez besoin. Dont can replace a complement introduced by de, but not every prepositional complement. Compare le service auquel je m’adresse, from s’adresser à. Do not add a redundant de after dont in this example.",
+          "rule_code": "personal-b2-3",
+          "explanation_english": "Avoir besoin de explains dont: le document dont vous avez besoin. Dont can replace a complement introduced by de, but not every prepositional complement. Compare le service auquel je m’adresse, from s’adresser à. Do not add a redundant de after dont in this example.",
+          "examples": [
+            [
+              "Voici le document dont vous avez besoin.",
+              "Here is the document you need."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "key": "module-3-vocabulary",
+      "skill": "vocabulary",
+      "module_title": "Long-form communication",
+      "title": "Clarify a document request: vocabulary",
+      "objective": "Practise B2-targeted vocabulary in the situation: Clarify a document request.",
+      "context": "French passage\nDans cet échange fictif, un service demande une pièce supplémentaire pour examiner un dossier. Je réponds : « Voici le document dont vous avez besoin. » Avant d’envoyer le message, je vérifie que la pièce correspond bien à la demande. Je rappelle la référence du dossier et je pose une seule question sur l’étape suivante. Le service peut ainsi comprendre rapidement le contexte sans relire tous les échanges. Pour m’exercer, je transforme ensuite le message en un résumé oral destiné à un ami. Je conserve les informations utiles, mais j’adapte le vocabulaire et le degré de formalité au destinataire.\n\nEnglish explanation\nAvoir besoin de explains dont: le document dont vous avez besoin. Dont can replace a complement introduced by de, but not every prepositional complement. Compare le service auquel je m’adresse, from s’adresser à. Do not add a redundant de after dont in this example.\nModel: Voici le document dont vous avez besoin.\nMeaning: Here is the document you need.\n\nGlossary\nune pièce supplémentaire — an additional document\nla référence du dossier — the file reference\nl’étape suivante — the next step\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Read each French definition, match meanings, then use the expressions in your own example.",
+      "vocabulary": [
+        "une pièce supplémentaire",
+        "la référence du dossier",
+        "l’étape suivante"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Which French expression means “an additional document”?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "Glossary meaning: une pièce supplémentaire — an additional document.",
+          "data": {},
+          "options": [
+            "la référence du dossier",
+            "une pièce supplémentaire",
+            "l’étape suivante"
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Voici le document ___ vous avez besoin.",
+          "instructions": "Use the relative pronoun replacing de in avoir besoin de. Write only the missing form; keep accents.",
+          "explanation": "Avoir besoin de explains dont: le document dont vous avez besoin. Dont can replace a complement introduced by de, but not every prepositional complement. Compare le service auquel je m’adresse, from s’adresser à. Do not add a redundant de after dont in this example.",
+          "data": {
+            "accepted_answers": [
+              "dont"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Voici le document dont vous avez besoin.",
+          "explanation": "Avoir besoin de explains dont: le document dont vous avez besoin. Dont can replace a complement introduced by de, but not every prepositional complement. Compare le service auquel je m’adresse, from s’adresser à. Do not add a redundant de after dont in this example.",
+          "data": {
+            "tiles": [
+              {
+                "id": "032722e2-9143-5886-b150-e52e3fa763f1",
+                "text": "Voici"
+              },
+              {
+                "id": "c7cba044-8625-54ce-8ec2-12982c3a761d",
+                "text": "le"
+              },
+              {
+                "id": "4729755f-235f-57bb-8af5-64af87348cac",
+                "text": "document"
+              },
+              {
+                "id": "ddf6ccf8-d56e-5804-b6d2-8db8ef2216e3",
+                "text": "dont"
+              },
+              {
+                "id": "0d5472f6-b82d-5ccb-ba64-b791afe790cb",
+                "text": "vous"
+              },
+              {
+                "id": "f44805d5-ce99-5ad4-a57b-9858f6df7edd",
+                "text": "avez"
+              },
+              {
+                "id": "35be7b51-4395-59bd-a4b6-b51ddd62bcdc",
+                "text": "besoin."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "032722e2-9143-5886-b150-e52e3fa763f1",
+                "c7cba044-8625-54ce-8ec2-12982c3a761d",
+                "4729755f-235f-57bb-8af5-64af87348cac",
+                "ddf6ccf8-d56e-5804-b6d2-8db8ef2216e3",
+                "0d5472f6-b82d-5ccb-ba64-b791afe790cb",
+                "f44805d5-ce99-5ad4-a57b-9858f6df7edd",
+                "35be7b51-4395-59bd-a4b6-b51ddd62bcdc"
+              ]
+            ],
+            "correct_sentence": "Voici le document dont vous avez besoin."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "une pièce supplémentaire — an additional document; la référence du dossier — the file reference; l’étape suivante — the next step",
+          "data": {
+            "left_items": [
+              {
+                "id": "50ef994c-4f84-5dc4-83bc-014ab2f2cb9f",
+                "text": "une pièce supplémentaire"
+              },
+              {
+                "id": "611db59e-d3ed-55a5-a323-5f3fbc4ec5d8",
+                "text": "la référence du dossier"
+              },
+              {
+                "id": "0ef33c03-c5cd-5f23-99cb-67e4a73c2b40",
+                "text": "l’étape suivante"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "fa0621c9-aa0f-585c-8ebd-9330e64c7ffc",
+                "text": "an additional document"
+              },
+              {
+                "id": "ee5fb814-e655-54e4-bc95-ba78730f5854",
+                "text": "the file reference"
+              },
+              {
+                "id": "da4784a2-02ea-5766-ac47-25c034901700",
+                "text": "the next step"
+              }
+            ],
+            "answer_pairs": {
+              "50ef994c-4f84-5dc4-83bc-014ab2f2cb9f": "fa0621c9-aa0f-585c-8ebd-9330e64c7ffc",
+              "611db59e-d3ed-55a5-a323-5f3fbc4ec5d8": "ee5fb814-e655-54e4-bc95-ba78730f5854",
+              "0ef33c03-c5cd-5f23-99cb-67e4a73c2b40": "da4784a2-02ea-5766-ac47-25c034901700"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Voici le document dont vous avez besoin.\nEnglish meaning: Here is the document you need.",
+          "data": {
+            "text_fr": "Voici le document dont vous avez besoin."
+          },
+          "options": [
+            "Here is the document I need.",
+            "Here is the document you need.",
+            "Here is the document you have already sent."
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: Here is the document you need.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Voici le document dont vous avez besoin.",
+          "explanation": "Exact model: Voici le document dont vous avez besoin.\nMeaning: Here is the document you need.",
+          "data": {
+            "accepted_answers": [
+              "Voici le document dont vous avez besoin."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-3-reading",
+      "skill": "reading",
+      "module_title": "Long-form communication",
+      "title": "Clarify a document request: reading",
+      "objective": "Practise B2-targeted reading in the situation: Clarify a document request.",
+      "context": "French passage\nDans cet échange fictif, un service demande une pièce supplémentaire pour examiner un dossier. Je réponds : « Voici le document dont vous avez besoin. » Avant d’envoyer le message, je vérifie que la pièce correspond bien à la demande. Je rappelle la référence du dossier et je pose une seule question sur l’étape suivante. Le service peut ainsi comprendre rapidement le contexte sans relire tous les échanges. Pour m’exercer, je transforme ensuite le message en un résumé oral destiné à un ami. Je conserve les informations utiles, mais j’adapte le vocabulaire et le degré de formalité au destinataire.\n\nEnglish explanation\nAvoir besoin de explains dont: le document dont vous avez besoin. Dont can replace a complement introduced by de, but not every prepositional complement. Compare le service auquel je m’adresse, from s’adresser à. Do not add a redundant de after dont in this example.\nModel: Voici le document dont vous avez besoin.\nMeaning: Here is the document you need.\n\nGlossary\nune pièce supplémentaire — an additional document\nla référence du dossier — the file reference\nl’étape suivante — the next step\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Find evidence for the answer in the passage. Distinguish what is stated from what is merely possible.",
+      "vocabulary": [
+        "une pièce supplémentaire",
+        "la référence du dossier",
+        "l’étape suivante"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Why include the file reference?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Dans cet échange fictif, un service demande une pièce supplémentaire pour examiner un dossier. Je réponds : « Voici le document dont vous avez besoin. » Avant d’envoyer le message, je vérifie que la pièce correspond bien à la demande. Je rappelle la référence du dossier et je pose une seule question sur l’étape suivante. Le service peut ainsi comprendre rapidement le contexte sans relire tous les échanges. Pour m’exercer, je transforme ensuite le message en un résumé oral destiné à un ami. Je conserve les informations utiles, mais j’adapte le vocabulaire et le degré de formalité au destinataire.",
+          "data": {},
+          "options": [
+            "To replace the requested document",
+            "To avoid answering the department",
+            "To identify the context quickly"
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Voici le document ___ vous avez besoin.",
+          "instructions": "Use the relative pronoun replacing de in avoir besoin de. Write only the missing form; keep accents.",
+          "explanation": "Avoir besoin de explains dont: le document dont vous avez besoin. Dont can replace a complement introduced by de, but not every prepositional complement. Compare le service auquel je m’adresse, from s’adresser à. Do not add a redundant de after dont in this example.",
+          "data": {
+            "accepted_answers": [
+              "dont"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Voici le document dont vous avez besoin.",
+          "explanation": "Avoir besoin de explains dont: le document dont vous avez besoin. Dont can replace a complement introduced by de, but not every prepositional complement. Compare le service auquel je m’adresse, from s’adresser à. Do not add a redundant de after dont in this example.",
+          "data": {
+            "tiles": [
+              {
+                "id": "1b8211ac-494c-59e7-87f5-a73f477d4d37",
+                "text": "Voici"
+              },
+              {
+                "id": "922ead3e-41fa-5938-8871-403a7ebaef2e",
+                "text": "le"
+              },
+              {
+                "id": "c02365e5-df43-5040-8aee-0725bb311b43",
+                "text": "document"
+              },
+              {
+                "id": "11803670-3d83-5021-8106-f6a3c3b6876d",
+                "text": "dont"
+              },
+              {
+                "id": "6cd2aec6-2022-5c2b-b901-22931e5b5f78",
+                "text": "vous"
+              },
+              {
+                "id": "8ca51c78-985b-5c64-93ee-83bf9fbe7e91",
+                "text": "avez"
+              },
+              {
+                "id": "7dc02024-fabe-5abc-993a-5ad76ab7cbb9",
+                "text": "besoin."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "1b8211ac-494c-59e7-87f5-a73f477d4d37",
+                "922ead3e-41fa-5938-8871-403a7ebaef2e",
+                "c02365e5-df43-5040-8aee-0725bb311b43",
+                "11803670-3d83-5021-8106-f6a3c3b6876d",
+                "6cd2aec6-2022-5c2b-b901-22931e5b5f78",
+                "8ca51c78-985b-5c64-93ee-83bf9fbe7e91",
+                "7dc02024-fabe-5abc-993a-5ad76ab7cbb9"
+              ]
+            ],
+            "correct_sentence": "Voici le document dont vous avez besoin."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "une pièce supplémentaire — an additional document; la référence du dossier — the file reference; l’étape suivante — the next step",
+          "data": {
+            "left_items": [
+              {
+                "id": "3c268b47-accb-5728-ad92-f95a082fc427",
+                "text": "une pièce supplémentaire"
+              },
+              {
+                "id": "107a0c92-76f5-5f56-babf-90b00050c5d9",
+                "text": "la référence du dossier"
+              },
+              {
+                "id": "c11051aa-8f92-5192-b955-e021cfeec4da",
+                "text": "l’étape suivante"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "b41f01ff-002a-50ac-aae4-2227014bc864",
+                "text": "an additional document"
+              },
+              {
+                "id": "b6729093-9089-5330-a313-4b4c7d1be50a",
+                "text": "the file reference"
+              },
+              {
+                "id": "08b1e680-273a-557f-912f-c0014eb1b045",
+                "text": "the next step"
+              }
+            ],
+            "answer_pairs": {
+              "3c268b47-accb-5728-ad92-f95a082fc427": "b41f01ff-002a-50ac-aae4-2227014bc864",
+              "107a0c92-76f5-5f56-babf-90b00050c5d9": "b6729093-9089-5330-a313-4b4c7d1be50a",
+              "c11051aa-8f92-5192-b955-e021cfeec4da": "08b1e680-273a-557f-912f-c0014eb1b045"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Voici le document dont vous avez besoin.\nEnglish meaning: Here is the document you need.",
+          "data": {
+            "text_fr": "Voici le document dont vous avez besoin."
+          },
+          "options": [
+            "Here is the document I need.",
+            "Here is the document you have already sent.",
+            "Here is the document you need."
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: Here is the document you need.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Voici le document dont vous avez besoin.",
+          "explanation": "Exact model: Voici le document dont vous avez besoin.\nMeaning: Here is the document you need.",
+          "data": {
+            "accepted_answers": [
+              "Voici le document dont vous avez besoin."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-3-writing",
+      "skill": "writing",
+      "module_title": "Long-form communication",
+      "title": "Clarify a document request: writing",
+      "objective": "Practise B2-targeted writing in the situation: Clarify a document request.",
+      "context": "French passage\nDans cet échange fictif, un service demande une pièce supplémentaire pour examiner un dossier. Je réponds : « Voici le document dont vous avez besoin. » Avant d’envoyer le message, je vérifie que la pièce correspond bien à la demande. Je rappelle la référence du dossier et je pose une seule question sur l’étape suivante. Le service peut ainsi comprendre rapidement le contexte sans relire tous les échanges. Pour m’exercer, je transforme ensuite le message en un résumé oral destiné à un ami. Je conserve les informations utiles, mais j’adapte le vocabulaire et le degré de formalité au destinataire.\n\nEnglish explanation\nAvoir besoin de explains dont: le document dont vous avez besoin. Dont can replace a complement introduced by de, but not every prepositional complement. Compare le service auquel je m’adresse, from s’adresser à. Do not add a redundant de after dont in this example.\nModel: Voici le document dont vous avez besoin.\nMeaning: Here is the document you need.\n\nGlossary\nune pièce supplémentaire — an additional document\nla référence du dossier — the file reference\nl’étape suivante — the next step\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nWrite 140–180 French words. Write a clear formal reply enclosing the requested fictional document, identifying the file and asking about the next step. Then summarise it informally for a friend. Use invented personal details. Feedback is advisory, not CEFR certification.\n\nLesson focus: Plan, draft and reread for task completion, grammatical accuracy, suitable vocabulary and audience.",
+      "vocabulary": [
+        "une pièce supplémentaire",
+        "la référence du dossier",
+        "l’étape suivante"
+      ],
+      "estimated_minutes": 15,
+      "exercises": []
+    }
+  ]
+}

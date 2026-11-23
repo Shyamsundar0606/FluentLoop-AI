@@ -6,6 +6,7 @@ import { useEffect, useRef, useState } from "react";
 import { ProtectedPage } from "@/components/auth-provider";
 import { LearningTabs } from "@/components/learning-tabs";
 import { WritingHistory } from "@/components/writing-history";
+import { useLearningContext } from "@/lib/use-learning-context";
 import { assessments, type AssessmentDefinition, type AssessmentHistoryItem } from "@/lib/assessments";
 
 export default function AssessmentsPage() {
@@ -13,6 +14,7 @@ export default function AssessmentsPage() {
 }
 
 function AssessmentLibrary() {
+  const { level } = useLearningContext();
   const router = useRouter();
   const [catalog, setCatalog] = useState<Awaited<ReturnType<typeof assessments.catalog>> | null>(null);
   const [history, setHistory] = useState<AssessmentHistoryItem[]>([]);
@@ -22,11 +24,11 @@ function AssessmentLibrary() {
   const lock = useRef(false);
   useEffect(() => {
     let active = true;
-    Promise.all([assessments.catalog(), assessments.history()]).then(([items, page]) => {
+    Promise.all([assessments.catalog(level), assessments.history()]).then(([items, page]) => {
       if (active) { setCatalog(items); setHistory(page.items); setNextOffset(page.next_offset); }
     }).catch(() => { if (active) setError("Assessments could not load. Refresh to retry."); });
     return () => { active = false; };
-  }, []);
+  }, [level]);
 
   async function start(item: AssessmentDefinition) {
     if (lock.current) return;
@@ -53,12 +55,12 @@ function AssessmentLibrary() {
   return <main className="mx-auto max-w-5xl space-y-6 px-4 py-8">
     <LearningTabs />
     <h1 className="text-3xl font-bold">Skills assessments</h1>
-    <p>Grammar, vocabulary, reading, listening and writing practice at your saved learning level. Availability depends on authorized content.</p>
+    <p>Grammar, vocabulary, reading, listening and writing practice at the browsed level. Browsing does not change your saved level. Availability depends on authorized content.</p>
     <p className="text-sm text-slate-600">Practice results describe these activities. They do not certify CEFR proficiency. Writing feedback is optional and advisory.</p>
     {error && <p role="alert" className="text-rose-700">{error}</p>}
     {!catalog && !error && <p role="status">Loading assessments…</p>}
     {catalog && <section aria-label="Available assessments" className="space-y-4">
-      <p>Saved learning level {catalog.level}. <Link className="text-violet-700 underline" href="/settings">Change learning preferences</Link></p>
+      <p>Assessment level {catalog.level}. <Link className="text-violet-700 underline" href="/settings">Change saved learning preferences</Link></p>
       {!catalog.items.length && <p>No authorized assessments are available at this level yet.</p>}
       {catalog.items.map(item => <article key={item.id} className="rounded-2xl border border-violet-100 bg-white p-5">
         <p className="capitalize text-violet-700">{item.skill} · {item.level}</p>
