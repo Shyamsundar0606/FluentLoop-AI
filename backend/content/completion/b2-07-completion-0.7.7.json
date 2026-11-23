@@ -1,0 +1,225 @@
+{
+  "version": "0.7.7",
+  "level": "B2",
+  "status": "draft",
+  "source_license": "Original AI-assisted module drafts. Qualified independent linguistic, pedagogical, phonetic, answer-key and CEFR reviews pending.",
+  "tasks": [
+    {
+      "key": "read-and-notice",
+      "skill": "grammar",
+      "title": "Negotiate shared workspace constraints: read and notice",
+      "objective": "Use conditional proposals to explore alternatives without prematurely committing. Distinguer indispensable/préférable prevents a preference being presented as a non-negotiable constraint.",
+      "context": "Deux associations doivent partager une salle pendant six semaines. L’une organise des permanences confidentielles ; l’autre prépare un spectacle avec du matériel encombrant. La première propose de garder les après-midi, mais la seconde ne dispose de bénévoles qu’en fin de journée. Un simple partage égal du nombre d’heures ne résoudrait donc pas le conflit : toutes les heures ne sont pas également utilisables, et le stockage réduit aussi l’espace disponible. La responsable demande à chaque équipe de distinguer ce qui est indispensable de ce qui serait seulement préférable. Les deux équipes acceptent de tester un horaire aménagé pendant une semaine, sans considérer cette acceptation comme un accord définitif. Le bilan doit inclure la confidentialité, le temps de remise en état et l’accès au matériel.",
+      "vocabulary": [
+        "la remise en état de la salle",
+        "une contrainte réellement indispensable",
+        "rouvrir la discussion après l’essai"
+      ],
+      "exercises": [
+        {
+          "key": "read-meaning",
+          "type": "multiple_choice",
+          "prompt": "Why is equal hourly allocation insufficient?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Usable times, confidentiality and storage differ. Source: Deux associations doivent partager une salle pendant six semaines. L’une organise des permanences confidentielles ; l’autre prépare un spectacle avec du matériel encombrant. La première propose de garder les après-midi, mais la seconde ne dispose de bénévoles qu’en fin de journée. Un simple partage égal du nombre d’heures ne résoudrait donc pas le conflit : toutes les heures ne sont pas également utilisables, et le stockage réduit aussi l’espace disponible. La responsable demande à chaque équipe de distinguer ce qui est indispensable de ce qui serait seulement préférable. Les deux équipes acceptent de tester un horaire aménagé pendant une semaine, sans considérer cette acceptation comme un accord définitif. Le bilan doit inclure la confidentialité, le temps de remise en état et l’accès au matériel.",
+          "options": [
+            "Both groups have identical needs",
+            "Usable times, confidentiality and storage differ",
+            "Storage has no effect on access"
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "grammar-scope",
+          "type": "multiple_choice",
+          "prompt": "What does the model express?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Use conditional proposals to explore alternatives without prematurely committing. Distinguer indispensable/préférable prevents a preference being presented as a non-negotiable constraint.",
+          "options": [
+            "An already completed agreement",
+            "A promise with no condition",
+            "A conditional possible arrangement"
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "contextual-vocabulary",
+          "type": "matching",
+          "prompt": "Match the contextual expressions with their meanings.",
+          "instructions": "Use each meaning once; these are contextual definitions.",
+          "explanation": "la remise en état de la salle — restoring the room for use; une contrainte réellement indispensable — a genuinely essential constraint; rouvrir la discussion après l’essai — to reopen discussion after the trial",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "94641245-ed60-55e9-bb40-ee08336b9fcd",
+                "text": "la remise en état de la salle"
+              },
+              {
+                "id": "dd79cf6c-4078-59c0-95f2-341cb9d47651",
+                "text": "une contrainte réellement indispensable"
+              },
+              {
+                "id": "84c0b772-bd41-5618-bf9e-670cca94d808",
+                "text": "rouvrir la discussion après l’essai"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "4879b5f0-6373-5450-8eca-dcc86e7f9407",
+                "text": "to reopen discussion after the trial"
+              },
+              {
+                "id": "cebbc1c2-5be8-5d6e-bdfb-b37f60d141d4",
+                "text": "a genuinely essential constraint"
+              },
+              {
+                "id": "252a8957-d52f-55b0-83e0-c1f479f935a5",
+                "text": "restoring the room for use"
+              }
+            ],
+            "answer_pairs": {
+              "94641245-ed60-55e9-bb40-ee08336b9fcd": "252a8957-d52f-55b0-83e0-c1f479f935a5",
+              "dd79cf6c-4078-59c0-95f2-341cb9d47651": "cebbc1c2-5be8-5d6e-bdfb-b37f60d141d4",
+              "84c0b772-bd41-5618-bf9e-670cca94d808": "4879b5f0-6373-5450-8eca-dcc86e7f9407"
+            }
+          }
+        }
+      ],
+      "module_title": "Negotiate shared workspace constraints",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "completion-b2-07",
+          "title": "Negotiate shared workspace constraints",
+          "summary": "Use conditional proposals to explore alternatives without prematurely committing. Distinguer indispensable/préférable prevents a preference being presented as a non-negotiable constraint.",
+          "rule_code": "completion-b2-07",
+          "explanation_english": "Use conditional proposals to explore alternatives without prematurely committing. Distinguer indispensable/préférable prevents a preference being presented as a non-negotiable constraint.",
+          "examples": [
+            [
+              "Nous pourrions avancer la répétition si la salle était remise en état avant dix-sept heures.",
+              "We could bring the rehearsal forward if the room were restored before five."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "listen-and-integrate",
+      "skill": "reading",
+      "title": "Negotiate shared workspace constraints: listen and integrate",
+      "objective": "Identify details, stance and limits of commitment in the scripted exchange, then integrate both sources.",
+      "context": "Original scripted exchange for listening and transcript-assisted review. One synthetic voice may perform every role; this does not demonstrate spontaneous multi-speaker comprehension.\n\nResponsable : Pourriez-vous laisser le matériel dans l’armoire ? Équipe spectacle : À condition que nous puissions y accéder sans interrompre les permanences. Équipe accueil : Nous pouvons réserver un passage avant l’ouverture, mais pas pendant un entretien. Responsable : Notons cette limite et testons-la lundi ; si elle ne fonctionne pas, nous rouvrirons la discussion.",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "listen-position",
+          "type": "listening",
+          "prompt": "Which limit is explicitly accepted for the trial?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "No equipment access during an interview. Script: Responsable : Pourriez-vous laisser le matériel dans l’armoire ? Équipe spectacle : À condition que nous puissions y accéder sans interrompre les permanences. Équipe accueil : Nous pouvons réserver un passage avant l’ouverture, mais pas pendant un entretien. Responsable : Notons cette limite et testons-la lundi ; si elle ne fonctionne pas, nous rouvrirons la discussion.",
+          "options": [
+            "No equipment access during an interview",
+            "Unrestricted access throughout every interview",
+            "The cabinet is never accessible"
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Responsable : Pourriez-vous laisser le matériel dans l’armoire ? Équipe spectacle : À condition que nous puissions y accéder sans interrompre les permanences. Équipe accueil : Nous pouvons réserver un passage avant l’ouverture, mais pas pendant un entretien. Responsable : Notons cette limite et testons-la lundi ; si elle ne fonctionne pas, nous rouvrirons la discussion."
+          }
+        },
+        {
+          "key": "integrate-sources",
+          "type": "multiple_choice",
+          "prompt": "Which follow-up preserves room for renegotiation?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Review the Monday trial against the written limits. Compare the reading and listening sources.",
+          "options": [
+            "Call the trial a final permanent agreement",
+            "Ignore restoration time",
+            "Review the Monday trial against the written limits"
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "locate-phrase",
+          "type": "short_answer",
+          "prompt": "Copy the exact phrase describing what happens if the trial fails.",
+          "instructions": "Transcript available in this lesson: copy the exact requested phrase. This item checks location/spelling, not open-ended interpretation.",
+          "explanation": "Exact source phrase: nous rouvrirons la discussion",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "nous rouvrirons la discussion"
+            ]
+          }
+        }
+      ],
+      "module_title": "Negotiate shared workspace constraints",
+      "estimated_minutes": 25,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice"
+      ]
+    },
+    {
+      "key": "transfer-and-assess",
+      "skill": "writing",
+      "title": "Negotiate shared workspace constraints: transfer and assess",
+      "objective": "Transfer the module language to an unfamiliar situation and review comprehension, writing and interaction separately.",
+      "context": "Prepare a 240-word written agreement distinguishing fixed constraints, negotiable preferences, trial duration and review criteria. Then negotiate for four minutes with the Tutor, concede one preference, reject one impractical option politely and summarise the provisional agreement without adding commitments.\n\nRevision: retrieve the three contextual expressions without the model on a later day; correct saved errors and reuse them in a new scenario.\n\nReview task fulfilment, source fidelity, grammar, vocabulary, organisation and interaction/repair separately. Treat spelling extraction as supported practice, not proficiency evidence. Optional AI feedback is advisory. Independent human language/phonetic review and empirical calibration remain pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Negotiate shared workspace constraints",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice",
+        "listen-and-integrate"
+      ]
+    }
+  ],
+  "title": "B2 module completion: Negotiate shared workspace constraints",
+  "glossary": [
+    {
+      "lemma": "la remise en état de la salle",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "restoring the room for use",
+      "definition_french": "L’action de rendre la salle utilisable après une activité.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "une contrainte réellement indispensable",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "a genuinely essential constraint",
+      "definition_french": "Une condition nécessaire au fonctionnement de l’activité.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "rouvrir la discussion après l’essai",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to reopen discussion after the trial",
+      "definition_french": "Reprendre la négociation à partir des résultats du test.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    }
+  ],
+  "learning_stage": null
+}

@@ -1,0 +1,225 @@
+{
+  "version": "0.7.8",
+  "level": "C1",
+  "status": "draft",
+  "source_license": "Original AI-assisted module drafts. Qualified independent linguistic, pedagogical, phonetic, answer-key and CEFR reviews pending.",
+  "tasks": [
+    {
+      "key": "read-and-notice",
+      "skill": "grammar",
+      "title": "C1 review: mediate a cultural-service decision: read and notice",
+      "objective": "Use attribution and concessive qualification to integrate non-equivalent sources. Do not add numerical comparability where the dossier supplies none; an anticipated effect and an observed pedagogical requirement have different status.",
+      "context": "Un centre culturel veut déplacer une partie de ses ateliers vers un format hybride. Une note budgétaire anticipe une baisse des déplacements ; un bilan pédagogique souligne que certaines activités reposent sur la manipulation collective d’objets. Les documents ne mesurent donc pas exactement le même résultat. La directrice demande une synthèse qui permette une décision sans réduire ces dimensions à un indicateur unique. Une association d’usagers souhaite aussi que soient distinguées la disponibilité d’un accès numérique et la capacité effective à s’en servir. Ce dernier point ne démontre pas l’échec du format hybride : il indique un besoin d’accompagnement à vérifier. La synthèse attendue doit articuler ces limites, attribuer les affirmations et proposer des conditions de suivi, plutôt que distribuer artificiellement les sources entre un camp moderne et un camp conservateur.",
+      "vocabulary": [
+        "des dimensions qui ne se confondent pas",
+        "un accès numérique accompagné sur place",
+        "attribuer les affirmations aux sources"
+      ],
+      "exercises": [
+        {
+          "key": "read-meaning",
+          "type": "multiple_choice",
+          "prompt": "Why is a single aggregate conclusion risky?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "The sources address different outcomes and evidential statuses. Source: Un centre culturel veut déplacer une partie de ses ateliers vers un format hybride. Une note budgétaire anticipe une baisse des déplacements ; un bilan pédagogique souligne que certaines activités reposent sur la manipulation collective d’objets. Les documents ne mesurent donc pas exactement le même résultat. La directrice demande une synthèse qui permette une décision sans réduire ces dimensions à un indicateur unique. Une association d’usagers souhaite aussi que soient distinguées la disponibilité d’un accès numérique et la capacité effective à s’en servir. Ce dernier point ne démontre pas l’échec du format hybride : il indique un besoin d’accompagnement à vérifier. La synthèse attendue doit articuler ces limites, attribuer les affirmations et proposer des conditions de suivi, plutôt que distribuer artificiellement les sources entre un camp moderne et un camp conservateur.",
+          "options": [
+            "All sources use identical measures",
+            "Pedagogical concerns have been disproved",
+            "The sources address different outcomes and evidential statuses"
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "grammar-scope",
+          "type": "multiple_choice",
+          "prompt": "What is the function of si in the model?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Use attribution and concessive qualification to integrate non-equivalent sources. Do not add numerical comparability where the dossier supplies none; an anticipated effect and an observed pedagogical requirement have different status.",
+          "options": [
+            "A concessive acknowledgement of plausibility",
+            "A guarantee that savings are measured",
+            "A past counterfactual claim"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "contextual-vocabulary",
+          "type": "matching",
+          "prompt": "Match the contextual expressions with their meanings.",
+          "instructions": "Use each meaning once; these are contextual definitions.",
+          "explanation": "des dimensions qui ne se confondent pas — dimensions that must not be conflated; un accès numérique accompagné sur place — supported on-site digital access; attribuer les affirmations aux sources — to attribute claims to their sources",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "3e4ca2f8-443b-52d7-b310-b97b3726851d",
+                "text": "des dimensions qui ne se confondent pas"
+              },
+              {
+                "id": "fcb4dece-114e-534c-b37f-b89361b2b5bd",
+                "text": "un accès numérique accompagné sur place"
+              },
+              {
+                "id": "d069eb69-b82a-59c2-b633-24aa7561d85d",
+                "text": "attribuer les affirmations aux sources"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "e39b669e-c400-5fcc-97db-d082ab90e3a0",
+                "text": "to attribute claims to their sources"
+              },
+              {
+                "id": "021fc486-0a9b-5d6f-b475-e8ce68a71da7",
+                "text": "supported on-site digital access"
+              },
+              {
+                "id": "02d327f4-1515-52d6-9ae1-e08363ad7f3a",
+                "text": "dimensions that must not be conflated"
+              }
+            ],
+            "answer_pairs": {
+              "3e4ca2f8-443b-52d7-b310-b97b3726851d": "02d327f4-1515-52d6-9ae1-e08363ad7f3a",
+              "fcb4dece-114e-534c-b37f-b89361b2b5bd": "021fc486-0a9b-5d6f-b475-e8ce68a71da7",
+              "d069eb69-b82a-59c2-b633-24aa7561d85d": "e39b669e-c400-5fcc-97db-d082ab90e3a0"
+            }
+          }
+        }
+      ],
+      "module_title": "C1 review: mediate a cultural-service decision",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "completion-c1-08",
+          "title": "C1 review: mediate a cultural-service decision",
+          "summary": "Use attribution and concessive qualification to integrate non-equivalent sources. Do not add numerical comparability where the dossier supplies none; an anticipated effect and an observed pedagogical requirement have different status.",
+          "rule_code": "completion-c1-08",
+          "explanation_english": "Use attribution and concessive qualification to integrate non-equivalent sources. Do not add numerical comparability where the dossier supplies none; an anticipated effect and an observed pedagogical requirement have different status.",
+          "examples": [
+            [
+              "Si l’économie de déplacements paraît plausible, elle ne résume pas la qualité de l’atelier.",
+              "While reduced travel seems plausible, it does not sum up workshop quality."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "listen-and-integrate",
+      "skill": "reading",
+      "title": "C1 review: mediate a cultural-service decision: listen and integrate",
+      "objective": "Identify details, stance and limits of commitment in the scripted exchange, then integrate both sources.",
+      "context": "Original scripted exchange for listening and transcript-assisted review. One synthetic voice may perform every role; this does not demonstrate spontaneous multi-speaker comprehension.\n\nDirectrice : Faut-il attendre d’avoir tout mesuré ? Intervenante : Non, mais il faut dire ce que l’essai permettrait d’apprendre. Représentant : Et prévoir comment participer sans équipement personnel. Directrice : Nous pourrions limiter l’essai à deux activités, avec un accès accompagné sur place. Intervenante : À condition que le bilan distingue l’accès, la participation et les apprentissages.",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "listen-position",
+          "type": "listening",
+          "prompt": "What condition accompanies the proposed trial?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Evaluate access, participation and learning separately. Script: Directrice : Faut-il attendre d’avoir tout mesuré ? Intervenante : Non, mais il faut dire ce que l’essai permettrait d’apprendre. Représentant : Et prévoir comment participer sans équipement personnel. Directrice : Nous pourrions limiter l’essai à deux activités, avec un accès accompagné sur place. Intervenante : À condition que le bilan distingue l’accès, la participation et les apprentissages.",
+          "options": [
+            "Assume all learning effects are equal",
+            "Evaluate access, participation and learning separately",
+            "Require everyone to own equipment"
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Directrice : Faut-il attendre d’avoir tout mesuré ? Intervenante : Non, mais il faut dire ce que l’essai permettrait d’apprendre. Représentant : Et prévoir comment participer sans équipement personnel. Directrice : Nous pourrions limiter l’essai à deux activités, avec un accès accompagné sur place. Intervenante : À condition que le bilan distingue l’accès, la participation et les apprentissages."
+          }
+        },
+        {
+          "key": "integrate-sources",
+          "type": "multiple_choice",
+          "prompt": "Which recommendation fits all three concerns?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "A limited supported trial with distinct evaluation dimensions. Compare the reading and listening sources.",
+          "options": [
+            "A limited supported trial with distinct evaluation dimensions",
+            "A blanket hybrid conversion justified only by travel savings",
+            "No decision until every uncertainty disappears"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "locate-phrase",
+          "type": "short_answer",
+          "prompt": "Copy the exact clause identifying the learning purpose of the trial.",
+          "instructions": "Transcript available in this lesson: copy the exact requested phrase. This item checks location/spelling, not open-ended interpretation.",
+          "explanation": "Exact source phrase: ce que l’essai permettrait d’apprendre",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "ce que l’essai permettrait d’apprendre"
+            ]
+          }
+        }
+      ],
+      "module_title": "C1 review: mediate a cultural-service decision",
+      "estimated_minutes": 25,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice"
+      ]
+    },
+    {
+      "key": "transfer-and-assess",
+      "skill": "writing",
+      "title": "C1 review: mediate a cultural-service decision: transfer and assess",
+      "objective": "Transfer the module language to an unfamiliar situation and review comprehension, writing and interaction separately.",
+      "context": "Write a 400–460-word decision brief synthesising the dossier with limitations and a justified conditional proposal. Add an 80-word public explanation without technical jargon. Defend the recommendation orally under two conflicting objections. Review source fidelity, integration, audience adaptation and precision separately; this formative dossier does not certify C1.\n\nRevision: retrieve the three contextual expressions without the model on a later day; correct saved errors and reuse them in a new scenario.\n\nReview task fulfilment, source fidelity, grammar, vocabulary, organisation and interaction/repair separately. Treat spelling extraction as supported practice, not proficiency evidence. Optional AI feedback is advisory. Independent human language/phonetic review and empirical calibration remain pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "C1 review: mediate a cultural-service decision",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice",
+        "listen-and-integrate"
+      ]
+    }
+  ],
+  "title": "C1 module completion: C1 review: mediate a cultural-service decision",
+  "glossary": [
+    {
+      "lemma": "des dimensions qui ne se confondent pas",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "dimensions that must not be conflated",
+      "definition_french": "Des aspects différents qu’un même indicateur ne représente pas entièrement.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "un accès numérique accompagné sur place",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "supported on-site digital access",
+      "definition_french": "Une possibilité d’utiliser les outils avec une aide dans le lieu concerné.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "attribuer les affirmations aux sources",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to attribute claims to their sources",
+      "definition_french": "Indiquer clairement qui avance chaque proposition.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    }
+  ],
+  "learning_stage": null
+}

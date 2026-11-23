@@ -1,0 +1,117 @@
+{
+  "version": "0.6.0",
+  "level": "A1",
+  "status": "draft",
+  "source_license": "Original AI-assisted depth dossiers; independent human language, pedagogical, phonetic, answer-key and CEFR reviews pending.",
+  "tasks": [
+    {
+      "key": "input-1",
+      "skill": "reading",
+      "title": "Listen, look and write",
+      "objective": "Follow two very short classroom instructions, signal non-understanding and request a slow repeat.",
+      "context": "La professeure dit : « Écoutez. Regardez le mot : café. Écrivez café. »\nLéa écoute. Elle regarde le mot. Elle écrit café.\n\nUnderstand: Learn Écoutez, Regardez and Écrivez as classroom chunks. First listen, then look, then write. The accent in café stays in writing. These polite/plural instruction forms are not a full lesson on verb conjugation.",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "read-scope",
+          "type": "multiple_choice",
+          "prompt": "What should Léa write?",
+          "instructions": "Choose the interpretation warranted by this input.",
+          "explanation": "café. Learn Écoutez, Regardez and Écrivez as classroom chunks. First listen, then look, then write. The accent in café stays in writing. These polite/plural instruction forms are not a full lesson on verb conjugation.",
+          "options": [
+            "café",
+            "her address",
+            "the date"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "listen-scope",
+          "type": "listening",
+          "prompt": "What is requested?",
+          "instructions": "Play the original scripted French excerpt. Synthetic playback is not a multi-speaker authenticity claim.",
+          "explanation": "Regardez le mot : café. Écrivez café. — Look at and write the word café",
+          "options": [
+            "Say goodbye",
+            "Give a telephone number",
+            "Look at and write the word café"
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Regardez le mot : café. Écrivez café."
+          }
+        }
+      ],
+      "module_title": "Understand and repair a first classroom exchange",
+      "estimated_minutes": 20,
+      "grammar": [],
+      "prerequisites": []
+    },
+    {
+      "key": "input-2",
+      "skill": "reading",
+      "title": "Ask for a slower repeat",
+      "objective": "Follow two very short classroom instructions, signal non-understanding and request a slow repeat.",
+      "context": "— Écrivez le mot école.\n— Pardon ? Je ne comprends pas. Répétez lentement, s’il vous plaît.\n— École.\n— Merci.\n\nUnderstand: Pardon ? signals a problem politely. Je ne comprends pas means I do not understand. Répétez lentement asks for a slow repeat. Learn the complete repair sequence before analysing ne… pas. You can ask for help; guessing is not required.",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "read-scope",
+          "type": "multiple_choice",
+          "prompt": "Why does the learner say Pardon ?",
+          "instructions": "Choose the interpretation warranted by this input.",
+          "explanation": "To request clarification. Pardon ? signals a problem politely. Je ne comprends pas means I do not understand. Répétez lentement asks for a slow repeat. Learn the complete repair sequence before analysing ne… pas. You can ask for help; guessing is not required.",
+          "options": [
+            "To request clarification",
+            "To refuse every task",
+            "To ask a price"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "listen-scope",
+          "type": "listening",
+          "prompt": "What help is requested?",
+          "instructions": "Play the original scripted French excerpt. Synthetic playback is not a multi-speaker authenticity claim.",
+          "explanation": "Je ne comprends pas. Répétez lentement, s’il vous plaît. — A slower repeat",
+          "options": [
+            "A written bill",
+            "A new classroom",
+            "A slower repeat"
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Je ne comprends pas. Répétez lentement, s’il vous plaît."
+          }
+        }
+      ],
+      "module_title": "Understand and repair a first classroom exchange",
+      "estimated_minutes": 20,
+      "grammar": [],
+      "prerequisites": [
+        "input-1"
+      ]
+    },
+    {
+      "key": "integrate-and-transfer",
+      "skill": "writing",
+      "title": "Integrate and transfer: Understand and repair a first classroom exchange",
+      "objective": "Follow two very short classroom instructions, signal non-understanding and request a slow repeat.",
+      "context": "Write a four-line exchange using an invented name if needed. Give one classroom instruction from Input 1, signal that it was not understood, ask for a slow repeat and say thanks. Copy supported phrases first; then hide the model and say the repair request. Ask the Tutor to act as a patient teacher, one instruction at a time.\n\nReview criteria: Supported check: identify the action; preserve café/école accents; use a clear repair request; listen to the repeated instruction. Revisit the model tomorrow before trying a new word.\n\nUse the existing writing workspace to save and revise; voice/Tutor practice is optional and must use your selected level. No automatic mastery or CEFR award.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Understand and repair a first classroom exchange",
+      "estimated_minutes": 25,
+      "grammar": [],
+      "prerequisites": [
+        "input-1",
+        "input-2"
+      ]
+    }
+  ],
+  "title": "A0 depth: Understand and repair a first classroom exchange",
+  "glossary": [],
+  "learning_stage": "A0"
+}

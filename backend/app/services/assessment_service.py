@@ -30,8 +30,8 @@ def candidates(db, user, level, skill, lesson_id=None):
     return rows
 
 
-def catalog(db, user):
-    level = user.preferences.current_level.upper()
+def catalog(db, user, level=None):
+    level = level or user.preferences.current_level.upper()
     items = []
     for skill in SKILLS:
         groups = {}
@@ -65,7 +65,9 @@ def catalog(db, user):
 
 
 def start(db, user, skill, lesson_id):
-    level = user.preferences.current_level.upper()
+    # Derive the level from the permitted lesson, never from an unchecked request.
+    lesson, _, _, _ = learning_service._accessible_lesson(db, lesson_id, user)
+    level = lesson.difficulty_level
     rows = candidates(db, user, level, skill, lesson_id=lesson_id)
     if not rows:
         raise HTTPException(404, "This assessment is unavailable at your selected level.")

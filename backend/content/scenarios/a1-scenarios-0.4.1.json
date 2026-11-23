@@ -1,0 +1,166 @@
+{
+  "version": "0.4.1",
+  "level": "A1",
+  "status": "draft",
+  "source_license": "Original AI-assisted scenario drafts. Independent human language, pedagogy, answer-key and CEFR calibration reviews pending.",
+  "tasks": [
+    {
+      "key": "interpret-scenario",
+      "skill": "reading",
+      "title": "Buy fruit at a market",
+      "objective": "Separate count, weight and total price and ask for clarification in a short purchase.",
+      "context": "— Bonjour. Je voudrais deux pommes et un kilo de tomates, s’il vous plaît.\n— Les pommes rouges ou les vertes ?\n— Les rouges. Combien ça coûte ?\n— Cinq euros en tout.\n— Voilà. Merci et bonne journée !\n\nUnderstand: Je voudrais is a useful polite request learned as a chunk here. Deux pommes counts items; un kilo de tomates gives a measured quantity. Les rouges refers back to les pommes. En tout introduces the total, not a price per kilo.\n\nLanguage: After a measured quantity use de: un kilo de tomates. In les rouges, the adjective agrees with the understood plural feminine pommes.",
+      "vocabulary": [
+        "un kilo de tomates",
+        "en tout",
+        "combien ça coûte"
+      ],
+      "exercises": [
+        {
+          "key": "read-1",
+          "type": "multiple_choice",
+          "prompt": "Which apples does the customer choose?",
+          "instructions": "Read the French passage. Choose the claim supported by this text, not a broader assumption.",
+          "explanation": "The supported interpretation is: Red apples. Je voudrais is a useful polite request learned as a chunk here. Deux pommes counts items; un kilo de tomates gives a measured quantity. Les rouges refers back to les pommes. En tout introduces the total, not a price per kilo.",
+          "options": [
+            "Red apples",
+            "Green apples",
+            "No apples"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "read-2",
+          "type": "multiple_choice",
+          "prompt": "What does cinq euros en tout refer to?",
+          "instructions": "Read the French passage. Choose the claim supported by this text, not a broader assumption.",
+          "explanation": "The supported interpretation is: The whole purchase. Je voudrais is a useful polite request learned as a chunk here. Deux pommes counts items; un kilo de tomates gives a measured quantity. Les rouges refers back to les pommes. En tout introduces the total, not a price per kilo.",
+          "options": [
+            "Each apple",
+            "The whole purchase",
+            "Only one tomato"
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "listen-stance",
+          "type": "listening",
+          "prompt": "How many apples are requested?",
+          "instructions": "Listen before answering. The audio is an original scripted excerpt; synthetic playback is not an authentic multi-speaker recording.",
+          "explanation": "Je voudrais deux pommes et un kilo de tomates. Cinq euros en tout. — Two",
+          "options": [
+            "One kilo of apples",
+            "Five",
+            "Two"
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Je voudrais deux pommes et un kilo de tomates. Cinq euros en tout."
+          }
+        },
+        {
+          "key": "lexical-scope",
+          "type": "matching",
+          "prompt": "Match expressions with their contextual meanings.",
+          "instructions": "Match the meaning used in this scenario; these are not exhaustive dictionary definitions.",
+          "explanation": "un kilo de tomates — a kilo of tomatoes; en tout — in total; combien ça coûte — how much does it cost",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "23b621ed-3ca9-5eee-b978-11980b56fa0c",
+                "text": "un kilo de tomates"
+              },
+              {
+                "id": "d8846721-ae3f-582c-a8ad-2e4d03c686e5",
+                "text": "en tout"
+              },
+              {
+                "id": "b10ff6bc-09df-5a91-b46c-0fe1fa7003dd",
+                "text": "combien ça coûte"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "7eaa0d7e-dcbf-5cbb-9831-4e9ea8d3fde3",
+                "text": "how much does it cost"
+              },
+              {
+                "id": "313f787a-e1fd-5c7e-8928-e7e2066743d8",
+                "text": "in total"
+              },
+              {
+                "id": "cce9369e-1e98-5b46-8f71-f273cf3195be",
+                "text": "a kilo of tomatoes"
+              }
+            ],
+            "answer_pairs": {
+              "23b621ed-3ca9-5eee-b978-11980b56fa0c": "cce9369e-1e98-5b46-8f71-f273cf3195be",
+              "d8846721-ae3f-582c-a8ad-2e4d03c686e5": "313f787a-e1fd-5c7e-8928-e7e2066743d8",
+              "b10ff6bc-09df-5a91-b46c-0fe1fa7003dd": "7eaa0d7e-dcbf-5cbb-9831-4e9ea8d3fde3"
+            }
+          }
+        }
+      ],
+      "module_title": "Buy fruit at a market",
+      "estimated_minutes": 20,
+      "grammar": [],
+      "prerequisites": []
+    },
+    {
+      "key": "transfer-and-review",
+      "skill": "writing",
+      "title": "Transfer and review: Buy fruit at a market",
+      "objective": "Separate count, weight and total price and ask for clarification in a short purchase.",
+      "context": "Write 35–50 French words as a market dialogue. Request two familiar items, specify one quantity and ask the total. Invent a consistent price. Include a greeting and thanks; check de after kilo. Then perform both roles aloud.\n\nSpeaking transfer: Ask the Tutor to sell fruit and offer two colours. State a quantity, choose one and ask the price; request repetition once.\n\nRevision: Recall the quantity without looking, then vary only the number. Review saved spelling mistakes before repeating.\n\nSelf-review: check task fulfilment, evidence, sequence, grammar and spelling. Save a revised version after feedback. AI feedback is advisory; this module check is not a calibrated diagnostic or CEFR level-end examination.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Buy fruit at a market",
+      "estimated_minutes": 25,
+      "grammar": [],
+      "prerequisites": [
+        "interpret-scenario"
+      ]
+    }
+  ],
+  "title": "A1 scenario: Buy fruit at a market",
+  "glossary": [
+    {
+      "lemma": "un kilo de tomates",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "a kilo of tomatoes",
+      "definition_french": "Dans ce contexte : un kilo de tomates.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "en tout",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "in total",
+      "definition_french": "Dans ce contexte : en tout.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "combien ça coûte",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "how much does it cost",
+      "definition_french": "Dans ce contexte : combien ça coûte.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    }
+  ],
+  "learning_stage": null
+}

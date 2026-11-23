@@ -1,0 +1,166 @@
+{
+  "version": "0.4.5",
+  "level": "C1",
+  "status": "draft",
+  "source_license": "Original AI-assisted scenario drafts. Independent human language, pedagogy, answer-key and CEFR calibration reviews pending.",
+  "tasks": [
+    {
+      "key": "interpret-scenario",
+      "skill": "reading",
+      "title": "Mediate conflicting evidence about a work pilot",
+      "objective": "Synthesise conflicting methodological evidence while preserving qualifications and the underlying decision trade-off.",
+      "context": "Note A : après six mois de semaine aménagée, le taux d’absence a baissé dans les équipes volontaires. Les auteurs y voient un indice encourageant, tout en rappelant que les participants avaient déjà moins d’absences que la moyenne.\nNote B : les délais de réponse ont augmenté dans deux services. Le rapport précise cependant que leur nouvel outil de suivi comptabilise désormais des demandes auparavant ignorées.\nLors de la réunion, la directrice résume : « Nous disposons enfin de chiffres, mais pas encore d’une comparaison à périmètre constant. » Un représentant répond que différer toute décision reviendrait à faire du doute une politique. Tous deux souhaitent une évaluation plus solide ; ils divergent sur le coût de l’attente. Une synthèse fidèle ne saurait transformer cette divergence pratique en opposition entre science et intuition, ni fondre des indicateurs hétérogènes dans un bilan prétendument unique.\n\nUnderstand: Track selection effects, measurement changes and the different consequences of uncertainty. Do not infer causation from the absence trend or a real deterioration solely from newly counted requests. Preserve the practical disagreement in mediation.\n\nLanguage: Ne saurait marks a strongly qualified impossibility in formal prose. Ni… ni… coordinates exclusions. Distinguish reported stance from the narrator’s evaluation.",
+      "vocabulary": [
+        "à périmètre constant",
+        "un indicateur hétérogène",
+        "un biais de sélection"
+      ],
+      "exercises": [
+        {
+          "key": "read-1",
+          "type": "multiple_choice",
+          "prompt": "Why is the absence result insufficient to establish a causal effect?",
+          "instructions": "Read the French passage. Choose the claim supported by this text, not a broader assumption.",
+          "explanation": "The supported interpretation is: Volunteers already differed from the average. Track selection effects, measurement changes and the different consequences of uncertainty. Do not infer causation from the absence trend or a real deterioration solely from newly counted requests. Preserve the practical disagreement in mediation.",
+          "options": [
+            "Volunteers already differed from the average",
+            "All absences were measured incorrectly",
+            "The pilot lasted no time at all"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "read-2",
+          "type": "multiple_choice",
+          "prompt": "Where do the two speakers chiefly diverge?",
+          "instructions": "Read the French passage. Choose the claim supported by this text, not a broader assumption.",
+          "explanation": "The supported interpretation is: On the cost of delaying action under uncertainty. Track selection effects, measurement changes and the different consequences of uncertainty. Do not infer causation from the absence trend or a real deterioration solely from newly counted requests. Preserve the practical disagreement in mediation.",
+          "options": [
+            "On whether evaluation has any value",
+            "On the cost of delaying action under uncertainty",
+            "On whether figures exist"
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "listen-stance",
+          "type": "listening",
+          "prompt": "Which inference is warranted?",
+          "instructions": "Listen before answering. The audio is an original scripted excerpt; synthetic playback is not an authentic multi-speaker recording.",
+          "explanation": "Je ne demande pas qu’on renonce à mesurer. Je demande que l’attente soit, elle aussi, traitée comme un choix dont il faut justifier le coût. — The speaker challenges the presumed neutrality of delay",
+          "options": [
+            "The speaker rejects evidence as useless",
+            "The speaker claims the pilot’s success is proved",
+            "The speaker challenges the presumed neutrality of delay"
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Je ne demande pas qu’on renonce à mesurer. Je demande que l’attente soit, elle aussi, traitée comme un choix dont il faut justifier le coût."
+          }
+        },
+        {
+          "key": "lexical-scope",
+          "type": "matching",
+          "prompt": "Match expressions with their contextual meanings.",
+          "instructions": "Match the meaning used in this scenario; these are not exhaustive dictionary definitions.",
+          "explanation": "à périmètre constant — on a like-for-like scope; un indicateur hétérogène — an indicator unlike the others in nature; un biais de sélection — a selection bias",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "19277ea3-b88f-5465-9489-86b01f5e7845",
+                "text": "à périmètre constant"
+              },
+              {
+                "id": "e604c14d-86e9-53aa-863b-31dc1d703ab4",
+                "text": "un indicateur hétérogène"
+              },
+              {
+                "id": "7d810deb-47db-599a-943e-53d63b8da169",
+                "text": "un biais de sélection"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "3d52b354-38e5-5f6a-9157-0ae904a5e314",
+                "text": "a selection bias"
+              },
+              {
+                "id": "faf080cb-a042-53e3-b7e1-5286df320fd9",
+                "text": "an indicator unlike the others in nature"
+              },
+              {
+                "id": "f2164fa4-dda7-5008-b792-da9180889109",
+                "text": "on a like-for-like scope"
+              }
+            ],
+            "answer_pairs": {
+              "19277ea3-b88f-5465-9489-86b01f5e7845": "f2164fa4-dda7-5008-b792-da9180889109",
+              "e604c14d-86e9-53aa-863b-31dc1d703ab4": "faf080cb-a042-53e3-b7e1-5286df320fd9",
+              "7d810deb-47db-599a-943e-53d63b8da169": "3d52b354-38e5-5f6a-9157-0ae904a5e314"
+            }
+          }
+        }
+      ],
+      "module_title": "Mediate conflicting evidence about a work pilot",
+      "estimated_minutes": 35,
+      "grammar": [],
+      "prerequisites": []
+    },
+    {
+      "key": "transfer-and-review",
+      "skill": "writing",
+      "title": "Transfer and review: Mediate conflicting evidence about a work pilot",
+      "objective": "Synthesise conflicting methodological evidence while preserving qualifications and the underlying decision trade-off.",
+      "context": "Write a 320–380-word French decision brief synthesising both notes. Explain the two distinct comparability problems, the cost-of-waiting dispute and a conditional next step. Then append a 60-word plain-language summary for staff. Preserve uncertainty without using it to avoid every decision.\n\nSpeaking transfer: Mediate the disagreement with the Tutor playing both stakeholders in turn. Reformulate each fairly, then explain your conditional recommendation under questioning.\n\nRevision: Underline every causal claim and identify its evidential basis. Rewrite one technical passage for a non-specialist without losing its qualification.\n\nSelf-review: check task fulfilment, evidence, sequence, grammar and spelling. Save a revised version after feedback. AI feedback is advisory; this module check is not a calibrated diagnostic or CEFR level-end examination.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Mediate conflicting evidence about a work pilot",
+      "estimated_minutes": 45,
+      "grammar": [],
+      "prerequisites": [
+        "interpret-scenario"
+      ]
+    }
+  ],
+  "title": "C1 scenario: Mediate conflicting evidence about a work pilot",
+  "glossary": [
+    {
+      "lemma": "à périmètre constant",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "on a like-for-like scope",
+      "definition_french": "Dans ce contexte : à périmètre constant.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "un indicateur hétérogène",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "an indicator unlike the others in nature",
+      "definition_french": "Dans ce contexte : un indicateur hétérogène.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "un biais de sélection",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "a selection bias",
+      "definition_french": "Dans ce contexte : un biais de sélection.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    }
+  ],
+  "learning_stage": null
+}

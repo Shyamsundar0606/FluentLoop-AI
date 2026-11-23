@@ -1,0 +1,1487 @@
+{
+  "version": "1.4.0",
+  "stages": [
+    {
+      "code": "A0",
+      "official_cefr": false,
+      "modules": [
+        {
+          "id": "a0-01",
+          "title": "Meet French sounds and letters",
+          "objective": "Recognise the alphabet, distinguish a few French sounds and spell an invented first name.",
+          "outcomes": [
+            "Recognise the alphabet, distinguish a few French sounds and spell an invented first name."
+          ],
+          "prerequisites": [],
+          "lesson_slugs": [
+            "m10-assessments-a1-0.3.0-letters-and-name",
+            "m10-assessments-a1-0.3.0-hear-u-and-ou",
+            "m10-assessments-a1-0.9.0-letters-and-name-writing"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "a0-02",
+          "title": "First words and polite exchanges",
+          "objective": "Greet someone, say an invented name and use a memorised polite request.",
+          "outcomes": [
+            "Greet someone, say an invented name and use a memorised polite request."
+          ],
+          "prerequisites": [
+            "a0-01"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-a1-0.3.0-greet-and-leave",
+            "m10-assessments-a1-0.3.0-first-polite-request",
+            "m10-assessments-a1-0.4.7-interpret-scenario",
+            "m10-assessments-a1-0.4.7-transfer-and-review"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "a0-03",
+          "title": "Read, type and practise safely",
+          "objective": "Read simple signs, type French accents and record/review one short phrase.",
+          "outcomes": [
+            "Read simple signs, type French accents and record/review one short phrase."
+          ],
+          "prerequisites": [
+            "a0-02"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-a1-0.3.0-first-numbers",
+            "m10-assessments-a1-0.3.0-type-french-accents",
+            "m10-assessments-a1-0.3.0-first-two-lines",
+            "m10-assessments-a1-0.6.0-input-1",
+            "m10-assessments-a1-0.6.0-input-2",
+            "m10-assessments-a1-0.6.0-integrate-and-transfer"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        }
+      ],
+      "introduction": "Absolute beginner preparation; not an official CEFR level."
+    },
+    {
+      "code": "A1",
+      "official_cefr": true,
+      "modules": [
+        {
+          "id": "a1-01",
+          "title": "Sounds, greetings and politeness",
+          "objective": "Recognise common spelling patterns and open/close a short exchange.",
+          "outcomes": [
+            "Recognise common spelling patterns and open/close a short exchange."
+          ],
+          "prerequisites": [
+            "a0-03"
+          ],
+          "lesson_slugs": [
+            "a1-001",
+            "a1-002",
+            "m10-assessments-a1-0.9.1-greet-introduce-close"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "a1-02",
+          "title": "Identity, numbers, dates and time",
+          "objective": "Give an invented name/age and ask simple personal questions.",
+          "outcomes": [
+            "Give an invented name/age and ask simple personal questions."
+          ],
+          "prerequisites": [
+            "a1-01"
+          ],
+          "lesson_slugs": [
+            "a1-003",
+            "a1-004",
+            "m10-assessments-a1-0.3.2-tell-the-time",
+            "m10-assessments-a1-0.3.2-days-and-dates",
+            "m10-assessments-a1-0.3.2-write-a-meeting-message"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "a1-03",
+          "title": "Build a first sentence",
+          "objective": "Choose an article and subject pronoun and use a present form of être.",
+          "outcomes": [
+            "Choose an article and subject pronoun and use a present form of être."
+          ],
+          "prerequisites": [
+            "a1-02"
+          ],
+          "lesson_slugs": [
+            "a1-005",
+            "a1-006",
+            "m10-assessments-a1-0.3.2-describe-clothes",
+            "m10-assessments-a1-0.3.2-negate-a-quantity",
+            "m10-assessments-a1-0.9.1-first-sentences-writing"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "a1-04",
+          "title": "People, possession and description",
+          "objective": "Describe family and possessions with avoir and basic agreement.",
+          "outcomes": [
+            "Describe family and possessions with avoir and basic agreement."
+          ],
+          "prerequisites": [
+            "a1-03"
+          ],
+          "lesson_slugs": [
+            "a1-007",
+            "a1-008",
+            "m10-assessments-a1-0.9.1-people-and-possessions-writing"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "a1-05",
+          "title": "Routine and present verbs",
+          "objective": "Describe an ordinary day and ask about another person's routine.",
+          "outcomes": [
+            "Describe an ordinary day and ask about another person's routine."
+          ],
+          "prerequisites": [
+            "a1-04"
+          ],
+          "lesson_slugs": [
+            "a1-009",
+            "m10-assessments-a1-0.3.2-a-morning-routine",
+            "m10-assessments-a1-0.9.1-routine-writing-and-repair"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "a1-06",
+          "title": "Food, prices and shopping",
+          "objective": "Find familiar items, request an order and understand a simple price.",
+          "outcomes": [
+            "Find familiar items, request an order and understand a simple price."
+          ],
+          "prerequisites": [
+            "a1-05"
+          ],
+          "lesson_slugs": [
+            "a1-010",
+            "m10-assessments-a1-0.2.1-module-1-grammar",
+            "m10-assessments-a1-0.2.1-module-1-vocabulary",
+            "m10-assessments-a1-0.2.1-module-1-reading",
+            "m10-assessments-a1-0.2.1-module-1-writing",
+            "m10-assessments-a1-0.3.2-ask-a-price",
+            "m10-assessments-a1-0.4.1-interpret-scenario",
+            "m10-assessments-a1-0.4.1-transfer-and-review"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "a1-07",
+          "title": "Transport and directions",
+          "objective": "Ask where a place is and follow a short set of directions.",
+          "outcomes": [
+            "Ask where a place is and follow a short set of directions."
+          ],
+          "prerequisites": [
+            "a1-06"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-a1-0.2.1-module-2-grammar",
+            "m10-assessments-a1-0.2.1-module-2-vocabulary",
+            "m10-assessments-a1-0.2.1-module-2-reading",
+            "m10-assessments-a1-0.2.1-module-2-writing",
+            "m10-assessments-a1-0.3.2-locate-a-place",
+            "m10-assessments-a1-0.3.2-go-to-a-place"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "a1-08",
+          "title": "Appointments and study",
+          "objective": "Request a time, state availability and check the details.",
+          "outcomes": [
+            "Request a time, state availability and check the details."
+          ],
+          "prerequisites": [
+            "a1-07"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-a1-0.2.1-module-3-grammar",
+            "m10-assessments-a1-0.2.1-module-3-vocabulary",
+            "m10-assessments-a1-0.2.1-module-3-reading",
+            "m10-assessments-a1-0.2.1-module-3-writing",
+            "m10-assessments-a1-0.3.2-an-appointment-request",
+            "m10-assessments-a1-0.3.2-ask-someone-to-repeat",
+            "m10-assessments-a1-0.6.1-input-1",
+            "m10-assessments-a1-0.6.1-input-2",
+            "m10-assessments-a1-0.6.1-integrate-and-transfer"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "a1-09",
+          "title": "A1 cumulative review",
+          "objective": "Combine greetings, simple questions and short written/spoken messages in a new situation.",
+          "outcomes": [
+            "Combine greetings, simple questions and short written/spoken messages in a new situation."
+          ],
+          "prerequisites": [
+            "a1-08"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-a1-0.3.2-a-day-and-a-request"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "pending"
+        }
+      ],
+      "introduction": "Progressive practice target; independent calibration pending."
+    },
+    {
+      "code": "A2",
+      "official_cefr": true,
+      "modules": [
+        {
+          "id": "a2-01",
+          "title": "Plans and housing",
+          "objective": "Arrange a viewing and compare practical constraints using near-future plans.",
+          "outcomes": [
+            "Arrange a viewing and compare practical constraints using near-future plans."
+          ],
+          "prerequisites": [
+            "a1-09"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-a2-0.2.1-module-1-grammar",
+            "m10-assessments-a2-0.2.1-module-1-vocabulary",
+            "m10-assessments-a2-0.2.1-module-1-reading",
+            "m10-assessments-a2-0.2.1-module-1-writing"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "a2-02",
+          "title": "Past events and journeys",
+          "objective": "Describe a completed journey and explain a delay in sequence.",
+          "outcomes": [
+            "Describe a completed journey and explain a delay in sequence."
+          ],
+          "prerequisites": [
+            "a2-01"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-a2-0.2.1-module-2-grammar",
+            "m10-assessments-a2-0.2.1-module-2-vocabulary",
+            "m10-assessments-a2-0.2.1-module-2-reading",
+            "m10-assessments-a2-0.2.1-module-2-writing"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "a2-03",
+          "title": "Travel services and relative clauses",
+          "objective": "Specify travel preferences and link information with qui/que.",
+          "outcomes": [
+            "Specify travel preferences and link information with qui/que."
+          ],
+          "prerequisites": [
+            "a2-02"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-a2-0.2.1-module-3-grammar",
+            "m10-assessments-a2-0.2.1-module-3-vocabulary",
+            "m10-assessments-a2-0.2.1-module-3-reading",
+            "m10-assessments-a2-0.2.1-module-3-writing"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "a2-04",
+          "title": "Describe, compare and quantify",
+          "objective": "Compare people/places and express quantities with suitable pronouns.",
+          "outcomes": [
+            "Compare people/places and express quantities with suitable pronouns."
+          ],
+          "prerequisites": [
+            "a2-03"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-a2-0.4.2-interpret-scenario",
+            "m10-assessments-a2-0.4.2-transfer-and-review"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "a2-05",
+          "title": "Health and everyday appointments",
+          "objective": "Describe a simple non-emergency problem and ask for an appointment or clarification.",
+          "outcomes": [
+            "Describe a simple non-emergency problem and ask for an appointment or clarification."
+          ],
+          "prerequisites": [
+            "a2-04"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-a2-0.7.5-read-and-notice",
+            "m10-assessments-a2-0.7.5-listen-and-integrate",
+            "m10-assessments-a2-0.7.5-transfer-and-assess"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "a2-06",
+          "title": "Messages and social arrangements",
+          "objective": "Understand and write invitations, apologies and short explanations.",
+          "outcomes": [
+            "Understand and write invitations, apologies and short explanations."
+          ],
+          "prerequisites": [
+            "a2-05"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-a2-0.7.6-read-and-notice",
+            "m10-assessments-a2-0.7.6-listen-and-integrate",
+            "m10-assessments-a2-0.7.6-transfer-and-assess"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "a2-07",
+          "title": "Routine listening and interaction",
+          "objective": "Extract key details from a short exchange and repair a misunderstanding.",
+          "outcomes": [
+            "Extract key details from a short exchange and repair a misunderstanding."
+          ],
+          "prerequisites": [
+            "a2-06"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-a2-0.7.7-read-and-notice",
+            "m10-assessments-a2-0.7.7-listen-and-integrate",
+            "m10-assessments-a2-0.7.7-transfer-and-assess"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "a2-08",
+          "title": "A2 cumulative review",
+          "objective": "Handle a new everyday problem across reading, listening, writing and speaking.",
+          "outcomes": [
+            "Handle a new everyday problem across reading, listening, writing and speaking."
+          ],
+          "prerequisites": [
+            "a2-07"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-a2-0.7.8-read-and-notice",
+            "m10-assessments-a2-0.7.8-listen-and-integrate",
+            "m10-assessments-a2-0.7.8-transfer-and-assess"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        }
+      ],
+      "introduction": "Progressive practice target; independent calibration pending."
+    },
+    {
+      "code": "B1",
+      "official_cefr": true,
+      "modules": [
+        {
+          "id": "b1-01",
+          "title": "Narrate experience",
+          "objective": "Distinguish past habits, background and bounded events in a connected story.",
+          "outcomes": [
+            "Distinguish past habits, background and bounded events in a connected story."
+          ],
+          "prerequisites": [
+            "a2-08"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-b1-0.2.1-module-1-grammar",
+            "m10-assessments-b1-0.2.1-module-1-vocabulary",
+            "m10-assessments-b1-0.2.1-module-1-reading",
+            "m10-assessments-b1-0.2.1-module-1-writing"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "b1-02",
+          "title": "Work, reasons and opinions",
+          "objective": "Explain interest in a role and ask polite follow-up questions.",
+          "outcomes": [
+            "Explain interest in a role and ask polite follow-up questions."
+          ],
+          "prerequisites": [
+            "b1-01"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-b1-0.2.1-module-2-grammar",
+            "m10-assessments-b1-0.2.1-module-2-vocabulary",
+            "m10-assessments-b1-0.2.1-module-2-reading",
+            "m10-assessments-b1-0.2.1-module-2-writing"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "b1-03",
+          "title": "Necessity and practical problems",
+          "objective": "Explain a need, request clarification and propose a workable next step.",
+          "outcomes": [
+            "Explain a need, request clarification and propose a workable next step."
+          ],
+          "prerequisites": [
+            "b1-02"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-b1-0.2.1-module-3-grammar",
+            "m10-assessments-b1-0.2.1-module-3-vocabulary",
+            "m10-assessments-b1-0.2.1-module-3-reading",
+            "m10-assessments-b1-0.2.1-module-3-writing"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "b1-04",
+          "title": "Hypotheses and future consequences",
+          "objective": "Describe realistic and hypothetical alternatives with reasons.",
+          "outcomes": [
+            "Describe realistic and hypothetical alternatives with reasons."
+          ],
+          "prerequisites": [
+            "b1-03"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-b1-0.4.3-interpret-scenario",
+            "m10-assessments-b1-0.4.3-transfer-and-review"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "b1-05",
+          "title": "Connected speech and pronouns",
+          "objective": "Maintain a clear reference chain and link contrasting ideas.",
+          "outcomes": [
+            "Maintain a clear reference chain and link contrasting ideas."
+          ],
+          "prerequisites": [
+            "b1-04"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-b1-0.7.5-read-and-notice",
+            "m10-assessments-b1-0.7.5-listen-and-integrate",
+            "m10-assessments-b1-0.7.5-transfer-and-assess"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "b1-06",
+          "title": "News and longer conversations",
+          "objective": "Identify main points, details and speaker positions in familiar material.",
+          "outcomes": [
+            "Identify main points, details and speaker positions in familiar material."
+          ],
+          "prerequisites": [
+            "b1-05"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-b1-0.7.6-read-and-notice",
+            "m10-assessments-b1-0.7.6-listen-and-integrate",
+            "m10-assessments-b1-0.7.6-transfer-and-assess"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "b1-07",
+          "title": "Personal and formal writing",
+          "objective": "Write a coherent account and adapt a request to its recipient.",
+          "outcomes": [
+            "Write a coherent account and adapt a request to its recipient."
+          ],
+          "prerequisites": [
+            "b1-06"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-b1-0.7.7-read-and-notice",
+            "m10-assessments-b1-0.7.7-listen-and-integrate",
+            "m10-assessments-b1-0.7.7-transfer-and-assess"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "b1-08",
+          "title": "B1 cumulative review",
+          "objective": "Explain a new problem, justify a choice and respond to a follow-up.",
+          "outcomes": [
+            "Explain a new problem, justify a choice and respond to a follow-up."
+          ],
+          "prerequisites": [
+            "b1-07"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-b1-0.7.8-read-and-notice",
+            "m10-assessments-b1-0.7.8-listen-and-integrate",
+            "m10-assessments-b1-0.7.8-transfer-and-assess"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        }
+      ],
+      "introduction": "Progressive practice target; independent calibration pending."
+    },
+    {
+      "code": "B2",
+      "official_cefr": true,
+      "modules": [
+        {
+          "id": "b2-01",
+          "title": "Debate and concession",
+          "objective": "Defend an option, acknowledge constraints and formulate a qualified compromise.",
+          "outcomes": [
+            "Defend an option, acknowledge constraints and formulate a qualified compromise."
+          ],
+          "prerequisites": [
+            "b1-08"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-b2-0.2.1-module-1-grammar",
+            "m10-assessments-b2-0.2.1-module-1-vocabulary",
+            "m10-assessments-b2-0.2.1-module-1-reading",
+            "m10-assessments-b2-0.2.1-module-1-writing"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "b2-02",
+          "title": "Formal requests and tone",
+          "objective": "Compare formulations and revise an unnecessarily insistent message.",
+          "outcomes": [
+            "Compare formulations and revise an unnecessarily insistent message."
+          ],
+          "prerequisites": [
+            "b2-01"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-b2-0.2.1-module-2-grammar",
+            "m10-assessments-b2-0.2.1-module-2-vocabulary",
+            "m10-assessments-b2-0.2.1-module-2-reading",
+            "m10-assessments-b2-0.2.1-module-2-writing"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "b2-03",
+          "title": "Documents and precise reference",
+          "objective": "Clarify a document request and adapt the same information for two audiences.",
+          "outcomes": [
+            "Clarify a document request and adapt the same information for two audiences."
+          ],
+          "prerequisites": [
+            "b2-02"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-b2-0.2.1-module-3-grammar",
+            "m10-assessments-b2-0.2.1-module-3-vocabulary",
+            "m10-assessments-b2-0.2.1-module-3-reading",
+            "m10-assessments-b2-0.2.1-module-3-writing"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "b2-04",
+          "title": "Complex clauses and hypotheses",
+          "objective": "Control relative clauses, concession and hypothetical consequences in context.",
+          "outcomes": [
+            "Control relative clauses, concession and hypothetical consequences in context."
+          ],
+          "prerequisites": [
+            "b2-03"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-b2-0.4.4-interpret-scenario",
+            "m10-assessments-b2-0.4.4-transfer-and-review"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "b2-05",
+          "title": "Extended reading and listening",
+          "objective": "Infer a stance, distinguish evidence from assertion and compare arguments.",
+          "outcomes": [
+            "Infer a stance, distinguish evidence from assertion and compare arguments."
+          ],
+          "prerequisites": [
+            "b2-04"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-b2-0.6.2-input-1",
+            "m10-assessments-b2-0.6.2-input-2",
+            "m10-assessments-b2-0.6.2-integrate-and-transfer"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "b2-06",
+          "title": "Structured argument in writing",
+          "objective": "Develop a supported argument, address an objection and revise cohesion.",
+          "outcomes": [
+            "Develop a supported argument, address an objection and revise cohesion."
+          ],
+          "prerequisites": [
+            "b2-05"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-b2-0.7.6-read-and-notice",
+            "m10-assessments-b2-0.7.6-listen-and-integrate",
+            "m10-assessments-b2-0.7.6-transfer-and-assess"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "b2-07",
+          "title": "Negotiation and sustained speaking",
+          "objective": "Negotiate alternatives and maintain an extended exchange with clarification.",
+          "outcomes": [
+            "Negotiate alternatives and maintain an extended exchange with clarification."
+          ],
+          "prerequisites": [
+            "b2-06"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-b2-0.7.7-read-and-notice",
+            "m10-assessments-b2-0.7.7-listen-and-integrate",
+            "m10-assessments-b2-0.7.7-transfer-and-assess"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "b2-08",
+          "title": "B2 cumulative review",
+          "objective": "Respond to an unfamiliar dossier through supported written and spoken argument.",
+          "outcomes": [
+            "Respond to an unfamiliar dossier through supported written and spoken argument."
+          ],
+          "prerequisites": [
+            "b2-07"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-b2-0.7.8-read-and-notice",
+            "m10-assessments-b2-0.7.8-listen-and-integrate",
+            "m10-assessments-b2-0.7.8-transfer-and-assess"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        }
+      ],
+      "introduction": "Progressive practice target; independent calibration pending."
+    },
+    {
+      "code": "C1",
+      "official_cefr": true,
+      "modules": [
+        {
+          "id": "c1-01",
+          "title": "Evaluate evidence and alternatives",
+          "objective": "Separate evidence, retrospective hypothesis and causal inference.",
+          "outcomes": [
+            "Separate evidence, retrospective hypothesis and causal inference."
+          ],
+          "prerequisites": [
+            "b2-08"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-c1-0.2.1-module-1-grammar",
+            "m10-assessments-c1-0.2.1-module-1-vocabulary",
+            "m10-assessments-c1-0.2.1-module-1-reading",
+            "m10-assessments-c1-0.2.1-module-1-writing"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "c1-02",
+          "title": "Report professional discussion",
+          "objective": "Preserve temporal viewpoint and distinguish commitments from unresolved points.",
+          "outcomes": [
+            "Preserve temporal viewpoint and distinguish commitments from unresolved points."
+          ],
+          "prerequisites": [
+            "c1-01"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-c1-0.2.1-module-2-grammar",
+            "m10-assessments-c1-0.2.1-module-2-vocabulary",
+            "m10-assessments-c1-0.2.1-module-2-reading",
+            "m10-assessments-c1-0.2.1-module-2-writing"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "c1-03",
+          "title": "Synthesis and qualification",
+          "objective": "Integrate viewpoints, explain methodological differences and qualify a conclusion.",
+          "outcomes": [
+            "Integrate viewpoints, explain methodological differences and qualify a conclusion."
+          ],
+          "prerequisites": [
+            "c1-02"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-c1-0.2.1-module-3-grammar",
+            "m10-assessments-c1-0.2.1-module-3-vocabulary",
+            "m10-assessments-c1-0.2.1-module-3-reading",
+            "m10-assessments-c1-0.2.1-module-3-writing"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "c1-04",
+          "title": "Complex prose and register",
+          "objective": "Interpret implicit relations and explain stylistic effects in varied texts.",
+          "outcomes": [
+            "Interpret implicit relations and explain stylistic effects in varied texts."
+          ],
+          "prerequisites": [
+            "c1-03"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-c1-0.4.5-interpret-scenario",
+            "m10-assessments-c1-0.4.5-transfer-and-review"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "c1-05",
+          "title": "Extended multi-speaker listening",
+          "objective": "Track stance changes, qualifications and implicit assumptions across speakers.",
+          "outcomes": [
+            "Track stance changes, qualifications and implicit assumptions across speakers."
+          ],
+          "prerequisites": [
+            "c1-04"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-c1-0.7.5-read-and-notice",
+            "m10-assessments-c1-0.7.5-listen-and-integrate",
+            "m10-assessments-c1-0.7.5-transfer-and-assess"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "c1-06",
+          "title": "Multi-source written argument",
+          "objective": "Produce a well-structured synthesis that handles counterarguments accurately.",
+          "outcomes": [
+            "Produce a well-structured synthesis that handles counterarguments accurately."
+          ],
+          "prerequisites": [
+            "c1-05"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-c1-0.6.3-input-1",
+            "m10-assessments-c1-0.6.3-input-2",
+            "m10-assessments-c1-0.6.3-integrate-and-transfer"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "c1-07",
+          "title": "Fluent speaking and prosody",
+          "objective": "Reformulate flexibly and use emphasis/rhythm to support a nuanced argument.",
+          "outcomes": [
+            "Reformulate flexibly and use emphasis/rhythm to support a nuanced argument."
+          ],
+          "prerequisites": [
+            "c1-06"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-c1-0.7.7-read-and-notice",
+            "m10-assessments-c1-0.7.7-listen-and-integrate",
+            "m10-assessments-c1-0.7.7-transfer-and-assess"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "c1-08",
+          "title": "C1 cumulative review",
+          "objective": "Integrate complex sources and defend a precise, appropriately qualified position.",
+          "outcomes": [
+            "Integrate complex sources and defend a precise, appropriately qualified position."
+          ],
+          "prerequisites": [
+            "c1-07"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-c1-0.7.8-read-and-notice",
+            "m10-assessments-c1-0.7.8-listen-and-integrate",
+            "m10-assessments-c1-0.7.8-transfer-and-assess"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        }
+      ],
+      "introduction": "Progressive practice target; independent calibration pending."
+    },
+    {
+      "code": "C2",
+      "official_cefr": true,
+      "modules": [
+        {
+          "id": "c2-01",
+          "title": "Rhetoric and implied conditions",
+          "objective": "Analyse what a promise presupposes without confusing rhetoric with evidence.",
+          "outcomes": [
+            "Analyse what a promise presupposes without confusing rhetoric with evidence."
+          ],
+          "prerequisites": [
+            "c1-08"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-c2-0.2.1-module-1-grammar",
+            "m10-assessments-c2-0.2.1-module-1-vocabulary",
+            "m10-assessments-c2-0.2.1-module-1-reading",
+            "m10-assessments-c2-0.2.1-module-1-writing"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "c2-02",
+          "title": "Concession and logical scope",
+          "objective": "Concede the force of an objection while delimiting what it establishes.",
+          "outcomes": [
+            "Concede the force of an objection while delimiting what it establishes."
+          ],
+          "prerequisites": [
+            "c2-01"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-c2-0.2.1-module-2-grammar",
+            "m10-assessments-c2-0.2.1-module-2-vocabulary",
+            "m10-assessments-c2-0.2.1-module-2-reading",
+            "m10-assessments-c2-0.2.1-module-2-writing"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "c2-03",
+          "title": "Pragmatics, irony and audience",
+          "objective": "Adapt commitment, presupposition and irony to two different audiences.",
+          "outcomes": [
+            "Adapt commitment, presupposition and irony to two different audiences."
+          ],
+          "prerequisites": [
+            "c2-02"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-c2-0.2.1-module-3-grammar",
+            "m10-assessments-c2-0.2.1-module-3-vocabulary",
+            "m10-assessments-c2-0.2.1-module-3-reading",
+            "m10-assessments-c2-0.2.1-module-3-writing"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "c2-04",
+          "title": "Dense and varied texts",
+          "objective": "Interpret allusion, ambiguity and fine stylistic distinctions across genres.",
+          "outcomes": [
+            "Interpret allusion, ambiguity and fine stylistic distinctions across genres."
+          ],
+          "prerequisites": [
+            "c2-03"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-c2-0.4.6-interpret-scenario",
+            "m10-assessments-c2-0.4.6-transfer-and-review"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "c2-05",
+          "title": "Nuanced spoken comprehension",
+          "objective": "Explain implicit attitudes, humour and shifts of register in extended speech.",
+          "outcomes": [
+            "Explain implicit attitudes, humour and shifts of register in extended speech."
+          ],
+          "prerequisites": [
+            "c2-04"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-c2-0.7.5-read-and-notice",
+            "m10-assessments-c2-0.7.5-listen-and-integrate",
+            "m10-assessments-c2-0.7.5-transfer-and-assess"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "c2-06",
+          "title": "Sophisticated spontaneous interaction",
+          "objective": "Handle challenge and ambiguity while maintaining precision and flexibility.",
+          "outcomes": [
+            "Handle challenge and ambiguity while maintaining precision and flexibility."
+          ],
+          "prerequisites": [
+            "c2-05"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-c2-0.7.6-read-and-notice",
+            "m10-assessments-c2-0.7.6-listen-and-integrate",
+            "m10-assessments-c2-0.7.6-transfer-and-assess"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "c2-07",
+          "title": "Critical synthesis and mediation",
+          "objective": "Reconstruct a complex argument and reformulate it without losing nuance.",
+          "outcomes": [
+            "Reconstruct a complex argument and reformulate it without losing nuance."
+          ],
+          "prerequisites": [
+            "c2-06"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-c2-0.6.4-input-1",
+            "m10-assessments-c2-0.6.4-input-2",
+            "m10-assessments-c2-0.6.4-integrate-and-transfer"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        },
+        {
+          "id": "c2-08",
+          "title": "C2 cumulative review",
+          "objective": "Integrate demanding sources and produce precise extended speech and writing for a defined audience.",
+          "outcomes": [
+            "Integrate demanding sources and produce precise extended speech and writing for a defined audience."
+          ],
+          "prerequisites": [
+            "c2-07"
+          ],
+          "lesson_slugs": [
+            "m10-assessments-c2-0.7.8-read-and-notice",
+            "m10-assessments-c2-0.7.8-listen-and-integrate",
+            "m10-assessments-c2-0.7.8-transfer-and-assess"
+          ],
+          "required_skills": [
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "writing",
+            "speaking"
+          ],
+          "revision": "Retrieve earlier vocabulary, correct saved mistakes and reuse the language in a new situation.",
+          "assessment": "Use task evidence across skills; completion alone does not establish a CEFR level.",
+          "coverage": "partial"
+        }
+      ],
+      "introduction": "Progressive practice target; independent calibration pending."
+    }
+  ],
+  "certification": false
+}

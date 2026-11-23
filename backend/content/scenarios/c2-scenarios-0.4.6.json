@@ -1,0 +1,166 @@
+{
+  "version": "0.4.6",
+  "level": "C2",
+  "status": "draft",
+  "source_license": "Original AI-assisted scenario drafts. Independent human language, pedagogy, answer-key and CEFR calibration reviews pending.",
+  "tasks": [
+    {
+      "key": "interpret-scenario",
+      "skill": "reading",
+      "title": "Interpret an institutional promise and its irony",
+      "objective": "Explain irony, presupposition and unequal argumentative scope, then mediate for audiences with different needs.",
+      "context": "Dans une tribune fictive, une ville promet de rendre les démarches administratives « enfin invisibles ». L’éditorialiste salue cette « remarquable disparition » : le guichet, note-t-elle, a effectivement disparu avant les justificatifs. Elle ne regrette pas pour autant chaque formulaire papier. Son ironie vise le glissement par lequel la commodité annoncée devient une obligation de se débrouiller seul.\nLa réponse municipale assure qu’un accompagnement demeure disponible « pour ceux qui en feraient la demande ». Cette réserve ne prouve pas que l’aide soit refusée ; elle suppose néanmoins que les personnes concernées sachent identifier le dispositif et formuler leur besoin. L’éditorialiste pourrait donc reconnaître une amélioration réelle sans retirer son objection : une procédure peut être plus rapide pour ses usagers habituels et moins accessible à ceux qu’elle prétend inclure.\nMédier ces textes exige de restituer leur dissymétrie : l’un conteste les présupposés d’une promesse, l’autre décrit une possibilité formelle. Les opposer comme deux constats empiriques équivalents, ou convertir l’ironie en accusation de fraude, serait leur faire dire davantage qu’ils ne disent.\n\nUnderstand: Analyse the target and limits of the irony, the presupposed agency in the conditional clause, and the asymmetry between an accessibility objection and an availability claim. Neither a factual exclusion nor deliberate fraud is established by these fictional excerpts.\n\nLanguage: Pour ceux qui en feraient la demande presents a hypothetical request; it does not entail that requests were refused. Sans retirer son objection preserves a concession’s limits. Attend to parallelism and modal commitment.",
+      "vocabulary": [
+        "se débrouiller seul",
+        "une possibilité formelle",
+        "le présupposé"
+      ],
+      "exercises": [
+        {
+          "key": "read-1",
+          "type": "multiple_choice",
+          "prompt": "What does remarquable disparition ironically target?",
+          "instructions": "Read the French passage. Choose the claim supported by this text, not a broader assumption.",
+          "explanation": "The supported interpretation is: Removal of the counter without removal of the user’s burden. Analyse the target and limits of the irony, the presupposed agency in the conditional clause, and the asymmetry between an accessibility objection and an availability claim. Neither a factual exclusion nor deliberate fraud is established by these fictional excerpts.",
+          "options": [
+            "Removal of the counter without removal of the user’s burden",
+            "Proof that all paperwork has ended",
+            "A demand to restore every paper form"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "read-2",
+          "type": "multiple_choice",
+          "prompt": "Which mediation preserves the texts’ logical scope?",
+          "instructions": "Read the French passage. Choose the claim supported by this text, not a broader assumption.",
+          "explanation": "The supported interpretation is: Formal availability does not settle practical accessibility. Analyse the target and limits of the irony, the presupposed agency in the conditional clause, and the asymmetry between an accessibility objection and an availability claim. Neither a factual exclusion nor deliberate fraud is established by these fictional excerpts.",
+          "options": [
+            "The reply proves that all users receive help",
+            "Formal availability does not settle practical accessibility",
+            "The editorial establishes intentional fraud"
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "listen-stance",
+          "type": "listening",
+          "prompt": "What does the parallel phrasing principally do?",
+          "instructions": "Listen before answering. The audio is an original scripted excerpt; synthetic playback is not an authentic multi-speaker recording.",
+          "explanation": "Il serait commode de conclure que rien n’a changé. Plus commode encore d’en déduire que tout est réglé. Entre ces deux facilités demeure la question de savoir qui doit désormais rendre la procédure praticable. — Reject two easy conclusions and redirect attention to the transferred burden",
+          "options": [
+            "Assert that no improvement occurred",
+            "Certify universal accessibility",
+            "Reject two easy conclusions and redirect attention to the transferred burden"
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Il serait commode de conclure que rien n’a changé. Plus commode encore d’en déduire que tout est réglé. Entre ces deux facilités demeure la question de savoir qui doit désormais rendre la procédure praticable."
+          }
+        },
+        {
+          "key": "lexical-scope",
+          "type": "matching",
+          "prompt": "Match expressions with their contextual meanings.",
+          "instructions": "Match the meaning used in this scenario; these are not exhaustive dictionary definitions.",
+          "explanation": "se débrouiller seul — to manage on one’s own; une possibilité formelle — a possibility that exists in formal terms; le présupposé — the presupposition",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "e4ac93c1-f26d-5db0-b1a7-18394b28aa4f",
+                "text": "se débrouiller seul"
+              },
+              {
+                "id": "7b836983-ecc5-570e-adab-af369e756731",
+                "text": "une possibilité formelle"
+              },
+              {
+                "id": "ec2f3069-ebfa-5178-ac10-37a6821aeb83",
+                "text": "le présupposé"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "94aa7423-96a8-5230-8c2d-fd7ef1208542",
+                "text": "the presupposition"
+              },
+              {
+                "id": "46531eac-f96d-5d64-a34f-15bb35e42315",
+                "text": "a possibility that exists in formal terms"
+              },
+              {
+                "id": "7d19f233-217c-5daf-bcff-330ef7380c10",
+                "text": "to manage on one’s own"
+              }
+            ],
+            "answer_pairs": {
+              "e4ac93c1-f26d-5db0-b1a7-18394b28aa4f": "7d19f233-217c-5daf-bcff-330ef7380c10",
+              "7b836983-ecc5-570e-adab-af369e756731": "46531eac-f96d-5d64-a34f-15bb35e42315",
+              "ec2f3069-ebfa-5178-ac10-37a6821aeb83": "94aa7423-96a8-5230-8c2d-fd7ef1208542"
+            }
+          }
+        }
+      ],
+      "module_title": "Interpret an institutional promise and its irony",
+      "estimated_minutes": 35,
+      "grammar": [],
+      "prerequisites": []
+    },
+    {
+      "key": "transfer-and-review",
+      "skill": "writing",
+      "title": "Transfer and review: Interpret an institutional promise and its irony",
+      "objective": "Explain irony, presupposition and unequal argumentative scope, then mediate for audiences with different needs.",
+      "context": "Write a 420–500-word French critical synthesis explaining the irony, implicit assumptions and asymmetry of the two excerpts. Concede a possible improvement without inventing evidence. Then produce an 80-word neutral service explanation for a reader unfamiliar with administrative language. Explain one deliberate change of register and what nuance it preserves.\n\nSpeaking transfer: Defend your interpretation with the Tutor as a sceptical editor. Offer an alternative reading, delimit its plausibility and reformulate your synthesis without irony for a service user.\n\nRevision: Compare your interpretation against exact textual evidence. Remove one over-interpretation, then reintroduce the justified nuance in two different registers.\n\nSelf-review: check task fulfilment, evidence, sequence, grammar and spelling. Save a revised version after feedback. AI feedback is advisory; this module check is not a calibrated diagnostic or CEFR level-end examination.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Interpret an institutional promise and its irony",
+      "estimated_minutes": 45,
+      "grammar": [],
+      "prerequisites": [
+        "interpret-scenario"
+      ]
+    }
+  ],
+  "title": "C2 scenario: Interpret an institutional promise and its irony",
+  "glossary": [
+    {
+      "lemma": "se débrouiller seul",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to manage on one’s own",
+      "definition_french": "Dans ce contexte : se débrouiller seul.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "une possibilité formelle",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "a possibility that exists in formal terms",
+      "definition_french": "Dans ce contexte : une possibilité formelle.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "le présupposé",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "the presupposition",
+      "definition_french": "Dans ce contexte : le présupposé.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    }
+  ],
+  "learning_stage": null
+}

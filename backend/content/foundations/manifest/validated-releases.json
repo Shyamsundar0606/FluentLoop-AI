@@ -1,0 +1,39 @@
+{
+  "lessons": 19,
+  "exercises": 96,
+  "status": "validated drafts; main import requires separate authorization",
+  "releases": [
+    {
+      "file": "backend\\content\\foundations\\a0-foundations-0.3.0.json",
+      "version": "0.3.0",
+      "stage": "A0",
+      "lessons": 7,
+      "exercises": 36,
+      "prerequisite_links": 6,
+      "file_sha256": "3bee36f662654914e8393579e20548e655194a1b9defae35ad996127ecd51a9c",
+      "source_sha256": "a72fd38adc07eb830cf13d450a530eaab1da510395a31211eac495ae1ab76202",
+      "automated_validation": "passed",
+      "independent_human_review": "pending",
+      "cefr_calibration": "pending",
+      "main_import_authorized": false
+    },
+    {
+      "file": "backend\\content\\foundations\\a1-foundations-0.3.2.json",
+      "version": "0.3.2",
+      "stage": "A1",
+      "lessons": 12,
+      "exercises": 60,
+      "prerequisite_links": 12,
+      "file_sha256": "069e42cfc0310d2ca1403c9ccf33da88661d7de5632bbdb2c9b4153bc35801dc",
+      "source_sha256": "6e18c7d92bf14da2c1ec4ffddc3fc1f5cae568cc8a33aa13540aad9e0fbd5083",
+      "automated_validation": "passed",
+      "independent_human_review": "pending",
+      "cefr_calibration": "pending",
+      "main_import_authorized": false
+    }
+  ],
+  "references": [
+    "https://vitrinelinguistique.oqlf.gouv.qc.ca/24527/la-prononciation/prononciation-de-certaines-lettres/prononciation-des-voyelles-phonetiques-i-ou-et-u",
+    "https://apprendre.tv5monde.com/fr/aides/prononciation-les-lettres-de-lalphabet"
+  ]
+}

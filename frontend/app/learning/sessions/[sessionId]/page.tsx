@@ -129,7 +129,7 @@ function SessionContent() {
     </section>
     {stage === 3 && <div className="mt-5 space-y-4">
       {guided && <button type="button" className="text-sm font-semibold text-violet-700" disabled={submitting} onClick={() => void move(1)}>Back to explanation</button>}
-      <details className="rounded-xl border border-slate-200 p-4"><summary className="font-semibold">Lesson reference</summary><div className="mt-4"><LessonReading lesson={session.lesson} stage={1} /><div className="mt-5"><LessonReading lesson={session.lesson} stage={2} /></div><LessonActions lessonId={session.lesson_id} /></div></details>
+      <details className="rounded-xl border border-slate-200 p-4"><summary className="font-semibold">Lesson reference</summary><div className="mt-4"><LessonReading lesson={session.lesson} stage={1} /><div className="mt-5"><LessonReading lesson={session.lesson} stage={2} /></div><LessonActions lessonId={session.lesson_id} level={session.cefr_level} /></div></details>
     </div>}
     {session.exercises.some(e => e.answered) && <details className="mt-5 rounded-xl border border-slate-200 p-4"><summary className="font-semibold">Saved answer feedback</summary><ol className="mt-4 space-y-4">{session.exercises.filter(e => e.answered).map(e => <li key={e.id}><p className="font-semibold">{e.exercise_order}. {e.prompt}</p><p className="mt-2">Your answer: {submittedAnswerText(e)}</p><p>Correct answer: {e.feedback?.correct_answer}</p><p className="text-sm text-slate-500">{e.feedback?.explanation}</p></li>)}</ol></details>}
   </main>;

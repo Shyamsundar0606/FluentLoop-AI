@@ -9,7 +9,7 @@ from app.core.database import get_db
 from app.course_review import ReviewInput, digest_packet, packet, provenance, readiness, record_review, validate_packet
 from app.curriculum_models import Course
 from app.dependencies import AuthContext, current_auth_context, require_csrf
-from app.services.draft_preview import can_preview_drafts
+from app.services.draft_preview import can_author_drafts
 from app.services import curriculum_authoring as authoring
 from app.assessment_content import AssessmentPack, import_assessment_pack
 
@@ -17,7 +17,7 @@ router = APIRouter(prefix="/content-review", tags=["curriculum review"])
 
 
 def author_permission(request: Request, context: AuthContext = Depends(require_csrf)):
-    if not can_preview_drafts(context.user):
+    if not can_author_drafts(context.user):
         raise HTTPException(403, "Authorized draft authoring access required.")
     from app.services.rate_limit import enforce_rate_limit
     enforce_rate_limit(request, f"authoring:{context.user.id}", 20, 60)
@@ -91,7 +91,7 @@ def grant_for(user):
 
 
 def inspect_permission(context):
-    if not grant_for(context.user) and not can_preview_drafts(context.user):
+    if not grant_for(context.user) and not can_author_drafts(context.user):
         raise HTTPException(403, "Curriculum review access required.")
 
 
@@ -118,7 +118,7 @@ def queue(context: AuthContext = Depends(current_auth_context), db: Session = De
             history = source.review_metadata.get("independent_reviews", [])
             items.append(dict(slug=course.slug, title=course.title, level=course.level_id, version=course.content_version,
                               digest=digest, **readiness(history, digest, course.content_version)))
-    return {"items": items, "can_author": can_preview_drafts(context.user)}
+    return {"items": items, "can_author": can_author_drafts(context.user)}
 
 
 @router.get("/{slug}")
@@ -126,7 +126,7 @@ def detail(slug: str, context: AuthContext = Depends(current_auth_context), db: 
     inspect_permission(context)
     course, source, content, digest = load(db, slug)
     history = source.review_metadata.get("independent_reviews", [])
-    return dict(content=content, digest=digest, history=history, can_author=can_preview_drafts(context.user),
+    return dict(content=content, digest=digest, history=history, can_author=can_author_drafts(context.user),
                 technical_issues=validate_packet(content),
                 categories=sorted(grant_for(context.user).categories) if grant_for(context.user) else [],
                 readiness=readiness(history, digest, course.content_version))
@@ -160,7 +160,8 @@ def listening(slug: str, exercise_id: str, request: Request, context: AuthContex
         for exercise in lesson["exercises"]:
             if exercise["id"] == exercise_id and exercise["type"] == "listening":
                 script = exercise["data"].get("text_fr", "")
-                if not script or len(script) > 300:
+                from app.services.exercise_formats import MAX_LISTENING_CHARACTERS
+                if not script or len(script) > MAX_LISTENING_CHARACTERS:
                     raise HTTPException(409, "Listening script unavailable.")
                 try:
                     audio = get_speech_provider().synthesize(script)

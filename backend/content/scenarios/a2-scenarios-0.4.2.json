@@ -1,0 +1,166 @@
+{
+  "version": "0.4.2",
+  "level": "A2",
+  "status": "draft",
+  "source_license": "Original AI-assisted scenario drafts. Independent human language, pedagogy, answer-key and CEFR calibration reviews pending.",
+  "tasks": [
+    {
+      "key": "interpret-scenario",
+      "skill": "reading",
+      "title": "Explain a delayed journey",
+      "objective": "Understand a short disruption narrative and communicate an updated plan with consistent times.",
+      "context": "Hier, Lina devait rejoindre une amie à Tours. À la gare, elle a appris que son train avait vingt minutes de retard. Elle a envoyé un message : « Je suis encore à la gare. Ne m’attends pas devant le cinéma ; retrouve-moi au café à dix-huit heures. » Finalement, le train est parti avec dix minutes de retard seulement. Lina est arrivée avant l’heure proposée, mais elle n’a pas changé le rendez-vous.\n\nUnderstand: Track the original delay, the actual delay and the new meeting arrangement separately. Devait presents an earlier plan; a appris and a envoyé move the story forward. Finalement signals the outcome, not necessarily a late arrival at the meeting.\n\nLanguage: Use a simple past event to explain a change and a clear present instruction for the current arrangement. Do not treat every past event as background.",
+      "vocabulary": [
+        "avoir du retard",
+        "finalement",
+        "le rendez-vous"
+      ],
+      "exercises": [
+        {
+          "key": "read-1",
+          "type": "multiple_choice",
+          "prompt": "Where should the friend meet Lina?",
+          "instructions": "Read the French passage. Choose the claim supported by this text, not a broader assumption.",
+          "explanation": "The supported interpretation is: At the café. Track the original delay, the actual delay and the new meeting arrangement separately. Devait presents an earlier plan; a appris and a envoyé move the story forward. Finalement signals the outcome, not necessarily a late arrival at the meeting.",
+          "options": [
+            "At the café",
+            "Outside the cinema",
+            "On the platform"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "read-2",
+          "type": "multiple_choice",
+          "prompt": "What actually happened to the train?",
+          "instructions": "Read the French passage. Choose the claim supported by this text, not a broader assumption.",
+          "explanation": "The supported interpretation is: It left ten minutes late. Track the original delay, the actual delay and the new meeting arrangement separately. Devait presents an earlier plan; a appris and a envoyé move the story forward. Finalement signals the outcome, not necessarily a late arrival at the meeting.",
+          "options": [
+            "It left twenty minutes early",
+            "It left ten minutes late",
+            "It was cancelled"
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "listen-stance",
+          "type": "listening",
+          "prompt": "Which instruction is given?",
+          "instructions": "Listen before answering. The audio is an original scripted excerpt; synthetic playback is not an authentic multi-speaker recording.",
+          "explanation": "Je suis encore à la gare. Retrouve-moi au café à dix-huit heures. Ne m’attends pas devant le cinéma. — Meet at the café at six",
+          "options": [
+            "Wait outside the cinema at six",
+            "Cancel the evening",
+            "Meet at the café at six"
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Je suis encore à la gare. Retrouve-moi au café à dix-huit heures. Ne m’attends pas devant le cinéma."
+          }
+        },
+        {
+          "key": "lexical-scope",
+          "type": "matching",
+          "prompt": "Match expressions with their contextual meanings.",
+          "instructions": "Match the meaning used in this scenario; these are not exhaustive dictionary definitions.",
+          "explanation": "avoir du retard — to be late; finalement — in the end; le rendez-vous — the meeting arrangement",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "ac39daad-55a8-5bfc-8edf-e33c5b284dea",
+                "text": "avoir du retard"
+              },
+              {
+                "id": "f1d56dfd-8c55-5652-95f0-88ce97232be7",
+                "text": "finalement"
+              },
+              {
+                "id": "1131160e-83ff-51e5-b8b2-19ead74602bd",
+                "text": "le rendez-vous"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "014808db-4a8b-58d2-ad71-f05cf0dcbbd1",
+                "text": "the meeting arrangement"
+              },
+              {
+                "id": "4e5bfe79-d1ca-5fd7-add6-282066f9958c",
+                "text": "in the end"
+              },
+              {
+                "id": "6b72d5d2-8e8f-5dcc-9896-663c283d83aa",
+                "text": "to be late"
+              }
+            ],
+            "answer_pairs": {
+              "ac39daad-55a8-5bfc-8edf-e33c5b284dea": "6b72d5d2-8e8f-5dcc-9896-663c283d83aa",
+              "f1d56dfd-8c55-5652-95f0-88ce97232be7": "4e5bfe79-d1ca-5fd7-add6-282066f9958c",
+              "1131160e-83ff-51e5-b8b2-19ead74602bd": "014808db-4a8b-58d2-ad71-f05cf0dcbbd1"
+            }
+          }
+        }
+      ],
+      "module_title": "Explain a delayed journey",
+      "estimated_minutes": 35,
+      "grammar": [],
+      "prerequisites": []
+    },
+    {
+      "key": "transfer-and-review",
+      "skill": "writing",
+      "title": "Transfer and review: Explain a delayed journey",
+      "objective": "Understand a short disruption narrative and communicate an updated plan with consistent times.",
+      "context": "Write 70–90 French words to a friend: explain an invented transport delay, distinguish the announced and actual problem, and propose a place and time. Add one clarification question. Check the sequence and reread all times.\n\nSpeaking transfer: Explain a delayed journey to the Tutor as your friend. Confirm the new place and time and answer a follow-up question.\n\nRevision: Retell the events in three steps without the text, then compare the actual delay and appointment details.\n\nSelf-review: check task fulfilment, evidence, sequence, grammar and spelling. Save a revised version after feedback. AI feedback is advisory; this module check is not a calibrated diagnostic or CEFR level-end examination.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Explain a delayed journey",
+      "estimated_minutes": 25,
+      "grammar": [],
+      "prerequisites": [
+        "interpret-scenario"
+      ]
+    }
+  ],
+  "title": "A2 scenario: Explain a delayed journey",
+  "glossary": [
+    {
+      "lemma": "avoir du retard",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to be late",
+      "definition_french": "Dans ce contexte : avoir du retard.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "finalement",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "in the end",
+      "definition_french": "Dans ce contexte : finalement.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "le rendez-vous",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "the meeting arrangement",
+      "definition_french": "Dans ce contexte : le rendez-vous.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    }
+  ],
+  "learning_stage": null
+}

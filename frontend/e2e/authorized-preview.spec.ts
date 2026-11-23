@@ -1,6 +1,6 @@
 import { enterExercises } from './learning-navigation';
 import { test, expect, type Page } from '@playwright/test';
-import { readFileSync } from 'node:fs';
+import { adminFixture } from './admin-fixture';
 
 const base = process.env.PLAYWRIGHT_API_BASE_URL ?? '';
 const csrfName = process.env.PLAYWRIGHT_CSRF_COOKIE_NAME ?? 'fluentloop_csrf';
@@ -12,7 +12,7 @@ test.beforeEach(() => {
   fixture = process.env.M083_E2E === '1'
     ? { admin: process.env.M083_ADMIN_EMAIL!, learner: process.env.M083_LEARNER_EMAIL!,
         password: process.env.M083_PASSWORD!, lesson_id: process.env.M083_INTERACTIVE_LESSON_ID! }
-    : JSON.parse(readFileSync('../.speech-data/m08-browser-fixture.json', 'utf8'));
+    : adminFixture();
 });
 async function login(page: Page, email: string) {
   await page.goto('/login'); await page.getByLabel('Email').fill(email);

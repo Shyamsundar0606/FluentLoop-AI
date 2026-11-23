@@ -1,0 +1,225 @@
+{
+  "version": "0.7.8",
+  "level": "C2",
+  "status": "draft",
+  "source_license": "Original AI-assisted module drafts. Qualified independent linguistic, pedagogical, phonetic, answer-key and CEFR reviews pending.",
+  "tasks": [
+    {
+      "key": "read-and-notice",
+      "skill": "grammar",
+      "title": "C2 review: mediate a disputed museum narrative: read and notice",
+      "objective": "Analyse presupposition, agency and rhetorical framing while distinguishing critique from allegations of intent. Concede a practical need without treating it as sufficient to settle attribution.",
+      "context": "Un musée fictif prépare une exposition sur les transformations d’un quartier. Le texte de présentation affirme vouloir « rendre enfin leur place aux mémoires ordinaires ». Une historienne apprécie l’élargissement des témoignages, mais s’interroge sur le présupposé contenu dans enfin : la formule risque d’effacer le travail associatif antérieur pour mieux mettre en scène une réparation institutionnelle. Une médiatrice répond que le public a besoin d’une entrée lisible, non d’un inventaire de toutes les précautions historiographiques. Ces deux positions ne portent pas seulement sur le nombre de mots du panneau. Elles interrogent l’attribution d’une initiative, la visibilité des médiations et la manière dont une institution se présente comme sujet d’une restitution. Une synthèse fidèle ne doit ni réduire la critique à une querelle lexicale ni traiter une exigence de lisibilité comme un refus d’histoire complexe.",
+      "vocabulary": [
+        "une réparation institutionnelle mise en scène",
+        "rendre visibles les médiations du récit",
+        "un enjeu d’attribution historique"
+      ],
+      "exercises": [
+        {
+          "key": "read-meaning",
+          "type": "multiple_choice",
+          "prompt": "What is the historian’s central concern?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "The framing may obscure earlier associative work. Source: Un musée fictif prépare une exposition sur les transformations d’un quartier. Le texte de présentation affirme vouloir « rendre enfin leur place aux mémoires ordinaires ». Une historienne apprécie l’élargissement des témoignages, mais s’interroge sur le présupposé contenu dans enfin : la formule risque d’effacer le travail associatif antérieur pour mieux mettre en scène une réparation institutionnelle. Une médiatrice répond que le public a besoin d’une entrée lisible, non d’un inventaire de toutes les précautions historiographiques. Ces deux positions ne portent pas seulement sur le nombre de mots du panneau. Elles interrogent l’attribution d’une initiative, la visibilité des médiations et la manière dont une institution se présente comme sujet d’une restitution. Une synthèse fidèle ne doit ni réduire la critique à une querelle lexicale ni traiter une exigence de lisibilité comme un refus d’histoire complexe.",
+          "options": [
+            "Ordinary testimony must be excluded",
+            "Every short display text is necessarily false",
+            "The framing may obscure earlier associative work"
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "grammar-scope",
+          "type": "multiple_choice",
+          "prompt": "Which concession preserves the dispute’s scope?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Analyse presupposition, agency and rhetorical framing while distinguishing critique from allegations of intent. Concede a practical need without treating it as sufficient to settle attribution.",
+          "options": [
+            "Reconnaître le besoin de lisibilité sans effacer l’enjeu d’attribution.",
+            "La lisibilité prouve que toute critique est inutile.",
+            "Toute simplification interdit toute exposition."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "contextual-vocabulary",
+          "type": "matching",
+          "prompt": "Match the contextual expressions with their meanings.",
+          "instructions": "Use each meaning once; these are contextual definitions.",
+          "explanation": "une réparation institutionnelle mise en scène — a staged institutional act of redress; rendre visibles les médiations du récit — to make narrative mediation visible; un enjeu d’attribution historique — an issue of historical attribution",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "9b4fdf30-ce42-5e66-add3-4d94bec5888e",
+                "text": "une réparation institutionnelle mise en scène"
+              },
+              {
+                "id": "5344ccbb-462f-5f68-aec2-a165d7aafe72",
+                "text": "rendre visibles les médiations du récit"
+              },
+              {
+                "id": "b23794a7-160a-5076-9ce0-27ea0ab7d8b8",
+                "text": "un enjeu d’attribution historique"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "1f334106-ce9f-5897-927c-f2d4e7c1b641",
+                "text": "an issue of historical attribution"
+              },
+              {
+                "id": "300943b4-f89d-58ca-9215-db33958a7985",
+                "text": "to make narrative mediation visible"
+              },
+              {
+                "id": "021f2611-d5f9-5262-90ed-328ff075a33c",
+                "text": "a staged institutional act of redress"
+              }
+            ],
+            "answer_pairs": {
+              "9b4fdf30-ce42-5e66-add3-4d94bec5888e": "021f2611-d5f9-5262-90ed-328ff075a33c",
+              "5344ccbb-462f-5f68-aec2-a165d7aafe72": "300943b4-f89d-58ca-9215-db33958a7985",
+              "b23794a7-160a-5076-9ce0-27ea0ab7d8b8": "1f334106-ce9f-5897-927c-f2d4e7c1b641"
+            }
+          }
+        }
+      ],
+      "module_title": "C2 review: mediate a disputed museum narrative",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "completion-c2-08",
+          "title": "C2 review: mediate a disputed museum narrative",
+          "summary": "Analyse presupposition, agency and rhetorical framing while distinguishing critique from allegations of intent. Concede a practical need without treating it as sufficient to settle attribution.",
+          "rule_code": "completion-c2-08",
+          "explanation_english": "Analyse presupposition, agency and rhetorical framing while distinguishing critique from allegations of intent. Concede a practical need without treating it as sufficient to settle attribution.",
+          "examples": [
+            [
+              "La lisibilité est nécessaire ; elle ne dispense pas d’expliciter ce que le récit attribue à l’institution.",
+              "Readability is necessary; it does not remove the need to make the narrative’s attribution to the institution explicit."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "listen-and-integrate",
+      "skill": "reading",
+      "title": "C2 review: mediate a disputed museum narrative: listen and integrate",
+      "objective": "Identify details, stance and limits of commitment in the scripted exchange, then integrate both sources.",
+      "context": "Original scripted exchange for listening and transcript-assisted review. One synthetic voice may perform every role; this does not demonstrate spontaneous multi-speaker comprehension.\n\nMédiatrice : Je peux retirer enfin, mais le problème disparaîtra-t-il avec le mot ? Historienne : Pas forcément. Si le musée reste le seul acteur du récit, l’effet peut subsister. Habitante : Nous voulons surtout que le visiteur sache d’où viennent les paroles qu’il lit. Médiatrice : Alors nommons les collectifs et distinguons le témoignage, le choix éditorial et le commentaire du musée.",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "listen-position",
+          "type": "listening",
+          "prompt": "What constructive proposal emerges?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Make sources and editorial roles visible. Script: Médiatrice : Je peux retirer enfin, mais le problème disparaîtra-t-il avec le mot ? Historienne : Pas forcément. Si le musée reste le seul acteur du récit, l’effet peut subsister. Habitante : Nous voulons surtout que le visiteur sache d’où viennent les paroles qu’il lit. Médiatrice : Alors nommons les collectifs et distinguons le témoignage, le choix éditorial et le commentaire du musée.",
+          "options": [
+            "Remove every testimony",
+            "Make sources and editorial roles visible",
+            "Assume removing one word resolves the whole issue"
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Médiatrice : Je peux retirer enfin, mais le problème disparaîtra-t-il avec le mot ? Historienne : Pas forcément. Si le musée reste le seul acteur du récit, l’effet peut subsister. Habitante : Nous voulons surtout que le visiteur sache d’où viennent les paroles qu’il lit. Médiatrice : Alors nommons les collectifs et distinguons le témoignage, le choix éditorial et le commentaire du musée."
+          }
+        },
+        {
+          "key": "integrate-sources",
+          "type": "multiple_choice",
+          "prompt": "Which final synthesis respects the dossier?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Combine accessible presentation with explicit attribution and editorial mediation. Compare the reading and listening sources.",
+          "options": [
+            "Combine accessible presentation with explicit attribution and editorial mediation",
+            "Treat the dispute as proof of deliberate historical fraud",
+            "Present testimony as unmediated institutional speech"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "locate-phrase",
+          "type": "short_answer",
+          "prompt": "Copy the exact phrase naming the selection layer between testimony and museum commentary.",
+          "instructions": "Transcript available in this lesson: copy the exact requested phrase. This item checks location/spelling, not open-ended interpretation.",
+          "explanation": "Exact source phrase: le choix éditorial",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "le choix éditorial"
+            ]
+          }
+        }
+      ],
+      "module_title": "C2 review: mediate a disputed museum narrative",
+      "estimated_minutes": 25,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice"
+      ]
+    },
+    {
+      "key": "transfer-and-assess",
+      "skill": "writing",
+      "title": "C2 review: mediate a disputed museum narrative: transfer and assess",
+      "objective": "Transfer the module language to an unfamiliar situation and review comprehension, writing and interaction separately.",
+      "context": "Write a 520–620-word critical synthesis that integrates source roles, an alternative interpretation and the limits of each inference. Add a 90-word museum panel and an 90-word note to contributors; justify the different registers. Defend choices in a sustained oral exchange with contradictory challenges. Assess pragmatic nuance, source fidelity, organisation and precise reformulation separately; this is not a C2 certification exam.\n\nRevision: retrieve the three contextual expressions without the model on a later day; correct saved errors and reuse them in a new scenario.\n\nReview task fulfilment, source fidelity, grammar, vocabulary, organisation and interaction/repair separately. Treat spelling extraction as supported practice, not proficiency evidence. Optional AI feedback is advisory. Independent human language/phonetic review and empirical calibration remain pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "C2 review: mediate a disputed museum narrative",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice",
+        "listen-and-integrate"
+      ]
+    }
+  ],
+  "title": "C2 module completion: C2 review: mediate a disputed museum narrative",
+  "glossary": [
+    {
+      "lemma": "une réparation institutionnelle mise en scène",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "a staged institutional act of redress",
+      "definition_french": "Une manière de présenter publiquement l’institution comme réparatrice.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "rendre visibles les médiations du récit",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to make narrative mediation visible",
+      "definition_french": "Montrer comment les paroles sont choisies, présentées et commentées.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "un enjeu d’attribution historique",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "an issue of historical attribution",
+      "definition_french": "Une question portant sur les acteurs auxquels une action est rapportée.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    }
+  ],
+  "learning_stage": null
+}

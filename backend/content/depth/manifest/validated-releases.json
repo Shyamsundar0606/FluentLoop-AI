@@ -1,0 +1,82 @@
+{
+  "lessons": 15,
+  "exercises": 20,
+  "status": "validated drafts; main import requires separate authorization",
+  "releases": [
+    {
+      "file": "backend\\content\\depth\\a0-depth-0.6.0.json",
+      "version": "0.6.0",
+      "stage": "A0",
+      "lessons": 3,
+      "exercises": 4,
+      "prerequisite_links": 3,
+      "file_sha256": "df3c21da390bccd1dc5c1e7b1da0260a507b3ab1d1324c29dded3a84ba0bc6ef",
+      "source_sha256": "5db1884608ff3783dbba936c1655add341e50c5696c587b7011bc58cc6dcae0c",
+      "automated_validation": "passed",
+      "independent_human_review": "pending",
+      "cefr_calibration": "pending",
+      "main_import_authorized": true
+    },
+    {
+      "file": "backend\\content\\depth\\a1-depth-0.6.1.json",
+      "version": "0.6.1",
+      "stage": "A1",
+      "lessons": 3,
+      "exercises": 4,
+      "prerequisite_links": 3,
+      "file_sha256": "156b36fd2a138efafe95854f0939ef00bb1cc2d0f6e51db3286f08a77e5a333d",
+      "source_sha256": "085992c5bfdf3c15e1e4d58dfa1dac5ee854fced0fddcefe8162683b3cc2f292",
+      "automated_validation": "passed",
+      "independent_human_review": "pending",
+      "cefr_calibration": "pending",
+      "main_import_authorized": true
+    },
+    {
+      "file": "backend\\content\\depth\\b2-depth-0.6.2.json",
+      "version": "0.6.2",
+      "stage": "B2",
+      "lessons": 3,
+      "exercises": 4,
+      "prerequisite_links": 3,
+      "file_sha256": "0c97c9fc89a49070b7690f91bd22ec2fe27e10ddef04998301f9cdbde6da528b",
+      "source_sha256": "b24e955c1fd5f65e43ee0f4498649aee6c5de684e5650098b7e1f4b1b919e210",
+      "automated_validation": "passed",
+      "independent_human_review": "pending",
+      "cefr_calibration": "pending",
+      "main_import_authorized": true
+    },
+    {
+      "file": "backend\\content\\depth\\c1-depth-0.6.3.json",
+      "version": "0.6.3",
+      "stage": "C1",
+      "lessons": 3,
+      "exercises": 4,
+      "prerequisite_links": 3,
+      "file_sha256": "3ba534e898ff22ade6d0f234211995d2f417142eed5c8253d9aeb647f09e2862",
+      "source_sha256": "fec156f5ac8d0abf8f1487681663a36f32842dea68ea6eeb9689892ff4300a17",
+      "automated_validation": "passed",
+      "independent_human_review": "pending",
+      "cefr_calibration": "pending",
+      "main_import_authorized": true
+    },
+    {
+      "file": "backend\\content\\depth\\c2-depth-0.6.4.json",
+      "version": "0.6.4",
+      "stage": "C2",
+      "lessons": 3,
+      "exercises": 4,
+      "prerequisite_links": 3,
+      "file_sha256": "0ce68ef0e356f42f4dfbd4125b8809aec25b03fb5ff643bd79eaf27f03fb7717",
+      "source_sha256": "231f0a805620dedff07e822d1787b1a60da584a302c8101f2465e4bcf82aface",
+      "automated_validation": "passed",
+      "independent_human_review": "pending",
+      "cefr_calibration": "pending",
+      "main_import_authorized": true
+    }
+  ],
+  "references": [
+    "https://www.coe.int/en/web/common-european-framework-reference-languages/cefr-companion-volume-and-its-language-versions"
+  ],
+  "current_main_status": "Imported unpublished on23 November2026 after exact-batch owner authorization, fresh backup and restored-copy rehearsal",
+  "main_import_authorized": true
+}

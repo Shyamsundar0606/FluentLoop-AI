@@ -1,0 +1,23 @@
+{
+  "database_url": "postgresql+psycopg://REPLACE:REPLACE@127.0.0.1:5432/REPLACE",
+  "expected_database": "REPLACE",
+  "containers": [
+    {"role": "db", "id": "REPLACE_WITH_FULL_EXISTING_CONTAINER_ID", "volume": "fluentloopai_postgres_data"},
+    {"role": "redis", "id": "REPLACE_WITH_FULL_EXISTING_CONTAINER_ID", "volume": "REPLACE_WITH_EXISTING_REDIS_VOLUME"},
+    {"role": "mailpit", "id": "REPLACE_WITH_FULL_EXISTING_CONTAINER_ID"}
+  ],
+  "personal_preview_user_ids": [],
+  "enable_personal_preview": false,
+  "enable_ai": true,
+  "enable_speech": true,
+  "maintenance_reviewed": false,
+  "speech_storage_path": "REPLACE_WITH_EXISTING_VERIFIED_AUDIO_DIRECTORY_ON_D",
+  "frontend_port": 3000,
+  "api_port": 8000,
+  "speech_port": 8090,
+  "redis_url": "redis://127.0.0.1:6379/0",
+  "ollama_url": "http://127.0.0.1:11434",
+  "ollama_model": "llama3.2:3b",
+  "minimum_c_free_gib": 30,
+  "minimum_d_free_gib": 50
+}

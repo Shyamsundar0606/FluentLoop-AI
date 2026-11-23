@@ -1,0 +1,193 @@
+{
+  "verified_date": "2026-11-23",
+  "releases": [
+    {
+      "batch_key": "m10-assessments-a1-0.2.1",
+      "source_sha256": "5a24789165897d26da6adbd1627f490ed681390ae0be2e7200839ae82badbac9",
+      "file": "backend\\content\\personal\\a1-personal-0.2.1.json"
+    },
+    {
+      "batch_key": "m10-assessments-a2-0.2.1",
+      "source_sha256": "b2d61c73f46279f0a971dedf34f75953c519c4f381eb450afb22c8b7448dc641",
+      "file": "backend\\content\\personal\\a2-personal-0.2.1.json"
+    },
+    {
+      "batch_key": "m10-assessments-b1-0.2.1",
+      "source_sha256": "c6babbc6060a5a72da959d9fe35c9ec44150b069685141e28d2c3e855f0f5742",
+      "file": "backend\\content\\personal\\b1-personal-0.2.1.json"
+    },
+    {
+      "batch_key": "m10-assessments-b2-0.2.1",
+      "source_sha256": "672d3dbaaffa98fee03539c4bcee834377261aee4e2a9e3ccc7c274b0720fbc5",
+      "file": "backend\\content\\personal\\b2-personal-0.2.1.json"
+    },
+    {
+      "batch_key": "m10-assessments-c1-0.2.1",
+      "source_sha256": "23b326cae5ef0861210786000d6c16474bdf6598d8f5103f16a7c64d35f6216a",
+      "file": "backend\\content\\personal\\c1-personal-0.2.1.json"
+    },
+    {
+      "batch_key": "m10-assessments-c2-0.2.1",
+      "source_sha256": "97ecdb9baf7a6109b282350f52ba385dcd5949261b0d0a3afed8290f7a835aea",
+      "file": "backend\\content\\personal\\c2-personal-0.2.1.json"
+    },
+    {
+      "batch_key": "m10-assessments-a1-0.3.0",
+      "source_sha256": "a72fd38adc07eb830cf13d450a530eaab1da510395a31211eac495ae1ab76202",
+      "file": "backend\\content\\foundations\\a0-foundations-0.3.0.json"
+    },
+    {
+      "batch_key": "m10-assessments-a1-0.3.2",
+      "source_sha256": "6e18c7d92bf14da2c1ec4ffddc3fc1f5cae568cc8a33aa13540aad9e0fbd5083",
+      "file": "backend\\content\\foundations\\a1-foundations-0.3.2.json"
+    },
+    {
+      "batch_key": "m10-assessments-a1-0.4.7",
+      "source_sha256": "e3c27092168713ac81a73fc460c3fb1b3d317181af4dc89612bae613921a2198",
+      "file": "backend\\content\\scenarios\\a0-scenarios-0.4.7.json"
+    },
+    {
+      "batch_key": "m10-assessments-a1-0.4.1",
+      "source_sha256": "34df69ccbec8654e53e169a9c3c272bc68d69d34f1b7ea0f3a374fafa0ecbb3e",
+      "file": "backend\\content\\scenarios\\a1-scenarios-0.4.1.json"
+    },
+    {
+      "batch_key": "m10-assessments-a2-0.4.2",
+      "source_sha256": "219e82f74f63b31e4b89b7ed04532a399b09e8160a652d2b56d14b82ecc460ca",
+      "file": "backend\\content\\scenarios\\a2-scenarios-0.4.2.json"
+    },
+    {
+      "batch_key": "m10-assessments-b1-0.4.3",
+      "source_sha256": "26be87cad6360701b4374719d48ad685531de93a1f6dbddac943a5f6b14bcff9",
+      "file": "backend\\content\\scenarios\\b1-scenarios-0.4.3.json"
+    },
+    {
+      "batch_key": "m10-assessments-b2-0.4.4",
+      "source_sha256": "5a21fc53b85e6a9b0c54ba56d0eaaf182e169a4d08b82f0887c987b7922a01c4",
+      "file": "backend\\content\\scenarios\\b2-scenarios-0.4.4.json"
+    },
+    {
+      "batch_key": "m10-assessments-c1-0.4.5",
+      "source_sha256": "6e7bb0fbb7caae90d7791e73186edd532ad3bbb72f245d3b38e3ff3580abfd8e",
+      "file": "backend\\content\\scenarios\\c1-scenarios-0.4.5.json"
+    },
+    {
+      "batch_key": "m10-assessments-c2-0.4.6",
+      "source_sha256": "f3279e5561256f0e398eb59dd7a1ae9443b20e537ec008acba154c2a8671d19e",
+      "file": "backend\\content\\scenarios\\c2-scenarios-0.4.6.json"
+    },
+    {
+      "batch_key": "m10-assessments-a1-0.6.0",
+      "source_sha256": "5db1884608ff3783dbba936c1655add341e50c5696c587b7011bc58cc6dcae0c",
+      "file": "backend\\content\\depth\\a0-depth-0.6.0.json"
+    },
+    {
+      "batch_key": "m10-assessments-a1-0.6.1",
+      "source_sha256": "085992c5bfdf3c15e1e4d58dfa1dac5ee854fced0fddcefe8162683b3cc2f292",
+      "file": "backend\\content\\depth\\a1-depth-0.6.1.json"
+    },
+    {
+      "batch_key": "m10-assessments-b2-0.6.2",
+      "source_sha256": "b24e955c1fd5f65e43ee0f4498649aee6c5de684e5650098b7e1f4b1b919e210",
+      "file": "backend\\content\\depth\\b2-depth-0.6.2.json"
+    },
+    {
+      "batch_key": "m10-assessments-c1-0.6.3",
+      "source_sha256": "fec156f5ac8d0abf8f1487681663a36f32842dea68ea6eeb9689892ff4300a17",
+      "file": "backend\\content\\depth\\c1-depth-0.6.3.json"
+    },
+    {
+      "batch_key": "m10-assessments-c2-0.6.4",
+      "source_sha256": "231f0a805620dedff07e822d1787b1a60da584a302c8101f2465e4bcf82aface",
+      "file": "backend\\content\\depth\\c2-depth-0.6.4.json"
+    },
+    {
+      "batch_key": "m10-assessments-a2-0.7.5",
+      "source_sha256": "7a6f54cf03c0d0ba18a4baa40b4a17c8b885dad8e3f71082c02c05fb0e90d006",
+      "file": "backend\\content\\completion\\a2-05-completion-0.7.5.json"
+    },
+    {
+      "batch_key": "m10-assessments-a2-0.7.6",
+      "source_sha256": "c21da1206eacc2fad0d984126a074378ab57f045210c450b375a9f8d898cc1cb",
+      "file": "backend\\content\\completion\\a2-06-completion-0.7.6.json"
+    },
+    {
+      "batch_key": "m10-assessments-a2-0.7.7",
+      "source_sha256": "ef2e6b33b35dd24f2938f32486d0e110c67d5e69daaf904ef22ebf98f9bcb158",
+      "file": "backend\\content\\completion\\a2-07-completion-0.7.7.json"
+    },
+    {
+      "batch_key": "m10-assessments-a2-0.7.8",
+      "source_sha256": "98f3d085d5189b62261529746b34bcb01cdec0bc3d7ff1a2e893a2d980fd1779",
+      "file": "backend\\content\\completion\\a2-08-completion-0.7.8.json"
+    },
+    {
+      "batch_key": "m10-assessments-b1-0.7.5",
+      "source_sha256": "a0bd68db400ada55cde5a7f4868f66c21e4330cf2598d744140609aca4d400ba",
+      "file": "backend\\content\\completion\\b1-05-completion-0.7.5.json"
+    },
+    {
+      "batch_key": "m10-assessments-b1-0.7.6",
+      "source_sha256": "2f53579b73cec7c2564ebf747d792e9d80163629042cd5f3587b1aad7d708f82",
+      "file": "backend\\content\\completion\\b1-06-completion-0.7.6.json"
+    },
+    {
+      "batch_key": "m10-assessments-b1-0.7.7",
+      "source_sha256": "d26c9c3c268a08774e5f8d39758c101f533685d3f24135713d186acc31d24a50",
+      "file": "backend\\content\\completion\\b1-07-completion-0.7.7.json"
+    },
+    {
+      "batch_key": "m10-assessments-b1-0.7.8",
+      "source_sha256": "f329f909e022de5b1b8d091494a3cb51f2a800dd9f67a4897f637ecd363f16e0",
+      "file": "backend\\content\\completion\\b1-08-completion-0.7.8.json"
+    },
+    {
+      "batch_key": "m10-assessments-b2-0.7.6",
+      "source_sha256": "2ac1897eb22b4102adf9770b62bdb08f804f85859290bf49f1fe42f412c5d2f7",
+      "file": "backend\\content\\completion\\b2-06-completion-0.7.6.json"
+    },
+    {
+      "batch_key": "m10-assessments-b2-0.7.7",
+      "source_sha256": "93b4b31dffe151292570569f30cb7308b3376d6c313b535a1896f3b77b41778c",
+      "file": "backend\\content\\completion\\b2-07-completion-0.7.7.json"
+    },
+    {
+      "batch_key": "m10-assessments-b2-0.7.8",
+      "source_sha256": "5fdb7b5868f7f18e38956e00701c56d3fcd069ec9607b99f82785f4b2a00a515",
+      "file": "backend\\content\\completion\\b2-08-completion-0.7.8.json"
+    },
+    {
+      "batch_key": "m10-assessments-c1-0.7.5",
+      "source_sha256": "574b942ca9095f72aec2dbd6c8ad6ba5940c85ca13a49442547c327fd5abae02",
+      "file": "backend\\content\\completion\\c1-05-completion-0.7.5.json"
+    },
+    {
+      "batch_key": "m10-assessments-c1-0.7.7",
+      "source_sha256": "524839c0fd5718b0d7c1390244595fc0e238f2eb7fa27dccbbc5c6ded7bdb6db",
+      "file": "backend\\content\\completion\\c1-07-completion-0.7.7.json"
+    },
+    {
+      "batch_key": "m10-assessments-c1-0.7.8",
+      "source_sha256": "c96f28e0c9a895852e1ed7433bb373af81fc80dfaf22f2f1554787ba6afe6f33",
+      "file": "backend\\content\\completion\\c1-08-completion-0.7.8.json"
+    },
+    {
+      "batch_key": "m10-assessments-c2-0.7.5",
+      "source_sha256": "d8b8a05b9e81c8fb449b07d5ba08bfc49a1386fcdb9c16154bf679e90ce1b1fb",
+      "file": "backend\\content\\completion\\c2-05-completion-0.7.5.json"
+    },
+    {
+      "batch_key": "m10-assessments-c2-0.7.6",
+      "source_sha256": "7a382fd05c51b2ab99a193066b658eae989267b9e393f793946f1e2839e4ef39",
+      "file": "backend\\content\\completion\\c2-06-completion-0.7.6.json"
+    },
+    {
+      "batch_key": "m10-assessments-c2-0.7.8",
+      "source_sha256": "5975b279d582f3e69e0f3b74ea85ee4a015ac70ae2fc15521439044f68627134",
+      "file": "backend\\content\\completion\\c2-08-completion-0.7.8.json"
+    }
+  ],
+  "total_lessons": 181,
+  "total_exercises": 620,
+  "published": false
+}

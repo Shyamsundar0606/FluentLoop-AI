@@ -1,0 +1,225 @@
+{
+  "version": "0.7.8",
+  "level": "A2",
+  "status": "draft",
+  "source_license": "Original AI-assisted module drafts. Qualified independent linguistic, pedagogical, phonetic, answer-key and CEFR reviews pending.",
+  "tasks": [
+    {
+      "key": "read-and-notice",
+      "skill": "grammar",
+      "title": "A2 review: solve a day-trip disruption: read and notice",
+      "objective": "Connect events with d’abord, puis and donc. Keep an earlier plan separate from the revised arrangement; a consequence is not another cause.",
+      "context": "Inès organise une sortie à Nantes avec une amie. Elles ont prévu de prendre le train de huit heures et de visiter un musée à dix heures. Le matin, leur train est supprimé. Le suivant arrive à dix heures trente. Le musée leur confirme que leur billet fictif permet une entrée jusqu’à midi. Elles décident donc de garder la visite et de déjeuner plus tard. Elles envoient un message à l’ami qui devait les retrouver devant le musée à dix heures pour lui proposer onze heures.",
+      "vocabulary": [
+        "garder la visite prévue",
+        "proposer une nouvelle heure",
+        "un train supprimé ce matin"
+      ],
+      "exercises": [
+        {
+          "key": "read-meaning",
+          "type": "multiple_choice",
+          "prompt": "Why can they keep the museum visit?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "The stated ticket permits entry until noon. Source: Inès organise une sortie à Nantes avec une amie. Elles ont prévu de prendre le train de huit heures et de visiter un musée à dix heures. Le matin, leur train est supprimé. Le suivant arrive à dix heures trente. Le musée leur confirme que leur billet fictif permet une entrée jusqu’à midi. Elles décident donc de garder la visite et de déjeuner plus tard. Elles envoient un message à l’ami qui devait les retrouver devant le musée à dix heures pour lui proposer onze heures.",
+          "options": [
+            "The train arrives before ten",
+            "The museum is free all evening",
+            "The stated ticket permits entry until noon"
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "grammar-scope",
+          "type": "multiple_choice",
+          "prompt": "Which word marks a consequence in the model?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Connect events with d’abord, puis and donc. Keep an earlier plan separate from the revised arrangement; a consequence is not another cause.",
+          "options": [
+            "donc",
+            "parce que",
+            "avant"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "contextual-vocabulary",
+          "type": "matching",
+          "prompt": "Match the contextual expressions with their meanings.",
+          "instructions": "Use each meaning once; these are contextual definitions.",
+          "explanation": "garder la visite prévue — to keep the planned visit; proposer une nouvelle heure — to suggest a new time; un train supprimé ce matin — a train cancelled this morning",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "f6975bc4-679f-5b98-ac4e-16f85918d6a7",
+                "text": "garder la visite prévue"
+              },
+              {
+                "id": "07985289-6e11-538a-85d4-f9b0a863c5bd",
+                "text": "proposer une nouvelle heure"
+              },
+              {
+                "id": "ef69ce21-837f-5eff-bcb2-e0ea5aa23b9d",
+                "text": "un train supprimé ce matin"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "e2bd9d9f-4570-5ada-b26f-eda9e327eab6",
+                "text": "a train cancelled this morning"
+              },
+              {
+                "id": "bc955f22-8057-5d0d-a62b-a0bd2b3eecd5",
+                "text": "to suggest a new time"
+              },
+              {
+                "id": "f9a69b33-cdcf-5a58-8ebc-07f31052279a",
+                "text": "to keep the planned visit"
+              }
+            ],
+            "answer_pairs": {
+              "f6975bc4-679f-5b98-ac4e-16f85918d6a7": "f9a69b33-cdcf-5a58-8ebc-07f31052279a",
+              "07985289-6e11-538a-85d4-f9b0a863c5bd": "bc955f22-8057-5d0d-a62b-a0bd2b3eecd5",
+              "ef69ce21-837f-5eff-bcb2-e0ea5aa23b9d": "e2bd9d9f-4570-5ada-b26f-eda9e327eab6"
+            }
+          }
+        }
+      ],
+      "module_title": "A2 review: solve a day-trip disruption",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "completion-a2-08",
+          "title": "A2 review: solve a day-trip disruption",
+          "summary": "Connect events with d’abord, puis and donc. Keep an earlier plan separate from the revised arrangement; a consequence is not another cause.",
+          "rule_code": "completion-a2-08",
+          "explanation_english": "Connect events with d’abord, puis and donc. Keep an earlier plan separate from the revised arrangement; a consequence is not another cause.",
+          "examples": [
+            [
+              "Le train est supprimé, donc nous arriverons plus tard.",
+              "The train is cancelled, so we will arrive later."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "listen-and-integrate",
+      "skill": "reading",
+      "title": "A2 review: solve a day-trip disruption: listen and integrate",
+      "objective": "Identify details, stance and limits of commitment in the scripted exchange, then integrate both sources.",
+      "context": "Original scripted exchange for listening and transcript-assisted review. One synthetic voice may perform every role; this does not demonstrate spontaneous multi-speaker comprehension.\n\nInès : Nous arriverons à la gare à dix heures trente. Ami : Je vous attends toujours à dix heures devant le musée ? Inès : Non, retrouvons-nous à onze heures. Nous déjeunerons après la visite. Ami : D’accord, je note onze heures.",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "listen-position",
+          "type": "listening",
+          "prompt": "What is the new meeting time?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Eleven. Script: Inès : Nous arriverons à la gare à dix heures trente. Ami : Je vous attends toujours à dix heures devant le musée ? Inès : Non, retrouvons-nous à onze heures. Nous déjeunerons après la visite. Ami : D’accord, je note onze heures.",
+          "options": [
+            "Ten",
+            "Eleven",
+            "Noon"
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Inès : Nous arriverons à la gare à dix heures trente. Ami : Je vous attends toujours à dix heures devant le musée ? Inès : Non, retrouvons-nous à onze heures. Nous déjeunerons après la visite. Ami : D’accord, je note onze heures."
+          }
+        },
+        {
+          "key": "integrate-sources",
+          "type": "multiple_choice",
+          "prompt": "Which sequence matches the plan?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Arrival, meeting at eleven, visit, lunch. Compare the reading and listening sources.",
+          "options": [
+            "Arrival, meeting at eleven, visit, lunch",
+            "Lunch at ten, then the original train",
+            "Cancel the visit and meet at ten"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "locate-phrase",
+          "type": "short_answer",
+          "prompt": "Copy the exact phrase indicating when they will have lunch.",
+          "instructions": "Transcript available in this lesson: copy the exact requested phrase. This item checks location/spelling, not open-ended interpretation.",
+          "explanation": "Exact source phrase: après la visite",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "après la visite"
+            ]
+          }
+        }
+      ],
+      "module_title": "A2 review: solve a day-trip disruption",
+      "estimated_minutes": 25,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice"
+      ]
+    },
+    {
+      "key": "transfer-and-assess",
+      "skill": "writing",
+      "title": "A2 review: solve a day-trip disruption: transfer and assess",
+      "objective": "Transfer the module language to an unfamiliar situation and review comprehension, writing and interaction separately.",
+      "context": "Without copying the model, write 100–120 French words explaining a different fictional day-trip problem, a constraint and a consistent revised plan. Add a reply checking two details. Retell it orally, then answer an unexpected clarification from the Tutor. Review sequence, times, reason and consequence; this is a formative review, not an A2 award.\n\nRevision: retrieve the three contextual expressions without the model on a later day; correct saved errors and reuse them in a new scenario.\n\nReview task fulfilment, source fidelity, grammar, vocabulary, organisation and interaction/repair separately. Treat spelling extraction as supported practice, not proficiency evidence. Optional AI feedback is advisory. Independent human language/phonetic review and empirical calibration remain pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "A2 review: solve a day-trip disruption",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice",
+        "listen-and-integrate"
+      ]
+    }
+  ],
+  "title": "A2 module completion: A2 review: solve a day-trip disruption",
+  "glossary": [
+    {
+      "lemma": "garder la visite prévue",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to keep the planned visit",
+      "definition_french": "Maintenir la visite malgré le changement de trajet.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "proposer une nouvelle heure",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to suggest a new time",
+      "definition_french": "Demander un horaire de rencontre différent.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "un train supprimé ce matin",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "a train cancelled this morning",
+      "definition_french": "Un départ annoncé qui n’aura pas lieu ce matin.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    }
+  ],
+  "learning_stage": null
+}

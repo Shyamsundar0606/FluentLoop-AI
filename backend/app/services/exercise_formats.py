@@ -57,8 +57,10 @@ class MatchingDefinition(Strict):
         return self
 
 
+MAX_LISTENING_CHARACTERS = 600  # Match the existing private Piper provider limit.
+
 class ListeningDefinition(Strict):
-    text_fr: str = Field(min_length=1,max_length=300)
+    text_fr: str = Field(min_length=1,max_length=MAX_LISTENING_CHARACTERS)
 
 
 def definition(kind,data):

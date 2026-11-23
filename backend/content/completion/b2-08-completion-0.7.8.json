@@ -1,0 +1,225 @@
+{
+  "version": "0.7.8",
+  "level": "B2",
+  "status": "draft",
+  "source_license": "Original AI-assisted module drafts. Qualified independent linguistic, pedagogical, phonetic, answer-key and CEFR reviews pending.",
+  "tasks": [
+    {
+      "key": "read-and-notice",
+      "skill": "grammar",
+      "title": "B2 review: compare an energy-saving proposal and objections: read and notice",
+      "objective": "Keep a conditional forecast distinct from a measured result; attribute reported views explicitly. Selon lui is attribution, not endorsement. A counterargument must address the reasoning rather than its author.",
+      "context": "Dans un immeuble fictif, un groupe propose de réduire légèrement le chauffage des espaces communs et d’utiliser l’économie annoncée pour améliorer l’isolation. Le calcul repose sur une estimation, non sur une mesure réalisée dans cet immeuble. Une résidente soutient l’objectif, mais demande comment seront pris en compte les usages différents du hall et de la salle collective. Un autre habitant conteste l’ordre des travaux : selon lui, isoler d’abord éviterait de faire supporter immédiatement la contrainte aux usagers. Le groupe répond que le financement doit justement être trouvé. Aucun de ces arguments ne suffit à prouver que le projet est bon ou mauvais dans toutes ses dimensions. Il faut distinguer le montant espéré, la répartition des effets et la possibilité de réviser l’essai à partir de mesures locales.",
+      "vocabulary": [
+        "la répartition des effets attendus",
+        "un calcul à vérifier localement",
+        "des critères convenus avant l’essai"
+      ],
+      "exercises": [
+        {
+          "key": "read-meaning",
+          "type": "multiple_choice",
+          "prompt": "What evidence is missing?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "A local measurement supporting the estimate. Source: Dans un immeuble fictif, un groupe propose de réduire légèrement le chauffage des espaces communs et d’utiliser l’économie annoncée pour améliorer l’isolation. Le calcul repose sur une estimation, non sur une mesure réalisée dans cet immeuble. Une résidente soutient l’objectif, mais demande comment seront pris en compte les usages différents du hall et de la salle collective. Un autre habitant conteste l’ordre des travaux : selon lui, isoler d’abord éviterait de faire supporter immédiatement la contrainte aux usagers. Le groupe répond que le financement doit justement être trouvé. Aucun de ces arguments ne suffit à prouver que le projet est bon ou mauvais dans toutes ses dimensions. Il faut distinguer le montant espéré, la répartition des effets et la possibilité de réviser l’essai à partir de mesures locales.",
+          "options": [
+            "Any stated purpose for the money",
+            "Any resident objection",
+            "A local measurement supporting the estimate"
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "grammar-scope",
+          "type": "multiple_choice",
+          "prompt": "Which formulation keeps the evidential limit?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Keep a conditional forecast distinct from a measured result; attribute reported views explicitly. Selon lui is attribution, not endorsement. A counterargument must address the reasoning rather than its author.",
+          "options": [
+            "L’économie est estimée, non encore mesurée ici.",
+            "L’économie est garantie dans tous les cas.",
+            "Les résidents ont tous confirmé le calcul."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "contextual-vocabulary",
+          "type": "matching",
+          "prompt": "Match the contextual expressions with their meanings.",
+          "instructions": "Use each meaning once; these are contextual definitions.",
+          "explanation": "la répartition des effets attendus — the distribution of expected effects; un calcul à vérifier localement — a calculation to verify locally; des critères convenus avant l’essai — criteria agreed before the trial",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "fd8595e7-f8bb-5fe0-972e-7e8d538ccb49",
+                "text": "la répartition des effets attendus"
+              },
+              {
+                "id": "c652ff53-3ad4-5a8c-a208-db55fcb8b3b5",
+                "text": "un calcul à vérifier localement"
+              },
+              {
+                "id": "1cfe28ac-d119-5bc9-a33a-404b455c7610",
+                "text": "des critères convenus avant l’essai"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "7b073cc2-9612-5edd-b064-8aefa71d6f56",
+                "text": "criteria agreed before the trial"
+              },
+              {
+                "id": "1f8d4298-8012-53d6-ab47-2aff2e5c012b",
+                "text": "a calculation to verify locally"
+              },
+              {
+                "id": "663a11b6-be5c-5c00-9942-690ae3e62048",
+                "text": "the distribution of expected effects"
+              }
+            ],
+            "answer_pairs": {
+              "fd8595e7-f8bb-5fe0-972e-7e8d538ccb49": "663a11b6-be5c-5c00-9942-690ae3e62048",
+              "c652ff53-3ad4-5a8c-a208-db55fcb8b3b5": "1f8d4298-8012-53d6-ab47-2aff2e5c012b",
+              "1cfe28ac-d119-5bc9-a33a-404b455c7610": "7b073cc2-9612-5edd-b064-8aefa71d6f56"
+            }
+          }
+        }
+      ],
+      "module_title": "B2 review: compare an energy-saving proposal and objections",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "completion-b2-08",
+          "title": "B2 review: compare an energy-saving proposal and objections",
+          "summary": "Keep a conditional forecast distinct from a measured result; attribute reported views explicitly. Selon lui is attribution, not endorsement. A counterargument must address the reasoning rather than its author.",
+          "rule_code": "completion-b2-08",
+          "explanation_english": "Keep a conditional forecast distinct from a measured result; attribute reported views explicitly. Selon lui is attribution, not endorsement. A counterargument must address the reasoning rather than its author.",
+          "examples": [
+            [
+              "L’économie serait utile, encore faudrait-il vérifier le calcul localement.",
+              "The saving would be useful, but the calculation would still need local verification."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "listen-and-integrate",
+      "skill": "reading",
+      "title": "B2 review: compare an energy-saving proposal and objections: listen and integrate",
+      "objective": "Identify details, stance and limits of commitment in the scripted exchange, then integrate both sources.",
+      "context": "Original scripted exchange for listening and transcript-assisted review. One synthetic voice may perform every role; this does not demonstrate spontaneous multi-speaker comprehension.\n\nRésidente : Je ne refuse pas une économie, mais je veux savoir qui devra changer ses habitudes. Porte-parole : C’est pourquoi nous proposons un essai limité et un relevé des usages. Habitant : Un relevé ne vaut que si nous décidons aussi ce qui nous ferait arrêter ou modifier l’essai. Porte-parole : Convenons de ces critères avant de commencer.",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "listen-position",
+          "type": "listening",
+          "prompt": "What additional requirement is accepted?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Define modification or stop criteria before the trial. Script: Résidente : Je ne refuse pas une économie, mais je veux savoir qui devra changer ses habitudes. Porte-parole : C’est pourquoi nous proposons un essai limité et un relevé des usages. Habitant : Un relevé ne vaut que si nous décidons aussi ce qui nous ferait arrêter ou modifier l’essai. Porte-parole : Convenons de ces critères avant de commencer.",
+          "options": [
+            "Begin without any review rule",
+            "Define modification or stop criteria before the trial",
+            "Treat every habit as identical"
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Résidente : Je ne refuse pas une économie, mais je veux savoir qui devra changer ses habitudes. Porte-parole : C’est pourquoi nous proposons un essai limité et un relevé des usages. Habitant : Un relevé ne vaut que si nous décidons aussi ce qui nous ferait arrêter ou modifier l’essai. Porte-parole : Convenons de ces critères avant de commencer."
+          }
+        },
+        {
+          "key": "integrate-sources",
+          "type": "multiple_choice",
+          "prompt": "Which recommendation integrates the dossier?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Measure locally, examine distribution and agree review criteria. Compare the reading and listening sources.",
+          "options": [
+            "Measure locally, examine distribution and agree review criteria",
+            "Guarantee the estimated saving",
+            "Ignore objections because the goal is desirable"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "locate-phrase",
+          "type": "short_answer",
+          "prompt": "Copy the phrase indicating when the criteria must be agreed.",
+          "instructions": "Transcript available in this lesson: copy the exact requested phrase. This item checks location/spelling, not open-ended interpretation.",
+          "explanation": "Exact source phrase: avant de commencer",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "avant de commencer"
+            ]
+          }
+        }
+      ],
+      "module_title": "B2 review: compare an energy-saving proposal and objections",
+      "estimated_minutes": 25,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice"
+      ]
+    },
+    {
+      "key": "transfer-and-assess",
+      "skill": "writing",
+      "title": "B2 review: compare an energy-saving proposal and objections: transfer and assess",
+      "objective": "Transfer the module language to an unfamiliar situation and review comprehension, writing and interaction separately.",
+      "context": "Write a 300–360-word recommendation on a new fictional collective-resource problem. Integrate evidence limits, a distributional objection and a conditional decision. Give a four-minute oral defence with follow-up challenges. Assess comprehension, attribution, counterargument, coherence and language separately; do not turn this module review into a B2 certificate.\n\nRevision: retrieve the three contextual expressions without the model on a later day; correct saved errors and reuse them in a new scenario.\n\nReview task fulfilment, source fidelity, grammar, vocabulary, organisation and interaction/repair separately. Treat spelling extraction as supported practice, not proficiency evidence. Optional AI feedback is advisory. Independent human language/phonetic review and empirical calibration remain pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "B2 review: compare an energy-saving proposal and objections",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice",
+        "listen-and-integrate"
+      ]
+    }
+  ],
+  "title": "B2 module completion: B2 review: compare an energy-saving proposal and objections",
+  "glossary": [
+    {
+      "lemma": "la répartition des effets attendus",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "the distribution of expected effects",
+      "definition_french": "La manière dont les conséquences prévues toucheraient les personnes.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "un calcul à vérifier localement",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "a calculation to verify locally",
+      "definition_french": "Une estimation qui doit être confrontée à la situation réelle du lieu.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "des critères convenus avant l’essai",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "criteria agreed before the trial",
+      "definition_french": "Des repères d’évaluation définis avant le début du test.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    }
+  ],
+  "learning_stage": null
+}

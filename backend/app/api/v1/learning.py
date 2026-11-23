@@ -28,6 +28,19 @@ from app.api.v1.ai import limited as ai_limited
 router = APIRouter(prefix="/learning", tags=["learning"])
 
 
+@router.get('/path')
+def learning_path(context: AuthContext = Depends(current_auth_context), db: Session = Depends(get_db)):
+    from app.services.learning_path import path_for
+    return path_for(db, context.user)
+
+
+@router.get('/checkpoints')
+def learning_checkpoints(stage: Literal['A0','A1','A2','B1','B2','C1','C2'] | None = None,
+        context: AuthContext = Depends(current_auth_context), db: Session = Depends(get_db)):
+    from app.services.checkpoints import plans
+    return plans(db,context.user,stage)
+
+
 @router.get('/access')
 def learning_access(context: AuthContext = Depends(current_auth_context)):
     from app.services.draft_preview import can_preview_drafts
@@ -102,7 +115,8 @@ def listening_audio(session_id: UUID,exercise_id: UUID,context: AuthContext = De
     if not saved or saved.learning_session_id!=session.id or saved.exercise_snapshot['type']!='listening':
         raise HTTPException(404,'Listening exercise not found.')
     text=saved.exercise_snapshot.get('text_fr','')
-    if not text or len(text)>300:raise HTTPException(409,'Listening prompt unavailable.')
+    from app.services.exercise_formats import MAX_LISTENING_CHARACTERS
+    if not text or len(text)>MAX_LISTENING_CHARACTERS:raise HTTPException(409,'Listening prompt unavailable.')
     try:audio=get_speech_provider().synthesize(text)
     except SpeechUnavailable:raise HTTPException(503,'French audio is temporarily unavailable. Please retry.') from None
     if len(audio)>6_000_000 or not audio.startswith(b'RIFF'):

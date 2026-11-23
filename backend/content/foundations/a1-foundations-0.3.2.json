@@ -1,0 +1,2120 @@
+{
+  "version": "0.3.2",
+  "level": "A1",
+  "status": "draft",
+  "source_license": "Original AI-assisted A1 development drafts; independent linguistic, phonetic, pedagogical, answer-key and licensing reviews pending.",
+  "tasks": [
+    {
+      "key": "tell-the-time",
+      "skill": "vocabulary",
+      "title": "Understand a simple timetable",
+      "objective": "Understand and use the target expression in a short everyday exchange: Le cours commence à neuf heures.",
+      "context": "Read\nLe cours commence à neuf heures. La pause est à dix heures. Je regarde l’horaire et je demande : « À quelle heure est le cours ? »\n\nUnderstand\nAsk À quelle heure… ? for a time. À neuf heures means at nine o’clock. Learn le cours commence as a useful phrase. In this timetable, neuf heures is the start of class and dix heures is the break; keep the two details separate.\n\nModel: Le cours commence à neuf heures.\nMeaning: The class starts at nine o’clock.\n\nGlossary\nà neuf heures — at nine o’clock\nune pause à dix heures — a break at ten o’clock\nl’horaire du cours — the class timetable\n\nSpeak: retell the situation with an invented detail and ask the Tutor one follow-up question. Listen to the reply and request clarification if needed. Review the previous lesson model and your saved mistakes. Feedback is practice evidence, not CEFR certification.",
+      "vocabulary": [
+        "à neuf heures",
+        "une pause à dix heures",
+        "l’horaire du cours"
+      ],
+      "exercises": [
+        {
+          "key": "read-detail",
+          "type": "multiple_choice",
+          "prompt": "When is the break?",
+          "instructions": "Find the answer in the short French passage.",
+          "explanation": "Passage: Le cours commence à neuf heures. La pause est à dix heures. Je regarde l’horaire et je demande : « À quelle heure est le cours ? »",
+          "options": [
+            "At nine",
+            "At ten",
+            "At noon"
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "complete-model",
+          "type": "fill_blank",
+          "prompt": "Le cours commence à ___ heures.",
+          "instructions": "Write the French word for 9, the stated class starting time.",
+          "explanation": "Ask À quelle heure… ? for a time. À neuf heures means at nine o’clock. Learn le cours commence as a useful phrase. In this timetable, neuf heures is the start of class and dix heures is the break; keep the two details separate.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "neuf"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild this exact model: Le cours commence à neuf heures.",
+          "instructions": "Use every tile once in the quoted model order.",
+          "explanation": "Ask À quelle heure… ? for a time. À neuf heures means at nine o’clock. Learn le cours commence as a useful phrase. In this timetable, neuf heures is the start of class and dix heures is the break; keep the two details separate.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "26dda7de-6191-5ded-938b-d9b3199a48eb",
+                "text": "Le"
+              },
+              {
+                "id": "e4f47823-d2ee-5d56-86ff-d17f95efe6b6",
+                "text": "cours"
+              },
+              {
+                "id": "58c2aa15-ce7a-5844-8daa-dccfd9413302",
+                "text": "commence"
+              },
+              {
+                "id": "327f63d9-7c56-58cf-944e-ecdc382a1b07",
+                "text": "à"
+              },
+              {
+                "id": "1d7dc5f7-ebad-5802-aa02-62614bf2ee88",
+                "text": "neuf"
+              },
+              {
+                "id": "359fd0a0-0ee9-5199-b348-5ef2b25bf65a",
+                "text": "heures."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "26dda7de-6191-5ded-938b-d9b3199a48eb",
+                "e4f47823-d2ee-5d56-86ff-d17f95efe6b6",
+                "58c2aa15-ce7a-5844-8daa-dccfd9413302",
+                "327f63d9-7c56-58cf-944e-ecdc382a1b07",
+                "1d7dc5f7-ebad-5802-aa02-62614bf2ee88",
+                "359fd0a0-0ee9-5199-b348-5ef2b25bf65a"
+              ]
+            ],
+            "correct_sentence": "Le cours commence à neuf heures."
+          }
+        },
+        {
+          "key": "match-meaning",
+          "type": "matching",
+          "prompt": "Match the expressions and meanings.",
+          "instructions": "Use each meaning once.",
+          "explanation": "à neuf heures — at nine o’clock; une pause à dix heures — a break at ten o’clock; l’horaire du cours — the class timetable",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "4549c8c8-c838-5db4-9aa9-33074209932e",
+                "text": "à neuf heures"
+              },
+              {
+                "id": "6636fbb0-2bf1-5afc-8d47-81a4b58e4dae",
+                "text": "une pause à dix heures"
+              },
+              {
+                "id": "f058e648-a0ca-5d10-93ed-f7603d6797e2",
+                "text": "l’horaire du cours"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "f8a418b5-5c00-5e6b-a5c5-2d19bc94ad8b",
+                "text": "at nine o’clock"
+              },
+              {
+                "id": "ca648235-ecc7-5414-afd2-5ffcbee1e035",
+                "text": "a break at ten o’clock"
+              },
+              {
+                "id": "a4f6b819-fb12-5242-a972-7fb777aa8086",
+                "text": "the class timetable"
+              }
+            ],
+            "answer_pairs": {
+              "4549c8c8-c838-5db4-9aa9-33074209932e": "f8a418b5-5c00-5e6b-a5c5-2d19bc94ad8b",
+              "6636fbb0-2bf1-5afc-8d47-81a4b58e4dae": "ca648235-ecc7-5414-afd2-5ffcbee1e035",
+              "f058e648-a0ca-5d10-93ed-f7603d6797e2": "a4f6b819-fb12-5242-a972-7fb777aa8086"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering.",
+          "explanation": "Le cours commence à neuf heures. — The class starts at nine o’clock.",
+          "options": [
+            "The class starts at ten o’clock.",
+            "The class starts at nine o’clock.",
+            "The break starts at nine o’clock."
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Le cours commence à neuf heures."
+          }
+        },
+        {
+          "key": "copy-model",
+          "type": "short_answer",
+          "prompt": "Write the quoted French model for: The class starts at nine o’clock.",
+          "instructions": "Exact-model spelling practice: Le cours commence à neuf heures.",
+          "explanation": "Le cours commence à neuf heures.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "Le cours commence à neuf heures."
+            ]
+          }
+        }
+      ],
+      "module_title": "Time and everyday arrangements",
+      "estimated_minutes": 20,
+      "grammar": [],
+      "prerequisites": []
+    },
+    {
+      "key": "days-and-dates",
+      "skill": "reading",
+      "title": "Say a day and a date",
+      "objective": "Understand and use the target expression in a short everyday exchange: Nous sommes le premier mai.",
+      "context": "Read\nNous sommes le premier mai. Dans cette situation imaginaire, c’est lundi. Mardi matin, je rencontre une amie. Je note le jour et la date dans mon agenda.\n\nUnderstand\nFor the first day of a month, use le premier: le premier mai. Other dates generally use a cardinal number: le deux mai. French day and month names normally take a lower-case initial. The weekday in this passage is invented, not a statement about a real calendar year.\n\nModel: Nous sommes le premier mai.\nMeaning: It is the first of May.\n\nGlossary\nle premier mai — the first of May\nmardi matin — Tuesday morning\nnoter la date — to write down the date\n\nSpeak: retell the situation with an invented detail and ask the Tutor one follow-up question. Listen to the reply and request clarification if needed. Review the previous lesson model and your saved mistakes. Feedback is practice evidence, not CEFR certification.",
+      "vocabulary": [
+        "le premier mai",
+        "mardi matin",
+        "noter la date"
+      ],
+      "exercises": [
+        {
+          "key": "read-detail",
+          "type": "multiple_choice",
+          "prompt": "When does the speaker meet a friend?",
+          "instructions": "Find the answer in the short French passage.",
+          "explanation": "Passage: Nous sommes le premier mai. Dans cette situation imaginaire, c’est lundi. Mardi matin, je rencontre une amie. Je note le jour et la date dans mon agenda.",
+          "options": [
+            "Monday evening",
+            "Friday morning",
+            "Tuesday morning"
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "complete-model",
+          "type": "fill_blank",
+          "prompt": "Nous sommes le ___ mai.",
+          "instructions": "Use the ordinal word used for the first day of the month.",
+          "explanation": "For the first day of a month, use le premier: le premier mai. Other dates generally use a cardinal number: le deux mai. French day and month names normally take a lower-case initial. The weekday in this passage is invented, not a statement about a real calendar year.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "premier"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild this exact model: Nous sommes le premier mai.",
+          "instructions": "Use every tile once in the quoted model order.",
+          "explanation": "For the first day of a month, use le premier: le premier mai. Other dates generally use a cardinal number: le deux mai. French day and month names normally take a lower-case initial. The weekday in this passage is invented, not a statement about a real calendar year.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "4c863979-d477-5778-a805-1701fe096768",
+                "text": "Nous"
+              },
+              {
+                "id": "50252fdd-332d-555c-aced-3327daac48b8",
+                "text": "sommes"
+              },
+              {
+                "id": "16daf750-dd24-5310-a44a-926497f2a7b7",
+                "text": "le"
+              },
+              {
+                "id": "9a4d9b5a-9d6d-59b4-8f78-fb83ef7039cc",
+                "text": "premier"
+              },
+              {
+                "id": "b46728a8-911f-56e1-9fe4-56ab00e0d6bf",
+                "text": "mai."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "4c863979-d477-5778-a805-1701fe096768",
+                "50252fdd-332d-555c-aced-3327daac48b8",
+                "16daf750-dd24-5310-a44a-926497f2a7b7",
+                "9a4d9b5a-9d6d-59b4-8f78-fb83ef7039cc",
+                "b46728a8-911f-56e1-9fe4-56ab00e0d6bf"
+              ]
+            ],
+            "correct_sentence": "Nous sommes le premier mai."
+          }
+        },
+        {
+          "key": "match-meaning",
+          "type": "matching",
+          "prompt": "Match the expressions and meanings.",
+          "instructions": "Use each meaning once.",
+          "explanation": "le premier mai — the first of May; mardi matin — Tuesday morning; noter la date — to write down the date",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "37103f99-09b2-568b-8bc3-b504eed9f6f2",
+                "text": "le premier mai"
+              },
+              {
+                "id": "52222907-a2ac-56f7-a8de-601f3914ff92",
+                "text": "mardi matin"
+              },
+              {
+                "id": "d616495d-70f5-575d-be77-9fda6097b185",
+                "text": "noter la date"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "a2180106-050e-5878-9e26-3eddece28704",
+                "text": "the first of May"
+              },
+              {
+                "id": "4e8903c3-b5ac-58b1-9f0c-616a44ecd5da",
+                "text": "Tuesday morning"
+              },
+              {
+                "id": "c46feef4-b10b-54aa-8524-bb7c98b8d365",
+                "text": "to write down the date"
+              }
+            ],
+            "answer_pairs": {
+              "37103f99-09b2-568b-8bc3-b504eed9f6f2": "a2180106-050e-5878-9e26-3eddece28704",
+              "52222907-a2ac-56f7-a8de-601f3914ff92": "4e8903c3-b5ac-58b1-9f0c-616a44ecd5da",
+              "d616495d-70f5-575d-be77-9fda6097b185": "c46feef4-b10b-54aa-8524-bb7c98b8d365"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering.",
+          "explanation": "Nous sommes le premier mai. — It is the first of May.",
+          "options": [
+            "It is the second of May.",
+            "It is the first of June.",
+            "It is the first of May."
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Nous sommes le premier mai."
+          }
+        },
+        {
+          "key": "copy-model",
+          "type": "short_answer",
+          "prompt": "Write the quoted French model for: It is the first of May.",
+          "instructions": "Exact-model spelling practice: Nous sommes le premier mai.",
+          "explanation": "Nous sommes le premier mai.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "Nous sommes le premier mai."
+            ]
+          }
+        }
+      ],
+      "module_title": "Time and everyday arrangements",
+      "estimated_minutes": 20,
+      "grammar": [],
+      "prerequisites": [
+        "tell-the-time"
+      ]
+    },
+    {
+      "key": "describe-clothes",
+      "skill": "grammar",
+      "title": "Agree a familiar colour adjective",
+      "objective": "Understand and use the target expression in a short everyday exchange: La veste est bleue.",
+      "context": "Read\nJe regarde les vêtements. La veste est bleue. Le pantalon est noir. Les chaussures sont rouges. Je choisis la veste pour sortir.\n\nUnderstand\nA colour adjective such as bleu normally agrees with the noun: une veste bleue, un manteau bleu. Rouge already ends in e in both singular genders; add s for des chaussures rouges. This small set is not a rule for every colour word: some colour expressions are invariable.\n\nModel: La veste est bleue.\nMeaning: The jacket is blue.\n\nGlossary\nune veste bleue — a blue jacket\nun pantalon noir — black trousers\ndes chaussures rouges — red shoes\n\nSpeak: retell the situation with an invented detail and ask the Tutor one follow-up question. Listen to the reply and request clarification if needed. Review the previous lesson model and your saved mistakes. Feedback is practice evidence, not CEFR certification.",
+      "vocabulary": [
+        "une veste bleue",
+        "un pantalon noir",
+        "des chaussures rouges"
+      ],
+      "exercises": [
+        {
+          "key": "read-detail",
+          "type": "multiple_choice",
+          "prompt": "Which clothes are red?",
+          "instructions": "Find the answer in the short French passage.",
+          "explanation": "Passage: Je regarde les vêtements. La veste est bleue. Le pantalon est noir. Les chaussures sont rouges. Je choisis la veste pour sortir.",
+          "options": [
+            "The shoes",
+            "The jacket",
+            "The trousers"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "complete-model",
+          "type": "fill_blank",
+          "prompt": "La veste est ___.",
+          "instructions": "Use bleu agreeing with the feminine singular noun veste.",
+          "explanation": "A colour adjective such as bleu normally agrees with the noun: une veste bleue, un manteau bleu. Rouge already ends in e in both singular genders; add s for des chaussures rouges. This small set is not a rule for every colour word: some colour expressions are invariable.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "bleue"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild this exact model: La veste est bleue.",
+          "instructions": "Use every tile once in the quoted model order.",
+          "explanation": "A colour adjective such as bleu normally agrees with the noun: une veste bleue, un manteau bleu. Rouge already ends in e in both singular genders; add s for des chaussures rouges. This small set is not a rule for every colour word: some colour expressions are invariable.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "b22f5037-1b8a-5fda-a0e7-163f79770fa8",
+                "text": "La"
+              },
+              {
+                "id": "0b64872d-8704-54de-bc06-9b4ce567ce95",
+                "text": "veste"
+              },
+              {
+                "id": "e35502c0-94ab-591d-be36-485673610f46",
+                "text": "est"
+              },
+              {
+                "id": "af8108a3-784f-582e-af72-c5158dae2bf3",
+                "text": "bleue."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "b22f5037-1b8a-5fda-a0e7-163f79770fa8",
+                "0b64872d-8704-54de-bc06-9b4ce567ce95",
+                "e35502c0-94ab-591d-be36-485673610f46",
+                "af8108a3-784f-582e-af72-c5158dae2bf3"
+              ]
+            ],
+            "correct_sentence": "La veste est bleue."
+          }
+        },
+        {
+          "key": "match-meaning",
+          "type": "matching",
+          "prompt": "Match the expressions and meanings.",
+          "instructions": "Use each meaning once.",
+          "explanation": "une veste bleue — a blue jacket; un pantalon noir — black trousers; des chaussures rouges — red shoes",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "4f4657fd-4a03-53f7-af02-7402c123f98e",
+                "text": "une veste bleue"
+              },
+              {
+                "id": "b00f7341-e934-5dac-b26c-609cb0fce191",
+                "text": "un pantalon noir"
+              },
+              {
+                "id": "a414227d-6229-58c0-878e-bfde607fbed3",
+                "text": "des chaussures rouges"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "a1f84b9a-aea3-5cb5-902b-8e7383d06e6b",
+                "text": "a blue jacket"
+              },
+              {
+                "id": "2ebef72a-5556-562a-a605-18ce2268585e",
+                "text": "black trousers"
+              },
+              {
+                "id": "831c9d07-9b6a-5417-81c1-0598f5fc4268",
+                "text": "red shoes"
+              }
+            ],
+            "answer_pairs": {
+              "4f4657fd-4a03-53f7-af02-7402c123f98e": "a1f84b9a-aea3-5cb5-902b-8e7383d06e6b",
+              "b00f7341-e934-5dac-b26c-609cb0fce191": "2ebef72a-5556-562a-a605-18ce2268585e",
+              "a414227d-6229-58c0-878e-bfde607fbed3": "831c9d07-9b6a-5417-81c1-0598f5fc4268"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering.",
+          "explanation": "La veste est bleue. — The jacket is blue.",
+          "options": [
+            "The jacket is blue.",
+            "The jacket is black.",
+            "The trousers are blue."
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "La veste est bleue."
+          }
+        },
+        {
+          "key": "copy-model",
+          "type": "short_answer",
+          "prompt": "Write the quoted French model for: The jacket is blue.",
+          "instructions": "Exact-model spelling practice: La veste est bleue.",
+          "explanation": "La veste est bleue.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "La veste est bleue."
+            ]
+          }
+        }
+      ],
+      "module_title": "Describe and build sentences",
+      "estimated_minutes": 20,
+      "grammar": [
+        {
+          "slug": "foundation-describe-clothes",
+          "title": "Agree a familiar colour adjective",
+          "summary": "A colour adjective such as bleu normally agrees with the noun: une veste bleue, un manteau bleu. Rouge already ends in e in both singular genders; add s for des chaussures rouges. This small set is not a rule for every colour word: some colour expressions are invariable.",
+          "rule_code": "foundation-describe-clothes",
+          "explanation_english": "A colour adjective such as bleu normally agrees with the noun: une veste bleue, un manteau bleu. Rouge already ends in e in both singular genders; add s for des chaussures rouges. This small set is not a rule for every colour word: some colour expressions are invariable.",
+          "examples": [
+            [
+              "La veste est bleue.",
+              "The jacket is blue."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "days-and-dates"
+      ]
+    },
+    {
+      "key": "negate-a-quantity",
+      "skill": "grammar",
+      "title": "Say what you do not have",
+      "objective": "Understand and use the target expression in a short everyday exchange: Je n’ai pas de monnaie.",
+      "context": "Read\nÀ la caisse, je cherche des pièces. Je n’ai pas de monnaie. Je demande : « Est-ce que je peux payer par carte ? » La personne répond oui.\n\nUnderstand\nWith avoir, put ne/n’ before the verb and pas after it: je n’ai pas. An indefinite or partitive quantity often becomes de after negation: j’ai de la monnaie → je n’ai pas de monnaie. This is not a rule for every article or verb: je n’aime pas le café keeps le, and ce n’est pas un stylo keeps un.\n\nModel: Je n’ai pas de monnaie.\nMeaning: I do not have any change.\n\nGlossary\nde la monnaie — some change\nchercher des pièces — to look for coins\npayer sans espèces — to pay without cash\n\nSpeak: retell the situation with an invented detail and ask the Tutor one follow-up question. Listen to the reply and request clarification if needed. Review the previous lesson model and your saved mistakes. Feedback is practice evidence, not CEFR certification.",
+      "vocabulary": [
+        "de la monnaie",
+        "chercher des pièces",
+        "payer sans espèces"
+      ],
+      "exercises": [
+        {
+          "key": "read-detail",
+          "type": "multiple_choice",
+          "prompt": "How does the speaker ask to pay?",
+          "instructions": "Find the answer in the short French passage.",
+          "explanation": "Passage: À la caisse, je cherche des pièces. Je n’ai pas de monnaie. Je demande : « Est-ce que je peux payer par carte ? » La personne répond oui.",
+          "options": [
+            "Only with coins",
+            "By card",
+            "With a train ticket"
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "complete-model",
+          "type": "fill_blank",
+          "prompt": "Je n’___ pas de monnaie.",
+          "instructions": "Use avoir in the present, je form, after the existing n’.",
+          "explanation": "With avoir, put ne/n’ before the verb and pas after it: je n’ai pas. An indefinite or partitive quantity often becomes de after negation: j’ai de la monnaie → je n’ai pas de monnaie. This is not a rule for every article or verb: je n’aime pas le café keeps le, and ce n’est pas un stylo keeps un.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "ai"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild this exact model: Je n’ai pas de monnaie.",
+          "instructions": "Use every tile once in the quoted model order.",
+          "explanation": "With avoir, put ne/n’ before the verb and pas after it: je n’ai pas. An indefinite or partitive quantity often becomes de after negation: j’ai de la monnaie → je n’ai pas de monnaie. This is not a rule for every article or verb: je n’aime pas le café keeps le, and ce n’est pas un stylo keeps un.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "fa3f3d7d-c1af-538a-8a14-021c2e9871d6",
+                "text": "Je"
+              },
+              {
+                "id": "7fb4d3aa-82fd-5525-8e93-28d9fb3e23b6",
+                "text": "n’ai"
+              },
+              {
+                "id": "b2879669-8965-5f0f-aabe-04ac49cbf92e",
+                "text": "pas"
+              },
+              {
+                "id": "8e71980a-bdfa-5afd-b0c5-5762a3dd971d",
+                "text": "de"
+              },
+              {
+                "id": "7ce52d53-e149-5a32-acc0-3c4fb346699c",
+                "text": "monnaie."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "fa3f3d7d-c1af-538a-8a14-021c2e9871d6",
+                "7fb4d3aa-82fd-5525-8e93-28d9fb3e23b6",
+                "b2879669-8965-5f0f-aabe-04ac49cbf92e",
+                "8e71980a-bdfa-5afd-b0c5-5762a3dd971d",
+                "7ce52d53-e149-5a32-acc0-3c4fb346699c"
+              ]
+            ],
+            "correct_sentence": "Je n’ai pas de monnaie."
+          }
+        },
+        {
+          "key": "match-meaning",
+          "type": "matching",
+          "prompt": "Match the expressions and meanings.",
+          "instructions": "Use each meaning once.",
+          "explanation": "de la monnaie — some change; chercher des pièces — to look for coins; payer sans espèces — to pay without cash",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "58a90035-803a-574b-a0d2-db5d7c44fef8",
+                "text": "de la monnaie"
+              },
+              {
+                "id": "c969b66b-4f98-5163-bb70-945c692633a6",
+                "text": "chercher des pièces"
+              },
+              {
+                "id": "5b8f704a-9646-58c9-89f0-5270b1ad015d",
+                "text": "payer sans espèces"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "38e1891d-9ad0-5769-b092-e47c87184e13",
+                "text": "some change"
+              },
+              {
+                "id": "039a9883-9e1b-5680-9899-0697f2b3a64a",
+                "text": "to look for coins"
+              },
+              {
+                "id": "9be7a6f5-ffab-5580-8f04-cfb30b6c7913",
+                "text": "to pay without cash"
+              }
+            ],
+            "answer_pairs": {
+              "58a90035-803a-574b-a0d2-db5d7c44fef8": "38e1891d-9ad0-5769-b092-e47c87184e13",
+              "c969b66b-4f98-5163-bb70-945c692633a6": "039a9883-9e1b-5680-9899-0697f2b3a64a",
+              "5b8f704a-9646-58c9-89f0-5270b1ad015d": "9be7a6f5-ffab-5580-8f04-cfb30b6c7913"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering.",
+          "explanation": "Je n’ai pas de monnaie. — I do not have any change.",
+          "options": [
+            "I have some change.",
+            "I do not have any change.",
+            "I do not have a card."
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Je n’ai pas de monnaie."
+          }
+        },
+        {
+          "key": "copy-model",
+          "type": "short_answer",
+          "prompt": "Write the quoted French model for: I do not have any change.",
+          "instructions": "Exact-model spelling practice: Je n’ai pas de monnaie.",
+          "explanation": "Je n’ai pas de monnaie.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "Je n’ai pas de monnaie."
+            ]
+          }
+        }
+      ],
+      "module_title": "Describe and build sentences",
+      "estimated_minutes": 20,
+      "grammar": [
+        {
+          "slug": "foundation-negate-a-quantity",
+          "title": "Say what you do not have",
+          "summary": "With avoir, put ne/n’ before the verb and pas after it: je n’ai pas. An indefinite or partitive quantity often becomes de after negation: j’ai de la monnaie → je n’ai pas de monnaie. This is not a rule for every article or verb: je n’aime pas le café keeps le, and ce n’est pas un stylo keeps un.",
+          "rule_code": "foundation-negate-a-quantity",
+          "explanation_english": "With avoir, put ne/n’ before the verb and pas after it: je n’ai pas. An indefinite or partitive quantity often becomes de after negation: j’ai de la monnaie → je n’ai pas de monnaie. This is not a rule for every article or verb: je n’aime pas le café keeps le, and ce n’est pas un stylo keeps un.",
+          "examples": [
+            [
+              "Je n’ai pas de monnaie.",
+              "I do not have any change."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "describe-clothes"
+      ]
+    },
+    {
+      "key": "locate-a-place",
+      "skill": "grammar",
+      "title": "Locate an everyday place",
+      "objective": "Understand and use the target expression in a short everyday exchange: La pharmacie est près de la gare.",
+      "context": "Read\nJe cherche une pharmacie. La pharmacie est près de la gare. La boulangerie est en face du parc. Je regarde le plan avant de partir.\n\nUnderstand\nOù est… ? asks where something is. Près de means near. With de + le, use du: près du parc. With a feminine article, de la remains two words: près de la gare. A location is not a direction: près de says where a place is, not which way to turn.\n\nModel: La pharmacie est près de la gare.\nMeaning: The pharmacy is near the station.\n\nGlossary\nprès de la gare — near the station\nen face du parc — opposite the park\nregarder le plan — to look at the map\n\nSpeak: retell the situation with an invented detail and ask the Tutor one follow-up question. Listen to the reply and request clarification if needed. Review the previous lesson model and your saved mistakes. Feedback is practice evidence, not CEFR certification.",
+      "vocabulary": [
+        "près de la gare",
+        "en face du parc",
+        "regarder le plan"
+      ],
+      "exercises": [
+        {
+          "key": "read-detail",
+          "type": "multiple_choice",
+          "prompt": "What is opposite the park?",
+          "instructions": "Find the answer in the short French passage.",
+          "explanation": "Passage: Je cherche une pharmacie. La pharmacie est près de la gare. La boulangerie est en face du parc. Je regarde le plan avant de partir.",
+          "options": [
+            "The pharmacy",
+            "The station",
+            "The bakery"
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "complete-model",
+          "type": "fill_blank",
+          "prompt": "La pharmacie est près ___ la gare.",
+          "instructions": "Complete the location expression près de.",
+          "explanation": "Où est… ? asks where something is. Près de means near. With de + le, use du: près du parc. With a feminine article, de la remains two words: près de la gare. A location is not a direction: près de says where a place is, not which way to turn.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "de"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild this exact model: La pharmacie est près de la gare.",
+          "instructions": "Use every tile once in the quoted model order.",
+          "explanation": "Où est… ? asks where something is. Près de means near. With de + le, use du: près du parc. With a feminine article, de la remains two words: près de la gare. A location is not a direction: près de says where a place is, not which way to turn.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "cc8e45b8-0902-54da-ba78-08c8142986f4",
+                "text": "La"
+              },
+              {
+                "id": "c3dd9fa8-6ec4-544b-99cd-c7c53894a4a9",
+                "text": "pharmacie"
+              },
+              {
+                "id": "57ed8ad4-1747-563a-83c3-4ec799f633b9",
+                "text": "est"
+              },
+              {
+                "id": "ba5cf9c1-fb90-5fae-86d8-389679b905f9",
+                "text": "près"
+              },
+              {
+                "id": "55cfbca2-2cfb-5433-97a5-a8a2dcf9ca52",
+                "text": "de"
+              },
+              {
+                "id": "8387837f-f8d5-5299-8260-7562047f6c25",
+                "text": "la"
+              },
+              {
+                "id": "d2911cb2-8e2e-5e86-b242-7a2d61990c42",
+                "text": "gare."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "cc8e45b8-0902-54da-ba78-08c8142986f4",
+                "c3dd9fa8-6ec4-544b-99cd-c7c53894a4a9",
+                "57ed8ad4-1747-563a-83c3-4ec799f633b9",
+                "ba5cf9c1-fb90-5fae-86d8-389679b905f9",
+                "55cfbca2-2cfb-5433-97a5-a8a2dcf9ca52",
+                "8387837f-f8d5-5299-8260-7562047f6c25",
+                "d2911cb2-8e2e-5e86-b242-7a2d61990c42"
+              ]
+            ],
+            "correct_sentence": "La pharmacie est près de la gare."
+          }
+        },
+        {
+          "key": "match-meaning",
+          "type": "matching",
+          "prompt": "Match the expressions and meanings.",
+          "instructions": "Use each meaning once.",
+          "explanation": "près de la gare — near the station; en face du parc — opposite the park; regarder le plan — to look at the map",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "04ce665f-ce04-5a25-9fca-8da661e380d0",
+                "text": "près de la gare"
+              },
+              {
+                "id": "9e1778aa-9238-5d4b-bbbe-fb7ce7bc4173",
+                "text": "en face du parc"
+              },
+              {
+                "id": "d044b045-f379-56e8-8472-ed997317fbdc",
+                "text": "regarder le plan"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "b4470440-1b55-5f30-957a-3f1beb45c9dc",
+                "text": "near the station"
+              },
+              {
+                "id": "f464f54c-48c4-571a-b447-370b4649cd68",
+                "text": "opposite the park"
+              },
+              {
+                "id": "38bc603a-d08f-5114-aeb4-204d5d753ddc",
+                "text": "to look at the map"
+              }
+            ],
+            "answer_pairs": {
+              "04ce665f-ce04-5a25-9fca-8da661e380d0": "b4470440-1b55-5f30-957a-3f1beb45c9dc",
+              "9e1778aa-9238-5d4b-bbbe-fb7ce7bc4173": "f464f54c-48c4-571a-b447-370b4649cd68",
+              "d044b045-f379-56e8-8472-ed997317fbdc": "38bc603a-d08f-5114-aeb4-204d5d753ddc"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering.",
+          "explanation": "La pharmacie est près de la gare. — The pharmacy is near the station.",
+          "options": [
+            "The pharmacy is far from the station.",
+            "The bakery is near the station.",
+            "The pharmacy is near the station."
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "La pharmacie est près de la gare."
+          }
+        },
+        {
+          "key": "copy-model",
+          "type": "short_answer",
+          "prompt": "Write the quoted French model for: The pharmacy is near the station.",
+          "instructions": "Exact-model spelling practice: La pharmacie est près de la gare.",
+          "explanation": "La pharmacie est près de la gare.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "La pharmacie est près de la gare."
+            ]
+          }
+        }
+      ],
+      "module_title": "Questions and local travel",
+      "estimated_minutes": 20,
+      "grammar": [
+        {
+          "slug": "foundation-locate-a-place",
+          "title": "Locate an everyday place",
+          "summary": "Où est… ? asks where something is. Près de means near. With de + le, use du: près du parc. With a feminine article, de la remains two words: près de la gare. A location is not a direction: près de says where a place is, not which way to turn.",
+          "rule_code": "foundation-locate-a-place",
+          "explanation_english": "Où est… ? asks where something is. Près de means near. With de + le, use du: près du parc. With a feminine article, de la remains two words: près de la gare. A location is not a direction: près de says where a place is, not which way to turn.",
+          "examples": [
+            [
+              "La pharmacie est près de la gare.",
+              "The pharmacy is near the station."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "negate-a-quantity"
+      ]
+    },
+    {
+      "key": "ask-a-price",
+      "skill": "reading",
+      "title": "Ask and check a price",
+      "objective": "Understand and use the target expression in a short everyday exchange: Ce billet coûte quatre euros.",
+      "context": "Read\nAu guichet, je demande le prix. Ce billet coûte quatre euros. Je prépare cinq euros et je vérifie la monnaie. Je garde mon billet.\n\nUnderstand\nCombien coûte… ? asks the price of one item. Compare combien coûtent ces billets ? for plural tickets. In quatre euros, euros is plural. The prices in this passage are invented language-practice details, not actual fares.\n\nModel: Ce billet coûte quatre euros.\nMeaning: This ticket costs four euros.\n\nGlossary\nun billet à quatre euros — a four-euro ticket\npayer en espèces — to pay in cash\nvérifier la monnaie — to check the change\n\nSpeak: retell the situation with an invented detail and ask the Tutor one follow-up question. Listen to the reply and request clarification if needed. Review the previous lesson model and your saved mistakes. Feedback is practice evidence, not CEFR certification.",
+      "vocabulary": [
+        "un billet à quatre euros",
+        "payer en espèces",
+        "vérifier la monnaie"
+      ],
+      "exercises": [
+        {
+          "key": "read-detail",
+          "type": "multiple_choice",
+          "prompt": "How much does the ticket cost?",
+          "instructions": "Find the answer in the short French passage.",
+          "explanation": "Passage: Au guichet, je demande le prix. Ce billet coûte quatre euros. Je prépare cinq euros et je vérifie la monnaie. Je garde mon billet.",
+          "options": [
+            "Four euros",
+            "Five euros",
+            "Nine euros"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "complete-model",
+          "type": "fill_blank",
+          "prompt": "Ce billet coûte ___ euros.",
+          "instructions": "Write the French word for the stated price, 4.",
+          "explanation": "Combien coûte… ? asks the price of one item. Compare combien coûtent ces billets ? for plural tickets. In quatre euros, euros is plural. The prices in this passage are invented language-practice details, not actual fares.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "quatre"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild this exact model: Ce billet coûte quatre euros.",
+          "instructions": "Use every tile once in the quoted model order.",
+          "explanation": "Combien coûte… ? asks the price of one item. Compare combien coûtent ces billets ? for plural tickets. In quatre euros, euros is plural. The prices in this passage are invented language-practice details, not actual fares.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "894077d6-ff07-50e7-9823-7e96b4556713",
+                "text": "Ce"
+              },
+              {
+                "id": "e19235f7-efda-55c1-9b12-519b56a68c6e",
+                "text": "billet"
+              },
+              {
+                "id": "74c5ed8d-31c7-5043-80da-27948bb64052",
+                "text": "coûte"
+              },
+              {
+                "id": "8b2c06cd-369f-5003-b0ea-16b54984a3ba",
+                "text": "quatre"
+              },
+              {
+                "id": "b14ba557-e86a-59c8-a590-685ff31e492f",
+                "text": "euros."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "894077d6-ff07-50e7-9823-7e96b4556713",
+                "e19235f7-efda-55c1-9b12-519b56a68c6e",
+                "74c5ed8d-31c7-5043-80da-27948bb64052",
+                "8b2c06cd-369f-5003-b0ea-16b54984a3ba",
+                "b14ba557-e86a-59c8-a590-685ff31e492f"
+              ]
+            ],
+            "correct_sentence": "Ce billet coûte quatre euros."
+          }
+        },
+        {
+          "key": "match-meaning",
+          "type": "matching",
+          "prompt": "Match the expressions and meanings.",
+          "instructions": "Use each meaning once.",
+          "explanation": "un billet à quatre euros — a four-euro ticket; payer en espèces — to pay in cash; vérifier la monnaie — to check the change",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "f56e166a-1e5a-5908-8173-3fb7502b1150",
+                "text": "un billet à quatre euros"
+              },
+              {
+                "id": "6a2a14b0-dbff-57b3-9663-539cb0f3e333",
+                "text": "payer en espèces"
+              },
+              {
+                "id": "ec512ce1-59d5-5267-b5e1-7e026636cd53",
+                "text": "vérifier la monnaie"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "72002d8d-7c8d-5293-a1e5-0c5d5b74b3d0",
+                "text": "a four-euro ticket"
+              },
+              {
+                "id": "9c9ee8ea-d06b-5e53-86fb-095228841574",
+                "text": "to pay in cash"
+              },
+              {
+                "id": "eeb60ace-fa3e-51c3-8506-00f5acfe3d06",
+                "text": "to check the change"
+              }
+            ],
+            "answer_pairs": {
+              "f56e166a-1e5a-5908-8173-3fb7502b1150": "72002d8d-7c8d-5293-a1e5-0c5d5b74b3d0",
+              "6a2a14b0-dbff-57b3-9663-539cb0f3e333": "9c9ee8ea-d06b-5e53-86fb-095228841574",
+              "ec512ce1-59d5-5267-b5e1-7e026636cd53": "eeb60ace-fa3e-51c3-8506-00f5acfe3d06"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering.",
+          "explanation": "Ce billet coûte quatre euros. — This ticket costs four euros.",
+          "options": [
+            "This ticket costs four euros.",
+            "This ticket costs five euros.",
+            "These tickets cost four euros each."
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Ce billet coûte quatre euros."
+          }
+        },
+        {
+          "key": "copy-model",
+          "type": "short_answer",
+          "prompt": "Write the quoted French model for: This ticket costs four euros.",
+          "instructions": "Exact-model spelling practice: Ce billet coûte quatre euros.",
+          "explanation": "Ce billet coûte quatre euros.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "Ce billet coûte quatre euros."
+            ]
+          }
+        }
+      ],
+      "module_title": "Questions and local travel",
+      "estimated_minutes": 20,
+      "grammar": [],
+      "prerequisites": [
+        "locate-a-place"
+      ]
+    },
+    {
+      "key": "a-morning-routine",
+      "skill": "grammar",
+      "title": "Describe a morning with a familiar verb",
+      "objective": "Understand and use the target expression in a short everyday exchange: Je me lève à sept heures.",
+      "context": "Read\nLe matin, je me lève à sept heures. Je prends le petit déjeuner. À huit heures, je pars pour l’université. Le soir, je me couche tôt.\n\nUnderstand\nLearn je me lève as a complete present-tense expression meaning I get up. Me belongs to this pronominal verb with je; do not omit it. Compare je pars, where no me is needed. The verb lever changes its written vowel in je me lève. Start with this form before learning the whole pattern.\n\nModel: Je me lève à sept heures.\nMeaning: I get up at seven o’clock.\n\nGlossary\nse lever tôt — to get up early\nprendre le petit déjeuner — to have breakfast\nse coucher tard — to go to bed late\n\nSpeak: retell the situation with an invented detail and ask the Tutor one follow-up question. Listen to the reply and request clarification if needed. Review the previous lesson model and your saved mistakes. Feedback is practice evidence, not CEFR certification.",
+      "vocabulary": [
+        "se lever tôt",
+        "prendre le petit déjeuner",
+        "se coucher tard"
+      ],
+      "exercises": [
+        {
+          "key": "read-detail",
+          "type": "multiple_choice",
+          "prompt": "When does the speaker leave for university?",
+          "instructions": "Find the answer in the short French passage.",
+          "explanation": "Passage: Le matin, je me lève à sept heures. Je prends le petit déjeuner. À huit heures, je pars pour l’université. Le soir, je me couche tôt.",
+          "options": [
+            "At seven",
+            "At eight",
+            "In the evening"
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "complete-model",
+          "type": "fill_blank",
+          "prompt": "Je ___ lève à sept heures.",
+          "instructions": "Use the pronoun belonging to se lever with je.",
+          "explanation": "Learn je me lève as a complete present-tense expression meaning I get up. Me belongs to this pronominal verb with je; do not omit it. Compare je pars, where no me is needed. The verb lever changes its written vowel in je me lève. Start with this form before learning the whole pattern.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "me"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild this exact model: Je me lève à sept heures.",
+          "instructions": "Use every tile once in the quoted model order.",
+          "explanation": "Learn je me lève as a complete present-tense expression meaning I get up. Me belongs to this pronominal verb with je; do not omit it. Compare je pars, where no me is needed. The verb lever changes its written vowel in je me lève. Start with this form before learning the whole pattern.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "174ef061-5f39-58d8-b7bf-e58f8b5b6638",
+                "text": "Je"
+              },
+              {
+                "id": "e9d1b521-4acf-53e2-a316-d5daebee282d",
+                "text": "me"
+              },
+              {
+                "id": "b4d922e4-8802-5901-84ab-c2dc04411b07",
+                "text": "lève"
+              },
+              {
+                "id": "477bee0a-c28e-52f4-9b99-362d2eb9ee17",
+                "text": "à"
+              },
+              {
+                "id": "4fa8574c-4265-565b-be1f-842587d1c956",
+                "text": "sept"
+              },
+              {
+                "id": "4222f6c6-ad51-5360-bb0c-25e89e4a1497",
+                "text": "heures."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "174ef061-5f39-58d8-b7bf-e58f8b5b6638",
+                "e9d1b521-4acf-53e2-a316-d5daebee282d",
+                "b4d922e4-8802-5901-84ab-c2dc04411b07",
+                "477bee0a-c28e-52f4-9b99-362d2eb9ee17",
+                "4fa8574c-4265-565b-be1f-842587d1c956",
+                "4222f6c6-ad51-5360-bb0c-25e89e4a1497"
+              ]
+            ],
+            "correct_sentence": "Je me lève à sept heures."
+          }
+        },
+        {
+          "key": "match-meaning",
+          "type": "matching",
+          "prompt": "Match the expressions and meanings.",
+          "instructions": "Use each meaning once.",
+          "explanation": "se lever tôt — to get up early; prendre le petit déjeuner — to have breakfast; se coucher tard — to go to bed late",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "4067f57c-0516-57d0-a06e-85b5a287c199",
+                "text": "se lever tôt"
+              },
+              {
+                "id": "2ef784da-ede5-531a-94b4-e012f18e75fc",
+                "text": "prendre le petit déjeuner"
+              },
+              {
+                "id": "b4ccebb8-8083-584b-b682-61419dee05ef",
+                "text": "se coucher tard"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "204d8c53-60b0-509e-8508-b7d295db9e2c",
+                "text": "to get up early"
+              },
+              {
+                "id": "050580b5-4a01-5ea1-9ab0-e7d1f07cf711",
+                "text": "to have breakfast"
+              },
+              {
+                "id": "605bec2c-352d-5554-9494-9a8366d7592d",
+                "text": "to go to bed late"
+              }
+            ],
+            "answer_pairs": {
+              "4067f57c-0516-57d0-a06e-85b5a287c199": "204d8c53-60b0-509e-8508-b7d295db9e2c",
+              "2ef784da-ede5-531a-94b4-e012f18e75fc": "050580b5-4a01-5ea1-9ab0-e7d1f07cf711",
+              "b4ccebb8-8083-584b-b682-61419dee05ef": "605bec2c-352d-5554-9494-9a8366d7592d"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering.",
+          "explanation": "Je me lève à sept heures. — I get up at seven o’clock.",
+          "options": [
+            "I go to bed at seven o’clock.",
+            "I get up at seven o’clock.",
+            "I get up at eight o’clock."
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Je me lève à sept heures."
+          }
+        },
+        {
+          "key": "copy-model",
+          "type": "short_answer",
+          "prompt": "Write the quoted French model for: I get up at seven o’clock.",
+          "instructions": "Exact-model spelling practice: Je me lève à sept heures.",
+          "explanation": "Je me lève à sept heures.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "Je me lève à sept heures."
+            ]
+          }
+        }
+      ],
+      "module_title": "Routines and everyday services",
+      "estimated_minutes": 20,
+      "grammar": [
+        {
+          "slug": "foundation-a-morning-routine",
+          "title": "Describe a morning with a familiar verb",
+          "summary": "Learn je me lève as a complete present-tense expression meaning I get up. Me belongs to this pronominal verb with je; do not omit it. Compare je pars, where no me is needed. The verb lever changes its written vowel in je me lève. Start with this form before learning the whole pattern.",
+          "rule_code": "foundation-a-morning-routine",
+          "explanation_english": "Learn je me lève as a complete present-tense expression meaning I get up. Me belongs to this pronominal verb with je; do not omit it. Compare je pars, where no me is needed. The verb lever changes its written vowel in je me lève. Start with this form before learning the whole pattern.",
+          "examples": [
+            [
+              "Je me lève à sept heures.",
+              "I get up at seven o’clock."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "ask-a-price"
+      ]
+    },
+    {
+      "key": "an-appointment-request",
+      "skill": "reading",
+      "title": "Request a routine healthcare appointment",
+      "objective": "Understand and use the target expression in a short everyday exchange: Je voudrais un rendez-vous demain.",
+      "context": "Read\nBonjour. Je voudrais un rendez-vous demain. — Demain, c’est complet. Mardi matin est possible. — D’accord. Pouvez-vous confirmer l’adresse du cabinet ?\n\nUnderstand\nUse a memorised polite request: je voudrais un rendez-vous. Demain means tomorrow; mardi matin names Tuesday morning. Ask for confirmation if a detail is unclear. This is a fictional routine booking exchange, not medical advice or an emergency procedure.\n\nModel: Je voudrais un rendez-vous demain.\nMeaning: I would like an appointment tomorrow.\n\nGlossary\nun rendez-vous demain — an appointment tomorrow\nun cabinet médical — a medical practice\nconfirmer l’adresse — to confirm the address\n\nSpeak: retell the situation with an invented detail and ask the Tutor one follow-up question. Listen to the reply and request clarification if needed. Review the previous lesson model and your saved mistakes. Feedback is practice evidence, not CEFR certification.",
+      "vocabulary": [
+        "un rendez-vous demain",
+        "un cabinet médical",
+        "confirmer l’adresse"
+      ],
+      "exercises": [
+        {
+          "key": "read-detail",
+          "type": "multiple_choice",
+          "prompt": "What alternative time is offered?",
+          "instructions": "Find the answer in the short French passage.",
+          "explanation": "Passage: Bonjour. Je voudrais un rendez-vous demain. — Demain, c’est complet. Mardi matin est possible. — D’accord. Pouvez-vous confirmer l’adresse du cabinet ?",
+          "options": [
+            "Tomorrow evening",
+            "Monday night",
+            "Tuesday morning"
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "complete-model",
+          "type": "fill_blank",
+          "prompt": "Je ___ un rendez-vous demain.",
+          "instructions": "Use the memorised polite form je voudrais, rather than a different request verb.",
+          "explanation": "Use a memorised polite request: je voudrais un rendez-vous. Demain means tomorrow; mardi matin names Tuesday morning. Ask for confirmation if a detail is unclear. This is a fictional routine booking exchange, not medical advice or an emergency procedure.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "voudrais"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild this exact model: Je voudrais un rendez-vous demain.",
+          "instructions": "Use every tile once in the quoted model order.",
+          "explanation": "Use a memorised polite request: je voudrais un rendez-vous. Demain means tomorrow; mardi matin names Tuesday morning. Ask for confirmation if a detail is unclear. This is a fictional routine booking exchange, not medical advice or an emergency procedure.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "531fd17f-229d-54bb-95bd-61de70dd0a53",
+                "text": "Je"
+              },
+              {
+                "id": "20df36ab-fc2b-5e76-aac7-bdc3fd29e2c4",
+                "text": "voudrais"
+              },
+              {
+                "id": "19c1c500-8994-5093-9ebb-bfd8fa9477fd",
+                "text": "un"
+              },
+              {
+                "id": "3552b507-f8d7-525c-aa7a-89ea56400205",
+                "text": "rendez-vous"
+              },
+              {
+                "id": "5206ad3f-fe86-539c-b418-7ba228a5eac4",
+                "text": "demain."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "531fd17f-229d-54bb-95bd-61de70dd0a53",
+                "20df36ab-fc2b-5e76-aac7-bdc3fd29e2c4",
+                "19c1c500-8994-5093-9ebb-bfd8fa9477fd",
+                "3552b507-f8d7-525c-aa7a-89ea56400205",
+                "5206ad3f-fe86-539c-b418-7ba228a5eac4"
+              ]
+            ],
+            "correct_sentence": "Je voudrais un rendez-vous demain."
+          }
+        },
+        {
+          "key": "match-meaning",
+          "type": "matching",
+          "prompt": "Match the expressions and meanings.",
+          "instructions": "Use each meaning once.",
+          "explanation": "un rendez-vous demain — an appointment tomorrow; un cabinet médical — a medical practice; confirmer l’adresse — to confirm the address",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "69ca1266-811e-5b08-b6a3-521968488818",
+                "text": "un rendez-vous demain"
+              },
+              {
+                "id": "dcabc085-82a0-5ca3-bdc4-342235c1f92e",
+                "text": "un cabinet médical"
+              },
+              {
+                "id": "fd152933-f0a5-5885-822d-25bced6bba6f",
+                "text": "confirmer l’adresse"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "44ceff7a-c677-5607-a9bd-c4506333ce56",
+                "text": "an appointment tomorrow"
+              },
+              {
+                "id": "1d178694-edaa-572f-b0ac-909d1c6a6007",
+                "text": "a medical practice"
+              },
+              {
+                "id": "cd148d18-8d5b-5bd2-95f8-e14c9aba21e1",
+                "text": "to confirm the address"
+              }
+            ],
+            "answer_pairs": {
+              "69ca1266-811e-5b08-b6a3-521968488818": "44ceff7a-c677-5607-a9bd-c4506333ce56",
+              "dcabc085-82a0-5ca3-bdc4-342235c1f92e": "1d178694-edaa-572f-b0ac-909d1c6a6007",
+              "fd152933-f0a5-5885-822d-25bced6bba6f": "cd148d18-8d5b-5bd2-95f8-e14c9aba21e1"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering.",
+          "explanation": "Je voudrais un rendez-vous demain. — I would like an appointment tomorrow.",
+          "options": [
+            "I would like an appointment today.",
+            "I would like to cancel tomorrow’s appointment.",
+            "I would like an appointment tomorrow."
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Je voudrais un rendez-vous demain."
+          }
+        },
+        {
+          "key": "copy-model",
+          "type": "short_answer",
+          "prompt": "Write the quoted French model for: I would like an appointment tomorrow.",
+          "instructions": "Exact-model spelling practice: Je voudrais un rendez-vous demain.",
+          "explanation": "Je voudrais un rendez-vous demain.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "Je voudrais un rendez-vous demain."
+            ]
+          }
+        }
+      ],
+      "module_title": "Routines and everyday services",
+      "estimated_minutes": 20,
+      "grammar": [],
+      "prerequisites": [
+        "a-morning-routine"
+      ]
+    },
+    {
+      "key": "go-to-a-place",
+      "skill": "grammar",
+      "title": "Use au, à la and aux with a destination",
+      "objective": "Understand and use the target expression in a short everyday exchange: Je vais au marché.",
+      "context": "Read\nAujourd’hui, je vais au marché. Après, je vais à la bibliothèque. Un ami demande où sont les toilettes. Je montre le panneau.\n\nUnderstand\nWith a destination and a definite article: à + le becomes au, à + les becomes aux, while à la stays separate. Compare au marché, à la bibliothèque, aux toilettes. These are not rules for every country/place expression; learn the current examples before adding other patterns.\n\nModel: Je vais au marché.\nMeaning: I am going to the market.\n\nGlossary\nau marché — to the market\nà la bibliothèque — to the library\naux toilettes — to the toilets\n\nSpeak: retell the situation with an invented detail and ask the Tutor one follow-up question. Listen to the reply and request clarification if needed. Review the previous lesson model and your saved mistakes. Feedback is practice evidence, not CEFR certification.",
+      "vocabulary": [
+        "au marché",
+        "à la bibliothèque",
+        "aux toilettes"
+      ],
+      "exercises": [
+        {
+          "key": "read-detail",
+          "type": "multiple_choice",
+          "prompt": "Where does the speaker go after the market?",
+          "instructions": "Find the answer in the short French passage.",
+          "explanation": "Passage: Aujourd’hui, je vais au marché. Après, je vais à la bibliothèque. Un ami demande où sont les toilettes. Je montre le panneau.",
+          "options": [
+            "To the library",
+            "To the station",
+            "To a restaurant"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "complete-model",
+          "type": "fill_blank",
+          "prompt": "Je vais ___ marché.",
+          "instructions": "Combine à + le before the masculine singular noun marché.",
+          "explanation": "With a destination and a definite article: à + le becomes au, à + les becomes aux, while à la stays separate. Compare au marché, à la bibliothèque, aux toilettes. These are not rules for every country/place expression; learn the current examples before adding other patterns.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "au"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild this exact model: Je vais au marché.",
+          "instructions": "Use every tile once in the quoted model order.",
+          "explanation": "With a destination and a definite article: à + le becomes au, à + les becomes aux, while à la stays separate. Compare au marché, à la bibliothèque, aux toilettes. These are not rules for every country/place expression; learn the current examples before adding other patterns.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "4f7d19ab-8625-5197-b41e-5e3b3f69b8a0",
+                "text": "Je"
+              },
+              {
+                "id": "a221927a-b3a9-5b2a-8342-eb393c88f98f",
+                "text": "vais"
+              },
+              {
+                "id": "e00051c6-813a-5811-873c-80626a0292a4",
+                "text": "au"
+              },
+              {
+                "id": "4c9705bd-0934-5210-a370-b25c02862c6b",
+                "text": "marché."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "4f7d19ab-8625-5197-b41e-5e3b3f69b8a0",
+                "a221927a-b3a9-5b2a-8342-eb393c88f98f",
+                "e00051c6-813a-5811-873c-80626a0292a4",
+                "4c9705bd-0934-5210-a370-b25c02862c6b"
+              ]
+            ],
+            "correct_sentence": "Je vais au marché."
+          }
+        },
+        {
+          "key": "match-meaning",
+          "type": "matching",
+          "prompt": "Match the expressions and meanings.",
+          "instructions": "Use each meaning once.",
+          "explanation": "au marché — to the market; à la bibliothèque — to the library; aux toilettes — to the toilets",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "db7822ae-6140-5bcb-bd0b-08f959bdbf1c",
+                "text": "au marché"
+              },
+              {
+                "id": "faf85a79-a399-5a2b-af61-9d247f221495",
+                "text": "à la bibliothèque"
+              },
+              {
+                "id": "52dfc368-b276-522e-a900-bb4de6b29684",
+                "text": "aux toilettes"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "4a8927b5-3292-5486-95e9-2a8a89363b20",
+                "text": "to the market"
+              },
+              {
+                "id": "eea7985c-8a7a-594b-a63b-5de8b99ffcb8",
+                "text": "to the library"
+              },
+              {
+                "id": "8abf6bb0-fb37-59cf-a154-b743ce975d64",
+                "text": "to the toilets"
+              }
+            ],
+            "answer_pairs": {
+              "db7822ae-6140-5bcb-bd0b-08f959bdbf1c": "4a8927b5-3292-5486-95e9-2a8a89363b20",
+              "faf85a79-a399-5a2b-af61-9d247f221495": "eea7985c-8a7a-594b-a63b-5de8b99ffcb8",
+              "52dfc368-b276-522e-a900-bb4de6b29684": "8abf6bb0-fb37-59cf-a154-b743ce975d64"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering.",
+          "explanation": "Je vais au marché. — I am going to the market.",
+          "options": [
+            "I am going to the market.",
+            "I am coming from the market.",
+            "I am going to the library."
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Je vais au marché."
+          }
+        },
+        {
+          "key": "copy-model",
+          "type": "short_answer",
+          "prompt": "Write the quoted French model for: I am going to the market.",
+          "instructions": "Exact-model spelling practice: Je vais au marché.",
+          "explanation": "Je vais au marché.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "Je vais au marché."
+            ]
+          }
+        }
+      ],
+      "module_title": "Routines and everyday services",
+      "estimated_minutes": 20,
+      "grammar": [
+        {
+          "slug": "foundation-go-to-a-place",
+          "title": "Use au, à la and aux with a destination",
+          "summary": "With a destination and a definite article: à + le becomes au, à + les becomes aux, while à la stays separate. Compare au marché, à la bibliothèque, aux toilettes. These are not rules for every country/place expression; learn the current examples before adding other patterns.",
+          "rule_code": "foundation-go-to-a-place",
+          "explanation_english": "With a destination and a definite article: à + le becomes au, à + les becomes aux, while à la stays separate. Compare au marché, à la bibliothèque, aux toilettes. These are not rules for every country/place expression; learn the current examples before adding other patterns.",
+          "examples": [
+            [
+              "Je vais au marché.",
+              "I am going to the market."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "an-appointment-request"
+      ]
+    },
+    {
+      "key": "ask-someone-to-repeat",
+      "skill": "grammar",
+      "title": "Keep a conversation going when you do not understand",
+      "objective": "Understand and use the target expression in a short everyday exchange: Pouvez-vous répéter, s’il vous plaît ?",
+      "context": "Read\nJe ne comprends pas la phrase. Je demande : « Pouvez-vous répéter, s’il vous plaît ? » La personne parle plus lentement. Je dis merci et je vérifie un mot : « Comment ça s’écrit ? »\n\nUnderstand\nPouvez-vous répéter… ? is a useful memorised request. Vous is polite or plural. A hyphen links pouvez and vous in this inverted question. Ask plus lentement for slower speech. Repetition and spelling are ways to repair communication, not signs that you must stop practising.\n\nModel: Pouvez-vous répéter, s’il vous plaît ?\nMeaning: Could you repeat, please?\n\nGlossary\nplus lentement — more slowly\nje ne comprends pas — I do not understand\ncomment ça s’écrit — how is that spelled\n\nSpeak: retell the situation with an invented detail and ask the Tutor one follow-up question. Listen to the reply and request clarification if needed. Review the previous lesson model and your saved mistakes. Feedback is practice evidence, not CEFR certification.",
+      "vocabulary": [
+        "plus lentement",
+        "je ne comprends pas",
+        "comment ça s’écrit"
+      ],
+      "exercises": [
+        {
+          "key": "read-detail",
+          "type": "multiple_choice",
+          "prompt": "What does the other person do after the request?",
+          "instructions": "Find the answer in the short French passage.",
+          "explanation": "Passage: Je ne comprends pas la phrase. Je demande : « Pouvez-vous répéter, s’il vous plaît ? » La personne parle plus lentement. Je dis merci et je vérifie un mot : « Comment ça s’écrit ? »",
+          "options": [
+            "Leaves without answering",
+            "Speaks more slowly",
+            "Changes the meeting date"
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "complete-model",
+          "type": "fill_blank",
+          "prompt": "Pouvez-vous ___, s’il vous plaît ?",
+          "instructions": "Write the infinitive répéter, keeping both acute accents.",
+          "explanation": "Pouvez-vous répéter… ? is a useful memorised request. Vous is polite or plural. A hyphen links pouvez and vous in this inverted question. Ask plus lentement for slower speech. Repetition and spelling are ways to repair communication, not signs that you must stop practising.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "répéter"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild this exact model: Pouvez-vous répéter, s’il vous plaît ?",
+          "instructions": "Use every tile once in the quoted model order.",
+          "explanation": "Pouvez-vous répéter… ? is a useful memorised request. Vous is polite or plural. A hyphen links pouvez and vous in this inverted question. Ask plus lentement for slower speech. Repetition and spelling are ways to repair communication, not signs that you must stop practising.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "2d59ded2-c164-5354-88b5-cb9a3af19af9",
+                "text": "Pouvez-vous"
+              },
+              {
+                "id": "e91a1967-4b64-528c-9dbe-7d738736278c",
+                "text": "répéter,"
+              },
+              {
+                "id": "ccc7b093-30e9-52e5-a191-617fe71f1f6c",
+                "text": "s’il"
+              },
+              {
+                "id": "38f6e41e-f716-535a-a4cf-13f56fb96443",
+                "text": "vous"
+              },
+              {
+                "id": "8bef9e94-83f2-5e41-9392-7015313916d0",
+                "text": "plaît"
+              },
+              {
+                "id": "037c61cc-8983-564f-8166-9ac9f2f8af49",
+                "text": "?"
+              }
+            ],
+            "accepted_orders": [
+              [
+                "2d59ded2-c164-5354-88b5-cb9a3af19af9",
+                "e91a1967-4b64-528c-9dbe-7d738736278c",
+                "ccc7b093-30e9-52e5-a191-617fe71f1f6c",
+                "38f6e41e-f716-535a-a4cf-13f56fb96443",
+                "8bef9e94-83f2-5e41-9392-7015313916d0",
+                "037c61cc-8983-564f-8166-9ac9f2f8af49"
+              ]
+            ],
+            "correct_sentence": "Pouvez-vous répéter, s’il vous plaît ?"
+          }
+        },
+        {
+          "key": "match-meaning",
+          "type": "matching",
+          "prompt": "Match the expressions and meanings.",
+          "instructions": "Use each meaning once.",
+          "explanation": "plus lentement — more slowly; je ne comprends pas — I do not understand; comment ça s’écrit — how is that spelled",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "3dff5f1c-1eb6-5ddd-adf5-1ad1ff843b90",
+                "text": "plus lentement"
+              },
+              {
+                "id": "a6628d53-103b-5c56-a8e7-2f918a7b274c",
+                "text": "je ne comprends pas"
+              },
+              {
+                "id": "56b2b255-70fe-5db4-a5aa-92e00e480565",
+                "text": "comment ça s’écrit"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "072b1aee-15a8-5ce6-88bf-8f45521808fd",
+                "text": "more slowly"
+              },
+              {
+                "id": "ea6a8171-1ee0-5715-88fc-d6acae7a583b",
+                "text": "I do not understand"
+              },
+              {
+                "id": "bf8f97cb-b615-53b3-a8ce-379e6125720e",
+                "text": "how is that spelled"
+              }
+            ],
+            "answer_pairs": {
+              "3dff5f1c-1eb6-5ddd-adf5-1ad1ff843b90": "072b1aee-15a8-5ce6-88bf-8f45521808fd",
+              "a6628d53-103b-5c56-a8e7-2f918a7b274c": "ea6a8171-1ee0-5715-88fc-d6acae7a583b",
+              "56b2b255-70fe-5db4-a5aa-92e00e480565": "bf8f97cb-b615-53b3-a8ce-379e6125720e"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering.",
+          "explanation": "Pouvez-vous répéter, s’il vous plaît ? — Could you repeat, please?",
+          "options": [
+            "Could you write, please?",
+            "Could you repeat, please?",
+            "Could you speak faster, please?"
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Pouvez-vous répéter, s’il vous plaît ?"
+          }
+        },
+        {
+          "key": "copy-model",
+          "type": "short_answer",
+          "prompt": "Write the quoted French model for: Could you repeat, please?",
+          "instructions": "Exact-model spelling practice: Pouvez-vous répéter, s’il vous plaît ?",
+          "explanation": "Pouvez-vous répéter, s’il vous plaît ?",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "Pouvez-vous répéter, s’il vous plaît ?"
+            ]
+          }
+        }
+      ],
+      "module_title": "Routines and everyday services",
+      "estimated_minutes": 20,
+      "grammar": [
+        {
+          "slug": "foundation-ask-someone-to-repeat",
+          "title": "Keep a conversation going when you do not understand",
+          "summary": "Pouvez-vous répéter… ? is a useful memorised request. Vous is polite or plural. A hyphen links pouvez and vous in this inverted question. Ask plus lentement for slower speech. Repetition and spelling are ways to repair communication, not signs that you must stop practising.",
+          "rule_code": "foundation-ask-someone-to-repeat",
+          "explanation_english": "Pouvez-vous répéter… ? is a useful memorised request. Vous is polite or plural. A hyphen links pouvez and vous in this inverted question. Ask plus lentement for slower speech. Repetition and spelling are ways to repair communication, not signs that you must stop practising.",
+          "examples": [
+            [
+              "Pouvez-vous répéter, s’il vous plaît ?",
+              "Could you repeat, please?"
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "go-to-a-place"
+      ]
+    },
+    {
+      "key": "write-a-meeting-message",
+      "skill": "writing",
+      "title": "Write a clear meeting message",
+      "objective": "Give a day, time and place and ask for confirmation in a short message.",
+      "context": "Write 30–50 French words to an imaginary classmate. Suggest a day, time and meeting place. Ask whether the arrangement is suitable. Include a greeting and closing. Use invented details, not personal addresses. Reread: are the day and time consistent, are the words spelled with accents, and is the request clear? Optional AI feedback is advisory; no automatic CEFR level is awarded.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Time and everyday arrangements",
+      "estimated_minutes": 20,
+      "grammar": [],
+      "prerequisites": [
+        "tell-the-time",
+        "days-and-dates"
+      ]
+    },
+    {
+      "key": "a-day-and-a-request",
+      "skill": "writing",
+      "title": "Describe your day and solve one small problem",
+      "objective": "Connect a simple routine with one practical request and a response.",
+      "context": "Write 40–60 French words about an imaginary day. Give two routine activities and their times. Add one small problem, such as not understanding a word or needing a routine appointment, and write a polite request. Use language from earlier lessons. Check present verb forms, articles, negation and accents. Then read the text aloud and practise a follow-up with the Tutor. Feedback is advisory; transcription is not pronunciation scoring.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Routines and everyday services",
+      "estimated_minutes": 20,
+      "grammar": [],
+      "prerequisites": [
+        "ask-someone-to-repeat"
+      ]
+    }
+  ],
+  "title": "A1: everyday foundations and communication",
+  "glossary": [
+    {
+      "lemma": "à neuf heures",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "at nine o’clock",
+      "definition_french": "À l’heure indiquée par le nombre neuf.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "une pause à dix heures",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "a break at ten o’clock",
+      "definition_french": "Un moment de repos prévu à dix heures.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "l’horaire du cours",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "the class timetable",
+      "definition_french": "Les heures prévues pour le cours.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "le premier mai",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "the first of May",
+      "definition_french": "Le jour numéro un du mois de mai.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "mardi matin",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "Tuesday morning",
+      "definition_french": "La matinée du mardi.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "noter la date",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to write down the date",
+      "definition_french": "Écrire le jour et le mois pour les garder en mémoire.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "une veste bleue",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "a blue jacket",
+      "definition_french": "Une veste de couleur bleue.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "un pantalon noir",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "black trousers",
+      "definition_french": "Un pantalon de couleur noire.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "des chaussures rouges",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "red shoes",
+      "definition_french": "Des chaussures de couleur rouge.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "de la monnaie",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "some change",
+      "definition_french": "Des pièces ou de petites sommes pour payer.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "chercher des pièces",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to look for coins",
+      "definition_french": "Essayer de trouver des pièces de monnaie.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "payer sans espèces",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to pay without cash",
+      "definition_french": "Payer autrement qu’avec des billets ou des pièces.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "près de la gare",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "near the station",
+      "definition_french": "À une faible distance de la gare.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "en face du parc",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "opposite the park",
+      "definition_french": "De l’autre côté, devant le parc.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "regarder le plan",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to look at the map",
+      "definition_french": "Consulter un dessin qui indique les lieux.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "un billet à quatre euros",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "a four-euro ticket",
+      "definition_french": "Un billet dont le prix est quatre euros.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "payer en espèces",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to pay in cash",
+      "definition_french": "Payer avec des billets ou des pièces.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "vérifier la monnaie",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to check the change",
+      "definition_french": "Contrôler la somme rendue après un paiement.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "se lever tôt",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to get up early",
+      "definition_french": "Quitter son lit de bonne heure.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "prendre le petit déjeuner",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to have breakfast",
+      "definition_french": "Prendre le premier repas de la journée.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "se coucher tard",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to go to bed late",
+      "definition_french": "Aller au lit à une heure tardive.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "un rendez-vous demain",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "an appointment tomorrow",
+      "definition_french": "Une rencontre prévue le jour suivant.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "un cabinet médical",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "a medical practice",
+      "definition_french": "Un lieu où un professionnel de santé reçoit des personnes.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "confirmer l’adresse",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to confirm the address",
+      "definition_french": "Vérifier que l’indication du lieu est exacte.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "au marché",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to the market",
+      "definition_french": "Vers le lieu où des commerçants vendent leurs produits.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "à la bibliothèque",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to the library",
+      "definition_french": "Vers un lieu où l’on peut consulter ou emprunter des livres.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "aux toilettes",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to the toilets",
+      "definition_french": "Vers le lieu indiqué pour les toilettes.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "plus lentement",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "more slowly",
+      "definition_french": "À une vitesse moins grande.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "je ne comprends pas",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "I do not understand",
+      "definition_french": "Une expression pour signaler une difficulté à comprendre.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "comment ça s’écrit",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "how is that spelled",
+      "definition_french": "Une question pour demander les lettres d’un mot.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    }
+  ],
+  "learning_stage": null
+}

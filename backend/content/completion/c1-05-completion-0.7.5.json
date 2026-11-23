@@ -1,0 +1,225 @@
+{
+  "version": "0.7.5",
+  "level": "C1",
+  "status": "draft",
+  "source_license": "Original AI-assisted module drafts. Qualified independent linguistic, pedagogical, phonetic, answer-key and CEFR reviews pending.",
+  "tasks": [
+    {
+      "key": "read-and-notice",
+      "skill": "grammar",
+      "title": "Track shifting qualifications in a research meeting: read and notice",
+      "objective": "Track the scope of qualifications and changes of stance. À condition que limits acceptance; néanmoins introduces a practical choice despite a methodological limit, not the disappearance of that limit.",
+      "context": "Un comité examine une enquête sur l’usage des bibliothèques. Le rapport distingue les réponses recueillies en ligne et celles obtenues à l’accueil, sans prétendre que leur réunion produit un échantillon représentatif. La présidente souhaite néanmoins publier rapidement des tendances pour éclairer le prochain budget. Le chercheur accepte cette utilité pratique, à condition que les différences de recrutement restent visibles. Une représentante des usagers ajoute que les personnes qui ne fréquentent plus la bibliothèque ne sont présentes dans aucun des deux groupes. Cette remarque ne réfute pas les réponses obtenues ; elle délimite les questions auxquelles elles peuvent contribuer. La discussion se déplace ainsi de la qualité d’un chiffre isolé vers la relation entre population observée, décision envisagée et portée de la communication publique.",
+      "vocabulary": [
+        "les modes de recrutement des répondants",
+        "délimiter la portée d’une enquête",
+        "des voix absentes du dispositif"
+      ],
+      "exercises": [
+        {
+          "key": "read-meaning",
+          "type": "multiple_choice",
+          "prompt": "What does the users’ representative add?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Non-users are absent from both recruitment channels. Source: Un comité examine une enquête sur l’usage des bibliothèques. Le rapport distingue les réponses recueillies en ligne et celles obtenues à l’accueil, sans prétendre que leur réunion produit un échantillon représentatif. La présidente souhaite néanmoins publier rapidement des tendances pour éclairer le prochain budget. Le chercheur accepte cette utilité pratique, à condition que les différences de recrutement restent visibles. Une représentante des usagers ajoute que les personnes qui ne fréquentent plus la bibliothèque ne sont présentes dans aucun des deux groupes. Cette remarque ne réfute pas les réponses obtenues ; elle délimite les questions auxquelles elles peuvent contribuer. La discussion se déplace ainsi de la qualité d’un chiffre isolé vers la relation entre population observée, décision envisagée et portée de la communication publique.",
+          "options": [
+            "All collected responses are worthless",
+            "The combined sample is proved representative",
+            "Non-users are absent from both recruitment channels"
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "grammar-scope",
+          "type": "multiple_choice",
+          "prompt": "Which formulation preserves the committee’s qualified acceptance?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Track the scope of qualifications and changes of stance. À condition que limits acceptance; néanmoins introduces a practical choice despite a methodological limit, not the disappearance of that limit.",
+          "options": [
+            "Utiliser les tendances tout en explicitant les limites du recrutement.",
+            "Publier sans réserve puisque le budget est urgent.",
+            "Attendre une certitude parfaite avant toute décision."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "contextual-vocabulary",
+          "type": "matching",
+          "prompt": "Match the contextual expressions with their meanings.",
+          "instructions": "Use each meaning once; these are contextual definitions.",
+          "explanation": "les modes de recrutement des répondants — the ways respondents were recruited; délimiter la portée d’une enquête — to delimit a survey’s scope; des voix absentes du dispositif — voices absent from the process",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "bb9f868c-4e64-5609-a9a1-4bcd77cd4412",
+                "text": "les modes de recrutement des répondants"
+              },
+              {
+                "id": "f23da2db-2f51-56e4-a146-42f9949364eb",
+                "text": "délimiter la portée d’une enquête"
+              },
+              {
+                "id": "ac001334-7f03-5cf7-b7bb-710f40d1b34e",
+                "text": "des voix absentes du dispositif"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "269504ab-7c0f-5cfa-b3b5-59a2a39decbc",
+                "text": "voices absent from the process"
+              },
+              {
+                "id": "428e8460-0fe4-5e89-8b73-b645e135b30e",
+                "text": "to delimit a survey’s scope"
+              },
+              {
+                "id": "f5090df5-c273-5a67-8353-f0e4bc441ff1",
+                "text": "the ways respondents were recruited"
+              }
+            ],
+            "answer_pairs": {
+              "bb9f868c-4e64-5609-a9a1-4bcd77cd4412": "f5090df5-c273-5a67-8353-f0e4bc441ff1",
+              "f23da2db-2f51-56e4-a146-42f9949364eb": "428e8460-0fe4-5e89-8b73-b645e135b30e",
+              "ac001334-7f03-5cf7-b7bb-710f40d1b34e": "269504ab-7c0f-5cfa-b3b5-59a2a39decbc"
+            }
+          }
+        }
+      ],
+      "module_title": "Track shifting qualifications in a research meeting",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "completion-c1-05",
+          "title": "Track shifting qualifications in a research meeting",
+          "summary": "Track the scope of qualifications and changes of stance. À condition que limits acceptance; néanmoins introduces a practical choice despite a methodological limit, not the disappearance of that limit.",
+          "rule_code": "completion-c1-05",
+          "explanation_english": "Track the scope of qualifications and changes of stance. À condition que limits acceptance; néanmoins introduces a practical choice despite a methodological limit, not the disappearance of that limit.",
+          "examples": [
+            [
+              "Le rapport peut éclairer la décision, pourvu que sa portée ne soit pas exagérée.",
+              "The report can inform the decision provided its scope is not exaggerated."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "listen-and-integrate",
+      "skill": "reading",
+      "title": "Track shifting qualifications in a research meeting: listen and integrate",
+      "objective": "Identify details, stance and limits of commitment in the scripted exchange, then integrate both sources.",
+      "context": "Original scripted exchange for listening and transcript-assisted review. One synthetic voice may perform every role; this does not demonstrate spontaneous multi-speaker comprehension.\n\nPrésidente : Je proposais une synthèse unique, mais j’entends le problème. Chercheur : Une synthèse est possible ; c’est l’effacement des deux modes de recrutement qui serait trompeur. Représentante : Et il faut nommer ceux que nous n’avons pas entendus. Présidente : Alors publions deux séries accompagnées d’une question ouverte sur les non-usagers. Chercheur : Cela précise la portée, sans transformer l’enquête en ce qu’elle n’est pas.",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "listen-position",
+          "type": "listening",
+          "prompt": "How does the chair’s position change?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "She moves from a single undifferentiated synthesis to a qualified presentation. Script: Présidente : Je proposais une synthèse unique, mais j’entends le problème. Chercheur : Une synthèse est possible ; c’est l’effacement des deux modes de recrutement qui serait trompeur. Représentante : Et il faut nommer ceux que nous n’avons pas entendus. Présidente : Alors publions deux séries accompagnées d’une question ouverte sur les non-usagers. Chercheur : Cela précise la portée, sans transformer l’enquête en ce qu’elle n’est pas.",
+          "options": [
+            "She withdraws every practical use of the survey",
+            "She moves from a single undifferentiated synthesis to a qualified presentation",
+            "She claims all non-users have been consulted"
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Présidente : Je proposais une synthèse unique, mais j’entends le problème. Chercheur : Une synthèse est possible ; c’est l’effacement des deux modes de recrutement qui serait trompeur. Représentante : Et il faut nommer ceux que nous n’avons pas entendus. Présidente : Alors publions deux séries accompagnées d’une question ouverte sur les non-usagers. Chercheur : Cela précise la portée, sans transformer l’enquête en ce qu’elle n’est pas."
+          }
+        },
+        {
+          "key": "integrate-sources",
+          "type": "multiple_choice",
+          "prompt": "Which mediation preserves the speakers’ convergence?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "They seek a useful presentation that keeps sampling limits visible. Compare the reading and listening sources.",
+          "options": [
+            "They seek a useful presentation that keeps sampling limits visible",
+            "They agree representativeness has been demonstrated",
+            "They disagree on whether any response was collected"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "locate-phrase",
+          "type": "short_answer",
+          "prompt": "Copy the representative’s exact phrase identifying the absent voices.",
+          "instructions": "Transcript available in this lesson: copy the exact requested phrase. This item checks location/spelling, not open-ended interpretation.",
+          "explanation": "Exact source phrase: ceux que nous n’avons pas entendus",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "ceux que nous n’avons pas entendus"
+            ]
+          }
+        }
+      ],
+      "module_title": "Track shifting qualifications in a research meeting",
+      "estimated_minutes": 25,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice"
+      ]
+    },
+    {
+      "key": "transfer-and-assess",
+      "skill": "writing",
+      "title": "Track shifting qualifications in a research meeting: transfer and assess",
+      "objective": "Transfer the module language to an unfamiliar situation and review comprehension, writing and interaction separately.",
+      "context": "Listen without the transcript, map each speaker’s initial stance and later qualification, then compare with the text. Write a 330–400-word briefing separating convergence, unresolved limits and a justified decision. Mediate the meeting orally with the Tutor changing one stakeholder’s priority. Label the source as a scripted dialogue performed by synthetic speech, not authentic multi-speaker audio.\n\nRevision: retrieve the three contextual expressions without the model on a later day; correct saved errors and reuse them in a new scenario.\n\nReview task fulfilment, source fidelity, grammar, vocabulary, organisation and interaction/repair separately. Treat spelling extraction as supported practice, not proficiency evidence. Optional AI feedback is advisory. Independent human language/phonetic review and empirical calibration remain pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Track shifting qualifications in a research meeting",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice",
+        "listen-and-integrate"
+      ]
+    }
+  ],
+  "title": "C1 module completion: Track shifting qualifications in a research meeting",
+  "glossary": [
+    {
+      "lemma": "les modes de recrutement des répondants",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "the ways respondents were recruited",
+      "definition_french": "Les procédés par lesquels les participants ont été sollicités.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "délimiter la portée d’une enquête",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to delimit a survey’s scope",
+      "definition_french": "Préciser les conclusions auxquelles une enquête peut contribuer.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "des voix absentes du dispositif",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "voices absent from the process",
+      "definition_french": "Des points de vue qui n’ont pas été recueillis par la méthode choisie.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    }
+  ],
+  "learning_stage": null
+}

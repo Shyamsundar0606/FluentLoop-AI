@@ -1,0 +1,288 @@
+{
+  "current_status": "Historical rehearsal below succeeded; exact80 batch subsequently authorized and imported unpublished on23 November2026. See docs/verification/PERSONAL-CURRICULUM-IMPORT-20261123.json. Future5 writing bridges remain staged.",
+  "revision": "20261115_0016",
+  "restored_original_lessons": 101,
+  "new_lessons": 80,
+  "new_scored_exercises": 150,
+  "open_transfer_tasks": 29,
+  "answer_keys_correct_wrong_checks": 150,
+  "existing_rows_unchanged": true,
+  "duplicate_prevention": "passed",
+  "foreign_keys": "passed",
+  "releases": [
+    {
+      "level": "A1",
+      "stage": "A0",
+      "version": "0.4.7",
+      "lessons": 2,
+      "exercises": 4,
+      "prerequisite_links": 1,
+      "source_sha256": "e3c27092168713ac81a73fc460c3fb1b3d317181af4dc89612bae613921a2198"
+    },
+    {
+      "level": "A1",
+      "stage": "A1",
+      "version": "0.4.1",
+      "lessons": 2,
+      "exercises": 4,
+      "prerequisite_links": 1,
+      "source_sha256": "34df69ccbec8654e53e169a9c3c272bc68d69d34f1b7ea0f3a374fafa0ecbb3e"
+    },
+    {
+      "level": "A2",
+      "stage": "A2",
+      "version": "0.4.2",
+      "lessons": 2,
+      "exercises": 4,
+      "prerequisite_links": 1,
+      "source_sha256": "219e82f74f63b31e4b89b7ed04532a399b09e8160a652d2b56d14b82ecc460ca"
+    },
+    {
+      "level": "B1",
+      "stage": "B1",
+      "version": "0.4.3",
+      "lessons": 2,
+      "exercises": 4,
+      "prerequisite_links": 1,
+      "source_sha256": "26be87cad6360701b4374719d48ad685531de93a1f6dbddac943a5f6b14bcff9"
+    },
+    {
+      "level": "B2",
+      "stage": "B2",
+      "version": "0.4.4",
+      "lessons": 2,
+      "exercises": 4,
+      "prerequisite_links": 1,
+      "source_sha256": "5a21fc53b85e6a9b0c54ba56d0eaaf182e169a4d08b82f0887c987b7922a01c4"
+    },
+    {
+      "level": "C1",
+      "stage": "C1",
+      "version": "0.4.5",
+      "lessons": 2,
+      "exercises": 4,
+      "prerequisite_links": 1,
+      "source_sha256": "6e7bb0fbb7caae90d7791e73186edd532ad3bbb72f245d3b38e3ff3580abfd8e"
+    },
+    {
+      "level": "C2",
+      "stage": "C2",
+      "version": "0.4.6",
+      "lessons": 2,
+      "exercises": 4,
+      "prerequisite_links": 1,
+      "source_sha256": "f3279e5561256f0e398eb59dd7a1ae9443b20e537ec008acba154c2a8671d19e"
+    },
+    {
+      "level": "A1",
+      "stage": "A0",
+      "version": "0.6.0",
+      "lessons": 3,
+      "exercises": 4,
+      "prerequisite_links": 3,
+      "source_sha256": "5db1884608ff3783dbba936c1655add341e50c5696c587b7011bc58cc6dcae0c"
+    },
+    {
+      "level": "A1",
+      "stage": "A1",
+      "version": "0.6.1",
+      "lessons": 3,
+      "exercises": 4,
+      "prerequisite_links": 3,
+      "source_sha256": "085992c5bfdf3c15e1e4d58dfa1dac5ee854fced0fddcefe8162683b3cc2f292"
+    },
+    {
+      "level": "B2",
+      "stage": "B2",
+      "version": "0.6.2",
+      "lessons": 3,
+      "exercises": 4,
+      "prerequisite_links": 3,
+      "source_sha256": "b24e955c1fd5f65e43ee0f4498649aee6c5de684e5650098b7e1f4b1b919e210"
+    },
+    {
+      "level": "C1",
+      "stage": "C1",
+      "version": "0.6.3",
+      "lessons": 3,
+      "exercises": 4,
+      "prerequisite_links": 3,
+      "source_sha256": "fec156f5ac8d0abf8f1487681663a36f32842dea68ea6eeb9689892ff4300a17"
+    },
+    {
+      "level": "C2",
+      "stage": "C2",
+      "version": "0.6.4",
+      "lessons": 3,
+      "exercises": 4,
+      "prerequisite_links": 3,
+      "source_sha256": "231f0a805620dedff07e822d1787b1a60da584a302c8101f2465e4bcf82aface"
+    },
+    {
+      "level": "A2",
+      "stage": "A2",
+      "version": "0.7.5",
+      "lessons": 3,
+      "exercises": 6,
+      "prerequisite_links": 3,
+      "source_sha256": "7a6f54cf03c0d0ba18a4baa40b4a17c8b885dad8e3f71082c02c05fb0e90d006"
+    },
+    {
+      "level": "A2",
+      "stage": "A2",
+      "version": "0.7.6",
+      "lessons": 3,
+      "exercises": 6,
+      "prerequisite_links": 3,
+      "source_sha256": "c21da1206eacc2fad0d984126a074378ab57f045210c450b375a9f8d898cc1cb"
+    },
+    {
+      "level": "A2",
+      "stage": "A2",
+      "version": "0.7.7",
+      "lessons": 3,
+      "exercises": 6,
+      "prerequisite_links": 3,
+      "source_sha256": "ef2e6b33b35dd24f2938f32486d0e110c67d5e69daaf904ef22ebf98f9bcb158"
+    },
+    {
+      "level": "A2",
+      "stage": "A2",
+      "version": "0.7.8",
+      "lessons": 3,
+      "exercises": 6,
+      "prerequisite_links": 3,
+      "source_sha256": "98f3d085d5189b62261529746b34bcb01cdec0bc3d7ff1a2e893a2d980fd1779"
+    },
+    {
+      "level": "B1",
+      "stage": "B1",
+      "version": "0.7.5",
+      "lessons": 3,
+      "exercises": 6,
+      "prerequisite_links": 3,
+      "source_sha256": "a0bd68db400ada55cde5a7f4868f66c21e4330cf2598d744140609aca4d400ba"
+    },
+    {
+      "level": "B1",
+      "stage": "B1",
+      "version": "0.7.6",
+      "lessons": 3,
+      "exercises": 6,
+      "prerequisite_links": 3,
+      "source_sha256": "2f53579b73cec7c2564ebf747d792e9d80163629042cd5f3587b1aad7d708f82"
+    },
+    {
+      "level": "B1",
+      "stage": "B1",
+      "version": "0.7.7",
+      "lessons": 3,
+      "exercises": 6,
+      "prerequisite_links": 3,
+      "source_sha256": "d26c9c3c268a08774e5f8d39758c101f533685d3f24135713d186acc31d24a50"
+    },
+    {
+      "level": "B1",
+      "stage": "B1",
+      "version": "0.7.8",
+      "lessons": 3,
+      "exercises": 6,
+      "prerequisite_links": 3,
+      "source_sha256": "f329f909e022de5b1b8d091494a3cb51f2a800dd9f67a4897f637ecd363f16e0"
+    },
+    {
+      "level": "B2",
+      "stage": "B2",
+      "version": "0.7.6",
+      "lessons": 3,
+      "exercises": 6,
+      "prerequisite_links": 3,
+      "source_sha256": "2ac1897eb22b4102adf9770b62bdb08f804f85859290bf49f1fe42f412c5d2f7"
+    },
+    {
+      "level": "B2",
+      "stage": "B2",
+      "version": "0.7.7",
+      "lessons": 3,
+      "exercises": 6,
+      "prerequisite_links": 3,
+      "source_sha256": "93b4b31dffe151292570569f30cb7308b3376d6c313b535a1896f3b77b41778c"
+    },
+    {
+      "level": "B2",
+      "stage": "B2",
+      "version": "0.7.8",
+      "lessons": 3,
+      "exercises": 6,
+      "prerequisite_links": 3,
+      "source_sha256": "5fdb7b5868f7f18e38956e00701c56d3fcd069ec9607b99f82785f4b2a00a515"
+    },
+    {
+      "level": "C1",
+      "stage": "C1",
+      "version": "0.7.5",
+      "lessons": 3,
+      "exercises": 6,
+      "prerequisite_links": 3,
+      "source_sha256": "574b942ca9095f72aec2dbd6c8ad6ba5940c85ca13a49442547c327fd5abae02"
+    },
+    {
+      "level": "C1",
+      "stage": "C1",
+      "version": "0.7.7",
+      "lessons": 3,
+      "exercises": 6,
+      "prerequisite_links": 3,
+      "source_sha256": "524839c0fd5718b0d7c1390244595fc0e238f2eb7fa27dccbbc5c6ded7bdb6db"
+    },
+    {
+      "level": "C1",
+      "stage": "C1",
+      "version": "0.7.8",
+      "lessons": 3,
+      "exercises": 6,
+      "prerequisite_links": 3,
+      "source_sha256": "c96f28e0c9a895852e1ed7433bb373af81fc80dfaf22f2f1554787ba6afe6f33"
+    },
+    {
+      "level": "C2",
+      "stage": "C2",
+      "version": "0.7.5",
+      "lessons": 3,
+      "exercises": 6,
+      "prerequisite_links": 3,
+      "source_sha256": "d8b8a05b9e81c8fb449b07d5ba08bfc49a1386fcdb9c16154bf679e90ce1b1fb"
+    },
+    {
+      "level": "C2",
+      "stage": "C2",
+      "version": "0.7.6",
+      "lessons": 3,
+      "exercises": 6,
+      "prerequisite_links": 3,
+      "source_sha256": "7a382fd05c51b2ab99a193066b658eae989267b9e393f793946f1e2839e4ef39"
+    },
+    {
+      "level": "C2",
+      "stage": "C2",
+      "version": "0.7.8",
+      "lessons": 3,
+      "exercises": 6,
+      "prerequisite_links": 3,
+      "source_sha256": "5975b279d582f3e69e0f3b74ea85ee4a015ac70ae2fc15521439044f68627134"
+    }
+  ],
+  "main_imports": 0,
+  "qualified_human_review": "pending",
+  "cefr_calibration": "pending",
+  "date": "2026-11-23",
+  "method": "fresh consistent main backup restored into a newly named disposable PostgreSQL database; main never imported",
+  "main_preservation": "passed before and after all live checks; both main and M08 match recorded table signatures, with documented session last_used_at exclusion",
+  "audio_validation": {
+    "listening_scripts": 34,
+    "wav_contracts": "passed",
+    "boundary_characters": 600,
+    "human_pronunciation_review": "pending",
+    "authentic_multispeaker_acceptance": "not claimed"
+  }
+}

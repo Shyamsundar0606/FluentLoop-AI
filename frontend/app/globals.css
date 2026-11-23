@@ -3,6 +3,8 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
+  --font-geist-sans: "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+  --font-geist-mono: "Cascadia Code", Consolas, "Liberation Mono", monospace;
   --background: #f8f9fc;
   --foreground: #19233b;
   --panel: #ffffff;

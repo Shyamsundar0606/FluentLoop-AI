@@ -1,0 +1,225 @@
+{
+  "version": "0.7.8",
+  "level": "B1",
+  "status": "draft",
+  "source_license": "Original AI-assisted module drafts. Qualified independent linguistic, pedagogical, phonetic, answer-key and CEFR reviews pending.",
+  "tasks": [
+    {
+      "key": "read-and-notice",
+      "skill": "grammar",
+      "title": "B1 review: organise a volunteer event under constraints: read and notice",
+      "objective": "Distinguish a proposal, a provisional choice and a confirmed arrangement. À condition que adds a requirement; provisoirement limits the commitment.",
+      "context": "Une association prépare une collecte de livres samedi. La salle prévue n’est disponible que jusqu’à seize heures, alors que plusieurs bénévoles ne peuvent arriver qu’à quinze heures. Salomé propose de commencer le tri vendredi soir et de réserver samedi aux dépôts. Paul préfère chercher une autre salle, mais aucune disponibilité n’est confirmée. Le groupe choisit provisoirement la solution de Salomé, à condition que deux personnes puissent venir vendredi. Une décision finale est attendue jeudi. Ce compromis n’est donc ni une annulation ni une réservation certaine d’une nouvelle salle.",
+      "vocabulary": [
+        "un choix encore provisoire",
+        "comparer les horaires et le transport",
+        "une recherche qui n’aboutit pas"
+      ],
+      "exercises": [
+        {
+          "key": "read-meaning",
+          "type": "multiple_choice",
+          "prompt": "What must be checked before the provisional plan is confirmed?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Two volunteers are available Friday. Source: Une association prépare une collecte de livres samedi. La salle prévue n’est disponible que jusqu’à seize heures, alors que plusieurs bénévoles ne peuvent arriver qu’à quinze heures. Salomé propose de commencer le tri vendredi soir et de réserver samedi aux dépôts. Paul préfère chercher une autre salle, mais aucune disponibilité n’est confirmée. Le groupe choisit provisoirement la solution de Salomé, à condition que deux personnes puissent venir vendredi. Une décision finale est attendue jeudi. Ce compromis n’est donc ni une annulation ni une réservation certaine d’une nouvelle salle.",
+          "options": [
+            "A new hall is already booked",
+            "The collection must be cancelled",
+            "Two volunteers are available Friday"
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "grammar-scope",
+          "type": "multiple_choice",
+          "prompt": "Which sentence keeps the condition realistic and open?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Distinguish a proposal, a provisional choice and a confirmed arrangement. À condition que adds a requirement; provisoirement limits the commitment.",
+          "options": [
+            "Si deux bénévoles viennent, nous commencerons vendredi.",
+            "Si deux bénévoles viendront, nous commencerons vendredi.",
+            "Si deux bénévoles viennent, ils étaient déjà là."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "contextual-vocabulary",
+          "type": "matching",
+          "prompt": "Match the contextual expressions with their meanings.",
+          "instructions": "Use each meaning once; these are contextual definitions.",
+          "explanation": "un choix encore provisoire — a choice that is still provisional; comparer les horaires et le transport — to compare times and transport; une recherche qui n’aboutit pas — a search that does not succeed",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "951f6bd5-b64c-50b0-8ca0-3ffd33b578ba",
+                "text": "un choix encore provisoire"
+              },
+              {
+                "id": "77a5b5ff-7b64-521a-a632-5548ddfc7202",
+                "text": "comparer les horaires et le transport"
+              },
+              {
+                "id": "6c7c1b07-507b-57c4-8450-316a89f998ac",
+                "text": "une recherche qui n’aboutit pas"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "787c35b0-b38b-5d58-8e49-b5396bca08da",
+                "text": "a search that does not succeed"
+              },
+              {
+                "id": "a0eee3ef-7519-50b5-8b9e-0bc36634fbd9",
+                "text": "to compare times and transport"
+              },
+              {
+                "id": "8b23bbe3-2773-58fe-9418-fda8380ded5d",
+                "text": "a choice that is still provisional"
+              }
+            ],
+            "answer_pairs": {
+              "951f6bd5-b64c-50b0-8ca0-3ffd33b578ba": "8b23bbe3-2773-58fe-9418-fda8380ded5d",
+              "77a5b5ff-7b64-521a-a632-5548ddfc7202": "a0eee3ef-7519-50b5-8b9e-0bc36634fbd9",
+              "6c7c1b07-507b-57c4-8450-316a89f998ac": "787c35b0-b38b-5d58-8e49-b5396bca08da"
+            }
+          }
+        }
+      ],
+      "module_title": "B1 review: organise a volunteer event under constraints",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "completion-b1-08",
+          "title": "B1 review: organise a volunteer event under constraints",
+          "summary": "Distinguish a proposal, a provisional choice and a confirmed arrangement. À condition que adds a requirement; provisoirement limits the commitment.",
+          "rule_code": "completion-b1-08",
+          "explanation_english": "Distinguish a proposal, a provisional choice and a confirmed arrangement. À condition que adds a requirement; provisoirement limits the commitment.",
+          "examples": [
+            [
+              "Nous commencerons vendredi si deux bénévoles sont disponibles.",
+              "We will start on Friday if two volunteers are available."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "listen-and-integrate",
+      "skill": "reading",
+      "title": "B1 review: organise a volunteer event under constraints: listen and integrate",
+      "objective": "Identify details, stance and limits of commitment in the scripted exchange, then integrate both sources.",
+      "context": "Original scripted exchange for listening and transcript-assisted review. One synthetic voice may perform every role; this does not demonstrate spontaneous multi-speaker comprehension.\n\nPaul : Je cherche encore une salle, mais je ne peux rien promettre. Salomé : Gardons donc le premier plan jusqu’à jeudi. Si tu trouves mieux avant, nous comparerons les horaires et le transport. Paul : D’accord ; je vous donne une réponse, même si ma recherche n’aboutit pas.",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "listen-position",
+          "type": "listening",
+          "prompt": "What does Paul promise?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "An update even if the search fails. Script: Paul : Je cherche encore une salle, mais je ne peux rien promettre. Salomé : Gardons donc le premier plan jusqu’à jeudi. Si tu trouves mieux avant, nous comparerons les horaires et le transport. Paul : D’accord ; je vous donne une réponse, même si ma recherche n’aboutit pas.",
+          "options": [
+            "A guaranteed new room",
+            "An update even if the search fails",
+            "To cancel the first plan now"
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Paul : Je cherche encore une salle, mais je ne peux rien promettre. Salomé : Gardons donc le premier plan jusqu’à jeudi. Si tu trouves mieux avant, nous comparerons les horaires et le transport. Paul : D’accord ; je vous donne une réponse, même si ma recherche n’aboutit pas."
+          }
+        },
+        {
+          "key": "integrate-sources",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the decision status?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "A conditional plan remains pending until Thursday. Compare the reading and listening sources.",
+          "options": [
+            "A conditional plan remains pending until Thursday",
+            "A different room is confirmed",
+            "All preparation moves to Sunday"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "locate-phrase",
+          "type": "short_answer",
+          "prompt": "Copy the phrase giving the temporary decision horizon.",
+          "instructions": "Transcript available in this lesson: copy the exact requested phrase. This item checks location/spelling, not open-ended interpretation.",
+          "explanation": "Exact source phrase: jusqu’à jeudi",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "jusqu’à jeudi"
+            ]
+          }
+        }
+      ],
+      "module_title": "B1 review: organise a volunteer event under constraints",
+      "estimated_minutes": 25,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice"
+      ]
+    },
+    {
+      "key": "transfer-and-assess",
+      "skill": "writing",
+      "title": "B1 review: organise a volunteer event under constraints: transfer and assess",
+      "objective": "Transfer the module language to an unfamiliar situation and review comprehension, writing and interaction separately.",
+      "context": "Write 170–200 French words proposing a solution to a different community-event constraint. Explain two options, a reasoned provisional choice and the information still needed. Give an oral update, answer an objection from the Tutor and revise one unclear commitment. This cross-skill review does not award B1.\n\nRevision: retrieve the three contextual expressions without the model on a later day; correct saved errors and reuse them in a new scenario.\n\nReview task fulfilment, source fidelity, grammar, vocabulary, organisation and interaction/repair separately. Treat spelling extraction as supported practice, not proficiency evidence. Optional AI feedback is advisory. Independent human language/phonetic review and empirical calibration remain pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "B1 review: organise a volunteer event under constraints",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice",
+        "listen-and-integrate"
+      ]
+    }
+  ],
+  "title": "B1 module completion: B1 review: organise a volunteer event under constraints",
+  "glossary": [
+    {
+      "lemma": "un choix encore provisoire",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "a choice that is still provisional",
+      "definition_french": "Une décision qui peut encore être modifiée.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "comparer les horaires et le transport",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to compare times and transport",
+      "definition_french": "Examiner ensemble les heures et les moyens de déplacement.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "une recherche qui n’aboutit pas",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "a search that does not succeed",
+      "definition_french": "Une démarche qui ne donne pas le résultat souhaité.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    }
+  ],
+  "learning_stage": null
+}

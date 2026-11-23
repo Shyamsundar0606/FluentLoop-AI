@@ -1,0 +1,1562 @@
+{
+  "version": "0.2.1",
+  "level": "A2",
+  "status": "draft",
+  "title": "Personal French A2: daily life and expression",
+  "source_license": "Original AI-assisted drafts; independent linguistic, phonetic, pedagogical, answer-key and licensing reviews pending.",
+  "glossary": [
+    {
+      "lemma": "charges comprises",
+      "part_of_speech": "phrase",
+      "translation": "service charges included",
+      "definition_french": "Avec les charges annoncées incluses dans le prix indiqué ; cela ne signifie pas que toutes les factures sont incluses."
+    },
+    {
+      "lemma": "un état des lieux",
+      "part_of_speech": "phrase",
+      "translation": "a property condition report",
+      "definition_french": "Une description de l’état d’un logement à un moment donné."
+    },
+    {
+      "lemma": "le temps de trajet",
+      "part_of_speech": "phrase",
+      "translation": "the journey time",
+      "definition_french": "La durée nécessaire pour aller d’un lieu à un autre."
+    },
+    {
+      "lemma": "en retard",
+      "part_of_speech": "phrase",
+      "translation": "late",
+      "definition_french": "Après l’heure prévue."
+    },
+    {
+      "lemma": "changer de quai",
+      "part_of_speech": "phrase",
+      "translation": "to change platforms",
+      "definition_french": "Aller sur un autre quai pour prendre son train."
+    },
+    {
+      "lemma": "un renseignement",
+      "part_of_speech": "phrase",
+      "translation": "a piece of information",
+      "definition_french": "Une information utile donnée en réponse à une question."
+    },
+    {
+      "lemma": "un aller-retour",
+      "part_of_speech": "phrase",
+      "translation": "a return ticket",
+      "definition_french": "Un billet pour aller à un endroit puis revenir."
+    },
+    {
+      "lemma": "un train direct",
+      "part_of_speech": "phrase",
+      "translation": "a direct train",
+      "definition_french": "Un train qui permet le trajet sans changer de train."
+    },
+    {
+      "lemma": "avant de payer",
+      "part_of_speech": "phrase",
+      "translation": "before paying",
+      "definition_french": "Avant de régler le prix demandé."
+    }
+  ],
+  "tasks": [
+    {
+      "key": "module-1-grammar",
+      "skill": "grammar",
+      "module_title": "Daily life and plans",
+      "title": "Visit a flat: grammar",
+      "objective": "Practise A2-targeted grammar in the situation: Visit a flat.",
+      "context": "French passage\nNous cherchons un appartement près de l’université. L’agence nous propose une visite demain à quinze heures. Nous allons visiter l’appartement demain. Il est au troisième étage, sans ascenseur. Nous demandons si les charges sont comprises et si le quartier est calme. Après la visite, nous allons comparer les deux annonces. Nous ne prenons pas de décision tout de suite : nous voulons d’abord vérifier le budget et le temps de trajet.\n\nEnglish explanation\nUse aller in the present + an infinitive to describe a plan: nous allons visiter. Conjugate aller, not the second verb. Demain clarifies when the plan will happen. Expressing a plan does not promise it will definitely occur.\nModel: Nous allons visiter l’appartement demain.\nMeaning: We are going to visit the flat tomorrow.\n\nGlossary\ncharges comprises — service charges included\nun état des lieux — a property condition report\nle temps de trajet — the journey time\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Identify the target form, explain its function, and contrast it with the alternative in the explanation.",
+      "vocabulary": [
+        "charges comprises",
+        "un état des lieux",
+        "le temps de trajet"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Why do they delay their decision?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Nous cherchons un appartement près de l’université. L’agence nous propose une visite demain à quinze heures. Nous allons visiter l’appartement demain. Il est au troisième étage, sans ascenseur. Nous demandons si les charges sont comprises et si le quartier est calme. Après la visite, nous allons comparer les deux annonces. Nous ne prenons pas de décision tout de suite : nous voulons d’abord vérifier le budget et le temps de trajet.",
+          "data": {},
+          "options": [
+            "Because they have already signed",
+            "To check their budget and journey time",
+            "Because they refuse every visit"
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Nous ___ visiter l’appartement demain.",
+          "instructions": "Use aller in the present, nous form, to form the near future. Write only the missing form; keep accents.",
+          "explanation": "Use aller in the present + an infinitive to describe a plan: nous allons visiter. Conjugate aller, not the second verb. Demain clarifies when the plan will happen. Expressing a plan does not promise it will definitely occur.",
+          "data": {
+            "accepted_answers": [
+              "allons"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Nous allons visiter l’appartement demain.",
+          "explanation": "Use aller in the present + an infinitive to describe a plan: nous allons visiter. Conjugate aller, not the second verb. Demain clarifies when the plan will happen. Expressing a plan does not promise it will definitely occur.",
+          "data": {
+            "tiles": [
+              {
+                "id": "ef4acbcd-3c0c-5cd3-bb27-a02352d13986",
+                "text": "Nous"
+              },
+              {
+                "id": "6ef6c094-bed6-5148-b9fb-b419670d9fb9",
+                "text": "allons"
+              },
+              {
+                "id": "cd9eb541-52e2-5673-803c-a8f13ecc2f5b",
+                "text": "visiter"
+              },
+              {
+                "id": "248b4b48-d8e6-5c20-a244-5e2281aef7dc",
+                "text": "l’appartement"
+              },
+              {
+                "id": "42cdfcdd-794b-5e9e-9cce-3ba16fb1853b",
+                "text": "demain."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "ef4acbcd-3c0c-5cd3-bb27-a02352d13986",
+                "6ef6c094-bed6-5148-b9fb-b419670d9fb9",
+                "cd9eb541-52e2-5673-803c-a8f13ecc2f5b",
+                "248b4b48-d8e6-5c20-a244-5e2281aef7dc",
+                "42cdfcdd-794b-5e9e-9cce-3ba16fb1853b"
+              ]
+            ],
+            "correct_sentence": "Nous allons visiter l’appartement demain."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "charges comprises — service charges included; un état des lieux — a property condition report; le temps de trajet — the journey time",
+          "data": {
+            "left_items": [
+              {
+                "id": "b04069de-26ca-58c7-8909-dd78b8a0a7f0",
+                "text": "charges comprises"
+              },
+              {
+                "id": "e4d31e91-5710-564d-93c6-6508e31b8729",
+                "text": "un état des lieux"
+              },
+              {
+                "id": "65e7590c-7498-516f-a40b-fbb3e62b6cea",
+                "text": "le temps de trajet"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "02527b3d-1669-58b7-aa42-fa577d4462f9",
+                "text": "service charges included"
+              },
+              {
+                "id": "0b067fce-fc52-55f4-9be1-2fa466e3b2e0",
+                "text": "a property condition report"
+              },
+              {
+                "id": "eeb018fe-e117-5988-9950-e6f426ee7750",
+                "text": "the journey time"
+              }
+            ],
+            "answer_pairs": {
+              "b04069de-26ca-58c7-8909-dd78b8a0a7f0": "02527b3d-1669-58b7-aa42-fa577d4462f9",
+              "e4d31e91-5710-564d-93c6-6508e31b8729": "0b067fce-fc52-55f4-9be1-2fa466e3b2e0",
+              "65e7590c-7498-516f-a40b-fbb3e62b6cea": "eeb018fe-e117-5988-9950-e6f426ee7750"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Nous allons visiter l’appartement demain.\nEnglish meaning: We are going to visit the flat tomorrow.",
+          "data": {
+            "text_fr": "Nous allons visiter l’appartement demain."
+          },
+          "options": [
+            "We visited the flat yesterday.",
+            "We are going to visit the flat tomorrow.",
+            "We are going to visit the flat today."
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: We are going to visit the flat tomorrow.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Nous allons visiter l’appartement demain.",
+          "explanation": "Exact model: Nous allons visiter l’appartement demain.\nMeaning: We are going to visit the flat tomorrow.",
+          "data": {
+            "accepted_answers": [
+              "Nous allons visiter l’appartement demain."
+            ]
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "slug": "personal-module-1",
+          "title": "The near future",
+          "summary": "Use aller in the present + an infinitive to describe a plan: nous allons visiter. Conjugate aller, not the second verb. Demain clarifies when the plan will happen. Expressing a plan does not promise it will definitely occur.",
+          "rule_code": "personal-a2-1",
+          "explanation_english": "Use aller in the present + an infinitive to describe a plan: nous allons visiter. Conjugate aller, not the second verb. Demain clarifies when the plan will happen. Expressing a plan does not promise it will definitely occur.",
+          "examples": [
+            [
+              "Nous allons visiter l’appartement demain.",
+              "We are going to visit the flat tomorrow."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "key": "module-1-vocabulary",
+      "skill": "vocabulary",
+      "module_title": "Daily life and plans",
+      "title": "Visit a flat: vocabulary",
+      "objective": "Practise A2-targeted vocabulary in the situation: Visit a flat.",
+      "context": "French passage\nNous cherchons un appartement près de l’université. L’agence nous propose une visite demain à quinze heures. Nous allons visiter l’appartement demain. Il est au troisième étage, sans ascenseur. Nous demandons si les charges sont comprises et si le quartier est calme. Après la visite, nous allons comparer les deux annonces. Nous ne prenons pas de décision tout de suite : nous voulons d’abord vérifier le budget et le temps de trajet.\n\nEnglish explanation\nUse aller in the present + an infinitive to describe a plan: nous allons visiter. Conjugate aller, not the second verb. Demain clarifies when the plan will happen. Expressing a plan does not promise it will definitely occur.\nModel: Nous allons visiter l’appartement demain.\nMeaning: We are going to visit the flat tomorrow.\n\nGlossary\ncharges comprises — service charges included\nun état des lieux — a property condition report\nle temps de trajet — the journey time\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Read each French definition, match meanings, then use the expressions in your own example.",
+      "vocabulary": [
+        "charges comprises",
+        "un état des lieux",
+        "le temps de trajet"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Which French expression means “service charges included”?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "Glossary meaning: charges comprises — service charges included.",
+          "data": {},
+          "options": [
+            "un état des lieux",
+            "le temps de trajet",
+            "charges comprises"
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Nous ___ visiter l’appartement demain.",
+          "instructions": "Use aller in the present, nous form, to form the near future. Write only the missing form; keep accents.",
+          "explanation": "Use aller in the present + an infinitive to describe a plan: nous allons visiter. Conjugate aller, not the second verb. Demain clarifies when the plan will happen. Expressing a plan does not promise it will definitely occur.",
+          "data": {
+            "accepted_answers": [
+              "allons"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Nous allons visiter l’appartement demain.",
+          "explanation": "Use aller in the present + an infinitive to describe a plan: nous allons visiter. Conjugate aller, not the second verb. Demain clarifies when the plan will happen. Expressing a plan does not promise it will definitely occur.",
+          "data": {
+            "tiles": [
+              {
+                "id": "102ce411-ccde-50a8-bcd0-4e20d509a283",
+                "text": "Nous"
+              },
+              {
+                "id": "282fb5a2-46f8-5ceb-ac5a-d5db0a7b833c",
+                "text": "allons"
+              },
+              {
+                "id": "25c1c061-b23b-50f9-84cd-8266c405b9f4",
+                "text": "visiter"
+              },
+              {
+                "id": "a681851c-52fb-5e24-8acc-2b002bc037b5",
+                "text": "l’appartement"
+              },
+              {
+                "id": "57e8b4bd-a514-5549-89bc-f11e88bd2252",
+                "text": "demain."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "102ce411-ccde-50a8-bcd0-4e20d509a283",
+                "282fb5a2-46f8-5ceb-ac5a-d5db0a7b833c",
+                "25c1c061-b23b-50f9-84cd-8266c405b9f4",
+                "a681851c-52fb-5e24-8acc-2b002bc037b5",
+                "57e8b4bd-a514-5549-89bc-f11e88bd2252"
+              ]
+            ],
+            "correct_sentence": "Nous allons visiter l’appartement demain."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "charges comprises — service charges included; un état des lieux — a property condition report; le temps de trajet — the journey time",
+          "data": {
+            "left_items": [
+              {
+                "id": "02ae2e0c-ac17-51fc-ac6b-fabf74b52347",
+                "text": "charges comprises"
+              },
+              {
+                "id": "ee777794-3c6b-596b-a49f-aa7c7165dc96",
+                "text": "un état des lieux"
+              },
+              {
+                "id": "3b82b6ea-ea40-507a-8caf-eb498e8eee87",
+                "text": "le temps de trajet"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "e7488370-1b6e-5fdf-b872-dacc5771b46b",
+                "text": "service charges included"
+              },
+              {
+                "id": "b0d48315-d88c-5a55-991d-b9cf6675a7ac",
+                "text": "a property condition report"
+              },
+              {
+                "id": "87f9030d-02b3-5c2c-823a-5b405e4c149b",
+                "text": "the journey time"
+              }
+            ],
+            "answer_pairs": {
+              "02ae2e0c-ac17-51fc-ac6b-fabf74b52347": "e7488370-1b6e-5fdf-b872-dacc5771b46b",
+              "ee777794-3c6b-596b-a49f-aa7c7165dc96": "b0d48315-d88c-5a55-991d-b9cf6675a7ac",
+              "3b82b6ea-ea40-507a-8caf-eb498e8eee87": "87f9030d-02b3-5c2c-823a-5b405e4c149b"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Nous allons visiter l’appartement demain.\nEnglish meaning: We are going to visit the flat tomorrow.",
+          "data": {
+            "text_fr": "Nous allons visiter l’appartement demain."
+          },
+          "options": [
+            "We visited the flat yesterday.",
+            "We are going to visit the flat today.",
+            "We are going to visit the flat tomorrow."
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: We are going to visit the flat tomorrow.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Nous allons visiter l’appartement demain.",
+          "explanation": "Exact model: Nous allons visiter l’appartement demain.\nMeaning: We are going to visit the flat tomorrow.",
+          "data": {
+            "accepted_answers": [
+              "Nous allons visiter l’appartement demain."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-1-reading",
+      "skill": "reading",
+      "module_title": "Daily life and plans",
+      "title": "Visit a flat: reading",
+      "objective": "Practise A2-targeted reading in the situation: Visit a flat.",
+      "context": "French passage\nNous cherchons un appartement près de l’université. L’agence nous propose une visite demain à quinze heures. Nous allons visiter l’appartement demain. Il est au troisième étage, sans ascenseur. Nous demandons si les charges sont comprises et si le quartier est calme. Après la visite, nous allons comparer les deux annonces. Nous ne prenons pas de décision tout de suite : nous voulons d’abord vérifier le budget et le temps de trajet.\n\nEnglish explanation\nUse aller in the present + an infinitive to describe a plan: nous allons visiter. Conjugate aller, not the second verb. Demain clarifies when the plan will happen. Expressing a plan does not promise it will definitely occur.\nModel: Nous allons visiter l’appartement demain.\nMeaning: We are going to visit the flat tomorrow.\n\nGlossary\ncharges comprises — service charges included\nun état des lieux — a property condition report\nle temps de trajet — the journey time\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Find evidence for the answer in the passage. Distinguish what is stated from what is merely possible.",
+      "vocabulary": [
+        "charges comprises",
+        "un état des lieux",
+        "le temps de trajet"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Why do they delay their decision?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Nous cherchons un appartement près de l’université. L’agence nous propose une visite demain à quinze heures. Nous allons visiter l’appartement demain. Il est au troisième étage, sans ascenseur. Nous demandons si les charges sont comprises et si le quartier est calme. Après la visite, nous allons comparer les deux annonces. Nous ne prenons pas de décision tout de suite : nous voulons d’abord vérifier le budget et le temps de trajet.",
+          "data": {},
+          "options": [
+            "To check their budget and journey time",
+            "Because they have already signed",
+            "Because they refuse every visit"
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Nous ___ visiter l’appartement demain.",
+          "instructions": "Use aller in the present, nous form, to form the near future. Write only the missing form; keep accents.",
+          "explanation": "Use aller in the present + an infinitive to describe a plan: nous allons visiter. Conjugate aller, not the second verb. Demain clarifies when the plan will happen. Expressing a plan does not promise it will definitely occur.",
+          "data": {
+            "accepted_answers": [
+              "allons"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Nous allons visiter l’appartement demain.",
+          "explanation": "Use aller in the present + an infinitive to describe a plan: nous allons visiter. Conjugate aller, not the second verb. Demain clarifies when the plan will happen. Expressing a plan does not promise it will definitely occur.",
+          "data": {
+            "tiles": [
+              {
+                "id": "af2dc0ff-eacc-58c8-aa69-b79cc277d2e4",
+                "text": "Nous"
+              },
+              {
+                "id": "05d4c7d1-6442-5ae3-ae4f-80a0d672c205",
+                "text": "allons"
+              },
+              {
+                "id": "94c6bc3a-2ba2-569f-86aa-a274e2146737",
+                "text": "visiter"
+              },
+              {
+                "id": "01b3b2ad-563b-5472-ac5a-d8fe02efea4e",
+                "text": "l’appartement"
+              },
+              {
+                "id": "ece555da-eba8-519d-88bd-729542915a9d",
+                "text": "demain."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "af2dc0ff-eacc-58c8-aa69-b79cc277d2e4",
+                "05d4c7d1-6442-5ae3-ae4f-80a0d672c205",
+                "94c6bc3a-2ba2-569f-86aa-a274e2146737",
+                "01b3b2ad-563b-5472-ac5a-d8fe02efea4e",
+                "ece555da-eba8-519d-88bd-729542915a9d"
+              ]
+            ],
+            "correct_sentence": "Nous allons visiter l’appartement demain."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "charges comprises — service charges included; un état des lieux — a property condition report; le temps de trajet — the journey time",
+          "data": {
+            "left_items": [
+              {
+                "id": "c35ff9f5-1acb-5f29-b3d0-66e224ce6f91",
+                "text": "charges comprises"
+              },
+              {
+                "id": "0bcc564b-ff49-5bba-948c-9cc92f2d0bef",
+                "text": "un état des lieux"
+              },
+              {
+                "id": "93582737-9ad1-5ba7-9fa7-9291841d3d9f",
+                "text": "le temps de trajet"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "71055a09-a899-59de-8e74-623a70a07d30",
+                "text": "service charges included"
+              },
+              {
+                "id": "2b6c0ccc-2e98-5ac9-b13a-5a14d6e56608",
+                "text": "a property condition report"
+              },
+              {
+                "id": "078eea8b-7d1f-5589-a809-519cbafeef31",
+                "text": "the journey time"
+              }
+            ],
+            "answer_pairs": {
+              "c35ff9f5-1acb-5f29-b3d0-66e224ce6f91": "71055a09-a899-59de-8e74-623a70a07d30",
+              "0bcc564b-ff49-5bba-948c-9cc92f2d0bef": "2b6c0ccc-2e98-5ac9-b13a-5a14d6e56608",
+              "93582737-9ad1-5ba7-9fa7-9291841d3d9f": "078eea8b-7d1f-5589-a809-519cbafeef31"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Nous allons visiter l’appartement demain.\nEnglish meaning: We are going to visit the flat tomorrow.",
+          "data": {
+            "text_fr": "Nous allons visiter l’appartement demain."
+          },
+          "options": [
+            "We are going to visit the flat tomorrow.",
+            "We visited the flat yesterday.",
+            "We are going to visit the flat today."
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: We are going to visit the flat tomorrow.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Nous allons visiter l’appartement demain.",
+          "explanation": "Exact model: Nous allons visiter l’appartement demain.\nMeaning: We are going to visit the flat tomorrow.",
+          "data": {
+            "accepted_answers": [
+              "Nous allons visiter l’appartement demain."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-1-writing",
+      "skill": "writing",
+      "module_title": "Daily life and plans",
+      "title": "Visit a flat: writing",
+      "objective": "Practise A2-targeted writing in the situation: Visit a flat.",
+      "context": "French passage\nNous cherchons un appartement près de l’université. L’agence nous propose une visite demain à quinze heures. Nous allons visiter l’appartement demain. Il est au troisième étage, sans ascenseur. Nous demandons si les charges sont comprises et si le quartier est calme. Après la visite, nous allons comparer les deux annonces. Nous ne prenons pas de décision tout de suite : nous voulons d’abord vérifier le budget et le temps de trajet.\n\nEnglish explanation\nUse aller in the present + an infinitive to describe a plan: nous allons visiter. Conjugate aller, not the second verb. Demain clarifies when the plan will happen. Expressing a plan does not promise it will definitely occur.\nModel: Nous allons visiter l’appartement demain.\nMeaning: We are going to visit the flat tomorrow.\n\nGlossary\ncharges comprises — service charges included\nun état des lieux — a property condition report\nle temps de trajet — the journey time\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nWrite 50–70 French words. Write a short message arranging a flat viewing. Ask about the floor, charges and journey time. Use invented personal details. Feedback is advisory, not CEFR certification.\n\nLesson focus: Plan, draft and reread for task completion, grammatical accuracy, suitable vocabulary and audience.",
+      "vocabulary": [
+        "charges comprises",
+        "un état des lieux",
+        "le temps de trajet"
+      ],
+      "estimated_minutes": 15,
+      "exercises": []
+    },
+    {
+      "key": "module-2-grammar",
+      "skill": "grammar",
+      "module_title": "Past experiences",
+      "title": "Explain yesterday’s journey: grammar",
+      "objective": "Practise A2-targeted grammar in the situation: Explain yesterday’s journey.",
+      "context": "French passage\nHier, j’ai pris le train pour aller à une journée d’accueil. Le premier train est arrivé en retard. J’ai demandé un renseignement à un agent, puis j’ai changé de quai. Enfin, je suis arrivé à l’université. J’ai envoyé un message à mon groupe pour expliquer le retard. La visite du campus a commencé après mon arrivée. Le soir, j’ai raconté cette journée à un ami.\n\nEnglish explanation\nThe passé composé commonly presents completed events: j’ai pris. The past participle of prendre is pris. Arriver uses être here: je suis arrivé / arrivée. The ending with être agrees with the subject. Arrivé is masculine; arrivée is feminine.\nModel: Hier, j’ai pris le train.\nMeaning: Yesterday, I took the train.\n\nGlossary\nen retard — late\nchanger de quai — to change platforms\nun renseignement — a piece of information\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Identify the target form, explain its function, and contrast it with the alternative in the explanation.",
+      "vocabulary": [
+        "en retard",
+        "changer de quai",
+        "un renseignement"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "What delayed the traveller?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Hier, j’ai pris le train pour aller à une journée d’accueil. Le premier train est arrivé en retard. J’ai demandé un renseignement à un agent, puis j’ai changé de quai. Enfin, je suis arrivé à l’université. J’ai envoyé un message à mon groupe pour expliquer le retard. La visite du campus a commencé après mon arrivée. Le soir, j’ai raconté cette journée à un ami.",
+          "data": {},
+          "options": [
+            "The campus visit was cancelled",
+            "The traveller lost a passport",
+            "The first train arrived late"
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Hier, j’ai ___ le train.",
+          "instructions": "Write the past participle of prendre in the passé composé. Write only the missing form; keep accents.",
+          "explanation": "The passé composé commonly presents completed events: j’ai pris. The past participle of prendre is pris. Arriver uses être here: je suis arrivé / arrivée. The ending with être agrees with the subject. Arrivé is masculine; arrivée is feminine.",
+          "data": {
+            "accepted_answers": [
+              "pris"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Hier, j’ai pris le train.",
+          "explanation": "The passé composé commonly presents completed events: j’ai pris. The past participle of prendre is pris. Arriver uses être here: je suis arrivé / arrivée. The ending with être agrees with the subject. Arrivé is masculine; arrivée is feminine.",
+          "data": {
+            "tiles": [
+              {
+                "id": "be9ebee0-bc4c-5c9d-8755-bb18956b2805",
+                "text": "Hier,"
+              },
+              {
+                "id": "33613a1e-ec2a-5797-b481-c268812c10a3",
+                "text": "j’ai"
+              },
+              {
+                "id": "6ee03587-4b8e-5db9-b250-eb1eba28ac60",
+                "text": "pris"
+              },
+              {
+                "id": "b986ce26-5cee-5c4e-a32c-9ebd0c3b541c",
+                "text": "le"
+              },
+              {
+                "id": "d08c7e02-2594-5649-a30d-5657fa4e9b56",
+                "text": "train."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "be9ebee0-bc4c-5c9d-8755-bb18956b2805",
+                "33613a1e-ec2a-5797-b481-c268812c10a3",
+                "6ee03587-4b8e-5db9-b250-eb1eba28ac60",
+                "b986ce26-5cee-5c4e-a32c-9ebd0c3b541c",
+                "d08c7e02-2594-5649-a30d-5657fa4e9b56"
+              ]
+            ],
+            "correct_sentence": "Hier, j’ai pris le train."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "en retard — late; changer de quai — to change platforms; un renseignement — a piece of information",
+          "data": {
+            "left_items": [
+              {
+                "id": "421a5a26-607d-5161-8fdd-70a05a84b54e",
+                "text": "en retard"
+              },
+              {
+                "id": "4abee62b-6902-51e0-befa-5a8c80d0be26",
+                "text": "changer de quai"
+              },
+              {
+                "id": "ac440828-ec24-581a-b656-9276af70c020",
+                "text": "un renseignement"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "ec5f5820-d3a4-5d85-898d-bbe13de37b5c",
+                "text": "late"
+              },
+              {
+                "id": "1b637fd3-132b-5f66-8a41-4047e1ed02b9",
+                "text": "to change platforms"
+              },
+              {
+                "id": "7553adc0-9378-57d7-8baf-30b0944617c7",
+                "text": "a piece of information"
+              }
+            ],
+            "answer_pairs": {
+              "421a5a26-607d-5161-8fdd-70a05a84b54e": "ec5f5820-d3a4-5d85-898d-bbe13de37b5c",
+              "4abee62b-6902-51e0-befa-5a8c80d0be26": "1b637fd3-132b-5f66-8a41-4047e1ed02b9",
+              "ac440828-ec24-581a-b656-9276af70c020": "7553adc0-9378-57d7-8baf-30b0944617c7"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Hier, j’ai pris le train.\nEnglish meaning: Yesterday, I took the train.",
+          "data": {
+            "text_fr": "Hier, j’ai pris le train."
+          },
+          "options": [
+            "Yesterday, I missed the train.",
+            "Tomorrow, I will take the train.",
+            "Yesterday, I took the train."
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: Yesterday, I took the train.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Hier, j’ai pris le train.",
+          "explanation": "Exact model: Hier, j’ai pris le train.\nMeaning: Yesterday, I took the train.",
+          "data": {
+            "accepted_answers": [
+              "Hier, j’ai pris le train."
+            ]
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "slug": "personal-module-2",
+          "title": "A completed past event",
+          "summary": "The passé composé commonly presents completed events: j’ai pris. The past participle of prendre is pris. Arriver uses être here: je suis arrivé / arrivée. The ending with être agrees with the subject. Arrivé is masculine; arrivée is feminine.",
+          "rule_code": "personal-a2-2",
+          "explanation_english": "The passé composé commonly presents completed events: j’ai pris. The past participle of prendre is pris. Arriver uses être here: je suis arrivé / arrivée. The ending with être agrees with the subject. Arrivé is masculine; arrivée is feminine.",
+          "examples": [
+            [
+              "Hier, j’ai pris le train.",
+              "Yesterday, I took the train."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "key": "module-2-vocabulary",
+      "skill": "vocabulary",
+      "module_title": "Past experiences",
+      "title": "Explain yesterday’s journey: vocabulary",
+      "objective": "Practise A2-targeted vocabulary in the situation: Explain yesterday’s journey.",
+      "context": "French passage\nHier, j’ai pris le train pour aller à une journée d’accueil. Le premier train est arrivé en retard. J’ai demandé un renseignement à un agent, puis j’ai changé de quai. Enfin, je suis arrivé à l’université. J’ai envoyé un message à mon groupe pour expliquer le retard. La visite du campus a commencé après mon arrivée. Le soir, j’ai raconté cette journée à un ami.\n\nEnglish explanation\nThe passé composé commonly presents completed events: j’ai pris. The past participle of prendre is pris. Arriver uses être here: je suis arrivé / arrivée. The ending with être agrees with the subject. Arrivé is masculine; arrivée is feminine.\nModel: Hier, j’ai pris le train.\nMeaning: Yesterday, I took the train.\n\nGlossary\nen retard — late\nchanger de quai — to change platforms\nun renseignement — a piece of information\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Read each French definition, match meanings, then use the expressions in your own example.",
+      "vocabulary": [
+        "en retard",
+        "changer de quai",
+        "un renseignement"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Which French expression means “late”?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "Glossary meaning: en retard — late.",
+          "data": {},
+          "options": [
+            "en retard",
+            "changer de quai",
+            "un renseignement"
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Hier, j’ai ___ le train.",
+          "instructions": "Write the past participle of prendre in the passé composé. Write only the missing form; keep accents.",
+          "explanation": "The passé composé commonly presents completed events: j’ai pris. The past participle of prendre is pris. Arriver uses être here: je suis arrivé / arrivée. The ending with être agrees with the subject. Arrivé is masculine; arrivée is feminine.",
+          "data": {
+            "accepted_answers": [
+              "pris"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Hier, j’ai pris le train.",
+          "explanation": "The passé composé commonly presents completed events: j’ai pris. The past participle of prendre is pris. Arriver uses être here: je suis arrivé / arrivée. The ending with être agrees with the subject. Arrivé is masculine; arrivée is feminine.",
+          "data": {
+            "tiles": [
+              {
+                "id": "ec1e5252-90b2-5054-9d2d-c13c4bbb5485",
+                "text": "Hier,"
+              },
+              {
+                "id": "3a5289f8-17a2-581b-a8c3-1393a39b1ad1",
+                "text": "j’ai"
+              },
+              {
+                "id": "1a7375be-2c99-53d1-a789-888ee0a9c684",
+                "text": "pris"
+              },
+              {
+                "id": "64956481-0bc9-5c58-b2b5-5aca962a3a79",
+                "text": "le"
+              },
+              {
+                "id": "d275e58c-20c0-57d0-9594-0642d403e3f0",
+                "text": "train."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "ec1e5252-90b2-5054-9d2d-c13c4bbb5485",
+                "3a5289f8-17a2-581b-a8c3-1393a39b1ad1",
+                "1a7375be-2c99-53d1-a789-888ee0a9c684",
+                "64956481-0bc9-5c58-b2b5-5aca962a3a79",
+                "d275e58c-20c0-57d0-9594-0642d403e3f0"
+              ]
+            ],
+            "correct_sentence": "Hier, j’ai pris le train."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "en retard — late; changer de quai — to change platforms; un renseignement — a piece of information",
+          "data": {
+            "left_items": [
+              {
+                "id": "dc899dd2-f03b-50a6-8f69-4cec0aa92fe2",
+                "text": "en retard"
+              },
+              {
+                "id": "066ff7bc-a85a-5eeb-bd35-718b5f4de510",
+                "text": "changer de quai"
+              },
+              {
+                "id": "94b217c0-0641-52ae-ac9f-b350c8950c52",
+                "text": "un renseignement"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "f9f2a001-2359-54be-bac3-902ea5dcea68",
+                "text": "late"
+              },
+              {
+                "id": "149e76b7-289b-50e8-bbbd-b5169ea40853",
+                "text": "to change platforms"
+              },
+              {
+                "id": "d66d1254-0e22-543a-af3d-6e0a7835f498",
+                "text": "a piece of information"
+              }
+            ],
+            "answer_pairs": {
+              "dc899dd2-f03b-50a6-8f69-4cec0aa92fe2": "f9f2a001-2359-54be-bac3-902ea5dcea68",
+              "066ff7bc-a85a-5eeb-bd35-718b5f4de510": "149e76b7-289b-50e8-bbbd-b5169ea40853",
+              "94b217c0-0641-52ae-ac9f-b350c8950c52": "d66d1254-0e22-543a-af3d-6e0a7835f498"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Hier, j’ai pris le train.\nEnglish meaning: Yesterday, I took the train.",
+          "data": {
+            "text_fr": "Hier, j’ai pris le train."
+          },
+          "options": [
+            "Yesterday, I took the train.",
+            "Yesterday, I missed the train.",
+            "Tomorrow, I will take the train."
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: Yesterday, I took the train.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Hier, j’ai pris le train.",
+          "explanation": "Exact model: Hier, j’ai pris le train.\nMeaning: Yesterday, I took the train.",
+          "data": {
+            "accepted_answers": [
+              "Hier, j’ai pris le train."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-2-reading",
+      "skill": "reading",
+      "module_title": "Past experiences",
+      "title": "Explain yesterday’s journey: reading",
+      "objective": "Practise A2-targeted reading in the situation: Explain yesterday’s journey.",
+      "context": "French passage\nHier, j’ai pris le train pour aller à une journée d’accueil. Le premier train est arrivé en retard. J’ai demandé un renseignement à un agent, puis j’ai changé de quai. Enfin, je suis arrivé à l’université. J’ai envoyé un message à mon groupe pour expliquer le retard. La visite du campus a commencé après mon arrivée. Le soir, j’ai raconté cette journée à un ami.\n\nEnglish explanation\nThe passé composé commonly presents completed events: j’ai pris. The past participle of prendre is pris. Arriver uses être here: je suis arrivé / arrivée. The ending with être agrees with the subject. Arrivé is masculine; arrivée is feminine.\nModel: Hier, j’ai pris le train.\nMeaning: Yesterday, I took the train.\n\nGlossary\nen retard — late\nchanger de quai — to change platforms\nun renseignement — a piece of information\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Find evidence for the answer in the passage. Distinguish what is stated from what is merely possible.",
+      "vocabulary": [
+        "en retard",
+        "changer de quai",
+        "un renseignement"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "What delayed the traveller?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Hier, j’ai pris le train pour aller à une journée d’accueil. Le premier train est arrivé en retard. J’ai demandé un renseignement à un agent, puis j’ai changé de quai. Enfin, je suis arrivé à l’université. J’ai envoyé un message à mon groupe pour expliquer le retard. La visite du campus a commencé après mon arrivée. Le soir, j’ai raconté cette journée à un ami.",
+          "data": {},
+          "options": [
+            "The campus visit was cancelled",
+            "The first train arrived late",
+            "The traveller lost a passport"
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Hier, j’ai ___ le train.",
+          "instructions": "Write the past participle of prendre in the passé composé. Write only the missing form; keep accents.",
+          "explanation": "The passé composé commonly presents completed events: j’ai pris. The past participle of prendre is pris. Arriver uses être here: je suis arrivé / arrivée. The ending with être agrees with the subject. Arrivé is masculine; arrivée is feminine.",
+          "data": {
+            "accepted_answers": [
+              "pris"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Hier, j’ai pris le train.",
+          "explanation": "The passé composé commonly presents completed events: j’ai pris. The past participle of prendre is pris. Arriver uses être here: je suis arrivé / arrivée. The ending with être agrees with the subject. Arrivé is masculine; arrivée is feminine.",
+          "data": {
+            "tiles": [
+              {
+                "id": "692529a1-eff1-5e09-a3be-705f856607e3",
+                "text": "Hier,"
+              },
+              {
+                "id": "60fba54b-0217-5c23-9dca-eff06518534d",
+                "text": "j’ai"
+              },
+              {
+                "id": "728dd8e3-f961-5dd9-9295-8e7a35ec6c01",
+                "text": "pris"
+              },
+              {
+                "id": "a82ac1c7-1b63-52f1-93e7-84bc2dbe0f4b",
+                "text": "le"
+              },
+              {
+                "id": "84b1ef5c-3636-52e0-91c2-6086203b70e9",
+                "text": "train."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "692529a1-eff1-5e09-a3be-705f856607e3",
+                "60fba54b-0217-5c23-9dca-eff06518534d",
+                "728dd8e3-f961-5dd9-9295-8e7a35ec6c01",
+                "a82ac1c7-1b63-52f1-93e7-84bc2dbe0f4b",
+                "84b1ef5c-3636-52e0-91c2-6086203b70e9"
+              ]
+            ],
+            "correct_sentence": "Hier, j’ai pris le train."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "en retard — late; changer de quai — to change platforms; un renseignement — a piece of information",
+          "data": {
+            "left_items": [
+              {
+                "id": "068df4c4-f533-592e-8642-8e2ad4d914fe",
+                "text": "en retard"
+              },
+              {
+                "id": "56557ef4-3d97-556e-9b44-f07fdbb89976",
+                "text": "changer de quai"
+              },
+              {
+                "id": "85d886a9-7ca0-5af5-a4bf-b24a2ffd837e",
+                "text": "un renseignement"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "1edf17e3-5add-54b2-9719-e45bb4234a65",
+                "text": "late"
+              },
+              {
+                "id": "5f89174e-2b59-5eab-8f79-ad42a323abd4",
+                "text": "to change platforms"
+              },
+              {
+                "id": "39b0f95b-950f-551d-aa1d-6f547997163b",
+                "text": "a piece of information"
+              }
+            ],
+            "answer_pairs": {
+              "068df4c4-f533-592e-8642-8e2ad4d914fe": "1edf17e3-5add-54b2-9719-e45bb4234a65",
+              "56557ef4-3d97-556e-9b44-f07fdbb89976": "5f89174e-2b59-5eab-8f79-ad42a323abd4",
+              "85d886a9-7ca0-5af5-a4bf-b24a2ffd837e": "39b0f95b-950f-551d-aa1d-6f547997163b"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Hier, j’ai pris le train.\nEnglish meaning: Yesterday, I took the train.",
+          "data": {
+            "text_fr": "Hier, j’ai pris le train."
+          },
+          "options": [
+            "Yesterday, I missed the train.",
+            "Yesterday, I took the train.",
+            "Tomorrow, I will take the train."
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: Yesterday, I took the train.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Hier, j’ai pris le train.",
+          "explanation": "Exact model: Hier, j’ai pris le train.\nMeaning: Yesterday, I took the train.",
+          "data": {
+            "accepted_answers": [
+              "Hier, j’ai pris le train."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-2-writing",
+      "skill": "writing",
+      "module_title": "Past experiences",
+      "title": "Explain yesterday’s journey: writing",
+      "objective": "Practise A2-targeted writing in the situation: Explain yesterday’s journey.",
+      "context": "French passage\nHier, j’ai pris le train pour aller à une journée d’accueil. Le premier train est arrivé en retard. J’ai demandé un renseignement à un agent, puis j’ai changé de quai. Enfin, je suis arrivé à l’université. J’ai envoyé un message à mon groupe pour expliquer le retard. La visite du campus a commencé après mon arrivée. Le soir, j’ai raconté cette journée à un ami.\n\nEnglish explanation\nThe passé composé commonly presents completed events: j’ai pris. The past participle of prendre is pris. Arriver uses être here: je suis arrivé / arrivée. The ending with être agrees with the subject. Arrivé is masculine; arrivée is feminine.\nModel: Hier, j’ai pris le train.\nMeaning: Yesterday, I took the train.\n\nGlossary\nen retard — late\nchanger de quai — to change platforms\nun renseignement — a piece of information\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nWrite 50–70 French words. Write a short account of a delayed journey. Say what happened first, next and finally. Use invented personal details. Feedback is advisory, not CEFR certification.\n\nLesson focus: Plan, draft and reread for task completion, grammatical accuracy, suitable vocabulary and audience.",
+      "vocabulary": [
+        "en retard",
+        "changer de quai",
+        "un renseignement"
+      ],
+      "estimated_minutes": 15,
+      "exercises": []
+    },
+    {
+      "key": "module-3-grammar",
+      "skill": "grammar",
+      "module_title": "Travel and services",
+      "title": "Ask at a ticket office: grammar",
+      "objective": "Practise A2-targeted grammar in the situation: Ask at a ticket office.",
+      "context": "French passage\nÀ la gare, je vois deux guichets. Je choisis le guichet qui vend des billets. Je demande un aller-retour pour samedi. L’agent me propose un départ à neuf heures et un retour à dix-huit heures. Je préfère un train direct. Avant de payer, je vérifie la date et l’heure sur l’écran. L’agent explique où changer de train si je choisis une autre option. Je garde mon billet et le reçu.\n\nEnglish explanation\nQui replaces the subject in a relative clause: un guichet qui vend des billets. Que replaces a direct object: le billet que je garde. The verb agrees with the antecedent: des guichets qui vendent. Both pronouns can refer to things, but their grammatical functions differ.\nModel: C’est un guichet qui vend des billets.\nMeaning: It is a ticket office that sells tickets.\n\nGlossary\nun aller-retour — a return ticket\nun train direct — a direct train\navant de payer — before paying\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Identify the target form, explain its function, and contrast it with the alternative in the explanation.",
+      "vocabulary": [
+        "un aller-retour",
+        "un train direct",
+        "avant de payer"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "What kind of train does the traveller prefer?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: À la gare, je vois deux guichets. Je choisis le guichet qui vend des billets. Je demande un aller-retour pour samedi. L’agent me propose un départ à neuf heures et un retour à dix-huit heures. Je préfère un train direct. Avant de payer, je vérifie la date et l’heure sur l’écran. L’agent explique où changer de train si je choisis une autre option. Je garde mon billet et le reçu.",
+          "data": {},
+          "options": [
+            "A direct train",
+            "A train with three changes",
+            "A train on a different date"
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "C’est un guichet ___ vend des billets.",
+          "instructions": "Choose qui or que: the relative pronoun is the subject of vend. Write only the missing form; keep accents.",
+          "explanation": "Qui replaces the subject in a relative clause: un guichet qui vend des billets. Que replaces a direct object: le billet que je garde. The verb agrees with the antecedent: des guichets qui vendent. Both pronouns can refer to things, but their grammatical functions differ.",
+          "data": {
+            "accepted_answers": [
+              "qui"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: C’est un guichet qui vend des billets.",
+          "explanation": "Qui replaces the subject in a relative clause: un guichet qui vend des billets. Que replaces a direct object: le billet que je garde. The verb agrees with the antecedent: des guichets qui vendent. Both pronouns can refer to things, but their grammatical functions differ.",
+          "data": {
+            "tiles": [
+              {
+                "id": "18436d1f-d159-5386-8264-dd6c640ed1d6",
+                "text": "C’est"
+              },
+              {
+                "id": "477a1a42-3b94-57a2-87ec-0bd1fdf9f30f",
+                "text": "un"
+              },
+              {
+                "id": "cbe3bdbc-8b18-57a0-8bc8-a3ada5e5049b",
+                "text": "guichet"
+              },
+              {
+                "id": "2e9b4f05-8e70-5d29-bf34-2d1f32deeb36",
+                "text": "qui"
+              },
+              {
+                "id": "9ca068a1-131c-5b1f-87b9-50cba88e86c9",
+                "text": "vend"
+              },
+              {
+                "id": "1cb6073a-2f8a-56b5-9dd9-1f14c26e4ddf",
+                "text": "des"
+              },
+              {
+                "id": "be25ec6f-a7ce-5491-8b6a-d2b4f52d00d2",
+                "text": "billets."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "18436d1f-d159-5386-8264-dd6c640ed1d6",
+                "477a1a42-3b94-57a2-87ec-0bd1fdf9f30f",
+                "cbe3bdbc-8b18-57a0-8bc8-a3ada5e5049b",
+                "2e9b4f05-8e70-5d29-bf34-2d1f32deeb36",
+                "9ca068a1-131c-5b1f-87b9-50cba88e86c9",
+                "1cb6073a-2f8a-56b5-9dd9-1f14c26e4ddf",
+                "be25ec6f-a7ce-5491-8b6a-d2b4f52d00d2"
+              ]
+            ],
+            "correct_sentence": "C’est un guichet qui vend des billets."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "un aller-retour — a return ticket; un train direct — a direct train; avant de payer — before paying",
+          "data": {
+            "left_items": [
+              {
+                "id": "f97db237-0705-51d9-94ba-35047c75795e",
+                "text": "un aller-retour"
+              },
+              {
+                "id": "a6b78e2c-f950-574f-b698-0b73f410c75e",
+                "text": "un train direct"
+              },
+              {
+                "id": "1fa04a3e-2dcf-5717-8e65-36e21a3dc65c",
+                "text": "avant de payer"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "038ea982-6b05-5835-b0a2-2b1d01fc6f0e",
+                "text": "a return ticket"
+              },
+              {
+                "id": "f2a4855a-73a3-5cf1-8e3c-b06789052668",
+                "text": "a direct train"
+              },
+              {
+                "id": "38413dee-42e8-512c-9522-26295911bc2f",
+                "text": "before paying"
+              }
+            ],
+            "answer_pairs": {
+              "f97db237-0705-51d9-94ba-35047c75795e": "038ea982-6b05-5835-b0a2-2b1d01fc6f0e",
+              "a6b78e2c-f950-574f-b698-0b73f410c75e": "f2a4855a-73a3-5cf1-8e3c-b06789052668",
+              "1fa04a3e-2dcf-5717-8e65-36e21a3dc65c": "38413dee-42e8-512c-9522-26295911bc2f"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: C’est un guichet qui vend des billets.\nEnglish meaning: It is a ticket office that sells tickets.",
+          "data": {
+            "text_fr": "C’est un guichet qui vend des billets."
+          },
+          "options": [
+            "It is a ticket office that sells tickets.",
+            "It is a ticket office that checks tickets.",
+            "It is a ticket office that exchanges tickets."
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: It is a ticket office that sells tickets.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: C’est un guichet qui vend des billets.",
+          "explanation": "Exact model: C’est un guichet qui vend des billets.\nMeaning: It is a ticket office that sells tickets.",
+          "data": {
+            "accepted_answers": [
+              "C’est un guichet qui vend des billets."
+            ]
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "slug": "personal-module-3",
+          "title": "Qui as a relative subject",
+          "summary": "Qui replaces the subject in a relative clause: un guichet qui vend des billets. Que replaces a direct object: le billet que je garde. The verb agrees with the antecedent: des guichets qui vendent. Both pronouns can refer to things, but their grammatical functions differ.",
+          "rule_code": "personal-a2-3",
+          "explanation_english": "Qui replaces the subject in a relative clause: un guichet qui vend des billets. Que replaces a direct object: le billet que je garde. The verb agrees with the antecedent: des guichets qui vendent. Both pronouns can refer to things, but their grammatical functions differ.",
+          "examples": [
+            [
+              "C’est un guichet qui vend des billets.",
+              "It is a ticket office that sells tickets."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "key": "module-3-vocabulary",
+      "skill": "vocabulary",
+      "module_title": "Travel and services",
+      "title": "Ask at a ticket office: vocabulary",
+      "objective": "Practise A2-targeted vocabulary in the situation: Ask at a ticket office.",
+      "context": "French passage\nÀ la gare, je vois deux guichets. Je choisis le guichet qui vend des billets. Je demande un aller-retour pour samedi. L’agent me propose un départ à neuf heures et un retour à dix-huit heures. Je préfère un train direct. Avant de payer, je vérifie la date et l’heure sur l’écran. L’agent explique où changer de train si je choisis une autre option. Je garde mon billet et le reçu.\n\nEnglish explanation\nQui replaces the subject in a relative clause: un guichet qui vend des billets. Que replaces a direct object: le billet que je garde. The verb agrees with the antecedent: des guichets qui vendent. Both pronouns can refer to things, but their grammatical functions differ.\nModel: C’est un guichet qui vend des billets.\nMeaning: It is a ticket office that sells tickets.\n\nGlossary\nun aller-retour — a return ticket\nun train direct — a direct train\navant de payer — before paying\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Read each French definition, match meanings, then use the expressions in your own example.",
+      "vocabulary": [
+        "un aller-retour",
+        "un train direct",
+        "avant de payer"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Which French expression means “a return ticket”?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "Glossary meaning: un aller-retour — a return ticket.",
+          "data": {},
+          "options": [
+            "un train direct",
+            "un aller-retour",
+            "avant de payer"
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "C’est un guichet ___ vend des billets.",
+          "instructions": "Choose qui or que: the relative pronoun is the subject of vend. Write only the missing form; keep accents.",
+          "explanation": "Qui replaces the subject in a relative clause: un guichet qui vend des billets. Que replaces a direct object: le billet que je garde. The verb agrees with the antecedent: des guichets qui vendent. Both pronouns can refer to things, but their grammatical functions differ.",
+          "data": {
+            "accepted_answers": [
+              "qui"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: C’est un guichet qui vend des billets.",
+          "explanation": "Qui replaces the subject in a relative clause: un guichet qui vend des billets. Que replaces a direct object: le billet que je garde. The verb agrees with the antecedent: des guichets qui vendent. Both pronouns can refer to things, but their grammatical functions differ.",
+          "data": {
+            "tiles": [
+              {
+                "id": "60cdffb7-ab38-5008-bff7-b7a81dec29ae",
+                "text": "C’est"
+              },
+              {
+                "id": "ef9db7ce-d33e-59ee-9b32-69f5744f77ee",
+                "text": "un"
+              },
+              {
+                "id": "2fbdc62f-e5c0-5347-bc7c-b77eb4b5298e",
+                "text": "guichet"
+              },
+              {
+                "id": "af4a7ecc-914b-5cfd-8b59-03ebf93275d4",
+                "text": "qui"
+              },
+              {
+                "id": "dddb1dd0-b9c3-501d-8e82-71d2830741ed",
+                "text": "vend"
+              },
+              {
+                "id": "a7e5b1c9-5640-5e4f-a4c3-345713fc862b",
+                "text": "des"
+              },
+              {
+                "id": "6b62ef67-bd85-5c4f-aa72-72c8cee56d47",
+                "text": "billets."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "60cdffb7-ab38-5008-bff7-b7a81dec29ae",
+                "ef9db7ce-d33e-59ee-9b32-69f5744f77ee",
+                "2fbdc62f-e5c0-5347-bc7c-b77eb4b5298e",
+                "af4a7ecc-914b-5cfd-8b59-03ebf93275d4",
+                "dddb1dd0-b9c3-501d-8e82-71d2830741ed",
+                "a7e5b1c9-5640-5e4f-a4c3-345713fc862b",
+                "6b62ef67-bd85-5c4f-aa72-72c8cee56d47"
+              ]
+            ],
+            "correct_sentence": "C’est un guichet qui vend des billets."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "un aller-retour — a return ticket; un train direct — a direct train; avant de payer — before paying",
+          "data": {
+            "left_items": [
+              {
+                "id": "f1476268-c168-5fe4-8ee7-7c1521ce572a",
+                "text": "un aller-retour"
+              },
+              {
+                "id": "310bef03-59b6-52ef-b9c7-14b2a5a8177b",
+                "text": "un train direct"
+              },
+              {
+                "id": "7aff1aaf-2e6a-5c4f-995f-d0b895e4e5fc",
+                "text": "avant de payer"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "d6ea89e7-9e0d-59fd-8485-b44fc3bdd0a1",
+                "text": "a return ticket"
+              },
+              {
+                "id": "7e126f2e-990a-5fa9-ae75-3f5f5f75f69d",
+                "text": "a direct train"
+              },
+              {
+                "id": "6b1ad855-01b8-58c5-96fe-34e454087816",
+                "text": "before paying"
+              }
+            ],
+            "answer_pairs": {
+              "f1476268-c168-5fe4-8ee7-7c1521ce572a": "d6ea89e7-9e0d-59fd-8485-b44fc3bdd0a1",
+              "310bef03-59b6-52ef-b9c7-14b2a5a8177b": "7e126f2e-990a-5fa9-ae75-3f5f5f75f69d",
+              "7aff1aaf-2e6a-5c4f-995f-d0b895e4e5fc": "6b1ad855-01b8-58c5-96fe-34e454087816"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: C’est un guichet qui vend des billets.\nEnglish meaning: It is a ticket office that sells tickets.",
+          "data": {
+            "text_fr": "C’est un guichet qui vend des billets."
+          },
+          "options": [
+            "It is a ticket office that checks tickets.",
+            "It is a ticket office that sells tickets.",
+            "It is a ticket office that exchanges tickets."
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: It is a ticket office that sells tickets.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: C’est un guichet qui vend des billets.",
+          "explanation": "Exact model: C’est un guichet qui vend des billets.\nMeaning: It is a ticket office that sells tickets.",
+          "data": {
+            "accepted_answers": [
+              "C’est un guichet qui vend des billets."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-3-reading",
+      "skill": "reading",
+      "module_title": "Travel and services",
+      "title": "Ask at a ticket office: reading",
+      "objective": "Practise A2-targeted reading in the situation: Ask at a ticket office.",
+      "context": "French passage\nÀ la gare, je vois deux guichets. Je choisis le guichet qui vend des billets. Je demande un aller-retour pour samedi. L’agent me propose un départ à neuf heures et un retour à dix-huit heures. Je préfère un train direct. Avant de payer, je vérifie la date et l’heure sur l’écran. L’agent explique où changer de train si je choisis une autre option. Je garde mon billet et le reçu.\n\nEnglish explanation\nQui replaces the subject in a relative clause: un guichet qui vend des billets. Que replaces a direct object: le billet que je garde. The verb agrees with the antecedent: des guichets qui vendent. Both pronouns can refer to things, but their grammatical functions differ.\nModel: C’est un guichet qui vend des billets.\nMeaning: It is a ticket office that sells tickets.\n\nGlossary\nun aller-retour — a return ticket\nun train direct — a direct train\navant de payer — before paying\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Find evidence for the answer in the passage. Distinguish what is stated from what is merely possible.",
+      "vocabulary": [
+        "un aller-retour",
+        "un train direct",
+        "avant de payer"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "What kind of train does the traveller prefer?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: À la gare, je vois deux guichets. Je choisis le guichet qui vend des billets. Je demande un aller-retour pour samedi. L’agent me propose un départ à neuf heures et un retour à dix-huit heures. Je préfère un train direct. Avant de payer, je vérifie la date et l’heure sur l’écran. L’agent explique où changer de train si je choisis une autre option. Je garde mon billet et le reçu.",
+          "data": {},
+          "options": [
+            "A train with three changes",
+            "A train on a different date",
+            "A direct train"
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "C’est un guichet ___ vend des billets.",
+          "instructions": "Choose qui or que: the relative pronoun is the subject of vend. Write only the missing form; keep accents.",
+          "explanation": "Qui replaces the subject in a relative clause: un guichet qui vend des billets. Que replaces a direct object: le billet que je garde. The verb agrees with the antecedent: des guichets qui vendent. Both pronouns can refer to things, but their grammatical functions differ.",
+          "data": {
+            "accepted_answers": [
+              "qui"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: C’est un guichet qui vend des billets.",
+          "explanation": "Qui replaces the subject in a relative clause: un guichet qui vend des billets. Que replaces a direct object: le billet que je garde. The verb agrees with the antecedent: des guichets qui vendent. Both pronouns can refer to things, but their grammatical functions differ.",
+          "data": {
+            "tiles": [
+              {
+                "id": "04d36807-2ea9-5463-91c7-195c54498f6d",
+                "text": "C’est"
+              },
+              {
+                "id": "26b6c0db-df45-51e4-9879-ffa51ced9f05",
+                "text": "un"
+              },
+              {
+                "id": "c5c84772-6c8a-52cf-b83b-3af1d6b89a44",
+                "text": "guichet"
+              },
+              {
+                "id": "793f0a80-b519-56af-8386-0feed7ae49d8",
+                "text": "qui"
+              },
+              {
+                "id": "c11b02c2-7242-54f2-8e47-f429be6254c7",
+                "text": "vend"
+              },
+              {
+                "id": "fbb46055-41f6-55ea-a0c0-716e576f1418",
+                "text": "des"
+              },
+              {
+                "id": "ecc8635e-4f07-596e-a76f-8bc176216374",
+                "text": "billets."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "04d36807-2ea9-5463-91c7-195c54498f6d",
+                "26b6c0db-df45-51e4-9879-ffa51ced9f05",
+                "c5c84772-6c8a-52cf-b83b-3af1d6b89a44",
+                "793f0a80-b519-56af-8386-0feed7ae49d8",
+                "c11b02c2-7242-54f2-8e47-f429be6254c7",
+                "fbb46055-41f6-55ea-a0c0-716e576f1418",
+                "ecc8635e-4f07-596e-a76f-8bc176216374"
+              ]
+            ],
+            "correct_sentence": "C’est un guichet qui vend des billets."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "un aller-retour — a return ticket; un train direct — a direct train; avant de payer — before paying",
+          "data": {
+            "left_items": [
+              {
+                "id": "eb291ed4-c049-5f8f-931f-573e14ba833e",
+                "text": "un aller-retour"
+              },
+              {
+                "id": "60b7332f-1bd7-502a-823b-12e367dfe5d9",
+                "text": "un train direct"
+              },
+              {
+                "id": "98fae5fc-ac06-5c01-91bf-a5438ecb6241",
+                "text": "avant de payer"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "38423192-dca1-5004-be8a-75b9b139fce7",
+                "text": "a return ticket"
+              },
+              {
+                "id": "25f5d034-4d6d-57a4-be0f-97ace7f84992",
+                "text": "a direct train"
+              },
+              {
+                "id": "965cd102-6f7a-505b-9894-9faec994f920",
+                "text": "before paying"
+              }
+            ],
+            "answer_pairs": {
+              "eb291ed4-c049-5f8f-931f-573e14ba833e": "38423192-dca1-5004-be8a-75b9b139fce7",
+              "60b7332f-1bd7-502a-823b-12e367dfe5d9": "25f5d034-4d6d-57a4-be0f-97ace7f84992",
+              "98fae5fc-ac06-5c01-91bf-a5438ecb6241": "965cd102-6f7a-505b-9894-9faec994f920"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: C’est un guichet qui vend des billets.\nEnglish meaning: It is a ticket office that sells tickets.",
+          "data": {
+            "text_fr": "C’est un guichet qui vend des billets."
+          },
+          "options": [
+            "It is a ticket office that checks tickets.",
+            "It is a ticket office that exchanges tickets.",
+            "It is a ticket office that sells tickets."
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: It is a ticket office that sells tickets.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: C’est un guichet qui vend des billets.",
+          "explanation": "Exact model: C’est un guichet qui vend des billets.\nMeaning: It is a ticket office that sells tickets.",
+          "data": {
+            "accepted_answers": [
+              "C’est un guichet qui vend des billets."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-3-writing",
+      "skill": "writing",
+      "module_title": "Travel and services",
+      "title": "Ask at a ticket office: writing",
+      "objective": "Practise A2-targeted writing in the situation: Ask at a ticket office.",
+      "context": "French passage\nÀ la gare, je vois deux guichets. Je choisis le guichet qui vend des billets. Je demande un aller-retour pour samedi. L’agent me propose un départ à neuf heures et un retour à dix-huit heures. Je préfère un train direct. Avant de payer, je vérifie la date et l’heure sur l’écran. L’agent explique où changer de train si je choisis une autre option. Je garde mon billet et le reçu.\n\nEnglish explanation\nQui replaces the subject in a relative clause: un guichet qui vend des billets. Que replaces a direct object: le billet que je garde. The verb agrees with the antecedent: des guichets qui vendent. Both pronouns can refer to things, but their grammatical functions differ.\nModel: C’est un guichet qui vend des billets.\nMeaning: It is a ticket office that sells tickets.\n\nGlossary\nun aller-retour — a return ticket\nun train direct — a direct train\navant de payer — before paying\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nWrite 50–70 French words. Write a simple ticket request. Specify a day, outward and return times, and whether you want a direct train. Use invented personal details. Feedback is advisory, not CEFR certification.\n\nLesson focus: Plan, draft and reread for task completion, grammatical accuracy, suitable vocabulary and audience.",
+      "vocabulary": [
+        "un aller-retour",
+        "un train direct",
+        "avant de payer"
+      ],
+      "estimated_minutes": 15,
+      "exercises": []
+    }
+  ]
+}

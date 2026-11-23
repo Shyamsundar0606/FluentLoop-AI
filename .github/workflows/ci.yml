@@ -7,6 +7,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      # The launcher integration test starts the pinned Next server in a
+      # disposable project. Jobs have separate filesystems: the frontend job's
+      # npm install is not available to this backend job.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - name: Install pinned frontend for launcher integration test
+        working-directory: frontend
+        run: npm ci
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'

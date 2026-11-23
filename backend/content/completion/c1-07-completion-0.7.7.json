@@ -1,0 +1,225 @@
+{
+  "version": "0.7.7",
+  "level": "C1",
+  "status": "draft",
+  "source_license": "Original AI-assisted module drafts. Qualified independent linguistic, pedagogical, phonetic, answer-key and CEFR reviews pending.",
+  "tasks": [
+    {
+      "key": "read-and-notice",
+      "skill": "grammar",
+      "title": "Use reformulation and emphasis to qualify a commitment: read and notice",
+      "objective": "Separate commitment to an action under one’s control from a conditional outcome. Même en l’absence de maintains the information commitment across alternatives; reformulation must preserve this modal structure.",
+      "context": "Une cheffe de projet doit expliquer un retard sans en minimiser les effets ni promettre une date qu’elle ne maîtrise pas. Son premier brouillon dit : « Nous livrerons dès que possible. » Cette formule peut paraître rassurante, mais elle ne fournit ni étape vérifiable ni limite de l’engagement. Le second précise que les tests commenceront lundi si le composant attendu arrive vendredi, puis qu’un point sera envoyé mardi même en l’absence de livraison. La responsabilité de l’information est ainsi distinguée de la maîtrise de tous les événements. À l’oral, l’insistance sur « même en l’absence de livraison » peut rendre cette différence perceptible. Une prosodie expressive ne remplace pourtant pas la précision du contenu : elle doit soutenir une distinction déjà intelligible, non produire une certitude que les mots refusent.",
+      "vocabulary": [
+        "un engagement dont on maîtrise l’exécution",
+        "une étape réellement vérifiable",
+        "préserver la portée de la condition"
+      ],
+      "exercises": [
+        {
+          "key": "read-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which commitment is independent of the delivery condition?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Sending the Tuesday update. Source: Une cheffe de projet doit expliquer un retard sans en minimiser les effets ni promettre une date qu’elle ne maîtrise pas. Son premier brouillon dit : « Nous livrerons dès que possible. » Cette formule peut paraître rassurante, mais elle ne fournit ni étape vérifiable ni limite de l’engagement. Le second précise que les tests commenceront lundi si le composant attendu arrive vendredi, puis qu’un point sera envoyé mardi même en l’absence de livraison. La responsabilité de l’information est ainsi distinguée de la maîtrise de tous les événements. À l’oral, l’insistance sur « même en l’absence de livraison » peut rendre cette différence perceptible. Une prosodie expressive ne remplace pourtant pas la précision du contenu : elle doit soutenir une distinction déjà intelligible, non produire une certitude que les mots refusent.",
+          "options": [
+            "Completing every test Monday",
+            "Sending the Tuesday update",
+            "Guaranteeing Friday delivery"
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "grammar-scope",
+          "type": "multiple_choice",
+          "prompt": "What does même si preserve in the model?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Separate commitment to an action under one’s control from a conditional outcome. Même en l’absence de maintains the information commitment across alternatives; reformulation must preserve this modal structure.",
+          "options": [
+            "The update depends on successful delivery",
+            "Delivery is guaranteed",
+            "The update will be sent under either delivery outcome"
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "contextual-vocabulary",
+          "type": "matching",
+          "prompt": "Match the contextual expressions with their meanings.",
+          "instructions": "Use each meaning once; these are contextual definitions.",
+          "explanation": "un engagement dont on maîtrise l’exécution — a commitment whose execution one controls; une étape réellement vérifiable — a genuinely verifiable step; préserver la portée de la condition — to preserve the condition’s scope",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "8ad796b0-7702-5d8a-be65-ebe0ec1e43ed",
+                "text": "un engagement dont on maîtrise l’exécution"
+              },
+              {
+                "id": "a6d1752d-3e69-5c35-ba17-21666ba391b9",
+                "text": "une étape réellement vérifiable"
+              },
+              {
+                "id": "e7b8a961-905f-55fb-83c2-cf13878b7a51",
+                "text": "préserver la portée de la condition"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "b3ec2bd5-4746-55f1-a720-bda4ce4ceb7b",
+                "text": "to preserve the condition’s scope"
+              },
+              {
+                "id": "4c6e3aa6-1387-5caf-8de7-173fd97e3b02",
+                "text": "a genuinely verifiable step"
+              },
+              {
+                "id": "b8177bbd-f8bd-5563-8d16-527ad7978271",
+                "text": "a commitment whose execution one controls"
+              }
+            ],
+            "answer_pairs": {
+              "8ad796b0-7702-5d8a-be65-ebe0ec1e43ed": "b8177bbd-f8bd-5563-8d16-527ad7978271",
+              "a6d1752d-3e69-5c35-ba17-21666ba391b9": "4c6e3aa6-1387-5caf-8de7-173fd97e3b02",
+              "e7b8a961-905f-55fb-83c2-cf13878b7a51": "b3ec2bd5-4746-55f1-a720-bda4ce4ceb7b"
+            }
+          }
+        }
+      ],
+      "module_title": "Use reformulation and emphasis to qualify a commitment",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "completion-c1-07",
+          "title": "Use reformulation and emphasis to qualify a commitment",
+          "summary": "Separate commitment to an action under one’s control from a conditional outcome. Même en l’absence de maintains the information commitment across alternatives; reformulation must preserve this modal structure.",
+          "rule_code": "completion-c1-07",
+          "explanation_english": "Separate commitment to an action under one’s control from a conditional outcome. Même en l’absence de maintains the information commitment across alternatives; reformulation must preserve this modal structure.",
+          "examples": [
+            [
+              "Nous confirmerons l’état des tests mardi, même si la livraison n’a pas eu lieu.",
+              "We will confirm the test status on Tuesday even if delivery has not taken place."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "listen-and-integrate",
+      "skill": "reading",
+      "title": "Use reformulation and emphasis to qualify a commitment: listen and integrate",
+      "objective": "Identify details, stance and limits of commitment in the scripted exchange, then integrate both sources.",
+      "context": "Original scripted exchange for listening and transcript-assisted review. One synthetic voice may perform every role; this does not demonstrate spontaneous multi-speaker comprehension.\n\nCliente : Donc vous me garantissez une livraison mardi ? Cheffe de projet : Non : je garantis un point mardi. Si le composant arrive vendredi, nous lancerons les tests lundi. Cliente : Et s’il n’arrive pas ? Cheffe de projet : Vous aurez tout de même un état précis et la prochaine étape ; je ne veux pas transformer cette obligation d’information en promesse de livraison.",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "listen-position",
+          "type": "listening",
+          "prompt": "What misunderstanding is repaired?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "An information deadline was heard as a delivery guarantee. Script: Cliente : Donc vous me garantissez une livraison mardi ? Cheffe de projet : Non : je garantis un point mardi. Si le composant arrive vendredi, nous lancerons les tests lundi. Cliente : Et s’il n’arrive pas ? Cheffe de projet : Vous aurez tout de même un état précis et la prochaine étape ; je ne veux pas transformer cette obligation d’information en promesse de livraison.",
+          "options": [
+            "An information deadline was heard as a delivery guarantee",
+            "The client denied wanting any information",
+            "Testing had already finished"
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Cliente : Donc vous me garantissez une livraison mardi ? Cheffe de projet : Non : je garantis un point mardi. Si le composant arrive vendredi, nous lancerons les tests lundi. Cliente : Et s’il n’arrive pas ? Cheffe de projet : Vous aurez tout de même un état précis et la prochaine étape ; je ne veux pas transformer cette obligation d’information en promesse de livraison."
+          }
+        },
+        {
+          "key": "integrate-sources",
+          "type": "multiple_choice",
+          "prompt": "Which oral strategy preserves precision?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Contrast point mardi with livraison mardi, then restate the condition. Compare the reading and listening sources.",
+          "options": [
+            "Stress mardi to imply guaranteed delivery",
+            "Replace every condition by a confident slogan",
+            "Contrast point mardi with livraison mardi, then restate the condition"
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "locate-phrase",
+          "type": "short_answer",
+          "prompt": "Copy the phrase naming the commitment explicitly rejected.",
+          "instructions": "Transcript available in this lesson: copy the exact requested phrase. This item checks location/spelling, not open-ended interpretation.",
+          "explanation": "Exact source phrase: promesse de livraison",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "promesse de livraison"
+            ]
+          }
+        }
+      ],
+      "module_title": "Use reformulation and emphasis to qualify a commitment",
+      "estimated_minutes": 25,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice"
+      ]
+    },
+    {
+      "key": "transfer-and-assess",
+      "skill": "writing",
+      "title": "Use reformulation and emphasis to qualify a commitment: transfer and assess",
+      "objective": "Transfer the module language to an unfamiliar situation and review comprehension, writing and interaction separately.",
+      "context": "Prepare a 300-word professional update with a controlled commitment and an uncertain outcome. Record two versions, changing pauses and emphasis while preserving the facts. Explain which contrast you wanted the listener to hear. Ask the Tutor to misinterpret the promise and repair it. A transcript cannot evaluate prosody; human listening is required for that criterion.\n\nRevision: retrieve the three contextual expressions without the model on a later day; correct saved errors and reuse them in a new scenario.\n\nReview task fulfilment, source fidelity, grammar, vocabulary, organisation and interaction/repair separately. Treat spelling extraction as supported practice, not proficiency evidence. Optional AI feedback is advisory. Independent human language/phonetic review and empirical calibration remain pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Use reformulation and emphasis to qualify a commitment",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice",
+        "listen-and-integrate"
+      ]
+    }
+  ],
+  "title": "C1 module completion: Use reformulation and emphasis to qualify a commitment",
+  "glossary": [
+    {
+      "lemma": "un engagement dont on maîtrise l’exécution",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "a commitment whose execution one controls",
+      "definition_french": "Une obligation portant sur une action que l’on peut effectivement réaliser.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "une étape réellement vérifiable",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "a genuinely verifiable step",
+      "definition_french": "Une action dont l’accomplissement peut être constaté.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "préserver la portée de la condition",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to preserve the condition’s scope",
+      "definition_french": "Maintenir ce qui dépend précisément de l’hypothèse formulée.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    }
+  ],
+  "learning_stage": null
+}

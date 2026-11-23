@@ -1,0 +1,225 @@
+{
+  "version": "0.7.6",
+  "level": "C2",
+  "status": "draft",
+  "source_license": "Original AI-assisted module drafts. Qualified independent linguistic, pedagogical, phonetic, answer-key and CEFR reviews pending.",
+  "tasks": [
+    {
+      "key": "read-and-notice",
+      "skill": "grammar",
+      "title": "Handle a deliberately ambiguous invitation: read and notice",
+      "objective": "Distinguish semantic possibility, pragmatic implication and inferred intent. A clarification can narrow an interpretation without proving it was irrational; quantifiers such as entièrement do not remove contextual constraints.",
+      "context": "Une institution invite ses partenaires à une consultation en précisant qu’ils sont « entièrement libres de contribuer à l’élaboration du projet ». Selon le contexte, la formule peut souligner une absence d’obligation ou insister sur une possibilité de participation. Une partenaire y entend cependant que les choix essentiels sont déjà arrêtés : elle relève que les contributions portent sur l’élaboration d’un projet nommé, non sur l’opportunité de ce projet. Cette lecture est plausible, mais ne saurait devenir sans examen une preuve d’intention manipulatrice. Le responsable précise que certaines contraintes financières sont fixées, alors que les usages restent discutables. La conversation doit alors traiter des degrés réels d’ouverture, plutôt que débattre seulement de la sincérité d’un adjectif. Réparer l’ambiguïté consiste à nommer ce qui est décidé, ce qui est négociable et ce qu’une contribution pourrait effectivement modifier.",
+      "vocabulary": [
+        "les degrés réels d’ouverture",
+        "une intention qu’on ne peut établir",
+        "expliciter les marges de décision"
+      ],
+      "exercises": [
+        {
+          "key": "read-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which inference stays within the dossier?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "The practical scope of participation needs clarification. Distinguish semantic possibility, pragmatic implication and inferred intent. A clarification can narrow an interpretation without proving it was irrational; quantifiers such as entièrement do not remove contextual constraints.",
+          "options": [
+            "The practical scope of participation needs clarification",
+            "Manipulative intent is established",
+            "Every project constraint is negotiable"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "grammar-scope",
+          "type": "multiple_choice",
+          "prompt": "Which formulation best repairs scope ambiguity?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Distinguish semantic possibility, pragmatic implication and inferred intent. A clarification can narrow an interpretation without proving it was irrational; quantifiers such as entièrement do not remove contextual constraints.",
+          "options": [
+            "Vous êtes libres, donc toute objection est sans objet.",
+            "Le budget est fixé ; les usages restent à discuter.",
+            "Tout est ouvert, sauf ce qui ne l’est pas."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "contextual-vocabulary",
+          "type": "matching",
+          "prompt": "Match the contextual expressions with their meanings.",
+          "instructions": "Use each meaning once; these are contextual definitions.",
+          "explanation": "les degrés réels d’ouverture — the actual degrees of openness; une intention qu’on ne peut établir — an intention one cannot establish; expliciter les marges de décision — to make decision-making latitude explicit",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "a48d96f3-e5f8-514c-b0d6-212591bfa4dd",
+                "text": "les degrés réels d’ouverture"
+              },
+              {
+                "id": "ff530aa8-4d45-5200-b589-7b708243fea6",
+                "text": "une intention qu’on ne peut établir"
+              },
+              {
+                "id": "9ccdf042-2691-53d2-a078-54432051462c",
+                "text": "expliciter les marges de décision"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "92ae67d8-a881-51a5-b991-1a1da213b82a",
+                "text": "to make decision-making latitude explicit"
+              },
+              {
+                "id": "a6010519-dc13-5122-810f-e1a85bc642b9",
+                "text": "an intention one cannot establish"
+              },
+              {
+                "id": "808c1a5e-f835-5dc5-82d1-6167dabc7a94",
+                "text": "the actual degrees of openness"
+              }
+            ],
+            "answer_pairs": {
+              "a48d96f3-e5f8-514c-b0d6-212591bfa4dd": "808c1a5e-f835-5dc5-82d1-6167dabc7a94",
+              "ff530aa8-4d45-5200-b589-7b708243fea6": "a6010519-dc13-5122-810f-e1a85bc642b9",
+              "9ccdf042-2691-53d2-a078-54432051462c": "92ae67d8-a881-51a5-b991-1a1da213b82a"
+            }
+          }
+        }
+      ],
+      "module_title": "Handle a deliberately ambiguous invitation",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "completion-c2-06",
+          "title": "Handle a deliberately ambiguous invitation",
+          "summary": "Distinguish semantic possibility, pragmatic implication and inferred intent. A clarification can narrow an interpretation without proving it was irrational; quantifiers such as entièrement do not remove contextual constraints.",
+          "rule_code": "completion-c2-06",
+          "explanation_english": "Distinguish semantic possibility, pragmatic implication and inferred intent. A clarification can narrow an interpretation without proving it was irrational; quantifiers such as entièrement do not remove contextual constraints.",
+          "examples": [
+            [
+              "La formule ouvre une possibilité sans préciser ce que la participation pourra modifier.",
+              "The wording opens a possibility without specifying what participation can change."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "listen-and-integrate",
+      "skill": "reading",
+      "title": "Handle a deliberately ambiguous invitation: listen and integrate",
+      "objective": "Identify details, stance and limits of commitment in the scripted exchange, then integrate both sources.",
+      "context": "Original scripted exchange for listening and transcript-assisted review. One synthetic voice may perform every role; this does not demonstrate spontaneous multi-speaker comprehension.\n\nPartenaire : Si je conteste le projet lui-même, ma contribution a-t-elle encore sa place ? Responsable : Oui, mais elle ne suspendra pas le calendrier déjà voté. Partenaire : Alors distinguons être entendue et pouvoir infléchir la décision. Responsable : Vous avez raison ; nous devons expliquer comment chaque contribution recevra une réponse et quelles marges demeurent.",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "listen-position",
+          "type": "listening",
+          "prompt": "Which distinction is negotiated?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Being heard versus being able to change the decision. Script: Partenaire : Si je conteste le projet lui-même, ma contribution a-t-elle encore sa place ? Responsable : Oui, mais elle ne suspendra pas le calendrier déjà voté. Partenaire : Alors distinguons être entendue et pouvoir infléchir la décision. Responsable : Vous avez raison ; nous devons expliquer comment chaque contribution recevra une réponse et quelles marges demeurent.",
+          "options": [
+            "Courtesy versus the ability to speak French",
+            "A fixed calendar versus a cancelled consultation",
+            "Being heard versus being able to change the decision"
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Partenaire : Si je conteste le projet lui-même, ma contribution a-t-elle encore sa place ? Responsable : Oui, mais elle ne suspendra pas le calendrier déjà voté. Partenaire : Alors distinguons être entendue et pouvoir infléchir la décision. Responsable : Vous avez raison ; nous devons expliquer comment chaque contribution recevra une réponse et quelles marges demeurent."
+          }
+        },
+        {
+          "key": "integrate-sources",
+          "type": "multiple_choice",
+          "prompt": "Which follow-up would test the clarification constructively?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Ask what a contribution could change and how a response will be given. Compare the reading and listening sources.",
+          "options": [
+            "Declare intent proven from one adjective",
+            "Ask what a contribution could change and how a response will be given",
+            "Assume every objection halts the calendar"
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "locate-phrase",
+          "type": "short_answer",
+          "prompt": "Copy the exact phrase naming an influence stronger than merely being heard.",
+          "instructions": "Transcript available in this lesson: copy the exact requested phrase. This item checks location/spelling, not open-ended interpretation.",
+          "explanation": "Exact source phrase: infléchir la décision",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "infléchir la décision"
+            ]
+          }
+        }
+      ],
+      "module_title": "Handle a deliberately ambiguous invitation",
+      "estimated_minutes": 25,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice"
+      ]
+    },
+    {
+      "key": "transfer-and-assess",
+      "skill": "writing",
+      "title": "Handle a deliberately ambiguous invitation: transfer and assess",
+      "objective": "Transfer the module language to an unfamiliar situation and review comprehension, writing and interaction separately.",
+      "context": "Prepare a 450-word analysis of the ambiguity with an alternative interpretation and limits on inferred intent. Negotiate spontaneously with the Tutor: ask a difficult scope question, respond to an evasive answer and summarise a precise clarification. Produce two reformulations for partners and the public. Human review must assess flexibility, pragmatic accuracy and register.\n\nRevision: retrieve the three contextual expressions without the model on a later day; correct saved errors and reuse them in a new scenario.\n\nReview task fulfilment, source fidelity, grammar, vocabulary, organisation and interaction/repair separately. Treat spelling extraction as supported practice, not proficiency evidence. Optional AI feedback is advisory. Independent human language/phonetic review and empirical calibration remain pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Handle a deliberately ambiguous invitation",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice",
+        "listen-and-integrate"
+      ]
+    }
+  ],
+  "title": "C2 module completion: Handle a deliberately ambiguous invitation",
+  "glossary": [
+    {
+      "lemma": "les degrés réels d’ouverture",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "the actual degrees of openness",
+      "definition_french": "Les aspects qui peuvent effectivement encore être discutés.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "une intention qu’on ne peut établir",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "an intention one cannot establish",
+      "definition_french": "Un dessein qui n’est pas démontré par les éléments disponibles.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "expliciter les marges de décision",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to make decision-making latitude explicit",
+      "definition_french": "Préciser ce qui peut encore être choisi ou modifié.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    }
+  ],
+  "learning_stage": null
+}

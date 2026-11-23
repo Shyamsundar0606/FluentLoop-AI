@@ -1,0 +1,225 @@
+{
+  "version": "0.7.5",
+  "level": "B1",
+  "status": "draft",
+  "source_license": "Original AI-assisted module drafts. Qualified independent linguistic, pedagogical, phonetic, answer-key and CEFR reviews pending.",
+  "tasks": [
+    {
+      "key": "read-and-notice",
+      "skill": "grammar",
+      "title": "Keep pronoun reference clear in a shared project: read and notice",
+      "objective": "Resolve pronouns from grammar and discourse, not simply from the nearest noun. Celui-ci can resume a named participant; en avoir besoin resumes a complement introduced by de.",
+      "context": "Julie prête son ordinateur à Karim pour préparer une affiche avec Ana. Quand Ana arrive, il lui explique que Julie en a besoin avant dix-sept heures. Ana propose de terminer le texte sur son propre appareil et de l’envoyer ensuite à Karim. Celui-ci accepte, mais demande que le fichier reste modifiable. Le soir, Julie remercie Karim de lui avoir rendu l’ordinateur à temps. Dans ce récit, l’ordinateur de Julie et l’appareil d’Ana ne doivent pas être confondus ; le pronom le de l’envoyer renvoie au texte, pas à un appareil.",
+      "vocabulary": [
+        "un fichier qui reste modifiable",
+        "rendre l’ordinateur à temps",
+        "garder une copie du texte"
+      ],
+      "exercises": [
+        {
+          "key": "read-meaning",
+          "type": "multiple_choice",
+          "prompt": "What will Ana send to Karim?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "The text. Source: Julie prête son ordinateur à Karim pour préparer une affiche avec Ana. Quand Ana arrive, il lui explique que Julie en a besoin avant dix-sept heures. Ana propose de terminer le texte sur son propre appareil et de l’envoyer ensuite à Karim. Celui-ci accepte, mais demande que le fichier reste modifiable. Le soir, Julie remercie Karim de lui avoir rendu l’ordinateur à temps. Dans ce récit, l’ordinateur de Julie et l’appareil d’Ana ne doivent pas être confondus ; le pronom le de l’envoyer renvoie au texte, pas à un appareil.",
+          "options": [
+            "Julie’s computer",
+            "Her own computer",
+            "The text"
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "grammar-scope",
+          "type": "multiple_choice",
+          "prompt": "What does l’ replace in the model?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Resolve pronouns from grammar and discourse, not simply from the nearest noun. Celui-ci can resume a named participant; en avoir besoin resumes a complement introduced by de.",
+          "options": [
+            "le texte",
+            "Ana",
+            "Karim"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "contextual-vocabulary",
+          "type": "matching",
+          "prompt": "Match the contextual expressions with their meanings.",
+          "instructions": "Use each meaning once; these are contextual definitions.",
+          "explanation": "un fichier qui reste modifiable — a file that remains editable; rendre l’ordinateur à temps — to return the computer on time; garder une copie du texte — to keep a copy of the text",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "e22d4f08-b74a-54bd-9adf-d2671f9f0554",
+                "text": "un fichier qui reste modifiable"
+              },
+              {
+                "id": "51a6c505-4541-582b-91ee-3a9188878673",
+                "text": "rendre l’ordinateur à temps"
+              },
+              {
+                "id": "8f0f9847-8663-5f56-8deb-d9a9a67ce798",
+                "text": "garder une copie du texte"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "f20c1c17-0da1-5111-a777-c90c201f35e9",
+                "text": "to keep a copy of the text"
+              },
+              {
+                "id": "5e51f7b4-c965-585b-a3be-bdd7a026bd0f",
+                "text": "to return the computer on time"
+              },
+              {
+                "id": "5b84a457-bf16-5553-95ae-70bbef120243",
+                "text": "a file that remains editable"
+              }
+            ],
+            "answer_pairs": {
+              "e22d4f08-b74a-54bd-9adf-d2671f9f0554": "5b84a457-bf16-5553-95ae-70bbef120243",
+              "51a6c505-4541-582b-91ee-3a9188878673": "5e51f7b4-c965-585b-a3be-bdd7a026bd0f",
+              "8f0f9847-8663-5f56-8deb-d9a9a67ce798": "f20c1c17-0da1-5111-a777-c90c201f35e9"
+            }
+          }
+        }
+      ],
+      "module_title": "Keep pronoun reference clear in a shared project",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "completion-b1-05",
+          "title": "Keep pronoun reference clear in a shared project",
+          "summary": "Resolve pronouns from grammar and discourse, not simply from the nearest noun. Celui-ci can resume a named participant; en avoir besoin resumes a complement introduced by de.",
+          "rule_code": "completion-b1-05",
+          "explanation_english": "Resolve pronouns from grammar and discourse, not simply from the nearest noun. Celui-ci can resume a named participant; en avoir besoin resumes a complement introduced by de.",
+          "examples": [
+            [
+              "Ana termine le texte, puis elle l’envoie à Karim.",
+              "Ana finishes the text, then sends it to Karim."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "listen-and-integrate",
+      "skill": "reading",
+      "title": "Keep pronoun reference clear in a shared project: listen and integrate",
+      "objective": "Identify details, stance and limits of commitment in the scripted exchange, then integrate both sources.",
+      "context": "Original scripted exchange for listening and transcript-assisted review. One synthetic voice may perform every role; this does not demonstrate spontaneous multi-speaker comprehension.\n\nKarim : Julie a besoin de son ordinateur à dix-sept heures. Ana : Je peux finir sur le mien. Je t’envoie le texte, mais je garde aussi une copie. Karim : Très bien ; envoie-le dans un format que je pourrai modifier.",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "listen-position",
+          "type": "listening",
+          "prompt": "What condition does Karim add?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "The text must remain editable. Script: Karim : Julie a besoin de son ordinateur à dix-sept heures. Ana : Je peux finir sur le mien. Je t’envoie le texte, mais je garde aussi une copie. Karim : Très bien ; envoie-le dans un format que je pourrai modifier.",
+          "options": [
+            "Ana must keep Julie’s computer",
+            "The text must remain editable",
+            "No copy may be kept"
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Karim : Julie a besoin de son ordinateur à dix-sept heures. Ana : Je peux finir sur le mien. Je t’envoie le texte, mais je garde aussi une copie. Karim : Très bien ; envoie-le dans un format que je pourrai modifier."
+          }
+        },
+        {
+          "key": "integrate-sources",
+          "type": "multiple_choice",
+          "prompt": "Which clarification preserves the roles?",
+          "instructions": "Use the supplied fictional source; distinguish what is stated, inferred and not established.",
+          "explanation": "Ana uses her own device; Julie gets hers back. Compare the reading and listening sources.",
+          "options": [
+            "Ana uses her own device; Julie gets hers back",
+            "Julie sends her computer to Ana",
+            "Karim keeps both devices overnight"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "locate-phrase",
+          "type": "short_answer",
+          "prompt": "Copy the two-word phrase naming what Ana also keeps.",
+          "instructions": "Transcript available in this lesson: copy the exact requested phrase. This item checks location/spelling, not open-ended interpretation.",
+          "explanation": "Exact source phrase: une copie",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "une copie"
+            ]
+          }
+        }
+      ],
+      "module_title": "Keep pronoun reference clear in a shared project",
+      "estimated_minutes": 25,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice"
+      ]
+    },
+    {
+      "key": "transfer-and-assess",
+      "skill": "writing",
+      "title": "Keep pronoun reference clear in a shared project: transfer and assess",
+      "objective": "Transfer the module language to an unfamiliar situation and review comprehension, writing and interaction separately.",
+      "context": "Write 140–170 French words describing three people sharing two objects and a document. Keep the reference chain clear; replace an ambiguous pronoun with a name. Explain the sequence aloud and ask the Tutor to identify who owns what before you confirm.\n\nRevision: retrieve the three contextual expressions without the model on a later day; correct saved errors and reuse them in a new scenario.\n\nReview task fulfilment, source fidelity, grammar, vocabulary, organisation and interaction/repair separately. Treat spelling extraction as supported practice, not proficiency evidence. Optional AI feedback is advisory. Independent human language/phonetic review and empirical calibration remain pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Keep pronoun reference clear in a shared project",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "read-and-notice",
+        "listen-and-integrate"
+      ]
+    }
+  ],
+  "title": "B1 module completion: Keep pronoun reference clear in a shared project",
+  "glossary": [
+    {
+      "lemma": "un fichier qui reste modifiable",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "a file that remains editable",
+      "definition_french": "Un document dont le contenu peut encore être changé.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "rendre l’ordinateur à temps",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to return the computer on time",
+      "definition_french": "Restituer l’appareil avant l’heure convenue.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "garder une copie du texte",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "to keep a copy of the text",
+      "definition_french": "Conserver un exemplaire supplémentaire du document.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    }
+  ],
+  "learning_stage": null
+}

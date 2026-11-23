@@ -1,0 +1,1712 @@
+{
+  "version": "0.2.1",
+  "level": "C1",
+  "status": "draft",
+  "title": "Personal French C1: daily life and expression",
+  "source_license": "Original AI-assisted drafts; independent linguistic, phonetic, pedagogical, answer-key and licensing reviews pending.",
+  "glossary": [
+    {
+      "lemma": "un écueil",
+      "part_of_speech": "phrase",
+      "translation": "a pitfall",
+      "definition_french": "Une difficulté susceptible de compromettre une démarche."
+    },
+    {
+      "lemma": "la portée d’un argument",
+      "part_of_speech": "phrase",
+      "translation": "the scope of an argument",
+      "definition_french": "L’étendue des conclusions que cet argument permet de soutenir."
+    },
+    {
+      "lemma": "des données partielles",
+      "part_of_speech": "phrase",
+      "translation": "incomplete data",
+      "definition_french": "Des informations qui ne couvrent pas encore tous les aspects nécessaires."
+    },
+    {
+      "lemma": "un compte rendu",
+      "part_of_speech": "phrase",
+      "translation": "a meeting report",
+      "definition_french": "Un texte qui restitue les éléments importants d’une réunion."
+    },
+    {
+      "lemma": "un engagement explicite",
+      "part_of_speech": "phrase",
+      "translation": "an explicit commitment",
+      "definition_french": "Une promesse ou une obligation clairement formulée."
+    },
+    {
+      "lemma": "demander confirmation",
+      "part_of_speech": "phrase",
+      "translation": "to ask for confirmation",
+      "definition_french": "Vérifier auprès d’une personne qu’une information est exacte."
+    },
+    {
+      "lemma": "un point de convergence",
+      "part_of_speech": "phrase",
+      "translation": "a point of agreement",
+      "definition_french": "Un aspect sur lequel plusieurs analyses se rejoignent."
+    },
+    {
+      "lemma": "une divergence de méthode",
+      "part_of_speech": "phrase",
+      "translation": "a methodological difference",
+      "definition_french": "Une différence dans la manière de conduire une analyse."
+    },
+    {
+      "lemma": "une prise de position",
+      "part_of_speech": "phrase",
+      "translation": "a stated position",
+      "definition_french": "Une opinion assumée et exprimée sur un sujet."
+    }
+  ],
+  "tasks": [
+    {
+      "key": "module-1-grammar",
+      "skill": "grammar",
+      "module_title": "Complex argument",
+      "title": "Evaluate a university proposal: grammar",
+      "objective": "Practise C1-targeted grammar in the situation: Evaluate a university proposal.",
+      "context": "French passage\nUn groupe de travail examine une proposition destinée à améliorer l’accueil des étudiants. Le projet présente des avantages, mais son évaluation initiale a négligé certaines contraintes. Si cette mesure avait été évaluée, nous aurions évité cet écueil. Cette hypothèse rétrospective ne suffit pourtant pas à établir une responsabilité : elle invite surtout à préciser les critères utilisés. Dans ma synthèse, je sépare les faits établis, les interprétations et les conséquences possibles. Je reconnais la force de l’argument favorable tout en discutant sa portée. Je propose enfin une phase d’expérimentation limitée, assortie de critères explicites, plutôt qu’une conclusion définitive fondée sur des données encore partielles.\n\nEnglish explanation\nSi + plus-que-parfait can introduce a counterfactual past condition; the consequence often uses the conditional past: si… avait été évaluée, nous aurions évité…. Do not replace avait by aurait directly after conditional si here. A hypothetical alternative is not itself proof of causation in a real event.\nModel: Si cette mesure avait été évaluée, nous aurions évité cet écueil.\nMeaning: If this measure had been evaluated, we would have avoided this pitfall.\n\nGlossary\nun écueil — a pitfall\nla portée d’un argument — the scope of an argument\ndes données partielles — incomplete data\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Identify the target form, explain its function, and contrast it with the alternative in the explanation.",
+      "vocabulary": [
+        "un écueil",
+        "la portée d’un argument",
+        "des données partielles"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "What does the speaker propose instead of a final conclusion?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Un groupe de travail examine une proposition destinée à améliorer l’accueil des étudiants. Le projet présente des avantages, mais son évaluation initiale a négligé certaines contraintes. Si cette mesure avait été évaluée, nous aurions évité cet écueil. Cette hypothèse rétrospective ne suffit pourtant pas à établir une responsabilité : elle invite surtout à préciser les critères utilisés. Dans ma synthèse, je sépare les faits établis, les interprétations et les conséquences possibles. Je reconnais la force de l’argument favorable tout en discutant sa portée. Je propose enfin une phase d’expérimentation limitée, assortie de critères explicites, plutôt qu’une conclusion définitive fondée sur des données encore partielles.",
+          "data": {},
+          "options": [
+            "Immediate generalisation without evaluation",
+            "A limited trial with explicit criteria",
+            "Removing every evaluation criterion"
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Si cette mesure avait été évaluée, nous ___ évité cet écueil.",
+          "instructions": "Use avoir in the conditional present, nous form, as the conditional-past auxiliary. Write only the missing form; keep accents.",
+          "explanation": "Si + plus-que-parfait can introduce a counterfactual past condition; the consequence often uses the conditional past: si… avait été évaluée, nous aurions évité…. Do not replace avait by aurait directly after conditional si here. A hypothetical alternative is not itself proof of causation in a real event.",
+          "data": {
+            "accepted_answers": [
+              "aurions"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Si cette mesure avait été évaluée, nous aurions évité cet écueil.",
+          "explanation": "Si + plus-que-parfait can introduce a counterfactual past condition; the consequence often uses the conditional past: si… avait été évaluée, nous aurions évité…. Do not replace avait by aurait directly after conditional si here. A hypothetical alternative is not itself proof of causation in a real event.",
+          "data": {
+            "tiles": [
+              {
+                "id": "267fb01f-69f4-50a2-90ac-3e22a27156d0",
+                "text": "Si"
+              },
+              {
+                "id": "e422b179-2f50-5f4d-af51-dfacbdaab889",
+                "text": "cette"
+              },
+              {
+                "id": "77ac0620-3b5b-526f-968b-26b88fc81dcf",
+                "text": "mesure"
+              },
+              {
+                "id": "ccc414bd-46a2-5f0f-a794-79ae01010ee8",
+                "text": "avait"
+              },
+              {
+                "id": "5511ab7f-5c32-5731-886a-10c9b6ff44ec",
+                "text": "été"
+              },
+              {
+                "id": "0ac23d43-f6a0-543f-833f-15d9e9d4aed5",
+                "text": "évaluée,"
+              },
+              {
+                "id": "d8865133-1751-52d8-8daa-f41ebabdd703",
+                "text": "nous"
+              },
+              {
+                "id": "57f9c911-ae1d-5227-b61e-6f37579c7888",
+                "text": "aurions"
+              },
+              {
+                "id": "2b1bcb90-4b53-527a-b855-deb1e92b81b1",
+                "text": "évité"
+              },
+              {
+                "id": "ab110120-56a8-5b1f-af30-e64c168a88da",
+                "text": "cet"
+              },
+              {
+                "id": "e74ed4ee-59ec-5995-b722-301bde68808b",
+                "text": "écueil."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "267fb01f-69f4-50a2-90ac-3e22a27156d0",
+                "e422b179-2f50-5f4d-af51-dfacbdaab889",
+                "77ac0620-3b5b-526f-968b-26b88fc81dcf",
+                "ccc414bd-46a2-5f0f-a794-79ae01010ee8",
+                "5511ab7f-5c32-5731-886a-10c9b6ff44ec",
+                "0ac23d43-f6a0-543f-833f-15d9e9d4aed5",
+                "d8865133-1751-52d8-8daa-f41ebabdd703",
+                "57f9c911-ae1d-5227-b61e-6f37579c7888",
+                "2b1bcb90-4b53-527a-b855-deb1e92b81b1",
+                "ab110120-56a8-5b1f-af30-e64c168a88da",
+                "e74ed4ee-59ec-5995-b722-301bde68808b"
+              ]
+            ],
+            "correct_sentence": "Si cette mesure avait été évaluée, nous aurions évité cet écueil."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "un écueil — a pitfall; la portée d’un argument — the scope of an argument; des données partielles — incomplete data",
+          "data": {
+            "left_items": [
+              {
+                "id": "ec3c6b2c-feff-5b0b-841a-87b855e3dc3d",
+                "text": "un écueil"
+              },
+              {
+                "id": "ab89ae0e-c002-5b76-a62d-52b4956e11d8",
+                "text": "la portée d’un argument"
+              },
+              {
+                "id": "c6ec4322-95d8-5e1a-a385-bc839fd2c32b",
+                "text": "des données partielles"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "7e4ed5a2-02ff-5d4d-ae0c-89a03781c0ba",
+                "text": "a pitfall"
+              },
+              {
+                "id": "ca4f734f-b50c-51a2-a312-b10bb33355d9",
+                "text": "the scope of an argument"
+              },
+              {
+                "id": "ad8b266e-d6a0-5bd6-9200-0e847098974f",
+                "text": "incomplete data"
+              }
+            ],
+            "answer_pairs": {
+              "ec3c6b2c-feff-5b0b-841a-87b855e3dc3d": "7e4ed5a2-02ff-5d4d-ae0c-89a03781c0ba",
+              "ab89ae0e-c002-5b76-a62d-52b4956e11d8": "ca4f734f-b50c-51a2-a312-b10bb33355d9",
+              "c6ec4322-95d8-5e1a-a385-bc839fd2c32b": "ad8b266e-d6a0-5bd6-9200-0e847098974f"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Si cette mesure avait été évaluée, nous aurions évité cet écueil.\nEnglish meaning: If this measure had been evaluated, we would have avoided this pitfall.",
+          "data": {
+            "text_fr": "Si cette mesure avait été évaluée, nous aurions évité cet écueil."
+          },
+          "options": [
+            "If this measure had been evaluated, we would have encountered this pitfall.",
+            "If this measure had been evaluated, we would have avoided this pitfall.",
+            "If this measure were evaluated now, we could avoid this pitfall."
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: If this measure had been evaluated, we would have avoided this pitfall.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Si cette mesure avait été évaluée, nous aurions évité cet écueil.",
+          "explanation": "Exact model: Si cette mesure avait été évaluée, nous aurions évité cet écueil.\nMeaning: If this measure had been evaluated, we would have avoided this pitfall.",
+          "data": {
+            "accepted_answers": [
+              "Si cette mesure avait été évaluée, nous aurions évité cet écueil."
+            ]
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "slug": "personal-module-1",
+          "title": "A past counterfactual",
+          "summary": "Si + plus-que-parfait can introduce a counterfactual past condition; the consequence often uses the conditional past: si… avait été évaluée, nous aurions évité…. Do not replace avait by aurait directly after conditional si here. A hypothetical alternative is not itself proof of causation in a real event.",
+          "rule_code": "personal-c1-1",
+          "explanation_english": "Si + plus-que-parfait can introduce a counterfactual past condition; the consequence often uses the conditional past: si… avait été évaluée, nous aurions évité…. Do not replace avait by aurait directly after conditional si here. A hypothetical alternative is not itself proof of causation in a real event.",
+          "examples": [
+            [
+              "Si cette mesure avait été évaluée, nous aurions évité cet écueil.",
+              "If this measure had been evaluated, we would have avoided this pitfall."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "key": "module-1-vocabulary",
+      "skill": "vocabulary",
+      "module_title": "Complex argument",
+      "title": "Evaluate a university proposal: vocabulary",
+      "objective": "Practise C1-targeted vocabulary in the situation: Evaluate a university proposal.",
+      "context": "French passage\nUn groupe de travail examine une proposition destinée à améliorer l’accueil des étudiants. Le projet présente des avantages, mais son évaluation initiale a négligé certaines contraintes. Si cette mesure avait été évaluée, nous aurions évité cet écueil. Cette hypothèse rétrospective ne suffit pourtant pas à établir une responsabilité : elle invite surtout à préciser les critères utilisés. Dans ma synthèse, je sépare les faits établis, les interprétations et les conséquences possibles. Je reconnais la force de l’argument favorable tout en discutant sa portée. Je propose enfin une phase d’expérimentation limitée, assortie de critères explicites, plutôt qu’une conclusion définitive fondée sur des données encore partielles.\n\nEnglish explanation\nSi + plus-que-parfait can introduce a counterfactual past condition; the consequence often uses the conditional past: si… avait été évaluée, nous aurions évité…. Do not replace avait by aurait directly after conditional si here. A hypothetical alternative is not itself proof of causation in a real event.\nModel: Si cette mesure avait été évaluée, nous aurions évité cet écueil.\nMeaning: If this measure had been evaluated, we would have avoided this pitfall.\n\nGlossary\nun écueil — a pitfall\nla portée d’un argument — the scope of an argument\ndes données partielles — incomplete data\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Read each French definition, match meanings, then use the expressions in your own example.",
+      "vocabulary": [
+        "un écueil",
+        "la portée d’un argument",
+        "des données partielles"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Which French expression means “a pitfall”?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "Glossary meaning: un écueil — a pitfall.",
+          "data": {},
+          "options": [
+            "la portée d’un argument",
+            "des données partielles",
+            "un écueil"
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Si cette mesure avait été évaluée, nous ___ évité cet écueil.",
+          "instructions": "Use avoir in the conditional present, nous form, as the conditional-past auxiliary. Write only the missing form; keep accents.",
+          "explanation": "Si + plus-que-parfait can introduce a counterfactual past condition; the consequence often uses the conditional past: si… avait été évaluée, nous aurions évité…. Do not replace avait by aurait directly after conditional si here. A hypothetical alternative is not itself proof of causation in a real event.",
+          "data": {
+            "accepted_answers": [
+              "aurions"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Si cette mesure avait été évaluée, nous aurions évité cet écueil.",
+          "explanation": "Si + plus-que-parfait can introduce a counterfactual past condition; the consequence often uses the conditional past: si… avait été évaluée, nous aurions évité…. Do not replace avait by aurait directly after conditional si here. A hypothetical alternative is not itself proof of causation in a real event.",
+          "data": {
+            "tiles": [
+              {
+                "id": "35032ef0-a5a5-514b-858a-f5483dc766e9",
+                "text": "Si"
+              },
+              {
+                "id": "523d7212-30a4-50e1-82b9-871387aa941f",
+                "text": "cette"
+              },
+              {
+                "id": "edeaff3a-5410-57f9-8110-1d74e9756414",
+                "text": "mesure"
+              },
+              {
+                "id": "23708c80-75e0-5236-94d9-72705f20f5ff",
+                "text": "avait"
+              },
+              {
+                "id": "9c98174f-8e36-5fb1-975d-7ee7bd13b279",
+                "text": "été"
+              },
+              {
+                "id": "425b9523-1fb2-5ef3-af37-6f95ba5f451e",
+                "text": "évaluée,"
+              },
+              {
+                "id": "02e57ef4-94aa-5b2e-88ed-f9a72390f9a7",
+                "text": "nous"
+              },
+              {
+                "id": "6bb5a93e-d676-585d-b89d-59a9bae26545",
+                "text": "aurions"
+              },
+              {
+                "id": "84b28b96-3f6a-583f-8079-c9f63ee0025b",
+                "text": "évité"
+              },
+              {
+                "id": "6ce360a2-15f8-5fef-88ef-d6f552f606f5",
+                "text": "cet"
+              },
+              {
+                "id": "c8eadec4-e646-53ce-bd82-e12bef8a53ae",
+                "text": "écueil."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "35032ef0-a5a5-514b-858a-f5483dc766e9",
+                "523d7212-30a4-50e1-82b9-871387aa941f",
+                "edeaff3a-5410-57f9-8110-1d74e9756414",
+                "23708c80-75e0-5236-94d9-72705f20f5ff",
+                "9c98174f-8e36-5fb1-975d-7ee7bd13b279",
+                "425b9523-1fb2-5ef3-af37-6f95ba5f451e",
+                "02e57ef4-94aa-5b2e-88ed-f9a72390f9a7",
+                "6bb5a93e-d676-585d-b89d-59a9bae26545",
+                "84b28b96-3f6a-583f-8079-c9f63ee0025b",
+                "6ce360a2-15f8-5fef-88ef-d6f552f606f5",
+                "c8eadec4-e646-53ce-bd82-e12bef8a53ae"
+              ]
+            ],
+            "correct_sentence": "Si cette mesure avait été évaluée, nous aurions évité cet écueil."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "un écueil — a pitfall; la portée d’un argument — the scope of an argument; des données partielles — incomplete data",
+          "data": {
+            "left_items": [
+              {
+                "id": "c3383deb-df4d-5aa0-a698-d41629ff2ad0",
+                "text": "un écueil"
+              },
+              {
+                "id": "396879b2-c119-597d-9188-6b1ed16d7edd",
+                "text": "la portée d’un argument"
+              },
+              {
+                "id": "d613c997-63e4-5c4e-9923-86c92758bad0",
+                "text": "des données partielles"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "08b41f31-1fa2-582b-9e6f-162dfefeca5e",
+                "text": "a pitfall"
+              },
+              {
+                "id": "0920e798-78a9-50e2-8e1d-b7ccaeefb13e",
+                "text": "the scope of an argument"
+              },
+              {
+                "id": "d5afe261-392f-55eb-bf11-7dda939de603",
+                "text": "incomplete data"
+              }
+            ],
+            "answer_pairs": {
+              "c3383deb-df4d-5aa0-a698-d41629ff2ad0": "08b41f31-1fa2-582b-9e6f-162dfefeca5e",
+              "396879b2-c119-597d-9188-6b1ed16d7edd": "0920e798-78a9-50e2-8e1d-b7ccaeefb13e",
+              "d613c997-63e4-5c4e-9923-86c92758bad0": "d5afe261-392f-55eb-bf11-7dda939de603"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Si cette mesure avait été évaluée, nous aurions évité cet écueil.\nEnglish meaning: If this measure had been evaluated, we would have avoided this pitfall.",
+          "data": {
+            "text_fr": "Si cette mesure avait été évaluée, nous aurions évité cet écueil."
+          },
+          "options": [
+            "If this measure had been evaluated, we would have encountered this pitfall.",
+            "If this measure were evaluated now, we could avoid this pitfall.",
+            "If this measure had been evaluated, we would have avoided this pitfall."
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: If this measure had been evaluated, we would have avoided this pitfall.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Si cette mesure avait été évaluée, nous aurions évité cet écueil.",
+          "explanation": "Exact model: Si cette mesure avait été évaluée, nous aurions évité cet écueil.\nMeaning: If this measure had been evaluated, we would have avoided this pitfall.",
+          "data": {
+            "accepted_answers": [
+              "Si cette mesure avait été évaluée, nous aurions évité cet écueil."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-1-reading",
+      "skill": "reading",
+      "module_title": "Complex argument",
+      "title": "Evaluate a university proposal: reading",
+      "objective": "Practise C1-targeted reading in the situation: Evaluate a university proposal.",
+      "context": "French passage\nUn groupe de travail examine une proposition destinée à améliorer l’accueil des étudiants. Le projet présente des avantages, mais son évaluation initiale a négligé certaines contraintes. Si cette mesure avait été évaluée, nous aurions évité cet écueil. Cette hypothèse rétrospective ne suffit pourtant pas à établir une responsabilité : elle invite surtout à préciser les critères utilisés. Dans ma synthèse, je sépare les faits établis, les interprétations et les conséquences possibles. Je reconnais la force de l’argument favorable tout en discutant sa portée. Je propose enfin une phase d’expérimentation limitée, assortie de critères explicites, plutôt qu’une conclusion définitive fondée sur des données encore partielles.\n\nEnglish explanation\nSi + plus-que-parfait can introduce a counterfactual past condition; the consequence often uses the conditional past: si… avait été évaluée, nous aurions évité…. Do not replace avait by aurait directly after conditional si here. A hypothetical alternative is not itself proof of causation in a real event.\nModel: Si cette mesure avait été évaluée, nous aurions évité cet écueil.\nMeaning: If this measure had been evaluated, we would have avoided this pitfall.\n\nGlossary\nun écueil — a pitfall\nla portée d’un argument — the scope of an argument\ndes données partielles — incomplete data\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Find evidence for the answer in the passage. Distinguish what is stated from what is merely possible.",
+      "vocabulary": [
+        "un écueil",
+        "la portée d’un argument",
+        "des données partielles"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "What does the speaker propose instead of a final conclusion?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Un groupe de travail examine une proposition destinée à améliorer l’accueil des étudiants. Le projet présente des avantages, mais son évaluation initiale a négligé certaines contraintes. Si cette mesure avait été évaluée, nous aurions évité cet écueil. Cette hypothèse rétrospective ne suffit pourtant pas à établir une responsabilité : elle invite surtout à préciser les critères utilisés. Dans ma synthèse, je sépare les faits établis, les interprétations et les conséquences possibles. Je reconnais la force de l’argument favorable tout en discutant sa portée. Je propose enfin une phase d’expérimentation limitée, assortie de critères explicites, plutôt qu’une conclusion définitive fondée sur des données encore partielles.",
+          "data": {},
+          "options": [
+            "A limited trial with explicit criteria",
+            "Immediate generalisation without evaluation",
+            "Removing every evaluation criterion"
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Si cette mesure avait été évaluée, nous ___ évité cet écueil.",
+          "instructions": "Use avoir in the conditional present, nous form, as the conditional-past auxiliary. Write only the missing form; keep accents.",
+          "explanation": "Si + plus-que-parfait can introduce a counterfactual past condition; the consequence often uses the conditional past: si… avait été évaluée, nous aurions évité…. Do not replace avait by aurait directly after conditional si here. A hypothetical alternative is not itself proof of causation in a real event.",
+          "data": {
+            "accepted_answers": [
+              "aurions"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Si cette mesure avait été évaluée, nous aurions évité cet écueil.",
+          "explanation": "Si + plus-que-parfait can introduce a counterfactual past condition; the consequence often uses the conditional past: si… avait été évaluée, nous aurions évité…. Do not replace avait by aurait directly after conditional si here. A hypothetical alternative is not itself proof of causation in a real event.",
+          "data": {
+            "tiles": [
+              {
+                "id": "bd467ce4-48e7-5aa7-88ff-0b43aa14d441",
+                "text": "Si"
+              },
+              {
+                "id": "b6312973-b270-5a3c-80de-d06a4aced6a4",
+                "text": "cette"
+              },
+              {
+                "id": "09abecd8-ca7a-5b77-ac5b-128ba07c513d",
+                "text": "mesure"
+              },
+              {
+                "id": "5916beff-e0fc-562e-8bd8-1263d8a36261",
+                "text": "avait"
+              },
+              {
+                "id": "711b81e5-fd05-564c-8679-b78b8371874f",
+                "text": "été"
+              },
+              {
+                "id": "9064ca78-53b6-5e63-900c-8e9eb25078d7",
+                "text": "évaluée,"
+              },
+              {
+                "id": "c7989c34-cb43-5dd1-82c5-42159525d836",
+                "text": "nous"
+              },
+              {
+                "id": "859c584b-d95a-5196-9349-1e1b165b164f",
+                "text": "aurions"
+              },
+              {
+                "id": "202d4c3d-6f52-518f-af89-b1c0545f3ecf",
+                "text": "évité"
+              },
+              {
+                "id": "b06fba9f-ebb8-527e-8688-fc7821234cbe",
+                "text": "cet"
+              },
+              {
+                "id": "5117d31e-bc92-5cd1-9b60-9de90a4fc754",
+                "text": "écueil."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "bd467ce4-48e7-5aa7-88ff-0b43aa14d441",
+                "b6312973-b270-5a3c-80de-d06a4aced6a4",
+                "09abecd8-ca7a-5b77-ac5b-128ba07c513d",
+                "5916beff-e0fc-562e-8bd8-1263d8a36261",
+                "711b81e5-fd05-564c-8679-b78b8371874f",
+                "9064ca78-53b6-5e63-900c-8e9eb25078d7",
+                "c7989c34-cb43-5dd1-82c5-42159525d836",
+                "859c584b-d95a-5196-9349-1e1b165b164f",
+                "202d4c3d-6f52-518f-af89-b1c0545f3ecf",
+                "b06fba9f-ebb8-527e-8688-fc7821234cbe",
+                "5117d31e-bc92-5cd1-9b60-9de90a4fc754"
+              ]
+            ],
+            "correct_sentence": "Si cette mesure avait été évaluée, nous aurions évité cet écueil."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "un écueil — a pitfall; la portée d’un argument — the scope of an argument; des données partielles — incomplete data",
+          "data": {
+            "left_items": [
+              {
+                "id": "bf701ed1-4680-5a02-81b4-bf7c7883d814",
+                "text": "un écueil"
+              },
+              {
+                "id": "ca98cdfe-249b-5dfe-b933-d06c613da59d",
+                "text": "la portée d’un argument"
+              },
+              {
+                "id": "8268ab2d-c12e-5bdb-b36e-e4391cc9c1e1",
+                "text": "des données partielles"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "6a217cdd-4df1-5867-be52-36128b035b89",
+                "text": "a pitfall"
+              },
+              {
+                "id": "db300ed5-2026-52d8-9e9f-03df61efa52e",
+                "text": "the scope of an argument"
+              },
+              {
+                "id": "795b6977-f31d-53de-9a8b-3ae7000f6553",
+                "text": "incomplete data"
+              }
+            ],
+            "answer_pairs": {
+              "bf701ed1-4680-5a02-81b4-bf7c7883d814": "6a217cdd-4df1-5867-be52-36128b035b89",
+              "ca98cdfe-249b-5dfe-b933-d06c613da59d": "db300ed5-2026-52d8-9e9f-03df61efa52e",
+              "8268ab2d-c12e-5bdb-b36e-e4391cc9c1e1": "795b6977-f31d-53de-9a8b-3ae7000f6553"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Si cette mesure avait été évaluée, nous aurions évité cet écueil.\nEnglish meaning: If this measure had been evaluated, we would have avoided this pitfall.",
+          "data": {
+            "text_fr": "Si cette mesure avait été évaluée, nous aurions évité cet écueil."
+          },
+          "options": [
+            "If this measure had been evaluated, we would have avoided this pitfall.",
+            "If this measure had been evaluated, we would have encountered this pitfall.",
+            "If this measure were evaluated now, we could avoid this pitfall."
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: If this measure had been evaluated, we would have avoided this pitfall.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Si cette mesure avait été évaluée, nous aurions évité cet écueil.",
+          "explanation": "Exact model: Si cette mesure avait été évaluée, nous aurions évité cet écueil.\nMeaning: If this measure had been evaluated, we would have avoided this pitfall.",
+          "data": {
+            "accepted_answers": [
+              "Si cette mesure avait été évaluée, nous aurions évité cet écueil."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-1-writing",
+      "skill": "writing",
+      "module_title": "Complex argument",
+      "title": "Evaluate a university proposal: writing",
+      "objective": "Practise C1-targeted writing in the situation: Evaluate a university proposal.",
+      "context": "French passage\nUn groupe de travail examine une proposition destinée à améliorer l’accueil des étudiants. Le projet présente des avantages, mais son évaluation initiale a négligé certaines contraintes. Si cette mesure avait été évaluée, nous aurions évité cet écueil. Cette hypothèse rétrospective ne suffit pourtant pas à établir une responsabilité : elle invite surtout à préciser les critères utilisés. Dans ma synthèse, je sépare les faits établis, les interprétations et les conséquences possibles. Je reconnais la force de l’argument favorable tout en discutant sa portée. Je propose enfin une phase d’expérimentation limitée, assortie de critères explicites, plutôt qu’une conclusion définitive fondée sur des données encore partielles.\n\nEnglish explanation\nSi + plus-que-parfait can introduce a counterfactual past condition; the consequence often uses the conditional past: si… avait été évaluée, nous aurions évité…. Do not replace avait by aurait directly after conditional si here. A hypothetical alternative is not itself proof of causation in a real event.\nModel: Si cette mesure avait été évaluée, nous aurions évité cet écueil.\nMeaning: If this measure had been evaluated, we would have avoided this pitfall.\n\nGlossary\nun écueil — a pitfall\nla portée d’un argument — the scope of an argument\ndes données partielles — incomplete data\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nWrite 180–220 French words. Write a structured evaluation of the university proposal. Separate evidence from counterfactual inference, address an objection and propose explicit trial criteria. Use invented personal details. Feedback is advisory, not CEFR certification.\n\nLesson focus: Plan, draft and reread for task completion, grammatical accuracy, suitable vocabulary and audience.",
+      "vocabulary": [
+        "un écueil",
+        "la portée d’un argument",
+        "des données partielles"
+      ],
+      "estimated_minutes": 15,
+      "exercises": []
+    },
+    {
+      "key": "module-2-grammar",
+      "skill": "grammar",
+      "module_title": "Professional communication",
+      "title": "Report a meeting accurately: grammar",
+      "objective": "Practise C1-targeted grammar in the situation: Report a meeting accurately.",
+      "context": "French passage\nAprès une réunion, je prépare un compte rendu à destination de collègues absents. La responsable a indiqué que le dossier serait examiné. Je conserve cette relation temporelle : au moment de son intervention, l’examen était encore à venir. Je distingue les décisions prises des propositions qui restent à discuter et je précise les responsabilités annoncées sans ajouter d’engagement qui n’a pas été formulé. Lorsque mes notes ne permettent pas de restituer un point avec certitude, je le signale et je demande confirmation. Un compte rendu utile réduit l’ambiguïté ; il ne transforme pas une hypothèse en décision pour rendre le texte plus fluide.\n\nEnglish explanation\nSerait expresses a future relative to a past statement: a indiqué que… serait examiné. French reported speech does not mechanically change the tense of every sentence; temporal viewpoint and continuing validity matter. Preserve the original degree of certainty and distinguish reported information from inference.\nModel: La responsable a indiqué que le dossier serait examiné.\nMeaning: The manager indicated that the file would be examined.\n\nGlossary\nun compte rendu — a meeting report\nun engagement explicite — an explicit commitment\ndemander confirmation — to ask for confirmation\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Identify the target form, explain its function, and contrast it with the alternative in the explanation.",
+      "vocabulary": [
+        "un compte rendu",
+        "un engagement explicite",
+        "demander confirmation"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "How does the writer handle an uncertain point?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Après une réunion, je prépare un compte rendu à destination de collègues absents. La responsable a indiqué que le dossier serait examiné. Je conserve cette relation temporelle : au moment de son intervention, l’examen était encore à venir. Je distingue les décisions prises des propositions qui restent à discuter et je précise les responsabilités annoncées sans ajouter d’engagement qui n’a pas été formulé. Lorsque mes notes ne permettent pas de restituer un point avec certitude, je le signale et je demande confirmation. Un compte rendu utile réduit l’ambiguïté ; il ne transforme pas une hypothèse en décision pour rendre le texte plus fluide.",
+          "data": {},
+          "options": [
+            "Presents it as a firm decision",
+            "Deletes all other information",
+            "Signals the uncertainty and asks for confirmation"
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "La responsable a indiqué que le dossier ___ examiné.",
+          "instructions": "Use être in the conditional present, third-person singular, for a future viewed from the past. Write only the missing form; keep accents.",
+          "explanation": "Serait expresses a future relative to a past statement: a indiqué que… serait examiné. French reported speech does not mechanically change the tense of every sentence; temporal viewpoint and continuing validity matter. Preserve the original degree of certainty and distinguish reported information from inference.",
+          "data": {
+            "accepted_answers": [
+              "serait"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: La responsable a indiqué que le dossier serait examiné.",
+          "explanation": "Serait expresses a future relative to a past statement: a indiqué que… serait examiné. French reported speech does not mechanically change the tense of every sentence; temporal viewpoint and continuing validity matter. Preserve the original degree of certainty and distinguish reported information from inference.",
+          "data": {
+            "tiles": [
+              {
+                "id": "fcd7f7f2-9fcf-5b62-aa4f-32e6c9b0f345",
+                "text": "La"
+              },
+              {
+                "id": "4f3b89bf-6164-5467-be3d-aac4c6d69525",
+                "text": "responsable"
+              },
+              {
+                "id": "477ad56d-b885-5161-b5aa-c1a624e7c53d",
+                "text": "a"
+              },
+              {
+                "id": "3aa73916-be40-5f1d-98cb-fe10e295fe1e",
+                "text": "indiqué"
+              },
+              {
+                "id": "935eb53b-5de3-54d1-aa53-6501c56a0a3f",
+                "text": "que"
+              },
+              {
+                "id": "00115d7f-5d71-583f-a440-1ebd0be31af8",
+                "text": "le"
+              },
+              {
+                "id": "ffaf720f-8dbf-5a22-b185-6586310e4580",
+                "text": "dossier"
+              },
+              {
+                "id": "cedc79b0-8ae0-546f-820d-d13d65ffe8e8",
+                "text": "serait"
+              },
+              {
+                "id": "5b41906c-e544-5ed0-bba8-bc236a07f78a",
+                "text": "examiné."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "fcd7f7f2-9fcf-5b62-aa4f-32e6c9b0f345",
+                "4f3b89bf-6164-5467-be3d-aac4c6d69525",
+                "477ad56d-b885-5161-b5aa-c1a624e7c53d",
+                "3aa73916-be40-5f1d-98cb-fe10e295fe1e",
+                "935eb53b-5de3-54d1-aa53-6501c56a0a3f",
+                "00115d7f-5d71-583f-a440-1ebd0be31af8",
+                "ffaf720f-8dbf-5a22-b185-6586310e4580",
+                "cedc79b0-8ae0-546f-820d-d13d65ffe8e8",
+                "5b41906c-e544-5ed0-bba8-bc236a07f78a"
+              ]
+            ],
+            "correct_sentence": "La responsable a indiqué que le dossier serait examiné."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "un compte rendu — a meeting report; un engagement explicite — an explicit commitment; demander confirmation — to ask for confirmation",
+          "data": {
+            "left_items": [
+              {
+                "id": "8a029e1f-3ee0-5f70-95aa-550a3539411a",
+                "text": "un compte rendu"
+              },
+              {
+                "id": "4bd82f08-4084-5a3b-a1eb-2bf0ce49e0f2",
+                "text": "un engagement explicite"
+              },
+              {
+                "id": "c2446ebe-fd1b-567f-ac2a-198c8698eb22",
+                "text": "demander confirmation"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "af5e3674-a145-58c5-91a6-413711e5702b",
+                "text": "a meeting report"
+              },
+              {
+                "id": "fde50836-ea08-5b2b-b1a4-a4f39502ce21",
+                "text": "an explicit commitment"
+              },
+              {
+                "id": "f8da0b38-70f1-5040-8cfa-37dc8c0778e9",
+                "text": "to ask for confirmation"
+              }
+            ],
+            "answer_pairs": {
+              "8a029e1f-3ee0-5f70-95aa-550a3539411a": "af5e3674-a145-58c5-91a6-413711e5702b",
+              "4bd82f08-4084-5a3b-a1eb-2bf0ce49e0f2": "fde50836-ea08-5b2b-b1a4-a4f39502ce21",
+              "c2446ebe-fd1b-567f-ac2a-198c8698eb22": "f8da0b38-70f1-5040-8cfa-37dc8c0778e9"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: La responsable a indiqué que le dossier serait examiné.\nEnglish meaning: The manager indicated that the file would be examined.",
+          "data": {
+            "text_fr": "La responsable a indiqué que le dossier serait examiné."
+          },
+          "options": [
+            "The manager indicated that the file had already been examined.",
+            "The manager indicated that the file would be closed.",
+            "The manager indicated that the file would be examined."
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: The manager indicated that the file would be examined.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: La responsable a indiqué que le dossier serait examiné.",
+          "explanation": "Exact model: La responsable a indiqué que le dossier serait examiné.\nMeaning: The manager indicated that the file would be examined.",
+          "data": {
+            "accepted_answers": [
+              "La responsable a indiqué que le dossier serait examiné."
+            ]
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "slug": "personal-module-2",
+          "title": "Future viewed from a past reporting point",
+          "summary": "Serait expresses a future relative to a past statement: a indiqué que… serait examiné. French reported speech does not mechanically change the tense of every sentence; temporal viewpoint and continuing validity matter. Preserve the original degree of certainty and distinguish reported information from inference.",
+          "rule_code": "personal-c1-2",
+          "explanation_english": "Serait expresses a future relative to a past statement: a indiqué que… serait examiné. French reported speech does not mechanically change the tense of every sentence; temporal viewpoint and continuing validity matter. Preserve the original degree of certainty and distinguish reported information from inference.",
+          "examples": [
+            [
+              "La responsable a indiqué que le dossier serait examiné.",
+              "The manager indicated that the file would be examined."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "key": "module-2-vocabulary",
+      "skill": "vocabulary",
+      "module_title": "Professional communication",
+      "title": "Report a meeting accurately: vocabulary",
+      "objective": "Practise C1-targeted vocabulary in the situation: Report a meeting accurately.",
+      "context": "French passage\nAprès une réunion, je prépare un compte rendu à destination de collègues absents. La responsable a indiqué que le dossier serait examiné. Je conserve cette relation temporelle : au moment de son intervention, l’examen était encore à venir. Je distingue les décisions prises des propositions qui restent à discuter et je précise les responsabilités annoncées sans ajouter d’engagement qui n’a pas été formulé. Lorsque mes notes ne permettent pas de restituer un point avec certitude, je le signale et je demande confirmation. Un compte rendu utile réduit l’ambiguïté ; il ne transforme pas une hypothèse en décision pour rendre le texte plus fluide.\n\nEnglish explanation\nSerait expresses a future relative to a past statement: a indiqué que… serait examiné. French reported speech does not mechanically change the tense of every sentence; temporal viewpoint and continuing validity matter. Preserve the original degree of certainty and distinguish reported information from inference.\nModel: La responsable a indiqué que le dossier serait examiné.\nMeaning: The manager indicated that the file would be examined.\n\nGlossary\nun compte rendu — a meeting report\nun engagement explicite — an explicit commitment\ndemander confirmation — to ask for confirmation\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Read each French definition, match meanings, then use the expressions in your own example.",
+      "vocabulary": [
+        "un compte rendu",
+        "un engagement explicite",
+        "demander confirmation"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Which French expression means “a meeting report”?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "Glossary meaning: un compte rendu — a meeting report.",
+          "data": {},
+          "options": [
+            "un compte rendu",
+            "un engagement explicite",
+            "demander confirmation"
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "La responsable a indiqué que le dossier ___ examiné.",
+          "instructions": "Use être in the conditional present, third-person singular, for a future viewed from the past. Write only the missing form; keep accents.",
+          "explanation": "Serait expresses a future relative to a past statement: a indiqué que… serait examiné. French reported speech does not mechanically change the tense of every sentence; temporal viewpoint and continuing validity matter. Preserve the original degree of certainty and distinguish reported information from inference.",
+          "data": {
+            "accepted_answers": [
+              "serait"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: La responsable a indiqué que le dossier serait examiné.",
+          "explanation": "Serait expresses a future relative to a past statement: a indiqué que… serait examiné. French reported speech does not mechanically change the tense of every sentence; temporal viewpoint and continuing validity matter. Preserve the original degree of certainty and distinguish reported information from inference.",
+          "data": {
+            "tiles": [
+              {
+                "id": "0bdb9d77-5f90-5c4a-829d-df3ce272ce62",
+                "text": "La"
+              },
+              {
+                "id": "b3d26d40-c09a-5ec9-95bb-87cbde99c782",
+                "text": "responsable"
+              },
+              {
+                "id": "a79a6803-e134-5d93-9ff3-9fb23eb1963b",
+                "text": "a"
+              },
+              {
+                "id": "37312c63-063c-5e76-844e-a26141128e3a",
+                "text": "indiqué"
+              },
+              {
+                "id": "7fead4a9-8551-5606-8b74-5e49b57224fe",
+                "text": "que"
+              },
+              {
+                "id": "243328bc-1f6e-54ad-9a9a-c5430007850d",
+                "text": "le"
+              },
+              {
+                "id": "7f2ced03-08bc-50e2-9aff-290f9f0f8880",
+                "text": "dossier"
+              },
+              {
+                "id": "665f1ec5-e0d6-51aa-ae4f-7a56a39d0048",
+                "text": "serait"
+              },
+              {
+                "id": "6ff0464a-b0a2-54a7-ae1b-bdc2af1cfc1a",
+                "text": "examiné."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "0bdb9d77-5f90-5c4a-829d-df3ce272ce62",
+                "b3d26d40-c09a-5ec9-95bb-87cbde99c782",
+                "a79a6803-e134-5d93-9ff3-9fb23eb1963b",
+                "37312c63-063c-5e76-844e-a26141128e3a",
+                "7fead4a9-8551-5606-8b74-5e49b57224fe",
+                "243328bc-1f6e-54ad-9a9a-c5430007850d",
+                "7f2ced03-08bc-50e2-9aff-290f9f0f8880",
+                "665f1ec5-e0d6-51aa-ae4f-7a56a39d0048",
+                "6ff0464a-b0a2-54a7-ae1b-bdc2af1cfc1a"
+              ]
+            ],
+            "correct_sentence": "La responsable a indiqué que le dossier serait examiné."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "un compte rendu — a meeting report; un engagement explicite — an explicit commitment; demander confirmation — to ask for confirmation",
+          "data": {
+            "left_items": [
+              {
+                "id": "1ea97d43-c89e-5a5b-af34-c719e8be4098",
+                "text": "un compte rendu"
+              },
+              {
+                "id": "baf4b8bd-3554-5d37-bfb2-684d48312e95",
+                "text": "un engagement explicite"
+              },
+              {
+                "id": "1c0f7d80-6c33-5de2-aaca-847005321e15",
+                "text": "demander confirmation"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "9a031f65-f43d-5a72-94c0-803a501d6a44",
+                "text": "a meeting report"
+              },
+              {
+                "id": "9d2146f9-700a-51ea-8471-854e45bd4f09",
+                "text": "an explicit commitment"
+              },
+              {
+                "id": "db425a56-93c4-5d0d-ba4c-66c30a8127a8",
+                "text": "to ask for confirmation"
+              }
+            ],
+            "answer_pairs": {
+              "1ea97d43-c89e-5a5b-af34-c719e8be4098": "9a031f65-f43d-5a72-94c0-803a501d6a44",
+              "baf4b8bd-3554-5d37-bfb2-684d48312e95": "9d2146f9-700a-51ea-8471-854e45bd4f09",
+              "1c0f7d80-6c33-5de2-aaca-847005321e15": "db425a56-93c4-5d0d-ba4c-66c30a8127a8"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: La responsable a indiqué que le dossier serait examiné.\nEnglish meaning: The manager indicated that the file would be examined.",
+          "data": {
+            "text_fr": "La responsable a indiqué que le dossier serait examiné."
+          },
+          "options": [
+            "The manager indicated that the file would be examined.",
+            "The manager indicated that the file had already been examined.",
+            "The manager indicated that the file would be closed."
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: The manager indicated that the file would be examined.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: La responsable a indiqué que le dossier serait examiné.",
+          "explanation": "Exact model: La responsable a indiqué que le dossier serait examiné.\nMeaning: The manager indicated that the file would be examined.",
+          "data": {
+            "accepted_answers": [
+              "La responsable a indiqué que le dossier serait examiné."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-2-reading",
+      "skill": "reading",
+      "module_title": "Professional communication",
+      "title": "Report a meeting accurately: reading",
+      "objective": "Practise C1-targeted reading in the situation: Report a meeting accurately.",
+      "context": "French passage\nAprès une réunion, je prépare un compte rendu à destination de collègues absents. La responsable a indiqué que le dossier serait examiné. Je conserve cette relation temporelle : au moment de son intervention, l’examen était encore à venir. Je distingue les décisions prises des propositions qui restent à discuter et je précise les responsabilités annoncées sans ajouter d’engagement qui n’a pas été formulé. Lorsque mes notes ne permettent pas de restituer un point avec certitude, je le signale et je demande confirmation. Un compte rendu utile réduit l’ambiguïté ; il ne transforme pas une hypothèse en décision pour rendre le texte plus fluide.\n\nEnglish explanation\nSerait expresses a future relative to a past statement: a indiqué que… serait examiné. French reported speech does not mechanically change the tense of every sentence; temporal viewpoint and continuing validity matter. Preserve the original degree of certainty and distinguish reported information from inference.\nModel: La responsable a indiqué que le dossier serait examiné.\nMeaning: The manager indicated that the file would be examined.\n\nGlossary\nun compte rendu — a meeting report\nun engagement explicite — an explicit commitment\ndemander confirmation — to ask for confirmation\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Find evidence for the answer in the passage. Distinguish what is stated from what is merely possible.",
+      "vocabulary": [
+        "un compte rendu",
+        "un engagement explicite",
+        "demander confirmation"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "How does the writer handle an uncertain point?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Après une réunion, je prépare un compte rendu à destination de collègues absents. La responsable a indiqué que le dossier serait examiné. Je conserve cette relation temporelle : au moment de son intervention, l’examen était encore à venir. Je distingue les décisions prises des propositions qui restent à discuter et je précise les responsabilités annoncées sans ajouter d’engagement qui n’a pas été formulé. Lorsque mes notes ne permettent pas de restituer un point avec certitude, je le signale et je demande confirmation. Un compte rendu utile réduit l’ambiguïté ; il ne transforme pas une hypothèse en décision pour rendre le texte plus fluide.",
+          "data": {},
+          "options": [
+            "Presents it as a firm decision",
+            "Signals the uncertainty and asks for confirmation",
+            "Deletes all other information"
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "La responsable a indiqué que le dossier ___ examiné.",
+          "instructions": "Use être in the conditional present, third-person singular, for a future viewed from the past. Write only the missing form; keep accents.",
+          "explanation": "Serait expresses a future relative to a past statement: a indiqué que… serait examiné. French reported speech does not mechanically change the tense of every sentence; temporal viewpoint and continuing validity matter. Preserve the original degree of certainty and distinguish reported information from inference.",
+          "data": {
+            "accepted_answers": [
+              "serait"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: La responsable a indiqué que le dossier serait examiné.",
+          "explanation": "Serait expresses a future relative to a past statement: a indiqué que… serait examiné. French reported speech does not mechanically change the tense of every sentence; temporal viewpoint and continuing validity matter. Preserve the original degree of certainty and distinguish reported information from inference.",
+          "data": {
+            "tiles": [
+              {
+                "id": "2cfff217-ab49-52e3-8601-c4f295da0ed7",
+                "text": "La"
+              },
+              {
+                "id": "48e49253-70b8-522b-af45-5e8fda25ed74",
+                "text": "responsable"
+              },
+              {
+                "id": "b96560c0-7ef2-56c0-8c86-77708f28ba07",
+                "text": "a"
+              },
+              {
+                "id": "08207f88-9a9b-526f-bac0-f58886c56026",
+                "text": "indiqué"
+              },
+              {
+                "id": "5a5eb9ec-d428-5ed2-a3a0-7a935fad6d59",
+                "text": "que"
+              },
+              {
+                "id": "ad44c263-90a0-59bb-9620-c55bbe3e5411",
+                "text": "le"
+              },
+              {
+                "id": "a0644e80-536d-5259-815e-6fd3ee5d4be4",
+                "text": "dossier"
+              },
+              {
+                "id": "7b1317a3-24dc-5dce-8979-e6c2d11a0ee8",
+                "text": "serait"
+              },
+              {
+                "id": "e4ecd1df-b74a-5833-820d-8d089d0333db",
+                "text": "examiné."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "2cfff217-ab49-52e3-8601-c4f295da0ed7",
+                "48e49253-70b8-522b-af45-5e8fda25ed74",
+                "b96560c0-7ef2-56c0-8c86-77708f28ba07",
+                "08207f88-9a9b-526f-bac0-f58886c56026",
+                "5a5eb9ec-d428-5ed2-a3a0-7a935fad6d59",
+                "ad44c263-90a0-59bb-9620-c55bbe3e5411",
+                "a0644e80-536d-5259-815e-6fd3ee5d4be4",
+                "7b1317a3-24dc-5dce-8979-e6c2d11a0ee8",
+                "e4ecd1df-b74a-5833-820d-8d089d0333db"
+              ]
+            ],
+            "correct_sentence": "La responsable a indiqué que le dossier serait examiné."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "un compte rendu — a meeting report; un engagement explicite — an explicit commitment; demander confirmation — to ask for confirmation",
+          "data": {
+            "left_items": [
+              {
+                "id": "d7196979-d14f-532d-aaa4-6ea9f718c8fb",
+                "text": "un compte rendu"
+              },
+              {
+                "id": "66c0a847-4773-5419-87f9-105a3d99d8bd",
+                "text": "un engagement explicite"
+              },
+              {
+                "id": "5ad636a1-640d-560d-8245-eee453a6ecbd",
+                "text": "demander confirmation"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "f5e03203-3ef7-5027-90e2-fff5da7f5ec3",
+                "text": "a meeting report"
+              },
+              {
+                "id": "41113b38-a758-5f09-94bc-8b20d396c8de",
+                "text": "an explicit commitment"
+              },
+              {
+                "id": "37af1026-20f3-5980-b78e-41b473af8c63",
+                "text": "to ask for confirmation"
+              }
+            ],
+            "answer_pairs": {
+              "d7196979-d14f-532d-aaa4-6ea9f718c8fb": "f5e03203-3ef7-5027-90e2-fff5da7f5ec3",
+              "66c0a847-4773-5419-87f9-105a3d99d8bd": "41113b38-a758-5f09-94bc-8b20d396c8de",
+              "5ad636a1-640d-560d-8245-eee453a6ecbd": "37af1026-20f3-5980-b78e-41b473af8c63"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: La responsable a indiqué que le dossier serait examiné.\nEnglish meaning: The manager indicated that the file would be examined.",
+          "data": {
+            "text_fr": "La responsable a indiqué que le dossier serait examiné."
+          },
+          "options": [
+            "The manager indicated that the file had already been examined.",
+            "The manager indicated that the file would be examined.",
+            "The manager indicated that the file would be closed."
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: The manager indicated that the file would be examined.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: La responsable a indiqué que le dossier serait examiné.",
+          "explanation": "Exact model: La responsable a indiqué que le dossier serait examiné.\nMeaning: The manager indicated that the file would be examined.",
+          "data": {
+            "accepted_answers": [
+              "La responsable a indiqué que le dossier serait examiné."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-2-writing",
+      "skill": "writing",
+      "module_title": "Professional communication",
+      "title": "Report a meeting accurately: writing",
+      "objective": "Practise C1-targeted writing in the situation: Report a meeting accurately.",
+      "context": "French passage\nAprès une réunion, je prépare un compte rendu à destination de collègues absents. La responsable a indiqué que le dossier serait examiné. Je conserve cette relation temporelle : au moment de son intervention, l’examen était encore à venir. Je distingue les décisions prises des propositions qui restent à discuter et je précise les responsabilités annoncées sans ajouter d’engagement qui n’a pas été formulé. Lorsque mes notes ne permettent pas de restituer un point avec certitude, je le signale et je demande confirmation. Un compte rendu utile réduit l’ambiguïté ; il ne transforme pas une hypothèse en décision pour rendre le texte plus fluide.\n\nEnglish explanation\nSerait expresses a future relative to a past statement: a indiqué que… serait examiné. French reported speech does not mechanically change the tense of every sentence; temporal viewpoint and continuing validity matter. Preserve the original degree of certainty and distinguish reported information from inference.\nModel: La responsable a indiqué que le dossier serait examiné.\nMeaning: The manager indicated that the file would be examined.\n\nGlossary\nun compte rendu — a meeting report\nun engagement explicite — an explicit commitment\ndemander confirmation — to ask for confirmation\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nWrite 180–220 French words. Write a meeting report distinguishing agreed decisions, reported future actions and unresolved points. Preserve uncertainty and identify what requires confirmation. Use invented personal details. Feedback is advisory, not CEFR certification.\n\nLesson focus: Plan, draft and reread for task completion, grammatical accuracy, suitable vocabulary and audience.",
+      "vocabulary": [
+        "un compte rendu",
+        "un engagement explicite",
+        "demander confirmation"
+      ],
+      "estimated_minutes": 15,
+      "exercises": []
+    },
+    {
+      "key": "module-3-grammar",
+      "skill": "grammar",
+      "module_title": "Style and synthesis",
+      "title": "Compare two viewpoints: grammar",
+      "objective": "Practise C1-targeted grammar in the situation: Compare two viewpoints.",
+      "context": "French passage\nDeux textes analysent une même évolution, mais ils ne répondent pas exactement à la même question. Le premier décrit des effets observés sur une période courte ; le second envisage des conséquences à plus long terme. Il semblerait que cette conclusion soit prématurée. Je n’écarte pas pour autant les observations disponibles : je précise simplement ce qu’elles permettent d’affirmer. Dans ma synthèse, je rapproche les points de convergence, puis j’explique les divergences de méthode et d’échelle. J’évite de juxtaposer des citations sans lien logique ou de donner aux deux sources un accord qu’elles n’expriment pas. La prudence linguistique sert la précision du raisonnement, et non l’absence de prise de position.\n\nEnglish explanation\nIl semblerait que commonly introduces a qualified judgement and takes the subjunctive here: soit. Do not generalise this to every use of sembler: construction, polarity and intended certainty affect the choice. Distinguish uncertainty about evidence from disagreement with a conclusion.\nModel: Il semblerait que cette conclusion soit prématurée.\nMeaning: It would seem that this conclusion is premature.\n\nGlossary\nun point de convergence — a point of agreement\nune divergence de méthode — a methodological difference\nune prise de position — a stated position\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Identify the target form, explain its function, and contrast it with the alternative in the explanation.",
+      "vocabulary": [
+        "un point de convergence",
+        "une divergence de méthode",
+        "une prise de position"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Why does the writer qualify the conclusion?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Deux textes analysent une même évolution, mais ils ne répondent pas exactement à la même question. Le premier décrit des effets observés sur une période courte ; le second envisage des conséquences à plus long terme. Il semblerait que cette conclusion soit prématurée. Je n’écarte pas pour autant les observations disponibles : je précise simplement ce qu’elles permettent d’affirmer. Dans ma synthèse, je rapproche les points de convergence, puis j’explique les divergences de méthode et d’échelle. J’évite de juxtaposer des citations sans lien logique ou de donner aux deux sources un accord qu’elles n’expriment pas. La prudence linguistique sert la précision du raisonnement, et non l’absence de prise de position.",
+          "data": {},
+          "options": [
+            "The evidence does not yet justify such a broad claim",
+            "The writer rejects every observation",
+            "Both sources make exactly the same argument"
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Il semblerait que cette conclusion ___ prématurée.",
+          "instructions": "Use être in the present subjunctive, third-person singular. Write only the missing form; keep accents.",
+          "explanation": "Il semblerait que commonly introduces a qualified judgement and takes the subjunctive here: soit. Do not generalise this to every use of sembler: construction, polarity and intended certainty affect the choice. Distinguish uncertainty about evidence from disagreement with a conclusion.",
+          "data": {
+            "accepted_answers": [
+              "soit"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Il semblerait que cette conclusion soit prématurée.",
+          "explanation": "Il semblerait que commonly introduces a qualified judgement and takes the subjunctive here: soit. Do not generalise this to every use of sembler: construction, polarity and intended certainty affect the choice. Distinguish uncertainty about evidence from disagreement with a conclusion.",
+          "data": {
+            "tiles": [
+              {
+                "id": "b623ced7-3ed1-56af-af0c-614e86dfaf79",
+                "text": "Il"
+              },
+              {
+                "id": "9dbaf086-0610-5796-ac97-06bc9f2312f3",
+                "text": "semblerait"
+              },
+              {
+                "id": "1e20a668-41dc-50e6-9298-a23318a50869",
+                "text": "que"
+              },
+              {
+                "id": "a674d2c0-2f86-5599-ac64-6c88f2aed9b8",
+                "text": "cette"
+              },
+              {
+                "id": "d0097570-07a5-5fa4-a68c-3ef8e521971a",
+                "text": "conclusion"
+              },
+              {
+                "id": "c929ee65-46a9-53e5-89f3-ff1beea8160f",
+                "text": "soit"
+              },
+              {
+                "id": "a950a3d1-5774-52ab-ab67-cfbd7eb44cbd",
+                "text": "prématurée."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "b623ced7-3ed1-56af-af0c-614e86dfaf79",
+                "9dbaf086-0610-5796-ac97-06bc9f2312f3",
+                "1e20a668-41dc-50e6-9298-a23318a50869",
+                "a674d2c0-2f86-5599-ac64-6c88f2aed9b8",
+                "d0097570-07a5-5fa4-a68c-3ef8e521971a",
+                "c929ee65-46a9-53e5-89f3-ff1beea8160f",
+                "a950a3d1-5774-52ab-ab67-cfbd7eb44cbd"
+              ]
+            ],
+            "correct_sentence": "Il semblerait que cette conclusion soit prématurée."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "un point de convergence — a point of agreement; une divergence de méthode — a methodological difference; une prise de position — a stated position",
+          "data": {
+            "left_items": [
+              {
+                "id": "62290d70-c27b-5ad6-a96f-84dfc266a05c",
+                "text": "un point de convergence"
+              },
+              {
+                "id": "9fd5f9b1-5301-53f1-84e1-a4a04c78b831",
+                "text": "une divergence de méthode"
+              },
+              {
+                "id": "e84c49a3-31d5-564c-830b-3e15d7214da1",
+                "text": "une prise de position"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "1438c385-307d-5536-9b27-03eb3e8e19d4",
+                "text": "a point of agreement"
+              },
+              {
+                "id": "2f3e0f32-9f7d-50ac-8d1f-bf4d83938d4e",
+                "text": "a methodological difference"
+              },
+              {
+                "id": "65753ef1-36ab-5249-8e6d-e998cdea7302",
+                "text": "a stated position"
+              }
+            ],
+            "answer_pairs": {
+              "62290d70-c27b-5ad6-a96f-84dfc266a05c": "1438c385-307d-5536-9b27-03eb3e8e19d4",
+              "9fd5f9b1-5301-53f1-84e1-a4a04c78b831": "2f3e0f32-9f7d-50ac-8d1f-bf4d83938d4e",
+              "e84c49a3-31d5-564c-830b-3e15d7214da1": "65753ef1-36ab-5249-8e6d-e998cdea7302"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Il semblerait que cette conclusion soit prématurée.\nEnglish meaning: It would seem that this conclusion is premature.",
+          "data": {
+            "text_fr": "Il semblerait que cette conclusion soit prématurée."
+          },
+          "options": [
+            "It would seem that this conclusion is premature.",
+            "It would seem that this conclusion is definitive.",
+            "It would seem that this conclusion is delayed."
+          ],
+          "correct_option": 0
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: It would seem that this conclusion is premature.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Il semblerait que cette conclusion soit prématurée.",
+          "explanation": "Exact model: Il semblerait que cette conclusion soit prématurée.\nMeaning: It would seem that this conclusion is premature.",
+          "data": {
+            "accepted_answers": [
+              "Il semblerait que cette conclusion soit prématurée."
+            ]
+          }
+        }
+      ],
+      "grammar": [
+        {
+          "slug": "personal-module-3",
+          "title": "Careful qualification",
+          "summary": "Il semblerait que commonly introduces a qualified judgement and takes the subjunctive here: soit. Do not generalise this to every use of sembler: construction, polarity and intended certainty affect the choice. Distinguish uncertainty about evidence from disagreement with a conclusion.",
+          "rule_code": "personal-c1-3",
+          "explanation_english": "Il semblerait que commonly introduces a qualified judgement and takes the subjunctive here: soit. Do not generalise this to every use of sembler: construction, polarity and intended certainty affect the choice. Distinguish uncertainty about evidence from disagreement with a conclusion.",
+          "examples": [
+            [
+              "Il semblerait que cette conclusion soit prématurée.",
+              "It would seem that this conclusion is premature."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "key": "module-3-vocabulary",
+      "skill": "vocabulary",
+      "module_title": "Style and synthesis",
+      "title": "Compare two viewpoints: vocabulary",
+      "objective": "Practise C1-targeted vocabulary in the situation: Compare two viewpoints.",
+      "context": "French passage\nDeux textes analysent une même évolution, mais ils ne répondent pas exactement à la même question. Le premier décrit des effets observés sur une période courte ; le second envisage des conséquences à plus long terme. Il semblerait que cette conclusion soit prématurée. Je n’écarte pas pour autant les observations disponibles : je précise simplement ce qu’elles permettent d’affirmer. Dans ma synthèse, je rapproche les points de convergence, puis j’explique les divergences de méthode et d’échelle. J’évite de juxtaposer des citations sans lien logique ou de donner aux deux sources un accord qu’elles n’expriment pas. La prudence linguistique sert la précision du raisonnement, et non l’absence de prise de position.\n\nEnglish explanation\nIl semblerait que commonly introduces a qualified judgement and takes the subjunctive here: soit. Do not generalise this to every use of sembler: construction, polarity and intended certainty affect the choice. Distinguish uncertainty about evidence from disagreement with a conclusion.\nModel: Il semblerait que cette conclusion soit prématurée.\nMeaning: It would seem that this conclusion is premature.\n\nGlossary\nun point de convergence — a point of agreement\nune divergence de méthode — a methodological difference\nune prise de position — a stated position\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Read each French definition, match meanings, then use the expressions in your own example.",
+      "vocabulary": [
+        "un point de convergence",
+        "une divergence de méthode",
+        "une prise de position"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Which French expression means “a point of agreement”?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "Glossary meaning: un point de convergence — a point of agreement.",
+          "data": {},
+          "options": [
+            "une divergence de méthode",
+            "un point de convergence",
+            "une prise de position"
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Il semblerait que cette conclusion ___ prématurée.",
+          "instructions": "Use être in the present subjunctive, third-person singular. Write only the missing form; keep accents.",
+          "explanation": "Il semblerait que commonly introduces a qualified judgement and takes the subjunctive here: soit. Do not generalise this to every use of sembler: construction, polarity and intended certainty affect the choice. Distinguish uncertainty about evidence from disagreement with a conclusion.",
+          "data": {
+            "accepted_answers": [
+              "soit"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Il semblerait que cette conclusion soit prématurée.",
+          "explanation": "Il semblerait que commonly introduces a qualified judgement and takes the subjunctive here: soit. Do not generalise this to every use of sembler: construction, polarity and intended certainty affect the choice. Distinguish uncertainty about evidence from disagreement with a conclusion.",
+          "data": {
+            "tiles": [
+              {
+                "id": "0f47e875-9d29-59e4-89a8-0507b04d4eb9",
+                "text": "Il"
+              },
+              {
+                "id": "f27dfb57-3d21-5080-8b77-2c677daeaa9f",
+                "text": "semblerait"
+              },
+              {
+                "id": "2101b1ab-11ac-5bd3-b013-4dbdff58a1fe",
+                "text": "que"
+              },
+              {
+                "id": "c9550957-acee-5a05-bcca-6628d86cd696",
+                "text": "cette"
+              },
+              {
+                "id": "6d99c7be-be16-555b-900f-90048f6098bb",
+                "text": "conclusion"
+              },
+              {
+                "id": "30026a11-1e1c-55b7-81e9-e8e213a3f297",
+                "text": "soit"
+              },
+              {
+                "id": "af3b260d-aeb4-5803-8071-18a7815c0af8",
+                "text": "prématurée."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "0f47e875-9d29-59e4-89a8-0507b04d4eb9",
+                "f27dfb57-3d21-5080-8b77-2c677daeaa9f",
+                "2101b1ab-11ac-5bd3-b013-4dbdff58a1fe",
+                "c9550957-acee-5a05-bcca-6628d86cd696",
+                "6d99c7be-be16-555b-900f-90048f6098bb",
+                "30026a11-1e1c-55b7-81e9-e8e213a3f297",
+                "af3b260d-aeb4-5803-8071-18a7815c0af8"
+              ]
+            ],
+            "correct_sentence": "Il semblerait que cette conclusion soit prématurée."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "un point de convergence — a point of agreement; une divergence de méthode — a methodological difference; une prise de position — a stated position",
+          "data": {
+            "left_items": [
+              {
+                "id": "632af30d-8f2a-5418-ab9c-4f27279229be",
+                "text": "un point de convergence"
+              },
+              {
+                "id": "9bc807b0-116a-5764-9912-0cb201be9fbf",
+                "text": "une divergence de méthode"
+              },
+              {
+                "id": "8a1c452a-3be5-586a-8dda-f5c5d449fac9",
+                "text": "une prise de position"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "1d89652a-30e8-5752-ba81-b88b8794ae85",
+                "text": "a point of agreement"
+              },
+              {
+                "id": "1fa9bcaa-d189-5e71-bb77-47496c50dae3",
+                "text": "a methodological difference"
+              },
+              {
+                "id": "fa71836e-0729-5893-8c6a-5a192bfec82e",
+                "text": "a stated position"
+              }
+            ],
+            "answer_pairs": {
+              "632af30d-8f2a-5418-ab9c-4f27279229be": "1d89652a-30e8-5752-ba81-b88b8794ae85",
+              "9bc807b0-116a-5764-9912-0cb201be9fbf": "1fa9bcaa-d189-5e71-bb77-47496c50dae3",
+              "8a1c452a-3be5-586a-8dda-f5c5d449fac9": "fa71836e-0729-5893-8c6a-5a192bfec82e"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Il semblerait que cette conclusion soit prématurée.\nEnglish meaning: It would seem that this conclusion is premature.",
+          "data": {
+            "text_fr": "Il semblerait que cette conclusion soit prématurée."
+          },
+          "options": [
+            "It would seem that this conclusion is definitive.",
+            "It would seem that this conclusion is premature.",
+            "It would seem that this conclusion is delayed."
+          ],
+          "correct_option": 1
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: It would seem that this conclusion is premature.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Il semblerait que cette conclusion soit prématurée.",
+          "explanation": "Exact model: Il semblerait que cette conclusion soit prématurée.\nMeaning: It would seem that this conclusion is premature.",
+          "data": {
+            "accepted_answers": [
+              "Il semblerait que cette conclusion soit prématurée."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-3-reading",
+      "skill": "reading",
+      "module_title": "Style and synthesis",
+      "title": "Compare two viewpoints: reading",
+      "objective": "Practise C1-targeted reading in the situation: Compare two viewpoints.",
+      "context": "French passage\nDeux textes analysent une même évolution, mais ils ne répondent pas exactement à la même question. Le premier décrit des effets observés sur une période courte ; le second envisage des conséquences à plus long terme. Il semblerait que cette conclusion soit prématurée. Je n’écarte pas pour autant les observations disponibles : je précise simplement ce qu’elles permettent d’affirmer. Dans ma synthèse, je rapproche les points de convergence, puis j’explique les divergences de méthode et d’échelle. J’évite de juxtaposer des citations sans lien logique ou de donner aux deux sources un accord qu’elles n’expriment pas. La prudence linguistique sert la précision du raisonnement, et non l’absence de prise de position.\n\nEnglish explanation\nIl semblerait que commonly introduces a qualified judgement and takes the subjunctive here: soit. Do not generalise this to every use of sembler: construction, polarity and intended certainty affect the choice. Distinguish uncertainty about evidence from disagreement with a conclusion.\nModel: Il semblerait que cette conclusion soit prématurée.\nMeaning: It would seem that this conclusion is premature.\n\nGlossary\nun point de convergence — a point of agreement\nune divergence de méthode — a methodological difference\nune prise de position — a stated position\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nLesson focus: Find evidence for the answer in the passage. Distinguish what is stated from what is merely possible.",
+      "vocabulary": [
+        "un point de convergence",
+        "une divergence de méthode",
+        "une prise de position"
+      ],
+      "estimated_minutes": 12,
+      "exercises": [
+        {
+          "key": "read-choice",
+          "type": "multiple_choice",
+          "prompt": "Why does the writer qualify the conclusion?",
+          "instructions": "Use the passage and glossary above.",
+          "explanation": "The answer follows from this French passage: Deux textes analysent une même évolution, mais ils ne répondent pas exactement à la même question. Le premier décrit des effets observés sur une période courte ; le second envisage des conséquences à plus long terme. Il semblerait que cette conclusion soit prématurée. Je n’écarte pas pour autant les observations disponibles : je précise simplement ce qu’elles permettent d’affirmer. Dans ma synthèse, je rapproche les points de convergence, puis j’explique les divergences de méthode et d’échelle. J’évite de juxtaposer des citations sans lien logique ou de donner aux deux sources un accord qu’elles n’expriment pas. La prudence linguistique sert la précision du raisonnement, et non l’absence de prise de position.",
+          "data": {},
+          "options": [
+            "The writer rejects every observation",
+            "Both sources make exactly the same argument",
+            "The evidence does not yet justify such a broad claim"
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "complete-form",
+          "type": "fill_blank",
+          "prompt": "Il semblerait que cette conclusion ___ prématurée.",
+          "instructions": "Use être in the present subjunctive, third-person singular. Write only the missing form; keep accents.",
+          "explanation": "Il semblerait que commonly introduces a qualified judgement and takes the subjunctive here: soit. Do not generalise this to every use of sembler: construction, polarity and intended certainty affect the choice. Distinguish uncertainty about evidence from disagreement with a conclusion.",
+          "data": {
+            "accepted_answers": [
+              "soit"
+            ]
+          }
+        },
+        {
+          "key": "rebuild-line",
+          "type": "sentence_order",
+          "prompt": "Rebuild the model sentence in its original order.",
+          "instructions": "Use every tile once to reproduce this exact model: Il semblerait que cette conclusion soit prématurée.",
+          "explanation": "Il semblerait que commonly introduces a qualified judgement and takes the subjunctive here: soit. Do not generalise this to every use of sembler: construction, polarity and intended certainty affect the choice. Distinguish uncertainty about evidence from disagreement with a conclusion.",
+          "data": {
+            "tiles": [
+              {
+                "id": "2ceade48-3a29-571e-8ba0-5441d40c31e1",
+                "text": "Il"
+              },
+              {
+                "id": "cb62743b-e44f-5561-ac65-293ca240ac36",
+                "text": "semblerait"
+              },
+              {
+                "id": "5d3e0eb7-bfb3-5e77-8bcb-9c1a54d89c88",
+                "text": "que"
+              },
+              {
+                "id": "f82fd980-2419-5849-a5c0-977293e672a3",
+                "text": "cette"
+              },
+              {
+                "id": "579ebd2b-9e65-5b3a-b1fe-4d44c7f49b6c",
+                "text": "conclusion"
+              },
+              {
+                "id": "7e99c0a7-6e93-5080-82d5-ff869bc0ad07",
+                "text": "soit"
+              },
+              {
+                "id": "2bf6d3fe-204e-5a65-ae4b-7f037cb142cb",
+                "text": "prématurée."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "2ceade48-3a29-571e-8ba0-5441d40c31e1",
+                "cb62743b-e44f-5561-ac65-293ca240ac36",
+                "5d3e0eb7-bfb3-5e77-8bcb-9c1a54d89c88",
+                "f82fd980-2419-5849-a5c0-977293e672a3",
+                "579ebd2b-9e65-5b3a-b1fe-4d44c7f49b6c",
+                "7e99c0a7-6e93-5080-82d5-ff869bc0ad07",
+                "2bf6d3fe-204e-5a65-ae4b-7f037cb142cb"
+              ]
+            ],
+            "correct_sentence": "Il semblerait que cette conclusion soit prématurée."
+          }
+        },
+        {
+          "key": "match-words",
+          "type": "matching",
+          "prompt": "Match each French expression with its English meaning.",
+          "instructions": "Use each expression and meaning once.",
+          "explanation": "un point de convergence — a point of agreement; une divergence de méthode — a methodological difference; une prise de position — a stated position",
+          "data": {
+            "left_items": [
+              {
+                "id": "eac33afb-b603-5e12-ba84-446298fcd99e",
+                "text": "un point de convergence"
+              },
+              {
+                "id": "6b5578aa-a192-5fe2-8cb2-5c735eb9a7ec",
+                "text": "une divergence de méthode"
+              },
+              {
+                "id": "ef1b6490-cea7-5524-b048-5cea160e1f75",
+                "text": "une prise de position"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "d20e7c5d-5ad8-5fcb-a80e-387220e984d2",
+                "text": "a point of agreement"
+              },
+              {
+                "id": "0ef6849d-c5a1-5221-919a-fafa0d67fc43",
+                "text": "a methodological difference"
+              },
+              {
+                "id": "ae5c3682-f3d4-5c1c-8711-fa3b9e39a564",
+                "text": "a stated position"
+              }
+            ],
+            "answer_pairs": {
+              "eac33afb-b603-5e12-ba84-446298fcd99e": "d20e7c5d-5ad8-5fcb-a80e-387220e984d2",
+              "6b5578aa-a192-5fe2-8cb2-5c735eb9a7ec": "0ef6849d-c5a1-5221-919a-fafa0d67fc43",
+              "ef1b6490-cea7-5524-b048-5cea160e1f75": "ae5c3682-f3d4-5c1c-8711-fa3b9e39a564"
+            }
+          }
+        },
+        {
+          "key": "listen-meaning",
+          "type": "listening",
+          "prompt": "Listen, then choose the English meaning.",
+          "instructions": "Play the French audio before answering. This is listening practice, not pronunciation certification.",
+          "explanation": "French: Il semblerait que cette conclusion soit prématurée.\nEnglish meaning: It would seem that this conclusion is premature.",
+          "data": {
+            "text_fr": "Il semblerait que cette conclusion soit prématurée."
+          },
+          "options": [
+            "It would seem that this conclusion is definitive.",
+            "It would seem that this conclusion is delayed.",
+            "It would seem that this conclusion is premature."
+          ],
+          "correct_option": 2
+        },
+        {
+          "key": "recall-model",
+          "type": "short_answer",
+          "prompt": "Recall the French model for: It would seem that this conclusion is premature.",
+          "instructions": "This exact-model recall drill accepts the quoted sentence, not every valid translation: Il semblerait que cette conclusion soit prématurée.",
+          "explanation": "Exact model: Il semblerait que cette conclusion soit prématurée.\nMeaning: It would seem that this conclusion is premature.",
+          "data": {
+            "accepted_answers": [
+              "Il semblerait que cette conclusion soit prématurée."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "module-3-writing",
+      "skill": "writing",
+      "module_title": "Style and synthesis",
+      "title": "Compare two viewpoints: writing",
+      "objective": "Practise C1-targeted writing in the situation: Compare two viewpoints.",
+      "context": "French passage\nDeux textes analysent une même évolution, mais ils ne répondent pas exactement à la même question. Le premier décrit des effets observés sur une période courte ; le second envisage des conséquences à plus long terme. Il semblerait que cette conclusion soit prématurée. Je n’écarte pas pour autant les observations disponibles : je précise simplement ce qu’elles permettent d’affirmer. Dans ma synthèse, je rapproche les points de convergence, puis j’explique les divergences de méthode et d’échelle. J’évite de juxtaposer des citations sans lien logique ou de donner aux deux sources un accord qu’elles n’expriment pas. La prudence linguistique sert la précision du raisonnement, et non l’absence de prise de position.\n\nEnglish explanation\nIl semblerait que commonly introduces a qualified judgement and takes the subjunctive here: soit. Do not generalise this to every use of sembler: construction, polarity and intended certainty affect the choice. Distinguish uncertainty about evidence from disagreement with a conclusion.\nModel: Il semblerait que cette conclusion soit prématurée.\nMeaning: It would seem that this conclusion is premature.\n\nGlossary\nun point de convergence — a point of agreement\nune divergence de méthode — a methodological difference\nune prise de position — a stated position\n\nSpeaking: retell this situation and ask two related questions. Transcription is not a pronunciation score.\n\nWrite 180–220 French words. Write a synthesis comparing the two viewpoints in the passage. Explain their different time scales, identify a convergence and qualify your own conclusion without inventing evidence. Use invented personal details. Feedback is advisory, not CEFR certification.\n\nLesson focus: Plan, draft and reread for task completion, grammatical accuracy, suitable vocabulary and audience.",
+      "vocabulary": [
+        "un point de convergence",
+        "une divergence de méthode",
+        "une prise de position"
+      ],
+      "estimated_minutes": 15,
+      "exercises": []
+    }
+  ]
+}

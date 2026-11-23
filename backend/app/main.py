@@ -70,11 +70,15 @@ async def private_api_responses(request, call_next):
                 return JSONResponse(status_code=413, content={"detail": "Speech request body is too large."}, headers={"Cache-Control": "no-store"})
         request._body = bytes(body)
     if request.url.path.startswith((f"{settings.api_prefix}/ai", f"{settings.api_prefix}/learning/assessments/writing")) and request.method in {"POST", "PATCH"}:
+        # Escaped French characters can take six JSON bytes each. Keep the
+        # larger bounded envelope only for the extended-writing submission.
+        writing_submission = request.method == 'POST' and request.url.path == f'{settings.api_prefix}/learning/assessments/writing'
+        body_limit = 64000 if writing_submission else 32000
         body = bytearray()
         async for chunk in request.stream():
             body.extend(chunk)
-            if len(body) > 32000:
-                return JSONResponse(status_code=413, content={"detail": "AI request body is too large."}, headers={"Cache-Control": "no-store"})
+            if len(body) > body_limit:
+                return JSONResponse(status_code=413, content={"detail": "Writing request body is too large." if writing_submission else "AI request body is too large."}, headers={"Cache-Control": "no-store"})
         request._body = bytes(body)
     if request.url.path.startswith(f"{settings.api_prefix}/content-review") and request.method == "POST":
         body = bytearray()

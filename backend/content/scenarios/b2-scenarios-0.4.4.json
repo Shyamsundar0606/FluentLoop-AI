@@ -1,0 +1,166 @@
+{
+  "version": "0.4.4",
+  "level": "B2",
+  "status": "draft",
+  "source_license": "Original AI-assisted scenario drafts. Independent human language, pedagogy, answer-key and CEFR calibration reviews pending.",
+  "tasks": [
+    {
+      "key": "interpret-scenario",
+      "skill": "reading",
+      "title": "Evaluate a university access proposal",
+      "objective": "Evaluate the limits of quantitative evidence and argue for a qualified policy option with a counterargument.",
+      "context": "Une université envisage de fermer sa bibliothèque une heure plus tôt pour financer davantage de ressources numériques. Le conseil souligne que les entrées après vingt heures ne représentent que 6 % des visites. Une association étudiante conteste toutefois l’usage de ce chiffre : une faible fréquentation ne dit rien de l’importance du service pour ceux qui travaillent en journée. Elle demande une expérimentation pendant les examens et un relevé des usages, plutôt qu’un abandon définitif du projet. La direction accepte d’étudier cette proposition, à condition que les coûts de sécurité soient inclus. Le débat porte donc moins sur l’intérêt du numérique que sur la répartition des contraintes. Présenter l’opposition comme un refus de toute modernisation ferait disparaître la question centrale : quels étudiants supporteraient l’économie réalisée ?\n\nUnderstand: Separate the statistic from the conclusion attributed to it. The association proposes a conditional trial, not a blanket rejection. Identify the distributional argument and the director’s cost condition before taking a position.\n\nLanguage: À condition que introduces a condition with the subjunctive. Encore faudrait-il frames an unmet requirement. A concession does not cancel the following objection.",
+      "vocabulary": [
+        "la répartition des contraintes",
+        "à condition que",
+        "une expérimentation"
+      ],
+      "exercises": [
+        {
+          "key": "read-1",
+          "type": "multiple_choice",
+          "prompt": "What limitation of the statistic is raised?",
+          "instructions": "Read the French passage. Choose the claim supported by this text, not a broader assumption.",
+          "explanation": "The supported interpretation is: Visit share does not measure importance for affected students. Separate the statistic from the conclusion attributed to it. The association proposes a conditional trial, not a blanket rejection. Identify the distributional argument and the director’s cost condition before taking a position.",
+          "options": [
+            "Visit share does not measure importance for affected students",
+            "The percentage proves all visits are unnecessary",
+            "The association says there are no evening visitors"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "read-2",
+          "type": "multiple_choice",
+          "prompt": "Which summary avoids a false opposition?",
+          "instructions": "Read the French passage. Choose the claim supported by this text, not a broader assumption.",
+          "explanation": "The supported interpretation is: Test the proposal while evaluating access and security costs. Separate the statistic from the conclusion attributed to it. The association proposes a conditional trial, not a blanket rejection. Identify the distributional argument and the director’s cost condition before taking a position.",
+          "options": [
+            "Students reject all digital resources",
+            "Test the proposal while evaluating access and security costs",
+            "The direction has cancelled its proposal"
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "listen-stance",
+          "type": "listening",
+          "prompt": "What is the speaker’s position?",
+          "instructions": "Listen before answering. The audio is an original scripted excerpt; synthetic playback is not an authentic multi-speaker recording.",
+          "explanation": "Nous ne rejetons pas le numérique. Encore faudrait-il savoir qui perd un lieu de travail. Essayons pendant les examens, sans oublier le coût de la sécurité. — A conditional trial with attention to affected users",
+          "options": [
+            "Unconditional support for closure",
+            "Refusal to discuss any cost",
+            "A conditional trial with attention to affected users"
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Nous ne rejetons pas le numérique. Encore faudrait-il savoir qui perd un lieu de travail. Essayons pendant les examens, sans oublier le coût de la sécurité."
+          }
+        },
+        {
+          "key": "lexical-scope",
+          "type": "matching",
+          "prompt": "Match expressions with their contextual meanings.",
+          "instructions": "Match the meaning used in this scenario; these are not exhaustive dictionary definitions.",
+          "explanation": "la répartition des contraintes — the distribution of burdens; à condition que — provided that; une expérimentation — a trial implementation",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "06e14a0b-8ab8-5bf6-8919-b6735d9be031",
+                "text": "la répartition des contraintes"
+              },
+              {
+                "id": "962e16e1-37f3-5759-8f2c-2b387d781922",
+                "text": "à condition que"
+              },
+              {
+                "id": "e9aa65ab-364f-5aec-bcfb-d6a050ffcf3e",
+                "text": "une expérimentation"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "93ab8319-e9ce-5f93-b5fa-18676248a0c6",
+                "text": "a trial implementation"
+              },
+              {
+                "id": "962eed08-c393-52ee-889c-fd6d0d54d144",
+                "text": "provided that"
+              },
+              {
+                "id": "a4115814-3fb9-504c-8d80-8d3a6c3bafeb",
+                "text": "the distribution of burdens"
+              }
+            ],
+            "answer_pairs": {
+              "06e14a0b-8ab8-5bf6-8919-b6735d9be031": "a4115814-3fb9-504c-8d80-8d3a6c3bafeb",
+              "962e16e1-37f3-5759-8f2c-2b387d781922": "962eed08-c393-52ee-889c-fd6d0d54d144",
+              "e9aa65ab-364f-5aec-bcfb-d6a050ffcf3e": "93ab8319-e9ce-5f93-b5fa-18676248a0c6"
+            }
+          }
+        }
+      ],
+      "module_title": "Evaluate a university access proposal",
+      "estimated_minutes": 35,
+      "grammar": [],
+      "prerequisites": []
+    },
+    {
+      "key": "transfer-and-review",
+      "skill": "writing",
+      "title": "Transfer and review: Evaluate a university access proposal",
+      "objective": "Evaluate the limits of quantitative evidence and argue for a qualified policy option with a counterargument.",
+      "context": "Write 230–280 French words for the university council. Compare two options, analyse what the 6 % figure establishes and does not establish, address security costs and propose an evaluable trial. Attribute claims and include a substantive counterargument. No external statistic may be invented.\n\nSpeaking transfer: Defend a conditional recommendation to the Tutor as a council member. Respond to a cost objection and distinguish your inference from the supplied evidence.\n\nRevision: Summarise the opposing position fairly before giving your own. Revisit one overstatement and rewrite it with an explicit condition.\n\nSelf-review: check task fulfilment, evidence, sequence, grammar and spelling. Save a revised version after feedback. AI feedback is advisory; this module check is not a calibrated diagnostic or CEFR level-end examination.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Evaluate a university access proposal",
+      "estimated_minutes": 45,
+      "grammar": [],
+      "prerequisites": [
+        "interpret-scenario"
+      ]
+    }
+  ],
+  "title": "B2 scenario: Evaluate a university access proposal",
+  "glossary": [
+    {
+      "lemma": "la répartition des contraintes",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "the distribution of burdens",
+      "definition_french": "Dans ce contexte : la répartition des contraintes.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "à condition que",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "provided that",
+      "definition_french": "Dans ce contexte : à condition que.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    },
+    {
+      "lemma": "une expérimentation",
+      "part_of_speech": "phrase",
+      "grammatical_gender": null,
+      "translation": "a trial implementation",
+      "definition_french": "Dans ce contexte : une expérimentation.",
+      "irregularity_notes": null,
+      "teaching_note": null,
+      "ipa": null,
+      "pronunciation_notes": null
+    }
+  ],
+  "learning_stage": null
+}

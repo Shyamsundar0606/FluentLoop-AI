@@ -1,0 +1,117 @@
+{
+  "version": "0.6.1",
+  "level": "A1",
+  "status": "draft",
+  "source_license": "Original AI-assisted depth dossiers; independent human language, pedagogical, phonetic, answer-key and CEFR reviews pending.",
+  "tasks": [
+    {
+      "key": "input-1",
+      "skill": "reading",
+      "title": "Read a simple service notice",
+      "objective": "Read opening hours, choose a compatible slot and confirm the day, time and place in a short exchange.",
+      "context": "Accueil de l’université : ouvert du lundi au vendredi, de neuf heures à midi. Le mardi après-midi, accueil sur rendez-vous seulement. Pour demander un rendez-vous, indiquez votre disponibilité. N’envoyez pas de document personnel dans cet exercice.\n\nUnderstand: Du lundi au vendredi gives the range of days. De neuf heures à midi gives morning hours. Sur rendez-vous means by appointment: it does not say that every afternoon is open. Indiquez is a polite instruction. Use invented details only.",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "read-scope",
+          "type": "multiple_choice",
+          "prompt": "When is an appointment explicitly required?",
+          "instructions": "Choose the interpretation warranted by this input.",
+          "explanation": "Tuesday afternoon. Du lundi au vendredi gives the range of days. De neuf heures à midi gives morning hours. Sur rendez-vous means by appointment: it does not say that every afternoon is open. Indiquez is a polite instruction. Use invented details only.",
+          "options": [
+            "Tuesday afternoon",
+            "Every weekday morning",
+            "Sunday morning"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "listen-scope",
+          "type": "listening",
+          "prompt": "Which statement matches the notice?",
+          "instructions": "Play the original scripted French excerpt. Synthetic playback is not a multi-speaker authenticity claim.",
+          "explanation": "Le mardi après-midi, accueil sur rendez-vous seulement. — Tuesday afternoon requires an appointment",
+          "options": [
+            "Tuesday is always closed",
+            "All afternoons allow walk-ins",
+            "Tuesday afternoon requires an appointment"
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Le mardi après-midi, accueil sur rendez-vous seulement."
+          }
+        }
+      ],
+      "module_title": "Arrange and confirm a routine appointment",
+      "estimated_minutes": 20,
+      "grammar": [],
+      "prerequisites": []
+    },
+    {
+      "key": "input-2",
+      "skill": "reading",
+      "title": "Confirm the arrangement",
+      "objective": "Read opening hours, choose a compatible slot and confirm the day, time and place in a short exchange.",
+      "context": "— Bonjour. Je suis disponible mardi à quatorze heures. Est-ce possible ?\n— Oui. Le rendez-vous est mardi à quatorze heures, au bureau trois.\n— Très bien. Mardi, à quatorze heures, au bureau trois. Merci !\n\nUnderstand: Disponible states availability. Est-ce possible ? checks a proposal. Repeat the day, time and place to confirm. À quatorze heures is at 14:00. Au bureau combines à + le. The notice permits Tuesday afternoon appointments, so this exchange is consistent with it.",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "read-scope",
+          "type": "multiple_choice",
+          "prompt": "Which details are confirmed?",
+          "instructions": "Choose the interpretation warranted by this input.",
+          "explanation": "Tuesday, 14:00, office three. Disponible states availability. Est-ce possible ? checks a proposal. Repeat the day, time and place to confirm. À quatorze heures is at 14:00. Au bureau combines à + le. The notice permits Tuesday afternoon appointments, so this exchange is consistent with it.",
+          "options": [
+            "Tuesday, 14:00, office three",
+            "Thursday, 14:00, office two",
+            "Tuesday, noon, office three"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "listen-scope",
+          "type": "listening",
+          "prompt": "Where is the appointment?",
+          "instructions": "Play the original scripted French excerpt. Synthetic playback is not a multi-speaker authenticity claim.",
+          "explanation": "Le rendez-vous est mardi à quatorze heures, au bureau trois. — Office three",
+          "options": [
+            "Office fourteen",
+            "The station",
+            "Office three"
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Le rendez-vous est mardi à quatorze heures, au bureau trois."
+          }
+        }
+      ],
+      "module_title": "Arrange and confirm a routine appointment",
+      "estimated_minutes": 20,
+      "grammar": [],
+      "prerequisites": [
+        "input-1"
+      ]
+    },
+    {
+      "key": "integrate-and-transfer",
+      "skill": "writing",
+      "title": "Integrate and transfer: Arrange and confirm a routine appointment",
+      "objective": "Read opening hours, choose a compatible slot and confirm the day, time and place in a short exchange.",
+      "context": "Write 45–65 French words: request a routine university appointment compatible with the notice, state one availability and ask for confirmation. Then write the reply with the same day, time and office. Use invented details only. Read both roles aloud and ask the Tutor to change one detail so that you can confirm it.\n\nReview criteria: Check all three details against the notice; check day/time consistency, à/au and a polite greeting/closing. Tomorrow retrieve the details without looking, then practise a different available slot.\n\nUse the existing writing workspace to save and revise; voice/Tutor practice is optional and must use your selected level. No automatic mastery or CEFR award.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Arrange and confirm a routine appointment",
+      "estimated_minutes": 25,
+      "grammar": [],
+      "prerequisites": [
+        "input-1",
+        "input-2"
+      ]
+    }
+  ],
+  "title": "A1 depth: Arrange and confirm a routine appointment",
+  "glossary": [],
+  "learning_stage": null
+}

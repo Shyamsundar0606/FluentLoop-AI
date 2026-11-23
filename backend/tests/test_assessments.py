@@ -78,9 +78,13 @@ def test_saved_level_input_validation_and_ownership(interactive):
         assert client.post(BASE + "/sessions", headers=_csrf(client), json=body).status_code == 422
     assert client.patch("/api/v1/users/me/preferences", headers=_csrf(client), json={"current_level": "a2"}).status_code == 200
     assert client.get(BASE).json()["items"] == []
-    assert client.post(BASE + "/sessions", headers=_csrf(client), json={
+    # Browsing an authorized level is independent of the saved preference. The
+    # server derives A1 from the lesson, while the default catalog remains A2.
+    browsed = client.post(BASE + "/sessions", headers=_csrf(client), json={
         "skill": "grammar", "lesson_id": lesson_id,
-    }).status_code == 404
+    })
+    assert browsed.status_code == 200 and browsed.json()["lesson"]["level"] == "A1"
+    assert client.get(BASE).json()["level"] == "A2"
     client.cookies.clear()
     assert client.get(BASE).status_code == 401
     emails = client.app.dependency_overrides[get_email_service]()

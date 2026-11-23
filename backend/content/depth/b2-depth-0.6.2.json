@@ -1,0 +1,117 @@
+{
+  "version": "0.6.2",
+  "level": "B2",
+  "status": "draft",
+  "source_license": "Original AI-assisted depth dossiers; independent human language, pedagogical, phonetic, answer-key and CEFR reviews pending.",
+  "tasks": [
+    {
+      "key": "input-1",
+      "skill": "reading",
+      "title": "A proposal with a limited indicator",
+      "objective": "Compare two extended viewpoints, distinguish measurements from predictions and defend a conditional policy recommendation.",
+      "context": "La mairie propose de réserver une voie aux autobus entre sept et neuf heures. Selon une enquête menée pendant trois semaines, leur temps de parcours moyen y varie fortement d’un jour à l’autre. La note municipale en conclut qu’une voie réservée pourrait rendre les horaires plus fiables. Elle ne promet pas de réduire chaque trajet de la même durée : le gain attendu concerne d’abord la régularité.\nLes commerçants interrogés se répartissent en deux groupes. Certains espèrent une rue moins encombrée ; d’autres craignent que les livraisons du matin deviennent plus difficiles. La mairie propose donc des créneaux de livraison avant sept heures et après neuf heures. Mais la note reconnaît que cette adaptation pourrait reporter une partie des coûts sur les petites entreprises.\nLe projet prévoit une expérimentation de trois mois. Les critères annoncés sont le respect des horaires, la circulation dans les rues voisines et les difficultés de livraison. Aucun seuil de réussite n’est encore fixé. Cette absence ne rend pas l’essai inutile ; elle risque toutefois de permettre aux acteurs de choisir, après coup, l’indicateur qui confirme leur position. Un accord sur la méthode d’évaluation paraît donc aussi important que l’accord sur l’aménagement lui-même.\n\nUnderstand: Separate reliability from universal time savings. The proposal recognises distributional costs. The last paragraph concerns evaluation design, not proof that the measure will fail. Keep pourrait distinct from a promise.",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "read-scope",
+          "type": "multiple_choice",
+          "prompt": "What is the proposal’s primary stated benefit?",
+          "instructions": "Choose the interpretation warranted by this input.",
+          "explanation": "More reliable bus journey times. Separate reliability from universal time savings. The proposal recognises distributional costs. The last paragraph concerns evaluation design, not proof that the measure will fail. Keep pourrait distinct from a promise.",
+          "options": [
+            "More reliable bus journey times",
+            "An identical saving on every trip",
+            "Guaranteed lower costs for all shops"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "listen-scope",
+          "type": "listening",
+          "prompt": "What qualification does the speaker make?",
+          "instructions": "Play the original scripted French excerpt. Synthetic playback is not a multi-speaker authenticity claim.",
+          "explanation": "Nous voulons d’abord rendre les horaires plus fiables ; cela ne signifie pas que chaque trajet sera plus court. — Reliability does not guarantee a shorter duration for each trip",
+          "options": [
+            "No improvement is possible",
+            "Every shop will save money",
+            "Reliability does not guarantee a shorter duration for each trip"
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Nous voulons d’abord rendre les horaires plus fiables ; cela ne signifie pas que chaque trajet sera plus court."
+          }
+        }
+      ],
+      "module_title": "Transport policy: compare a proposal and a qualified objection",
+      "estimated_minutes": 35,
+      "grammar": [],
+      "prerequisites": []
+    },
+    {
+      "key": "input-2",
+      "skill": "reading",
+      "title": "An objection that does not reject the aim",
+      "objective": "Compare two extended viewpoints, distinguish measurements from predictions and defend a conditional policy recommendation.",
+      "context": "Dans sa réponse, une association de riverains se dit favorable à des transports collectifs plus fiables. Elle conteste pourtant la comparaison proposée par la mairie. Une baisse de la circulation sur l’axe aménagé pourrait, selon elle, correspondre à un simple déplacement vers des rues plus étroites. Mesurer seulement la rue principale donnerait alors une image incomplète du résultat.\nL’association ne demande pas le maintien de la situation actuelle sans examen. Elle souhaite que soient relevés les flux dans trois rues voisines avant et pendant l’essai, à des jours comparables. Elle propose également de recueillir les difficultés signalées par les livreurs, sans confondre ces témoignages avec une mesure représentative de toutes les entreprises.\nLa mairie accepte le principe de relevés supplémentaires, mais rappelle que le budget ne permet pas de tout observer. Il reste donc à hiérarchiser les critères et à préciser les limites du dispositif. Une décision raisonnable pourrait maintenir l’expérimentation tout en publiant à l’avance ce qui conduirait à la modifier. Présenter ce débat comme un affrontement entre partisans et adversaires de l’autobus ferait disparaître l’essentiel : les intervenants partagent un objectif général, mais ne répartissent ni les risques ni la charge de la preuve de la même manière.\n\nUnderstand: A shared aim can coexist with a methodological disagreement. Representative measurement and testimony provide different kinds of evidence. A budget limit requires prioritisation, not a claim that every missing indicator is irrelevant.",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "read-scope",
+          "type": "multiple_choice",
+          "prompt": "Which recommendation best preserves the objection?",
+          "instructions": "Choose the interpretation warranted by this input.",
+          "explanation": "Include neighbouring streets and predefine modification criteria. A shared aim can coexist with a methodological disagreement. Representative measurement and testimony provide different kinds of evidence. A budget limit requires prioritisation, not a claim that every missing indicator is irrelevant.",
+          "options": [
+            "Include neighbouring streets and predefine modification criteria",
+            "Measure only the main street",
+            "Treat every testimony as a representative survey"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "listen-scope",
+          "type": "listening",
+          "prompt": "What is implied?",
+          "instructions": "Play the original scripted French excerpt. Synthetic playback is not a multi-speaker authenticity claim.",
+          "explanation": "Nous partageons l’objectif. Encore faut-il regarder où se déplacent les contraintes, au lieu de mesurer seulement là où l’on attend un succès. — A narrow measurement area could conceal transferred burdens",
+          "options": [
+            "The association opposes all buses",
+            "The experiment has already failed",
+            "A narrow measurement area could conceal transferred burdens"
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Nous partageons l’objectif. Encore faut-il regarder où se déplacent les contraintes, au lieu de mesurer seulement là où l’on attend un succès."
+          }
+        }
+      ],
+      "module_title": "Transport policy: compare a proposal and a qualified objection",
+      "estimated_minutes": 35,
+      "grammar": [],
+      "prerequisites": [
+        "input-1"
+      ]
+    },
+    {
+      "key": "integrate-and-transfer",
+      "skill": "writing",
+      "title": "Integrate and transfer: Transport policy: compare a proposal and a qualified objection",
+      "objective": "Compare two extended viewpoints, distinguish measurements from predictions and defend a conditional policy recommendation.",
+      "context": "Write 280–330 French words for a municipal consultation. Compare both texts, distinguish predicted effects from observed facts, address one substantive objection and propose evaluation criteria before taking a position. Then present your recommendation aloud for three minutes; ask the Tutor to challenge your strongest assumption. Do not invent numerical results.\n\nReview criteria: Assess source fidelity, evidence/claim distinction, substantive counterargument, coherent conditional recommendation and language control. Revise an overstatement. Repeat with a different audience after a delay. The word range is task guidance, not a CEFR pass rule.\n\nUse the existing writing workspace to save and revise; voice/Tutor practice is optional and must use your selected level. No automatic mastery or CEFR award.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Transport policy: compare a proposal and a qualified objection",
+      "estimated_minutes": 45,
+      "grammar": [],
+      "prerequisites": [
+        "input-1",
+        "input-2"
+      ]
+    }
+  ],
+  "title": "B2 depth: Transport policy: compare a proposal and a qualified objection",
+  "glossary": [],
+  "learning_stage": null
+}

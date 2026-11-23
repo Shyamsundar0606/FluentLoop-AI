@@ -5,6 +5,8 @@ const baseURL = process.env.PLAYWRIGHT_BASE_URL ?? 'http://127.0.0.1:3001';
 export default defineConfig({
   testDir: './e2e',
   fullyParallel: false,
+  // Keep cold route compilation and browser workers within a local laptop's budget.
+  workers: 2,
   retries: process.env.CI ? 1 : 0,
   reporter: 'list',
   use: {
@@ -18,6 +20,7 @@ export default defineConfig({
     reuseExistingServer: !process.env.CI,
     timeout: 120_000,
     env: {
+      FLUENTLOOP_E2E_BUILD: '1',
       NEXT_PUBLIC_API_BASE_URL: process.env.PLAYWRIGHT_API_BASE_URL ?? 'http://127.0.0.1:8001/api/v1',
       NEXT_PUBLIC_CSRF_COOKIE_NAME: process.env.PLAYWRIGHT_CSRF_COOKIE_NAME ?? 'fluentloop_csrf',
     },

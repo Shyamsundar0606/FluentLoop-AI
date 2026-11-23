@@ -1,0 +1,24 @@
+{
+  "version": "0.9.0",
+  "level": "A1",
+  "status": "draft",
+  "source_license": "Original AI-assisted beginner drafts; independent language, pedagogy and phonetic review pending.",
+  "tasks": [
+    {
+      "key": "letters-and-name-writing",
+      "skill": "writing",
+      "title": "Write and say an invented name",
+      "objective": "Combine the module language in a short supported written exchange and a spoken repair task.",
+      "context": "Copy Bonjour. Then write Je m’appelle followed by an invented first name. Write its letters separately. Keep any accent in the name. Supported example: Bonjour. Je m’appelle Léa. L – É – A. The example is a model, not the only acceptable name. Say the greeting and name, then ask the Tutor to repeat slowly. Human listening is needed to judge letter pronunciation.\n\nReview criteria: Check the greeting, name phrase and letter sequence; copy first, then retrieve tomorrow without looking.\n\nNo objective correctness, independent human approval or CEFR score is claimed.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Beginner writing and speaking bridges",
+      "estimated_minutes": 20,
+      "grammar": [],
+      "prerequisites": []
+    }
+  ],
+  "title": "A0 future writing and speaking bridges",
+  "glossary": [],
+  "learning_stage": "A0"
+}
