@@ -1,189 +1,172 @@
-﻿# FluentLoop AI
+# FluentLoop AI
 
-This installation is for **personal local-only French learning**. Use the
-[Windows personal-operation guide](docs/learning/personal-local-operation.md)
-for guarded startup/shutdown, scoped draft access and final acceptance steps.
-Public deployment is outside the current objective. Docker/demo quick starts
-below are historical workflows; do not run them against protected databases
-without the documented approvals.
+**A personal French-learning project built to make regular practice easier.**
 
-Current personal checkpoint (23 November 2026): **181 unpublished lessons, 620
-scored exercises and 50 open writing/transfer task lessons across 52 modules**.
-The confirmed learner has scoped preview access. Use `/learning-path` for A0–C2
-and `/checkpoints` for module/level practice plans. Five further unscored writing
-bridges remain staged. See [current verification](docs/verification/PERSONAL_LOCAL_COMPLETION.md)
-and [competency gaps](docs/learning/COMPETENCY-AUDIT.md). Draft coverage does not
-establish qualified human approval, complete CEFR coverage or certification.
+FluentLoop AI brings lessons, vocabulary revision, an AI tutor and speaking practice into one local application. It is designed for a learning journey from first French words to more demanding C2-targeted activities, with saved history so you can return and continue practising.
 
-A local-first French learning application built with Next.js and FastAPI. Milestones 01–07 provide secure accounts, curriculum-based lessons, a local AI tutor, voice conversations, daily learning plans and spaced repetition. Milestone 08 adds interactive lesson formats and focused grammar practice, implemented locally only.
+This is a student project for **personal local use**. It is not a public learning service or an official language qualification.
 
-For the isolated M08 demo, migration scope, actual test results and manual steps, see [Milestone 08 verification](docs/verification/MILESTONE_08_VERIFICATION.md). Existing main and preview environments were not deployed or migrated during this work.
+![A daily French plan using a synthetic test account](docs/images/daily-plan.png)
 
-For current authorized access on port 3008, use [Milestone 08.1 manual testing](docs/verification/MILESTONE_08_1_MANUAL_TESTING.md). Its local launcher reuses the existing verified synthetic admin and separates demo cookies; ordinary learner permissions remain unchanged.
+## What can I do with it?
 
-[Milestone 08.2 verification](docs/verification/MILESTONE_08_2_LEARNING_EXPERIENCE.md) covers the guided lesson journey, saved answers, genuine mistake review, current test results and a future preview-first integration plan. Main and preview databases remain on 0008; integration requires separate approval.
+- **Learn step by step:** follow a path through sounds, everyday French, grammar and more advanced communication.
+- **Practise vocabulary:** review words and expressions using spaced repetition.
+- **Try different exercises:** answer questions, complete sentences, match items and practise reading and listening.
+- **Talk to the AI Tutor:** ask for explanations, practise realistic situations and get feedback using a local Ollama model.
+- **Practise speaking:** record French, review the transcription and listen to the tutor's French audio.
+- **Write and revise:** save your writing, request advisory feedback and keep revisions separately from the original.
+- **Continue later:** resume supported lesson sessions, revisit mistakes and view saved learning, assessment and conversation history.
 
-![Daily French plan using a synthetic test account](docs/images/daily-plan.png)
+AI feedback can make mistakes. Speech transcription also needs your review and does not measure pronunciation accuracy.
 
-## Features
+## The learning path
 
-- Email-verified registration, optional age with only a broad age band retained, Argon2id password hashing, server-side sessions, CSRF protection and Redis rate limiting.
-- Profile personalization and CEFR levels A1, A2, B1, B2, C1 and C2; changing level preserves earlier progress.
-- Versioned curriculum imports, published-content access controls, resumable lessons and backend grading.
-- Ollama text tutoring with authorized curriculum retrieval, sentence correction, roleplay and private conversation history.
-- Microphone recording and playback, local French transcription and text-to-speech, editable uncertain transcripts and explicit confirmation. Original recognition and learner corrections remain separate in history.
-- Persisted daily plans, deterministic activity selection and versioned SM-2-inspired vocabulary review. Planning and grading work without an AI model.
-- Responsive white-and-purple interface with keyboard-accessible navigation.
-- Lessons, Grammar and Practice tabs inside Learn, six server-graded exercise formats, resumable focused sessions and explicit objective-based mistake practice. Vocabulary continues to use the existing review scheduler.
+The current personal installation has **52 modules, 181 unpublished lessons, 620 scored exercises and 50 open writing/transfer task lessons**.
 
-## Current limitations
+| Stage | Focus | Available lessons |
+|---|---|---:|
+| A0 preparation | First sounds, words and polite exchanges | 12 |
+| A1 | Familiar routines and simple everyday communication | 39 |
+| A2 | Practical situations, plans and past experiences | 26 |
+| B1 | Connected explanations, experiences and opinions | 26 |
+| B2 | Arguments, detailed comprehension and register | 26 |
+| C1 | Complex sources, formal communication and nuance | 26 |
+| C2 | Demanding interpretation and precise expression | 26 |
 
-**All 181 personal lessons remain unpublished drafts awaiting qualified independent review.** Ordinary learners cannot access them. The confirmed personal learner has a narrowly scoped preview permission without administrator or publisher rights. Supporting A0 preparation through C2-targeted modules does not imply complete or calibrated CEFR coverage.
+A0 is an introductory stage, not an official CEFR level. These counts describe the current personal database; cloning the repository does not create or copy that database.
 
-The corrected A1 draft is version **1.0.2**. See [correction results](docs/content/reviews/A1_CONTENT_CORRECTION_RESULTS.md), [independent review checklist](docs/content/reviews/A1_INDEPENDENT_REVIEW_CHECKLIST.md) and [publication readiness](docs/verification/A1_CURRICULUM_PUBLICATION_READINESS.md). Technical validation does not authorize publication.
+Open **Learning path** (`/learning-path`) to browse the stages. Open **Module and level check plans** (`/checkpoints`) for 52 module plans and seven sampled level-end review plans. These reuse practice material and do not award a CEFR certificate or automatically promote your account level.
 
-**Acoustic pronunciation scoring has not been validated and is unavailable.** Speech recognition can mishear names and short introductions, even with the Base model. Transcripts require learner review; ASR output is not a pronunciation score. Local model latency and accuracy depend on hardware. AI-generated teaching responses can contain errors.
+**The curriculum is still draft material.** Every module has authored input, but that does not establish complete CEFR coverage or independent teacher approval. Qualified French review, broader listening materials, productive-skill ratings and assessment calibration remain work in progress. Five additional unscored writing bridges are staged and have not been imported into the personal database.
 
-This is a development deployment, not a claim of production operational readiness. Billing and subscriptions are not implemented.
+See the [competency audit](docs/learning/COMPETENCY-AUDIT.md) for the remaining gaps and the [verification report](docs/verification/PERSONAL_LOCAL_COMPLETION.md) for the evidence behind the current status.
 
-## Architecture and technologies
+## Run the existing personal installation
+
+These steps are for the **already configured Windows installation**. A fresh clone needs private configuration, existing service identities, model files and an appropriate database first. Follow the [personal-operation guide](docs/learning/personal-local-operation.md) for setup; do not point an unconfigured launcher at a database containing learning history.
+
+The launcher checks configuration, service ownership and storage before starting. The current minimum reserve is **30 GiB free on C:** and **50 GiB free on D:**. These checks reduce risk; they do not guarantee storage health.
+
+In Windows PowerShell:
+
+```powershell
+cd "D:\shyam\Projects\FluentLoop AI"
+
+# Check the local configuration without starting services.
+.\scripts\start_personal_local.ps1 -CheckOnly
+
+# Start after the documented recovery and maintenance checks are satisfied.
+.\scripts\start_personal_local.ps1 -ApproveProtectedServices -RecoveryPrerequisitesSatisfied
+```
+
+Keep the startup console open while studying. If a check fails, resolve the reported problem rather than bypassing the guard.
+
+| Page | Local address |
+|---|---|
+| Sign in | [127.0.0.1:3000/login](http://127.0.0.1:3000/login) |
+| Learning path | [127.0.0.1:3000/learning-path](http://127.0.0.1:3000/learning-path) |
+| Review plans | [127.0.0.1:3000/checkpoints](http://127.0.0.1:3000/checkpoints) |
+| Local verification/reset inbox | [127.0.0.1:8025](http://127.0.0.1:8025) |
+| API documentation | [127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) |
+
+Use your existing account. If you forget the password, choose **Forgot password** and follow the email in the local Mailpit inbox. Enter the new password privately.
+
+To finish, open another PowerShell console:
+
+```powershell
+cd "D:\shyam\Projects\FluentLoop AI"
+.\scripts\stop_personal_local.ps1
+```
+
+The shutdown script stops services owned by that launcher run and preserves their persistent data. Normal personal startup does not import lessons or run database migrations. Draft access is limited to the confirmed learner through private configuration; it does not grant administrator or publisher rights.
+
+## A simple study routine
+
+1. Choose a stage and read the lesson's explanation and examples.
+2. Complete the exercises and read the feedback on mistakes.
+3. Reuse the language in a short written message or spoken exchange.
+4. Review saved mistakes and vocabulary on another day.
+5. Return to your history to see what you have actually practised.
+
+Use the AI Tutor for extra practice and clarification. Treat its responses as helpful suggestions to check, especially for difficult grammar or nuanced French.
+
+## How the project works
+
+| Technology | Its role in the project |
+|---|---|
+| Next.js, React, TypeScript and Tailwind CSS | Pages, navigation and the learning interface |
+| FastAPI and Python | Login, learning activities, grading and service APIs |
+| PostgreSQL and Alembic | Saved accounts, lessons, history and versioned database changes |
+| Redis | Request rate limits and supporting runtime state |
+| Ollama | Local AI tutoring |
+| Faster-Whisper and Piper | Local speech recognition and French text-to-speech |
+| Docker Desktop | Existing PostgreSQL, Redis and Mailpit infrastructure |
+| Pytest, Playwright and GitHub Actions | Automated checks |
+
+The personal launcher keeps services on localhost. AI and speech use separately installed local models; the launcher does not automatically download them. Text learning does not require model inference, although AI and speech features need their services to be available.
+
+## Find your way around the code
 
 ```text
-Browser: Next.js 16 / React 19 / TypeScript / Tailwind CSS
-    | session cookies + CSRF
-FastAPI / Pydantic / SQLAlchemy 2 / Alembic
-    |-- PostgreSQL 16: accounts, curriculum, progress, conversations, review history
-    |-- Redis 7: rate limiting
-    |-- Mailpit: development email
-    |-- Ollama: optional local text model
-    `-- private speech worker: Faster-Whisper + Piper, local model files
+backend/app/          Python APIs, learning services and AI/speech integration
+backend/alembic/      Database migrations
+backend/content/      Versioned curriculum drafts and the learning-path map
+backend/scripts/      Curriculum authoring and validation tools
+backend/tests/        Backend, security and database tests
+frontend/app/         Application pages
+frontend/components/  Shared interface components
+frontend/e2e/         Browser tests
+scripts/              Personal startup/shutdown and test helpers
+docs/                 Learning, setup, architecture and verification guides
+.github/workflows/    GitHub Actions checks
 ```
-
-The backend obtains identity from the authenticated session. Tutor requests receive only the necessary first-name hint, never account passwords, session tokens or email addresses. Content authorization and user isolation apply to lesson, AI, speech and review APIs. Speech workers have no public port and use separate worker credentials. Raw learner audio retention is optional and off by default.
-
-```text
-backend/app/          API, models, learning services, AI and speech providers
-backend/alembic/      Ordered migrations; personal main verified at 20261115_0016
-backend/content/a1/   Versioned draft curriculum source
-backend/tests/        Functional, security and opt-in PostgreSQL tests
-backend/scripts/      Guarded isolated integration-test servers
-frontend/app/         App Router pages
-frontend/components/  Shared interface and session components
-frontend/e2e/         Playwright browser tests
-scripts/              Safe environment setup
-.github/workflows/    Isolated CI jobs
-docs/                 Architecture, content, security and verification guides
-```
-
-## Quick start with Docker
-
-Install Docker Desktop with Linux containers, Python 3.12 and Git. Node.js 20+ is needed for native frontend checks.
-
-```powershell
-git clone https://github.com/Shyamsundar0606/FluentLoop-AI.git
-Set-Location FluentLoop-AI
-python scripts/create_local_env.py
-docker compose config --quiet
-docker compose up --build -d
-docker compose ps
-```
-
-The helper creates a private `.env` with independent cryptographically random database passwords and speech-worker keys. It refuses to overwrite an existing environment. `.env.example` deliberately contains nonfunctional placeholders; copying it alone is insufficient. Keep `.env` private. Existing installations must retain their own configuration and volumes; generating a new environment does not rotate an existing database password.
-
-| Service | Local URL |
-| --- | --- |
-| Application | http://localhost:3000 |
-| API documentation | http://localhost:8000/docs |
-| API readiness | http://localhost:8000/api/v1/health/ready |
-| Development inbox | http://localhost:8025 |
-
-Registration verification and password-reset mail goes to Mailpit. Database and cache ports bind to loopback. Backend startup runs Alembic migrations; do not replace migrations with `create_all` or recreate an existing database. **Never use `docker compose down -v` against an installation whose data you want to keep.**
-
-Create an administrator interactively if needed:
-
-```powershell
-docker compose exec backend python -m app.cli create-admin admin@example.com
-```
-
-Use a dedicated email you control. For internet deployment, configure TLS, secure cookies, explicit allowed origins, a real SMTP service, backups and independent operational/security review.
-
-## Curriculum and draft preview
-
-Content import does not publish lessons:
-
-```powershell
-docker compose exec backend python -m app.content_import --validate-only
-docker compose exec backend python -m app.content_import --dry-run
-docker compose exec backend python -m app.content_import --apply
-docker compose exec backend python -m app.content_report
-```
-
-Publication requires independent review evidence through the administrative publication workflow. Do not publish the draft A1 lessons merely to make a learner screen show content.
-
-The optional preview stack has separate database, Redis, email, audio and session settings:
-
-```powershell
-docker compose -p fluentloop-preview -f docker-compose.preview.yml up --build -d
-```
-
-Preview UI/API/inbox use ports 3001/8001/8026. Its startup imports draft content and retains the existing administrator-only preview gate. See the [content authoring guide](docs/content/content-authoring-guide.md) and [import guide](docs/content/content-import-guide.md).
-
-## Ollama
-
-Ollama is optional; unavailable models return controlled errors while ordinary learning features remain available. Choose a model suitable for available RAM/VRAM. Provision it explicitly:
-
-```powershell
-docker compose --profile ai up -d ollama
-docker compose exec ollama ollama pull llama3.2:3b
-# Set OLLAMA_MODEL=llama3.2:3b in the private .env
-docker compose up -d --no-deps backend
-```
-
-For an existing host Ollama installation, set `OLLAMA_BASE_URL=http://host.docker.internal:11434` in Docker Desktop. No model is downloaded automatically at request time. See [Ollama setup](docs/ai/ollama-setup.md).
-
-## French speech models
-
-Speech is optional and runs locally in a separate worker. Model weights, generated speech and private recordings are excluded from Git. Explicit provisioning records model revisions and hashes:
-
-```powershell
-python -m venv .venv-speech
-.\.venv-speech\Scripts\python.exe -m pip install -r backend/requirements-speech.txt
-$env:PYTHONPATH = 'backend'
-.\.venv-speech\Scripts\python.exe -m app.speech.provision_models --destination .speech-models --download-compact-models --asr-model base
-# Set SPEECH_ASR_MODEL=base in .env only after provisioning succeeds
-docker compose --profile speech up --build -d
-```
-
-Tiny is the compatible default; Base is the measured local refinement and still makes spelling/name errors. CPU int8 is the verified path; no GPU accuracy/performance claim is made. French TTS uses `fr_FR-siwis-medium`. Review model/voice licenses and attribution before redistribution. See [Faster-Whisper setup](docs/speech/faster-whisper-setup.md), [French TTS](docs/speech/french-tts-setup.md), [assessment limitations](docs/speech/pronunciation-assessment.md) and [speech privacy](docs/security/speech-data-privacy.md).
 
 ## Development and testing
 
-Core backend tests use isolated fixtures. Native development needs a private `DATABASE_URL` with a loopback host, plus loopback Redis/SMTP addresses instead of Compose service hostnames. Supply these through your shell or private environment; do not paste credentials into source files or command history.
+Use a separate development/test environment. Do not run imports, migrations or destructive tests against a database containing personal learning records.
+
+Frontend dependencies are also needed by the backend's real Next.js launcher test. In a development checkout, install the pinned packages first:
 
 ```powershell
-python -m venv .venv312
-.\.venv312\Scripts\python.exe -m pip install -r backend/requirements.txt
-Push-Location backend
-..\.venv312\Scripts\python.exe -m pytest tests -ra
-Pop-Location
-Push-Location frontend
+cd frontend
 npm ci
 npm run lint
 npm run typecheck
 npm run build
-npx playwright install chromium
-npm run test:e2e
-Pop-Location
+cd ..
+
+# Use the existing Python environment with backend requirements installed.
+cd backend
+..\.venv312\Scripts\python.exe -m pytest tests -ra
+cd ..
 ```
 
-PostgreSQL tests are opt-in: use `AI_TEST_DATABASE_URL` with a dedicated `fluentloop_m05_*` database, `SPEECH_TEST_DATABASE_URL` with `fluentloop_m06_*`, and `STUDY_TEST_ADMIN_DATABASE_URL` on localhost with permission to create fresh `fluentloop_m07_*` databases. Migrate test databases before use. Never point integration tests at learner databases. Live Ollama/speech and prepared real-API Playwright scenarios need their documented explicit flags and isolated services; ordinary CI does not claim live-model inference.
+Browser tests use a separate frontend/API setup, normally on ports 3001/8001. Run them after preparing the isolated test environment described in the [verification report](docs/verification/PERSONAL_LOCAL_COMPLETION.md) and [admin browser guide](docs/verification/ADMIN-BROWSER-HARNESS.md). Real PostgreSQL, AI and speech tests need their documented opt-in settings and disposable data. A standard CI pass does not prove live model or physical microphone performance.
 
-Playwright defaults to frontend port 3001 and API port 8001. Its default mocked scenarios and opt-in real API scenarios have different setup requirements. Use a dedicated test stack, including separate rate-limit state. See [M07 verification](docs/verification/MILESTONE_07_VERIFICATION.md), [voice refinement](docs/verification/VOICE_CONVERSATION_REFINEMENT.md) and [publication verification](docs/verification/GITHUB_PUBLICATION.md). Raw local test reports and recordings are intentionally not distributed.
+## What is kept private?
 
-CI generates independent random credentials on each disposable GitHub runner; it never uses local deployment credentials. It runs core backend tests, frontend lint/typecheck/build and default browser checks. Live-model and prepared PostgreSQL/browser checks remain explicitly opt-in.
+GitHub contains the application code, curriculum source, tests and public documentation. It intentionally does **not** contain private `.env` files, personal database contents, backups, recordings, downloaded model weights, virtual environments, `node_modules` or generated build/test files. Those files stay local and are not missing source code.
 
-## Security and repository hygiene
+Keep backups and private settings safe. Never reset or remove database volumes to fix an ordinary startup problem. Importing a curriculum draft does not publish it; publication requires a separate review and decision.
 
-Private environments, database volumes/dumps, local test data, private recordings, generated audio, model weights/caches, logs and raw verification artifacts are ignored. Public speech test fixtures retain their [upstream attribution](backend/tests/fixtures/speech/ATTRIBUTION.md). The README screenshot uses only a synthetic test account.
+## More detailed guides
 
-The original frontend starter commit is retained as the publication commit's ancestor, with source organized under `frontend/` and `backend/`. Security remediation changes configuration and publication tooling, not learning features. For architecture details, see [adaptive learning](docs/architecture/adaptive-learning-engine.md), [daily planning](docs/learning/daily-study-plan.md), [spaced repetition](docs/learning/spaced-repetition.md) and [security](docs/security/adaptive-learning-security.md).
+- [Personal setup, startup and shutdown](docs/learning/personal-local-operation.md)
+- [Current verification and known limitations](docs/verification/PERSONAL_LOCAL_COMPLETION.md)
+- [Curriculum coverage and remaining gaps](docs/learning/COMPETENCY-AUDIT.md)
+- [Assessment and progression](docs/learning/ASSESSMENT-AND-PROGRESSION.md)
+- [Content authoring](docs/content/content-authoring-guide.md) and [safe imports](docs/content/content-import-guide.md)
+- [Local Ollama setup](docs/ai/ollama-setup.md)
+- [Speech recognition](docs/speech/faster-whisper-setup.md) and [French audio](docs/speech/french-tts-setup.md)
+- [Speech privacy](docs/security/speech-data-privacy.md) and [pronunciation limitations](docs/speech/pronunciation-assessment.md)
+
+Older milestone and Docker preview guides remain in `docs/` for reference. They describe separate historical environments and are not the daily personal startup procedure.
+
+## About the developer
+
+**Shyamsundar Sasikumar**
+
+MSc in Computer Security, EPITA, Paris, France
+
+Email: [shyamsundar.sasikumar@gmail.com](mailto:shyamsundar.sasikumar@gmail.com)
