@@ -337,7 +337,12 @@ vm.runInThisContext('(function(require,__dirname){'+fs.readFileSync(wrapper,'utf
             with socket.create_connection(("127.0.0.1", port), timeout=1):
                 return True
         try:
-            local.wait_for(listening, seconds=30, children=[child])
+            try:
+                local.wait_for(listening, seconds=30, children=[child])
+            except local.Refused as exc:
+                # Preserve the actual startup error in CI instead of losing it
+                # behind the supervisor's deliberately generic private-log hint.
+                pytest.fail(f"{exc}\n{(tmp_path / 'next.log').read_text(errors='replace')}")
         finally:
             stop.touch()
             child.wait(timeout=60)
