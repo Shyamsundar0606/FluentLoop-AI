@@ -18,7 +18,7 @@ from app.ai.response_schemas import (
 from app.ai.coach import evidence
 from app.ai.providers.base import Generation
 from app.ai.retrieval import source_for, retrieve
-from app.ai.prompts import build_messages, first_name_hint
+from app.ai.prompts import build_messages, first_name_hint, VOICE_FORMAT_RETRY
 from app.ai.scenarios import LANGUAGE_ONLY_TURNS, scenario_by_id
 from app.ai.providers.base import ProviderUnavailable
 from app.config import get_settings
@@ -148,6 +148,10 @@ def response_for(db, user, c, m):
     )
 
 
+class VoiceStyleRejected(ProviderUnavailable):
+    """A spoken-format failure that may be retried once without relaxing checks."""
+
+
 def validate_voice_style(answer, level):
     """Do not persist or synthesize an internal explanation as voice dialogue."""
     import re
@@ -159,12 +163,12 @@ def validate_voice_style(answer, level):
         r"|\b(?:instructions? système|métadonnées|contexte interne|profil utilisateur)\b",
         answer, re.I,
     ):
-        raise ProviderUnavailable("Internal explanation in voice reply")
+        raise VoiceStyleRejected("Internal explanation in voice reply")
     french, _, english = answer.partition("\nEnglish:")
     if answer.count("?") > 1 or (level == "A1" and len(french.split()) > 35):
-        raise ProviderUnavailable("Voice reply is not conversational")
+        raise VoiceStyleRejected("Voice reply is not conversational")
     if english and ("\n" in english.strip() or len(english.split()) > 35):
-        raise ProviderUnavailable("Voice explanation is too long")
+        raise VoiceStyleRejected("Voice explanation is too long")
 
 
 def validate_answer(result, mode, question, level, sources, *, voice_practice=False):
@@ -395,9 +399,21 @@ def send(db, user, conversation_id, payload, provider, *, voice_practice=False):
                         scenario_correction = suggestion.model_copy(update={"model_notes": ""})
                 except ProviderUnavailable:
                     pass
-        answer, correction = validate_answer(
-            result, mode, payload.message, level, context, voice_practice=voice_practice
-        )
+        try:
+            answer, correction = validate_answer(
+                result, mode, payload.message, level, context, voice_practice=voice_practice
+            )
+        except VoiceStyleRejected:
+            if not voice_practice or scenario is not None or mode == "correction":
+                raise
+            # Keep the same durable turn/lease. Never persist or synthesize the
+            # rejected reply, and validate the one bounded retry in full.
+            result = provider.generate(
+                [*prompts, {"role": "system", "content": VOICE_FORMAT_RETRY}]
+            )
+            answer, correction = validate_answer(
+                result, mode, payload.message, level, context, voice_practice=True
+            )
         # Re-check current ownership, publication and role after the external call.
         db.expire_all()
         user = db.get(User, uid)

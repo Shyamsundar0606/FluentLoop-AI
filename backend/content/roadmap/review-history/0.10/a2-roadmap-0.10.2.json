@@ -1,0 +1,721 @@
+{
+  "version": "0.10.2",
+  "level": "A2",
+  "status": "draft",
+  "source_license": "Original AI-assisted roadmap practice. Independent language, pedagogy, phonetic, answer-key and CEFR review pending.",
+  "tasks": [
+    {
+      "key": "topic-07-practice",
+      "skill": "grammar",
+      "title": "A2 roadmap 07: Comparison",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nLe bus coûte quatre euros et prend trente minutes. Le tram coûte cinq euros et prend vingt minutes. Le bus est moins cher, mais le tram est plus rapide. Aucun de ces chiffres ne concerne un tarif réel.\n\nNotice: Aussi… que expresses equality with an adjective; plus/moins… que express a difference. The superlative identifies an extreme within a stated group.\nModel: Ce trajet est moins cher que l’autre.\nMeaning: This journey is cheaper than the other one.\n\nUseful expressions: moins cher = cheaper; plus rapide = faster; aussi loin = equally far",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Aussi… que expresses equality with an adjective; plus/moins… que express a difference. The superlative identifies an extreme within a stated group. Model meaning: This journey is cheaper than the other one.",
+          "options": [
+            "Ce trajet est moins cher que de l’autre.",
+            "Ce trajet est moins cher que l’autre.",
+            "Ce trajet est moins cher comme l’autre."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "expressions-in-context",
+          "type": "matching",
+          "prompt": "Match these contextual expressions to their English meanings.",
+          "instructions": "Use the meaning taught for this situation, not every possible dictionary meaning.",
+          "explanation": "The expressions are glossed in the lesson context.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "9c992747-4184-5fd8-b807-de0d51ccd3c4",
+                "text": "moins cher"
+              },
+              {
+                "id": "810a2615-82b9-5c09-bf27-ebf126a57998",
+                "text": "plus rapide"
+              },
+              {
+                "id": "a0f86d2a-5c2e-52ac-bb8a-1e18da8b6a28",
+                "text": "aussi loin"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "11271a52-315d-560d-84cc-09afd8412094",
+                "text": "cheaper"
+              },
+              {
+                "id": "eb7054a6-fca5-5119-af7a-343114ce8509",
+                "text": "faster"
+              },
+              {
+                "id": "4116a0e1-dd3d-5832-afbe-216c7aa58c80",
+                "text": "equally far"
+              }
+            ],
+            "answer_pairs": {
+              "9c992747-4184-5fd8-b807-de0d51ccd3c4": "11271a52-315d-560d-84cc-09afd8412094",
+              "810a2615-82b9-5c09-bf27-ebf126a57998": "eb7054a6-fca5-5119-af7a-343114ce8509",
+              "a0f86d2a-5c2e-52ac-bb8a-1e18da8b6a28": "4116a0e1-dd3d-5832-afbe-216c7aa58c80"
+            }
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: The cheaper option is slower in this comparison.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "The cheaper option is slower in this comparison.",
+            "The tram is both cheaper and slower.",
+            "Both journeys take the same time."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: The cheapest hotel is not shown to be closer than the Blue one.. Transcript for review: Lina : Quel hôtel est le moins cher des trois ? Agent : Le Vert, mais il est aussi loin de la gare que le Bleu. Lina : Je vais comparer le temps de trajet.",
+          "options": [
+            "The cheapest hotel is necessarily the closest.",
+            "Only two hotels are being compared.",
+            "The cheapest hotel is not shown to be closer than the Blue one."
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Lina : Quel hôtel est le moins cher des trois ? Agent : Le Vert, mais il est aussi loin de la gare que le Bleu. Lina : Je vais comparer le temps de trajet."
+          }
+        }
+      ],
+      "module_title": "Comparison",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-a2-07",
+          "title": "Comparison",
+          "summary": "Aussi… que expresses equality with an adjective; plus/moins… que express a difference. The superlative identifies an extreme within a stated group.",
+          "rule_code": "roadmap-a2-07",
+          "explanation_english": "Aussi… que expresses equality with an adjective; plus/moins… que express a difference. The superlative identifies an extreme within a stated group.",
+          "examples": [
+            [
+              "Ce trajet est moins cher que l’autre.",
+              "This journey is cheaper than the other one."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "topic-07-transfer",
+      "skill": "writing",
+      "title": "A2 transfer 07: Comparison",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 80–110 French words. Compare three invented options with prices and travel times. Explain a trade-off using a comparative, an equality and a superlative; answer a partner’s objection.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Comparison",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-07-practice"
+      ]
+    },
+    {
+      "key": "topic-08-practice",
+      "skill": "grammar",
+      "title": "A2 roadmap 08: Connecting ideas",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nLe train habituel est annulé parce que la ligne est fermée. Nora prend donc le bus. Le trajet sera plus long, mais elle arrivera avant son cours. Elle envoie un message quand elle monte dans le bus.\n\nNotice: Parce que gives a reason; donc introduces a consequence. In a real future condition use si plus present, then an appropriate future form.\nModel: Si le train est annulé, nous prendrons le bus.\nMeaning: If the train is cancelled, we will take the bus.\n\nUseful expressions: parce que = because; donc = therefore; prévenir = to let someone know",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Parce que gives a reason; donc introduces a consequence. In a real future condition use si plus present, then an appropriate future form. Model meaning: If the train is cancelled, we will take the bus.",
+          "options": [
+            "Si le train est annulé, nous prendrons le bus.",
+            "Si le train sera annulé, nous prendrons le bus.",
+            "Si le train est annulé, nous prendront le bus."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "fill_blank",
+          "prompt": "Si le train ___, nous prendrons le bus.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "Parce que gives a reason; donc introduces a consequence. In a real future condition use si plus present, then an appropriate future form. The model uses « est annulé ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "est annulé"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: The bus is a slower alternative that still gets her there before class.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "Nora gives up going to class.",
+            "The bus is cancelled because of a class.",
+            "The bus is a slower alternative that still gets her there before class."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: They will notify the teacher if delayed.. Transcript for review: Hugo : Si le bus est complet, que faisons-nous ? Nora : Nous attendrons le suivant. Mais prévenons le professeur si nous sommes en retard.",
+          "options": [
+            "They will not wait for another bus.",
+            "They will notify the teacher if delayed.",
+            "They have already missed the class."
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Hugo : Si le bus est complet, que faisons-nous ? Nora : Nous attendrons le suivant. Mais prévenons le professeur si nous sommes en retard."
+          }
+        }
+      ],
+      "module_title": "Connecting ideas",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-a2-08",
+          "title": "Connecting ideas",
+          "summary": "Parce que gives a reason; donc introduces a consequence. In a real future condition use si plus present, then an appropriate future form.",
+          "rule_code": "roadmap-a2-08",
+          "explanation_english": "Parce que gives a reason; donc introduces a consequence. In a real future condition use si plus present, then an appropriate future form.",
+          "examples": [
+            [
+              "Si le train est annulé, nous prendrons le bus.",
+              "If the train is cancelled, we will take the bus."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-07-transfer"
+      ]
+    },
+    {
+      "key": "topic-08-transfer",
+      "skill": "writing",
+      "title": "A2 transfer 08: Connecting ideas",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 80–110 French words. Explain a transport change using parce que, donc and mais. Add a clear si condition and a practical next step. Ask a partner to separate the reason from the consequence.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Connecting ideas",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-08-practice"
+      ]
+    },
+    {
+      "key": "topic-09-practice",
+      "skill": "grammar",
+      "title": "A2 roadmap 09: Health and appointments",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nDans une situation fictive, Nora appelle pour un rendez-vous de routine. Jeudi ne lui convient pas. Elle accepte vendredi à neuf heures dans le cabinet où elle va habituellement. Elle ne décrit aucun symptôme personnel.\n\nNotice: Je voudrais is a polite conditional request. Relative où can identify a place; this fictional booking task is not medical advice.\nModel: Je voudrais un rendez-vous vendredi.\nMeaning: I would like an appointment on Friday.\n\nUseful expressions: un rendez-vous = an appointment; un cabinet = a professional practice; dix minutes avant = ten minutes before",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Je voudrais is a polite conditional request. Relative où can identify a place; this fictional booking task is not medical advice. Model meaning: I would like an appointment on Friday.",
+          "options": [
+            "Je voudrait un rendez-vous vendredi.",
+            "Je voudrais une rendez-vous vendredi.",
+            "Je voudrais un rendez-vous vendredi."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "short_answer",
+          "prompt": "Je ___ un rendez-vous vendredi.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "Je voudrais is a polite conditional request. Relative où can identify a place; this fictional booking task is not medical advice. The model uses « voudrais ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "voudrais"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: She accepts Friday at nine at her usual practice.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "She requests a diagnosis in the text.",
+            "She accepts Friday at nine at her usual practice.",
+            "She accepts Thursday at nine."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Nora is asked to arrive ten minutes early.. Transcript for review: Secrétaire : Vendredi à neuf heures ? Nora : Oui, faut-il venir un peu avant ? Secrétaire : Dix minutes avant, s’il vous plaît.",
+          "options": [
+            "Nora is asked to arrive ten minutes early.",
+            "The appointment starts ten minutes late.",
+            "Nora must arrive an hour early."
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Secrétaire : Vendredi à neuf heures ? Nora : Oui, faut-il venir un peu avant ? Secrétaire : Dix minutes avant, s’il vous plaît."
+          }
+        }
+      ],
+      "module_title": "Health and appointments",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-a2-09",
+          "title": "Health and appointments",
+          "summary": "Je voudrais is a polite conditional request. Relative où can identify a place; this fictional booking task is not medical advice.",
+          "rule_code": "roadmap-a2-09",
+          "explanation_english": "Je voudrais is a polite conditional request. Relative où can identify a place; this fictional booking task is not medical advice.",
+          "examples": [
+            [
+              "Je voudrais un rendez-vous vendredi.",
+              "I would like an appointment on Friday."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-08-transfer"
+      ]
+    },
+    {
+      "key": "topic-09-transfer",
+      "skill": "writing",
+      "title": "A2 transfer 09: Health and appointments",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 80–110 French words. Arrange a fictional routine appointment, decline one slot and confirm another. Mention a general issue without personal symptoms or treatment advice; ask a clarifying question about arrival.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Health and appointments",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-09-practice"
+      ]
+    },
+    {
+      "key": "topic-10-practice",
+      "skill": "grammar",
+      "title": "A2 roadmap 10: Work and education",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nNora suit un cours qui commence à dix heures. C’est le cours qu’elle préfère. Elle travaille à la bibliothèque l’après-midi, sauf le jeudi où elle prépare un entretien. Le texte ne donne pas son salaire.\n\nNotice: The relative pronoun qui is the subject of its clause; que introduces a direct-object relative. Keep the speaker’s availability distinct from the institution’s opening hours.\nModel: C’est le cours que je préfère.\nMeaning: It is the class that I prefer.\n\nUseful expressions: un entretien = an interview; sauf le jeudi = except on Thursdays; disponible = available",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The relative pronoun qui is the subject of its clause; que introduces a direct-object relative. Keep the speaker’s availability distinct from the institution’s opening hours. Model meaning: It is the class that I prefer.",
+          "options": [
+            "C’est le cours que je préfères.",
+            "C’est le cours que je préfère.",
+            "C’est le cours qui je préfère."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "rebuild-the-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild the taught model sentence.",
+          "instructions": "Use every tile once in the model order. Other natural French orders are not assessed in this supported task.",
+          "explanation": "The relative pronoun qui is the subject of its clause; que introduces a direct-object relative. Keep the speaker’s availability distinct from the institution’s opening hours.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "8cdfaf66-bf25-509b-9d2f-506bee290416",
+                "text": "C’est"
+              },
+              {
+                "id": "af228e43-9257-5b8a-a57a-2c6c58f07da3",
+                "text": "le"
+              },
+              {
+                "id": "d61a3d1b-d187-546c-8791-a2cec154f588",
+                "text": "cours"
+              },
+              {
+                "id": "01b5a0a5-716f-5006-83ed-924cf791afa6",
+                "text": "que"
+              },
+              {
+                "id": "62b822e1-6fdb-5f89-82d2-e99c3abf3b62",
+                "text": "je"
+              },
+              {
+                "id": "c8148ac5-2b81-5981-9e96-25bc94064d61",
+                "text": "préfère."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "8cdfaf66-bf25-509b-9d2f-506bee290416",
+                "af228e43-9257-5b8a-a57a-2c6c58f07da3",
+                "d61a3d1b-d187-546c-8791-a2cec154f588",
+                "01b5a0a5-716f-5006-83ed-924cf791afa6",
+                "62b822e1-6fdb-5f89-82d2-e99c3abf3b62",
+                "c8148ac5-2b81-5981-9e96-25bc94064d61"
+              ]
+            ],
+            "correct_sentence": "C’est le cours que je préfère."
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: Thursday afternoon is reserved for interview preparation.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "Thursday afternoon is reserved for interview preparation.",
+            "Her favourite class starts in the afternoon.",
+            "She works every afternoon without exception."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: They agree on Friday morning at nine.. Transcript for review: Responsable : Êtes-vous disponible jeudi après-midi ? Nora : Non, mais je peux venir vendredi matin. Responsable : D’accord, vendredi à neuf heures.",
+          "options": [
+            "They agree on Thursday afternoon.",
+            "Nora is unavailable all week.",
+            "They agree on Friday morning at nine."
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Responsable : Êtes-vous disponible jeudi après-midi ? Nora : Non, mais je peux venir vendredi matin. Responsable : D’accord, vendredi à neuf heures."
+          }
+        }
+      ],
+      "module_title": "Work and education",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-a2-10",
+          "title": "Work and education",
+          "summary": "The relative pronoun qui is the subject of its clause; que introduces a direct-object relative. Keep the speaker’s availability distinct from the institution’s opening hours.",
+          "rule_code": "roadmap-a2-10",
+          "explanation_english": "The relative pronoun qui is the subject of its clause; que introduces a direct-object relative. Keep the speaker’s availability distinct from the institution’s opening hours.",
+          "examples": [
+            [
+              "C’est le cours que je préfère.",
+              "It is the class that I prefer."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-09-transfer"
+      ]
+    },
+    {
+      "key": "topic-10-transfer",
+      "skill": "writing",
+      "title": "A2 transfer 10: Work and education",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 80–110 French words. Introduce an imaginary course or job, describe availability and arrange a simple interview. Include qui, que and a place clause with où where meaningful.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Work and education",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-10-practice"
+      ]
+    },
+    {
+      "key": "topic-11-practice",
+      "skill": "grammar",
+      "title": "A2 roadmap 11: Housing and administration",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nUne facture fictive indique quatre-vingts euros, mais le message précédent annonçait soixante euros. Nora demande une explication avant de payer. Elle ne suppose pas qu’il s’agit d’une erreur et ne communique aucune donnée bancaire.\n\nNotice: Use explicit referents when asking about a bill or form. Je voudrais and pourriez-vous soften requests without changing what evidence the message contains.\nModel: Pourriez-vous préciser le montant ?\nMeaning: Could you clarify the amount?\n\nUseful expressions: une facture = a bill; le montant = the amount; une copie = a copy",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Use explicit referents when asking about a bill or form. Je voudrais and pourriez-vous soften requests without changing what evidence the message contains. Model meaning: Could you clarify the amount?",
+          "options": [
+            "Pourriez-vous préciser le montant ?",
+            "Pourriez-vous précisez le montant ?",
+            "Pourriez-tu préciser le montant ?"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "expressions-in-context",
+          "type": "matching",
+          "prompt": "Match these contextual expressions to their English meanings.",
+          "instructions": "Use the meaning taught for this situation, not every possible dictionary meaning.",
+          "explanation": "The expressions are glossed in the lesson context.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "16ddca9f-46f9-555d-8d93-41ff9630e54e",
+                "text": "une facture"
+              },
+              {
+                "id": "53efd333-a5ef-5c98-9f58-3ba4bf84d4ea",
+                "text": "le montant"
+              },
+              {
+                "id": "0289c445-be79-5a2c-a9c8-3b82dd9d74fe",
+                "text": "une copie"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "4ea034ec-dbca-578f-9d8c-001ced5d4ac5",
+                "text": "a bill"
+              },
+              {
+                "id": "218ae31a-0564-5660-bfa2-c08ee1c5770b",
+                "text": "the amount"
+              },
+              {
+                "id": "fef17f8e-6ac8-501c-af72-6ce5d3a63de1",
+                "text": "a copy"
+              }
+            ],
+            "answer_pairs": {
+              "16ddca9f-46f9-555d-8d93-41ff9630e54e": "4ea034ec-dbca-578f-9d8c-001ced5d4ac5",
+              "53efd333-a5ef-5c98-9f58-3ba4bf84d4ea": "218ae31a-0564-5660-bfa2-c08ee1c5770b",
+              "0289c445-be79-5a2c-a9c8-3b82dd9d74fe": "fef17f8e-6ac8-501c-af72-6ce5d3a63de1"
+            }
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: Nora asks why two stated amounts differ.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "Nora proves the bill is fraudulent.",
+            "Nora sends her banking details.",
+            "Nora asks why two stated amounts differ."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Only the copy is requested for now.. Transcript for review: Agent : La copie du formulaire suffit aujourd’hui. Nora : Faut-il l’original demain ? Agent : Non, gardez-le chez vous pour le moment.",
+          "options": [
+            "No form is needed today.",
+            "Only the copy is requested for now.",
+            "The original is required tomorrow."
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Agent : La copie du formulaire suffit aujourd’hui. Nora : Faut-il l’original demain ? Agent : Non, gardez-le chez vous pour le moment."
+          }
+        }
+      ],
+      "module_title": "Housing and administration",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-a2-11",
+          "title": "Housing and administration",
+          "summary": "Use explicit referents when asking about a bill or form. Je voudrais and pourriez-vous soften requests without changing what evidence the message contains.",
+          "rule_code": "roadmap-a2-11",
+          "explanation_english": "Use explicit referents when asking about a bill or form. Je voudrais and pourriez-vous soften requests without changing what evidence the message contains.",
+          "examples": [
+            [
+              "Pourriez-vous préciser le montant ?",
+              "Could you clarify the amount?"
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-10-transfer"
+      ]
+    },
+    {
+      "key": "topic-11-transfer",
+      "skill": "writing",
+      "title": "A2 transfer 11: Housing and administration",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 80–110 French words. Write a polite request about a fictional housing bill or form. Identify the discrepancy and ask what is needed. Do not include real account numbers or give administrative/legal advice.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Housing and administration",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-11-practice"
+      ]
+    },
+    {
+      "key": "topic-12-practice",
+      "skill": "grammar",
+      "title": "A2 roadmap 12: Social communication",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nNora invite Hugo samedi à midi. Son train est retardé : elle propose treize heures, le même jour. Hugo accepte et demande si le lieu change. Nora confirme que le café reste le même.\n\nNotice: A polite conditional can soften a request. Keep an invitation, acceptance and revised travel arrangement consistent across messages.\nModel: Est-ce que tu pourrais venir plus tard ?\nMeaning: Could you come later?\n\nUseful expressions: un retard = a delay; le même jour = the same day; à l’intérieur = inside",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "A polite conditional can soften a request. Keep an invitation, acceptance and revised travel arrangement consistent across messages. Model meaning: Could you come later?",
+          "options": [
+            "Est-ce que tu pourrait venir plus tard ?",
+            "Est-ce que tu pourrais viens plus tard ?",
+            "Est-ce que tu pourrais venir plus tard ?"
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "fill_blank",
+          "prompt": "Est-ce que tu ___ venir plus tard ?",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "A polite conditional can soften a request. Keep an invitation, acceptance and revised travel arrangement consistent across messages. The model uses « pourrais ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "pourrais"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: The time changes but not the day or café.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "Hugo refuses to attend.",
+            "The time changes but not the day or café.",
+            "The invitation moves to Sunday at a new café."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Hugo should wait inside if he arrives first.. Transcript for review: Hugo : Treize heures au café de la place, c’est bien ça ? Nora : Oui. Si tu arrives avant moi, attends à l’intérieur, s’il te plaît.",
+          "options": [
+            "Hugo should wait inside if he arrives first.",
+            "Hugo must wait outside.",
+            "They will meet at the station instead."
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Hugo : Treize heures au café de la place, c’est bien ça ? Nora : Oui. Si tu arrives avant moi, attends à l’intérieur, s’il te plaît."
+          }
+        }
+      ],
+      "module_title": "Social communication",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-a2-12",
+          "title": "Social communication",
+          "summary": "A polite conditional can soften a request. Keep an invitation, acceptance and revised travel arrangement consistent across messages.",
+          "rule_code": "roadmap-a2-12",
+          "explanation_english": "A polite conditional can soften a request. Keep an invitation, acceptance and revised travel arrangement consistent across messages.",
+          "examples": [
+            [
+              "Est-ce que tu pourrais venir plus tard ?",
+              "Could you come later?"
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-11-transfer"
+      ]
+    },
+    {
+      "key": "topic-12-transfer",
+      "skill": "writing",
+      "title": "A2 transfer 12: Social communication",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 80–110 French words. Write an invitation, a short reply and an update after a travel problem. Give an opinion politely, keep time/place references consistent and confirm the final plan orally.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Social communication",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-12-practice"
+      ]
+    }
+  ],
+  "title": "A2 roadmap practice, part 2",
+  "glossary": [],
+  "learning_stage": null
+}

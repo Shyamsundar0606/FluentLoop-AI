@@ -1,7 +1,7 @@
 import {expect,test} from '@playwright/test';
 import {readFileSync} from 'node:fs';
 
-test('all 52 mapped modules expose the 181 imported lessons and check plans in the disposable preview',async({page})=>{
+test('all 52 mapped modules expose the 317 imported lessons and check plans in the disposable preview',async({page})=>{
   test.skip(process.env.STAGED_CURRICULUM_E2E!=='1','Requires the explicitly prepared disposable all-stage API.');
   const api=process.env.PLAYWRIGHT_API_BASE_URL!;
   const base=process.env.PLAYWRIGHT_BASE_URL!;
@@ -14,11 +14,11 @@ test('all 52 mapped modules expose the 181 imported lessons and check plans in t
   const me=await (await page.request.get(`${api}/auth/me`)).json();expect(me.user.id).toBe(fixture.preview_uuid);expect(me.user.role).toBe('learner');
   const response=await page.request.get(`${api}/learning/path`);expect(response.status()).toBe(200);
   const path=await response.json();expect(path.certification).toBe(false);
-  expect(path.stages.map((s:{available_lessons:number})=>s.available_lessons)).toEqual([12,39,26,26,26,26,26]);
+  expect(path.stages.map((s:{available_lessons:number})=>s.available_lessons)).toEqual([12,63,50,50,50,46,46]);
   const modules=path.stages.flatMap((s:{modules:unknown[]})=>s.modules);expect(modules).toHaveLength(52);
   const ids=new Set<string>();
   for(const learningModule of modules){expect(learningModule.available_lessons).toBeGreaterThan(0);expect(learningModule.formative_evidence.mastery_demonstrated).toBe(false);for(const lesson of learningModule.lessons)ids.add(lesson.id);}
-  expect(ids.size).toBe(181);
+  expect(ids.size).toBe(317);
   const checks=await page.request.get(`${api}/learning/checkpoints`);expect(checks.status()).toBe(200);
   const plans=(await checks.json()).plans;
   expect(plans).toHaveLength(59);

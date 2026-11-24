@@ -185,6 +185,66 @@
       "batch_key": "m10-assessments-c2-0.7.8",
       "source_sha256": "5975b279d582f3e69e0f3b74ea85ee4a015ac70ae2fc15521439044f68627134",
       "file": "backend\\content\\completion\\c2-08-completion-0.7.8.json"
+    },
+    {
+      "batch_key": "m10-assessments-a1-0.11.1",
+      "source_sha256": "5636bccc95932751eef23038a76d8f247ca13cbd5a5dee8928a19a9cadf8dde0",
+      "file": "backend/content/roadmap/a1-roadmap-0.11.1.json"
+    },
+    {
+      "batch_key": "m10-assessments-a1-0.11.2",
+      "source_sha256": "5f20d7ecc2d2e63820c047b97262cd324d6c4d3a4bec59c119d3eda96ddde448",
+      "file": "backend/content/roadmap/a1-roadmap-0.11.2.json"
+    },
+    {
+      "batch_key": "m10-assessments-a2-0.11.1",
+      "source_sha256": "d9e90542bb27ef1d060927c6b98ea4bcb859425e6e6f3da676bcee7bdd0d2ba0",
+      "file": "backend/content/roadmap/a2-roadmap-0.11.1.json"
+    },
+    {
+      "batch_key": "m10-assessments-a2-0.11.2",
+      "source_sha256": "c30a6d66b2c4546a1a491563fed60984a97d5a440c862c2d0761e18da989a5af",
+      "file": "backend/content/roadmap/a2-roadmap-0.11.2.json"
+    },
+    {
+      "batch_key": "m10-assessments-b1-0.11.1",
+      "source_sha256": "f6107c72b3d58b29a69660451251c5886b8209461e96d634062f4fb8d42dca3f",
+      "file": "backend/content/roadmap/b1-roadmap-0.11.1.json"
+    },
+    {
+      "batch_key": "m10-assessments-b1-0.11.2",
+      "source_sha256": "73277daa29db1c3ae8fef6515c7de46eba5798de56831ab42b80629315edbab8",
+      "file": "backend/content/roadmap/b1-roadmap-0.11.2.json"
+    },
+    {
+      "batch_key": "m10-assessments-b2-0.11.1",
+      "source_sha256": "20708d7aff5f83fe023729a7e77ee011be05435c1c695f8b5c0aaf5e602b81c0",
+      "file": "backend/content/roadmap/b2-roadmap-0.11.1.json"
+    },
+    {
+      "batch_key": "m10-assessments-b2-0.11.2",
+      "source_sha256": "b0ab92a5ec2bc40c78b3d1c4c1729449934e484a5dbbadff066cbac24646ba9b",
+      "file": "backend/content/roadmap/b2-roadmap-0.11.2.json"
+    },
+    {
+      "batch_key": "m10-assessments-c1-0.11.1",
+      "source_sha256": "e57c86b0a57e7ce7e2e3de828eb496b30ef7efd8974f307280fc2854287dc888",
+      "file": "backend/content/roadmap/c1-roadmap-0.11.1.json"
+    },
+    {
+      "batch_key": "m10-assessments-c1-0.11.2",
+      "source_sha256": "93835993336141e7bf6dc3fc7ce9c67b48793d8a228b912612dbcf646daae2c4",
+      "file": "backend/content/roadmap/c1-roadmap-0.11.2.json"
+    },
+    {
+      "batch_key": "m10-assessments-c2-0.11.1",
+      "source_sha256": "2cd51044e9b05ec2d457892ac58f5d8d838476bcc5c0e42f7005ecd024f96457",
+      "file": "backend/content/roadmap/c2-roadmap-0.11.1.json"
+    },
+    {
+      "batch_key": "m10-assessments-c2-0.11.2",
+      "source_sha256": "b1c967407418d3bb4f2c6582b4d82f44623fc2d159c915890c93d873357390e0",
+      "file": "backend/content/roadmap/c2-roadmap-0.11.2.json"
     }
   ],
   "total_lessons": 181,

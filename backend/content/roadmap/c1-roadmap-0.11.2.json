@@ -1,0 +1,495 @@
+{
+  "version": "0.11.2",
+  "level": "C1",
+  "status": "draft",
+  "source_license": "Original AI-assisted roadmap practice. Independent language, pedagogy, phonetic, answer-key and CEFR review pending.",
+  "tasks": [
+    {
+      "key": "topic-07-practice",
+      "skill": "grammar",
+      "title": "C1 roadmap 07: Advanced listening",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nDans une table ronde fictive, une intervenante commence par parler de « tous les usagers », puis se reprend : elle évoque ceux qui ont utilisé le service durant la semaine d’essai. Cette réparation réduit la population concernée et modifie la portée de son jugement. Un auditeur doit conserver cette restriction dans son compte rendu, même si la première formule paraît plus facile à citer. Le présent script permet d’exercer le repérage verbal d’une reprise, mais non de démontrer une compréhension de conférences rapides, d’accents variés ou de chevauchements spontanés. Ces dimensions demandent des enregistrements adaptés et une évaluation distincte.\n\nNotice: Discourse repairs such as enfin and plutôt can narrow an earlier formulation. Track the repaired scope instead of treating every first phrasing as a final commitment.\nModel: Il faudrait plutôt distinguer les deux situations.\nMeaning: It would be better to distinguish the two situations.\n\nUseful expressions: une reprise = a self-repair; un habitué = a regular user; la population concernée = the population concerned",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence preserves the model’s meaning and scope?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Discourse repairs such as enfin and plutôt can narrow an earlier formulation. Track the repaired scope instead of treating every first phrasing as a final commitment. Model meaning: It would be better to distinguish the two situations.",
+          "options": [
+            "La distinction entre ces situations est déjà définitivement établie.",
+            "Il faudrait plutôt distinguer les deux situations.",
+            "Ces deux situations sont équivalentes à tous égards."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "expressions-in-context",
+          "type": "matching",
+          "prompt": "Match these contextual expressions to their English meanings.",
+          "instructions": "Use the meaning taught for this situation, not every possible dictionary meaning.",
+          "explanation": "The expressions are glossed in the lesson context.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "68be8b2c-7089-5fd4-a494-6f0a8f2c3bb8",
+                "text": "une reprise"
+              },
+              {
+                "id": "077ed743-ed92-5f1a-9184-d51a5ec4043b",
+                "text": "un habitué"
+              },
+              {
+                "id": "8b57c982-3ddf-5866-8d04-7a6f22c94e9a",
+                "text": "la population concernée"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "05fe00e8-72ac-5436-9b82-011f2cf203a8",
+                "text": "a self-repair"
+              },
+              {
+                "id": "4c8852f4-90d4-5f51-958a-cf67374d8674",
+                "text": "a regular user"
+              },
+              {
+                "id": "504e7daa-3da0-5418-9ead-e0105a1a9efc",
+                "text": "the population concerned"
+              }
+            ],
+            "answer_pairs": {
+              "68be8b2c-7089-5fd4-a494-6f0a8f2c3bb8": "05fe00e8-72ac-5436-9b82-011f2cf203a8",
+              "077ed743-ed92-5f1a-9184-d51a5ec4043b": "4c8852f4-90d4-5f51-958a-cf67374d8674",
+              "8b57c982-3ddf-5866-8d04-7a6f22c94e9a": "504e7daa-3da0-5418-9ead-e0105a1a9efc"
+            }
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: The speaker narrows the population and the summary must retain that repair.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "The speaker narrows the population and the summary must retain that repair.",
+            "The first universal formulation remains the only relevant statement.",
+            "The synthetic script proves rapid multi-speaker comprehension."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: The claim is narrowed to this week’s testers and still needs subgroup analysis.. Transcript for review: Intervenante : Tous les usagers trouvent le parcours clair… enfin, ceux qui l’ont testé cette semaine. Modérateur : Donc pas tous ? Intervenante : Voilà. Et il faudrait distinguer les nouveaux venus des habitués avant de conclure.",
+          "options": [
+            "Every user has been surveyed.",
+            "The moderator rejects any subgroup distinction.",
+            "The claim is narrowed to this week’s testers and still needs subgroup analysis."
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Intervenante : Tous les usagers trouvent le parcours clair… enfin, ceux qui l’ont testé cette semaine. Modérateur : Donc pas tous ? Intervenante : Voilà. Et il faudrait distinguer les nouveaux venus des habitués avant de conclure."
+          }
+        }
+      ],
+      "module_title": "Advanced listening",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-c1-07",
+          "title": "Advanced listening",
+          "summary": "Discourse repairs such as enfin and plutôt can narrow an earlier formulation. Track the repaired scope instead of treating every first phrasing as a final commitment.",
+          "rule_code": "roadmap-c1-07",
+          "explanation_english": "Discourse repairs such as enfin and plutôt can narrow an earlier formulation. Track the repaired scope instead of treating every first phrasing as a final commitment.",
+          "examples": [
+            [
+              "Il faudrait plutôt distinguer les deux situations.",
+              "It would be better to distinguish the two situations."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "topic-07-transfer",
+      "skill": "writing",
+      "title": "C1 transfer 07: Advanced listening",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 350–450 French words. Take notes on the script before viewing it. Reconstruct the speaker’s self-correction, distinguish subgroups and give a qualified oral summary. Identify which listening abilities this short synthetic exercise cannot establish.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Advanced listening",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-07-practice"
+      ]
+    },
+    {
+      "key": "topic-08-practice",
+      "skill": "grammar",
+      "title": "C1 roadmap 08: Professional fluency",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nUne équipe présente un projet technique à un partenaire. Elle propose de confirmer une phase d’essai sous réserve de validation du budget et d’un périmètre de données fictives. Le partenaire résume : « L’essai est confirmé. » Nora rectifie sans accuser son interlocuteur de mauvaise foi : le calendrier est préparé, mais les conditions ne sont pas encore levées. Elle explique aussi que l’essai évaluera l’usage, non la conformité juridique ou la robustesse générale du produit. La fluidité professionnelle se mesure ici à la capacité de réparer une divergence de portée tout en maintenant une relation de travail et un prochain pas concret.\n\nNotice: Formal negotiation distinguishes a commitment from a condition precedent. Sous réserve de makes a limitation explicit; it should not be silently dropped in a summary.\nModel: Nous confirmerons sous réserve de validation du budget.\nMeaning: We will confirm subject to budget approval.\n\nUseful expressions: une condition préalable = a prerequisite condition; une date indicative = a provisional date; lever une réserve = to remove a qualification",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence preserves the model’s meaning and scope?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Formal negotiation distinguishes a commitment from a condition precedent. Sous réserve de makes a limitation explicit; it should not be silently dropped in a summary. Model meaning: We will confirm subject to budget approval.",
+          "options": [
+            "Nous confirmerons sous réserve de validation du budget.",
+            "Le budget étant validé, nous confirmons sans réserve.",
+            "Aucune confirmation ne sera possible, même si le budget est validé."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "fill_blank",
+          "prompt": "Nous confirmerons ___ validation du budget.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "Formal negotiation distinguishes a commitment from a condition precedent. Sous réserve de makes a limitation explicit; it should not be silently dropped in a summary. The model uses « sous réserve de ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "sous réserve de"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: A prepared trial calendar is still conditional and has a limited evaluation scope.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "Budget approval and unrestricted data access are established.",
+            "The trial certifies full legal compliance.",
+            "A prepared trial calendar is still conditional and has a limited evaluation scope."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: A provisional date may be shared with the budget qualification.. Transcript for review: Partenaire : Puis-je annoncer une date ferme ? Nora : Une date indicative, oui, en mentionnant la réserve budgétaire. Partenaire : Je vous envoie la formulation avant diffusion. Nora : Merci, cela évitera un engagement plus large.",
+          "options": [
+            "Nora forbids every communication about the project.",
+            "A provisional date may be shared with the budget qualification.",
+            "An unconditional date may be announced immediately."
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Partenaire : Puis-je annoncer une date ferme ? Nora : Une date indicative, oui, en mentionnant la réserve budgétaire. Partenaire : Je vous envoie la formulation avant diffusion. Nora : Merci, cela évitera un engagement plus large."
+          }
+        }
+      ],
+      "module_title": "Professional fluency",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-c1-08",
+          "title": "Professional fluency",
+          "summary": "Formal negotiation distinguishes a commitment from a condition precedent. Sous réserve de makes a limitation explicit; it should not be silently dropped in a summary.",
+          "rule_code": "roadmap-c1-08",
+          "explanation_english": "Formal negotiation distinguishes a commitment from a condition precedent. Sous réserve de makes a limitation explicit; it should not be silently dropped in a summary.",
+          "examples": [
+            [
+              "Nous confirmerons sous réserve de validation du budget.",
+              "We will confirm subject to budget approval."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-07-transfer"
+      ]
+    },
+    {
+      "key": "topic-08-transfer",
+      "skill": "writing",
+      "title": "C1 transfer 08: Professional fluency",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 350–450 French words. Deliver a fictional technical presentation, negotiate a conditional next step and write an accurate follow-up. Explain a complex project accessibly without asserting a security/legal certification that the exercise does not supply.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Professional fluency",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-08-practice"
+      ]
+    },
+    {
+      "key": "topic-09-practice",
+      "skill": "grammar",
+      "title": "C1 roadmap 09: Literary and cultural analysis",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nDans ce fragment original et fictif, un narrateur revient devant une bibliothèque fermée : « La porte gardait mieux les livres que les lecteurs. » Il décrit ensuite les fenêtres allumées du bâtiment voisin et se souvient des heures passées à attendre l’ouverture. L’image peut suggérer une critique d’un accès trop restreint, tout en portant une nostalgie du lieu. Rien n’oblige à choisir entre une plainte pure et un trait d’ironie sans examiner les indices. L’analyse doit préciser qui voit, qui se souvient et quels mots produisent le contraste. Il ne s’agit pas d’un extrait attribué à un écrivain réel.\n\nNotice: Distinguish narrator, character and inferred authorial position. An image can support several readings; justify an interpretation without presenting it as the only possible meaning.\nModel: Le narrateur semble hésiter entre nostalgie et ironie.\nMeaning: The narrator seems to hesitate between nostalgia and irony.\n\nUseful expressions: un narrateur = a narrator; un indice textuel = a textual clue; une lecture étayée = a supported reading",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence preserves the model’s meaning and scope?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Distinguish narrator, character and inferred authorial position. An image can support several readings; justify an interpretation without presenting it as the only possible meaning. Model meaning: The narrator seems to hesitate between nostalgia and irony.",
+          "options": [
+            "Le narrateur exprime une nostalgie dont toute ironie est absente.",
+            "Le texte prouve que le narrateur est incapable d’ironie.",
+            "Le narrateur semble hésiter entre nostalgie et ironie."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "short_answer",
+          "prompt": "Le narrateur ___ hésiter entre nostalgie et ironie.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "Distinguish narrator, character and inferred authorial position. An image can support several readings; justify an interpretation without presenting it as the only possible meaning. The model uses « semble ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "semble"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: The fictional image can combine restricted-access criticism with nostalgia.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "The narrator says books should be destroyed.",
+            "The fictional image can combine restricted-access criticism with nostalgia.",
+            "The text establishes a real author’s documented political programme."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Irony and nostalgia need not cancel each other.. Transcript for review: Lectrice : J’entends une accusation. Nora : Peut-être, mais le souvenir affectueux la complique. Lectrice : L’ironie annule donc la nostalgie ? Nora : Pas nécessairement ; elles peuvent coexister dans cette phrase.",
+          "options": [
+            "Irony and nostalgia need not cancel each other.",
+            "Nora proves that no accusation is possible.",
+            "The passage contains no affectionate memory."
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Lectrice : J’entends une accusation. Nora : Peut-être, mais le souvenir affectueux la complique. Lectrice : L’ironie annule donc la nostalgie ? Nora : Pas nécessairement ; elles peuvent coexister dans cette phrase."
+          }
+        }
+      ],
+      "module_title": "Literary and cultural analysis",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-c1-09",
+          "title": "Literary and cultural analysis",
+          "summary": "Distinguish narrator, character and inferred authorial position. An image can support several readings; justify an interpretation without presenting it as the only possible meaning.",
+          "rule_code": "roadmap-c1-09",
+          "explanation_english": "Distinguish narrator, character and inferred authorial position. An image can support several readings; justify an interpretation without presenting it as the only possible meaning.",
+          "examples": [
+            [
+              "Le narrateur semble hésiter entre nostalgie et ironie.",
+              "The narrator seems to hesitate between nostalgia and irony."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-08-transfer"
+      ]
+    },
+    {
+      "key": "topic-09-transfer",
+      "skill": "writing",
+      "title": "C1 transfer 09: Literary and cultural analysis",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 350–450 French words. Analyse this original fictional fragment with two plausible readings. Quote only its short relevant phrases, explain the evidence and limits for each reading, and discuss the cultural question of access without inventing a historical source.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Literary and cultural analysis",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-09-practice"
+      ]
+    },
+    {
+      "key": "topic-10-practice",
+      "skill": "grammar",
+      "title": "C1 roadmap 10: DALF C1 preparation",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nUn dossier original oppose deux manières de décrire une bibliothèque de quartier. Le premier texte souligne la disponibilité des ressources ; le second examine les usages que l’organisation rend possibles ou difficiles. Une synthèse structurée peut montrer leur complémentarité et leurs tensions sans ajouter un taux de fréquentation absent des documents. Un exposé personnel pourrait ensuite défendre une proposition et répondre aux objections. Le travail demandé ici est volontairement limité : il ne reproduit pas la longueur, la durée, les conditions ni la double évaluation d’un examen officiel. Les consignes actualisées de France Éducation international restent la référence pour préparer un DALF complet.\n\nNotice: Integrated preparation requires faithful synthesis and a distinct defended position where requested. A practice label is not evidence of official exam equivalence or calibrated scoring.\nModel: La synthèse restitue les positions sans les confondre.\nMeaning: The synthesis presents the positions without conflating them.\n\nUseful expressions: une position défendue = a defended position; une synthèse fidèle = a faithful synthesis; un exposé personnel = a personal presentation",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence preserves the model’s meaning and scope?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Integrated preparation requires faithful synthesis and a distinct defended position where requested. A practice label is not evidence of official exam equivalence or calibrated scoring. Model meaning: The synthesis presents the positions without conflating them.",
+          "options": [
+            "La synthèse remplace les positions par l’avis personnel du rédacteur.",
+            "La synthèse restitue les positions sans les confondre.",
+            "La synthèse fusionne les positions en une conclusion attribuée aux deux auteurs."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "rebuild-the-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild the taught model sentence.",
+          "instructions": "Use every tile once in the model order. Other natural French orders are not assessed in this supported task.",
+          "explanation": "Integrated preparation requires faithful synthesis and a distinct defended position where requested. A practice label is not evidence of official exam equivalence or calibrated scoring.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "bbb7f230-411b-525e-8927-2d656803f613",
+                "text": "La"
+              },
+              {
+                "id": "4c42c1e9-e727-51c7-8464-3a6d9bc8bffe",
+                "text": "synthèse"
+              },
+              {
+                "id": "6ecabf87-e06b-5a38-af05-56cf17adddae",
+                "text": "restitue"
+              },
+              {
+                "id": "0fdea42a-a10b-568d-a234-eaea5b43b307",
+                "text": "les"
+              },
+              {
+                "id": "ed34f378-3a51-53fc-9b7f-ef2e32cb9488",
+                "text": "positions"
+              },
+              {
+                "id": "21cc2f28-08f9-5ccb-ad3a-a3e9905446a1",
+                "text": "sans"
+              },
+              {
+                "id": "c6aa2274-b825-5152-9a50-38cbbcd37906",
+                "text": "les"
+              },
+              {
+                "id": "cdee80e7-c01a-58e9-a2d7-4df0fee6e5c6",
+                "text": "confondre."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "bbb7f230-411b-525e-8927-2d656803f613",
+                "4c42c1e9-e727-51c7-8464-3a6d9bc8bffe",
+                "6ecabf87-e06b-5a38-af05-56cf17adddae",
+                "0fdea42a-a10b-568d-a234-eaea5b43b307",
+                "ed34f378-3a51-53fc-9b7f-ef2e32cb9488",
+                "21cc2f28-08f9-5ccb-ad3a-a3e9905446a1",
+                "c6aa2274-b825-5152-9a50-38cbbcd37906",
+                "cdee80e7-c01a-58e9-a2d7-4df0fee6e5c6"
+              ]
+            ],
+            "correct_sentence": "La synthèse restitue les positions sans les confondre."
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: The activity practises source handling without claiming full official exam simulation.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "The activity practises source handling without claiming full official exam simulation.",
+            "The dossier supplies a measured attendance rate.",
+            "A short generated score establishes DALF C1 success."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Nora distinguishes source synthesis from her own proposal.. Transcript for review: Jury fictif : Votre proposition vient-elle des deux sources ? Nora : Non. Leur rapprochement éclaire le problème ; la proposition est mon choix argumenté, que je distingue de leur contenu.",
+          "options": [
+            "Both sources explicitly mandate her proposal.",
+            "Nora refuses to explain her position.",
+            "Nora distinguishes source synthesis from her own proposal."
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Jury fictif : Votre proposition vient-elle des deux sources ? Nora : Non. Leur rapprochement éclaire le problème ; la proposition est mon choix argumenté, que je distingue de leur contenu."
+          }
+        }
+      ],
+      "module_title": "DALF C1 preparation",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-c1-10",
+          "title": "DALF C1 preparation",
+          "summary": "Integrated preparation requires faithful synthesis and a distinct defended position where requested. A practice label is not evidence of official exam equivalence or calibrated scoring.",
+          "rule_code": "roadmap-c1-10",
+          "explanation_english": "Integrated preparation requires faithful synthesis and a distinct defended position where requested. A practice label is not evidence of official exam equivalence or calibrated scoring.",
+          "examples": [
+            [
+              "La synthèse restitue les positions sans les confondre.",
+              "The synthesis presents the positions without conflating them."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-09-transfer"
+      ]
+    },
+    {
+      "key": "topic-10-transfer",
+      "skill": "writing",
+      "title": "C1 transfer 10: DALF C1 preparation",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 350–450 French words. Produce an original source synthesis and a separate defended recommendation, then respond to oral challenges. Consult current official FEI instructions separately for full DALF preparation; no official paper, examiner approval or predicted grade is claimed.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "DALF C1 preparation",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-10-practice"
+      ]
+    }
+  ],
+  "title": "C1 roadmap practice, part 2",
+  "glossary": [],
+  "learning_stage": null
+}

@@ -1,0 +1,740 @@
+{
+  "version": "0.11.1",
+  "level": "C1",
+  "status": "draft",
+  "source_license": "Original AI-assisted roadmap practice. Independent language, pedagogy, phonetic, answer-key and CEFR review pending.",
+  "tasks": [
+    {
+      "key": "topic-01-practice",
+      "skill": "grammar",
+      "title": "C1 roadmap 01: Advanced grammar",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nUne commission fictive examine une remarque pertinente sur l’accès à un service. Nora reconnaît que cette remarque révèle un obstacle réel ; elle conteste toutefois qu’elle suffise à déterminer l’ensemble du dispositif. La discussion se déplace alors d’une opposition entre vérité et erreur vers une question de portée : quelle décision les éléments disponibles permettent-ils de soutenir ? Une formulation concessive peut maintenir cette distinction, mais ne remplace pas l’argument qui doit la justifier. Il reste à préciser quels autres usages ont été pris en compte et lesquels nécessiteraient une enquête. La prudence n’est donc ni un refus d’agir ni une validation du premier compromis proposé.\n\nNotice: Concessive inversion can use subjunctive: si pertinente soit-elle. The concession acknowledges a quality without accepting the inference that it is sufficient.\nModel: Si pertinente soit-elle, cette remarque ne suffit pas.\nMeaning: However relevant it may be, this comment is not enough.\n\nUseful expressions: une question de portée = a question of scope; une condition suffisante = a sufficient condition; maintenir une distinction = to preserve a distinction",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence preserves the model’s meaning and scope?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Concessive inversion can use subjunctive: si pertinente soit-elle. The concession acknowledges a quality without accepting the inference that it is sufficient. Model meaning: However relevant it may be, this comment is not enough.",
+          "options": [
+            "Cette remarque ne présente aucune pertinence pour la discussion.",
+            "Si pertinente soit-elle, cette remarque ne suffit pas.",
+            "La pertinence de cette remarque suffit à régler l’ensemble du problème."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "short_answer",
+          "prompt": "Si pertinente ___, cette remarque ne suffit pas.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "Concessive inversion can use subjunctive: si pertinente soit-elle. The concession acknowledges a quality without accepting the inference that it is sufficient. The model uses « soit-elle ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "soit-elle"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: A relevant observation is acknowledged without being treated as a sufficient basis for every decision.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "A relevant observation is acknowledged without being treated as a sufficient basis for every decision.",
+            "The commission declares the observation false.",
+            "The first compromise has been fully validated."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Nora distinguishes usefulness from sufficiency.. Transcript for review: Nora : Si utile soit cette remarque, elle ne règle pas l’accès du soir. Collègue : Vous la jugez donc inutile ? Nora : Au contraire ; je distingue son utilité de sa suffisance pour la décision entière.",
+          "options": [
+            "Nora retracts the observation as useless.",
+            "The evening-access question is already resolved.",
+            "Nora distinguishes usefulness from sufficiency."
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Nora : Si utile soit cette remarque, elle ne règle pas l’accès du soir. Collègue : Vous la jugez donc inutile ? Nora : Au contraire ; je distingue son utilité de sa suffisance pour la décision entière."
+          }
+        }
+      ],
+      "module_title": "Advanced grammar",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-c1-01",
+          "title": "Advanced grammar",
+          "summary": "Concessive inversion can use subjunctive: si pertinente soit-elle. The concession acknowledges a quality without accepting the inference that it is sufficient.",
+          "rule_code": "roadmap-c1-01",
+          "explanation_english": "Concessive inversion can use subjunctive: si pertinente soit-elle. The concession acknowledges a quality without accepting the inference that it is sufficient.",
+          "examples": [
+            [
+              "Si pertinente soit-elle, cette remarque ne suffit pas.",
+              "However relevant it may be, this comment is not enough."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "topic-01-transfer",
+      "skill": "writing",
+      "title": "C1 transfer 01: Advanced grammar",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 350–450 French words. Develop a qualified argument using subordination, a concessive inversion and precise modality. State what a relevant observation establishes and what it leaves open; defend that distinction under questioning.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Advanced grammar",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-01-practice"
+      ]
+    },
+    {
+      "key": "topic-02-practice",
+      "skill": "grammar",
+      "title": "C1 roadmap 02: Sophisticated vocabulary",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nDans une note d’orientation fictive, une mesure est qualifiée de souhaitable parce qu’elle améliorerait un usage particulier. Un résumé la présente ensuite comme nécessaire à toute amélioration. Ce glissement lexical renforce la conclusion sans apporter d’argument supplémentaire. Nora propose de distinguer la recommandation, les conditions minimales d’une mise en œuvre et les résultats attendus. Un vocabulaire plus abstrait n’est pas plus précis par sa seule longueur : il doit préserver les relations entre les propositions. La révision consiste donc aussi à remplacer un mot prestigieux mais vague par une expression qui indique ce qui est requis, pour quel usage et selon quelle justification.\n\nNotice: Nécessaire, souhaitable and suffisant do not express the same relation. Do not convert a recommendation into a logical condition or a sufficient guarantee.\nModel: Cette mesure est souhaitable, sans être suffisante.\nMeaning: This measure is desirable without being sufficient.\n\nUseful expressions: une recommandation = a recommendation; une condition nécessaire = a necessary condition; un glissement lexical = a lexical shift",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence preserves the model’s meaning and scope?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Nécessaire, souhaitable and suffisant do not express the same relation. Do not convert a recommendation into a logical condition or a sufficient guarantee. Model meaning: This measure is desirable without being sufficient.",
+          "options": [
+            "Cette mesure est souhaitable, sans être suffisante.",
+            "Cette mesure est indispensable et garantit le résultat.",
+            "Cette mesure n’est ni utile ni souhaitable."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "rebuild-the-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild the taught model sentence.",
+          "instructions": "Use every tile once in the model order. Other natural French orders are not assessed in this supported task.",
+          "explanation": "Nécessaire, souhaitable and suffisant do not express the same relation. Do not convert a recommendation into a logical condition or a sufficient guarantee.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "7e8e3cee-6dd3-5e61-9b34-b1189f6ce188",
+                "text": "Cette"
+              },
+              {
+                "id": "47c6e0c8-7a90-5fe0-8e1e-339d62288f3e",
+                "text": "mesure"
+              },
+              {
+                "id": "1e61d304-af55-54b3-a465-289ae0424dca",
+                "text": "est"
+              },
+              {
+                "id": "64f3f8b2-4985-5cb6-b21a-0108873563df",
+                "text": "souhaitable,"
+              },
+              {
+                "id": "7b13c7c1-0f34-5e7e-9a9f-97f94b82b54d",
+                "text": "sans"
+              },
+              {
+                "id": "f4a3b540-dc8c-51b5-b60e-323843220582",
+                "text": "être"
+              },
+              {
+                "id": "33100f74-a922-5074-b391-9dcd77215318",
+                "text": "suffisante."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "7e8e3cee-6dd3-5e61-9b34-b1189f6ce188",
+                "47c6e0c8-7a90-5fe0-8e1e-339d62288f3e",
+                "1e61d304-af55-54b3-a465-289ae0424dca",
+                "64f3f8b2-4985-5cb6-b21a-0108873563df",
+                "7b13c7c1-0f34-5e7e-9a9f-97f94b82b54d",
+                "f4a3b540-dc8c-51b5-b60e-323843220582",
+                "33100f74-a922-5074-b391-9dcd77215318"
+              ]
+            ],
+            "correct_sentence": "Cette mesure est souhaitable, sans être suffisante."
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: The revision should avoid turning a desirable measure into an unsupported universal necessity.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "Longer abstract words are inherently more precise.",
+            "The note proves the measure guarantees every outcome.",
+            "The revision should avoid turning a desirable measure into an unsupported universal necessity."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Indispensability needs a stronger justification than recommendation.. Transcript for review: Collègue : Vous recommandez cette étape ; elle est donc indispensable ? Nora : Je la juge souhaitable. Pour dire indispensable, il faudrait montrer que l’objectif ne peut être atteint autrement.",
+          "options": [
+            "Nora says the step has no value.",
+            "Indispensability needs a stronger justification than recommendation.",
+            "Any recommendation proves indispensability."
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Collègue : Vous recommandez cette étape ; elle est donc indispensable ? Nora : Je la juge souhaitable. Pour dire indispensable, il faudrait montrer que l’objectif ne peut être atteint autrement."
+          }
+        }
+      ],
+      "module_title": "Sophisticated vocabulary",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-c1-02",
+          "title": "Sophisticated vocabulary",
+          "summary": "Nécessaire, souhaitable and suffisant do not express the same relation. Do not convert a recommendation into a logical condition or a sufficient guarantee.",
+          "rule_code": "roadmap-c1-02",
+          "explanation_english": "Nécessaire, souhaitable and suffisant do not express the same relation. Do not convert a recommendation into a logical condition or a sufficient guarantee.",
+          "examples": [
+            [
+              "Cette mesure est souhaitable, sans être suffisante.",
+              "This measure is desirable without being sufficient."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-01-transfer"
+      ]
+    },
+    {
+      "key": "topic-02-transfer",
+      "skill": "writing",
+      "title": "C1 transfer 02: Sophisticated vocabulary",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 350–450 French words. Revise a fictional policy paragraph using precise abstract and professional vocabulary. Explain three lexical substitutions and distinguish desirability, necessity and sufficiency in a spoken defence.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Sophisticated vocabulary",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-02-practice"
+      ]
+    },
+    {
+      "key": "topic-03-practice",
+      "skill": "grammar",
+      "title": "C1 roadmap 03: Register and style",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nUn échange informel conclut : « On regarde ça et on te dit. » Pour un destinataire institutionnel, Nora propose de préciser qui examinera la question et quand une réponse sera donnée. Il ne suffit pas de remplacer ça par un terme soutenu : la portée pratique de l’engagement doit devenir lisible. Inversement, une reformulation plus familière ne doit pas supprimer une réserve importante au nom de la proximité. Le registre dépend de la relation, du support et de l’objectif ; aucun style n’est supérieur dans tous les contextes. Dans ce dossier, les deux versions doivent conserver le même état de la décision et les mêmes limites.\n\nNotice: A change of register should preserve factual commitments. In a formal message remercier de can introduce an infinitive after a completed or anticipated act.\nModel: Je vous remercie d’avoir précisé ce point.\nMeaning: Thank you for clarifying this point.\n\nUseful expressions: un registre soutenu = a formal register; la portée d’un engagement = the scope of a commitment; un destinataire institutionnel = an institutional recipient",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence preserves the model’s meaning and scope?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "A change of register should preserve factual commitments. In a formal message remercier de can introduce an infinitive after a completed or anticipated act. Model meaning: Thank you for clarifying this point.",
+          "options": [
+            "Je tiens votre précision pour une décision définitivement prise.",
+            "Je vous remercie de retirer votre précision.",
+            "Je vous remercie d’avoir précisé ce point."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "expressions-in-context",
+          "type": "matching",
+          "prompt": "Match these contextual expressions to their English meanings.",
+          "instructions": "Use the meaning taught for this situation, not every possible dictionary meaning.",
+          "explanation": "The expressions are glossed in the lesson context.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "4ade7629-04a0-5383-b7f6-02fb637edcff",
+                "text": "un registre soutenu"
+              },
+              {
+                "id": "4ad0f3a6-9f10-5ec8-ab3f-fd9fa9d205ee",
+                "text": "la portée d’un engagement"
+              },
+              {
+                "id": "132530be-3678-5690-95eb-4d71f189f137",
+                "text": "un destinataire institutionnel"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "10908b48-ddd8-5590-a381-9894d9e53016",
+                "text": "a formal register"
+              },
+              {
+                "id": "8e0e59be-e251-5884-83f3-aff0f29de5e6",
+                "text": "the scope of a commitment"
+              },
+              {
+                "id": "efdd0b94-8d33-595a-b0bc-63c02ad894eb",
+                "text": "an institutional recipient"
+              }
+            ],
+            "answer_pairs": {
+              "4ade7629-04a0-5383-b7f6-02fb637edcff": "10908b48-ddd8-5590-a381-9894d9e53016",
+              "4ad0f3a6-9f10-5ec8-ab3f-fd9fa9d205ee": "8e0e59be-e251-5884-83f3-aff0f29de5e6",
+              "132530be-3678-5690-95eb-4d71f189f137": "efdd0b94-8d33-595a-b0bc-63c02ad894eb"
+            }
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: Register changes must preserve commitments and important qualifications.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "A familiar version may erase every reservation.",
+            "Register changes must preserve commitments and important qualifications.",
+            "A formal vocabulary automatically clarifies who will act."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: The tone changes while deadline and undecided status remain.. Transcript for review: Nora : Pour l’association, je peux écrire plus simplement. Responsable : Oui, mais gardez le délai et le fait que la décision n’est pas prise. Nora : Je change le ton, pas cet engagement.",
+          "options": [
+            "The tone changes while deadline and undecided status remain.",
+            "The deadline disappears in the simpler version.",
+            "The message announces a final decision."
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Nora : Pour l’association, je peux écrire plus simplement. Responsable : Oui, mais gardez le délai et le fait que la décision n’est pas prise. Nora : Je change le ton, pas cet engagement."
+          }
+        }
+      ],
+      "module_title": "Register and style",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-c1-03",
+          "title": "Register and style",
+          "summary": "A change of register should preserve factual commitments. In a formal message remercier de can introduce an infinitive after a completed or anticipated act.",
+          "rule_code": "roadmap-c1-03",
+          "explanation_english": "A change of register should preserve factual commitments. In a formal message remercier de can introduce an infinitive after a completed or anticipated act.",
+          "examples": [
+            [
+              "Je vous remercie d’avoir précisé ce point.",
+              "Thank you for clarifying this point."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-02-transfer"
+      ]
+    },
+    {
+      "key": "topic-03-transfer",
+      "skill": "writing",
+      "title": "C1 transfer 03: Register and style",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 350–450 French words. Produce formal, neutral and familiar versions of the same fictional request. Keep dates, obligations and uncertainty stable; justify the style chosen for each audience.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Register and style",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-03-practice"
+      ]
+    },
+    {
+      "key": "topic-04-practice",
+      "skill": "grammar",
+      "title": "C1 roadmap 04: Idiomatic language",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nAprès un débat tendu sur l’usage d’une salle, une chronique fictive affirme que Nora a « mis de l’eau dans son vin ». Elle a accepté de tester une nouvelle répartition des horaires, mais maintient sa demande d’accès pour les débutants. L’expression décrit ici un assouplissement des modalités, non une capitulation complète. Le journaliste ajoute que l’accord reste à éprouver ; cette réserve empêche d’y lire une résolution définitive du conflit. Comprendre la formule exige donc de relier une image à ce qui a effectivement changé, tout en séparant la voix du chroniqueur des paroles attribuées aux participants.\n\nNotice: Mettre de l’eau dans son vin means moderating a position in this context, not necessarily abandoning it. Figurative interpretation must be anchored to the exchange.\nModel: Elle a mis de l’eau dans son vin sans renoncer au principe.\nMeaning: She moderated her position without abandoning the principle.\n\nUseful expressions: mettre de l’eau dans son vin = to moderate one’s position; lâcher du lest = to make a concession; recouvrir ici = to cover or encompass here",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence preserves the model’s meaning and scope?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Mettre de l’eau dans son vin means moderating a position in this context, not necessarily abandoning it. Figurative interpretation must be anchored to the exchange. Model meaning: She moderated her position without abandoning the principle.",
+          "options": [
+            "Elle refuse de modifier la moindre modalité.",
+            "Elle a mis de l’eau dans son vin sans renoncer au principe.",
+            "Elle a abandonné le principe et toutes ses demandes."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "fill_blank",
+          "prompt": "Elle a mis de l’eau dans son vin ___ au principe.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "Mettre de l’eau dans son vin means moderating a position in this context, not necessarily abandoning it. Figurative interpretation must be anchored to the exchange. The model uses « sans renoncer ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "sans renoncer"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: Nora softens arrangements while retaining a substantive principle.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "Nora softens arrangements while retaining a substantive principle.",
+            "Nora abandons all access for beginners.",
+            "The conflict is conclusively resolved for all future uses."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: The concession concerns scheduling, not the beginner-access principle.. Transcript for review: Chroniqueur : Elle a lâché du lest. Nora : Sur l’horaire, oui ; pas sur l’accueil des débutants. Chroniqueur : Il faut donc préciser ce que cette concession recouvre.",
+          "options": [
+            "Nora rejects every scheduling change.",
+            "The phrase concerns a literal boat cargo.",
+            "The concession concerns scheduling, not the beginner-access principle."
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Chroniqueur : Elle a lâché du lest. Nora : Sur l’horaire, oui ; pas sur l’accueil des débutants. Chroniqueur : Il faut donc préciser ce que cette concession recouvre."
+          }
+        }
+      ],
+      "module_title": "Idiomatic language",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-c1-04",
+          "title": "Idiomatic language",
+          "summary": "Mettre de l’eau dans son vin means moderating a position in this context, not necessarily abandoning it. Figurative interpretation must be anchored to the exchange.",
+          "rule_code": "roadmap-c1-04",
+          "explanation_english": "Mettre de l’eau dans son vin means moderating a position in this context, not necessarily abandoning it. Figurative interpretation must be anchored to the exchange.",
+          "examples": [
+            [
+              "Elle a mis de l’eau dans son vin sans renoncer au principe.",
+              "She moderated her position without abandoning the principle."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-03-transfer"
+      ]
+    },
+    {
+      "key": "topic-04-transfer",
+      "skill": "writing",
+      "title": "C1 transfer 04: Idiomatic language",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 350–450 French words. Explain an idiom in its fictional context, then reformulate the passage without imagery. Compare a plausible interpretation with an overstatement and negotiate which qualification must be retained.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Idiomatic language",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-04-practice"
+      ]
+    },
+    {
+      "key": "topic-05-practice",
+      "skill": "grammar",
+      "title": "C1 roadmap 05: Argumentation",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nDeux documents fictifs débattent d’un outil de tri des demandes. Le premier décrit un gain de temps pour des dossiers simples ; le second souligne que les situations atypiques nécessitent un examen différent. Une synthèse argumentative ne peut opposer mécaniquement efficacité et équité comme si chaque texte défendait une seule valeur. Il faut examiner la définition des cas simples, le traitement des exceptions et la possibilité de demander une révision. Reconnaître un gain local n’autorise pas son extension à toutes les demandes. Une position défendable explicite donc les conditions sous lesquelles l’outil serait utile et celles qui imposeraient une autre procédure.\n\nNotice: Pour autant marks that a conclusion does not automatically follow. A valid counterargument should challenge the inference rather than misrepresent the acknowledged premise.\nModel: Le gain est réel ; il ne justifie pas pour autant tout le dispositif.\nMeaning: The gain is real; that does not by itself justify the whole arrangement.\n\nUseful expressions: un gain local = a localised gain; une situation atypique = an atypical situation; une révision du traitement = a review of processing",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence preserves the model’s meaning and scope?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Pour autant marks that a conclusion does not automatically follow. A valid counterargument should challenge the inference rather than misrepresent the acknowledged premise. Model meaning: The gain is real; that does not by itself justify the whole arrangement.",
+          "options": [
+            "Le gain est réel ; il ne justifie pas pour autant tout le dispositif.",
+            "Ce gain réel suffit à justifier chaque modalité du dispositif.",
+            "Puisque le dispositif reste discutable, le gain observé est inexistant."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "short_answer",
+          "prompt": "Le gain est réel ; il ne justifie pas ___ tout le dispositif.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "Pour autant marks that a conclusion does not automatically follow. A valid counterargument should challenge the inference rather than misrepresent the acknowledged premise. The model uses « pour autant ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "pour autant"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: A local efficiency gain requires conditions and an exception process before wider endorsement.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "One gain automatically justifies every use.",
+            "The second document rejects any efficient procedure.",
+            "A local efficiency gain requires conditions and an exception process before wider endorsement."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Nora questions extension and exception handling, not the existence of the gain.. Transcript for review: Interlocuteur : Refuser l’extension, c’est nier le gain ? Nora : Non. Je demande comment seront repérés les cas auxquels ce gain ne s’applique pas et qui pourra revoir leur traitement.",
+          "options": [
+            "All exceptions have already been identified.",
+            "Nora questions extension and exception handling, not the existence of the gain.",
+            "Nora denies every observation in the first document."
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Interlocuteur : Refuser l’extension, c’est nier le gain ? Nora : Non. Je demande comment seront repérés les cas auxquels ce gain ne s’applique pas et qui pourra revoir leur traitement."
+          }
+        }
+      ],
+      "module_title": "Argumentation",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-c1-05",
+          "title": "Argumentation",
+          "summary": "Pour autant marks that a conclusion does not automatically follow. A valid counterargument should challenge the inference rather than misrepresent the acknowledged premise.",
+          "rule_code": "roadmap-c1-05",
+          "explanation_english": "Pour autant marks that a conclusion does not automatically follow. A valid counterargument should challenge the inference rather than misrepresent the acknowledged premise.",
+          "examples": [
+            [
+              "Le gain est réel ; il ne justifie pas pour autant tout le dispositif.",
+              "The gain is real; that does not by itself justify the whole arrangement."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-04-transfer"
+      ]
+    },
+    {
+      "key": "topic-05-transfer",
+      "skill": "writing",
+      "title": "C1 transfer 05: Argumentation",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 350–450 French words. Build a multi-step argument from two competing fictional sources. Address the strongest counterargument and state operational limits without inventing evidence. Defend your inference rather than repeating your position.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Argumentation",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-05-practice"
+      ]
+    },
+    {
+      "key": "topic-06-practice",
+      "skill": "grammar",
+      "title": "C1 roadmap 06: Academic writing",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nTexte A présente une consultation comme un moyen d’élargir les contributions à un projet. Texte B examine ce que deviennent ces contributions après leur collecte. Les auteurs ne s’opposent donc pas simplement sur la valeur de la participation : ils interrogent des moments et des effets différents. Une synthèse peut les rapprocher autour des conditions d’une contribution utile, puis distinguer l’accès à la discussion de son influence sur une décision. Elle ne doit pas attribuer au premier texte une promesse d’influence qu’il ne formule pas, ni réduire le second à un refus de consulter. L’avis personnel du rédacteur doit rester identifiable dans un éventuel commentaire séparé.\n\nNotice: A synthesis attributes positions and organises shared issues without importing the writer’s opinion as a source claim. Nominalisation may condense a relation but can obscure its agent.\nModel: Les deux textes interrogent les conditions de participation.\nMeaning: Both texts examine the conditions of participation.\n\nUseful expressions: une synthèse = a source synthesis; une nominalisation = a nominalisation; un commentaire distinct = a separate commentary",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence preserves the model’s meaning and scope?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "A synthesis attributes positions and organises shared issues without importing the writer’s opinion as a source claim. Nominalisation may condense a relation but can obscure its agent. Model meaning: Both texts examine the conditions of participation.",
+          "options": [
+            "Les deux textes défendent la même procédure de décision.",
+            "Les deux textes n’ont aucune question en commun.",
+            "Les deux textes interrogent les conditions de participation."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "rebuild-the-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild the taught model sentence.",
+          "instructions": "Use every tile once in the model order. Other natural French orders are not assessed in this supported task.",
+          "explanation": "A synthesis attributes positions and organises shared issues without importing the writer’s opinion as a source claim. Nominalisation may condense a relation but can obscure its agent.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "058ed1da-4708-5e84-885c-482ce795f019",
+                "text": "Les"
+              },
+              {
+                "id": "40ce422e-fb61-5fa1-80f2-02bda6209aee",
+                "text": "deux"
+              },
+              {
+                "id": "0e06fea5-968a-509d-9ffc-07a5aef64592",
+                "text": "textes"
+              },
+              {
+                "id": "251eefad-0950-5d14-acaf-4c97a37ad329",
+                "text": "interrogent"
+              },
+              {
+                "id": "f0dd605d-e756-58e9-8e1a-b1190c1437e3",
+                "text": "les"
+              },
+              {
+                "id": "804457a7-3065-53a6-bc4c-88e7866d2c2b",
+                "text": "conditions"
+              },
+              {
+                "id": "15d38ae4-eb93-589a-a6f9-174483afdef0",
+                "text": "de"
+              },
+              {
+                "id": "431967e0-76df-54ac-8ecc-c6b742f5681b",
+                "text": "participation."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "058ed1da-4708-5e84-885c-482ce795f019",
+                "40ce422e-fb61-5fa1-80f2-02bda6209aee",
+                "0e06fea5-968a-509d-9ffc-07a5aef64592",
+                "251eefad-0950-5d14-acaf-4c97a37ad329",
+                "f0dd605d-e756-58e9-8e1a-b1190c1437e3",
+                "804457a7-3065-53a6-bc4c-88e7866d2c2b",
+                "15d38ae4-eb93-589a-a6f9-174483afdef0",
+                "431967e0-76df-54ac-8ecc-c6b742f5681b"
+              ]
+            ],
+            "correct_sentence": "Les deux textes interrogent les conditions de participation."
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: The sources can be organised around access versus influence without inventing a direct opposition.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "Text B rejects every consultation.",
+            "The sources can be organised around access versus influence without inventing a direct opposition.",
+            "Text A guarantees each contribution changes the decision."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Personal recommendation is separated from source synthesis.. Transcript for review: Enseignante : Où placez-vous votre propre recommandation ? Nora : Dans un commentaire distinct. Dans la synthèse, je restitue les questions et les limites présentes dans les deux textes.",
+          "options": [
+            "Personal recommendation is separated from source synthesis.",
+            "The recommendation is attributed to both authors.",
+            "The synthesis omits every disagreement or limit."
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Enseignante : Où placez-vous votre propre recommandation ? Nora : Dans un commentaire distinct. Dans la synthèse, je restitue les questions et les limites présentes dans les deux textes."
+          }
+        }
+      ],
+      "module_title": "Academic writing",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-c1-06",
+          "title": "Academic writing",
+          "summary": "A synthesis attributes positions and organises shared issues without importing the writer’s opinion as a source claim. Nominalisation may condense a relation but can obscure its agent.",
+          "rule_code": "roadmap-c1-06",
+          "explanation_english": "A synthesis attributes positions and organises shared issues without importing the writer’s opinion as a source claim. Nominalisation may condense a relation but can obscure its agent.",
+          "examples": [
+            [
+              "Les deux textes interrogent les conditions de participation.",
+              "Both texts examine the conditions of participation."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-05-transfer"
+      ]
+    },
+    {
+      "key": "topic-06-transfer",
+      "skill": "writing",
+      "title": "C1 transfer 06: Academic writing",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 350–450 French words. Write a structured synthesis of the reading and listening positions, followed by a clearly separated analytical comment. Attribute claims and avoid adding invented data, authors or intentions.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Academic writing",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-06-practice"
+      ]
+    }
+  ],
+  "title": "C1 roadmap practice, part 1",
+  "glossary": [],
+  "learning_stage": null
+}

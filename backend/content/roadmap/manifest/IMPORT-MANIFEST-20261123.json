@@ -1,0 +1,1884 @@
+{
+  "batch": "roadmap-68-topics-active-0.11",
+  "status": "technically validated; awaiting separate import authorization",
+  "import_authorized": false,
+  "published": false,
+  "release_count": 12,
+  "topic_count": 68,
+  "lesson_count": 136,
+  "scored_exercise_count": 272,
+  "open_transfer_task_count": 68,
+  "within_release_prerequisite_edges": 124,
+  "cross_release_preparation": "Recommended roadmap sequence only; not additional enforced DB edges",
+  "expected_main_before": {
+    "lessons": 181,
+    "scored_exercises": 620,
+    "open_tasks": 50
+  },
+  "expected_main_after": {
+    "lessons": 317,
+    "scored_exercises": 892,
+    "open_tasks": 118
+  },
+  "excluded": [
+    "Earlier five0.9.x writing bridges",
+    "Superseded0.10.x drafts",
+    "All future releases"
+  ],
+  "schema_revision": "20261115_0016",
+  "source_releases": [
+    {
+      "file": "backend/content/roadmap/a1-roadmap-0.11.1.json",
+      "file_bytes": 37368,
+      "file_sha256": "afba20bcc4662a13931a6534dc05ed46baa3d351ec288405d9ac48a0b48a63de",
+      "source_sha256": "5636bccc95932751eef23038a76d8f247ca13cbd5a5dee8928a19a9cadf8dde0",
+      "level": "A1",
+      "version": "0.11.1",
+      "course_slug": "m10-assessments-a1-0.11.1",
+      "lessons": [
+        {
+          "slug": "m10-assessments-a1-0.11.1-topic-01-practice",
+          "level": "A1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-a1-0.11.1-topic-01-transfer",
+          "level": "A1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-a1-0.11.1-topic-01-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-a1-0.11.1-topic-02-practice",
+          "level": "A1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-a1-0.11.1-topic-01-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "rebuild-the-model",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-a1-0.11.1-topic-02-transfer",
+          "level": "A1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-a1-0.11.1-topic-02-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-a1-0.11.1-topic-03-practice",
+          "level": "A1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-a1-0.11.1-topic-02-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "expressions-in-context",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-a1-0.11.1-topic-03-transfer",
+          "level": "A1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-a1-0.11.1-topic-03-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-a1-0.11.1-topic-04-practice",
+          "level": "A1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-a1-0.11.1-topic-03-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-a1-0.11.1-topic-04-transfer",
+          "level": "A1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-a1-0.11.1-topic-04-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-a1-0.11.1-topic-05-practice",
+          "level": "A1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-a1-0.11.1-topic-04-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-a1-0.11.1-topic-05-transfer",
+          "level": "A1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-a1-0.11.1-topic-05-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-a1-0.11.1-topic-06-practice",
+          "level": "A1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-a1-0.11.1-topic-05-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "rebuild-the-model",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-a1-0.11.1-topic-06-transfer",
+          "level": "A1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-a1-0.11.1-topic-06-practice"
+          ],
+          "exercise_keys": []
+        }
+      ],
+      "scored_exercises": 24,
+      "open_transfer_tasks": 6
+    },
+    {
+      "file": "backend/content/roadmap/a1-roadmap-0.11.2.json",
+      "file_bytes": 38245,
+      "file_sha256": "41e2133c9c6b2a3f3eeb8f5664c0e6a4428e3b595df6a9b8cb44dd84c8059f03",
+      "source_sha256": "5f20d7ecc2d2e63820c047b97262cd324d6c4d3a4bec59c119d3eda96ddde448",
+      "level": "A1",
+      "version": "0.11.2",
+      "course_slug": "m10-assessments-a1-0.11.2",
+      "lessons": [
+        {
+          "slug": "m10-assessments-a1-0.11.2-topic-07-practice",
+          "level": "A1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [],
+          "exercise_keys": [
+            "form-and-meaning",
+            "expressions-in-context",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-a1-0.11.2-topic-07-transfer",
+          "level": "A1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-a1-0.11.2-topic-07-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-a1-0.11.2-topic-08-practice",
+          "level": "A1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-a1-0.11.2-topic-07-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-a1-0.11.2-topic-08-transfer",
+          "level": "A1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-a1-0.11.2-topic-08-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-a1-0.11.2-topic-09-practice",
+          "level": "A1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-a1-0.11.2-topic-08-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-a1-0.11.2-topic-09-transfer",
+          "level": "A1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-a1-0.11.2-topic-09-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-a1-0.11.2-topic-10-practice",
+          "level": "A1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-a1-0.11.2-topic-09-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "rebuild-the-model",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-a1-0.11.2-topic-10-transfer",
+          "level": "A1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-a1-0.11.2-topic-10-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-a1-0.11.2-topic-11-practice",
+          "level": "A1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-a1-0.11.2-topic-10-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "expressions-in-context",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-a1-0.11.2-topic-11-transfer",
+          "level": "A1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-a1-0.11.2-topic-11-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-a1-0.11.2-topic-12-practice",
+          "level": "A1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-a1-0.11.2-topic-11-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-a1-0.11.2-topic-12-transfer",
+          "level": "A1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-a1-0.11.2-topic-12-practice"
+          ],
+          "exercise_keys": []
+        }
+      ],
+      "scored_exercises": 24,
+      "open_transfer_tasks": 6
+    },
+    {
+      "file": "backend/content/roadmap/a2-roadmap-0.11.1.json",
+      "file_bytes": 40011,
+      "file_sha256": "4487d78c2f2b523663adfb8727fead23bee3ff77bc244a6e79c8bd492915ec06",
+      "source_sha256": "d9e90542bb27ef1d060927c6b98ea4bcb859425e6e6f3da676bcee7bdd0d2ba0",
+      "level": "A2",
+      "version": "0.11.1",
+      "course_slug": "m10-assessments-a2-0.11.1",
+      "lessons": [
+        {
+          "slug": "m10-assessments-a2-0.11.1-topic-01-practice",
+          "level": "A2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-a2-0.11.1-topic-01-transfer",
+          "level": "A2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-a2-0.11.1-topic-01-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-a2-0.11.1-topic-02-practice",
+          "level": "A2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-a2-0.11.1-topic-01-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "rebuild-the-model",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-a2-0.11.1-topic-02-transfer",
+          "level": "A2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-a2-0.11.1-topic-02-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-a2-0.11.1-topic-03-practice",
+          "level": "A2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-a2-0.11.1-topic-02-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "expressions-in-context",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-a2-0.11.1-topic-03-transfer",
+          "level": "A2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-a2-0.11.1-topic-03-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-a2-0.11.1-topic-04-practice",
+          "level": "A2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-a2-0.11.1-topic-03-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-a2-0.11.1-topic-04-transfer",
+          "level": "A2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-a2-0.11.1-topic-04-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-a2-0.11.1-topic-05-practice",
+          "level": "A2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-a2-0.11.1-topic-04-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-a2-0.11.1-topic-05-transfer",
+          "level": "A2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-a2-0.11.1-topic-05-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-a2-0.11.1-topic-06-practice",
+          "level": "A2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-a2-0.11.1-topic-05-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "rebuild-the-model",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-a2-0.11.1-topic-06-transfer",
+          "level": "A2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-a2-0.11.1-topic-06-practice"
+          ],
+          "exercise_keys": []
+        }
+      ],
+      "scored_exercises": 24,
+      "open_transfer_tasks": 6
+    },
+    {
+      "file": "backend/content/roadmap/a2-roadmap-0.11.2.json",
+      "file_bytes": 40192,
+      "file_sha256": "9b95abaaf2dd0d27d6ba9d74536c4249fb95645608b5c81c9cc73e6ba772297f",
+      "source_sha256": "c30a6d66b2c4546a1a491563fed60984a97d5a440c862c2d0761e18da989a5af",
+      "level": "A2",
+      "version": "0.11.2",
+      "course_slug": "m10-assessments-a2-0.11.2",
+      "lessons": [
+        {
+          "slug": "m10-assessments-a2-0.11.2-topic-07-practice",
+          "level": "A2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [],
+          "exercise_keys": [
+            "form-and-meaning",
+            "expressions-in-context",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-a2-0.11.2-topic-07-transfer",
+          "level": "A2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-a2-0.11.2-topic-07-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-a2-0.11.2-topic-08-practice",
+          "level": "A2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-a2-0.11.2-topic-07-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-a2-0.11.2-topic-08-transfer",
+          "level": "A2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-a2-0.11.2-topic-08-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-a2-0.11.2-topic-09-practice",
+          "level": "A2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-a2-0.11.2-topic-08-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-a2-0.11.2-topic-09-transfer",
+          "level": "A2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-a2-0.11.2-topic-09-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-a2-0.11.2-topic-10-practice",
+          "level": "A2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-a2-0.11.2-topic-09-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "rebuild-the-model",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-a2-0.11.2-topic-10-transfer",
+          "level": "A2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-a2-0.11.2-topic-10-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-a2-0.11.2-topic-11-practice",
+          "level": "A2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-a2-0.11.2-topic-10-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "expressions-in-context",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-a2-0.11.2-topic-11-transfer",
+          "level": "A2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-a2-0.11.2-topic-11-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-a2-0.11.2-topic-12-practice",
+          "level": "A2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-a2-0.11.2-topic-11-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-a2-0.11.2-topic-12-transfer",
+          "level": "A2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-a2-0.11.2-topic-12-practice"
+          ],
+          "exercise_keys": []
+        }
+      ],
+      "scored_exercises": 24,
+      "open_transfer_tasks": 6
+    },
+    {
+      "file": "backend/content/roadmap/b1-roadmap-0.11.1.json",
+      "file_bytes": 41987,
+      "file_sha256": "3e1bc484611a9e8066fdb08c01758af85a8b35ceaf9eaed945de7e7ceb8ab610",
+      "source_sha256": "f6107c72b3d58b29a69660451251c5886b8209461e96d634062f4fb8d42dca3f",
+      "level": "B1",
+      "version": "0.11.1",
+      "course_slug": "m10-assessments-b1-0.11.1",
+      "lessons": [
+        {
+          "slug": "m10-assessments-b1-0.11.1-topic-01-practice",
+          "level": "B1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-b1-0.11.1-topic-01-transfer",
+          "level": "B1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-b1-0.11.1-topic-01-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-b1-0.11.1-topic-02-practice",
+          "level": "B1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-b1-0.11.1-topic-01-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "rebuild-the-model",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-b1-0.11.1-topic-02-transfer",
+          "level": "B1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-b1-0.11.1-topic-02-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-b1-0.11.1-topic-03-practice",
+          "level": "B1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-b1-0.11.1-topic-02-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "expressions-in-context",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-b1-0.11.1-topic-03-transfer",
+          "level": "B1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-b1-0.11.1-topic-03-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-b1-0.11.1-topic-04-practice",
+          "level": "B1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-b1-0.11.1-topic-03-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-b1-0.11.1-topic-04-transfer",
+          "level": "B1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-b1-0.11.1-topic-04-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-b1-0.11.1-topic-05-practice",
+          "level": "B1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-b1-0.11.1-topic-04-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-b1-0.11.1-topic-05-transfer",
+          "level": "B1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-b1-0.11.1-topic-05-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-b1-0.11.1-topic-06-practice",
+          "level": "B1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-b1-0.11.1-topic-05-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "rebuild-the-model",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-b1-0.11.1-topic-06-transfer",
+          "level": "B1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-b1-0.11.1-topic-06-practice"
+          ],
+          "exercise_keys": []
+        }
+      ],
+      "scored_exercises": 24,
+      "open_transfer_tasks": 6
+    },
+    {
+      "file": "backend/content/roadmap/b1-roadmap-0.11.2.json",
+      "file_bytes": 43159,
+      "file_sha256": "2893f6ee1d57c000e8d1db562fdaeadca0c84787789d834f7d64a6b983844204",
+      "source_sha256": "73277daa29db1c3ae8fef6515c7de46eba5798de56831ab42b80629315edbab8",
+      "level": "B1",
+      "version": "0.11.2",
+      "course_slug": "m10-assessments-b1-0.11.2",
+      "lessons": [
+        {
+          "slug": "m10-assessments-b1-0.11.2-topic-07-practice",
+          "level": "B1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [],
+          "exercise_keys": [
+            "form-and-meaning",
+            "expressions-in-context",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-b1-0.11.2-topic-07-transfer",
+          "level": "B1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-b1-0.11.2-topic-07-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-b1-0.11.2-topic-08-practice",
+          "level": "B1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-b1-0.11.2-topic-07-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-b1-0.11.2-topic-08-transfer",
+          "level": "B1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-b1-0.11.2-topic-08-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-b1-0.11.2-topic-09-practice",
+          "level": "B1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-b1-0.11.2-topic-08-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-b1-0.11.2-topic-09-transfer",
+          "level": "B1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-b1-0.11.2-topic-09-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-b1-0.11.2-topic-10-practice",
+          "level": "B1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-b1-0.11.2-topic-09-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "rebuild-the-model",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-b1-0.11.2-topic-10-transfer",
+          "level": "B1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-b1-0.11.2-topic-10-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-b1-0.11.2-topic-11-practice",
+          "level": "B1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-b1-0.11.2-topic-10-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "expressions-in-context",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-b1-0.11.2-topic-11-transfer",
+          "level": "B1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-b1-0.11.2-topic-11-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-b1-0.11.2-topic-12-practice",
+          "level": "B1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-b1-0.11.2-topic-11-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-b1-0.11.2-topic-12-transfer",
+          "level": "B1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-b1-0.11.2-topic-12-practice"
+          ],
+          "exercise_keys": []
+        }
+      ],
+      "scored_exercises": 24,
+      "open_transfer_tasks": 6
+    },
+    {
+      "file": "backend/content/roadmap/b2-roadmap-0.11.1.json",
+      "file_bytes": 46802,
+      "file_sha256": "9423383a0c014816a8b83ee99ff04c0617917faf6f3201d0b0f3eb23e279a765",
+      "source_sha256": "20708d7aff5f83fe023729a7e77ee011be05435c1c695f8b5c0aaf5e602b81c0",
+      "level": "B2",
+      "version": "0.11.1",
+      "course_slug": "m10-assessments-b2-0.11.1",
+      "lessons": [
+        {
+          "slug": "m10-assessments-b2-0.11.1-topic-01-practice",
+          "level": "B2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-b2-0.11.1-topic-01-transfer",
+          "level": "B2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-b2-0.11.1-topic-01-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-b2-0.11.1-topic-02-practice",
+          "level": "B2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-b2-0.11.1-topic-01-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "rebuild-the-model",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-b2-0.11.1-topic-02-transfer",
+          "level": "B2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-b2-0.11.1-topic-02-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-b2-0.11.1-topic-03-practice",
+          "level": "B2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-b2-0.11.1-topic-02-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "expressions-in-context",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-b2-0.11.1-topic-03-transfer",
+          "level": "B2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-b2-0.11.1-topic-03-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-b2-0.11.1-topic-04-practice",
+          "level": "B2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-b2-0.11.1-topic-03-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-b2-0.11.1-topic-04-transfer",
+          "level": "B2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-b2-0.11.1-topic-04-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-b2-0.11.1-topic-05-practice",
+          "level": "B2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-b2-0.11.1-topic-04-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-b2-0.11.1-topic-05-transfer",
+          "level": "B2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-b2-0.11.1-topic-05-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-b2-0.11.1-topic-06-practice",
+          "level": "B2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-b2-0.11.1-topic-05-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "rebuild-the-model",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-b2-0.11.1-topic-06-transfer",
+          "level": "B2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-b2-0.11.1-topic-06-practice"
+          ],
+          "exercise_keys": []
+        }
+      ],
+      "scored_exercises": 24,
+      "open_transfer_tasks": 6
+    },
+    {
+      "file": "backend/content/roadmap/b2-roadmap-0.11.2.json",
+      "file_bytes": 45601,
+      "file_sha256": "955fa50203bfba677287942072720216fef95985fb36fc26e78a3a0bf7af200e",
+      "source_sha256": "b0ab92a5ec2bc40c78b3d1c4c1729449934e484a5dbbadff066cbac24646ba9b",
+      "level": "B2",
+      "version": "0.11.2",
+      "course_slug": "m10-assessments-b2-0.11.2",
+      "lessons": [
+        {
+          "slug": "m10-assessments-b2-0.11.2-topic-07-practice",
+          "level": "B2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [],
+          "exercise_keys": [
+            "form-and-meaning",
+            "expressions-in-context",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-b2-0.11.2-topic-07-transfer",
+          "level": "B2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-b2-0.11.2-topic-07-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-b2-0.11.2-topic-08-practice",
+          "level": "B2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-b2-0.11.2-topic-07-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-b2-0.11.2-topic-08-transfer",
+          "level": "B2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-b2-0.11.2-topic-08-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-b2-0.11.2-topic-09-practice",
+          "level": "B2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-b2-0.11.2-topic-08-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-b2-0.11.2-topic-09-transfer",
+          "level": "B2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-b2-0.11.2-topic-09-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-b2-0.11.2-topic-10-practice",
+          "level": "B2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-b2-0.11.2-topic-09-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "rebuild-the-model",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-b2-0.11.2-topic-10-transfer",
+          "level": "B2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-b2-0.11.2-topic-10-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-b2-0.11.2-topic-11-practice",
+          "level": "B2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-b2-0.11.2-topic-10-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "expressions-in-context",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-b2-0.11.2-topic-11-transfer",
+          "level": "B2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-b2-0.11.2-topic-11-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-b2-0.11.2-topic-12-practice",
+          "level": "B2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-b2-0.11.2-topic-11-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-b2-0.11.2-topic-12-transfer",
+          "level": "B2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-b2-0.11.2-topic-12-practice"
+          ],
+          "exercise_keys": []
+        }
+      ],
+      "scored_exercises": 24,
+      "open_transfer_tasks": 6
+    },
+    {
+      "file": "backend/content/roadmap/c1-roadmap-0.11.1.json",
+      "file_bytes": 47541,
+      "file_sha256": "30c09d2f5c1b44fa5cc64148d9cf2d38b264449a8835acc1a63fe2555a5f4ae0",
+      "source_sha256": "e57c86b0a57e7ce7e2e3de828eb496b30ef7efd8974f307280fc2854287dc888",
+      "level": "C1",
+      "version": "0.11.1",
+      "course_slug": "m10-assessments-c1-0.11.1",
+      "lessons": [
+        {
+          "slug": "m10-assessments-c1-0.11.1-topic-01-practice",
+          "level": "C1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-c1-0.11.1-topic-01-transfer",
+          "level": "C1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-c1-0.11.1-topic-01-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-c1-0.11.1-topic-02-practice",
+          "level": "C1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-c1-0.11.1-topic-01-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "rebuild-the-model",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-c1-0.11.1-topic-02-transfer",
+          "level": "C1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-c1-0.11.1-topic-02-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-c1-0.11.1-topic-03-practice",
+          "level": "C1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-c1-0.11.1-topic-02-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "expressions-in-context",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-c1-0.11.1-topic-03-transfer",
+          "level": "C1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-c1-0.11.1-topic-03-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-c1-0.11.1-topic-04-practice",
+          "level": "C1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-c1-0.11.1-topic-03-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-c1-0.11.1-topic-04-transfer",
+          "level": "C1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-c1-0.11.1-topic-04-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-c1-0.11.1-topic-05-practice",
+          "level": "C1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-c1-0.11.1-topic-04-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-c1-0.11.1-topic-05-transfer",
+          "level": "C1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-c1-0.11.1-topic-05-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-c1-0.11.1-topic-06-practice",
+          "level": "C1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-c1-0.11.1-topic-05-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "rebuild-the-model",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-c1-0.11.1-topic-06-transfer",
+          "level": "C1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-c1-0.11.1-topic-06-practice"
+          ],
+          "exercise_keys": []
+        }
+      ],
+      "scored_exercises": 24,
+      "open_transfer_tasks": 6
+    },
+    {
+      "file": "backend/content/roadmap/c1-roadmap-0.11.2.json",
+      "file_bytes": 32215,
+      "file_sha256": "c7b52b8446348ae4ad1ab3733b84f08da8426d679f45b7755d6db0d3fe807ed1",
+      "source_sha256": "93835993336141e7bf6dc3fc7ce9c67b48793d8a228b912612dbcf646daae2c4",
+      "level": "C1",
+      "version": "0.11.2",
+      "course_slug": "m10-assessments-c1-0.11.2",
+      "lessons": [
+        {
+          "slug": "m10-assessments-c1-0.11.2-topic-07-practice",
+          "level": "C1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [],
+          "exercise_keys": [
+            "form-and-meaning",
+            "expressions-in-context",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-c1-0.11.2-topic-07-transfer",
+          "level": "C1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-c1-0.11.2-topic-07-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-c1-0.11.2-topic-08-practice",
+          "level": "C1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-c1-0.11.2-topic-07-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-c1-0.11.2-topic-08-transfer",
+          "level": "C1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-c1-0.11.2-topic-08-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-c1-0.11.2-topic-09-practice",
+          "level": "C1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-c1-0.11.2-topic-08-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-c1-0.11.2-topic-09-transfer",
+          "level": "C1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-c1-0.11.2-topic-09-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-c1-0.11.2-topic-10-practice",
+          "level": "C1",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-c1-0.11.2-topic-09-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "rebuild-the-model",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-c1-0.11.2-topic-10-transfer",
+          "level": "C1",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-c1-0.11.2-topic-10-practice"
+          ],
+          "exercise_keys": []
+        }
+      ],
+      "scored_exercises": 16,
+      "open_transfer_tasks": 4
+    },
+    {
+      "file": "backend/content/roadmap/c2-roadmap-0.11.1.json",
+      "file_bytes": 49747,
+      "file_sha256": "b4f6f7f8b49e8469f7162bc1e7f73a6a412cbbe8e660d8fef46640b48f32d660",
+      "source_sha256": "2cd51044e9b05ec2d457892ac58f5d8d838476bcc5c0e42f7005ecd024f96457",
+      "level": "C2",
+      "version": "0.11.1",
+      "course_slug": "m10-assessments-c2-0.11.1",
+      "lessons": [
+        {
+          "slug": "m10-assessments-c2-0.11.1-topic-01-practice",
+          "level": "C2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-c2-0.11.1-topic-01-transfer",
+          "level": "C2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-c2-0.11.1-topic-01-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-c2-0.11.1-topic-02-practice",
+          "level": "C2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-c2-0.11.1-topic-01-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "rebuild-the-model",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-c2-0.11.1-topic-02-transfer",
+          "level": "C2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-c2-0.11.1-topic-02-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-c2-0.11.1-topic-03-practice",
+          "level": "C2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-c2-0.11.1-topic-02-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "expressions-in-context",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-c2-0.11.1-topic-03-transfer",
+          "level": "C2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-c2-0.11.1-topic-03-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-c2-0.11.1-topic-04-practice",
+          "level": "C2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-c2-0.11.1-topic-03-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-c2-0.11.1-topic-04-transfer",
+          "level": "C2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-c2-0.11.1-topic-04-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-c2-0.11.1-topic-05-practice",
+          "level": "C2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-c2-0.11.1-topic-04-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-c2-0.11.1-topic-05-transfer",
+          "level": "C2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-c2-0.11.1-topic-05-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-c2-0.11.1-topic-06-practice",
+          "level": "C2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-c2-0.11.1-topic-05-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "rebuild-the-model",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-c2-0.11.1-topic-06-transfer",
+          "level": "C2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-c2-0.11.1-topic-06-practice"
+          ],
+          "exercise_keys": []
+        }
+      ],
+      "scored_exercises": 24,
+      "open_transfer_tasks": 6
+    },
+    {
+      "file": "backend/content/roadmap/c2-roadmap-0.11.2.json",
+      "file_bytes": 33385,
+      "file_sha256": "122431ad5157255c55ff8a1697cab271664a9f3e35622c9d39537a04f0c0cf46",
+      "source_sha256": "b1c967407418d3bb4f2c6582b4d82f44623fc2d159c915890c93d873357390e0",
+      "level": "C2",
+      "version": "0.11.2",
+      "course_slug": "m10-assessments-c2-0.11.2",
+      "lessons": [
+        {
+          "slug": "m10-assessments-c2-0.11.2-topic-07-practice",
+          "level": "C2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [],
+          "exercise_keys": [
+            "form-and-meaning",
+            "expressions-in-context",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-c2-0.11.2-topic-07-transfer",
+          "level": "C2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-c2-0.11.2-topic-07-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-c2-0.11.2-topic-08-practice",
+          "level": "C2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-c2-0.11.2-topic-07-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-c2-0.11.2-topic-08-transfer",
+          "level": "C2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-c2-0.11.2-topic-08-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-c2-0.11.2-topic-09-practice",
+          "level": "C2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-c2-0.11.2-topic-08-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "retrieve-the-form",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-c2-0.11.2-topic-09-transfer",
+          "level": "C2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-c2-0.11.2-topic-09-practice"
+          ],
+          "exercise_keys": []
+        },
+        {
+          "slug": "m10-assessments-c2-0.11.2-topic-10-practice",
+          "level": "C2",
+          "kind": "grammar",
+          "exercise_count": 4,
+          "prerequisites": [
+            "m10-assessments-c2-0.11.2-topic-09-transfer"
+          ],
+          "exercise_keys": [
+            "form-and-meaning",
+            "rebuild-the-model",
+            "read-the-scope",
+            "hear-the-detail"
+          ]
+        },
+        {
+          "slug": "m10-assessments-c2-0.11.2-topic-10-transfer",
+          "level": "C2",
+          "kind": "writing",
+          "exercise_count": 0,
+          "prerequisites": [
+            "m10-assessments-c2-0.11.2-topic-10-practice"
+          ],
+          "exercise_keys": []
+        }
+      ],
+      "scored_exercises": 16,
+      "open_transfer_tasks": 4
+    }
+  ],
+  "validation": {
+    "sqlite": "passed",
+    "fresh_backup_restore_postgresql": "passed exact batch only",
+    "idempotency": "passed",
+    "foreign_keys": "passed",
+    "prior_rows": "unchanged",
+    "main_m08_before_after": "identical signatures",
+    "synthesis_clips": 68,
+    "browser_playback_cases": 68,
+    "targeted_tests": 10,
+    "full_backend_checkpoint": {
+      "passed": 394,
+      "optional_skipped": 16
+    },
+    "lint": "passed",
+    "typescript": "passed",
+    "physical_speaker_acceptance": "not performed",
+    "qualified_human_approval": false,
+    "empirical_cefr_calibration": "not established"
+  },
+  "batch_sha256": "4e87e10fb7b1503699ead88df28610e0f16e287cf459b508e5c35f01e3588528"
+}

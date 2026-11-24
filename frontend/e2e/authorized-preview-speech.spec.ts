@@ -11,7 +11,7 @@ test.use({ permissions: ['microphone'], launchOptions: { args: [
 test('real recorded WebM, Base ASR, Ollama, Piper replay and persisted speech history', async ({ page }) => {
   test.skip(process.env.M08_SPEECH_LIVE !== '1' || !existsSync(capture), 'Requires the isolated real worker/models and generated synthetic French input.');
   test.setTimeout(180000);
-  const fixture = JSON.parse(readFileSync('../.speech-data/m08-browser-fixture.json', 'utf8'));
+  const fixture = JSON.parse(readFileSync(process.env.PLAYWRIGHT_LEARNING_FIXTURE ?? '../.speech-data/m08-browser-fixture.json', 'utf8'));
   await page.goto('/login'); await page.getByLabel('Email').fill(fixture.admin);
   await page.locator('input[autocomplete="current-password"]').fill(fixture.password);
   await page.getByRole('button', { name: 'Sign in', exact: true }).click(); await expect(page).toHaveURL(/\/dashboard$/);
@@ -42,7 +42,7 @@ test('genuine Base uncertainty remains editable and requires explicit confirmati
   const uncertain = resolve('../.speech-data/m08_1/uncertain.wav');
   test.skip(process.env.M08_SPEECH_LIVE !== '1' || !existsSync(uncertain), 'Requires the naturally uncertain synthetic sample from real Base inference.');
   test.setTimeout(180000);
-  const fixture = JSON.parse(readFileSync('../.speech-data/m08-browser-fixture.json', 'utf8'));
+  const fixture = JSON.parse(readFileSync(process.env.PLAYWRIGHT_LEARNING_FIXTURE ?? '../.speech-data/m08-browser-fixture.json', 'utf8'));
   await page.goto('/login'); await page.getByLabel('Email').fill(fixture.admin);
   await page.locator('input[autocomplete="current-password"]').fill(fixture.password);
   await page.getByRole('button', { name: 'Sign in', exact: true }).click(); await expect(page).toHaveURL(/\/dashboard$/);

@@ -38,7 +38,7 @@ def audit():
     base=ROOT/'backend/content/a1/course.json'
     for row in json.loads(base.read_text(encoding='utf-8'))['course']['lessons']:
         sources[row['slug']]=dict(state='main',context=row['introduction'],exercises=row['exercises'],skill='mixed',grammar=len(row['grammar']),vocabulary=len(row['vocabulary']))
-    for folder in ('personal','foundations','scenarios','depth','completion','writing-bridges'):
+    for folder in ('personal','foundations','scenarios','depth','completion','writing-bridges','roadmap'):
         for file in sorted((ROOT/'backend/content'/folder).glob('*.json')):
             pack=load_assessment_pack(file);hashes[str(file.relative_to(ROOT))]=hashlib.sha256(file.read_bytes()).hexdigest()
             identity=f'm10-assessments-{pack.level.lower()}-{pack.version}'

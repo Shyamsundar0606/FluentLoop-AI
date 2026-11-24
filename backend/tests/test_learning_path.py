@@ -30,7 +30,7 @@ def test_source_graph_and_stage_coverage():
             assert module['objective'] and module['outcomes'] and module['revision'] and module['assessment']
             assert set(module['required_skills'])=={'grammar','vocabulary','reading','listening','writing','speaking'}
             earlier.add(module['id']);references.extend(module['lesson_slugs'])
-    assert len(references)==len(set(references))==186
+    assert len(references)==len(set(references))==322
 
 
 def test_authorized_path_counts_and_ordinary_denial(pathway):

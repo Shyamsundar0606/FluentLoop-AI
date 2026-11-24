@@ -22,23 +22,30 @@ AI feedback can make mistakes. Speech transcription also needs your review and d
 
 ## The learning path
 
-The current personal installation has **52 modules, 181 unpublished lessons, 620 scored exercises and 50 open writing/transfer task lessons**.
+The current personal installation has **52 modules, 317 unpublished lessons, 892 scored exercises and 118 open writing/transfer task lessons**.
 
 | Stage | Focus | Available lessons |
 |---|---|---:|
 | A0 preparation | First sounds, words and polite exchanges | 12 |
-| A1 | Familiar routines and simple everyday communication | 39 |
-| A2 | Practical situations, plans and past experiences | 26 |
-| B1 | Connected explanations, experiences and opinions | 26 |
-| B2 | Arguments, detailed comprehension and register | 26 |
-| C1 | Complex sources, formal communication and nuance | 26 |
-| C2 | Demanding interpretation and precise expression | 26 |
+| A1 | Familiar routines and simple everyday communication | 63 |
+| A2 | Practical situations, plans and past experiences | 50 |
+| B1 | Connected explanations, experiences and opinions | 50 |
+| B2 | Arguments, detailed comprehension and register | 50 |
+| C1 | Complex sources, formal communication and nuance | 46 |
+| C2 | Demanding interpretation and precise expression | 46 |
 
 A0 is an introductory stage, not an official CEFR level. These counts describe the current personal database; cloning the repository does not create or copy that database.
 
 Open **Learning path** (`/learning-path`) to browse the stages. Open **Module and level check plans** (`/checkpoints`) for 52 module plans and seven sampled level-end review plans. These reuse practice material and do not award a CEFR certificate or automatically promote your account level.
 
 **The curriculum is still draft material.** Every module has authored input, but that does not establish complete CEFR coverage or independent teacher approval. Qualified French review, broader listening materials, productive-skill ratings and assessment calibration remain work in progress. Five additional unscored writing bridges are staged and have not been imported into the personal database.
+
+The [A1–C2 roadmap practice batch](docs/learning/ROADMAP-PRACTICE-UPDATE.md)
+is now included as unpublished personal drafts: 68 topics, 136 lessons, 272 scored
+exercises and 68 writing/speaking tasks. It passed exact-batch disposable database,
+answer-key, synthesis and automated playback checks before the authorized import.
+Qualified human review, physical acceptance of the new audio and empirical CEFR
+calibration remain pending. Lesson counts do not establish full CEFR competence.
 
 See the [competency audit](docs/learning/COMPETENCY-AUDIT.md) for the remaining gaps and the [verification report](docs/verification/PERSONAL_LOCAL_COMPLETION.md) for the evidence behind the current status.
 

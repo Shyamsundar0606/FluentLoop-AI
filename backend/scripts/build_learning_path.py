@@ -117,9 +117,20 @@ def build():
         for number,key in bridges.get(code,{}).items():
             version='0.9.0' if code=='A0' else '0.9.1'
             modules[number-1]['lesson_slugs'].append(f'm10-assessments-a1-{version}-{key}')
+        # Preserve every existing module identity. Future source references are
+        # projected only when the live account can access their imported lessons.
+        if code!='A0':
+            from audit_roadmap_practice import TARGETS
+            folder=Path(__file__).resolve().parents[1]/'content/roadmap'
+            for file in sorted(folder.glob(f'{code.lower()}-roadmap-*.json')):
+                release=json.loads(file.read_text(encoding='utf-8'))
+                for task in release['tasks']:
+                    topic=int(task['key'].split('-')[1])
+                    target=TARGETS[code][topic-1]-1
+                    modules[target]['lesson_slugs'].append(f"m10-assessments-{code.lower()}-{release['version']}-{task['key']}")
         stages.append(dict(code=code,official_cefr=code!='A0',modules=modules,
             introduction='Absolute beginner preparation; not an official CEFR level.' if code=='A0' else 'Progressive practice target; independent calibration pending.'))
-    return dict(version='1.4.0',stages=stages,certification=False)
+    return dict(version='1.5.0',stages=stages,certification=False)
 
 
 if __name__=='__main__':

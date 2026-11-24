@@ -1,0 +1,720 @@
+{
+  "version": "0.10.1",
+  "level": "B1",
+  "status": "draft",
+  "source_license": "Original AI-assisted roadmap practice. Independent language, pedagogy, phonetic, answer-key and CEFR review pending.",
+  "tasks": [
+    {
+      "key": "topic-01-practice",
+      "skill": "grammar",
+      "title": "B1 roadmap 01: Narrative skills",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nQuand Hugo est arrivé au local, Nora avait déjà fermé la porte. Elle attendait devant le bâtiment parce qu’elle avait oublié son sac à l’intérieur. Hugo avait une clé et ils ont pu entrer. L’arrivée d’Hugo ne précède donc pas la fermeture, même si elle permet de résoudre le problème.\n\nNotice: Plus-que-parfait places an event before another past reference point. Distinguish that earlier event from the background in imparfait and the later bounded event.\nModel: J’avais fermé la porte quand il est arrivé.\nMeaning: I had closed the door when he arrived.\n\nUseful expressions: déjà fermé = already closed; à l’intérieur = inside; ne pas encore répondre = not to have replied yet",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Plus-que-parfait places an event before another past reference point. Distinguish that earlier event from the background in imparfait and the later bounded event. Model meaning: I had closed the door when he arrived.",
+          "options": [
+            "J’avais fermé la porte quand il est arrivé.",
+            "J’avait fermé la porte quand il est arrivé.",
+            "J’avais fermer la porte quand il est arrivé."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "short_answer",
+          "prompt": "J’___ la porte quand il est arrivé.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "Plus-que-parfait places an event before another past reference point. Distinguish that earlier event from the background in imparfait and the later bounded event. The model uses « avais fermé ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "avais fermé"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: The door was already closed before Hugo arrived.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "Hugo closed the door after arriving.",
+            "Nora’s bag was outside the building.",
+            "The door was already closed before Hugo arrived."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Nora had left a message but had not received a reply.. Transcript for review: Hugo : Tu avais appelé quelqu’un ? Nora : Oui, j’avais laissé un message au gardien avant ton arrivée. Mais il ne m’avait pas encore répondu.",
+          "options": [
+            "Nora called only after Hugo left.",
+            "Nora had left a message but had not received a reply.",
+            "The caretaker had already replied."
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Hugo : Tu avais appelé quelqu’un ? Nora : Oui, j’avais laissé un message au gardien avant ton arrivée. Mais il ne m’avait pas encore répondu."
+          }
+        }
+      ],
+      "module_title": "Narrative skills",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-b1-01",
+          "title": "Narrative skills",
+          "summary": "Plus-que-parfait places an event before another past reference point. Distinguish that earlier event from the background in imparfait and the later bounded event.",
+          "rule_code": "roadmap-b1-01",
+          "explanation_english": "Plus-que-parfait places an event before another past reference point. Distinguish that earlier event from the background in imparfait and the later bounded event.",
+          "examples": [
+            [
+              "J’avais fermé la porte quand il est arrivé.",
+              "I had closed the door when he arrived."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "topic-01-transfer",
+      "skill": "writing",
+      "title": "B1 transfer 01: Narrative skills",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 140–180 French words. Narrate an invented incident with an earlier cause, background and resolution. Use three past tenses to make the sequence clear, then answer a partner’s questions about what had already happened.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Narrative skills",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-01-practice"
+      ]
+    },
+    {
+      "key": "topic-02-practice",
+      "skill": "grammar",
+      "title": "B1 roadmap 02: Future and possibilities",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nNora prépare une présentation pour vendredi. Elle prévoit d’avoir terminé les diapositives avant l’arrivée d’Hugo, qui les relira. Si une information manque, ils pourront modifier une diapositive ensemble. Le projet de relecture ne garantit pas qu’aucune correction ne sera nécessaire.\n\nNotice: Futur antérieur expresses completion before a future reference point. This supported extension uses quand plus futur simple, not an English-style present after when.\nModel: Quand tu arriveras, j’aurai terminé.\nMeaning: When you arrive, I will have finished.\n\nUseful expressions: une première version = a first version; relire = to review a text; avant midi = before noon",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Futur antérieur expresses completion before a future reference point. This supported extension uses quand plus futur simple, not an English-style present after when. Model meaning: When you arrive, I will have finished.",
+          "options": [
+            "Quand tu arriveras, j’aura terminé.",
+            "Quand tu arriveras, j’aurai terminer.",
+            "Quand tu arriveras, j’aurai terminé."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "rebuild-the-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild the taught model sentence.",
+          "instructions": "Use every tile once in the model order. Other natural French orders are not assessed in this supported task.",
+          "explanation": "Futur antérieur expresses completion before a future reference point. This supported extension uses quand plus futur simple, not an English-style present after when.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "203618ff-6cc4-53bb-b98a-5bceca8c3007",
+                "text": "Quand"
+              },
+              {
+                "id": "c92f04fb-cedf-53b4-bb3e-23e99dee2ce0",
+                "text": "tu"
+              },
+              {
+                "id": "e104f163-5b12-58c8-a406-54a3cc68d281",
+                "text": "arriveras,"
+              },
+              {
+                "id": "79dc3d49-5040-5da0-af8d-1f5d8531b5e1",
+                "text": "j’aurai"
+              },
+              {
+                "id": "90b0d837-ca7f-502b-b581-090cb0ef4f35",
+                "text": "terminé."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "203618ff-6cc4-53bb-b98a-5bceca8c3007",
+                "c92f04fb-cedf-53b4-bb3e-23e99dee2ce0",
+                "e104f163-5b12-58c8-a406-54a3cc68d281",
+                "79dc3d49-5040-5da0-af8d-1f5d8531b5e1",
+                "90b0d837-ca7f-502b-b581-090cb0ef4f35"
+              ]
+            ],
+            "correct_sentence": "Quand tu arriveras, j’aurai terminé."
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: Completion is planned before the review, but corrections remain possible.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "Nora plans to begin only after Friday’s presentation.",
+            "Completion is planned before the review, but corrections remain possible.",
+            "Hugo has already approved the final slides."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: The ten-o’clock version is for review, not final approval.. Transcript for review: Nora : À dix heures, j’aurai envoyé la première version. Hugo : Une version définitive ? Nora : Non, une version à relire avant midi.",
+          "options": [
+            "The ten-o’clock version is for review, not final approval.",
+            "The final version has been approved.",
+            "Nora promises the first version at noon."
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Nora : À dix heures, j’aurai envoyé la première version. Hugo : Une version définitive ? Nora : Non, une version à relire avant midi."
+          }
+        }
+      ],
+      "module_title": "Future and possibilities",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-b1-02",
+          "title": "Future and possibilities",
+          "summary": "Futur antérieur expresses completion before a future reference point. This supported extension uses quand plus futur simple, not an English-style present after when.",
+          "rule_code": "roadmap-b1-02",
+          "explanation_english": "Futur antérieur expresses completion before a future reference point. This supported extension uses quand plus futur simple, not an English-style present after when.",
+          "examples": [
+            [
+              "Quand tu arriveras, j’aurai terminé.",
+              "When you arrive, I will have finished."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-01-transfer"
+      ]
+    },
+    {
+      "key": "topic-02-transfer",
+      "skill": "writing",
+      "title": "B1 transfer 02: Future and possibilities",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 140–180 French words. Describe a project timeline using an action completed before a future event. Give a possible alternative with the conditional, then clarify what is planned rather than guaranteed.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Future and possibilities",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-02-practice"
+      ]
+    },
+    {
+      "key": "topic-03-practice",
+      "skill": "grammar",
+      "title": "B1 roadmap 03: Hypothetical situations",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nNora aimerait rejoindre un atelier, mais son emploi du temps est chargé. Si elle avait une soirée libre, elle participerait au groupe du mercredi. Elle peut toutefois lire les textes chez elle. Son souhait ne constitue pas une inscription et l’organisateur ne lui a réservé aucune place.\n\nNotice: For an imagined present situation, si plus imparfait commonly pairs with conditionnel présent. Do not put conditionnel directly after si in this conditional pattern.\nModel: Si j’avais plus de temps, je lirais davantage.\nMeaning: If I had more time, I would read more.\n\nUseful expressions: un souhait = a wish; un engagement = a commitment; ce n’est pas le cas = that is not the case",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "For an imagined present situation, si plus imparfait commonly pairs with conditionnel présent. Do not put conditionnel directly after si in this conditional pattern. Model meaning: If I had more time, I would read more.",
+          "options": [
+            "Si j’avais plus de temps, je lirait davantage.",
+            "Si j’avais plus de temps, je lirais davantage.",
+            "Si j’aurais plus de temps, je lirais davantage."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "expressions-in-context",
+          "type": "matching",
+          "prompt": "Match these contextual expressions to their English meanings.",
+          "instructions": "Use the meaning taught for this situation, not every possible dictionary meaning.",
+          "explanation": "The expressions are glossed in the lesson context.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "7a16738a-d156-5976-b894-f6cf3b3773d3",
+                "text": "un souhait"
+              },
+              {
+                "id": "7d6b0e2b-27b2-5d93-ba4a-ebd32ce062d2",
+                "text": "un engagement"
+              },
+              {
+                "id": "d1af957c-07f7-522c-abfc-2874b7a4e141",
+                "text": "ce n’est pas le cas"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "bcd8b970-3ed9-581b-84c5-aac67bbb5825",
+                "text": "a wish"
+              },
+              {
+                "id": "9c704567-f8d8-555d-8195-66b627112003",
+                "text": "a commitment"
+              },
+              {
+                "id": "de7d678f-caf7-5c1b-8fd3-433febcda4f4",
+                "text": "that is not the case"
+              }
+            ],
+            "answer_pairs": {
+              "7a16738a-d156-5976-b894-f6cf3b3773d3": "bcd8b970-3ed9-581b-84c5-aac67bbb5825",
+              "7d6b0e2b-27b2-5d93-ba4a-ebd32ce062d2": "9c704567-f8d8-555d-8195-66b627112003",
+              "d1af957c-07f7-522c-abfc-2874b7a4e141": "de7d678f-caf7-5c1b-8fd3-433febcda4f4"
+            }
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: The workshop participation is hypothetical, not a confirmed booking.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "The workshop participation is hypothetical, not a confirmed booking.",
+            "Nora is already registered for Wednesday.",
+            "She cannot read texts at home."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: A possible visit tomorrow differs from an imagined weekly commitment.. Transcript for review: Hugo : Si tu es libre demain, on peut visiter l’atelier. Nora : Oui. Si j’avais une soirée libre chaque semaine, je m’inscrirais, mais ce n’est pas le cas.",
+          "options": [
+            "Nora confirms weekly registration.",
+            "Both conditions refer to events completed last year.",
+            "A possible visit tomorrow differs from an imagined weekly commitment."
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Hugo : Si tu es libre demain, on peut visiter l’atelier. Nora : Oui. Si j’avais une soirée libre chaque semaine, je m’inscrirais, mais ce n’est pas le cas."
+          }
+        }
+      ],
+      "module_title": "Hypothetical situations",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-b1-03",
+          "title": "Hypothetical situations",
+          "summary": "For an imagined present situation, si plus imparfait commonly pairs with conditionnel présent. Do not put conditionnel directly after si in this conditional pattern.",
+          "rule_code": "roadmap-b1-03",
+          "explanation_english": "For an imagined present situation, si plus imparfait commonly pairs with conditionnel présent. Do not put conditionnel directly after si in this conditional pattern.",
+          "examples": [
+            [
+              "Si j’avais plus de temps, je lirais davantage.",
+              "If I had more time, I would read more."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-02-transfer"
+      ]
+    },
+    {
+      "key": "topic-03-transfer",
+      "skill": "writing",
+      "title": "B1 transfer 03: Hypothetical situations",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 140–180 French words. Compare a real future possibility with an imagined present change. Explain one practical consequence for each and let a partner challenge the assumption.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Hypothetical situations",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-03-practice"
+      ]
+    },
+    {
+      "key": "topic-04-practice",
+      "skill": "grammar",
+      "title": "B1 roadmap 04: Subjunctive introduction",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nL’organisatrice veut que les participants soient à l’heure pour la répétition. Bien que la salle soit petite, elle peut accueillir le groupe inscrit. Une personne propose d’inviter des amis ; l’organisatrice demande d’abord de vérifier les places disponibles. La petite taille n’entraîne pas automatiquement une annulation.\n\nNotice: Il faut que takes a subjunctive in this requirement: vous soyez. Bien que is also taught here as a supported extension; it does not negate the factual content of its clause.\nModel: Il faut que vous soyez à l’heure.\nMeaning: You need to be on time.\n\nUseful expressions: confirmer sa présence = to confirm attendance; bien que = although; une répétition = a rehearsal",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Il faut que takes a subjunctive in this requirement: vous soyez. Bien que is also taught here as a supported extension; it does not negate the factual content of its clause. Model meaning: You need to be on time.",
+          "options": [
+            "Il faut que vous soyez à l’heure.",
+            "Il faut que vous êtes à l’heure.",
+            "Il faut que vous soyez être à l’heure."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "fill_blank",
+          "prompt": "Il faut que vous ___ à l’heure.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "Il faut que takes a subjunctive in this requirement: vous soyez. Bien que is also taught here as a supported extension; it does not negate the factual content of its clause. The model uses « soyez ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "soyez"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: The room can host the registered group despite being small.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "The event is cancelled because the room is small.",
+            "Everyone may bring unlimited guests.",
+            "The room can host the registered group despite being small."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Even registered participants must confirm before Monday.. Transcript for review: Organisatrice : Il faut que chacun confirme avant lundi. Hugo : Même les personnes déjà inscrites ? Organisatrice : Oui, nous devons connaître le nombre exact.",
+          "options": [
+            "Confirmation is requested after Monday.",
+            "Even registered participants must confirm before Monday.",
+            "Only guests must confirm."
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Organisatrice : Il faut que chacun confirme avant lundi. Hugo : Même les personnes déjà inscrites ? Organisatrice : Oui, nous devons connaître le nombre exact."
+          }
+        }
+      ],
+      "module_title": "Subjunctive introduction",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-b1-04",
+          "title": "Subjunctive introduction",
+          "summary": "Il faut que takes a subjunctive in this requirement: vous soyez. Bien que is also taught here as a supported extension; it does not negate the factual content of its clause.",
+          "rule_code": "roadmap-b1-04",
+          "explanation_english": "Il faut que takes a subjunctive in this requirement: vous soyez. Bien que is also taught here as a supported extension; it does not negate the factual content of its clause.",
+          "examples": [
+            [
+              "Il faut que vous soyez à l’heure.",
+              "You need to be on time."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-03-transfer"
+      ]
+    },
+    {
+      "key": "topic-04-transfer",
+      "skill": "writing",
+      "title": "B1 transfer 04: Subjunctive introduction",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 140–180 French words. Write a practical request using il faut que or je veux que with a supported subjunctive form. Add a concession with bien que and discuss a realistic capacity constraint.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Subjunctive introduction",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-04-practice"
+      ]
+    },
+    {
+      "key": "topic-05-practice",
+      "skill": "grammar",
+      "title": "B1 roadmap 05: Complex pronouns",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nNora a préparé un dossier pour Hugo. Elle le lui enverra demain, après une dernière vérification. Hugo lui a demandé un résumé que l’équipe pourra relire. Le texte ne dit pas que toute l’équipe recevra le dossier complet : le résumé et le dossier sont deux documents distincts.\n\nNotice: In an ordinary affirmative clause le/la/les precedes lui/leur: je le lui donne. Identify both the object and recipient instead of treating pronouns as interchangeable.\nModel: Le dossier, je le lui envoie demain.\nMeaning: The file, I will send it to him or her tomorrow.\n\nUseful expressions: un destinataire = a recipient; un résumé = a summary; le dossier original = the original file",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "In an ordinary affirmative clause le/la/les precedes lui/leur: je le lui donne. Identify both the object and recipient instead of treating pronouns as interchangeable. Model meaning: The file, I will send it to him or her tomorrow.",
+          "options": [
+            "Le dossier, je lui le envoie demain.",
+            "Le dossier, je le lui envoient demain.",
+            "Le dossier, je le lui envoie demain."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "short_answer",
+          "prompt": "Le dossier, je ___ envoie demain.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "In an ordinary affirmative clause le/la/les precedes lui/leur: je le lui donne. Identify both the object and recipient instead of treating pronouns as interchangeable. The model uses « le lui ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "le lui"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: Hugo receives the file; the team is to review a summary.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "Nora sent the summary yesterday.",
+            "Hugo receives the file; the team is to review a summary.",
+            "The team is promised the complete file."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: The copies will be brought Friday; the original stays at the office.. Transcript for review: Hugo : Tu nous donneras les deux copies ? Nora : Oui, je vous les apporterai vendredi. Le dossier original restera au bureau.",
+          "options": [
+            "The copies will be brought Friday; the original stays at the office.",
+            "The original will be sent to everyone.",
+            "The copies remain at the office."
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Hugo : Tu nous donneras les deux copies ? Nora : Oui, je vous les apporterai vendredi. Le dossier original restera au bureau."
+          }
+        }
+      ],
+      "module_title": "Complex pronouns",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-b1-05",
+          "title": "Complex pronouns",
+          "summary": "In an ordinary affirmative clause le/la/les precedes lui/leur: je le lui donne. Identify both the object and recipient instead of treating pronouns as interchangeable.",
+          "rule_code": "roadmap-b1-05",
+          "explanation_english": "In an ordinary affirmative clause le/la/les precedes lui/leur: je le lui donne. Identify both the object and recipient instead of treating pronouns as interchangeable.",
+          "examples": [
+            [
+              "Le dossier, je le lui envoie demain.",
+              "The file, I will send it to him or her tomorrow."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-04-transfer"
+      ]
+    },
+    {
+      "key": "topic-05-transfer",
+      "skill": "writing",
+      "title": "B1 transfer 05: Complex pronouns",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 140–180 French words. Write a message about two documents and two recipients. Use object-pronoun combinations with unambiguous references and a relative clause; have a partner explain who receives what.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Complex pronouns",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-05-practice"
+      ]
+    },
+    {
+      "key": "topic-06-practice",
+      "skill": "grammar",
+      "title": "B1 roadmap 06: Passive constructions",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nLes affiches ont été imprimées hier par une petite association. Une bénévole les distribuera demain. Le compte rendu parle d’impression, pas encore de distribution. On peut reformuler : l’association a imprimé les affiches. Cette phrase active conserve l’agent, contrairement à une formulation qui dit seulement qu’on les a imprimées.\n\nNotice: A passive uses être plus a past participle agreeing with the subject. An active alternative with on may convey the event without naming the agent.\nModel: Les affiches ont été imprimées hier.\nMeaning: The posters were printed yesterday.\n\nUseful expressions: une affiche = a poster; être préparé = to be prepared; envoyer = to send",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "A passive uses être plus a past participle agreeing with the subject. An active alternative with on may convey the event without naming the agent. Model meaning: The posters were printed yesterday.",
+          "options": [
+            "Les affiches ont être imprimées hier.",
+            "Les affiches ont été imprimées hier.",
+            "Les affiches ont été imprimé hier."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "rebuild-the-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild the taught model sentence.",
+          "instructions": "Use every tile once in the model order. Other natural French orders are not assessed in this supported task.",
+          "explanation": "A passive uses être plus a past participle agreeing with the subject. An active alternative with on may convey the event without naming the agent.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "adb6e745-2bdf-5341-8244-6f5cdb165258",
+                "text": "Les"
+              },
+              {
+                "id": "69484d68-4e68-5b2e-a39e-db37f091334d",
+                "text": "affiches"
+              },
+              {
+                "id": "5775358d-854c-5e54-ba9d-6fa45b0ee0f7",
+                "text": "ont"
+              },
+              {
+                "id": "fc67f91f-2f1a-59c6-ae13-a913e849bbb9",
+                "text": "été"
+              },
+              {
+                "id": "ceff17d1-7b30-5a6b-bce5-9033b40eaf7f",
+                "text": "imprimées"
+              },
+              {
+                "id": "456bb27b-05ac-5ad7-bb2c-1cd4b0aa0b38",
+                "text": "hier."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "adb6e745-2bdf-5341-8244-6f5cdb165258",
+                "69484d68-4e68-5b2e-a39e-db37f091334d",
+                "5775358d-854c-5e54-ba9d-6fa45b0ee0f7",
+                "fc67f91f-2f1a-59c6-ae13-a913e849bbb9",
+                "ceff17d1-7b30-5a6b-bce5-9033b40eaf7f",
+                "456bb27b-05ac-5ad7-bb2c-1cd4b0aa0b38"
+              ]
+            ],
+            "correct_sentence": "Les affiches ont été imprimées hier."
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: Printing is complete; distribution is planned for tomorrow.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "Printing is complete; distribution is planned for tomorrow.",
+            "Distribution was completed yesterday.",
+            "The report does not identify who printed the posters."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: The invitations are prepared but not sent.. Transcript for review: Nora : Est-ce que les invitations ont été envoyées ? Hugo : Non, elles ont été préparées, mais nous attendons la liste définitive.",
+          "options": [
+            "The invitations have all been sent.",
+            "The list is already final.",
+            "The invitations are prepared but not sent."
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Nora : Est-ce que les invitations ont été envoyées ? Hugo : Non, elles ont été préparées, mais nous attendons la liste définitive."
+          }
+        }
+      ],
+      "module_title": "Passive constructions",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-b1-06",
+          "title": "Passive constructions",
+          "summary": "A passive uses être plus a past participle agreeing with the subject. An active alternative with on may convey the event without naming the agent.",
+          "rule_code": "roadmap-b1-06",
+          "explanation_english": "A passive uses être plus a past participle agreeing with the subject. An active alternative with on may convey the event without naming the agent.",
+          "examples": [
+            [
+              "Les affiches ont été imprimées hier.",
+              "The posters were printed yesterday."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-05-transfer"
+      ]
+    },
+    {
+      "key": "topic-06-transfer",
+      "skill": "writing",
+      "title": "B1 transfer 06: Passive constructions",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 140–180 French words. Describe a small project in active and passive forms, keeping the same event and agent where stated. Explain what is completed, planned or still waiting.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Passive constructions",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-06-practice"
+      ]
+    }
+  ],
+  "title": "B1 roadmap practice, part 1",
+  "glossary": [],
+  "learning_stage": null
+}

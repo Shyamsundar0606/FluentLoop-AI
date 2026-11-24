@@ -1,0 +1,731 @@
+{
+  "version": "0.11.2",
+  "level": "B2",
+  "status": "draft",
+  "source_license": "Original AI-assisted roadmap practice. Independent language, pedagogy, phonetic, answer-key and CEFR review pending.",
+  "tasks": [
+    {
+      "key": "topic-07-practice",
+      "skill": "grammar",
+      "title": "B2 roadmap 07: Formal communication",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nUne association reçoit une proposition de réservation dont deux paragraphes donnent des dates différentes. La secrétaire demande une confirmation écrite et cite les passages concernés. Elle n’affirme pas que le prestataire a cherché à la tromper. Elle indique la décision qu’une réponse lui permettra de prendre et propose un délai raisonnable. Le registre formel sert ici à rendre une demande vérifiable, non à ajouter une menace que la situation ne justifie pas.\n\nNotice: A formal request can be precise without becoming an accusation. Veuillez plus infinitive states a request; je vous saurais gré de is a more formal conditional expression.\nModel: Je vous saurais gré de préciser les conditions.\nMeaning: I would be grateful if you would clarify the conditions.\n\nUseful expressions: une confirmation écrite = written confirmation; un passage concerné = a relevant passage; un délai raisonnable = a reasonable deadline",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence preserves the model’s meaning and scope?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "A formal request can be precise without becoming an accusation. Veuillez plus infinitive states a request; je vous saurais gré de is a more formal conditional expression. Model meaning: I would be grateful if you would clarify the conditions.",
+          "options": [
+            "Je confirme que toutes les conditions sont déjà acceptées.",
+            "Je vous dispense de préciser les conditions.",
+            "Je vous saurais gré de préciser les conditions."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "expressions-in-context",
+          "type": "matching",
+          "prompt": "Match these contextual expressions to their English meanings.",
+          "instructions": "Use the meaning taught for this situation, not every possible dictionary meaning.",
+          "explanation": "The expressions are glossed in the lesson context.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "a15a51d2-4a1d-5933-83ae-d480e133f542",
+                "text": "une confirmation écrite"
+              },
+              {
+                "id": "5a2b79f3-0fac-586f-8e98-d747495ab8b6",
+                "text": "un passage concerné"
+              },
+              {
+                "id": "6ad19933-7c9c-5b12-a61d-c0c40f29ab07",
+                "text": "un délai raisonnable"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "b7599f83-8a61-50d1-af65-aa4b6c72c5f4",
+                "text": "written confirmation"
+              },
+              {
+                "id": "d834520c-4f23-51f4-a37f-52f231d7bffb",
+                "text": "a relevant passage"
+              },
+              {
+                "id": "c661f3a1-847b-5766-a79c-48b745ce54ad",
+                "text": "a reasonable deadline"
+              }
+            ],
+            "answer_pairs": {
+              "a15a51d2-4a1d-5933-83ae-d480e133f542": "b7599f83-8a61-50d1-af65-aa4b6c72c5f4",
+              "5a2b79f3-0fac-586f-8e98-d747495ab8b6": "d834520c-4f23-51f4-a37f-52f231d7bffb",
+              "6ad19933-7c9c-5b12-a61d-c0c40f29ab07": "c661f3a1-847b-5766-a79c-48b745ce54ad"
+            }
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: The letter seeks clarification of inconsistent dates without alleging intent.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "The booking is accepted without any clarification.",
+            "The letter seeks clarification of inconsistent dates without alleging intent.",
+            "The secretary proves deliberate deception."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: The association waits for the corrected document before confirming.. Transcript for review: Secrétaire : Pourriez-vous confirmer la date par écrit ? Prestataire : Je vous envoie une version corrigée demain. Secrétaire : Merci ; nous attendrons ce document avant de confirmer la réservation.",
+          "options": [
+            "The association waits for the corrected document before confirming.",
+            "The booking is confirmed immediately.",
+            "The provider refuses to send a document."
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Secrétaire : Pourriez-vous confirmer la date par écrit ? Prestataire : Je vous envoie une version corrigée demain. Secrétaire : Merci ; nous attendrons ce document avant de confirmer la réservation."
+          }
+        }
+      ],
+      "module_title": "Formal communication",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-b2-07",
+          "title": "Formal communication",
+          "summary": "A formal request can be precise without becoming an accusation. Veuillez plus infinitive states a request; je vous saurais gré de is a more formal conditional expression.",
+          "rule_code": "roadmap-b2-07",
+          "explanation_english": "A formal request can be precise without becoming an accusation. Veuillez plus infinitive states a request; je vous saurais gré de is a more formal conditional expression.",
+          "examples": [
+            [
+              "Je vous saurais gré de préciser les conditions.",
+              "I would be grateful if you would clarify the conditions."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "topic-07-transfer",
+      "skill": "writing",
+      "title": "B2 transfer 07: Formal communication",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 220–280 French words. Draft a formal complaint or clarification request about an invented service. State facts, a specific remedy and a reasonable deadline without inventing legal rights or alleging intent unsupported by the dossier.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Formal communication",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-07-practice"
+      ]
+    },
+    {
+      "key": "topic-08-practice",
+      "skill": "grammar",
+      "title": "B2 roadmap 08: Media analysis",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nUn éditorial reprend un communiqué annonçant qu’un service ouvrirait en juin. Il salue cette perspective, tandis qu’un reportage cite des agents qui signalent un recrutement inachevé. Ces documents ne décrivent pas nécessairement deux dates incompatibles : l’un rapporte un calendrier annoncé, l’autre une condition pratique encore incertaine. Une analyse fidèle attribue chaque information et précise ce qui permettrait de vérifier la faisabilité. Elle ne traite ni le communiqué comme une ouverture réalisée ni les réserves comme une annulation.\n\nNotice: Conditionnel used for an attributed report can mark information not independently confirmed by the narrator. Maintain both source attribution and uncertainty.\nModel: Selon le communiqué, le service ouvrirait en juin.\nMeaning: According to the statement, the service would open in June.\n\nUseful expressions: un calendrier annoncé = an announced schedule; une réserve pratique = a practical reservation; une information attribuée = attributed information",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence preserves the model’s meaning and scope?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Conditionnel used for an attributed report can mark information not independently confirmed by the narrator. Maintain both source attribution and uncertainty. Model meaning: According to the statement, the service would open in June.",
+          "options": [
+            "Le communiqué confirme que le service n’ouvrira jamais.",
+            "Selon le communiqué, le service ouvrirait en juin.",
+            "Le service a ouvert en juin, nous l’avons vérifié."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "fill_blank",
+          "prompt": "Selon le communiqué, le service ___ en juin.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "Conditionnel used for an attributed report can mark information not independently confirmed by the narrator. Maintain both source attribution and uncertainty. The model uses « ouvrirait ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "ouvrirait"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: An announced schedule and practical reservations need to be distinguished.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "An announced schedule and practical reservations need to be distinguished.",
+            "The service has already opened in June.",
+            "The agents formally cancelled the opening."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: The guest reports an announced calendar rather than a confirmed outcome.. Transcript for review: Journaliste : Parlez-vous d’une décision confirmée ? Invitée : Non, je cite le calendrier annoncé. Le recrutement reste en cours et nous attendons une confirmation.",
+          "options": [
+            "Recruitment is complete.",
+            "The opening is already a historical fact.",
+            "The guest reports an announced calendar rather than a confirmed outcome."
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Journaliste : Parlez-vous d’une décision confirmée ? Invitée : Non, je cite le calendrier annoncé. Le recrutement reste en cours et nous attendons une confirmation."
+          }
+        }
+      ],
+      "module_title": "Media analysis",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-b2-08",
+          "title": "Media analysis",
+          "summary": "Conditionnel used for an attributed report can mark information not independently confirmed by the narrator. Maintain both source attribution and uncertainty.",
+          "rule_code": "roadmap-b2-08",
+          "explanation_english": "Conditionnel used for an attributed report can mark information not independently confirmed by the narrator. Maintain both source attribution and uncertainty.",
+          "examples": [
+            [
+              "Selon le communiqué, le service ouvrirait en juin.",
+              "According to the statement, the service would open in June."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-07-transfer"
+      ]
+    },
+    {
+      "key": "topic-08-transfer",
+      "skill": "writing",
+      "title": "B2 transfer 08: Media analysis",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 220–280 French words. Compare a fictional editorial and interview. Separate facts, attributed claims and evaluation; identify one headline that overstates certainty and rewrite it with a justified scope.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Media analysis",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-08-practice"
+      ]
+    },
+    {
+      "key": "topic-09-practice",
+      "skill": "grammar",
+      "title": "B2 roadmap 09: Professional French",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nPendant une réunion fictive sur un outil informatique, l’équipe propose une version d’essai vendredi. Le client demande si cette version pourra être utilisée par tout le personnel. Nora précise qu’elle sera limitée à un groupe volontaire et à des données inventées. La démonstration vise à recueillir des retours d’usage, non à certifier la sécurité de l’outil. La négociation porte donc autant sur le contenu de la livraison que sur sa date ; omettre cette limite changerait la portée de la proposition.\n\nNotice: A negotiation needs explicit scope and conditions. Nous pourrions offers an option; nous nous engageons commits the speaker in a stronger way.\nModel: Nous pourrions livrer une version d’essai vendredi.\nMeaning: We could deliver a trial version on Friday.\n\nUseful expressions: une version d’essai = a trial version; la portée d’un engagement = the scope of a commitment; un retour d’usage = user feedback",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence preserves the model’s meaning and scope?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "A negotiation needs explicit scope and conditions. Nous pourrions offers an option; nous nous engageons commits the speaker in a stronger way. Model meaning: We could deliver a trial version on Friday.",
+          "options": [
+            "Nous pourrions livrer une version d’essai vendredi.",
+            "Nous livrerons vendredi une version générale sans restriction.",
+            "Nous excluons toute démonstration vendredi."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "short_answer",
+          "prompt": "Nous ___ livrer une version d’essai vendredi.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "A negotiation needs explicit scope and conditions. Nous pourrions offers an option; nous nous engageons commits the speaker in a stronger way. The model uses « pourrions ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "pourrions"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: The trial is limited and is not a security certification.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "Friday’s version is promised for unrestricted organisation-wide use.",
+            "The team will test with private client data.",
+            "The trial is limited and is not a security certification."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: The commitment covers a limited demo only.. Transcript for review: Client : Vous vous engagez sur vendredi ? Nora : Sur une démonstration limitée, oui ; pas sur une mise en service générale. Client : Ajoutons cette distinction au compte rendu.",
+          "options": [
+            "No date is discussed.",
+            "The commitment covers a limited demo only.",
+            "The commitment covers full deployment."
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Client : Vous vous engagez sur vendredi ? Nora : Sur une démonstration limitée, oui ; pas sur une mise en service générale. Client : Ajoutons cette distinction au compte rendu."
+          }
+        }
+      ],
+      "module_title": "Professional French",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-b2-09",
+          "title": "Professional French",
+          "summary": "A negotiation needs explicit scope and conditions. Nous pourrions offers an option; nous nous engageons commits the speaker in a stronger way.",
+          "rule_code": "roadmap-b2-09",
+          "explanation_english": "A negotiation needs explicit scope and conditions. Nous pourrions offers an option; nous nous engageons commits the speaker in a stronger way.",
+          "examples": [
+            [
+              "Nous pourrions livrer une version d’essai vendredi.",
+              "We could deliver a trial version on Friday."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-08-transfer"
+      ]
+    },
+    {
+      "key": "topic-09-transfer",
+      "skill": "writing",
+      "title": "B2 transfer 09: Professional French",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 220–280 French words. Negotiate a fictional technical presentation or interview task. Explain a cybersecurity or AI project without operational attack details; distinguish an option, a commitment and a condition in your written follow-up.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Professional French",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-09-practice"
+      ]
+    },
+    {
+      "key": "topic-10-practice",
+      "skill": "grammar",
+      "title": "B2 roadmap 10: Abstract discussions",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nUn séminaire compare deux usages d’un outil d’aide à la décision. Dans le premier, l’outil propose une piste que la personne peut discuter ; dans le second, sa réponse devient la décision sans possibilité de recours. La comparaison ne porte que sur ces deux scénarios. Elle ne démontre pas que toute automatisation est injuste, mais invite à examiner qui peut contester une décision, sur quelle base et avec quel effet. Une réponse argumentée doit garder distincts rapidité, exactitude et possibilité de contestation.\n\nNotice: An ethical or scientific claim needs a defined scope. Ne… que expresses restriction; it must not be read as a broad negation.\nModel: Cette comparaison ne porte que sur deux scénarios.\nMeaning: This comparison concerns only two scenarios.\n\nUseful expressions: une possibilité de recours = a possibility of appeal; contester une décision = to challenge a decision; la portée d’une comparaison = the scope of a comparison",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence preserves the model’s meaning and scope?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "An ethical or scientific claim needs a defined scope. Ne… que expresses restriction; it must not be read as a broad negation. Model meaning: This comparison concerns only two scenarios.",
+          "options": [
+            "Cette comparaison règle tous les usages possibles.",
+            "Ces deux scénarios ne peuvent être comparés.",
+            "Cette comparaison ne porte que sur deux scénarios."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "rebuild-the-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild the taught model sentence.",
+          "instructions": "Use every tile once in the model order. Other natural French orders are not assessed in this supported task.",
+          "explanation": "An ethical or scientific claim needs a defined scope. Ne… que expresses restriction; it must not be read as a broad negation.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "393e0f58-a7c7-5a16-a948-5cf4031da804",
+                "text": "Cette"
+              },
+              {
+                "id": "8bfbd76b-de3a-52d3-a485-66dcb1eed0e0",
+                "text": "comparaison"
+              },
+              {
+                "id": "f855b33a-0cf5-5776-ba6d-e27627673ece",
+                "text": "ne"
+              },
+              {
+                "id": "18875141-8aaf-5bc1-ac96-b1598baeea2e",
+                "text": "porte"
+              },
+              {
+                "id": "c1b3758b-fb7e-556f-866c-dfadf1c99f5a",
+                "text": "que"
+              },
+              {
+                "id": "9664749c-cea9-5631-a084-b71518dcdd50",
+                "text": "sur"
+              },
+              {
+                "id": "3ab8d7e1-09d4-5107-bbaf-467d0e6d5c01",
+                "text": "deux"
+              },
+              {
+                "id": "f0e93132-e518-5d07-966b-6085d725bfa8",
+                "text": "scénarios."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "393e0f58-a7c7-5a16-a948-5cf4031da804",
+                "8bfbd76b-de3a-52d3-a485-66dcb1eed0e0",
+                "f855b33a-0cf5-5776-ba6d-e27627673ece",
+                "18875141-8aaf-5bc1-ac96-b1598baeea2e",
+                "c1b3758b-fb7e-556f-866c-dfadf1c99f5a",
+                "9664749c-cea9-5631-a084-b71518dcdd50",
+                "3ab8d7e1-09d4-5107-bbaf-467d0e6d5c01",
+                "f0e93132-e518-5d07-966b-6085d725bfa8"
+              ]
+            ],
+            "correct_sentence": "Cette comparaison ne porte que sur deux scénarios."
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: The comparison highlights contestability within two specified scenarios.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "Speed, accuracy and contestability are identical criteria.",
+            "The comparison highlights contestability within two specified scenarios.",
+            "The seminar proves every automated tool is unjust."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: The answer adds understanding and contestability without rejecting accuracy.. Transcript for review: Intervenante : Un résultat exact suffit-il ? Nora : Pas toujours : une personne peut aussi avoir besoin de comprendre et de contester la décision. Cela dépend de l’usage et de ses conséquences.",
+          "options": [
+            "The answer adds understanding and contestability without rejecting accuracy.",
+            "Accuracy is said to be useless in every situation.",
+            "Every use has the same consequences."
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Intervenante : Un résultat exact suffit-il ? Nora : Pas toujours : une personne peut aussi avoir besoin de comprendre et de contester la décision. Cela dépend de l’usage et de ses conséquences."
+          }
+        }
+      ],
+      "module_title": "Abstract discussions",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-b2-10",
+          "title": "Abstract discussions",
+          "summary": "An ethical or scientific claim needs a defined scope. Ne… que expresses restriction; it must not be read as a broad negation.",
+          "rule_code": "roadmap-b2-10",
+          "explanation_english": "An ethical or scientific claim needs a defined scope. Ne… que expresses restriction; it must not be read as a broad negation.",
+          "examples": [
+            [
+              "Cette comparaison ne porte que sur deux scénarios.",
+              "This comparison concerns only two scenarios."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-09-transfer"
+      ]
+    },
+    {
+      "key": "topic-10-transfer",
+      "skill": "writing",
+      "title": "B2 transfer 10: Abstract discussions",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 220–280 French words. Discuss an abstract issue in ethics, economics, science or technology using a fictional example. Define two criteria, address a counterexample and explain the limits of your conclusion.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Abstract discussions",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-10-practice"
+      ]
+    },
+    {
+      "key": "topic-11-practice",
+      "skill": "grammar",
+      "title": "B2 roadmap 11: Listening fluency",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nUne interview fictive porte sur un nouvel horaire. L’invitée dit apprécier l’effort, puis juge l’explication « pas entièrement convaincante ». Le journaliste lui demande quel point reste obscur. Elle cite la correspondance du soir, sans critiquer tous les trajets. Comprendre cette réserve suppose de relier le jugement à son objet et de ne pas confondre politesse, approbation et refus. Le script permet ce travail sur les mots ; une seule voix synthétique ne permet pas de valider la compréhension d’accents régionaux ou d’un débit spontané.\n\nNotice: Reported stance and literal wording can diverge. A restrained expression such as ce n’est pas entièrement convaincant is a qualified reservation, not unconditional approval.\nModel: Ce n’est pas entièrement convaincant.\nMeaning: That is not entirely convincing.\n\nUseful expressions: une réserve nuancée = a qualified reservation; la correspondance = the connection; plutôt = rather",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence preserves the model’s meaning and scope?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Reported stance and literal wording can diverge. A restrained expression such as ce n’est pas entièrement convaincant is a qualified reservation, not unconditional approval. Model meaning: That is not entirely convincing.",
+          "options": [
+            "Aucune partie de cette explication n’est recevable.",
+            "Ce n’est pas entièrement convaincant.",
+            "L’explication est entièrement convaincante."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "expressions-in-context",
+          "type": "matching",
+          "prompt": "Match these contextual expressions to their English meanings.",
+          "instructions": "Use the meaning taught for this situation, not every possible dictionary meaning.",
+          "explanation": "The expressions are glossed in the lesson context.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "9ef3a7fa-2bec-5f25-89df-606644dd55b8",
+                "text": "une réserve nuancée"
+              },
+              {
+                "id": "057295a2-00ca-53be-8ea4-ebbf1fa75f57",
+                "text": "la correspondance"
+              },
+              {
+                "id": "ca4e7d9c-c19e-592c-b45c-8657f588a143",
+                "text": "plutôt"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "10427f5c-1f18-502d-aae1-e14d58f28faa",
+                "text": "a qualified reservation"
+              },
+              {
+                "id": "622f95ac-563d-5dfd-a894-d681cf39e446",
+                "text": "the connection"
+              },
+              {
+                "id": "eb251667-f890-5538-8db1-0278da53dd68",
+                "text": "rather"
+              }
+            ],
+            "answer_pairs": {
+              "9ef3a7fa-2bec-5f25-89df-606644dd55b8": "10427f5c-1f18-502d-aae1-e14d58f28faa",
+              "057295a2-00ca-53be-8ea4-ebbf1fa75f57": "622f95ac-563d-5dfd-a894-d681cf39e446",
+              "ca4e7d9c-c19e-592c-b45c-8657f588a143": "eb251667-f890-5538-8db1-0278da53dd68"
+            }
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: The guest’s reservation concerns a specific evening connection.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "The guest’s reservation concerns a specific evening connection.",
+            "The guest fully approves every aspect.",
+            "The guest rejects all public transport."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: The concern is the connection after eight, not all routes.. Transcript for review: Invitée : L’effort est appréciable. Enfin, pour le soir, ce n’est pas entièrement convaincant. Journaliste : Vous parlez de la fréquence ? Invitée : Plutôt de la correspondance après vingt heures, pas de tous les trajets.",
+          "options": [
+            "The concern is every morning route.",
+            "The guest explicitly approves the evening connection.",
+            "The concern is the connection after eight, not all routes."
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Invitée : L’effort est appréciable. Enfin, pour le soir, ce n’est pas entièrement convaincant. Journaliste : Vous parlez de la fréquence ? Invitée : Plutôt de la correspondance après vingt heures, pas de tous les trajets."
+          }
+        }
+      ],
+      "module_title": "Listening fluency",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-b2-11",
+          "title": "Listening fluency",
+          "summary": "Reported stance and literal wording can diverge. A restrained expression such as ce n’est pas entièrement convaincant is a qualified reservation, not unconditional approval.",
+          "rule_code": "roadmap-b2-11",
+          "explanation_english": "Reported stance and literal wording can diverge. A restrained expression such as ce n’est pas entièrement convaincant is a qualified reservation, not unconditional approval.",
+          "examples": [
+            [
+              "Ce n’est pas entièrement convaincant.",
+              "That is not entirely convincing."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-10-transfer"
+      ]
+    },
+    {
+      "key": "topic-11-transfer",
+      "skill": "writing",
+      "title": "B2 transfer 11: Listening fluency",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 220–280 French words. Listen without the transcript first, then compare the speaker’s claim with its limits. Summarise a reservation and ask a clarifying follow-up. Mark natural-speed and varied-accent practice as still needing suitable human recordings.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Listening fluency",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-11-practice"
+      ]
+    },
+    {
+      "key": "topic-12-practice",
+      "skill": "grammar",
+      "title": "B2 roadmap 12: DELF B2 practice",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nUne municipalité fictive envisage de réserver une salle à des ateliers numériques. Un groupe souhaite un accompagnement pour les démarches en ligne ; un autre demande de conserver du temps pour les associations. Le dossier ne fournit ni budget définitif ni enquête représentative. Pour défendre une position, le candidat doit utiliser les éléments présents, proposer un compromis et reconnaître ce qui reste à vérifier. Ce petit dossier est un entraînement original et non un sujet officiel, une simulation complète ou une prédiction de réussite au DELF.\n\nNotice: Practice tasks may develop argumentation without reproducing a complete official exam. A concession must preserve both the acknowledged point and the remaining objection.\nModel: Même si cette solution aide certains usagers, elle reste à évaluer.\nMeaning: Even if this solution helps some users, it still needs evaluation.\n\nUseful expressions: une prise de position = a reasoned position; un compromis = a compromise; une évaluation partagée = a jointly conducted evaluation",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence preserves the model’s meaning and scope?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Practice tasks may develop argumentation without reproducing a complete official exam. A concession must preserve both the acknowledged point and the remaining objection. Model meaning: Even if this solution helps some users, it still needs evaluation.",
+          "options": [
+            "Même si cette solution aide certains usagers, elle reste à évaluer.",
+            "Puisque la solution aide certains usagers, son évaluation est inutile.",
+            "Cette solution ne peut aider personne, même à titre d’essai."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "fill_blank",
+          "prompt": "___ cette solution aide certains usagers, elle reste à évaluer.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "Practice tasks may develop argumentation without reproducing a complete official exam. A concession must preserve both the acknowledged point and the remaining objection. The model uses « Même si ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "Même si"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: A reasoned proposal must acknowledge missing budget and representative evidence.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "The dossier supplies a final budget and representative survey.",
+            "The exercise is an official DELF paper.",
+            "A reasoned proposal must acknowledge missing budget and representative evidence."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Nora acknowledges a risk and proposes a jointly reviewed trial.. Transcript for review: Examinatrice fictive : Votre compromis ne réduit-il pas l’accès des associations ? Nora : C’est un risque. Je proposerais un calendrier d’essai et une évaluation avec les deux groupes avant toute décision permanente.",
+          "options": [
+            "Nora announces a permanent decision already taken.",
+            "Nora acknowledges a risk and proposes a jointly reviewed trial.",
+            "Nora denies any possible impact."
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Examinatrice fictive : Votre compromis ne réduit-il pas l’accès des associations ? Nora : C’est un risque. Je proposerais un calendrier d’essai et une évaluation avec les deux groupes avant toute décision permanente."
+          }
+        }
+      ],
+      "module_title": "DELF B2 practice",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-b2-12",
+          "title": "DELF B2 practice",
+          "summary": "Practice tasks may develop argumentation without reproducing a complete official exam. A concession must preserve both the acknowledged point and the remaining objection.",
+          "rule_code": "roadmap-b2-12",
+          "explanation_english": "Practice tasks may develop argumentation without reproducing a complete official exam. A concession must preserve both the acknowledged point and the remaining objection.",
+          "examples": [
+            [
+              "Même si cette solution aide certains usagers, elle reste à évaluer.",
+              "Even if this solution helps some users, it still needs evaluation."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-11-transfer"
+      ]
+    },
+    {
+      "key": "topic-12-transfer",
+      "skill": "writing",
+      "title": "B2 transfer 12: DELF B2 practice",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 220–280 French words. Write an original argument on this fictional local proposal and defend it orally against an objection. Use the current official FEI format guide separately for full exam preparation; do not label this short activity an official mock or award yourself a CEFR grade.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "DELF B2 practice",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-12-practice"
+      ]
+    }
+  ],
+  "title": "B2 roadmap practice, part 2",
+  "glossary": [],
+  "learning_stage": null
+}

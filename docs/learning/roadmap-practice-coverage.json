@@ -1,0 +1,1843 @@
+{
+  "scope": "Historical pre-import crosswalk, supplemented by current_import_state; original authorization flags record the validation checkpoint",
+  "levels": {
+    "A1": {
+      "topics": 12,
+      "lessons": 24,
+      "scored_exercises": 48,
+      "open_transfer_tasks": 12
+    },
+    "A2": {
+      "topics": 12,
+      "lessons": 24,
+      "scored_exercises": 48,
+      "open_transfer_tasks": 12
+    },
+    "B1": {
+      "topics": 12,
+      "lessons": 24,
+      "scored_exercises": 48,
+      "open_transfer_tasks": 12
+    },
+    "B2": {
+      "topics": 12,
+      "lessons": 24,
+      "scored_exercises": 48,
+      "open_transfer_tasks": 12
+    },
+    "C1": {
+      "topics": 10,
+      "lessons": 20,
+      "scored_exercises": 40,
+      "open_transfer_tasks": 10
+    },
+    "C2": {
+      "topics": 10,
+      "lessons": 20,
+      "scored_exercises": 40,
+      "open_transfer_tasks": 10
+    }
+  },
+  "topics": [
+    {
+      "id": "a1-roadmap-01",
+      "level": "A1",
+      "title": "French basics",
+      "existing_module_crosswalk": "a1-01",
+      "recommended_preparation": [
+        "A0 foundations where needed"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-a1-0.11.1-topic-01-practice",
+      "transfer_slug": "m10-assessments-a1-0.11.1-topic-01-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 119,
+      "reading_words": 31,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "a1-roadmap-02",
+      "level": "A1",
+      "title": "Greetings",
+      "existing_module_crosswalk": "a1-01",
+      "recommended_preparation": [
+        "a1-roadmap-01"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-a1-0.11.1-topic-02-practice",
+      "transfer_slug": "m10-assessments-a1-0.11.1-topic-02-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 122,
+      "reading_words": 27,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "a1-roadmap-03",
+      "level": "A1",
+      "title": "Personal information",
+      "existing_module_crosswalk": "a1-02",
+      "recommended_preparation": [
+        "a1-roadmap-02"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-a1-0.11.1-topic-03-practice",
+      "transfer_slug": "m10-assessments-a1-0.11.1-topic-03-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 95,
+      "reading_words": 30,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "a1-roadmap-04",
+      "level": "A1",
+      "title": "Numbers and time",
+      "existing_module_crosswalk": "a1-02",
+      "recommended_preparation": [
+        "a1-roadmap-03"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-a1-0.11.1-topic-04-practice",
+      "transfer_slug": "m10-assessments-a1-0.11.1-topic-04-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 135,
+      "reading_words": 31,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "a1-roadmap-05",
+      "level": "A1",
+      "title": "Nouns and articles",
+      "existing_module_crosswalk": "a1-03",
+      "recommended_preparation": [
+        "a1-roadmap-04"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-a1-0.11.1-topic-05-practice",
+      "transfer_slug": "m10-assessments-a1-0.11.1-topic-05-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 115,
+      "reading_words": 27,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "a1-roadmap-06",
+      "level": "A1",
+      "title": "Basic verbs",
+      "existing_module_crosswalk": "a1-03",
+      "recommended_preparation": [
+        "a1-roadmap-05"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-a1-0.11.1-topic-06-practice",
+      "transfer_slug": "m10-assessments-a1-0.11.1-topic-06-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 98,
+      "reading_words": 26,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "a1-roadmap-07",
+      "level": "A1",
+      "title": "Sentence building",
+      "existing_module_crosswalk": "a1-03",
+      "recommended_preparation": [
+        "a1-roadmap-06"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-a1-0.11.2-topic-07-practice",
+      "transfer_slug": "m10-assessments-a1-0.11.2-topic-07-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 120,
+      "reading_words": 31,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "a1-roadmap-08",
+      "level": "A1",
+      "title": "Everyday activities",
+      "existing_module_crosswalk": "a1-05",
+      "recommended_preparation": [
+        "a1-roadmap-07"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-a1-0.11.2-topic-08-practice",
+      "transfer_slug": "m10-assessments-a1-0.11.2-topic-08-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 102,
+      "reading_words": 28,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "a1-roadmap-09",
+      "level": "A1",
+      "title": "Family and people",
+      "existing_module_crosswalk": "a1-04",
+      "recommended_preparation": [
+        "a1-roadmap-08"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-a1-0.11.2-topic-09-practice",
+      "transfer_slug": "m10-assessments-a1-0.11.2-topic-09-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 109,
+      "reading_words": 30,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "a1-roadmap-10",
+      "level": "A1",
+      "title": "Food and shopping",
+      "existing_module_crosswalk": "a1-06",
+      "recommended_preparation": [
+        "a1-roadmap-09"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-a1-0.11.2-topic-10-practice",
+      "transfer_slug": "m10-assessments-a1-0.11.2-topic-10-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 117,
+      "reading_words": 30,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "a1-roadmap-11",
+      "level": "A1",
+      "title": "Places and directions",
+      "existing_module_crosswalk": "a1-07",
+      "recommended_preparation": [
+        "a1-roadmap-10"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-a1-0.11.2-topic-11-practice",
+      "transfer_slug": "m10-assessments-a1-0.11.2-topic-11-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 142,
+      "reading_words": 30,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "a1-roadmap-12",
+      "level": "A1",
+      "title": "Essential conversation",
+      "existing_module_crosswalk": "a1-09",
+      "recommended_preparation": [
+        "a1-roadmap-11"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-a1-0.11.2-topic-12-practice",
+      "transfer_slug": "m10-assessments-a1-0.11.2-topic-12-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 133,
+      "reading_words": 25,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "a2-roadmap-01",
+      "level": "A2",
+      "title": "A1 consolidation",
+      "existing_module_crosswalk": "a2-08",
+      "recommended_preparation": [
+        "a1-roadmap-12"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-a2-0.11.1-topic-01-practice",
+      "transfer_slug": "m10-assessments-a2-0.11.1-topic-01-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 129,
+      "reading_words": 37,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "a2-roadmap-02",
+      "level": "A2",
+      "title": "Past experiences",
+      "existing_module_crosswalk": "a2-02",
+      "recommended_preparation": [
+        "a2-roadmap-01"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-a2-0.11.1-topic-02-practice",
+      "transfer_slug": "m10-assessments-a2-0.11.1-topic-02-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 117,
+      "reading_words": 37,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "a2-roadmap-03",
+      "level": "A2",
+      "title": "Describing the past",
+      "existing_module_crosswalk": "a2-02",
+      "recommended_preparation": [
+        "a2-roadmap-02"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-a2-0.11.1-topic-03-practice",
+      "transfer_slug": "m10-assessments-a2-0.11.1-topic-03-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 122,
+      "reading_words": 34,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "a2-roadmap-04",
+      "level": "A2",
+      "title": "Future plans",
+      "existing_module_crosswalk": "a2-01",
+      "recommended_preparation": [
+        "a2-roadmap-03"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-a2-0.11.1-topic-04-practice",
+      "transfer_slug": "m10-assessments-a2-0.11.1-topic-04-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 148,
+      "reading_words": 35,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "a2-roadmap-05",
+      "level": "A2",
+      "title": "Modal expressions",
+      "existing_module_crosswalk": "a2-01",
+      "recommended_preparation": [
+        "a2-roadmap-04"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-a2-0.11.1-topic-05-practice",
+      "transfer_slug": "m10-assessments-a2-0.11.1-topic-05-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 126,
+      "reading_words": 32,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "a2-roadmap-06",
+      "level": "A2",
+      "title": "Objects and pronouns",
+      "existing_module_crosswalk": "a2-04",
+      "recommended_preparation": [
+        "a2-roadmap-05"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-a2-0.11.1-topic-06-practice",
+      "transfer_slug": "m10-assessments-a2-0.11.1-topic-06-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 124,
+      "reading_words": 36,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "a2-roadmap-07",
+      "level": "A2",
+      "title": "Comparison",
+      "existing_module_crosswalk": "a2-04",
+      "recommended_preparation": [
+        "a2-roadmap-06"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-a2-0.11.2-topic-07-practice",
+      "transfer_slug": "m10-assessments-a2-0.11.2-topic-07-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 155,
+      "reading_words": 38,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "a2-roadmap-08",
+      "level": "A2",
+      "title": "Connecting ideas",
+      "existing_module_crosswalk": "a2-06",
+      "recommended_preparation": [
+        "a2-roadmap-07"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-a2-0.11.2-topic-08-practice",
+      "transfer_slug": "m10-assessments-a2-0.11.2-topic-08-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 138,
+      "reading_words": 37,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "a2-roadmap-09",
+      "level": "A2",
+      "title": "Health and appointments",
+      "existing_module_crosswalk": "a2-05",
+      "recommended_preparation": [
+        "a2-roadmap-08"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-a2-0.11.2-topic-09-practice",
+      "transfer_slug": "m10-assessments-a2-0.11.2-topic-09-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 127,
+      "reading_words": 35,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "a2-roadmap-10",
+      "level": "A2",
+      "title": "Work and education",
+      "existing_module_crosswalk": "a2-01",
+      "recommended_preparation": [
+        "a2-roadmap-09"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-a2-0.11.2-topic-10-practice",
+      "transfer_slug": "m10-assessments-a2-0.11.2-topic-10-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 148,
+      "reading_words": 35,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "a2-roadmap-11",
+      "level": "A2",
+      "title": "Housing and administration",
+      "existing_module_crosswalk": "a2-01",
+      "recommended_preparation": [
+        "a2-roadmap-10"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-a2-0.11.2-topic-11-practice",
+      "transfer_slug": "m10-assessments-a2-0.11.2-topic-11-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 134,
+      "reading_words": 34,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "a2-roadmap-12",
+      "level": "A2",
+      "title": "Social communication",
+      "existing_module_crosswalk": "a2-06",
+      "recommended_preparation": [
+        "a2-roadmap-11"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-a2-0.11.2-topic-12-practice",
+      "transfer_slug": "m10-assessments-a2-0.11.2-topic-12-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 132,
+      "reading_words": 34,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "b1-roadmap-01",
+      "level": "B1",
+      "title": "Narrative skills",
+      "existing_module_crosswalk": "b1-01",
+      "recommended_preparation": [
+        "a2-roadmap-12"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-b1-0.11.1-topic-01-practice",
+      "transfer_slug": "m10-assessments-b1-0.11.1-topic-01-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 141,
+      "reading_words": 50,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "b1-roadmap-02",
+      "level": "B1",
+      "title": "Future and possibilities",
+      "existing_module_crosswalk": "b1-04",
+      "recommended_preparation": [
+        "b1-roadmap-01"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-b1-0.11.1-topic-02-practice",
+      "transfer_slug": "m10-assessments-b1-0.11.1-topic-02-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 133,
+      "reading_words": 40,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "b1-roadmap-03",
+      "level": "B1",
+      "title": "Hypothetical situations",
+      "existing_module_crosswalk": "b1-04",
+      "recommended_preparation": [
+        "b1-roadmap-02"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-b1-0.11.1-topic-03-practice",
+      "transfer_slug": "m10-assessments-b1-0.11.1-topic-03-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 155,
+      "reading_words": 47,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "b1-roadmap-04",
+      "level": "B1",
+      "title": "Subjunctive introduction",
+      "existing_module_crosswalk": "b1-03",
+      "recommended_preparation": [
+        "b1-roadmap-03"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-b1-0.11.1-topic-04-practice",
+      "transfer_slug": "m10-assessments-b1-0.11.1-topic-04-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 159,
+      "reading_words": 46,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "b1-roadmap-05",
+      "level": "B1",
+      "title": "Complex pronouns",
+      "existing_module_crosswalk": "b1-05",
+      "recommended_preparation": [
+        "b1-roadmap-04"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-b1-0.11.1-topic-05-practice",
+      "transfer_slug": "m10-assessments-b1-0.11.1-topic-05-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 125,
+      "reading_words": 48,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "b1-roadmap-06",
+      "level": "B1",
+      "title": "Passive constructions",
+      "existing_module_crosswalk": "b1-05",
+      "recommended_preparation": [
+        "b1-roadmap-05"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-b1-0.11.1-topic-06-practice",
+      "transfer_slug": "m10-assessments-b1-0.11.1-topic-06-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 130,
+      "reading_words": 49,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "b1-roadmap-07",
+      "level": "B1",
+      "title": "Reported speech",
+      "existing_module_crosswalk": "b1-06",
+      "recommended_preparation": [
+        "b1-roadmap-06"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-b1-0.11.2-topic-07-practice",
+      "transfer_slug": "m10-assessments-b1-0.11.2-topic-07-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 141,
+      "reading_words": 47,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "b1-roadmap-08",
+      "level": "B1",
+      "title": "Opinions and arguments",
+      "existing_module_crosswalk": "b1-02",
+      "recommended_preparation": [
+        "b1-roadmap-07"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-b1-0.11.2-topic-08-practice",
+      "transfer_slug": "m10-assessments-b1-0.11.2-topic-08-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 147,
+      "reading_words": 47,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "b1-roadmap-09",
+      "level": "B1",
+      "title": "Society and culture",
+      "existing_module_crosswalk": "b1-06",
+      "recommended_preparation": [
+        "b1-roadmap-08"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-b1-0.11.2-topic-09-practice",
+      "transfer_slug": "m10-assessments-b1-0.11.2-topic-09-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 156,
+      "reading_words": 49,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "b1-roadmap-10",
+      "level": "B1",
+      "title": "Workplace communication",
+      "existing_module_crosswalk": "b1-07",
+      "recommended_preparation": [
+        "b1-roadmap-09"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-b1-0.11.2-topic-10-practice",
+      "transfer_slug": "m10-assessments-b1-0.11.2-topic-10-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 145,
+      "reading_words": 50,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "b1-roadmap-11",
+      "level": "B1",
+      "title": "Media comprehension",
+      "existing_module_crosswalk": "b1-06",
+      "recommended_preparation": [
+        "b1-roadmap-10"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-b1-0.11.2-topic-11-practice",
+      "transfer_slug": "m10-assessments-b1-0.11.2-topic-11-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 174,
+      "reading_words": 51,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "b1-roadmap-12",
+      "level": "B1",
+      "title": "Independent expression",
+      "existing_module_crosswalk": "b1-08",
+      "recommended_preparation": [
+        "b1-roadmap-11"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-b1-0.11.2-topic-12-practice",
+      "transfer_slug": "m10-assessments-b1-0.11.2-topic-12-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 155,
+      "reading_words": 54,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "b2-roadmap-01",
+      "level": "B2",
+      "title": "Advanced tense control",
+      "existing_module_crosswalk": "b2-04",
+      "recommended_preparation": [
+        "b1-roadmap-12"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-b2-0.11.1-topic-01-practice",
+      "transfer_slug": "m10-assessments-b2-0.11.1-topic-01-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 176,
+      "reading_words": 82,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "b2-roadmap-02",
+      "level": "B2",
+      "title": "Subjunctive mastery",
+      "existing_module_crosswalk": "b2-01",
+      "recommended_preparation": [
+        "b2-roadmap-01"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-b2-0.11.1-topic-02-practice",
+      "transfer_slug": "m10-assessments-b2-0.11.1-topic-02-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 169,
+      "reading_words": 80,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "b2-roadmap-03",
+      "level": "B2",
+      "title": "Complex hypotheses",
+      "existing_module_crosswalk": "b2-04",
+      "recommended_preparation": [
+        "b2-roadmap-02"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-b2-0.11.1-topic-03-practice",
+      "transfer_slug": "m10-assessments-b2-0.11.1-topic-03-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 168,
+      "reading_words": 72,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "b2-roadmap-04",
+      "level": "B2",
+      "title": "Advanced relative clauses",
+      "existing_module_crosswalk": "b2-03",
+      "recommended_preparation": [
+        "b2-roadmap-03"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-b2-0.11.1-topic-04-practice",
+      "transfer_slug": "m10-assessments-b2-0.11.1-topic-04-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 156,
+      "reading_words": 74,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "b2-roadmap-05",
+      "level": "B2",
+      "title": "Discourse connectors",
+      "existing_module_crosswalk": "b2-03",
+      "recommended_preparation": [
+        "b2-roadmap-04"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-b2-0.11.1-topic-05-practice",
+      "transfer_slug": "m10-assessments-b2-0.11.1-topic-05-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 187,
+      "reading_words": 74,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "b2-roadmap-06",
+      "level": "B2",
+      "title": "Argumentative writing",
+      "existing_module_crosswalk": "b2-06",
+      "recommended_preparation": [
+        "b2-roadmap-05"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-b2-0.11.1-topic-06-practice",
+      "transfer_slug": "m10-assessments-b2-0.11.1-topic-06-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 175,
+      "reading_words": 82,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "b2-roadmap-07",
+      "level": "B2",
+      "title": "Formal communication",
+      "existing_module_crosswalk": "b2-02",
+      "recommended_preparation": [
+        "b2-roadmap-06"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-b2-0.11.2-topic-07-practice",
+      "transfer_slug": "m10-assessments-b2-0.11.2-topic-07-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 198,
+      "reading_words": 72,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "b2-roadmap-08",
+      "level": "B2",
+      "title": "Media analysis",
+      "existing_module_crosswalk": "b2-05",
+      "recommended_preparation": [
+        "b2-roadmap-07"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-b2-0.11.2-topic-08-practice",
+      "transfer_slug": "m10-assessments-b2-0.11.2-topic-08-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 164,
+      "reading_words": 78,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "b2-roadmap-09",
+      "level": "B2",
+      "title": "Professional French",
+      "existing_module_crosswalk": "b2-07",
+      "recommended_preparation": [
+        "b2-roadmap-08"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-b2-0.11.2-topic-09-practice",
+      "transfer_slug": "m10-assessments-b2-0.11.2-topic-09-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 176,
+      "reading_words": 81,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "b2-roadmap-10",
+      "level": "B2",
+      "title": "Abstract discussions",
+      "existing_module_crosswalk": "b2-01",
+      "recommended_preparation": [
+        "b2-roadmap-09"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-b2-0.11.2-topic-10-practice",
+      "transfer_slug": "m10-assessments-b2-0.11.2-topic-10-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 193,
+      "reading_words": 82,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "b2-roadmap-11",
+      "level": "B2",
+      "title": "Listening fluency",
+      "existing_module_crosswalk": "b2-05",
+      "recommended_preparation": [
+        "b2-roadmap-10"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-b2-0.11.2-topic-11-practice",
+      "transfer_slug": "m10-assessments-b2-0.11.2-topic-11-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 221,
+      "reading_words": 85,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "b2-roadmap-12",
+      "level": "B2",
+      "title": "DELF B2 practice",
+      "existing_module_crosswalk": "b2-08",
+      "recommended_preparation": [
+        "b2-roadmap-11"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-b2-0.11.2-topic-12-practice",
+      "transfer_slug": "m10-assessments-b2-0.11.2-topic-12-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 216,
+      "reading_words": 86,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "c1-roadmap-01",
+      "level": "C1",
+      "title": "Advanced grammar",
+      "existing_module_crosswalk": "c1-04",
+      "recommended_preparation": [
+        "b2-roadmap-12"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-c1-0.11.1-topic-01-practice",
+      "transfer_slug": "m10-assessments-c1-0.11.1-topic-01-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 201,
+      "reading_words": 106,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "c1-roadmap-02",
+      "level": "C1",
+      "title": "Sophisticated vocabulary",
+      "existing_module_crosswalk": "c1-04",
+      "recommended_preparation": [
+        "c1-roadmap-01"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-c1-0.11.1-topic-02-practice",
+      "transfer_slug": "m10-assessments-c1-0.11.1-topic-02-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 194,
+      "reading_words": 103,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "c1-roadmap-03",
+      "level": "C1",
+      "title": "Register and style",
+      "existing_module_crosswalk": "c1-04",
+      "recommended_preparation": [
+        "c1-roadmap-02"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-c1-0.11.1-topic-03-practice",
+      "transfer_slug": "m10-assessments-c1-0.11.1-topic-03-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 187,
+      "reading_words": 107,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "c1-roadmap-04",
+      "level": "C1",
+      "title": "Idiomatic language",
+      "existing_module_crosswalk": "c1-04",
+      "recommended_preparation": [
+        "c1-roadmap-03"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-c1-0.11.1-topic-04-practice",
+      "transfer_slug": "m10-assessments-c1-0.11.1-topic-04-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 166,
+      "reading_words": 98,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "c1-roadmap-05",
+      "level": "C1",
+      "title": "Argumentation",
+      "existing_module_crosswalk": "c1-06",
+      "recommended_preparation": [
+        "c1-roadmap-04"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-c1-0.11.1-topic-05-practice",
+      "transfer_slug": "m10-assessments-c1-0.11.1-topic-05-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 184,
+      "reading_words": 101,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "c1-roadmap-06",
+      "level": "C1",
+      "title": "Academic writing",
+      "existing_module_crosswalk": "c1-06",
+      "recommended_preparation": [
+        "c1-roadmap-05"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-c1-0.11.1-topic-06-practice",
+      "transfer_slug": "m10-assessments-c1-0.11.1-topic-06-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 186,
+      "reading_words": 106,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "c1-roadmap-07",
+      "level": "C1",
+      "title": "Advanced listening",
+      "existing_module_crosswalk": "c1-05",
+      "recommended_preparation": [
+        "c1-roadmap-06"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-c1-0.11.2-topic-07-practice",
+      "transfer_slug": "m10-assessments-c1-0.11.2-topic-07-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 230,
+      "reading_words": 100,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "c1-roadmap-08",
+      "level": "C1",
+      "title": "Professional fluency",
+      "existing_module_crosswalk": "c1-02",
+      "recommended_preparation": [
+        "c1-roadmap-07"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-c1-0.11.2-topic-08-practice",
+      "transfer_slug": "m10-assessments-c1-0.11.2-topic-08-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 230,
+      "reading_words": 103,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "c1-roadmap-09",
+      "level": "C1",
+      "title": "Literary and cultural analysis",
+      "existing_module_crosswalk": "c1-04",
+      "recommended_preparation": [
+        "c1-roadmap-08"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-c1-0.11.2-topic-09-practice",
+      "transfer_slug": "m10-assessments-c1-0.11.2-topic-09-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 214,
+      "reading_words": 100,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "c1-roadmap-10",
+      "level": "C1",
+      "title": "DALF C1 preparation",
+      "existing_module_crosswalk": "c1-08",
+      "recommended_preparation": [
+        "c1-roadmap-09"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-c1-0.11.2-topic-10-practice",
+      "transfer_slug": "m10-assessments-c1-0.11.2-topic-10-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 188,
+      "reading_words": 103,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "c2-roadmap-01",
+      "level": "C2",
+      "title": "Complete grammar mastery",
+      "existing_module_crosswalk": "c2-02",
+      "recommended_preparation": [
+        "c1-roadmap-10"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-c2-0.11.1-topic-01-practice",
+      "transfer_slug": "m10-assessments-c2-0.11.1-topic-01-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 228,
+      "reading_words": 119,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "c2-roadmap-02",
+      "level": "C2",
+      "title": "Precision in vocabulary",
+      "existing_module_crosswalk": "c2-02",
+      "recommended_preparation": [
+        "c2-roadmap-01"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-c2-0.11.1-topic-02-practice",
+      "transfer_slug": "m10-assessments-c2-0.11.1-topic-02-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 186,
+      "reading_words": 111,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "c2-roadmap-03",
+      "level": "C2",
+      "title": "Literary French",
+      "existing_module_crosswalk": "c2-04",
+      "recommended_preparation": [
+        "c2-roadmap-02"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-c2-0.11.1-topic-03-practice",
+      "transfer_slug": "m10-assessments-c2-0.11.1-topic-03-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 199,
+      "reading_words": 121,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "c2-roadmap-04",
+      "level": "C2",
+      "title": "Rhetoric and persuasion",
+      "existing_module_crosswalk": "c2-01",
+      "recommended_preparation": [
+        "c2-roadmap-03"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-c2-0.11.1-topic-04-practice",
+      "transfer_slug": "m10-assessments-c2-0.11.1-topic-04-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 207,
+      "reading_words": 114,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "c2-roadmap-05",
+      "level": "C2",
+      "title": "Cultural understanding",
+      "existing_module_crosswalk": "c2-03",
+      "recommended_preparation": [
+        "c2-roadmap-04"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-c2-0.11.1-topic-05-practice",
+      "transfer_slug": "m10-assessments-c2-0.11.1-topic-05-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 211,
+      "reading_words": 116,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "c2-roadmap-06",
+      "level": "C2",
+      "title": "Advanced written expression",
+      "existing_module_crosswalk": "c2-07",
+      "recommended_preparation": [
+        "c2-roadmap-05"
+      ],
+      "release": "0.11.1",
+      "practice_slug": "m10-assessments-c2-0.11.1-topic-06-practice",
+      "transfer_slug": "m10-assessments-c2-0.11.1-topic-06-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 171,
+      "reading_words": 111,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "c2-roadmap-07",
+      "level": "C2",
+      "title": "High-level listening",
+      "existing_module_crosswalk": "c2-05",
+      "recommended_preparation": [
+        "c2-roadmap-06"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-c2-0.11.2-topic-07-practice",
+      "transfer_slug": "m10-assessments-c2-0.11.2-topic-07-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 249,
+      "reading_words": 115,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "c2-roadmap-08",
+      "level": "C2",
+      "title": "Professional specialization",
+      "existing_module_crosswalk": "c2-04",
+      "recommended_preparation": [
+        "c2-roadmap-07"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-c2-0.11.2-topic-08-practice",
+      "transfer_slug": "m10-assessments-c2-0.11.2-topic-08-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 204,
+      "reading_words": 104,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "c2-roadmap-09",
+      "level": "C2",
+      "title": "Spontaneous communication",
+      "existing_module_crosswalk": "c2-06",
+      "recommended_preparation": [
+        "c2-roadmap-08"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-c2-0.11.2-topic-09-practice",
+      "transfer_slug": "m10-assessments-c2-0.11.2-topic-09-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 224,
+      "reading_words": 105,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    },
+    {
+      "id": "c2-roadmap-10",
+      "level": "C2",
+      "title": "DALF C2 preparation",
+      "existing_module_crosswalk": "c2-08",
+      "recommended_preparation": [
+        "c2-roadmap-09"
+      ],
+      "release": "0.11.2",
+      "practice_slug": "m10-assessments-c2-0.11.2-topic-10-practice",
+      "transfer_slug": "m10-assessments-c2-0.11.2-topic-10-transfer",
+      "scored_exercises": 4,
+      "writing_speaking_task": 1,
+      "contextual_expressions": 3,
+      "script_characters": 237,
+      "reading_words": 113,
+      "rule_and_model": true,
+      "main_import_authorized": false,
+      "qualified_human_review": "pending",
+      "limits": [
+        "Supported practice, not unseen proficiency testing",
+        "Three contextual expressions, not a complete10â€“20-word vocabulary lesson",
+        "Short synthetic script cannot establish spontaneous or varied-accent comprehension",
+        "Productive transfer requires qualitative human review"
+      ]
+    }
+  ],
+  "source_sha256": {
+    "backend/content/roadmap/a1-roadmap-0.11.1.json": "afba20bcc4662a13931a6534dc05ed46baa3d351ec288405d9ac48a0b48a63de",
+    "backend/content/roadmap/a1-roadmap-0.11.2.json": "41e2133c9c6b2a3f3eeb8f5664c0e6a4428e3b595df6a9b8cb44dd84c8059f03",
+    "backend/content/roadmap/a2-roadmap-0.11.1.json": "4487d78c2f2b523663adfb8727fead23bee3ff77bc244a6e79c8bd492915ec06",
+    "backend/content/roadmap/a2-roadmap-0.11.2.json": "9b95abaaf2dd0d27d6ba9d74536c4249fb95645608b5c81c9cc73e6ba772297f",
+    "backend/content/roadmap/b1-roadmap-0.11.1.json": "3e1bc484611a9e8066fdb08c01758af85a8b35ceaf9eaed945de7e7ceb8ab610",
+    "backend/content/roadmap/b1-roadmap-0.11.2.json": "2893f6ee1d57c000e8d1db562fdaeadca0c84787789d834f7d64a6b983844204",
+    "backend/content/roadmap/b2-roadmap-0.11.1.json": "9423383a0c014816a8b83ee99ff04c0617917faf6f3201d0b0f3eb23e279a765",
+    "backend/content/roadmap/b2-roadmap-0.11.2.json": "955fa50203bfba677287942072720216fef95985fb36fc26e78a3a0bf7af200e",
+    "backend/content/roadmap/c1-roadmap-0.11.1.json": "30c09d2f5c1b44fa5cc64148d9cf2d38b264449a8835acc1a63fe2555a5f4ae0",
+    "backend/content/roadmap/c1-roadmap-0.11.2.json": "c7b52b8446348ae4ad1ab3733b84f08da8426d679f45b7755d6db0d3fe807ed1",
+    "backend/content/roadmap/c2-roadmap-0.11.1.json": "b4f6f7f8b49e8469f7162bc1e7f73a6a412cbbe8e660d8fef46640b48f32d660",
+    "backend/content/roadmap/c2-roadmap-0.11.2.json": "122431ad5157255c55ff8a1697cab271664a9f3e35622c9d39537a04f0c0cf46"
+  },
+  "main_import_authorized": false,
+  "official_exam_simulation": false,
+  "cefr_calibration": "not established",
+  "reference_notes": "Roadmap grouping and estimated hours are planning suggestions, not official CEFR grammar requirements or guarantees. Garbled vocabulary graph not converted into invented targets. No account-level change.",
+  "references": [
+    "https://www.coe.int/en/web/common-european-framework-reference-languages/reference-level-descriptions",
+    "https://www.france-education-international.fr/en/diplome/delf-tout-public/niveau-b2",
+    "https://www.france-education-international.fr/diplome/dalf"
+  ],
+  "current_import_state": {
+    "status": "imported unpublished after direct authorization",
+    "lessons": 136,
+    "scored_exercises": 272,
+    "open_tasks": 68,
+    "main_total_lessons": 317,
+    "original_modules_preserved": 52,
+    "receipt": "backend/content/roadmap/manifest/IMPORT-RECEIPT-20261123.json"
+  }
+}

@@ -27,7 +27,7 @@ def test_all_previously_empty_modules_have_coherent_reproducible_source():
     audit=load_script('audit_curriculum_coverage').audit()
     modules=[m for stage in audit['stages'] for m in stage['modules']]
     assert len(modules)==52 and all(m['main_lessons']+m['staged_lessons'] for m in modules)
-    assert sum(m['main_lessons'] for m in modules)==181 and sum(m['staged_lessons'] for m in modules)==5
+    assert sum(m['main_lessons'] for m in modules)==317 and sum(m['staged_lessons'] for m in modules)==5
     assert all(not m['competency_demonstrated'] and m['qualified_human_review']=='pending' for m in modules)
 
 def test_completion_import_preserves_all_prior_sources_and_answer_keys():

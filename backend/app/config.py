@@ -30,6 +30,9 @@ class Settings(BaseSettings):
     personal_preview_user_ids: set[UUID] = Field(
         default_factory=set, alias="PERSONAL_PREVIEW_USER_IDS"
     )
+    personal_preserve_retained_audio: bool = Field(
+        default=False, alias="PERSONAL_PRESERVE_RETAINED_AUDIO"
+    )
     development_register_limit: int = Field(default=30, alias="DEV_REGISTER_LIMIT")
     curriculum_reviewer_grants: dict[UUID, ReviewGrant] = Field(
         default_factory=dict, alias="CURRICULUM_REVIEWER_GRANTS"
@@ -138,6 +141,10 @@ class Settings(BaseSettings):
             raise ValueError("Session and token expiration periods must be positive.")
         if self.development_register_limit <= 0:
             raise ValueError("DEV_REGISTER_LIMIT must be positive.")
+        if self.personal_preserve_retained_audio and not (
+            self.personal_learning_preview_enabled and self.personal_preview_user_ids
+        ):
+            raise ValueError("Audio preservation requires a loopback development personal-preview scope and confirmed UUIDs.")
         return self
 
     @property

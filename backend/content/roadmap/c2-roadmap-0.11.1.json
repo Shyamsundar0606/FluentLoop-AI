@@ -1,0 +1,750 @@
+{
+  "version": "0.11.1",
+  "level": "C2",
+  "status": "draft",
+  "source_license": "Original AI-assisted roadmap practice. Independent language, pedagogy, phonetic, answer-key and CEFR review pending.",
+  "tasks": [
+    {
+      "key": "topic-01-practice",
+      "skill": "grammar",
+      "title": "C2 roadmap 01: Complete grammar mastery",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nUne distinction entre consultation et décision paraît clarifier une procédure fictive. Encore faut-il qu’elle soit opérante : si toutes les propositions sont recueillies mais qu’aucune ne peut infléchir le choix, le mot consultation risque de promettre plus qu’il ne permet. À l’inverse, reconnaître une limite de décision n’abolit pas toute valeur d’information ou de discussion. L’analyse doit donc articuler des relations logiques différentes : la distinction peut être nécessaire à la clarté sans suffire à rendre la participation effective. La précision grammaticale ne tient pas à l’accumulation de tournures rares, mais à leur capacité de rendre ces relations lisibles. Une reprise plus simple doit préserver ce qui reste à établir, au lieu de transformer une condition en résultat acquis.\n\nNotice: Encore faut-il introduces a remaining necessary condition. Its inversion does not prove that the condition is sufficient or already met; the roadmap title is a target, not an achieved mastery claim.\nModel: Encore faut-il que cette distinction soit opérante.\nMeaning: That distinction still needs to be workable.\n\nUseful expressions: une distinction opérante = a distinction with practical effect; une condition nécessaire = a necessary condition; un résultat acquis = an established outcome",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence preserves the model’s meaning and scope?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Encore faut-il introduces a remaining necessary condition. Its inversion does not prove that the condition is sufficient or already met; the roadmap title is a target, not an achieved mastery claim. Model meaning: That distinction still needs to be workable.",
+          "options": [
+            "Encore faut-il que cette distinction soit opérante.",
+            "L’existence de cette distinction suffit à garantir son efficacité.",
+            "Puisque cette distinction est nécessaire, elle est déjà opérante."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "short_answer",
+          "prompt": "Encore faut-il que cette distinction ___ opérante.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "Encore faut-il introduces a remaining necessary condition. Its inversion does not prove that the condition is sufficient or already met; the roadmap title is a target, not an achieved mastery claim. The model uses « soit ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "soit"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: A useful distinction still needs practical effect and is not a sufficient guarantee of participation.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "Naming the distinction proves participation is effective.",
+            "Any limit on decision-making makes discussion worthless.",
+            "A useful distinction still needs practical effect and is not a sufficient guarantee of participation."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Nora requires explicit scope, not unlimited negotiability.. Transcript for review: Nora : Encore faut-il que chacun sache ce qui peut changer. Partenaire : Vous exigez donc que tout soit négociable ? Nora : Non, que les limites soient explicites et que l’influence annoncée corresponde à une possibilité réelle.",
+          "options": [
+            "The distinction has already guaranteed an outcome.",
+            "Nora requires explicit scope, not unlimited negotiability.",
+            "Nora demands that every constraint be removed."
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Nora : Encore faut-il que chacun sache ce qui peut changer. Partenaire : Vous exigez donc que tout soit négociable ? Nora : Non, que les limites soient explicites et que l’influence annoncée corresponde à une possibilité réelle."
+          }
+        }
+      ],
+      "module_title": "Complete grammar mastery",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-c2-01",
+          "title": "Complete grammar mastery",
+          "summary": "Encore faut-il introduces a remaining necessary condition. Its inversion does not prove that the condition is sufficient or already met; the roadmap title is a target, not an achieved mastery claim.",
+          "rule_code": "roadmap-c2-01",
+          "explanation_english": "Encore faut-il introduces a remaining necessary condition. Its inversion does not prove that the condition is sufficient or already met; the roadmap title is a target, not an achieved mastery claim.",
+          "examples": [
+            [
+              "Encore faut-il que cette distinction soit opérante.",
+              "That distinction still needs to be workable."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "topic-01-transfer",
+      "skill": "writing",
+      "title": "C2 transfer 01: Complete grammar mastery",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 500–650 French words. Analyse a fictional institutional procedure using precise subordination, modality and one justified stylistic inversion. Rewrite the argument in plain French without losing logical scope. This activity samples control; it cannot establish complete grammar mastery.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Complete grammar mastery",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-01-practice"
+      ]
+    },
+    {
+      "key": "topic-02-practice",
+      "skill": "grammar",
+      "title": "C2 roadmap 02: Precision in vocabulary",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nUn communiqué fictif promet une « ouverture maîtrisée ». Une lectrice y voit la garantie d’un accès réel ; un autre y entend surtout la conservation d’un contrôle. L’expression n’est pas dépourvue de sens, mais les conditions qui permettraient de départager ces lectures ne sont pas précisées. La qualifier de vague, d’ambiguë ou d’équivoque engage des diagnostics voisins, non identiques. Un commentaire rigoureux doit expliquer ce que chaque terme fait apparaître et ce qu’il risque de présupposer. Accuser une intention de tromper sur la seule base d’une équivocité serait un pas supplémentaire, que le dossier ne justifie pas. La précision lexicale consiste autant à limiter une accusation qu’à affiner une description.\n\nNotice: Ambigu, équivoque and vague can overlap without being interchangeable. Identify whether the problem is multiple readings, uncertainty of reference or insufficient specification.\nModel: Cette formule demeure équivoque sans être dénuée de sens.\nMeaning: This wording remains equivocal without being meaningless.\n\nUseful expressions: une équivocité = equivocalness; départager deux lectures = to distinguish between two readings; une accusation non étayée = an unsupported allegation",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence preserves the model’s meaning and scope?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Ambigu, équivoque and vague can overlap without being interchangeable. Identify whether the problem is multiple readings, uncertainty of reference or insufficient specification. Model meaning: This wording remains equivocal without being meaningless.",
+          "options": [
+            "L’équivocité de cette formule prouve une intention de tromper.",
+            "Cette formule n’a aucun sens, quelles que soient les circonstances.",
+            "Cette formule demeure équivoque sans être dénuée de sens."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "rebuild-the-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild the taught model sentence.",
+          "instructions": "Use every tile once in the model order. Other natural French orders are not assessed in this supported task.",
+          "explanation": "Ambigu, équivoque and vague can overlap without being interchangeable. Identify whether the problem is multiple readings, uncertainty of reference or insufficient specification.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "8f4617a6-f1e3-50b4-817b-939ac8703501",
+                "text": "Cette"
+              },
+              {
+                "id": "5409a259-e309-5130-8df3-e9e274b729ef",
+                "text": "formule"
+              },
+              {
+                "id": "dc4b01e3-143d-5ff3-81ac-76ec4f615c1b",
+                "text": "demeure"
+              },
+              {
+                "id": "6f65fa07-5db4-56ab-a995-ce2aedcae172",
+                "text": "équivoque"
+              },
+              {
+                "id": "0afec6af-9767-551c-97cf-cc5d5535b8f0",
+                "text": "sans"
+              },
+              {
+                "id": "81e40666-6769-5211-8288-1ab11deb432a",
+                "text": "être"
+              },
+              {
+                "id": "a3de1c44-5623-5d79-8c5a-553670db406b",
+                "text": "dénuée"
+              },
+              {
+                "id": "bc1b0aaf-f7d5-5fdf-8801-a06eb3545afd",
+                "text": "de"
+              },
+              {
+                "id": "693fded5-2cea-500d-a53c-f8b7e86c49b2",
+                "text": "sens."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "8f4617a6-f1e3-50b4-817b-939ac8703501",
+                "5409a259-e309-5130-8df3-e9e274b729ef",
+                "dc4b01e3-143d-5ff3-81ac-76ec4f615c1b",
+                "6f65fa07-5db4-56ab-a995-ce2aedcae172",
+                "0afec6af-9767-551c-97cf-cc5d5535b8f0",
+                "81e40666-6769-5211-8288-1ab11deb432a",
+                "a3de1c44-5623-5d79-8c5a-553670db406b",
+                "bc1b0aaf-f7d5-5fdf-8801-a06eb3545afd",
+                "693fded5-2cea-500d-a53c-f8b7e86c49b2"
+              ]
+            ],
+            "correct_sentence": "Cette formule demeure équivoque sans être dénuée de sens."
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: The diagnosis of equivocal wording does not establish deceptive intent.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "The dossier proves a deliberate attempt to deceive.",
+            "The diagnosis of equivocal wording does not establish deceptive intent.",
+            "Equivocal wording necessarily has no meaning."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Nora separates an interpretive ambiguity from an allegation of deception.. Transcript for review: Lectrice : Dites-vous ambigu ou trompeur ? Nora : Ambigu quant à l’accès promis. Pour parler d’une tromperie, il faudrait d’autres éléments sur l’intention et sur les conditions réelles.",
+          "options": [
+            "Nora separates an interpretive ambiguity from an allegation of deception.",
+            "Nora retracts every uncertainty about access.",
+            "The script proves intent from a single adjective."
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Lectrice : Dites-vous ambigu ou trompeur ? Nora : Ambigu quant à l’accès promis. Pour parler d’une tromperie, il faudrait d’autres éléments sur l’intention et sur les conditions réelles."
+          }
+        }
+      ],
+      "module_title": "Precision in vocabulary",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-c2-02",
+          "title": "Precision in vocabulary",
+          "summary": "Ambigu, équivoque and vague can overlap without being interchangeable. Identify whether the problem is multiple readings, uncertainty of reference or insufficient specification.",
+          "rule_code": "roadmap-c2-02",
+          "explanation_english": "Ambigu, équivoque and vague can overlap without being interchangeable. Identify whether the problem is multiple readings, uncertainty of reference or insufficient specification.",
+          "examples": [
+            [
+              "Cette formule demeure équivoque sans être dénuée de sens.",
+              "This wording remains equivocal without being meaningless."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-01-transfer"
+      ]
+    },
+    {
+      "key": "topic-02-transfer",
+      "skill": "writing",
+      "title": "C2 transfer 02: Precision in vocabulary",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 500–650 French words. Compare near-synonyms in a fictional public statement. Justify lexical choices, identify connotations and revise a paragraph that moves from an interpretive difficulty to an unsupported accusation. Defend a nuanced oral reformulation.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Precision in vocabulary",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-02-practice"
+      ]
+    },
+    {
+      "key": "topic-03-practice",
+      "skill": "grammar",
+      "title": "C2 roadmap 03: Literary French",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nDans cette miniature littéraire originale, un témoin raconte : « À peine eut-il parlé que la salle se tut. Ce silence, que chacun s’empressa ensuite d’interpréter, ne disait pourtant pas la même chose pour tous. » Le narrateur rapporte une succession rapide, puis résiste à l’attribution d’un sens unique au silence. Une lecture peut y voir l’effet d’une autorité ; une autre, un moment de perplexité. Les mots cités ne permettent pas de décider seuls entre ces interprétations. La tournure au passé antérieur contribue à la mise en scène temporelle, mais elle ne démontre aucune adhésion des auditeurs. Réécrire le passage dans un registre contemporain demande de conserver cette différence entre l’événement observable et le sens que des personnages lui prêtent.\n\nNotice: À peine followed by a compound past can introduce literary inversion in this model. Explain its temporal effect without assuming that a rarer form is appropriate in every register.\nModel: À peine eut-il parlé que la salle se tut.\nMeaning: He had barely spoken when the room fell silent.\n\nUseful expressions: le passé antérieur = the past anterior tense; une miniature littéraire = a short literary miniature; prêter un sens à = to ascribe a meaning to",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence preserves the model’s meaning and scope?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "À peine followed by a compound past can introduce literary inversion in this model. Explain its temporal effect without assuming that a rarer form is appropriate in every register. Model meaning: He had barely spoken when the room fell silent.",
+          "options": [
+            "La salle s’était tue bien avant que l’homme ne parle.",
+            "À peine eut-il parlé que la salle se tut.",
+            "Le silence de la salle démontre son adhésion unanime."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "expressions-in-context",
+          "type": "matching",
+          "prompt": "Match these contextual expressions to their English meanings.",
+          "instructions": "Use the meaning taught for this situation, not every possible dictionary meaning.",
+          "explanation": "The expressions are glossed in the lesson context.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "947506f6-1c18-517a-8278-c3cbec8f42e1",
+                "text": "le passé antérieur"
+              },
+              {
+                "id": "193ba5a0-e777-526c-9ccb-3167ae50aed3",
+                "text": "une miniature littéraire"
+              },
+              {
+                "id": "475af95e-7f0a-5ab5-905b-3c6739477057",
+                "text": "prêter un sens à"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "67636e78-b7e7-50ab-94c0-164423b961ad",
+                "text": "the past anterior tense"
+              },
+              {
+                "id": "1bac2666-eba1-5a4f-88ab-db9fd3baa392",
+                "text": "a short literary miniature"
+              },
+              {
+                "id": "f4948479-05fe-5b6b-b5e9-3f3c9539ce60",
+                "text": "to ascribe a meaning to"
+              }
+            ],
+            "answer_pairs": {
+              "947506f6-1c18-517a-8278-c3cbec8f42e1": "67636e78-b7e7-50ab-94c0-164423b961ad",
+              "193ba5a0-e777-526c-9ccb-3167ae50aed3": "1bac2666-eba1-5a4f-88ab-db9fd3baa392",
+              "475af95e-7f0a-5ab5-905b-3c6739477057": "f4948479-05fe-5b6b-b5e9-3f3c9539ce60"
+            }
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: A rapid event sequence is described while the meaning of silence remains open.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "A rapid event sequence is described while the meaning of silence remains open.",
+            "The tense proves unanimous agreement.",
+            "The fragment is attributed to a named historical author."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Observed silence and inferred agreement must be distinguished.. Transcript for review: Lecteur : Ce silence prouve qu’ils étaient convaincus. Nora : Il prouve qu’ils se sont tus, selon le récit. L’adhésion reste une interprétation, que d’autres indices pourraient soutenir ou contester.",
+          "options": [
+            "The narrator explicitly records unanimous approval.",
+            "Nora claims agreement is impossible.",
+            "Observed silence and inferred agreement must be distinguished."
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Lecteur : Ce silence prouve qu’ils étaient convaincus. Nora : Il prouve qu’ils se sont tus, selon le récit. L’adhésion reste une interprétation, que d’autres indices pourraient soutenir ou contester."
+          }
+        }
+      ],
+      "module_title": "Literary French",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-c2-03",
+          "title": "Literary French",
+          "summary": "À peine followed by a compound past can introduce literary inversion in this model. Explain its temporal effect without assuming that a rarer form is appropriate in every register.",
+          "rule_code": "roadmap-c2-03",
+          "explanation_english": "À peine followed by a compound past can introduce literary inversion in this model. Explain its temporal effect without assuming that a rarer form is appropriate in every register.",
+          "examples": [
+            [
+              "À peine eut-il parlé que la salle se tut.",
+              "He had barely spoken when the room fell silent."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-02-transfer"
+      ]
+    },
+    {
+      "key": "topic-03-transfer",
+      "skill": "writing",
+      "title": "C2 transfer 03: Literary French",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 500–650 French words. Analyse the original fragment’s temporal construction, narrator and unresolved interpretation. Rewrite it for a contemporary audience and compare what is gained or lost. Do not invent a classical attribution or call one interpretation uniquely correct.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Literary French",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-03-practice"
+      ]
+    },
+    {
+      "key": "topic-04-practice",
+      "skill": "grammar",
+      "title": "C2 roadmap 04: Rhetoric and persuasion",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nUn discours fictif oppose « convaincre » et « contraindre » pour défendre une démarche participative. L’antithèse rend le propos mémorable, mais risque de masquer des situations où une invitation courtoise s’accompagne de contraintes matérielles fortes. Une critique précise peut reconnaître l’efficacité rhétorique tout en examinant les conditions qu’elle laisse dans l’ombre. Elle n’a pas à conclure que toute persuasion est une contrainte ni que toute contrainte invalide un échange. Pour évaluer le discours, il faut nommer les marges de refus, les conséquences d’un désaccord et les possibilités de révision. L’enjeu est de passer d’une opposition séduisante à une description qui puisse être discutée, sans réduire le texte à une intention manipulatrice non démontrée.\n\nNotice: A rhetorical antithesis can sharpen a distinction while oversimplifying alternatives. Ne pas confondre X et Y warns against conflation without proving that they are unrelated.\nModel: Il convient de distinguer convaincre et contraindre.\nMeaning: It is appropriate to distinguish persuading from coercing.\n\nUseful expressions: une antithèse = an antithesis; une marge de refus = room to refuse; une opposition séduisante = an appealing contrast",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence preserves the model’s meaning and scope?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "A rhetorical antithesis can sharpen a distinction while oversimplifying alternatives. Ne pas confondre X et Y warns against conflation without proving that they are unrelated. Model meaning: It is appropriate to distinguish persuading from coercing.",
+          "options": [
+            "Il convient de distinguer convaincre et contraindre.",
+            "Convaincre et contraindre ne peuvent jamais avoir de rapport.",
+            "Toute démarche persuasive est nécessairement coercitive."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "fill_blank",
+          "prompt": "Il convient de ___ convaincre et contraindre.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "A rhetorical antithesis can sharpen a distinction while oversimplifying alternatives. Ne pas confondre X et Y warns against conflation without proving that they are unrelated. The model uses « distinguer ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "distinguer"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: The antithesis needs contextual examination without an automatic allegation of manipulation.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "Every act of persuasion is declared coercion.",
+            "The memorable contrast proves that no constraints exist.",
+            "The antithesis needs contextual examination without an automatic allegation of manipulation."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Persuasive force is acknowledged while its practical distinction is tested.. Transcript for review: Interlocuteur : Votre critique enlève toute force au discours. Nora : Je lui reconnais une force persuasive. Je demande seulement si la distinction annoncée résiste aux conditions concrètes de participation.",
+          "options": [
+            "The interlocutor supplies proof of unlimited freedom.",
+            "Persuasive force is acknowledged while its practical distinction is tested.",
+            "Nora denies any rhetorical effectiveness."
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Interlocuteur : Votre critique enlève toute force au discours. Nora : Je lui reconnais une force persuasive. Je demande seulement si la distinction annoncée résiste aux conditions concrètes de participation."
+          }
+        }
+      ],
+      "module_title": "Rhetoric and persuasion",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-c2-04",
+          "title": "Rhetoric and persuasion",
+          "summary": "A rhetorical antithesis can sharpen a distinction while oversimplifying alternatives. Ne pas confondre X et Y warns against conflation without proving that they are unrelated.",
+          "rule_code": "roadmap-c2-04",
+          "explanation_english": "A rhetorical antithesis can sharpen a distinction while oversimplifying alternatives. Ne pas confondre X et Y warns against conflation without proving that they are unrelated.",
+          "examples": [
+            [
+              "Il convient de distinguer convaincre et contraindre.",
+              "It is appropriate to distinguish persuading from coercing."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-03-transfer"
+      ]
+    },
+    {
+      "key": "topic-04-transfer",
+      "skill": "writing",
+      "title": "C2 transfer 04: Rhetoric and persuasion",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 500–650 French words. Write a persuasive intervention and a critical commentary on its own rhetorical choices. Develop a fair counterargument and reformulate for an audience that rejects your premise. Keep persuasion separate from unsupported allegations.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Rhetoric and persuasion",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-04-practice"
+      ]
+    },
+    {
+      "key": "topic-05-practice",
+      "skill": "grammar",
+      "title": "C2 roadmap 05: Cultural understanding",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nAu terme d’une réunion fictive consacrée à un formulaire très long, une participante déclare : « Voilà qui va enfin simplifier nos soirées. » Une lecture littérale y verrait un soulagement ; le contraste avec la longueur du formulaire rend une lecture ironique plausible. Le texte ne fournit toutefois ni intonation enregistrée ni réaction des autres personnes. L’analyse doit donc distinguer ce qui est linguistiquement compatible avec la phrase, ce que le contexte rend vraisemblable et ce qui demeurerait à vérifier. Une référence culturelle ou un humour partagé ne doit pas devenir une étiquette attribuée à tout un groupe. Reformuler sans ironie peut rendre une réserve plus accessible, mais aussi modifier la relation entre les interlocuteurs.\n\nNotice: An ironic or humorous reading depends on context, stance and sometimes prosody. A transcript can support an interpretation without proving every listener’s intent or reaction.\nModel: Le compliment pourrait aussi se lire comme une réserve.\nMeaning: The compliment could also be read as a reservation.\n\nUseful expressions: une lecture ironique = an ironic reading; une intonation = an intonation pattern; une réserve implicite = an implicit reservation",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence preserves the model’s meaning and scope?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "An ironic or humorous reading depends on context, stance and sometimes prosody. A transcript can support an interpretation without proving every listener’s intent or reaction. Model meaning: The compliment could also be read as a reservation.",
+          "options": [
+            "Ce compliment exprime une adhésion certaine, sans autre lecture possible.",
+            "Ce compliment prouve à lui seul une intention hostile.",
+            "Le compliment pourrait aussi se lire comme une réserve."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "short_answer",
+          "prompt": "Le compliment ___ aussi se lire comme une réserve.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "An ironic or humorous reading depends on context, stance and sometimes prosody. A transcript can support an interpretation without proving every listener’s intent or reaction. The model uses « pourrait ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "pourrait"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: Irony is plausible from context but not conclusively established by recorded prosody.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "A literal reading is grammatically impossible.",
+            "Irony is plausible from context but not conclusively established by recorded prosody.",
+            "The text proves every participant laughed."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Both context and actual performance would help resolve the ambiguity.. Transcript for review: Nora : Si c’est ironique, la réserve porte sur le formulaire. Partenaire : Et si la personne était soulagée ? Nora : Il faudrait écouter l’intonation et demander le contexte ; le script seul ne tranche pas tout.",
+          "options": [
+            "Both context and actual performance would help resolve the ambiguity.",
+            "The script proves one speaker’s private intention.",
+            "No contextual evidence can ever matter."
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Nora : Si c’est ironique, la réserve porte sur le formulaire. Partenaire : Et si la personne était soulagée ? Nora : Il faudrait écouter l’intonation et demander le contexte ; le script seul ne tranche pas tout."
+          }
+        }
+      ],
+      "module_title": "Cultural understanding",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-c2-05",
+          "title": "Cultural understanding",
+          "summary": "An ironic or humorous reading depends on context, stance and sometimes prosody. A transcript can support an interpretation without proving every listener’s intent or reaction.",
+          "rule_code": "roadmap-c2-05",
+          "explanation_english": "An ironic or humorous reading depends on context, stance and sometimes prosody. A transcript can support an interpretation without proving every listener’s intent or reaction.",
+          "examples": [
+            [
+              "Le compliment pourrait aussi se lire comme une réserve.",
+              "The compliment could also be read as a reservation."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-04-transfer"
+      ]
+    },
+    {
+      "key": "topic-05-transfer",
+      "skill": "writing",
+      "title": "C2 transfer 05: Cultural understanding",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 500–650 French words. Analyse an original fictional humorous exchange with competing readings. Produce explicit and restrained versions for different audiences. Explain the limits of the transcript and avoid cultural stereotypes or invented historical references.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Cultural understanding",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-05-practice"
+      ]
+    },
+    {
+      "key": "topic-06-practice",
+      "skill": "grammar",
+      "title": "C2 roadmap 06: Advanced written expression",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nUn musée fictif souhaite « rendre enfin leur place aux mémoires ordinaires ». Une historienne salue la diversité des témoignages mais craint que enfin n’efface le travail associatif antérieur. La médiatrice défend un panneau lisible, non un inventaire de toutes les précautions historiographiques. Le désaccord concerne donc l’attribution et la mise en récit, pas uniquement le nombre de mots. Une analyse doit reconnaître le besoin d’accessibilité sans le présenter comme une réponse suffisante à la critique. Elle peut proposer de distinguer témoignage, sélection éditoriale et commentaire institutionnel. Cette proposition reste à éprouver auprès des lecteurs ; le dossier ne fournit aucun résultat de réception et ne démontre pas une intention frauduleuse.\n\nNotice: Concession and restriction should preserve the precise object of a critique. La lisibilité ne dispense pas de… acknowledges readability while retaining another responsibility.\nModel: La lisibilité ne dispense pas d’expliciter les sources.\nMeaning: Readability does not remove the need to make sources explicit.\n\nUseful expressions: la mise en récit = narrative construction; une médiation éditoriale = editorial mediation; un résultat de réception = an audience-reception result",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence preserves the model’s meaning and scope?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Concession and restriction should preserve the precise object of a critique. La lisibilité ne dispense pas de… acknowledges readability while retaining another responsibility. Model meaning: Readability does not remove the need to make sources explicit.",
+          "options": [
+            "L’explicitation des sources rend toute lisibilité impossible.",
+            "La lisibilité ne dispense pas d’expliciter les sources.",
+            "La nécessité de rendre le panneau lisible dispense de nommer les sources."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "rebuild-the-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild the taught model sentence.",
+          "instructions": "Use every tile once in the model order. Other natural French orders are not assessed in this supported task.",
+          "explanation": "Concession and restriction should preserve the precise object of a critique. La lisibilité ne dispense pas de… acknowledges readability while retaining another responsibility.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "9d982039-d583-5b33-b667-c4dd88f5dc8e",
+                "text": "La"
+              },
+              {
+                "id": "dc4e5965-62ed-557a-839e-019942ea9483",
+                "text": "lisibilité"
+              },
+              {
+                "id": "5efaf8ac-11e2-5560-95bd-95aab50bbb87",
+                "text": "ne"
+              },
+              {
+                "id": "2730fef1-deb4-52c5-a5f5-5387642bbd4c",
+                "text": "dispense"
+              },
+              {
+                "id": "a993ff5f-365c-599a-ad40-8e6a7e3b31fa",
+                "text": "pas"
+              },
+              {
+                "id": "dd57be7e-a044-5499-943a-19bf94afed75",
+                "text": "d’expliciter"
+              },
+              {
+                "id": "82222cf9-9b92-5112-a51b-aa66d810e067",
+                "text": "les"
+              },
+              {
+                "id": "60e3cf5e-e7f8-5752-a4b4-91ff541db0bb",
+                "text": "sources."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "9d982039-d583-5b33-b667-c4dd88f5dc8e",
+                "dc4e5965-62ed-557a-839e-019942ea9483",
+                "5efaf8ac-11e2-5560-95bd-95aab50bbb87",
+                "2730fef1-deb4-52c5-a5f5-5387642bbd4c",
+                "a993ff5f-365c-599a-ad40-8e6a7e3b31fa",
+                "dd57be7e-a044-5499-943a-19bf94afed75",
+                "82222cf9-9b92-5112-a51b-aa66d810e067",
+                "60e3cf5e-e7f8-5752-a4b4-91ff541db0bb"
+              ]
+            ],
+            "correct_sentence": "La lisibilité ne dispense pas d’expliciter les sources."
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: Readability and explicit attribution can be considered together without inventing audience results or fraudulent intent.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "Readability and explicit attribution can be considered together without inventing audience results or fraudulent intent.",
+            "The historian rejects all ordinary testimony.",
+            "Audience testing has proved the proposed panel succeeds."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: The proposal makes distinct narrative and editorial roles visible.. Transcript for review: Médiatrice : Retirer enfin suffirait-il ? Historienne : Pas si le musée reste le seul acteur du récit. Habitante : Précisons qui témoigne, qui sélectionne et qui commente.",
+          "options": [
+            "Removing one word necessarily solves every attribution problem.",
+            "The museum must exclude inhabitants’ testimony.",
+            "The proposal makes distinct narrative and editorial roles visible."
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Médiatrice : Retirer enfin suffirait-il ? Historienne : Pas si le musée reste le seul acteur du récit. Habitante : Précisons qui témoigne, qui sélectionne et qui commente."
+          }
+        }
+      ],
+      "module_title": "Advanced written expression",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-c2-06",
+          "title": "Advanced written expression",
+          "summary": "Concession and restriction should preserve the precise object of a critique. La lisibilité ne dispense pas de… acknowledges readability while retaining another responsibility.",
+          "rule_code": "roadmap-c2-06",
+          "explanation_english": "Concession and restriction should preserve the precise object of a critique. La lisibilité ne dispense pas de… acknowledges readability while retaining another responsibility.",
+          "examples": [
+            [
+              "La lisibilité ne dispense pas d’expliciter les sources.",
+              "Readability does not remove the need to make sources explicit."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-05-transfer"
+      ]
+    },
+    {
+      "key": "topic-06-transfer",
+      "skill": "writing",
+      "title": "C2 transfer 06: Advanced written expression",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 500–650 French words. Write an extended analytical critique, a short public panel and a contributor note with consistent attributions and uncertainty. Compare competing readings and delimit inferred intent. The separate staged C2 museum model may support review but is not a unique answer or imported lesson.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Advanced written expression",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-06-practice"
+      ]
+    }
+  ],
+  "title": "C2 roadmap practice, part 1",
+  "glossary": [],
+  "learning_stage": null
+}

@@ -1,0 +1,721 @@
+{
+  "version": "0.11.2",
+  "level": "A1",
+  "status": "draft",
+  "source_license": "Original AI-assisted roadmap practice. Independent language, pedagogy, phonetic, answer-key and CEFR review pending.",
+  "tasks": [
+    {
+      "key": "topic-07-practice",
+      "skill": "grammar",
+      "title": "A1 roadmap 07: Sentence building",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nUn visiteur demande : « Vous parlez anglais ? » Nora répond : « Non, je ne parle pas anglais. Je parle français. » Le visiteur demande alors de parler lentement.\n\nNotice: In a standard written negative, ne comes before the conjugated verb and pas after it; ne elides to n’ before a vowel.\nModel: Je ne parle pas anglais.\nMeaning: I do not speak English.\n\nUseful expressions: une question = a question; lentement = slowly; bien sûr = of course",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "In a standard written negative, ne comes before the conjugated verb and pas after it; ne elides to n’ before a vowel. Model meaning: I do not speak English.",
+          "options": [
+            "Je parle ne pas anglais.",
+            "Je ne pas parle anglais.",
+            "Je ne parle pas anglais."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "expressions-in-context",
+          "type": "matching",
+          "prompt": "Match these contextual expressions to their English meanings.",
+          "instructions": "Use the meaning taught for this situation, not every possible dictionary meaning.",
+          "explanation": "The expressions are glossed in the lesson context.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "b0e33106-f355-5beb-b384-ca1dc509acb3",
+                "text": "une question"
+              },
+              {
+                "id": "75b72205-2b25-5d98-b793-05e76662fc18",
+                "text": "lentement"
+              },
+              {
+                "id": "6620cb17-b939-5767-8edb-056cd6e4544a",
+                "text": "bien sûr"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "a4f96c3f-57d9-5d8f-a800-cb80bb314981",
+                "text": "a question"
+              },
+              {
+                "id": "69f3dbed-4349-57ca-9d10-db49b2c2a0aa",
+                "text": "slowly"
+              },
+              {
+                "id": "913a223a-e260-5068-9c6a-422ba65e247c",
+                "text": "of course"
+              }
+            ],
+            "answer_pairs": {
+              "b0e33106-f355-5beb-b384-ca1dc509acb3": "a4f96c3f-57d9-5d8f-a800-cb80bb314981",
+              "75b72205-2b25-5d98-b793-05e76662fc18": "69f3dbed-4349-57ca-9d10-db49b2c2a0aa",
+              "6620cb17-b939-5767-8edb-056cd6e4544a": "913a223a-e260-5068-9c6a-422ba65e247c"
+            }
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: Nora says she speaks French, not English.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "The visitor asks Nora to speak faster.",
+            "Nora says she speaks French, not English.",
+            "Nora says she cannot speak any language."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: The visitor requests slower speech.. Transcript for review: Visiteur : Est-ce que vous parlez français ? Nora : Oui. Visiteur : Pouvez-vous parler lentement ? Nora : Oui, bien sûr.",
+          "options": [
+            "The visitor requests slower speech.",
+            "The visitor requests an English book.",
+            "Nora refuses to answer."
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Visiteur : Est-ce que vous parlez français ? Nora : Oui. Visiteur : Pouvez-vous parler lentement ? Nora : Oui, bien sûr."
+          }
+        }
+      ],
+      "module_title": "Sentence building",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-a1-07",
+          "title": "Sentence building",
+          "summary": "In a standard written negative, ne comes before the conjugated verb and pas after it; ne elides to n’ before a vowel.",
+          "rule_code": "roadmap-a1-07",
+          "explanation_english": "In a standard written negative, ne comes before the conjugated verb and pas after it; ne elides to n’ before a vowel.",
+          "examples": [
+            [
+              "Je ne parle pas anglais.",
+              "I do not speak English."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "topic-07-transfer",
+      "skill": "writing",
+      "title": "A1 transfer 07: Sentence building",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 40–60 French words. Write three statements, negate one and turn two into simple questions. Include a polite request for slower speech. Practise answering rather than only reading the questions.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Sentence building",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-07-practice"
+      ]
+    },
+    {
+      "key": "topic-08-practice",
+      "skill": "grammar",
+      "title": "A1 roadmap 08: Everyday activities",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nEn semaine, Lina se lève à sept heures. Elle prend le bus à huit heures. Le dimanche, elle se lève à neuf heures. Ce matin est un lundi.\n\nNotice: The reflexive pronoun follows the subject: je me lève, tu te lèves. The present can describe a usual routine.\nModel: Je me lève à sept heures.\nMeaning: I get up at seven.\n\nUseful expressions: se lever = to get up; en semaine = on weekdays; prendre le bus = to take the bus",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The reflexive pronoun follows the subject: je me lève, tu te lèves. The present can describe a usual routine. Model meaning: I get up at seven.",
+          "options": [
+            "Je me lèves à sept heures.",
+            "Je me lève à sept heures.",
+            "Je se lève à sept heures."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "fill_blank",
+          "prompt": "Je ___ lève à sept heures.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "The reflexive pronoun follows the subject: je me lève, tu te lèves. The present can describe a usual routine. The model uses « me ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "me"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: On a usual weekday Lina gets up at seven.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "On a usual weekday Lina gets up at seven.",
+            "Lina always gets up at nine.",
+            "Lina takes the bus at seven."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Lina plans to get up at nine on Sunday.. Transcript for review: Paul : Tu te lèves à sept heures demain ? Lina : Non, demain c’est dimanche. Je me lève à neuf heures.",
+          "options": [
+            "Lina gets up at seven on Sunday.",
+            "Tomorrow is Monday.",
+            "Lina plans to get up at nine on Sunday."
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Paul : Tu te lèves à sept heures demain ? Lina : Non, demain c’est dimanche. Je me lève à neuf heures."
+          }
+        }
+      ],
+      "module_title": "Everyday activities",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-a1-08",
+          "title": "Everyday activities",
+          "summary": "The reflexive pronoun follows the subject: je me lève, tu te lèves. The present can describe a usual routine.",
+          "rule_code": "roadmap-a1-08",
+          "explanation_english": "The reflexive pronoun follows the subject: je me lève, tu te lèves. The present can describe a usual routine.",
+          "examples": [
+            [
+              "Je me lève à sept heures.",
+              "I get up at seven."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-07-transfer"
+      ]
+    },
+    {
+      "key": "topic-08-transfer",
+      "skill": "writing",
+      "title": "A1 transfer 08: Everyday activities",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 40–60 French words. Describe a weekday and a different weekend morning with times and at least two familiar reflexive verbs. Ask a partner when they get up and check the reply.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Everyday activities",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-08-practice"
+      ]
+    },
+    {
+      "key": "topic-09-practice",
+      "skill": "grammar",
+      "title": "A1 roadmap 09: Family and people",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nDans cette famille imaginaire, Inès a un frère et une sœur. Sa sœur a un vélo bleu. Son frère a un petit sac noir. Le vélo n’appartient pas au frère.\n\nNotice: A possessive agrees with the possessed noun: ma sœur, mon frère, mes parents. It does not describe the owner’s gender.\nModel: Ma sœur a un vélo bleu.\nMeaning: My sister has a blue bicycle.\n\nUseful expressions: ma sœur = my sister; mon frère = my brother; les cheveux bruns = brown hair",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "A possessive agrees with the possessed noun: ma sœur, mon frère, mes parents. It does not describe the owner’s gender. Model meaning: My sister has a blue bicycle.",
+          "options": [
+            "Ma sœur a un vélo bleu.",
+            "Mon sœur a un vélo bleu.",
+            "Ma sœur ont un vélo bleu."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "short_answer",
+          "prompt": "___ sœur a un vélo bleu.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "A possessive agrees with the possessed noun: ma sœur, mon frère, mes parents. It does not describe the owner’s gender. The model uses « Ma ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "Ma"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: The sister has the blue bicycle.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "The brother has the blue bicycle.",
+            "Both siblings have a black bicycle.",
+            "The sister has the blue bicycle."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: The sister is tall with brown hair.. Transcript for review: Inès : Voici ma sœur. Elle est grande et elle a les cheveux bruns. Paul : Et ton frère ? Inès : Il est petit.",
+          "options": [
+            "The sister is short.",
+            "The sister is tall with brown hair.",
+            "The brother has brown hair in the script."
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Inès : Voici ma sœur. Elle est grande et elle a les cheveux bruns. Paul : Et ton frère ? Inès : Il est petit."
+          }
+        }
+      ],
+      "module_title": "Family and people",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-a1-09",
+          "title": "Family and people",
+          "summary": "A possessive agrees with the possessed noun: ma sœur, mon frère, mes parents. It does not describe the owner’s gender.",
+          "rule_code": "roadmap-a1-09",
+          "explanation_english": "A possessive agrees with the possessed noun: ma sœur, mon frère, mes parents. It does not describe the owner’s gender.",
+          "examples": [
+            [
+              "Ma sœur a un vélo bleu.",
+              "My sister has a blue bicycle."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-08-transfer"
+      ]
+    },
+    {
+      "key": "topic-09-transfer",
+      "skill": "writing",
+      "title": "A1 transfer 09: Family and people",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 40–60 French words. Describe two fictional relatives and their possessions. Use possessives and a few agreed adjectives. Do not use private family details.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Family and people",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-09-practice"
+      ]
+    },
+    {
+      "key": "topic-10-practice",
+      "skill": "grammar",
+      "title": "A1 roadmap 10: Food and shopping",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nAu marché, les pommes coûtent trois euros le kilo. Nora achète deux kilos. Elle paie six euros. Elle demande aussi du pain, mais le texte ne donne pas son prix.\n\nNotice: After a stated quantity use de: deux kilos de pommes. In this positive food request du is a partitive, not a count of individual units.\nModel: Je voudrais deux kilos de pommes.\nMeaning: I would like two kilos of apples.\n\nUseful expressions: un kilo = a kilogram; du pain = some bread; sans sucre = without sugar",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "After a stated quantity use de: deux kilos de pommes. In this positive food request du is a partitive, not a count of individual units. Model meaning: I would like two kilos of apples.",
+          "options": [
+            "Je voudrais deux kilos des pommes.",
+            "Je voudrais deux kilo de pommes.",
+            "Je voudrais deux kilos de pommes."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "rebuild-the-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild the taught model sentence.",
+          "instructions": "Use every tile once in the model order. Other natural French orders are not assessed in this supported task.",
+          "explanation": "After a stated quantity use de: deux kilos de pommes. In this positive food request du is a partitive, not a count of individual units.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "888933f4-78e0-5b93-95c4-e4a262e9a05f",
+                "text": "Je"
+              },
+              {
+                "id": "317d3320-9ac4-595d-997c-6c20375340dd",
+                "text": "voudrais"
+              },
+              {
+                "id": "f99970c4-0908-5a84-9ee9-f95ec724051e",
+                "text": "deux"
+              },
+              {
+                "id": "08d5bc60-97c5-542f-95ee-06d098b4558c",
+                "text": "kilos"
+              },
+              {
+                "id": "febc73ec-f27a-58b4-890b-e74512a73605",
+                "text": "de"
+              },
+              {
+                "id": "a108db19-e4d9-5c87-b3cb-662723ea6131",
+                "text": "pommes."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "888933f4-78e0-5b93-95c4-e4a262e9a05f",
+                "317d3320-9ac4-595d-997c-6c20375340dd",
+                "f99970c4-0908-5a84-9ee9-f95ec724051e",
+                "08d5bc60-97c5-542f-95ee-06d098b4558c",
+                "febc73ec-f27a-58b4-890b-e74512a73605",
+                "a108db19-e4d9-5c87-b3cb-662723ea6131"
+              ]
+            ],
+            "correct_sentence": "Je voudrais deux kilos de pommes."
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: The apples cost six euros altogether.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "One kilo costs six euros.",
+            "The apples cost six euros altogether.",
+            "The whole purchase including bread costs six euros."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: The customer requests coffee without sugar and water.. Transcript for review: Client : Un café, s’il vous plaît. Serveuse : Avec du sucre ? Client : Non merci, et un verre d’eau, s’il vous plaît.",
+          "options": [
+            "The customer requests coffee without sugar and water.",
+            "The customer requests two sweet coffees.",
+            "The customer refuses water."
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Client : Un café, s’il vous plaît. Serveuse : Avec du sucre ? Client : Non merci, et un verre d’eau, s’il vous plaît."
+          }
+        }
+      ],
+      "module_title": "Food and shopping",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-a1-10",
+          "title": "Food and shopping",
+          "summary": "After a stated quantity use de: deux kilos de pommes. In this positive food request du is a partitive, not a count of individual units.",
+          "rule_code": "roadmap-a1-10",
+          "explanation_english": "After a stated quantity use de: deux kilos de pommes. In this positive food request du is a partitive, not a count of individual units.",
+          "examples": [
+            [
+              "Je voudrais deux kilos de pommes.",
+              "I would like two kilos of apples."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-09-transfer"
+      ]
+    },
+    {
+      "key": "topic-10-transfer",
+      "skill": "writing",
+      "title": "A1 transfer 10: Food and shopping",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 40–60 French words. Write a short café or market exchange with a quantity, a price and a polite request. Check the final order aloud; invent prices rather than reporting real banking details.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Food and shopping",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-10-practice"
+      ]
+    },
+    {
+      "key": "topic-11-practice",
+      "skill": "grammar",
+      "title": "A1 roadmap 11: Places and directions",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nLa gare est devant la place. Il y a une pharmacie près de la gare, à gauche de la boulangerie. La bibliothèque est derrière la place. Ce plan est imaginaire.\n\nNotice: Il y a introduces what exists in a place. For a simple location, près de means near and à gauche means on the left.\nModel: Il y a une pharmacie près de la gare.\nMeaning: There is a pharmacy near the station.\n\nUseful expressions: tout droit = straight ahead; à gauche = on the left; près de la gare = near the station",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Il y a introduces what exists in a place. For a simple location, près de means near and à gauche means on the left. Model meaning: There is a pharmacy near the station.",
+          "options": [
+            "Il est y a une pharmacie près de la gare.",
+            "Il y a une pharmacie près de la gare.",
+            "Il y une pharmacie près de la gare."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "expressions-in-context",
+          "type": "matching",
+          "prompt": "Match these contextual expressions to their English meanings.",
+          "instructions": "Use the meaning taught for this situation, not every possible dictionary meaning.",
+          "explanation": "The expressions are glossed in the lesson context.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "8e616720-02e1-5bb2-94d6-4a7a5e578a19",
+                "text": "tout droit"
+              },
+              {
+                "id": "dbb04090-8589-5592-88b0-46ca6f355066",
+                "text": "à gauche"
+              },
+              {
+                "id": "fd52d33f-4343-51dc-be23-7b78b6803f18",
+                "text": "près de la gare"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "395abe96-5689-54b3-b7a1-2f3875e4d649",
+                "text": "straight ahead"
+              },
+              {
+                "id": "32e8799b-ade8-5594-85f5-31be997eb350",
+                "text": "on the left"
+              },
+              {
+                "id": "4bc16588-4fbd-59c7-8a60-fd06e34576a9",
+                "text": "near the station"
+              }
+            ],
+            "answer_pairs": {
+              "8e616720-02e1-5bb2-94d6-4a7a5e578a19": "395abe96-5689-54b3-b7a1-2f3875e4d649",
+              "dbb04090-8589-5592-88b0-46ca6f355066": "32e8799b-ade8-5594-85f5-31be997eb350",
+              "fd52d33f-4343-51dc-be23-7b78b6803f18": "4bc16588-4fbd-59c7-8a60-fd06e34576a9"
+            }
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: The pharmacy is left of the bakery near the station.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "The pharmacy is left of the bakery near the station.",
+            "The pharmacy is behind the library.",
+            "The library is inside the bakery."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Turn right before finding the station on the left.. Transcript for review: Passant : Allez tout droit, puis tournez à droite. La gare est à gauche, après le café. Étudiante : D’accord, à droite, puis la gare à gauche.",
+          "options": [
+            "Turn left first and enter the café.",
+            "The station is before the first turn.",
+            "Turn right before finding the station on the left."
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Passant : Allez tout droit, puis tournez à droite. La gare est à gauche, après le café. Étudiante : D’accord, à droite, puis la gare à gauche."
+          }
+        }
+      ],
+      "module_title": "Places and directions",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-a1-11",
+          "title": "Places and directions",
+          "summary": "Il y a introduces what exists in a place. For a simple location, près de means near and à gauche means on the left.",
+          "rule_code": "roadmap-a1-11",
+          "explanation_english": "Il y a introduces what exists in a place. For a simple location, près de means near and à gauche means on the left.",
+          "examples": [
+            [
+              "Il y a une pharmacie près de la gare.",
+              "There is a pharmacy near the station."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-10-transfer"
+      ]
+    },
+    {
+      "key": "topic-11-transfer",
+      "skill": "writing",
+      "title": "A1 transfer 11: Places and directions",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 40–60 French words. Describe a fictional neighbourhood and give two-step directions. Use an imperative, il y a and place expressions. Ask the listener to repeat one direction.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Places and directions",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-11-practice"
+      ]
+    },
+    {
+      "key": "topic-12-practice",
+      "skill": "grammar",
+      "title": "A1 roadmap 12: Essential conversation",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nIl pleut aujourd’hui. Léa ne va pas au parc. Elle va regarder un film chez elle ce soir. Elle invite Hugo, qui aime le cinéma.\n\nNotice: Futur proche uses a present form of aller plus an infinitive. A demonstrative such as ce agrees with its noun: ce soir.\nModel: Ce soir, je vais regarder un film.\nMeaning: Tonight I am going to watch a film.\n\nUseful expressions: il pleut = it is raining; ce soir = tonight; à tout à l’heure = see you shortly",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Futur proche uses a present form of aller plus an infinitive. A demonstrative such as ce agrees with its noun: ce soir. Model meaning: Tonight I am going to watch a film.",
+          "options": [
+            "Ce soir, je vais regarder un film.",
+            "Ce soir, je vais regarde un film.",
+            "Ce soir, je va regarder un film."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "fill_blank",
+          "prompt": "Ce soir, je ___ un film.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "Futur proche uses a present form of aller plus an infinitive. A demonstrative such as ce agrees with its noun: ce soir. The model uses « vais regarder ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "vais regarder"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: Léa plans a film at home because of the rain.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "Léa plans a picnic in the park.",
+            "Hugo says he dislikes films.",
+            "Léa plans a film at home because of the rain."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Hugo expects to arrive at seven thirty.. Transcript for review: Léa : Tu veux venir à dix-neuf heures ? Hugo : Oui, mais je vais arriver à dix-neuf heures trente. Léa : Très bien, à tout à l’heure.",
+          "options": [
+            "Léa asks him to arrive at nine thirty.",
+            "Hugo expects to arrive at seven thirty.",
+            "Hugo refuses the invitation."
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Léa : Tu veux venir à dix-neuf heures ? Hugo : Oui, mais je vais arriver à dix-neuf heures trente. Léa : Très bien, à tout à l’heure."
+          }
+        }
+      ],
+      "module_title": "Essential conversation",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-a1-12",
+          "title": "Essential conversation",
+          "summary": "Futur proche uses a present form of aller plus an infinitive. A demonstrative such as ce agrees with its noun: ce soir.",
+          "rule_code": "roadmap-a1-12",
+          "explanation_english": "Futur proche uses a present form of aller plus an infinitive. A demonstrative such as ce agrees with its noun: ce soir.",
+          "examples": [
+            [
+              "Ce soir, je vais regarder un film.",
+              "Tonight I am going to watch a film."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-11-transfer"
+      ]
+    },
+    {
+      "key": "topic-12-transfer",
+      "skill": "writing",
+      "title": "A1 transfer 12: Essential conversation",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 40–60 French words. Invite an imaginary friend to an activity, mention the weather, use futur proche and confirm a time. Politely accept or decline a reply with a simple reason.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Essential conversation",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-12-practice"
+      ]
+    }
+  ],
+  "title": "A1 roadmap practice, part 2",
+  "glossary": [],
+  "learning_stage": null
+}
