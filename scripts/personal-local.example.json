@@ -8,6 +8,7 @@
   ],
   "personal_preview_user_ids": [],
   "enable_personal_preview": false,
+  "preserve_retained_audio": true,
   "enable_ai": true,
   "enable_speech": true,
   "maintenance_reviewed": false,

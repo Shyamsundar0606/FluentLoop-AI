@@ -1,5 +1,5 @@
 {
-  "version": "1.4.0",
+  "version": "1.5.0",
   "stages": [
     {
       "code": "A0",
@@ -108,7 +108,11 @@
           "lesson_slugs": [
             "a1-001",
             "a1-002",
-            "m10-assessments-a1-0.9.1-greet-introduce-close"
+            "m10-assessments-a1-0.9.1-greet-introduce-close",
+            "m10-assessments-a1-0.11.1-topic-01-practice",
+            "m10-assessments-a1-0.11.1-topic-01-transfer",
+            "m10-assessments-a1-0.11.1-topic-02-practice",
+            "m10-assessments-a1-0.11.1-topic-02-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -137,7 +141,11 @@
             "a1-004",
             "m10-assessments-a1-0.3.2-tell-the-time",
             "m10-assessments-a1-0.3.2-days-and-dates",
-            "m10-assessments-a1-0.3.2-write-a-meeting-message"
+            "m10-assessments-a1-0.3.2-write-a-meeting-message",
+            "m10-assessments-a1-0.11.1-topic-03-practice",
+            "m10-assessments-a1-0.11.1-topic-03-transfer",
+            "m10-assessments-a1-0.11.1-topic-04-practice",
+            "m10-assessments-a1-0.11.1-topic-04-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -166,7 +174,13 @@
             "a1-006",
             "m10-assessments-a1-0.3.2-describe-clothes",
             "m10-assessments-a1-0.3.2-negate-a-quantity",
-            "m10-assessments-a1-0.9.1-first-sentences-writing"
+            "m10-assessments-a1-0.9.1-first-sentences-writing",
+            "m10-assessments-a1-0.11.1-topic-05-practice",
+            "m10-assessments-a1-0.11.1-topic-05-transfer",
+            "m10-assessments-a1-0.11.1-topic-06-practice",
+            "m10-assessments-a1-0.11.1-topic-06-transfer",
+            "m10-assessments-a1-0.11.2-topic-07-practice",
+            "m10-assessments-a1-0.11.2-topic-07-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -193,7 +207,9 @@
           "lesson_slugs": [
             "a1-007",
             "a1-008",
-            "m10-assessments-a1-0.9.1-people-and-possessions-writing"
+            "m10-assessments-a1-0.9.1-people-and-possessions-writing",
+            "m10-assessments-a1-0.11.2-topic-09-practice",
+            "m10-assessments-a1-0.11.2-topic-09-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -220,7 +236,9 @@
           "lesson_slugs": [
             "a1-009",
             "m10-assessments-a1-0.3.2-a-morning-routine",
-            "m10-assessments-a1-0.9.1-routine-writing-and-repair"
+            "m10-assessments-a1-0.9.1-routine-writing-and-repair",
+            "m10-assessments-a1-0.11.2-topic-08-practice",
+            "m10-assessments-a1-0.11.2-topic-08-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -252,7 +270,9 @@
             "m10-assessments-a1-0.2.1-module-1-writing",
             "m10-assessments-a1-0.3.2-ask-a-price",
             "m10-assessments-a1-0.4.1-interpret-scenario",
-            "m10-assessments-a1-0.4.1-transfer-and-review"
+            "m10-assessments-a1-0.4.1-transfer-and-review",
+            "m10-assessments-a1-0.11.2-topic-10-practice",
+            "m10-assessments-a1-0.11.2-topic-10-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -282,7 +302,9 @@
             "m10-assessments-a1-0.2.1-module-2-reading",
             "m10-assessments-a1-0.2.1-module-2-writing",
             "m10-assessments-a1-0.3.2-locate-a-place",
-            "m10-assessments-a1-0.3.2-go-to-a-place"
+            "m10-assessments-a1-0.3.2-go-to-a-place",
+            "m10-assessments-a1-0.11.2-topic-11-practice",
+            "m10-assessments-a1-0.11.2-topic-11-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -340,7 +362,9 @@
             "a1-08"
           ],
           "lesson_slugs": [
-            "m10-assessments-a1-0.3.2-a-day-and-a-request"
+            "m10-assessments-a1-0.3.2-a-day-and-a-request",
+            "m10-assessments-a1-0.11.2-topic-12-practice",
+            "m10-assessments-a1-0.11.2-topic-12-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -375,7 +399,15 @@
             "m10-assessments-a2-0.2.1-module-1-grammar",
             "m10-assessments-a2-0.2.1-module-1-vocabulary",
             "m10-assessments-a2-0.2.1-module-1-reading",
-            "m10-assessments-a2-0.2.1-module-1-writing"
+            "m10-assessments-a2-0.2.1-module-1-writing",
+            "m10-assessments-a2-0.11.1-topic-04-practice",
+            "m10-assessments-a2-0.11.1-topic-04-transfer",
+            "m10-assessments-a2-0.11.1-topic-05-practice",
+            "m10-assessments-a2-0.11.1-topic-05-transfer",
+            "m10-assessments-a2-0.11.2-topic-10-practice",
+            "m10-assessments-a2-0.11.2-topic-10-transfer",
+            "m10-assessments-a2-0.11.2-topic-11-practice",
+            "m10-assessments-a2-0.11.2-topic-11-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -403,7 +435,11 @@
             "m10-assessments-a2-0.2.1-module-2-grammar",
             "m10-assessments-a2-0.2.1-module-2-vocabulary",
             "m10-assessments-a2-0.2.1-module-2-reading",
-            "m10-assessments-a2-0.2.1-module-2-writing"
+            "m10-assessments-a2-0.2.1-module-2-writing",
+            "m10-assessments-a2-0.11.1-topic-02-practice",
+            "m10-assessments-a2-0.11.1-topic-02-transfer",
+            "m10-assessments-a2-0.11.1-topic-03-practice",
+            "m10-assessments-a2-0.11.1-topic-03-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -457,7 +493,11 @@
           ],
           "lesson_slugs": [
             "m10-assessments-a2-0.4.2-interpret-scenario",
-            "m10-assessments-a2-0.4.2-transfer-and-review"
+            "m10-assessments-a2-0.4.2-transfer-and-review",
+            "m10-assessments-a2-0.11.1-topic-06-practice",
+            "m10-assessments-a2-0.11.1-topic-06-transfer",
+            "m10-assessments-a2-0.11.2-topic-07-practice",
+            "m10-assessments-a2-0.11.2-topic-07-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -484,7 +524,9 @@
           "lesson_slugs": [
             "m10-assessments-a2-0.7.5-read-and-notice",
             "m10-assessments-a2-0.7.5-listen-and-integrate",
-            "m10-assessments-a2-0.7.5-transfer-and-assess"
+            "m10-assessments-a2-0.7.5-transfer-and-assess",
+            "m10-assessments-a2-0.11.2-topic-09-practice",
+            "m10-assessments-a2-0.11.2-topic-09-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -511,7 +553,11 @@
           "lesson_slugs": [
             "m10-assessments-a2-0.7.6-read-and-notice",
             "m10-assessments-a2-0.7.6-listen-and-integrate",
-            "m10-assessments-a2-0.7.6-transfer-and-assess"
+            "m10-assessments-a2-0.7.6-transfer-and-assess",
+            "m10-assessments-a2-0.11.2-topic-08-practice",
+            "m10-assessments-a2-0.11.2-topic-08-transfer",
+            "m10-assessments-a2-0.11.2-topic-12-practice",
+            "m10-assessments-a2-0.11.2-topic-12-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -565,7 +611,9 @@
           "lesson_slugs": [
             "m10-assessments-a2-0.7.8-read-and-notice",
             "m10-assessments-a2-0.7.8-listen-and-integrate",
-            "m10-assessments-a2-0.7.8-transfer-and-assess"
+            "m10-assessments-a2-0.7.8-transfer-and-assess",
+            "m10-assessments-a2-0.11.1-topic-01-practice",
+            "m10-assessments-a2-0.11.1-topic-01-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -600,7 +648,9 @@
             "m10-assessments-b1-0.2.1-module-1-grammar",
             "m10-assessments-b1-0.2.1-module-1-vocabulary",
             "m10-assessments-b1-0.2.1-module-1-reading",
-            "m10-assessments-b1-0.2.1-module-1-writing"
+            "m10-assessments-b1-0.2.1-module-1-writing",
+            "m10-assessments-b1-0.11.1-topic-01-practice",
+            "m10-assessments-b1-0.11.1-topic-01-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -628,7 +678,9 @@
             "m10-assessments-b1-0.2.1-module-2-grammar",
             "m10-assessments-b1-0.2.1-module-2-vocabulary",
             "m10-assessments-b1-0.2.1-module-2-reading",
-            "m10-assessments-b1-0.2.1-module-2-writing"
+            "m10-assessments-b1-0.2.1-module-2-writing",
+            "m10-assessments-b1-0.11.2-topic-08-practice",
+            "m10-assessments-b1-0.11.2-topic-08-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -656,7 +708,9 @@
             "m10-assessments-b1-0.2.1-module-3-grammar",
             "m10-assessments-b1-0.2.1-module-3-vocabulary",
             "m10-assessments-b1-0.2.1-module-3-reading",
-            "m10-assessments-b1-0.2.1-module-3-writing"
+            "m10-assessments-b1-0.2.1-module-3-writing",
+            "m10-assessments-b1-0.11.1-topic-04-practice",
+            "m10-assessments-b1-0.11.1-topic-04-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -682,7 +736,11 @@
           ],
           "lesson_slugs": [
             "m10-assessments-b1-0.4.3-interpret-scenario",
-            "m10-assessments-b1-0.4.3-transfer-and-review"
+            "m10-assessments-b1-0.4.3-transfer-and-review",
+            "m10-assessments-b1-0.11.1-topic-02-practice",
+            "m10-assessments-b1-0.11.1-topic-02-transfer",
+            "m10-assessments-b1-0.11.1-topic-03-practice",
+            "m10-assessments-b1-0.11.1-topic-03-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -709,7 +767,11 @@
           "lesson_slugs": [
             "m10-assessments-b1-0.7.5-read-and-notice",
             "m10-assessments-b1-0.7.5-listen-and-integrate",
-            "m10-assessments-b1-0.7.5-transfer-and-assess"
+            "m10-assessments-b1-0.7.5-transfer-and-assess",
+            "m10-assessments-b1-0.11.1-topic-05-practice",
+            "m10-assessments-b1-0.11.1-topic-05-transfer",
+            "m10-assessments-b1-0.11.1-topic-06-practice",
+            "m10-assessments-b1-0.11.1-topic-06-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -736,7 +798,13 @@
           "lesson_slugs": [
             "m10-assessments-b1-0.7.6-read-and-notice",
             "m10-assessments-b1-0.7.6-listen-and-integrate",
-            "m10-assessments-b1-0.7.6-transfer-and-assess"
+            "m10-assessments-b1-0.7.6-transfer-and-assess",
+            "m10-assessments-b1-0.11.2-topic-07-practice",
+            "m10-assessments-b1-0.11.2-topic-07-transfer",
+            "m10-assessments-b1-0.11.2-topic-09-practice",
+            "m10-assessments-b1-0.11.2-topic-09-transfer",
+            "m10-assessments-b1-0.11.2-topic-11-practice",
+            "m10-assessments-b1-0.11.2-topic-11-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -763,7 +831,9 @@
           "lesson_slugs": [
             "m10-assessments-b1-0.7.7-read-and-notice",
             "m10-assessments-b1-0.7.7-listen-and-integrate",
-            "m10-assessments-b1-0.7.7-transfer-and-assess"
+            "m10-assessments-b1-0.7.7-transfer-and-assess",
+            "m10-assessments-b1-0.11.2-topic-10-practice",
+            "m10-assessments-b1-0.11.2-topic-10-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -790,7 +860,9 @@
           "lesson_slugs": [
             "m10-assessments-b1-0.7.8-read-and-notice",
             "m10-assessments-b1-0.7.8-listen-and-integrate",
-            "m10-assessments-b1-0.7.8-transfer-and-assess"
+            "m10-assessments-b1-0.7.8-transfer-and-assess",
+            "m10-assessments-b1-0.11.2-topic-12-practice",
+            "m10-assessments-b1-0.11.2-topic-12-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -825,7 +897,11 @@
             "m10-assessments-b2-0.2.1-module-1-grammar",
             "m10-assessments-b2-0.2.1-module-1-vocabulary",
             "m10-assessments-b2-0.2.1-module-1-reading",
-            "m10-assessments-b2-0.2.1-module-1-writing"
+            "m10-assessments-b2-0.2.1-module-1-writing",
+            "m10-assessments-b2-0.11.1-topic-02-practice",
+            "m10-assessments-b2-0.11.1-topic-02-transfer",
+            "m10-assessments-b2-0.11.2-topic-10-practice",
+            "m10-assessments-b2-0.11.2-topic-10-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -853,7 +929,9 @@
             "m10-assessments-b2-0.2.1-module-2-grammar",
             "m10-assessments-b2-0.2.1-module-2-vocabulary",
             "m10-assessments-b2-0.2.1-module-2-reading",
-            "m10-assessments-b2-0.2.1-module-2-writing"
+            "m10-assessments-b2-0.2.1-module-2-writing",
+            "m10-assessments-b2-0.11.2-topic-07-practice",
+            "m10-assessments-b2-0.11.2-topic-07-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -881,7 +959,11 @@
             "m10-assessments-b2-0.2.1-module-3-grammar",
             "m10-assessments-b2-0.2.1-module-3-vocabulary",
             "m10-assessments-b2-0.2.1-module-3-reading",
-            "m10-assessments-b2-0.2.1-module-3-writing"
+            "m10-assessments-b2-0.2.1-module-3-writing",
+            "m10-assessments-b2-0.11.1-topic-04-practice",
+            "m10-assessments-b2-0.11.1-topic-04-transfer",
+            "m10-assessments-b2-0.11.1-topic-05-practice",
+            "m10-assessments-b2-0.11.1-topic-05-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -907,7 +989,11 @@
           ],
           "lesson_slugs": [
             "m10-assessments-b2-0.4.4-interpret-scenario",
-            "m10-assessments-b2-0.4.4-transfer-and-review"
+            "m10-assessments-b2-0.4.4-transfer-and-review",
+            "m10-assessments-b2-0.11.1-topic-01-practice",
+            "m10-assessments-b2-0.11.1-topic-01-transfer",
+            "m10-assessments-b2-0.11.1-topic-03-practice",
+            "m10-assessments-b2-0.11.1-topic-03-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -934,7 +1020,11 @@
           "lesson_slugs": [
             "m10-assessments-b2-0.6.2-input-1",
             "m10-assessments-b2-0.6.2-input-2",
-            "m10-assessments-b2-0.6.2-integrate-and-transfer"
+            "m10-assessments-b2-0.6.2-integrate-and-transfer",
+            "m10-assessments-b2-0.11.2-topic-08-practice",
+            "m10-assessments-b2-0.11.2-topic-08-transfer",
+            "m10-assessments-b2-0.11.2-topic-11-practice",
+            "m10-assessments-b2-0.11.2-topic-11-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -961,7 +1051,9 @@
           "lesson_slugs": [
             "m10-assessments-b2-0.7.6-read-and-notice",
             "m10-assessments-b2-0.7.6-listen-and-integrate",
-            "m10-assessments-b2-0.7.6-transfer-and-assess"
+            "m10-assessments-b2-0.7.6-transfer-and-assess",
+            "m10-assessments-b2-0.11.1-topic-06-practice",
+            "m10-assessments-b2-0.11.1-topic-06-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -988,7 +1080,9 @@
           "lesson_slugs": [
             "m10-assessments-b2-0.7.7-read-and-notice",
             "m10-assessments-b2-0.7.7-listen-and-integrate",
-            "m10-assessments-b2-0.7.7-transfer-and-assess"
+            "m10-assessments-b2-0.7.7-transfer-and-assess",
+            "m10-assessments-b2-0.11.2-topic-09-practice",
+            "m10-assessments-b2-0.11.2-topic-09-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -1015,7 +1109,9 @@
           "lesson_slugs": [
             "m10-assessments-b2-0.7.8-read-and-notice",
             "m10-assessments-b2-0.7.8-listen-and-integrate",
-            "m10-assessments-b2-0.7.8-transfer-and-assess"
+            "m10-assessments-b2-0.7.8-transfer-and-assess",
+            "m10-assessments-b2-0.11.2-topic-12-practice",
+            "m10-assessments-b2-0.11.2-topic-12-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -1078,7 +1174,9 @@
             "m10-assessments-c1-0.2.1-module-2-grammar",
             "m10-assessments-c1-0.2.1-module-2-vocabulary",
             "m10-assessments-c1-0.2.1-module-2-reading",
-            "m10-assessments-c1-0.2.1-module-2-writing"
+            "m10-assessments-c1-0.2.1-module-2-writing",
+            "m10-assessments-c1-0.11.2-topic-08-practice",
+            "m10-assessments-c1-0.11.2-topic-08-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -1132,7 +1230,17 @@
           ],
           "lesson_slugs": [
             "m10-assessments-c1-0.4.5-interpret-scenario",
-            "m10-assessments-c1-0.4.5-transfer-and-review"
+            "m10-assessments-c1-0.4.5-transfer-and-review",
+            "m10-assessments-c1-0.11.1-topic-01-practice",
+            "m10-assessments-c1-0.11.1-topic-01-transfer",
+            "m10-assessments-c1-0.11.1-topic-02-practice",
+            "m10-assessments-c1-0.11.1-topic-02-transfer",
+            "m10-assessments-c1-0.11.1-topic-03-practice",
+            "m10-assessments-c1-0.11.1-topic-03-transfer",
+            "m10-assessments-c1-0.11.1-topic-04-practice",
+            "m10-assessments-c1-0.11.1-topic-04-transfer",
+            "m10-assessments-c1-0.11.2-topic-09-practice",
+            "m10-assessments-c1-0.11.2-topic-09-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -1159,7 +1267,9 @@
           "lesson_slugs": [
             "m10-assessments-c1-0.7.5-read-and-notice",
             "m10-assessments-c1-0.7.5-listen-and-integrate",
-            "m10-assessments-c1-0.7.5-transfer-and-assess"
+            "m10-assessments-c1-0.7.5-transfer-and-assess",
+            "m10-assessments-c1-0.11.2-topic-07-practice",
+            "m10-assessments-c1-0.11.2-topic-07-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -1186,7 +1296,11 @@
           "lesson_slugs": [
             "m10-assessments-c1-0.6.3-input-1",
             "m10-assessments-c1-0.6.3-input-2",
-            "m10-assessments-c1-0.6.3-integrate-and-transfer"
+            "m10-assessments-c1-0.6.3-integrate-and-transfer",
+            "m10-assessments-c1-0.11.1-topic-05-practice",
+            "m10-assessments-c1-0.11.1-topic-05-transfer",
+            "m10-assessments-c1-0.11.1-topic-06-practice",
+            "m10-assessments-c1-0.11.1-topic-06-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -1240,7 +1354,9 @@
           "lesson_slugs": [
             "m10-assessments-c1-0.7.8-read-and-notice",
             "m10-assessments-c1-0.7.8-listen-and-integrate",
-            "m10-assessments-c1-0.7.8-transfer-and-assess"
+            "m10-assessments-c1-0.7.8-transfer-and-assess",
+            "m10-assessments-c1-0.11.2-topic-10-practice",
+            "m10-assessments-c1-0.11.2-topic-10-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -1275,7 +1391,9 @@
             "m10-assessments-c2-0.2.1-module-1-grammar",
             "m10-assessments-c2-0.2.1-module-1-vocabulary",
             "m10-assessments-c2-0.2.1-module-1-reading",
-            "m10-assessments-c2-0.2.1-module-1-writing"
+            "m10-assessments-c2-0.2.1-module-1-writing",
+            "m10-assessments-c2-0.11.1-topic-04-practice",
+            "m10-assessments-c2-0.11.1-topic-04-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -1303,7 +1421,11 @@
             "m10-assessments-c2-0.2.1-module-2-grammar",
             "m10-assessments-c2-0.2.1-module-2-vocabulary",
             "m10-assessments-c2-0.2.1-module-2-reading",
-            "m10-assessments-c2-0.2.1-module-2-writing"
+            "m10-assessments-c2-0.2.1-module-2-writing",
+            "m10-assessments-c2-0.11.1-topic-01-practice",
+            "m10-assessments-c2-0.11.1-topic-01-transfer",
+            "m10-assessments-c2-0.11.1-topic-02-practice",
+            "m10-assessments-c2-0.11.1-topic-02-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -1331,7 +1453,9 @@
             "m10-assessments-c2-0.2.1-module-3-grammar",
             "m10-assessments-c2-0.2.1-module-3-vocabulary",
             "m10-assessments-c2-0.2.1-module-3-reading",
-            "m10-assessments-c2-0.2.1-module-3-writing"
+            "m10-assessments-c2-0.2.1-module-3-writing",
+            "m10-assessments-c2-0.11.1-topic-05-practice",
+            "m10-assessments-c2-0.11.1-topic-05-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -1357,7 +1481,11 @@
           ],
           "lesson_slugs": [
             "m10-assessments-c2-0.4.6-interpret-scenario",
-            "m10-assessments-c2-0.4.6-transfer-and-review"
+            "m10-assessments-c2-0.4.6-transfer-and-review",
+            "m10-assessments-c2-0.11.1-topic-03-practice",
+            "m10-assessments-c2-0.11.1-topic-03-transfer",
+            "m10-assessments-c2-0.11.2-topic-08-practice",
+            "m10-assessments-c2-0.11.2-topic-08-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -1384,7 +1512,9 @@
           "lesson_slugs": [
             "m10-assessments-c2-0.7.5-read-and-notice",
             "m10-assessments-c2-0.7.5-listen-and-integrate",
-            "m10-assessments-c2-0.7.5-transfer-and-assess"
+            "m10-assessments-c2-0.7.5-transfer-and-assess",
+            "m10-assessments-c2-0.11.2-topic-07-practice",
+            "m10-assessments-c2-0.11.2-topic-07-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -1411,7 +1541,9 @@
           "lesson_slugs": [
             "m10-assessments-c2-0.7.6-read-and-notice",
             "m10-assessments-c2-0.7.6-listen-and-integrate",
-            "m10-assessments-c2-0.7.6-transfer-and-assess"
+            "m10-assessments-c2-0.7.6-transfer-and-assess",
+            "m10-assessments-c2-0.11.2-topic-09-practice",
+            "m10-assessments-c2-0.11.2-topic-09-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -1438,7 +1570,9 @@
           "lesson_slugs": [
             "m10-assessments-c2-0.6.4-input-1",
             "m10-assessments-c2-0.6.4-input-2",
-            "m10-assessments-c2-0.6.4-integrate-and-transfer"
+            "m10-assessments-c2-0.6.4-integrate-and-transfer",
+            "m10-assessments-c2-0.11.1-topic-06-practice",
+            "m10-assessments-c2-0.11.1-topic-06-transfer"
           ],
           "required_skills": [
             "vocabulary",
@@ -1465,7 +1599,9 @@
           "lesson_slugs": [
             "m10-assessments-c2-0.7.8-read-and-notice",
             "m10-assessments-c2-0.7.8-listen-and-integrate",
-            "m10-assessments-c2-0.7.8-transfer-and-assess"
+            "m10-assessments-c2-0.7.8-transfer-and-assess",
+            "m10-assessments-c2-0.11.2-topic-10-practice",
+            "m10-assessments-c2-0.11.2-topic-10-transfer"
           ],
           "required_skills": [
             "vocabulary",

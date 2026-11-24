@@ -1,0 +1,2122 @@
+{
+  "method": "AI-assisted desk/reference/structural review, not qualified independent human approval",
+  "references": [
+    "https://www.coe.int/en/web/common-european-framework-reference-languages/reference-level-descriptions",
+    "https://www.france-education-international.fr/diplome/dalf",
+    "https://vitrinelinguistique.oqlf.gouv.qc.ca/24238/la-grammaire/le-verbe/modes/subjonctif/subjonctif-ou-indicatif-apres-les-subordonnants-composes",
+    "https://vitrinelinguistique.oqlf.gouv.qc.ca/21132/la-grammaire/le-verbe/modes/concordance-des-temps/mode-verbal-avec-apres-que-et-avant-que",
+    "https://www.dictionnaire-academie.fr/article/QDL039",
+    "https://www.dictionnaire-academie.fr/article/QR_0560",
+    "https://www.cnrtl.fr/definition/%C3%A0%20peine"
+  ],
+  "lessons": [
+    {
+      "lesson_slug": "m10-assessments-a1-0.11.1-topic-01-practice",
+      "topic": "French basics",
+      "level": "A1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a1-0.11.1-topic-01-transfer",
+      "topic": "French basics",
+      "level": "A1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a1-0.11.1-topic-02-practice",
+      "topic": "Greetings",
+      "level": "A1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a1-0.11.1-topic-02-transfer",
+      "topic": "Greetings",
+      "level": "A1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a1-0.11.1-topic-03-practice",
+      "topic": "Personal information",
+      "level": "A1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a1-0.11.1-topic-03-transfer",
+      "topic": "Personal information",
+      "level": "A1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a1-0.11.1-topic-04-practice",
+      "topic": "Numbers and time",
+      "level": "A1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a1-0.11.1-topic-04-transfer",
+      "topic": "Numbers and time",
+      "level": "A1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a1-0.11.1-topic-05-practice",
+      "topic": "Nouns and articles",
+      "level": "A1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a1-0.11.1-topic-05-transfer",
+      "topic": "Nouns and articles",
+      "level": "A1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a1-0.11.1-topic-06-practice",
+      "topic": "Basic verbs",
+      "level": "A1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a1-0.11.1-topic-06-transfer",
+      "topic": "Basic verbs",
+      "level": "A1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a1-0.11.2-topic-07-practice",
+      "topic": "Sentence building",
+      "level": "A1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a1-0.11.2-topic-07-transfer",
+      "topic": "Sentence building",
+      "level": "A1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a1-0.11.2-topic-08-practice",
+      "topic": "Everyday activities",
+      "level": "A1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a1-0.11.2-topic-08-transfer",
+      "topic": "Everyday activities",
+      "level": "A1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a1-0.11.2-topic-09-practice",
+      "topic": "Family and people",
+      "level": "A1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a1-0.11.2-topic-09-transfer",
+      "topic": "Family and people",
+      "level": "A1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a1-0.11.2-topic-10-practice",
+      "topic": "Food and shopping",
+      "level": "A1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a1-0.11.2-topic-10-transfer",
+      "topic": "Food and shopping",
+      "level": "A1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a1-0.11.2-topic-11-practice",
+      "topic": "Places and directions",
+      "level": "A1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a1-0.11.2-topic-11-transfer",
+      "topic": "Places and directions",
+      "level": "A1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a1-0.11.2-topic-12-practice",
+      "topic": "Essential conversation",
+      "level": "A1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a1-0.11.2-topic-12-transfer",
+      "topic": "Essential conversation",
+      "level": "A1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a2-0.11.1-topic-01-practice",
+      "topic": "A1 consolidation",
+      "level": "A2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a2-0.11.1-topic-01-transfer",
+      "topic": "A1 consolidation",
+      "level": "A2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a2-0.11.1-topic-02-practice",
+      "topic": "Past experiences",
+      "level": "A2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a2-0.11.1-topic-02-transfer",
+      "topic": "Past experiences",
+      "level": "A2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a2-0.11.1-topic-03-practice",
+      "topic": "Describing the past",
+      "level": "A2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a2-0.11.1-topic-03-transfer",
+      "topic": "Describing the past",
+      "level": "A2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a2-0.11.1-topic-04-practice",
+      "topic": "Future plans",
+      "level": "A2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a2-0.11.1-topic-04-transfer",
+      "topic": "Future plans",
+      "level": "A2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a2-0.11.1-topic-05-practice",
+      "topic": "Modal expressions",
+      "level": "A2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a2-0.11.1-topic-05-transfer",
+      "topic": "Modal expressions",
+      "level": "A2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a2-0.11.1-topic-06-practice",
+      "topic": "Objects and pronouns",
+      "level": "A2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a2-0.11.1-topic-06-transfer",
+      "topic": "Objects and pronouns",
+      "level": "A2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a2-0.11.2-topic-07-practice",
+      "topic": "Comparison",
+      "level": "A2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a2-0.11.2-topic-07-transfer",
+      "topic": "Comparison",
+      "level": "A2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a2-0.11.2-topic-08-practice",
+      "topic": "Connecting ideas",
+      "level": "A2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a2-0.11.2-topic-08-transfer",
+      "topic": "Connecting ideas",
+      "level": "A2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a2-0.11.2-topic-09-practice",
+      "topic": "Health and appointments",
+      "level": "A2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a2-0.11.2-topic-09-transfer",
+      "topic": "Health and appointments",
+      "level": "A2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a2-0.11.2-topic-10-practice",
+      "topic": "Work and education",
+      "level": "A2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a2-0.11.2-topic-10-transfer",
+      "topic": "Work and education",
+      "level": "A2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a2-0.11.2-topic-11-practice",
+      "topic": "Housing and administration",
+      "level": "A2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a2-0.11.2-topic-11-transfer",
+      "topic": "Housing and administration",
+      "level": "A2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a2-0.11.2-topic-12-practice",
+      "topic": "Social communication",
+      "level": "A2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-a2-0.11.2-topic-12-transfer",
+      "topic": "Social communication",
+      "level": "A2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b1-0.11.1-topic-01-practice",
+      "topic": "Narrative skills",
+      "level": "B1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b1-0.11.1-topic-01-transfer",
+      "topic": "Narrative skills",
+      "level": "B1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b1-0.11.1-topic-02-practice",
+      "topic": "Future and possibilities",
+      "level": "B1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Roadmap-guided supported extension; sequencing/difficulty needs qualified learner-level review"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b1-0.11.1-topic-02-transfer",
+      "topic": "Future and possibilities",
+      "level": "B1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Roadmap-guided supported extension; sequencing/difficulty needs qualified learner-level review"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b1-0.11.1-topic-03-practice",
+      "topic": "Hypothetical situations",
+      "level": "B1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b1-0.11.1-topic-03-transfer",
+      "topic": "Hypothetical situations",
+      "level": "B1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b1-0.11.1-topic-04-practice",
+      "topic": "Subjunctive introduction",
+      "level": "B1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Roadmap-guided supported extension; sequencing/difficulty needs qualified learner-level review"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b1-0.11.1-topic-04-transfer",
+      "topic": "Subjunctive introduction",
+      "level": "B1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Roadmap-guided supported extension; sequencing/difficulty needs qualified learner-level review"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b1-0.11.1-topic-05-practice",
+      "topic": "Complex pronouns",
+      "level": "B1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b1-0.11.1-topic-05-transfer",
+      "topic": "Complex pronouns",
+      "level": "B1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b1-0.11.1-topic-06-practice",
+      "topic": "Passive constructions",
+      "level": "B1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b1-0.11.1-topic-06-transfer",
+      "topic": "Passive constructions",
+      "level": "B1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b1-0.11.2-topic-07-practice",
+      "topic": "Reported speech",
+      "level": "B1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b1-0.11.2-topic-07-transfer",
+      "topic": "Reported speech",
+      "level": "B1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b1-0.11.2-topic-08-practice",
+      "topic": "Opinions and arguments",
+      "level": "B1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b1-0.11.2-topic-08-transfer",
+      "topic": "Opinions and arguments",
+      "level": "B1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b1-0.11.2-topic-09-practice",
+      "topic": "Society and culture",
+      "level": "B1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b1-0.11.2-topic-09-transfer",
+      "topic": "Society and culture",
+      "level": "B1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b1-0.11.2-topic-10-practice",
+      "topic": "Workplace communication",
+      "level": "B1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b1-0.11.2-topic-10-transfer",
+      "topic": "Workplace communication",
+      "level": "B1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b1-0.11.2-topic-11-practice",
+      "topic": "Media comprehension",
+      "level": "B1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b1-0.11.2-topic-11-transfer",
+      "topic": "Media comprehension",
+      "level": "B1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b1-0.11.2-topic-12-practice",
+      "topic": "Independent expression",
+      "level": "B1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b1-0.11.2-topic-12-transfer",
+      "topic": "Independent expression",
+      "level": "B1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b2-0.11.1-topic-01-practice",
+      "topic": "Advanced tense control",
+      "level": "B2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b2-0.11.1-topic-01-transfer",
+      "topic": "Advanced tense control",
+      "level": "B2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b2-0.11.1-topic-02-practice",
+      "topic": "Subjunctive mastery",
+      "level": "B2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b2-0.11.1-topic-02-transfer",
+      "topic": "Subjunctive mastery",
+      "level": "B2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b2-0.11.1-topic-03-practice",
+      "topic": "Complex hypotheses",
+      "level": "B2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b2-0.11.1-topic-03-transfer",
+      "topic": "Complex hypotheses",
+      "level": "B2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b2-0.11.1-topic-04-practice",
+      "topic": "Advanced relative clauses",
+      "level": "B2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b2-0.11.1-topic-04-transfer",
+      "topic": "Advanced relative clauses",
+      "level": "B2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b2-0.11.1-topic-05-practice",
+      "topic": "Discourse connectors",
+      "level": "B2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b2-0.11.1-topic-05-transfer",
+      "topic": "Discourse connectors",
+      "level": "B2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b2-0.11.1-topic-06-practice",
+      "topic": "Argumentative writing",
+      "level": "B2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b2-0.11.1-topic-06-transfer",
+      "topic": "Argumentative writing",
+      "level": "B2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b2-0.11.2-topic-07-practice",
+      "topic": "Formal communication",
+      "level": "B2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b2-0.11.2-topic-07-transfer",
+      "topic": "Formal communication",
+      "level": "B2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b2-0.11.2-topic-08-practice",
+      "topic": "Media analysis",
+      "level": "B2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b2-0.11.2-topic-08-transfer",
+      "topic": "Media analysis",
+      "level": "B2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b2-0.11.2-topic-09-practice",
+      "topic": "Professional French",
+      "level": "B2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b2-0.11.2-topic-09-transfer",
+      "topic": "Professional French",
+      "level": "B2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b2-0.11.2-topic-10-practice",
+      "topic": "Abstract discussions",
+      "level": "B2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b2-0.11.2-topic-10-transfer",
+      "topic": "Abstract discussions",
+      "level": "B2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b2-0.11.2-topic-11-practice",
+      "topic": "Listening fluency",
+      "level": "B2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b2-0.11.2-topic-11-transfer",
+      "topic": "Listening fluency",
+      "level": "B2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b2-0.11.2-topic-12-practice",
+      "topic": "DELF B2 practice",
+      "level": "B2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-b2-0.11.2-topic-12-transfer",
+      "topic": "DELF B2 practice",
+      "level": "B2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c1-0.11.1-topic-01-practice",
+      "topic": "Advanced grammar",
+      "level": "C1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c1-0.11.1-topic-01-transfer",
+      "topic": "Advanced grammar",
+      "level": "C1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c1-0.11.1-topic-02-practice",
+      "topic": "Sophisticated vocabulary",
+      "level": "C1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c1-0.11.1-topic-02-transfer",
+      "topic": "Sophisticated vocabulary",
+      "level": "C1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c1-0.11.1-topic-03-practice",
+      "topic": "Register and style",
+      "level": "C1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c1-0.11.1-topic-03-transfer",
+      "topic": "Register and style",
+      "level": "C1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c1-0.11.1-topic-04-practice",
+      "topic": "Idiomatic language",
+      "level": "C1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c1-0.11.1-topic-04-transfer",
+      "topic": "Idiomatic language",
+      "level": "C1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c1-0.11.1-topic-05-practice",
+      "topic": "Argumentation",
+      "level": "C1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c1-0.11.1-topic-05-transfer",
+      "topic": "Argumentation",
+      "level": "C1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c1-0.11.1-topic-06-practice",
+      "topic": "Academic writing",
+      "level": "C1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c1-0.11.1-topic-06-transfer",
+      "topic": "Academic writing",
+      "level": "C1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c1-0.11.2-topic-07-practice",
+      "topic": "Advanced listening",
+      "level": "C1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c1-0.11.2-topic-07-transfer",
+      "topic": "Advanced listening",
+      "level": "C1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c1-0.11.2-topic-08-practice",
+      "topic": "Professional fluency",
+      "level": "C1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c1-0.11.2-topic-08-transfer",
+      "topic": "Professional fluency",
+      "level": "C1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c1-0.11.2-topic-09-practice",
+      "topic": "Literary and cultural analysis",
+      "level": "C1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c1-0.11.2-topic-09-transfer",
+      "topic": "Literary and cultural analysis",
+      "level": "C1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c1-0.11.2-topic-10-practice",
+      "topic": "DALF C1 preparation",
+      "level": "C1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c1-0.11.2-topic-10-transfer",
+      "topic": "DALF C1 preparation",
+      "level": "C1",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c2-0.11.1-topic-01-practice",
+      "topic": "Complete grammar mastery",
+      "level": "C2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c2-0.11.1-topic-01-transfer",
+      "topic": "Complete grammar mastery",
+      "level": "C2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c2-0.11.1-topic-02-practice",
+      "topic": "Precision in vocabulary",
+      "level": "C2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c2-0.11.1-topic-02-transfer",
+      "topic": "Precision in vocabulary",
+      "level": "C2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c2-0.11.1-topic-03-practice",
+      "topic": "Literary French",
+      "level": "C2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c2-0.11.1-topic-03-transfer",
+      "topic": "Literary French",
+      "level": "C2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c2-0.11.1-topic-04-practice",
+      "topic": "Rhetoric and persuasion",
+      "level": "C2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c2-0.11.1-topic-04-transfer",
+      "topic": "Rhetoric and persuasion",
+      "level": "C2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c2-0.11.1-topic-05-practice",
+      "topic": "Cultural understanding",
+      "level": "C2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c2-0.11.1-topic-05-transfer",
+      "topic": "Cultural understanding",
+      "level": "C2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c2-0.11.1-topic-06-practice",
+      "topic": "Advanced written expression",
+      "level": "C2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c2-0.11.1-topic-06-transfer",
+      "topic": "Advanced written expression",
+      "level": "C2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c2-0.11.2-topic-07-practice",
+      "topic": "High-level listening",
+      "level": "C2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c2-0.11.2-topic-07-transfer",
+      "topic": "High-level listening",
+      "level": "C2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c2-0.11.2-topic-08-practice",
+      "topic": "Professional specialization",
+      "level": "C2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c2-0.11.2-topic-08-transfer",
+      "topic": "Professional specialization",
+      "level": "C2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c2-0.11.2-topic-09-practice",
+      "topic": "Spontaneous communication",
+      "level": "C2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c2-0.11.2-topic-09-transfer",
+      "topic": "Spontaneous communication",
+      "level": "C2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c2-0.11.2-topic-10-practice",
+      "topic": "DALF C2 preparation",
+      "level": "C2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Supported model/limited-context questions are not unseen proficiency tests",
+        "Three contextual expressions are not a full lexical syllabus",
+        "Short single-voice TTS is not authentic spontaneous or varied-accent listening",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    },
+    {
+      "lesson_slug": "m10-assessments-c2-0.11.2-topic-10-transfer",
+      "topic": "DALF C2 preparation",
+      "level": "C2",
+      "desk_review": "AI-assisted desk review; no blocking discrepancy identified; selected grammar constructions checked against primary references",
+      "independent_human_approval": false,
+      "qualified_review": "pending",
+      "calibration": "not established",
+      "flags": [
+        "Qualified independent French/pedagogy and answer interpretation review pending",
+        "Empirical CEFR calibration not established",
+        "Open writing/speaking response requires qualitative rating; submission is not mastery",
+        "Short reading input and extended transfer do not reproduce a full examination dossier"
+      ]
+    }
+  ]
+}

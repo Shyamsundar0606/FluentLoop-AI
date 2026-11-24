@@ -1,0 +1,2233 @@
+{
+  "lessons": [
+    {
+      "slug": "a1-001",
+      "scored_exercises": 5,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "a1-002",
+      "scored_exercises": 5,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "a1-003",
+      "scored_exercises": 5,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "a1-004",
+      "scored_exercises": 5,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "a1-005",
+      "scored_exercises": 5,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "a1-006",
+      "scored_exercises": 5,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "a1-007",
+      "scored_exercises": 5,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "a1-008",
+      "scored_exercises": 5,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "a1-009",
+      "scored_exercises": 5,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "a1-010",
+      "scored_exercises": 5,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.11.1-topic-01-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.11.1-topic-01-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.11.1-topic-02-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.11.1-topic-02-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.11.1-topic-03-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.11.1-topic-03-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.11.1-topic-04-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.11.1-topic-04-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.11.1-topic-05-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.11.1-topic-05-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.11.1-topic-06-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.11.1-topic-06-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.11.2-topic-07-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.11.2-topic-07-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.11.2-topic-08-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.11.2-topic-08-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.11.2-topic-09-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.11.2-topic-09-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.11.2-topic-10-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.11.2-topic-10-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.11.2-topic-11-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.11.2-topic-11-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.11.2-topic-12-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.11.2-topic-12-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.2.1-module-1-grammar",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.2.1-module-1-reading",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.2.1-module-1-vocabulary",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.2.1-module-1-writing",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.2.1-module-2-grammar",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.2.1-module-2-reading",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.2.1-module-2-vocabulary",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.2.1-module-2-writing",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.2.1-module-3-grammar",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.2.1-module-3-reading",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.2.1-module-3-vocabulary",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.2.1-module-3-writing",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.3.0-first-numbers",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.3.0-first-polite-request",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.3.0-first-two-lines",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.3.0-greet-and-leave",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.3.0-hear-u-and-ou",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.3.0-letters-and-name",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.3.0-type-french-accents",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.3.2-a-day-and-a-request",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.3.2-a-morning-routine",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.3.2-an-appointment-request",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.3.2-ask-a-price",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.3.2-ask-someone-to-repeat",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.3.2-days-and-dates",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.3.2-describe-clothes",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.3.2-go-to-a-place",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.3.2-locate-a-place",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.3.2-negate-a-quantity",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.3.2-tell-the-time",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.3.2-write-a-meeting-message",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.4.1-interpret-scenario",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.4.1-transfer-and-review",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.4.7-interpret-scenario",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.4.7-transfer-and-review",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.6.0-input-1",
+      "scored_exercises": 2,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.6.0-input-2",
+      "scored_exercises": 2,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.6.0-integrate-and-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.6.1-input-1",
+      "scored_exercises": 2,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.6.1-input-2",
+      "scored_exercises": 2,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a1-0.6.1-integrate-and-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.11.1-topic-01-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.11.1-topic-01-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.11.1-topic-02-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.11.1-topic-02-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.11.1-topic-03-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.11.1-topic-03-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.11.1-topic-04-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.11.1-topic-04-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.11.1-topic-05-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.11.1-topic-05-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.11.1-topic-06-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.11.1-topic-06-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.11.2-topic-07-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.11.2-topic-07-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.11.2-topic-08-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.11.2-topic-08-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.11.2-topic-09-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.11.2-topic-09-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.11.2-topic-10-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.11.2-topic-10-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.11.2-topic-11-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.11.2-topic-11-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.11.2-topic-12-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.11.2-topic-12-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.2.1-module-1-grammar",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.2.1-module-1-reading",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.2.1-module-1-vocabulary",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.2.1-module-1-writing",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.2.1-module-2-grammar",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.2.1-module-2-reading",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.2.1-module-2-vocabulary",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.2.1-module-2-writing",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.2.1-module-3-grammar",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.2.1-module-3-reading",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.2.1-module-3-vocabulary",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.2.1-module-3-writing",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.4.2-interpret-scenario",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.4.2-transfer-and-review",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.7.5-listen-and-integrate",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.7.5-read-and-notice",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.7.5-transfer-and-assess",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.7.6-listen-and-integrate",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.7.6-read-and-notice",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.7.6-transfer-and-assess",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.7.7-listen-and-integrate",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.7.7-read-and-notice",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.7.7-transfer-and-assess",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.7.8-listen-and-integrate",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.7.8-read-and-notice",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-a2-0.7.8-transfer-and-assess",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.11.1-topic-01-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.11.1-topic-01-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.11.1-topic-02-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.11.1-topic-02-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.11.1-topic-03-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.11.1-topic-03-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.11.1-topic-04-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.11.1-topic-04-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.11.1-topic-05-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.11.1-topic-05-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.11.1-topic-06-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.11.1-topic-06-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.11.2-topic-07-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.11.2-topic-07-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.11.2-topic-08-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.11.2-topic-08-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.11.2-topic-09-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.11.2-topic-09-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.11.2-topic-10-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.11.2-topic-10-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.11.2-topic-11-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.11.2-topic-11-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.11.2-topic-12-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.11.2-topic-12-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.2.1-module-1-grammar",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.2.1-module-1-reading",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.2.1-module-1-vocabulary",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.2.1-module-1-writing",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.2.1-module-2-grammar",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.2.1-module-2-reading",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.2.1-module-2-vocabulary",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.2.1-module-2-writing",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.2.1-module-3-grammar",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.2.1-module-3-reading",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.2.1-module-3-vocabulary",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.2.1-module-3-writing",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.4.3-interpret-scenario",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.4.3-transfer-and-review",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.7.5-listen-and-integrate",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.7.5-read-and-notice",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.7.5-transfer-and-assess",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.7.6-listen-and-integrate",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.7.6-read-and-notice",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.7.6-transfer-and-assess",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.7.7-listen-and-integrate",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.7.7-read-and-notice",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.7.7-transfer-and-assess",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.7.8-listen-and-integrate",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.7.8-read-and-notice",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b1-0.7.8-transfer-and-assess",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.11.1-topic-01-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.11.1-topic-01-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.11.1-topic-02-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.11.1-topic-02-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.11.1-topic-03-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.11.1-topic-03-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.11.1-topic-04-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.11.1-topic-04-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.11.1-topic-05-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.11.1-topic-05-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.11.1-topic-06-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.11.1-topic-06-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.11.2-topic-07-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.11.2-topic-07-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.11.2-topic-08-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.11.2-topic-08-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.11.2-topic-09-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.11.2-topic-09-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.11.2-topic-10-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.11.2-topic-10-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.11.2-topic-11-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.11.2-topic-11-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.11.2-topic-12-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.11.2-topic-12-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.2.1-module-1-grammar",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.2.1-module-1-reading",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.2.1-module-1-vocabulary",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.2.1-module-1-writing",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.2.1-module-2-grammar",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.2.1-module-2-reading",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.2.1-module-2-vocabulary",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.2.1-module-2-writing",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.2.1-module-3-grammar",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.2.1-module-3-reading",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.2.1-module-3-vocabulary",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.2.1-module-3-writing",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.4.4-interpret-scenario",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.4.4-transfer-and-review",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.6.2-input-1",
+      "scored_exercises": 2,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.6.2-input-2",
+      "scored_exercises": 2,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.6.2-integrate-and-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.7.6-listen-and-integrate",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.7.6-read-and-notice",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.7.6-transfer-and-assess",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.7.7-listen-and-integrate",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.7.7-read-and-notice",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.7.7-transfer-and-assess",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.7.8-listen-and-integrate",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.7.8-read-and-notice",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-b2-0.7.8-transfer-and-assess",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.11.1-topic-01-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.11.1-topic-01-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.11.1-topic-02-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.11.1-topic-02-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.11.1-topic-03-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.11.1-topic-03-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.11.1-topic-04-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.11.1-topic-04-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.11.1-topic-05-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.11.1-topic-05-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.11.1-topic-06-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.11.1-topic-06-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.11.2-topic-07-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.11.2-topic-07-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.11.2-topic-08-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.11.2-topic-08-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.11.2-topic-09-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.11.2-topic-09-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.11.2-topic-10-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.11.2-topic-10-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.2.1-module-1-grammar",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.2.1-module-1-reading",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.2.1-module-1-vocabulary",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.2.1-module-1-writing",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.2.1-module-2-grammar",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.2.1-module-2-reading",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.2.1-module-2-vocabulary",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.2.1-module-2-writing",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.2.1-module-3-grammar",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.2.1-module-3-reading",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.2.1-module-3-vocabulary",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.2.1-module-3-writing",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.4.5-interpret-scenario",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.4.5-transfer-and-review",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.6.3-input-1",
+      "scored_exercises": 2,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.6.3-input-2",
+      "scored_exercises": 2,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.6.3-integrate-and-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.7.5-listen-and-integrate",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.7.5-read-and-notice",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.7.5-transfer-and-assess",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.7.7-listen-and-integrate",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.7.7-read-and-notice",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.7.7-transfer-and-assess",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.7.8-listen-and-integrate",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.7.8-read-and-notice",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c1-0.7.8-transfer-and-assess",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.11.1-topic-01-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.11.1-topic-01-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.11.1-topic-02-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.11.1-topic-02-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.11.1-topic-03-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.11.1-topic-03-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.11.1-topic-04-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.11.1-topic-04-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.11.1-topic-05-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.11.1-topic-05-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.11.1-topic-06-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.11.1-topic-06-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.11.2-topic-07-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.11.2-topic-07-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.11.2-topic-08-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.11.2-topic-08-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.11.2-topic-09-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.11.2-topic-09-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.11.2-topic-10-practice",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.11.2-topic-10-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.2.1-module-1-grammar",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.2.1-module-1-reading",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.2.1-module-1-vocabulary",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.2.1-module-1-writing",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.2.1-module-2-grammar",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.2.1-module-2-reading",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.2.1-module-2-vocabulary",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.2.1-module-2-writing",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.2.1-module-3-grammar",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.2.1-module-3-reading",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.2.1-module-3-vocabulary",
+      "scored_exercises": 6,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.2.1-module-3-writing",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.4.6-interpret-scenario",
+      "scored_exercises": 4,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.4.6-transfer-and-review",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.6.4-input-1",
+      "scored_exercises": 2,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.6.4-input-2",
+      "scored_exercises": 2,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.6.4-integrate-and-transfer",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.7.5-listen-and-integrate",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.7.5-read-and-notice",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.7.5-transfer-and-assess",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.7.6-listen-and-integrate",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.7.6-read-and-notice",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.7.6-transfer-and-assess",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.7.8-listen-and-integrate",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.7.8-read-and-notice",
+      "scored_exercises": 3,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    },
+    {
+      "slug": "m10-assessments-c2-0.7.8-transfer-and-assess",
+      "scored_exercises": 0,
+      "deterministic_key_check": "passed",
+      "qualified_human_review": "pending",
+      "empirical_cefr_calibration": "not established"
+    }
+  ],
+  "formats": {
+    "multiple_choice": 331,
+    "short_answer": 105,
+    "listening": 172,
+    "sentence_order": 88,
+    "matching": 110,
+    "fill_blank": 86
+  },
+  "read_only": true,
+  "scope": "Deterministic key and definition integrity, not independent linguistic or pedagogic approval"
+}

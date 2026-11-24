@@ -4,6 +4,15 @@ Project competency blueprint and source inventory, not an exhaustive official CE
 
 Every listed gap remains open. Input length is an inventory metric, not a difficulty or CEFR validation.
 
+## Technical checkpoint — 24 November 2026
+
+Live read-only verification confirmed317 unpublished lessons,892 scored exercises,
+118 open tasks and52 mapped modules. All lesson definitions and deterministic
+answer keys passed; no new content was imported or published. Technical checks
+do not close any educational gap listed below. Qualified human review, authentic
+listening breadth, independent productive-skill ratings and CEFR calibration
+remain pending.
+
 ## A0
 
 Grammar sequence: Recognise je/tu in memorised chunks → Distinguish a question from a statement → Use un/une as part of a familiar noun phrase.
@@ -34,15 +43,15 @@ Contexts: identity and family, routine and time, food and money, transport and d
 
 | Module | Main / staged | Writing / listening | Outstanding evidence |
 |---|---:|---:|---|
-| a1-01 Sounds, greetings and politeness | 2 / 1 | 1 / 0 | No scripted listening exercise; Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| a1-02 Identity, numbers, dates and time | 5 / 0 | 1 / 2 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| a1-03 Build a first sentence | 4 / 1 | 1 / 2 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| a1-04 People, possession and description | 2 / 1 | 1 / 0 | No scripted listening exercise; Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| a1-05 Routine and present verbs | 2 / 1 | 1 / 1 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| a1-06 Food, prices and shopping | 8 / 0 | 2 / 5 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| a1-07 Transport and directions | 6 / 0 | 1 / 5 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| a1-01 Sounds, greetings and politeness | 6 / 1 | 3 / 2 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| a1-02 Identity, numbers, dates and time | 9 / 0 | 3 / 4 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| a1-03 Build a first sentence | 10 / 1 | 4 / 5 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| a1-04 People, possession and description | 4 / 1 | 2 / 1 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| a1-05 Routine and present verbs | 4 / 1 | 2 / 2 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| a1-06 Food, prices and shopping | 10 / 0 | 3 / 6 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| a1-07 Transport and directions | 8 / 0 | 2 / 6 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
 | a1-08 Appointments and study | 9 / 0 | 2 / 7 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| a1-09 A1 cumulative review | 1 / 0 | 1 / 0 | No structured grammar rule linked; prose notes may still exist; No scripted listening exercise; Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| a1-09 A1 cumulative review | 3 / 0 | 2 / 1 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
 
 ## A2
 
@@ -57,14 +66,14 @@ Contexts: journeys and disruptions, housing and services, health appointments, s
 
 | Module | Main / staged | Writing / listening | Outstanding evidence |
 |---|---:|---:|---|
-| a2-01 Plans and housing | 4 / 0 | 1 / 3 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| a2-02 Past events and journeys | 4 / 0 | 1 / 3 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| a2-01 Plans and housing | 12 / 0 | 5 / 7 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| a2-02 Past events and journeys | 8 / 0 | 3 / 5 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
 | a2-03 Travel services and relative clauses | 4 / 0 | 1 / 3 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| a2-04 Describe, compare and quantify | 2 / 0 | 1 / 1 | No structured grammar rule linked; prose notes may still exist; Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| a2-05 Health and everyday appointments | 3 / 0 | 1 / 1 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| a2-06 Messages and social arrangements | 3 / 0 | 1 / 1 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| a2-04 Describe, compare and quantify | 6 / 0 | 3 / 3 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| a2-05 Health and everyday appointments | 5 / 0 | 2 / 2 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| a2-06 Messages and social arrangements | 7 / 0 | 3 / 3 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
 | a2-07 Routine listening and interaction | 3 / 0 | 1 / 1 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| a2-08 A2 cumulative review | 3 / 0 | 1 / 1 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| a2-08 A2 cumulative review | 5 / 0 | 2 / 2 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
 
 ## B1
 
@@ -79,14 +88,14 @@ Contexts: work and study choices, housing problems, travel complaints, news in f
 
 | Module | Main / staged | Writing / listening | Outstanding evidence |
 |---|---:|---:|---|
-| b1-01 Narrate experience | 4 / 0 | 1 / 3 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| b1-02 Work, reasons and opinions | 4 / 0 | 1 / 3 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| b1-03 Necessity and practical problems | 4 / 0 | 1 / 3 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| b1-04 Hypotheses and future consequences | 2 / 0 | 1 / 1 | No structured grammar rule linked; prose notes may still exist; Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| b1-05 Connected speech and pronouns | 3 / 0 | 1 / 1 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| b1-06 News and longer conversations | 3 / 0 | 1 / 1 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| b1-07 Personal and formal writing | 3 / 0 | 1 / 1 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| b1-08 B1 cumulative review | 3 / 0 | 1 / 1 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| b1-01 Narrate experience | 6 / 0 | 2 / 4 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| b1-02 Work, reasons and opinions | 6 / 0 | 2 / 4 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| b1-03 Necessity and practical problems | 6 / 0 | 2 / 4 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| b1-04 Hypotheses and future consequences | 6 / 0 | 3 / 3 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| b1-05 Connected speech and pronouns | 7 / 0 | 3 / 3 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| b1-06 News and longer conversations | 9 / 0 | 4 / 4 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| b1-07 Personal and formal writing | 5 / 0 | 2 / 2 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| b1-08 B1 cumulative review | 5 / 0 | 2 / 2 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
 
 ## B2
 
@@ -101,14 +110,14 @@ Contexts: public policy, university and professional debates, formal complaints,
 
 | Module | Main / staged | Writing / listening | Outstanding evidence |
 |---|---:|---:|---|
-| b2-01 Debate and concession | 4 / 0 | 1 / 3 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| b2-02 Formal requests and tone | 4 / 0 | 1 / 3 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| b2-03 Documents and precise reference | 4 / 0 | 1 / 3 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| b2-04 Complex clauses and hypotheses | 2 / 0 | 1 / 1 | No structured grammar rule linked; prose notes may still exist; Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| b2-05 Extended reading and listening | 3 / 0 | 1 / 2 | No structured grammar rule linked; prose notes may still exist; Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| b2-06 Structured argument in writing | 3 / 0 | 1 / 1 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| b2-07 Negotiation and sustained speaking | 3 / 0 | 1 / 1 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| b2-08 B2 cumulative review | 3 / 0 | 1 / 1 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| b2-01 Debate and concession | 8 / 0 | 3 / 5 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| b2-02 Formal requests and tone | 6 / 0 | 2 / 4 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| b2-03 Documents and precise reference | 8 / 0 | 3 / 5 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| b2-04 Complex clauses and hypotheses | 6 / 0 | 3 / 3 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| b2-05 Extended reading and listening | 7 / 0 | 3 / 4 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| b2-06 Structured argument in writing | 5 / 0 | 2 / 2 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| b2-07 Negotiation and sustained speaking | 5 / 0 | 2 / 2 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| b2-08 B2 cumulative review | 5 / 0 | 2 / 2 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
 
 ## C1
 
@@ -124,13 +133,13 @@ Contexts: methodological reports, academic synthesis, professional decisions, cu
 | Module | Main / staged | Writing / listening | Outstanding evidence |
 |---|---:|---:|---|
 | c1-01 Evaluate evidence and alternatives | 4 / 0 | 1 / 3 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| c1-02 Report professional discussion | 4 / 0 | 1 / 3 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| c1-02 Report professional discussion | 6 / 0 | 2 / 4 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
 | c1-03 Synthesis and qualification | 4 / 0 | 1 / 3 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| c1-04 Complex prose and register | 2 / 0 | 1 / 1 | No structured grammar rule linked; prose notes may still exist; Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| c1-05 Extended multi-speaker listening | 3 / 0 | 1 / 1 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| c1-06 Multi-source written argument | 3 / 0 | 1 / 2 | No structured grammar rule linked; prose notes may still exist; Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| c1-04 Complex prose and register | 12 / 0 | 6 / 6 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| c1-05 Extended multi-speaker listening | 5 / 0 | 2 / 2 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| c1-06 Multi-source written argument | 7 / 0 | 3 / 4 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
 | c1-07 Fluent speaking and prosody | 3 / 0 | 1 / 1 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| c1-08 C1 cumulative review | 3 / 0 | 1 / 1 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| c1-08 C1 cumulative review | 5 / 0 | 2 / 2 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
 
 ## C2
 
@@ -145,12 +154,12 @@ Contexts: dense literary and non-literary texts, rhetorical criticism, public/pr
 
 | Module | Main / staged | Writing / listening | Outstanding evidence |
 |---|---:|---:|---|
-| c2-01 Rhetoric and implied conditions | 4 / 0 | 1 / 3 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| c2-02 Concession and logical scope | 4 / 0 | 1 / 3 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| c2-03 Pragmatics, irony and audience | 4 / 0 | 1 / 3 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| c2-04 Dense and varied texts | 2 / 0 | 1 / 1 | No structured grammar rule linked; prose notes may still exist; Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| c2-05 Nuanced spoken comprehension | 3 / 0 | 1 / 1 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| c2-06 Sophisticated spontaneous interaction | 3 / 0 | 1 / 1 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| c2-07 Critical synthesis and mediation | 3 / 0 | 1 / 2 | No structured grammar rule linked; prose notes may still exist; Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
-| c2-08 C2 cumulative review | 3 / 0 | 1 / 1 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| c2-01 Rhetoric and implied conditions | 6 / 0 | 2 / 4 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| c2-02 Concession and logical scope | 8 / 0 | 3 / 5 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| c2-03 Pragmatics, irony and audience | 6 / 0 | 2 / 4 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| c2-04 Dense and varied texts | 6 / 0 | 3 / 3 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| c2-05 Nuanced spoken comprehension | 5 / 0 | 2 / 2 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| c2-06 Sophisticated spontaneous interaction | 5 / 0 | 2 / 2 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| c2-07 Critical synthesis and mediation | 5 / 0 | 2 / 3 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
+| c2-08 C2 cumulative review | 5 / 0 | 2 / 2 | Independent productive-skill rating and unseen transfer evidence pending; Varied-speaker and spontaneous listening not established by synthetic scripts; Diagnostic/module/level-end empirical calibration pending |
 

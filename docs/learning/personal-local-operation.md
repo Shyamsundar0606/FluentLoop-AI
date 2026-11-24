@@ -4,14 +4,36 @@ FluentLoop AI is intended here for private daily French learning on Windows.
 No public hosting, publication or major launch milestones are needed. Existing
 curriculum, AI, voice, assessment, history and security features are retained.
 
+## Verified operating checkpoint — 24 November 2026
+
+Startup, graceful shutdown and full restart passed with the preserved main
+database. Latest recorded free space was C:32.05 GiB /D:177.25 GiB. The35 GiB
+preferred C: reserve was not reached; the unchanged minimum remains30 GiB C: /50
+GiB D:. CheckOnly checks static prerequisites, not complete live database health.
+The running supervisor monitors reserves every five seconds. Keep the startup
+PowerShell console open; stop from another console and wait for confirmation.
+Do not start a second instance when the existing application is healthy.
+
+A voice-format rejection now permits at most one constrained regeneration with
+the same full validation. Rejected text is not saved/spoken and the durable turn
+is not duplicated. An invalid retry still fails safely and remains retryable via
+the existing request ID. No source/privacy or conversational guard was relaxed.
+
+The final report records403 backend passes,34 real-service passes,42 browser
+passes across the named scopes, and unchanged learning/M08 history. Authentication
+uses server-backed opaque cookie sessions, not JWT refresh tokens. A normal
+owner login changes session/last-login metadata; this is distinct from modifying
+learning progress. New hardware acceptance and educational approval are not claimed.
+
 ## Current status
 
 The launchers and learner-only preview gate have been exercised locally. The
 confirmed learner account uses the existing main `fluentloop` database at revision
 `20261115_0016`; its UUID is allowlisted only in ignored private configuration.
 The account remains a learner. After separate authorizations and verified backups,
-the personal database now contains 181 lessons: 12 introductory A0, 39 A1 and 26
-each A2–C2, with 620 objective exercises and 50 open writing/transfer task lessons.
+the personal database now contains 317 lessons: 12 introductory A0, 63 A1, 50
+each A2/B1/B2 and 46 each C1/C2, with 892 objective exercises and 118 open
+writing/transfer task lessons.
 Curriculum remains unpublished. A0 is
 stored as introductory A1 preparation, not a new database CEFR level.
 Ubuntu storage has already been relocated to D: through the authorized recovery
@@ -200,3 +222,24 @@ French transcription, an AI Tutor response and clear French tutor playback.
 That is owner-confirmed acceptance of this setup, not a pronunciation score or a
 guarantee for every future device/browser. See the final verification report for
 the bounded real stop/start persistence check and the staged-curriculum review.
+# Verified personal preservation mode — 23 November 2026
+
+The configured personal installation now contains 317 unpublished lessons, 892
+scored exercises and 118 open writing/speaking tasks. The exact roadmap import
+receipt is in `backend/content/roadmap/manifest/IMPORT-RECEIPT-20261123.json`.
+Five earlier writing bridges remain staged. Startup never imports these automatically.
+
+With scoped personal preview enabled, the launcher defaults
+`preserve_retained_audio` to true. This pauses automatic expired/orphan audio
+cleanup so historical files and rows survive daily startup. It requires loopback
+development mode and explicit personal preview UUIDs. It does not extend expiry,
+grant playback of expired recordings, change explicit deletion or suppress account
+erasure. One retained historical asset is expired and therefore cannot be replayed
+through the API; its file and history remain preserved. This is a documented
+retention limitation, not a reason to change protected records automatically.
+
+Keep the existing 30 GiB C: and 50 GiB D: startup reserves. For this configured
+installation, run `scripts/start_personal_local.ps1 -CheckOnly`, then
+`scripts/start_personal_local.ps1 -ApproveProtectedServices -RecoveryPrerequisitesSatisfied`.
+Stop with `scripts/stop_personal_local.ps1` in another console. Sign in through
+`http://127.0.0.1:3000/login`; enter credentials only in the application.

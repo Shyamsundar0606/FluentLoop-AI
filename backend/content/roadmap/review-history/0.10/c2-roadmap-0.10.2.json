@@ -1,0 +1,495 @@
+{
+  "version": "0.10.2",
+  "level": "C2",
+  "status": "draft",
+  "source_license": "Original AI-assisted roadmap practice. Independent language, pedagogy, phonetic, answer-key and CEFR review pending.",
+  "tasks": [
+    {
+      "key": "topic-07-practice",
+      "skill": "grammar",
+      "title": "C2 roadmap 07: High-level listening",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nUne discussion fictive porte sur la promesse d’un accès « sans obstacle ». L’intervenante reconnaît la valeur de l’objectif, puis conteste une formule qui pourrait masquer des difficultés persistantes. Un résumé la présente ensuite comme hostile à l’accès lui-même. Réparer ce déplacement demande de suivre la cible exacte de la contestation et les reformulations qui la précisent. La difficulté ne se réduit pas à reconnaître des mots rares : elle tient à l’articulation des positions au fil de l’échange. Le script offre une tâche de ce type, mais ne reproduit ni un long débat spontané ni des variations régionales de débit et de prosodie. Ces performances doivent être travaillées avec d’autres ressources et évaluées séparément.\n\nNotice: A spoken reformulation may qualify the speaker’s earlier stance. Distinguish stance, concession and commitment; synthetic scripts cannot establish comprehension of fast regional speech.\nModel: Je ne récuse pas l’objectif ; j’en conteste la formulation.\nMeaning: I do not reject the objective; I dispute its wording.\n\nUseful expressions: la cible d’une objection = the target of an objection; une reformulation infidèle = an inaccurate paraphrase; un obstacle persistant = a continuing obstacle",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "A spoken reformulation may qualify the speaker’s earlier stance. Distinguish stance, concession and commitment; synthetic scripts cannot establish comprehension of fast regional speech. Model meaning: I do not reject the objective; I dispute its wording.",
+          "options": [
+            "Je ne récuse pas l’objectif ; j’en conteste la formulation.",
+            "Je ne récuse pas l’objectif ; j’en contestent la formulation.",
+            "Je ne récuse pas l’objectif ; j’en conteste le formulation."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "expressions-in-context",
+          "type": "matching",
+          "prompt": "Match these contextual expressions to their English meanings.",
+          "instructions": "Use the meaning taught for this situation, not every possible dictionary meaning.",
+          "explanation": "The expressions are glossed in the lesson context.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "a65b95c9-beb0-5852-90b6-31de4829d5f7",
+                "text": "la cible d’une objection"
+              },
+              {
+                "id": "209581af-2258-529b-8ced-b769a3c882dc",
+                "text": "une reformulation infidèle"
+              },
+              {
+                "id": "bf313d17-7d1f-5f6c-86ac-f9328563b606",
+                "text": "un obstacle persistant"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "f7018aba-3a22-5adc-b12b-39b9a9c4c1bb",
+                "text": "the target of an objection"
+              },
+              {
+                "id": "21c0f54e-1bb5-5a7b-9608-3554ff91ee94",
+                "text": "an inaccurate paraphrase"
+              },
+              {
+                "id": "13e248e0-7c16-592f-bf6c-f0cc3800461c",
+                "text": "a continuing obstacle"
+              }
+            ],
+            "answer_pairs": {
+              "a65b95c9-beb0-5852-90b6-31de4829d5f7": "f7018aba-3a22-5adc-b12b-39b9a9c4c1bb",
+              "209581af-2258-529b-8ced-b769a3c882dc": "21c0f54e-1bb5-5a7b-9608-3554ff91ee94",
+              "bf313d17-7d1f-5f6c-86ac-f9328563b606": "13e248e0-7c16-592f-bf6c-f0cc3800461c"
+            }
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: The objection targets the wording, not the value of access itself.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "The speaker rejects access as an objective.",
+            "The task validates comprehension of every regional accent.",
+            "The objection targets the wording, not the value of access itself."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: The speaker asks to name remaining obstacles rather than claim they vanished.. Transcript for review: Intervenante : Je ne récuse pas l’objectif. Je conteste la formule sans obstacle. Modérateur : Vous préférez donc un accès limité ? Intervenante : Non, une description des obstacles restants, pour pouvoir agir sur eux plutôt que les déclarer abolis.",
+          "options": [
+            "The moderator’s paraphrase is accepted without correction.",
+            "The speaker asks to name remaining obstacles rather than claim they vanished.",
+            "The speaker prefers deliberately excluding users."
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Intervenante : Je ne récuse pas l’objectif. Je conteste la formule sans obstacle. Modérateur : Vous préférez donc un accès limité ? Intervenante : Non, une description des obstacles restants, pour pouvoir agir sur eux plutôt que les déclarer abolis."
+          }
+        }
+      ],
+      "module_title": "High-level listening",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-c2-07",
+          "title": "High-level listening",
+          "summary": "A spoken reformulation may qualify the speaker’s earlier stance. Distinguish stance, concession and commitment; synthetic scripts cannot establish comprehension of fast regional speech.",
+          "rule_code": "roadmap-c2-07",
+          "explanation_english": "A spoken reformulation may qualify the speaker’s earlier stance. Distinguish stance, concession and commitment; synthetic scripts cannot establish comprehension of fast regional speech.",
+          "examples": [
+            [
+              "Je ne récuse pas l’objectif ; j’en conteste la formulation.",
+              "I do not reject the objective; I dispute its wording."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "topic-07-transfer",
+      "skill": "writing",
+      "title": "C2 transfer 07: High-level listening",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 500–650 French words. Listen first, track each speaker’s reformulation and produce a faithful synthesis that rejects one misleading paraphrase. Handle an unanticipated objection orally. Document the need for authentic long-form, varied-speaker listening rather than treating this script as proof of fluency.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "High-level listening",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-07-practice"
+      ]
+    },
+    {
+      "key": "topic-08-practice",
+      "skill": "grammar",
+      "title": "C2 roadmap 08: Professional specialization",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nDans un contrat entièrement fictif, une clause décrit les vérifications qu’une équipe s’engage à effectuer sur un prototype. Un résumé commercial parle ensuite d’un résultat garanti. Nora signale que la description d’une démarche ne suffit pas à établir cette garantie. Elle propose une reformulation qui distingue l’action promise, ses limites et les éléments qui devront être examinés par les personnes compétentes. Le texte ne fournit aucune analyse d’un droit applicable et ne doit pas servir à interpréter un contrat réel. Le travail linguistique consiste à préserver la portée des formulations lorsqu’on passe d’un registre technique à une présentation destinée à un lecteur non spécialiste.\n\nNotice: A technical or legal register requires scope discipline. Une obligation de moyens cannot simply be paraphrased as a guaranteed result; this fictional language exercise is not legal advice.\nModel: La clause décrit une démarche, sans garantir le résultat.\nMeaning: The clause describes a process without guaranteeing the result.\n\nUseful expressions: une démarche promise = a promised process; une garantie de résultat = a result guarantee; le droit applicable = the applicable law",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "A technical or legal register requires scope discipline. Une obligation de moyens cannot simply be paraphrased as a guaranteed result; this fictional language exercise is not legal advice. Model meaning: The clause describes a process without guaranteeing the result.",
+          "options": [
+            "La clause décrivent une démarche, sans garantir le résultat.",
+            "La clause décrit une démarche, sans garantie le résultat.",
+            "La clause décrit une démarche, sans garantir le résultat."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "fill_blank",
+          "prompt": "La clause décrit une démarche, ___ le résultat.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "A technical or legal register requires scope discipline. Une obligation de moyens cannot simply be paraphrased as a guaranteed result; this fictional language exercise is not legal advice. The model uses « sans garantir ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "sans garantir"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: The commercial paraphrase overstates the fictional process commitment as a result guarantee.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "The technical clause explicitly guarantees every result.",
+            "The commercial paraphrase overstates the fictional process commitment as a result guarantee.",
+            "The exercise determines the legal effect of real contracts."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Nora refuses to infer a guarantee from the process description alone.. Transcript for review: Partenaire : Puis-je écrire résultat garanti ? Nora : Pas sur la seule base de ce passage. Décrivons les vérifications annoncées et faisons examiner toute garantie distincte par les personnes compétentes.",
+          "options": [
+            "Nora refuses to infer a guarantee from the process description alone.",
+            "Nora offers a legal certification of a real contract.",
+            "Nora confirms every possible outcome."
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Partenaire : Puis-je écrire résultat garanti ? Nora : Pas sur la seule base de ce passage. Décrivons les vérifications annoncées et faisons examiner toute garantie distincte par les personnes compétentes."
+          }
+        }
+      ],
+      "module_title": "Professional specialization",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-c2-08",
+          "title": "Professional specialization",
+          "summary": "A technical or legal register requires scope discipline. Une obligation de moyens cannot simply be paraphrased as a guaranteed result; this fictional language exercise is not legal advice.",
+          "rule_code": "roadmap-c2-08",
+          "explanation_english": "A technical or legal register requires scope discipline. Une obligation de moyens cannot simply be paraphrased as a guaranteed result; this fictional language exercise is not legal advice.",
+          "examples": [
+            [
+              "La clause décrit une démarche, sans garantir le résultat.",
+              "The clause describes a process without guaranteeing the result."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-07-transfer"
+      ]
+    },
+    {
+      "key": "topic-08-transfer",
+      "skill": "writing",
+      "title": "C2 transfer 08: Professional specialization",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 500–650 French words. Translate the register, not the language: reformulate a fictional technical/contractual passage for a specialist and a general reader. Preserve commitments and exclusions, identify ambiguities and avoid presenting the exercise as legal or cybersecurity certification.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Professional specialization",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-08-practice"
+      ]
+    },
+    {
+      "key": "topic-09-practice",
+      "skill": "grammar",
+      "title": "C2 roadmap 09: Spontaneous communication",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nDans un débat fictif, Nora reconnaît qu’une procédure rapide peut être utile. Son interlocuteur en déduit qu’elle approuve toutes les modalités proposées. Elle doit réparer cette inférence sans donner l’impression de nier sa concession initiale. Une réponse souple peut rappeler le point admis, nommer la condition encore discutée et proposer une question permettant d’avancer. La spontanéité recherchée ne signifie pas parler sans pause ni produire des tournures rares à chaque phrase. Elle suppose ici de rester intelligible, de gérer un désaccord imprévu et de préserver les nuances d’un engagement sous la pression de l’échange. Une réponse écrite préparée ne suffit pas à établir cette capacité.\n\nNotice: Reformulation can repair an implied conclusion without retracting the whole preceding statement. Préciser ce que l’on concède makes the concession’s scope explicit.\nModel: Je concède ce point, non la conclusion que vous en tirez.\nMeaning: I concede that point, not the conclusion you draw from it.\n\nUseful expressions: une concession circonscrite = a delimited concession; réparer une inférence = to repair an inference; un désaccord imprévu = an unexpected disagreement",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Reformulation can repair an implied conclusion without retracting the whole preceding statement. Préciser ce que l’on concède makes the concession’s scope explicit. Model meaning: I concede that point, not the conclusion you draw from it.",
+          "options": [
+            "Je concède ce point, non la conclusion qui vous en tirez.",
+            "Je concède ce point, non la conclusion que vous en tirez.",
+            "Je concède ce point, non la conclusion que vous en tire."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "short_answer",
+          "prompt": "Je ___ ce point, non la conclusion que vous en tirez.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "Reformulation can repair an implied conclusion without retracting the whole preceding statement. Préciser ce que l’on concède makes the concession’s scope explicit. The model uses « concède ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "concède"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: Nora can retain the concession while rejecting an overextended conclusion.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "Nora can retain the concession while rejecting an overextended conclusion.",
+            "Nora must retract every acknowledged benefit.",
+            "Any pause proves lack of advanced competence."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Nora redirects the debate to the unresolved exception procedure.. Transcript for review: Interlocuteur : Vous admettez le gain, donc vous soutenez le projet. Nora : Je concède ce gain, non l’ensemble des modalités. La question reste : comment les exceptions seront-elles traitées ? Pouvez-vous préciser ce point ?",
+          "options": [
+            "Nora gives unconditional support to the whole project.",
+            "The procedure for exceptions has already been agreed.",
+            "Nora redirects the debate to the unresolved exception procedure."
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Interlocuteur : Vous admettez le gain, donc vous soutenez le projet. Nora : Je concède ce gain, non l’ensemble des modalités. La question reste : comment les exceptions seront-elles traitées ? Pouvez-vous préciser ce point ?"
+          }
+        }
+      ],
+      "module_title": "Spontaneous communication",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-c2-09",
+          "title": "Spontaneous communication",
+          "summary": "Reformulation can repair an implied conclusion without retracting the whole preceding statement. Préciser ce que l’on concède makes the concession’s scope explicit.",
+          "rule_code": "roadmap-c2-09",
+          "explanation_english": "Reformulation can repair an implied conclusion without retracting the whole preceding statement. Préciser ce que l’on concède makes the concession’s scope explicit.",
+          "examples": [
+            [
+              "Je concède ce point, non la conclusion que vous en tirez.",
+              "I concede that point, not the conclusion you draw from it."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-08-transfer"
+      ]
+    },
+    {
+      "key": "topic-09-transfer",
+      "skill": "writing",
+      "title": "C2 transfer 09: Spontaneous communication",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 500–650 French words. Write a position with explicit limits, then practise an unscripted challenge in which the Tutor deliberately overstates your concession. Reformulate, ask a question and summarise remaining disagreement. Human interactive rating is required to assess actual spontaneity.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Spontaneous communication",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-09-practice"
+      ]
+    },
+    {
+      "key": "topic-10-practice",
+      "skill": "grammar",
+      "title": "C2 roadmap 10: DALF C2 preparation",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nUn dossier original examine une institution qui promet de faire entendre toutes les voix. Un premier point de vue valorise l’élargissement des témoignages ; un second interroge les choix éditoriaux qui organisent cette pluralité. La transformation en article ou en intervention orale demande une problématique propre, sans attribuer aux sources une unité qu’elles n’ont pas. Il faut distinguer un désaccord sur la sélection, une critique de ses effets et une allégation d’intention. Le présent ensemble est trop court pour constituer une épreuve officielle complète. Il sert à préparer des opérations de lecture, de médiation et d’argumentation ; les conditions, formats et critères actualisés du DALF doivent être consultés auprès de France Éducation international.\n\nNotice: Integrated comprehension/production requires a transformed yet faithful use of sources. A defended perspective must not erase source attribution or claim official examiner approval.\nModel: La reformulation doit préserver les nuances du dossier.\nMeaning: The reformulation must preserve the nuances of the dossier.\n\nUseful expressions: une production intégrée = an integrated production; une problématique propre = an independently framed central question; une nuance décisive = a meaning-critical nuance",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Integrated comprehension/production requires a transformed yet faithful use of sources. A defended perspective must not erase source attribution or claim official examiner approval. Model meaning: The reformulation must preserve the nuances of the dossier.",
+          "options": [
+            "La reformulation doit préserver les nuances du dossier.",
+            "La reformulation doivent préserver les nuances du dossier.",
+            "La reformulation doit préserve les nuances du dossier."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "rebuild-the-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild the taught model sentence.",
+          "instructions": "Use every tile once in the model order. Other natural French orders are not assessed in this supported task.",
+          "explanation": "Integrated comprehension/production requires a transformed yet faithful use of sources. A defended perspective must not erase source attribution or claim official examiner approval.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "80c56a7b-8a32-550b-b2b5-3c9d62010b0d",
+                "text": "La"
+              },
+              {
+                "id": "13421bd5-7465-5c81-8235-41bcc7fdf1f8",
+                "text": "reformulation"
+              },
+              {
+                "id": "883da832-4845-5d05-9aa6-a179f56cfbca",
+                "text": "doit"
+              },
+              {
+                "id": "6a398299-34c1-5ab3-962f-45d77c082a12",
+                "text": "préserver"
+              },
+              {
+                "id": "2e9c2bf4-6d90-5e53-b549-96bed983d41a",
+                "text": "les"
+              },
+              {
+                "id": "c3d4d9db-a788-5cb7-b6b0-37c8cea00a85",
+                "text": "nuances"
+              },
+              {
+                "id": "ecdf76c0-ffd7-5b26-86c7-b48f8b43f296",
+                "text": "du"
+              },
+              {
+                "id": "e897f8fa-efcc-5b4b-9302-75c5672fe9b4",
+                "text": "dossier."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "80c56a7b-8a32-550b-b2b5-3c9d62010b0d",
+                "13421bd5-7465-5c81-8235-41bcc7fdf1f8",
+                "883da832-4845-5d05-9aa6-a179f56cfbca",
+                "6a398299-34c1-5ab3-962f-45d77c082a12",
+                "2e9c2bf4-6d90-5e53-b549-96bed983d41a",
+                "c3d4d9db-a788-5cb7-b6b0-37c8cea00a85",
+                "ecdf76c0-ffd7-5b26-86c7-b48f8b43f296",
+                "e897f8fa-efcc-5b4b-9302-75c5672fe9b4"
+              ]
+            ],
+            "correct_sentence": "La reformulation doit préserver les nuances du dossier."
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: The task develops integrated source handling without reproducing a full official exam.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "The sources necessarily share one identical position.",
+            "This short task certifies a DALF C2 result.",
+            "The task develops integrated source handling without reproducing a full official exam."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Audience adaptation may re-explain a meaning-critical qualification, not erase it.. Transcript for review: Jury fictif : En changeant de public, pouvez-vous supprimer cette réserve ? Nora : Je peux l’expliquer autrement, pas la supprimer si elle conditionne le sens. Ma prise de position doit rester distincte de ce que les sources établissent.",
+          "options": [
+            "A personal position must be attributed to all sources.",
+            "Audience adaptation may re-explain a meaning-critical qualification, not erase it.",
+            "A new audience justifies changing the evidence."
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Jury fictif : En changeant de public, pouvez-vous supprimer cette réserve ? Nora : Je peux l’expliquer autrement, pas la supprimer si elle conditionne le sens. Ma prise de position doit rester distincte de ce que les sources établissent."
+          }
+        }
+      ],
+      "module_title": "DALF C2 preparation",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-c2-10",
+          "title": "DALF C2 preparation",
+          "summary": "Integrated comprehension/production requires a transformed yet faithful use of sources. A defended perspective must not erase source attribution or claim official examiner approval.",
+          "rule_code": "roadmap-c2-10",
+          "explanation_english": "Integrated comprehension/production requires a transformed yet faithful use of sources. A defended perspective must not erase source attribution or claim official examiner approval.",
+          "examples": [
+            [
+              "La reformulation doit préserver les nuances du dossier.",
+              "The reformulation must preserve the nuances of the dossier."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-09-transfer"
+      ]
+    },
+    {
+      "key": "topic-10-transfer",
+      "skill": "writing",
+      "title": "C2 transfer 10: DALF C2 preparation",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 500–650 French words. Integrate the written and spoken perspectives into an extended article and an oral mediation for a different audience. Defend a precise position, preserve qualifications and answer challenges. This is original preparatory practice; use current FEI instructions separately for a full official-format rehearsal.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "DALF C2 preparation",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-10-practice"
+      ]
+    }
+  ],
+  "title": "C2 roadmap practice, part 2",
+  "glossary": [],
+  "learning_stage": null
+}

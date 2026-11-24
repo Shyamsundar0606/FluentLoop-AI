@@ -1,0 +1,765 @@
+{
+  "version": "0.11.1",
+  "level": "B2",
+  "status": "draft",
+  "source_license": "Original AI-assisted roadmap practice. Independent language, pedagogy, phonetic, answer-key and CEFR review pending.",
+  "tasks": [
+    {
+      "key": "topic-01-practice",
+      "skill": "grammar",
+      "title": "B2 roadmap 01: Advanced tense control",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nLe dossier avait été transmis avant la réunion, mais une annexe manquait encore. Ayant repéré cette absence, Nora a demandé de différer la validation, sans remettre en cause tout le travail. Le groupe a accepté une relecture limitée à l’annexe. Le compte rendu ne doit donc ni annoncer une validation définitive ni présenter le dossier comme entièrement inutilisable. La décision portait sur le calendrier de validation et sur le périmètre du contrôle restant, deux points que les échanges ultérieurs risquent de confondre.\n\nNotice: Choose tense from the reference point, not a mechanical word trigger. Plus-que-parfait locates an earlier event; a past conditional can locate an unrealised alternative.\nModel: Le dossier avait été transmis avant la réunion.\nMeaning: The file had been sent before the meeting.\n\nUseful expressions: différer la validation = to defer approval; le périmètre du contrôle = the scope of the check; une annexe manquante = a missing annex",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence preserves the model’s meaning and scope?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Choose tense from the reference point, not a mechanical word trigger. Plus-que-parfait locates an earlier event; a past conditional can locate an unrealised alternative. Model meaning: The file had been sent before the meeting.",
+          "options": [
+            "Le dossier a été entièrement validé avant la réunion.",
+            "Le dossier ne pourra jamais être utilisé.",
+            "Le dossier avait été transmis avant la réunion."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "short_answer",
+          "prompt": "Le dossier ___ avant la réunion.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "Choose tense from the reference point, not a mechanical word trigger. Plus-que-parfait locates an earlier event; a past conditional can locate an unrealised alternative. The model uses « avait été transmis ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "avait été transmis"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: Validation was deferred for a limited outstanding check.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "Every document was fully approved before the meeting.",
+            "Validation was deferred for a limited outstanding check.",
+            "The dossier was wholly rejected as unusable."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Only the missing annex still needs checking.. Transcript for review: Nora : Si l’annexe avait été jointe, nous aurions pu valider hier. Hugo : Devons-nous tout recommencer ? Nora : Non, il reste à vérifier cette annexe, pas à refaire le dossier.",
+          "options": [
+            "Only the missing annex still needs checking.",
+            "The entire dossier must be rewritten.",
+            "The team validated everything yesterday."
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Nora : Si l’annexe avait été jointe, nous aurions pu valider hier. Hugo : Devons-nous tout recommencer ? Nora : Non, il reste à vérifier cette annexe, pas à refaire le dossier."
+          }
+        }
+      ],
+      "module_title": "Advanced tense control",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-b2-01",
+          "title": "Advanced tense control",
+          "summary": "Choose tense from the reference point, not a mechanical word trigger. Plus-que-parfait locates an earlier event; a past conditional can locate an unrealised alternative.",
+          "rule_code": "roadmap-b2-01",
+          "explanation_english": "Choose tense from the reference point, not a mechanical word trigger. Plus-que-parfait locates an earlier event; a past conditional can locate an unrealised alternative.",
+          "examples": [
+            [
+              "Le dossier avait été transmis avant la réunion.",
+              "The file had been sent before the meeting."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "topic-01-transfer",
+      "skill": "writing",
+      "title": "B2 transfer 01: Advanced tense control",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 220–280 French words. Explain a fictional project sequence with background, prior completion and an unrealised alternative. Clarify a participial phrase and distinguish a local correction from wholesale rejection.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Advanced tense control",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-01-practice"
+      ]
+    },
+    {
+      "key": "topic-02-practice",
+      "skill": "grammar",
+      "title": "B2 roadmap 02: Subjunctive mastery",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nUn groupe souhaite publier les premiers résultats d’un essai. Nora accepte qu’un résumé soit diffusé, à condition que les limites y soient clairement présentées. Elle ne demande pas de supprimer toute observation positive. Son objection vise une conclusion générale qui dépasserait la population étudiée. Bien que les données restent utiles pour orienter une prochaine étape, elles ne suffisent pas à trancher toutes les questions du projet. Reconnaître cette limite n’équivaut ni à rejeter les données ni à garantir leur généralisation.\n\nNotice: Bien que takes the subjunctive in this concession. Après que ordinarily takes the indicative; do not infer that every conjunction triggers the same mood.\nModel: Bien que les données soient limitées, elles restent utiles.\nMeaning: Although the data are limited, they remain useful.\n\nUseful expressions: à condition que = provided that; trancher une question = to settle a question; une généralisation = a generalisation",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence preserves the model’s meaning and scope?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Bien que takes the subjunctive in this concession. Après que ordinarily takes the indicative; do not infer that every conjunction triggers the same mood. Model meaning: Although the data are limited, they remain useful.",
+          "options": [
+            "Ces données suffisent à une conclusion sans restriction.",
+            "Bien que les données soient limitées, elles restent utiles.",
+            "Les données sont limitées, donc elles ne présentent aucune utilité."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "rebuild-the-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild the taught model sentence.",
+          "instructions": "Use every tile once in the model order. Other natural French orders are not assessed in this supported task.",
+          "explanation": "Bien que takes the subjunctive in this concession. Après que ordinarily takes the indicative; do not infer that every conjunction triggers the same mood.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "2ded721f-da44-5642-9af8-0a4dabc980a4",
+                "text": "Bien"
+              },
+              {
+                "id": "9a504594-ef3c-56ff-9e52-27db07c173a0",
+                "text": "que"
+              },
+              {
+                "id": "0bda3bcf-7624-55e9-86fc-ce8f06349f18",
+                "text": "les"
+              },
+              {
+                "id": "089b569e-e245-5032-bc4e-04912ecbbeef",
+                "text": "données"
+              },
+              {
+                "id": "730ed5a5-2f0f-558a-a564-20fb14dc980d",
+                "text": "soient"
+              },
+              {
+                "id": "a665d656-c43e-5d20-a4ec-f51e98925888",
+                "text": "limitées,"
+              },
+              {
+                "id": "ea30787f-9a1d-58a0-9be4-6c20b81e44a4",
+                "text": "elles"
+              },
+              {
+                "id": "3193afae-ed22-5ec7-82fc-b2a0346b4676",
+                "text": "restent"
+              },
+              {
+                "id": "6008f891-26f0-5b24-86a6-725e00bea2e3",
+                "text": "utiles."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "2ded721f-da44-5642-9af8-0a4dabc980a4",
+                "9a504594-ef3c-56ff-9e52-27db07c173a0",
+                "0bda3bcf-7624-55e9-86fc-ce8f06349f18",
+                "089b569e-e245-5032-bc4e-04912ecbbeef",
+                "730ed5a5-2f0f-558a-a564-20fb14dc980d",
+                "a665d656-c43e-5d20-a4ec-f51e98925888",
+                "ea30787f-9a1d-58a0-9be4-6c20b81e44a4",
+                "3193afae-ed22-5ec7-82fc-b2a0346b4676",
+                "6008f891-26f0-5b24-86a6-725e00bea2e3"
+              ]
+            ],
+            "correct_sentence": "Bien que les données soient limitées, elles restent utiles."
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: Nora permits a qualified summary but resists overgeneralisation.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "Nora permits a qualified summary but resists overgeneralisation.",
+            "Nora rejects every positive observation.",
+            "The data settle every question about all populations."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: The doubt concerns a general conclusion, not all usefulness.. Transcript for review: Hugo : Vous doutez que l’essai ait une utilité ? Nora : Non, je doute qu’il permette déjà une conclusion générale. Il faut que le résumé distingue ces deux affirmations.",
+          "options": [
+            "Nora denies that the trial was conducted.",
+            "The summary should remove every limitation.",
+            "The doubt concerns a general conclusion, not all usefulness."
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Hugo : Vous doutez que l’essai ait une utilité ? Nora : Non, je doute qu’il permette déjà une conclusion générale. Il faut que le résumé distingue ces deux affirmations."
+          }
+        }
+      ],
+      "module_title": "Subjunctive mastery",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-b2-02",
+          "title": "Subjunctive mastery",
+          "summary": "Bien que takes the subjunctive in this concession. Après que ordinarily takes the indicative; do not infer that every conjunction triggers the same mood.",
+          "rule_code": "roadmap-b2-02",
+          "explanation_english": "Bien que takes the subjunctive in this concession. Après que ordinarily takes the indicative; do not infer that every conjunction triggers the same mood.",
+          "examples": [
+            [
+              "Bien que les données soient limitées, elles restent utiles.",
+              "Although the data are limited, they remain useful."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-01-transfer"
+      ]
+    },
+    {
+      "key": "topic-02-transfer",
+      "skill": "writing",
+      "title": "B2 transfer 02: Subjunctive mastery",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 220–280 French words. Argue for a qualified use of fictional findings. Use mood to express doubt, an acknowledged fact, a requirement and a concession. Explain orally which proposition your doubt actually targets.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Subjunctive mastery",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-02-practice"
+      ]
+    },
+    {
+      "key": "topic-03-practice",
+      "skill": "grammar",
+      "title": "B2 roadmap 03: Complex hypotheses",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nUne équipe fictive constate une erreur après une démonstration. Un collègue estime qu’un test supplémentaire l’aurait révélée. Nora admet cette possibilité, mais rappelle que personne n’a exécuté le test en question : son résultat reste supposé. Ils décident de le reproduire dans un environnement d’essai avant d’en tirer une recommandation. Cette discussion peut éclairer une procédure future sans transformer un scénario rétrospectif plausible en preuve de ce qui se serait nécessairement produit.\n\nNotice: A contrary-to-fact past condition commonly uses si plus plus-que-parfait with conditionnel passé. Keep causation hypothetical when the source does not establish it.\nModel: Si nous avions testé le système, nous aurions repéré cette erreur.\nMeaning: If we had tested the system, we would have spotted this error.\n\nUseful expressions: un scénario rétrospectif = a retrospective scenario; une possibilité non vérifiée = an unverified possibility; nécessairement = necessarily",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence preserves the model’s meaning and scope?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "A contrary-to-fact past condition commonly uses si plus plus-que-parfait with conditionnel passé. Keep causation hypothetical when the source does not establish it. Model meaning: If we had tested the system, we would have spotted this error.",
+          "options": [
+            "Si nous avions testé le système, nous aurions repéré cette erreur.",
+            "Nous avons exécuté le test et établi qu’il aurait tout empêché.",
+            "Un autre calendrier aurait nécessairement évité le problème."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "expressions-in-context",
+          "type": "matching",
+          "prompt": "Match these contextual expressions to their English meanings.",
+          "instructions": "Use the meaning taught for this situation, not every possible dictionary meaning.",
+          "explanation": "The expressions are glossed in the lesson context.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "8f0089b5-0653-5ca4-a669-9c258d82a674",
+                "text": "un scénario rétrospectif"
+              },
+              {
+                "id": "b706ceba-3790-5950-8ed2-ad9e5b1d5720",
+                "text": "une possibilité non vérifiée"
+              },
+              {
+                "id": "78cd7a25-d431-5015-9eac-43b91c7ac2c9",
+                "text": "nécessairement"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "a17674e1-b45f-5457-a550-69f7d11b72ec",
+                "text": "a retrospective scenario"
+              },
+              {
+                "id": "8a2fa1b5-9754-5638-8342-2b59b90a8861",
+                "text": "an unverified possibility"
+              },
+              {
+                "id": "c2cdb12a-8bc0-5a78-98f8-10abbeb4dfe2",
+                "text": "necessarily"
+              }
+            ],
+            "answer_pairs": {
+              "8f0089b5-0653-5ca4-a669-9c258d82a674": "a17674e1-b45f-5457-a550-69f7d11b72ec",
+              "b706ceba-3790-5950-8ed2-ad9e5b1d5720": "8a2fa1b5-9754-5638-8342-2b59b90a8861",
+              "78cd7a25-d431-5015-9eac-43b91c7ac2c9": "c2cdb12a-8bc0-5a78-98f8-10abbeb4dfe2"
+            }
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: The proposed test outcome is plausible but unverified.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "The omitted test was run and conclusively failed.",
+            "The team has proved the error was unavoidable.",
+            "The proposed test outcome is plausible but unverified."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: A possible detection is not a guaranteed prevention.. Transcript for review: Nora : Avec un autre calendrier, nous aurions peut-être détecté le problème. Hugo : Donc le retard l’aurait forcément évité ? Nora : Non, peut-être n’est pas forcément.",
+          "options": [
+            "The speakers say detection was impossible.",
+            "A possible detection is not a guaranteed prevention.",
+            "A delay is proven to prevent every error."
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Nora : Avec un autre calendrier, nous aurions peut-être détecté le problème. Hugo : Donc le retard l’aurait forcément évité ? Nora : Non, peut-être n’est pas forcément."
+          }
+        }
+      ],
+      "module_title": "Complex hypotheses",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-b2-03",
+          "title": "Complex hypotheses",
+          "summary": "A contrary-to-fact past condition commonly uses si plus plus-que-parfait with conditionnel passé. Keep causation hypothetical when the source does not establish it.",
+          "rule_code": "roadmap-b2-03",
+          "explanation_english": "A contrary-to-fact past condition commonly uses si plus plus-que-parfait with conditionnel passé. Keep causation hypothetical when the source does not establish it.",
+          "examples": [
+            [
+              "Si nous avions testé le système, nous aurions repéré cette erreur.",
+              "If we had tested the system, we would have spotted this error."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-02-transfer"
+      ]
+    },
+    {
+      "key": "topic-03-transfer",
+      "skill": "writing",
+      "title": "B2 transfer 03: Complex hypotheses",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 220–280 French words. Analyse a fictional missed opportunity using past hypotheses and one present consequence. Distinguish certainty from possibility and respond to a partner who turns your hypothesis into a factual accusation.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Complex hypotheses",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-03-practice"
+      ]
+    },
+    {
+      "key": "topic-04-practice",
+      "skill": "grammar",
+      "title": "B2 roadmap 04: Advanced relative clauses",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nLe projet auquel Nora participe concerne une salle partagée. Le rapport dont elle parle distingue l’accès des habitants de l’accès des prestataires. Le bâtiment près duquel la salle se trouve accueille déjà plusieurs activités. Ces précisions ne sont pas interchangeables : confondre le projet, le rapport et le bâtiment peut attribuer à un document une propriété du lieu. Nora reformule chaque référence avant la discussion pour que les objections portent sur le bon objet.\n\nNotice: Dont can replace a complement introduced by de; auquel refers to à plus a masculine singular antecedent. Duquel is used after compound prepositions such as près de.\nModel: Voici le projet auquel je participe.\nMeaning: Here is the project I am taking part in.\n\nUseful expressions: participer à un projet = to take part in a project; parler d’un rapport = to discuss a report; auprès du comité = with the committee",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence preserves the model’s meaning and scope?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Dont can replace a complement introduced by de; auquel refers to à plus a masculine singular antecedent. Duquel is used after compound prepositions such as près de. Model meaning: Here is the project I am taking part in.",
+          "options": [
+            "Voici le projet qui me finance.",
+            "Voici le rapport dont je suis l’auteur.",
+            "Voici le projet auquel je participe."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "fill_blank",
+          "prompt": "Voici le projet ___ je participe.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "Dont can replace a complement introduced by de; auquel refers to à plus a masculine singular antecedent. Duquel is used after compound prepositions such as près de. The model uses « auquel ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "auquel"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: The text distinguishes project, report and nearby building.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "The report is the building that hosts activities.",
+            "The text distinguishes project, report and nearby building.",
+            "Every relative pronoun refers to one document."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: A response exists without an established funding award.. Transcript for review: Hugo : Le comité auprès duquel vous avez déposé la demande a-t-il répondu ? Nora : Oui, mais le financement dont nous avons besoin n’est pas encore accordé.",
+          "options": [
+            "A response exists without an established funding award.",
+            "Funding has already been awarded.",
+            "The application has never been submitted."
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Hugo : Le comité auprès duquel vous avez déposé la demande a-t-il répondu ? Nora : Oui, mais le financement dont nous avons besoin n’est pas encore accordé."
+          }
+        }
+      ],
+      "module_title": "Advanced relative clauses",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-b2-04",
+          "title": "Advanced relative clauses",
+          "summary": "Dont can replace a complement introduced by de; auquel refers to à plus a masculine singular antecedent. Duquel is used after compound prepositions such as près de.",
+          "rule_code": "roadmap-b2-04",
+          "explanation_english": "Dont can replace a complement introduced by de; auquel refers to à plus a masculine singular antecedent. Duquel is used after compound prepositions such as près de.",
+          "examples": [
+            [
+              "Voici le projet auquel je participe.",
+              "Here is the project I am taking part in."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-03-transfer"
+      ]
+    },
+    {
+      "key": "topic-04-transfer",
+      "skill": "writing",
+      "title": "B2 transfer 04: Advanced relative clauses",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 220–280 French words. Write about a project, a report and a place using dont, auquel and a compound-preposition relative with duquel. Check every antecedent, then explain one ambiguity a careless pronoun could introduce.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Advanced relative clauses",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-04-practice"
+      ]
+    },
+    {
+      "key": "topic-05-practice",
+      "skill": "grammar",
+      "title": "B2 roadmap 05: Discourse connectors",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nUne note reconnaît l’utilité d’un accueil élargi. Toutefois, elle souligne que son coût reste inconnu. En revanche, l’aménagement de l’entrée a déjà fait l’objet d’un devis. La distinction porte sur le degré de préparation de deux mesures, non sur une opposition entre une mesure forcément bonne et une mesure forcément mauvaise. Le rédacteur doit conserver ce contraste sans inventer de lien causal entre les deux budgets ni transformer une réserve financière en refus définitif.\n\nNotice: Toutefois and néanmoins qualify a preceding statement; en revanche highlights a contrast. The connector alone cannot justify a causal conclusion.\nModel: Le dispositif est utile ; toutefois, son coût reste à préciser.\nMeaning: The arrangement is useful; however, its cost remains to be clarified.\n\nUseful expressions: une réserve = a qualification or reservation; un devis = a quotation; un périmètre équivalent = an equivalent scope",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence preserves the model’s meaning and scope?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Toutefois and néanmoins qualify a preceding statement; en revanche highlights a contrast. The connector alone cannot justify a causal conclusion. Model meaning: The arrangement is useful; however, its cost remains to be clarified.",
+          "options": [
+            "L’utilité du dispositif exclut toute réserve sur son coût.",
+            "Le dispositif est utile ; toutefois, son coût reste à préciser.",
+            "Le coût du dispositif est définitivement fixé."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "short_answer",
+          "prompt": "Le dispositif est utile ; ___, son coût reste à préciser.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "Toutefois and néanmoins qualify a preceding statement; en revanche highlights a contrast. The connector alone cannot justify a causal conclusion. The model uses « toutefois ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "toutefois"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: The two measures differ in how far their costs have been examined.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "The two measures differ in how far their costs have been examined.",
+            "Both costs are final and approved.",
+            "The note definitively rejects extended reception."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: They need comparable budget scopes before comparing totals.. Transcript for review: Nora : Le devis est précis. Néanmoins, il ne comprend pas l’entretien. Hugo : En revanche, le budget de formation comprend déjà le suivi. Nora : Comparons donc des périmètres équivalents.",
+          "options": [
+            "Every budget already includes maintenance.",
+            "A precise quote necessarily includes every future cost.",
+            "They need comparable budget scopes before comparing totals."
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Nora : Le devis est précis. Néanmoins, il ne comprend pas l’entretien. Hugo : En revanche, le budget de formation comprend déjà le suivi. Nora : Comparons donc des périmètres équivalents."
+          }
+        }
+      ],
+      "module_title": "Discourse connectors",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-b2-05",
+          "title": "Discourse connectors",
+          "summary": "Toutefois and néanmoins qualify a preceding statement; en revanche highlights a contrast. The connector alone cannot justify a causal conclusion.",
+          "rule_code": "roadmap-b2-05",
+          "explanation_english": "Toutefois and néanmoins qualify a preceding statement; en revanche highlights a contrast. The connector alone cannot justify a causal conclusion.",
+          "examples": [
+            [
+              "Le dispositif est utile ; toutefois, son coût reste à préciser.",
+              "The arrangement is useful; however, its cost remains to be clarified."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-04-transfer"
+      ]
+    },
+    {
+      "key": "topic-05-transfer",
+      "skill": "writing",
+      "title": "B2 transfer 05: Discourse connectors",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 220–280 French words. Compare two fictional proposals with toutefois, néanmoins and en revanche. Preserve each contrast, then revise a sentence whose connector suggests an unsupported cause.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Discourse connectors",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-05-practice"
+      ]
+    },
+    {
+      "key": "topic-06-practice",
+      "skill": "grammar",
+      "title": "B2 roadmap 06: Argumentative writing",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nUne résidence envisage de remplacer une permanence par une application. Les défenseurs du projet invoquent un accès à toute heure ; les opposants craignent que certains habitants aient besoin d’un échange humain. Une argumentation solide doit examiner ces deux usages plutôt que caricaturer les premiers comme indifférents ou les seconds comme hostiles à toute technique. Un essai associant une application et une permanence réduite permettrait de comparer des besoins distincts, mais il faudrait encore choisir des indicateurs et entendre les personnes concernées.\n\nNotice: An argumentative concession should engage the strongest relevant objection. Certes… mais can acknowledge a benefit while limiting the conclusion drawn from it.\nModel: Certes, la mesure simplifie l’accès, mais elle ne résout pas tout.\nMeaning: Admittedly, the measure simplifies access, but it does not solve everything.\n\nUseful expressions: une objection pertinente = a relevant objection; un indicateur = an indicator; un besoin d’accompagnement = a need for guidance",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence preserves the model’s meaning and scope?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "An argumentative concession should engage the strongest relevant objection. Certes… mais can acknowledge a benefit while limiting the conclusion drawn from it. Model meaning: Admittedly, the measure simplifies access, but it does not solve everything.",
+          "options": [
+            "Certes, la mesure simplifie l’accès, mais elle ne résout pas tout.",
+            "Puisque la mesure aide certains usagers, elle résout toutes les difficultés.",
+            "La mesure ne peut aider aucun usager."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "rebuild-the-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild the taught model sentence.",
+          "instructions": "Use every tile once in the model order. Other natural French orders are not assessed in this supported task.",
+          "explanation": "An argumentative concession should engage the strongest relevant objection. Certes… mais can acknowledge a benefit while limiting the conclusion drawn from it.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "d03059e2-e66b-564c-b6fb-bda2111c0221",
+                "text": "Certes,"
+              },
+              {
+                "id": "0f5eecea-c44e-5585-b766-1faff823d5e2",
+                "text": "la"
+              },
+              {
+                "id": "37d14dc0-69d5-54e7-bea5-e2ac997c4900",
+                "text": "mesure"
+              },
+              {
+                "id": "2dd469f0-9025-54e4-b5c9-bc2145c15495",
+                "text": "simplifie"
+              },
+              {
+                "id": "6e496584-4aa5-5315-abbe-5fd0c5f15ead",
+                "text": "l’accès,"
+              },
+              {
+                "id": "88f848ba-1437-5392-a5ec-2cbb5a44454a",
+                "text": "mais"
+              },
+              {
+                "id": "5b4e8447-fe90-5735-95f6-c1f2ad98479b",
+                "text": "elle"
+              },
+              {
+                "id": "76a024c4-8e17-5da9-b400-2723a109b505",
+                "text": "ne"
+              },
+              {
+                "id": "5d96f75d-9022-510d-9c84-18308e8058c3",
+                "text": "résout"
+              },
+              {
+                "id": "878ca51e-39e9-52a5-a261-04de681e7fb6",
+                "text": "pas"
+              },
+              {
+                "id": "08a96c69-c4c2-547a-bdce-50179ba658be",
+                "text": "tout."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "d03059e2-e66b-564c-b6fb-bda2111c0221",
+                "0f5eecea-c44e-5585-b766-1faff823d5e2",
+                "37d14dc0-69d5-54e7-bea5-e2ac997c4900",
+                "2dd469f0-9025-54e4-b5c9-bc2145c15495",
+                "6e496584-4aa5-5315-abbe-5fd0c5f15ead",
+                "88f848ba-1437-5392-a5ec-2cbb5a44454a",
+                "5b4e8447-fe90-5735-95f6-c1f2ad98479b",
+                "76a024c4-8e17-5da9-b400-2723a109b505",
+                "5d96f75d-9022-510d-9c84-18308e8058c3",
+                "878ca51e-39e9-52a5-a261-04de681e7fb6",
+                "08a96c69-c4c2-547a-bdce-50179ba658be"
+              ]
+            ],
+            "correct_sentence": "Certes, la mesure simplifie l’accès, mais elle ne résout pas tout."
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: A mixed trial could investigate different needs without settling them in advance.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "The source proves that every resident prefers an application.",
+            "Opponents reject all technology by definition.",
+            "A mixed trial could investigate different needs without settling them in advance."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Successful submission alone would miss a need for guidance.. Transcript for review: Habitante : Je peux remplir le formulaire, mais je ne sais pas quelle option choisir. Responsable : Alors notre indicateur ne doit pas mesurer seulement l’envoi du formulaire.",
+          "options": [
+            "The only relevant measure is submission speed.",
+            "Successful submission alone would miss a need for guidance.",
+            "The resident cannot access the form at all."
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Habitante : Je peux remplir le formulaire, mais je ne sais pas quelle option choisir. Responsable : Alors notre indicateur ne doit pas mesurer seulement l’envoi du formulaire."
+          }
+        }
+      ],
+      "module_title": "Argumentative writing",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-b2-06",
+          "title": "Argumentative writing",
+          "summary": "An argumentative concession should engage the strongest relevant objection. Certes… mais can acknowledge a benefit while limiting the conclusion drawn from it.",
+          "rule_code": "roadmap-b2-06",
+          "explanation_english": "An argumentative concession should engage the strongest relevant objection. Certes… mais can acknowledge a benefit while limiting the conclusion drawn from it.",
+          "examples": [
+            [
+              "Certes, la mesure simplifie l’accès, mais elle ne résout pas tout.",
+              "Admittedly, the measure simplifies access, but it does not solve everything."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-05-transfer"
+      ]
+    },
+    {
+      "key": "topic-06-transfer",
+      "skill": "writing",
+      "title": "B2 transfer 06: Argumentative writing",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 220–280 French words. Write a reasoned position with an introduction, two developed arguments, a serious counterargument and a qualified conclusion. Propose how a fictional trial could test the dispute rather than simply affirm your preference.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Argumentative writing",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-06-practice"
+      ]
+    }
+  ],
+  "title": "B2 roadmap practice, part 1",
+  "glossary": [],
+  "learning_stage": null
+}

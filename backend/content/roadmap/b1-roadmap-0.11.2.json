@@ -1,0 +1,731 @@
+{
+  "version": "0.11.2",
+  "level": "B1",
+  "status": "draft",
+  "source_license": "Original AI-assisted roadmap practice. Independent language, pedagogy, phonetic, answer-key and CEFR review pending.",
+  "tasks": [
+    {
+      "key": "topic-07-practice",
+      "skill": "grammar",
+      "title": "B1 roadmap 07: Reported speech",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nVendredi, Nora a dit qu’elle viendrait lundi. Hugo rapporte cette annonce au groupe dimanche. Il ne prétend pas avoir reçu une nouvelle confirmation. Le message doit donc conserver la source et la date de l’annonce, plutôt que transformer les paroles rapportées en une réservation vérifiée par l’organisateur.\n\nNotice: In this past reporting frame, a future statement is represented with conditionnel: elle a dit qu’elle viendrait. The change does not by itself express doubt about honesty.\nModel: Elle a dit qu’elle viendrait lundi.\nMeaning: She said she would come on Monday.\n\nUseful expressions: des paroles rapportées = reported words; vérifier = to check; pas encore = not yet",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "In this past reporting frame, a future statement is represented with conditionnel: elle a dit qu’elle viendrait. The change does not by itself express doubt about honesty. Model meaning: She said she would come on Monday.",
+          "options": [
+            "Elle a dit qu’elle viendrait lundi.",
+            "Elle a dit qu’elle venirait lundi.",
+            "Elle a dit qu’elle viendrais lundi."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "expressions-in-context",
+          "type": "matching",
+          "prompt": "Match these contextual expressions to their English meanings.",
+          "instructions": "Use the meaning taught for this situation, not every possible dictionary meaning.",
+          "explanation": "The expressions are glossed in the lesson context.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "85b6606a-d6f2-56d3-8c01-f36ee97a5bb5",
+                "text": "des paroles rapportées"
+              },
+              {
+                "id": "a71d88ee-31a1-5b8d-bb4c-e9cc6a08a2e5",
+                "text": "vérifier"
+              },
+              {
+                "id": "c1305880-3ca9-5445-8eda-74ae51f9d90d",
+                "text": "pas encore"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "e8242a94-c28a-5ffb-b7d7-96736204242b",
+                "text": "reported words"
+              },
+              {
+                "id": "0d97ccdf-38f4-53a9-ae5f-5b9d923595ed",
+                "text": "to check"
+              },
+              {
+                "id": "22ee4234-9fc2-5de3-ab30-55a3b101e3b6",
+                "text": "not yet"
+              }
+            ],
+            "answer_pairs": {
+              "85b6606a-d6f2-56d3-8c01-f36ee97a5bb5": "e8242a94-c28a-5ffb-b7d7-96736204242b",
+              "a71d88ee-31a1-5b8d-bb4c-e9cc6a08a2e5": "0d97ccdf-38f4-53a9-ae5f-5b9d923595ed",
+              "c1305880-3ca9-5445-8eda-74ae51f9d90d": "22ee4234-9fc2-5de3-ab30-55a3b101e3b6"
+            }
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: Hugo reports Friday’s announcement without a new confirmation.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "Hugo has independently confirmed attendance.",
+            "Nora announced on Sunday that she had come Friday.",
+            "Hugo reports Friday’s announcement without a new confirmation."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Hugo promised to check but does not yet have the answer.. Transcript for review: Hugo : Nora m’a demandé si la salle serait ouverte. Lina : Tu as la réponse ? Hugo : Pas encore ; je lui ai seulement dit que je vérifierais.",
+          "options": [
+            "Nora asked to close the room.",
+            "Hugo promised to check but does not yet have the answer.",
+            "Hugo confirmed the room would be open."
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Hugo : Nora m’a demandé si la salle serait ouverte. Lina : Tu as la réponse ? Hugo : Pas encore ; je lui ai seulement dit que je vérifierais."
+          }
+        }
+      ],
+      "module_title": "Reported speech",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-b1-07",
+          "title": "Reported speech",
+          "summary": "In this past reporting frame, a future statement is represented with conditionnel: elle a dit qu’elle viendrait. The change does not by itself express doubt about honesty.",
+          "rule_code": "roadmap-b1-07",
+          "explanation_english": "In this past reporting frame, a future statement is represented with conditionnel: elle a dit qu’elle viendrait. The change does not by itself express doubt about honesty.",
+          "examples": [
+            [
+              "Elle a dit qu’elle viendrait lundi.",
+              "She said she would come on Monday."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "topic-07-transfer",
+      "skill": "writing",
+      "title": "B1 transfer 07: Reported speech",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 140–180 French words. Report a short direct exchange as a message to a third person. Track the reporting date, pronouns and future-in-the-past forms; distinguish a reported promise from verified completion.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Reported speech",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-07-practice"
+      ]
+    },
+    {
+      "key": "topic-08-practice",
+      "skill": "grammar",
+      "title": "B1 roadmap 08: Opinions and arguments",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nLe groupe discute d’une bibliothèque ouverte plus tard. Nora y voit un avantage pour les étudiants qui travaillent. Hugo rappelle que les horaires du personnel doivent aussi être étudiés. Il ne rejette pas le projet ; il demande que les conditions pratiques soient examinées avant une décision.\n\nNotice: Parce que supports a position with a reason; pourtant can introduce a contrast. A concession acknowledges a point without automatically accepting the other conclusion.\nModel: Je comprends cet argument, pourtant je reste réservé.\nMeaning: I understand that argument, yet I remain cautious.\n\nUseful expressions: un avis réservé = a cautious view; une fréquentation = attendance or usage; un essai = a trial",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Parce que supports a position with a reason; pourtant can introduce a contrast. A concession acknowledges a point without automatically accepting the other conclusion. Model meaning: I understand that argument, yet I remain cautious.",
+          "options": [
+            "Je comprend cet argument, pourtant je reste réservé.",
+            "Je comprends cet argument, pourtant je restent réservé.",
+            "Je comprends cet argument, pourtant je reste réservé."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "fill_blank",
+          "prompt": "Je comprends cet argument, ___ je reste réservé.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "Parce que supports a position with a reason; pourtant can introduce a contrast. A concession acknowledges a point without automatically accepting the other conclusion. The model uses « pourtant ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "pourtant"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: Hugo asks for practical review rather than rejecting the proposal outright.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "The new hours have already been adopted.",
+            "Hugo asks for practical review rather than rejecting the proposal outright.",
+            "Hugo opposes every change to opening hours."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Hugo proposes a one-month trial with evaluation.. Transcript for review: Nora : Une soirée de plus serait utile. Hugo : Je suis d’accord sur l’objectif, mais essayons d’abord pendant un mois et évaluons la fréquentation.",
+          "options": [
+            "Hugo proposes a one-month trial with evaluation.",
+            "Hugo announces permanent new hours.",
+            "Nora asks to close the library."
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Nora : Une soirée de plus serait utile. Hugo : Je suis d’accord sur l’objectif, mais essayons d’abord pendant un mois et évaluons la fréquentation."
+          }
+        }
+      ],
+      "module_title": "Opinions and arguments",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-b1-08",
+          "title": "Opinions and arguments",
+          "summary": "Parce que supports a position with a reason; pourtant can introduce a contrast. A concession acknowledges a point without automatically accepting the other conclusion.",
+          "rule_code": "roadmap-b1-08",
+          "explanation_english": "Parce que supports a position with a reason; pourtant can introduce a contrast. A concession acknowledges a point without automatically accepting the other conclusion.",
+          "examples": [
+            [
+              "Je comprends cet argument, pourtant je reste réservé.",
+              "I understand that argument, yet I remain cautious."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-07-transfer"
+      ]
+    },
+    {
+      "key": "topic-08-transfer",
+      "skill": "writing",
+      "title": "B1 transfer 08: Opinions and arguments",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 140–180 French words. Give an opinion on a local study facility. Support it with two reasons, acknowledge an objection and propose a practical compromise. Practise polite disagreement orally.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Opinions and arguments",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-08-practice"
+      ]
+    },
+    {
+      "key": "topic-09-practice",
+      "skill": "grammar",
+      "title": "B1 roadmap 09: Society and culture",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nUne résidence propose des ateliers de réparation pour réduire les déchets. Les organisateurs souhaitent aussi favoriser les échanges entre voisins. Le premier atelier est prévu samedi. Aucune donnée de fréquentation n’est encore disponible ; affirmer que le projet a déjà réduit les déchets confondrait l’objectif et un résultat mesuré.\n\nNotice: Relative clauses and connectors help distinguish a proposed measure from its intended effect. A reported objective is not evidence that the outcome has occurred.\nModel: La mesure vise à réduire les déchets.\nMeaning: The measure aims to reduce waste.\n\nUseful expressions: un objectif = an objective; un résultat mesuré = a measured result; un échange entre voisins = an exchange between neighbours",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Relative clauses and connectors help distinguish a proposed measure from its intended effect. A reported objective is not evidence that the outcome has occurred. Model meaning: The measure aims to reduce waste.",
+          "options": [
+            "La mesure vise à réduit les déchets.",
+            "La mesure vise à réduire les déchets.",
+            "La mesure visent à réduire les déchets."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "short_answer",
+          "prompt": "La mesure ___ à réduire les déchets.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "Relative clauses and connectors help distinguish a proposed measure from its intended effect. A reported objective is not evidence that the outcome has occurred. The model uses « vise ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "vise"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: Waste reduction is an objective, not an established result.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "Waste reduction is an objective, not an established result.",
+            "The project has already measured a waste reduction.",
+            "The first workshop happened last year."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Beginners are welcome within the stated workshop limits.. Transcript for review: Voisine : Les débutants peuvent-ils venir ? Organisateur : Oui, mais apportez un petit objet sans risque. Nous expliquerons d’abord les règles de l’atelier.",
+          "options": [
+            "Only experienced repairers may attend.",
+            "No introduction or rules are planned.",
+            "Beginners are welcome within the stated workshop limits."
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Voisine : Les débutants peuvent-ils venir ? Organisateur : Oui, mais apportez un petit objet sans risque. Nous expliquerons d’abord les règles de l’atelier."
+          }
+        }
+      ],
+      "module_title": "Society and culture",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-b1-09",
+          "title": "Society and culture",
+          "summary": "Relative clauses and connectors help distinguish a proposed measure from its intended effect. A reported objective is not evidence that the outcome has occurred.",
+          "rule_code": "roadmap-b1-09",
+          "explanation_english": "Relative clauses and connectors help distinguish a proposed measure from its intended effect. A reported objective is not evidence that the outcome has occurred.",
+          "examples": [
+            [
+              "La mesure vise à réduire les déchets.",
+              "The measure aims to reduce waste."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-08-transfer"
+      ]
+    },
+    {
+      "key": "topic-09-transfer",
+      "skill": "writing",
+      "title": "B1 transfer 09: Society and culture",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 140–180 French words. Explain a fictional education, technology or environmental initiative. Distinguish its purpose from evidence of results and ask a partner what further information would be useful.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Society and culture",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-09-practice"
+      ]
+    },
+    {
+      "key": "topic-10-practice",
+      "skill": "grammar",
+      "title": "B1 roadmap 10: Workplace communication",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nÀ la réunion, Nora propose de préparer un exemple pour la présentation. Hugo accepte de le relire avant mardi. L’équipe décide de tester cet exemple, pas encore de l’utiliser dans la version finale. Le compte rendu doit distinguer la tâche attribuée, son délai et la décision qui reste à prendre.\n\nNotice: A conditional request such as pourriez-vous relire is polite. Assigning an action in a meeting requires an explicit owner and deadline, not only an expression of interest.\nModel: Pourriez-vous relire le compte rendu avant mardi ?\nMeaning: Could you review the minutes before Tuesday?\n\nUseful expressions: un compte rendu = meeting minutes; une échéance = a deadline; une tâche attribuée = an assigned task",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "A conditional request such as pourriez-vous relire is polite. Assigning an action in a meeting requires an explicit owner and deadline, not only an expression of interest. Model meaning: Could you review the minutes before Tuesday?",
+          "options": [
+            "Pourriez-vous relire le compte rendu avant mardi ?",
+            "Pourriez-vous relisez le compte rendu avant mardi ?",
+            "Pourriez-vous relire le comptes rendu avant mardi ?"
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "rebuild-the-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild the taught model sentence.",
+          "instructions": "Use every tile once in the model order. Other natural French orders are not assessed in this supported task.",
+          "explanation": "A conditional request such as pourriez-vous relire is polite. Assigning an action in a meeting requires an explicit owner and deadline, not only an expression of interest.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "0b8b6b97-a88c-5a97-9718-6d7b1a5a5050",
+                "text": "Pourriez-vous"
+              },
+              {
+                "id": "3f075d13-3656-5be4-a01f-f9591ff2aafa",
+                "text": "relire"
+              },
+              {
+                "id": "304f1471-a64f-5632-97cb-ead67d9f71fd",
+                "text": "le"
+              },
+              {
+                "id": "50ad04e7-6e77-5e08-a940-950cacfb3bbd",
+                "text": "compte"
+              },
+              {
+                "id": "f8cea946-5f35-5bc6-8938-ca1a13c6e97b",
+                "text": "rendu"
+              },
+              {
+                "id": "d1dedb9f-2986-54d0-a1c2-fa1d81198a5a",
+                "text": "avant"
+              },
+              {
+                "id": "5e4d153b-61f6-5dfb-822d-00dfdeb48289",
+                "text": "mardi"
+              },
+              {
+                "id": "d4c266ec-45e6-5f05-b25e-01bfd6d4b3c6",
+                "text": "?"
+              }
+            ],
+            "accepted_orders": [
+              [
+                "0b8b6b97-a88c-5a97-9718-6d7b1a5a5050",
+                "3f075d13-3656-5be4-a01f-f9591ff2aafa",
+                "304f1471-a64f-5632-97cb-ead67d9f71fd",
+                "50ad04e7-6e77-5e08-a940-950cacfb3bbd",
+                "f8cea946-5f35-5bc6-8938-ca1a13c6e97b",
+                "d1dedb9f-2986-54d0-a1c2-fa1d81198a5a",
+                "5e4d153b-61f6-5dfb-822d-00dfdeb48289",
+                "d4c266ec-45e6-5f05-b25e-01bfd6d4b3c6"
+              ]
+            ],
+            "correct_sentence": "Pourriez-vous relire le compte rendu avant mardi ?"
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: Hugo owns a review task before Tuesday; final use remains undecided.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "The example is already approved for final use.",
+            "Nora must review Hugo’s example after Tuesday.",
+            "Hugo owns a review task before Tuesday; final use remains undecided."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: The review deadline is Tuesday noon.. Transcript for review: Nora : Je vous envoie le document lundi matin. Hugo : Je le relis avant mardi midi. Nora : Merci, je note mardi midi comme échéance de relecture.",
+          "options": [
+            "The final presentation is Monday morning.",
+            "The review deadline is Tuesday noon.",
+            "The sending deadline is Tuesday noon."
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Nora : Je vous envoie le document lundi matin. Hugo : Je le relis avant mardi midi. Nora : Merci, je note mardi midi comme échéance de relecture."
+          }
+        }
+      ],
+      "module_title": "Workplace communication",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-b1-10",
+          "title": "Workplace communication",
+          "summary": "A conditional request such as pourriez-vous relire is polite. Assigning an action in a meeting requires an explicit owner and deadline, not only an expression of interest.",
+          "rule_code": "roadmap-b1-10",
+          "explanation_english": "A conditional request such as pourriez-vous relire is polite. Assigning an action in a meeting requires an explicit owner and deadline, not only an expression of interest.",
+          "examples": [
+            [
+              "Pourriez-vous relire le compte rendu avant mardi ?",
+              "Could you review the minutes before Tuesday?"
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-09-transfer"
+      ]
+    },
+    {
+      "key": "topic-10-transfer",
+      "skill": "writing",
+      "title": "B1 transfer 10: Workplace communication",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 140–180 French words. Write a professional follow-up email after a fictional meeting. Include the project purpose, who does what, a deadline and one undecided point. Present the summary and answer a clarification.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Workplace communication",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-10-practice"
+      ]
+    },
+    {
+      "key": "topic-11-practice",
+      "skill": "grammar",
+      "title": "B1 roadmap 11: Media comprehension",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nDans une interview fictive, une étudiante explique que le nouveau bus facilite son trajet. Le journaliste précise qu’un bilan plus large sera publié plus tard. L’entretien montre une expérience favorable, mais ne donne ni le nombre total de voyageurs ni l’avis de tous les habitants. Une synthèse doit garder cette limite.\n\nNotice: Attribute reported claims to their speaker. An interviewee’s experience may illustrate a point without proving it applies to every person.\nModel: Selon l’invitée, le trajet est devenu plus simple.\nMeaning: According to the guest, the journey has become easier.\n\nUseful expressions: selon l’invitée = according to the guest; un bilan = a review of results; une expérience personnelle = a personal experience",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Attribute reported claims to their speaker. An interviewee’s experience may illustrate a point without proving it applies to every person. Model meaning: According to the guest, the journey has become easier.",
+          "options": [
+            "Selon l’invitée, le trajet sont devenu plus simple.",
+            "Selon l’invitée, le trajet est devenir plus simple.",
+            "Selon l’invitée, le trajet est devenu plus simple."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "expressions-in-context",
+          "type": "matching",
+          "prompt": "Match these contextual expressions to their English meanings.",
+          "instructions": "Use the meaning taught for this situation, not every possible dictionary meaning.",
+          "explanation": "The expressions are glossed in the lesson context.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "53b169e1-8a10-5e2c-b510-9eea14cd41fd",
+                "text": "selon l’invitée"
+              },
+              {
+                "id": "3eaa9f58-eb4d-5bd3-b593-eec689445235",
+                "text": "un bilan"
+              },
+              {
+                "id": "b0755525-22f5-58af-b7de-08d244537ad5",
+                "text": "une expérience personnelle"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "b9054fae-a650-597a-8298-726062b8cd71",
+                "text": "according to the guest"
+              },
+              {
+                "id": "da97f36f-dd37-5f4a-a4ea-943afe0b9517",
+                "text": "a review of results"
+              },
+              {
+                "id": "96992646-de37-51df-b8ab-10bfa7533503",
+                "text": "a personal experience"
+              }
+            ],
+            "answer_pairs": {
+              "53b169e1-8a10-5e2c-b510-9eea14cd41fd": "b9054fae-a650-597a-8298-726062b8cd71",
+              "3eaa9f58-eb4d-5bd3-b593-eec689445235": "da97f36f-dd37-5f4a-a4ea-943afe0b9517",
+              "b0755525-22f5-58af-b7de-08d244537ad5": "96992646-de37-51df-b8ab-10bfa7533503"
+            }
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: One favourable experience is presented before a broader review.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "The final review has already been published.",
+            "One favourable experience is presented before a broader review.",
+            "All residents have approved the bus service."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: The guest distinguishes personal experience from an unfinished survey.. Transcript for review: Journaliste : Avez-vous interrogé tous les étudiants ? Invitée : Non, je raconte mon trajet. L’association prépare une enquête, mais je n’en connais pas encore les résultats.",
+          "options": [
+            "The guest distinguishes personal experience from an unfinished survey.",
+            "The guest gives the completed survey results.",
+            "The survey covered every student."
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Journaliste : Avez-vous interrogé tous les étudiants ? Invitée : Non, je raconte mon trajet. L’association prépare une enquête, mais je n’en connais pas encore les résultats."
+          }
+        }
+      ],
+      "module_title": "Media comprehension",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-b1-11",
+          "title": "Media comprehension",
+          "summary": "Attribute reported claims to their speaker. An interviewee’s experience may illustrate a point without proving it applies to every person.",
+          "rule_code": "roadmap-b1-11",
+          "explanation_english": "Attribute reported claims to their speaker. An interviewee’s experience may illustrate a point without proving it applies to every person.",
+          "examples": [
+            [
+              "Selon l’invitée, le trajet est devenu plus simple.",
+              "According to the guest, the journey has become easier."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-10-transfer"
+      ]
+    },
+    {
+      "key": "topic-11-transfer",
+      "skill": "writing",
+      "title": "B1 transfer 11: Media comprehension",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 140–180 French words. Summarise a short fictional news interview. Attribute each claim, separate personal experience from wider evidence and give a qualified opinion without inventing statistics.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Media comprehension",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-11-practice"
+      ]
+    },
+    {
+      "key": "topic-12-practice",
+      "skill": "grammar",
+      "title": "B1 roadmap 12: Independent expression",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nNora raconte un petit projet réalisé en groupe. Au début, chacun travaillait séparément et plusieurs tâches étaient répétées. Après une réunion, l’équipe a réparti le travail et tenu un carnet commun. Nora estime avoir appris à demander de l’aide. Elle ne présente pas cette expérience comme une méthode qui réussirait nécessairement dans toute équipe.\n\nNotice: Connected storytelling needs explicit time links and a clear point. Bien que introduces a concession; it does not erase the proposition in the main clause.\nModel: Bien que le projet soit petit, il nous a beaucoup appris.\nMeaning: Although the project is small, it taught us a lot.\n\nUseful expressions: répartir le travail = to distribute the work; un carnet commun = a shared notebook; la prochaine fois = next time",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Connected storytelling needs explicit time links and a clear point. Bien que introduces a concession; it does not erase the proposition in the main clause. Model meaning: Although the project is small, it taught us a lot.",
+          "options": [
+            "Bien que le projet soit petit, il nous ont beaucoup appris.",
+            "Bien que le projet soit petit, il nous a beaucoup appris.",
+            "Bien que le projet est petit, il nous a beaucoup appris."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "fill_blank",
+          "prompt": "Bien que le projet ___ petit, il nous a beaucoup appris.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "Connected storytelling needs explicit time links and a clear point. Bien que introduces a concession; it does not erase the proposition in the main clause. The model uses « soit ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "soit"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: Nora identifies a lesson from one project without universalising it.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "Nora identifies a lesson from one project without universalising it.",
+            "The team never changed its organisation.",
+            "Nora claims every team must use the same method."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Nora would clarify roles earlier next time.. Transcript for review: Partenaire : Qu’est-ce que tu changerais la prochaine fois ? Nora : Je fixerais une première réunion plus tôt, pour clarifier les rôles avant de commencer.",
+          "options": [
+            "Nora would remove all meetings.",
+            "Nora says there was no duplication.",
+            "Nora would clarify roles earlier next time."
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Partenaire : Qu’est-ce que tu changerais la prochaine fois ? Nora : Je fixerais une première réunion plus tôt, pour clarifier les rôles avant de commencer."
+          }
+        }
+      ],
+      "module_title": "Independent expression",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-b1-12",
+          "title": "Independent expression",
+          "summary": "Connected storytelling needs explicit time links and a clear point. Bien que introduces a concession; it does not erase the proposition in the main clause.",
+          "rule_code": "roadmap-b1-12",
+          "explanation_english": "Connected storytelling needs explicit time links and a clear point. Bien que introduces a concession; it does not erase the proposition in the main clause.",
+          "examples": [
+            [
+              "Bien que le projet soit petit, il nous a beaucoup appris.",
+              "Although the project is small, it taught us a lot."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-11-transfer"
+      ]
+    },
+    {
+      "key": "topic-12-transfer",
+      "skill": "writing",
+      "title": "B1 transfer 12: Independent expression",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 140–180 French words. Tell a coherent story about an invented project, explain what changed and defend one lesson you drew from it. Give a short structured presentation and handle an unexpected follow-up.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Independent expression",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-12-practice"
+      ]
+    }
+  ],
+  "title": "B1 roadmap practice, part 2",
+  "glossary": [],
+  "learning_stage": null
+}

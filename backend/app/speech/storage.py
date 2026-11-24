@@ -113,6 +113,11 @@ def delete(db, asset):
 
 
 def cleanup(db):
+    # Operator-only personal preservation: keep files/rows during local recovery.
+    # Expired assets remain inaccessible through owned_audio; explicit deletion
+    # and the account-erasure workflow still call delete directly.
+    if get_settings().personal_preserve_retained_audio:
+        return 0
     rows = db.scalars(
         select(AudioAsset)
         .where(

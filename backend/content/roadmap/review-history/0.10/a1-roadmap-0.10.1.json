@@ -1,0 +1,705 @@
+{
+  "version": "0.10.1",
+  "level": "A1",
+  "status": "draft",
+  "source_license": "Original AI-assisted roadmap practice. Independent language, pedagogy, phonetic, answer-key and CEFR review pending.",
+  "tasks": [
+    {
+      "key": "topic-01-practice",
+      "skill": "grammar",
+      "title": "A1 roadmap 01: French basics",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nSur la porte, il y a un mot : école. Léa lit le mot et copie école dans son cahier. Elle garde le é. Elle dit le mot après la professeure.\n\nNotice: French accents distinguish spellings and sometimes meanings. The accent in école is part of the word; do not drop it when copying.\nModel: Je suis à l’école.\nMeaning: I am at school.\n\nUseful expressions: une école = a school; un cahier = an exercise book; répétez = repeat",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "French accents distinguish spellings and sometimes meanings. The accent in école is part of the word; do not drop it when copying. Model meaning: I am at school.",
+          "options": [
+            "Je suis a l’école.",
+            "Je suis à le école.",
+            "Je suis à l’école."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "short_answer",
+          "prompt": "Je suis ___ l’école.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "French accents distinguish spellings and sometimes meanings. The accent in école is part of the word; do not drop it when copying. The model uses « à ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "à"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: Léa copies école with its accent.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "The word is the name of a café.",
+            "Léa copies école with its accent.",
+            "Léa removes the accent."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Copy the word with é.. Transcript for review: Professeure : Écoutez école. Maintenant, répétez le mot. Léa : École. Professeure : Très bien. Copiez le mot avec le é.",
+          "options": [
+            "Copy the word with é.",
+            "Write the word without é.",
+            "Say the letters of café."
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Professeure : Écoutez école. Maintenant, répétez le mot. Léa : École. Professeure : Très bien. Copiez le mot avec le é."
+          }
+        }
+      ],
+      "module_title": "French basics",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-a1-01",
+          "title": "French basics",
+          "summary": "French accents distinguish spellings and sometimes meanings. The accent in école is part of the word; do not drop it when copying.",
+          "rule_code": "roadmap-a1-01",
+          "explanation_english": "French accents distinguish spellings and sometimes meanings. The accent in école is part of the word; do not drop it when copying.",
+          "examples": [
+            [
+              "Je suis à l’école.",
+              "I am at school."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "topic-01-transfer",
+      "skill": "writing",
+      "title": "A1 transfer 01: French basics",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 40–60 French words. Copy a supported introduction, then change the invented name and place. Explain in simple words which accents you retained. Say école after a model and spell an invented name; human listening is needed to assess the sounds.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "French basics",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-01-practice"
+      ]
+    },
+    {
+      "key": "topic-02-practice",
+      "skill": "grammar",
+      "title": "A1 roadmap 02: Greetings",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nNora arrive à son premier cours. Elle dit bonjour à la professeure. À la fin du cours, elle dit au revoir. Avec son amie, elle dit salut.\n\nNotice: Use bonjour to open a daytime polite exchange and au revoir when leaving. Vous is appropriate for this first formal exchange.\nModel: Bonjour, comment allez-vous ?\nMeaning: Hello, how are you?\n\nUseful expressions: bonjour = hello; au revoir = goodbye; à demain = see you tomorrow",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Use bonjour to open a daytime polite exchange and au revoir when leaving. Vous is appropriate for this first formal exchange. Model meaning: Hello, how are you?",
+          "options": [
+            "Bonjour, comment allez-tu ?",
+            "Bonjour, comment allez-vous ?",
+            "Bonjour, comment vas-vous ?"
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "rebuild-the-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild the taught model sentence.",
+          "instructions": "Use every tile once in the model order. Other natural French orders are not assessed in this supported task.",
+          "explanation": "Use bonjour to open a daytime polite exchange and au revoir when leaving. Vous is appropriate for this first formal exchange.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "cf72e35f-a6b4-590a-ab73-f9870c2fa30c",
+                "text": "Bonjour,"
+              },
+              {
+                "id": "556d6c42-2ac1-5189-aaad-0dc2e4f4456a",
+                "text": "comment"
+              },
+              {
+                "id": "323b0d5b-45f1-53e5-91f8-d274658d24b5",
+                "text": "allez-vous"
+              },
+              {
+                "id": "bacb254f-4810-5f9f-82a7-000bd05e474e",
+                "text": "?"
+              }
+            ],
+            "accepted_orders": [
+              [
+                "cf72e35f-a6b4-590a-ab73-f9870c2fa30c",
+                "556d6c42-2ac1-5189-aaad-0dc2e4f4456a",
+                "323b0d5b-45f1-53e5-91f8-d274658d24b5",
+                "bacb254f-4810-5f9f-82a7-000bd05e474e"
+              ]
+            ],
+            "correct_sentence": "Bonjour, comment allez-vous ?"
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: Nora uses bonjour with the teacher on arrival.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "Nora uses bonjour with the teacher on arrival.",
+            "Nora says au revoir when arriving.",
+            "Nora never speaks to her friend."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: They expect to meet tomorrow.. Transcript for review: Nora : Bonjour, madame. Professeure : Bonjour Nora, comment allez-vous ? Nora : Très bien, merci. Professeure : À demain !",
+          "options": [
+            "They arrange to meet next month.",
+            "Nora says she is unwell.",
+            "They expect to meet tomorrow."
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Nora : Bonjour, madame. Professeure : Bonjour Nora, comment allez-vous ? Nora : Très bien, merci. Professeure : À demain !"
+          }
+        }
+      ],
+      "module_title": "Greetings",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-a1-02",
+          "title": "Greetings",
+          "summary": "Use bonjour to open a daytime polite exchange and au revoir when leaving. Vous is appropriate for this first formal exchange.",
+          "rule_code": "roadmap-a1-02",
+          "explanation_english": "Use bonjour to open a daytime polite exchange and au revoir when leaving. Vous is appropriate for this first formal exchange.",
+          "examples": [
+            [
+              "Bonjour, comment allez-vous ?",
+              "Hello, how are you?"
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-01-transfer"
+      ]
+    },
+    {
+      "key": "topic-02-transfer",
+      "skill": "writing",
+      "title": "A1 transfer 02: Greetings",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 40–60 French words. Write a short polite greeting and closing between a student and a teacher, then a familiar version between friends. Keep the chosen tu or vous forms consistent.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Greetings",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-02-practice"
+      ]
+    },
+    {
+      "key": "topic-03-practice",
+      "skill": "grammar",
+      "title": "A1 roadmap 03: Personal information",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nVoici une personne imaginaire : elle s’appelle Lina. Elle a vingt ans. Elle est étudiante et elle habite à Lille. Ce ne sont pas des informations sur une personne réelle.\n\nNotice: Use avoir for age: j’ai vingt ans. Use être for an occupation, usually without an indefinite article after être in this simple identification.\nModel: J’ai vingt ans et je suis étudiante.\nMeaning: I am twenty and I am a student.\n\nUseful expressions: avoir vingt ans = to be twenty; une étudiante = a female student; habiter à Lille = to live in Lille",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Use avoir for age: j’ai vingt ans. Use être for an occupation, usually without an indefinite article after être in this simple identification. Model meaning: I am twenty and I am a student.",
+          "options": [
+            "J’ai vingt ans et je suis étudiante.",
+            "Je suis vingt ans et je suis étudiante.",
+            "J’ai vingt ans et je sommes étudiante."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "expressions-in-context",
+          "type": "matching",
+          "prompt": "Match these contextual expressions to their English meanings.",
+          "instructions": "Use the meaning taught for this situation, not every possible dictionary meaning.",
+          "explanation": "The expressions are glossed in the lesson context.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "5a73a650-15ed-58e0-a023-ddf64a87e9c3",
+                "text": "avoir vingt ans"
+              },
+              {
+                "id": "da1cdcc8-b53d-5306-9b6f-a8c3f76101c6",
+                "text": "une étudiante"
+              },
+              {
+                "id": "2b8cb7cd-52a2-57fa-aeb5-881bff50b595",
+                "text": "habiter à Lille"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "3c6afb16-a3bf-5e52-b064-2bb62971f85e",
+                "text": "to be twenty"
+              },
+              {
+                "id": "1935380b-edc2-5539-8b15-fde98c9dda10",
+                "text": "a female student"
+              },
+              {
+                "id": "b3de833f-2c8c-5614-ba84-37cb1c3f73ec",
+                "text": "to live in Lille"
+              }
+            ],
+            "answer_pairs": {
+              "5a73a650-15ed-58e0-a023-ddf64a87e9c3": "3c6afb16-a3bf-5e52-b064-2bb62971f85e",
+              "da1cdcc8-b53d-5306-9b6f-a8c3f76101c6": "1935380b-edc2-5539-8b15-fde98c9dda10",
+              "2b8cb7cd-52a2-57fa-aeb5-881bff50b595": "b3de833f-2c8c-5614-ba84-37cb1c3f73ec"
+            }
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: Lina is a fictional student in Lille.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "Lina is a teacher in Lyon.",
+            "These are the learner’s real contact details.",
+            "Lina is a fictional student in Lille."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Lina corrects the city to Lille.. Transcript for review: Lina : Je m’appelle Lina. Paul : Vous habitez à Paris ? Lina : Non, j’habite à Lille. Et vous ?",
+          "options": [
+            "Lina gives a phone number.",
+            "Lina corrects the city to Lille.",
+            "Lina confirms Paris."
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Lina : Je m’appelle Lina. Paul : Vous habitez à Paris ? Lina : Non, j’habite à Lille. Et vous ?"
+          }
+        }
+      ],
+      "module_title": "Personal information",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-a1-03",
+          "title": "Personal information",
+          "summary": "Use avoir for age: j’ai vingt ans. Use être for an occupation, usually without an indefinite article after être in this simple identification.",
+          "rule_code": "roadmap-a1-03",
+          "explanation_english": "Use avoir for age: j’ai vingt ans. Use être for an occupation, usually without an indefinite article after être in this simple identification.",
+          "examples": [
+            [
+              "J’ai vingt ans et je suis étudiante.",
+              "I am twenty and I am a student."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-02-transfer"
+      ]
+    },
+    {
+      "key": "topic-03-transfer",
+      "skill": "writing",
+      "title": "A1 transfer 03: Personal information",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 40–60 French words. Introduce an imaginary student: name, age, occupation and city. Ask the other person one simple question. Do not provide your real address, phone number or identity documents.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Personal information",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-03-practice"
+      ]
+    },
+    {
+      "key": "topic-04-practice",
+      "skill": "grammar",
+      "title": "A1 roadmap 04: Numbers and time",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nLe cours est mardi 12 mai à neuf heures. Il finit à dix heures. La salle ouvre à huit heures trente. Le début du cours n’est pas à huit heures trente.\n\nNotice: Use à before a clock time: à neuf heures. A date and a meeting time are different pieces of information; retain both.\nModel: Le cours commence à neuf heures.\nMeaning: The class starts at nine.\n\nUseful expressions: mardi = Tuesday; neuf heures = nine o’clock; l’après-midi = the afternoon",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Use à before a clock time: à neuf heures. A date and a meeting time are different pieces of information; retain both. Model meaning: The class starts at nine.",
+          "options": [
+            "Le cours commence neuf à heures.",
+            "Le cours commence à neuf heure.",
+            "Le cours commence à neuf heures."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "fill_blank",
+          "prompt": "Le cours commence à ___.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "Use à before a clock time: à neuf heures. A date and a meeting time are different pieces of information; retain both. The model uses « neuf heures ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "neuf heures"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: The class begins at nine.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "The class begins at ten.",
+            "The class begins at nine.",
+            "The class begins at eight thirty."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: The appointment is at two in the afternoon.. Transcript for review: Accueil : Le rendez-vous est à quatorze heures. Sami : À quatre heures ? Accueil : Non, à deux heures de l’après-midi, quatorze heures.",
+          "options": [
+            "The appointment is at two in the afternoon.",
+            "The appointment is at four.",
+            "The appointment is at two in the morning."
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Accueil : Le rendez-vous est à quatorze heures. Sami : À quatre heures ? Accueil : Non, à deux heures de l’après-midi, quatorze heures."
+          }
+        }
+      ],
+      "module_title": "Numbers and time",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-a1-04",
+          "title": "Numbers and time",
+          "summary": "Use à before a clock time: à neuf heures. A date and a meeting time are different pieces of information; retain both.",
+          "rule_code": "roadmap-a1-04",
+          "explanation_english": "Use à before a clock time: à neuf heures. A date and a meeting time are different pieces of information; retain both.",
+          "examples": [
+            [
+              "Le cours commence à neuf heures.",
+              "The class starts at nine."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-03-transfer"
+      ]
+    },
+    {
+      "key": "topic-04-transfer",
+      "skill": "writing",
+      "title": "A1 transfer 04: Numbers and time",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 40–60 French words. Write an invented invitation with a day, a date and a time. Add a small shopping total using numbers up to 1,000, then ask a partner to repeat the time and total.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Numbers and time",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-04-practice"
+      ]
+    },
+    {
+      "key": "topic-05-practice",
+      "skill": "grammar",
+      "title": "A1 roadmap 05: Nouns and articles",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nDans la pièce, il y a une table et deux chaises. La table est petite. Les chaises sont rouges. Le sac de Nora est sur une chaise.\n\nNotice: Un/une introduce a singular count noun; les is plural. A known singular feminine noun takes la, with elision before a vowel where appropriate.\nModel: La table est petite.\nMeaning: The table is small.\n\nUseful expressions: une table = a table; deux chaises = two chairs; petite = small, feminine singular",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Un/une introduce a singular count noun; les is plural. A known singular feminine noun takes la, with elision before a vowel where appropriate. Model meaning: The table is small.",
+          "options": [
+            "La table est petit.",
+            "La table est petite.",
+            "Le table est petite."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "short_answer",
+          "prompt": "___ table est petite.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "Un/une introduce a singular count noun; les is plural. A known singular feminine noun takes la, with elision before a vowel where appropriate. The model uses « La ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "La"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: There is one small table and two chairs.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "There is one small table and two chairs.",
+            "There are two tables and one chair.",
+            "The table is red in the source."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Nora chooses the red chair.. Transcript for review: Nora : Je cherche une chaise. Marc : Il y a deux chaises près de la table. Nora : Merci, je prends la chaise rouge.",
+          "options": [
+            "Nora takes two tables.",
+            "There are no chairs.",
+            "Nora chooses the red chair."
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Nora : Je cherche une chaise. Marc : Il y a deux chaises près de la table. Nora : Merci, je prends la chaise rouge."
+          }
+        }
+      ],
+      "module_title": "Nouns and articles",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-a1-05",
+          "title": "Nouns and articles",
+          "summary": "Un/une introduce a singular count noun; les is plural. A known singular feminine noun takes la, with elision before a vowel where appropriate.",
+          "rule_code": "roadmap-a1-05",
+          "explanation_english": "Un/une introduce a singular count noun; les is plural. A known singular feminine noun takes la, with elision before a vowel where appropriate.",
+          "examples": [
+            [
+              "La table est petite.",
+              "The table is small."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-04-transfer"
+      ]
+    },
+    {
+      "key": "topic-05-transfer",
+      "skill": "writing",
+      "title": "A1 transfer 05: Nouns and articles",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 40–60 French words. Describe an imaginary classroom using un, une and plural articles. Add colours or sizes with agreement, then ask a partner which object you mean.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Nouns and articles",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-05-practice"
+      ]
+    },
+    {
+      "key": "topic-06-practice",
+      "skill": "grammar",
+      "title": "A1 roadmap 06: Basic verbs",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nLe samedi, nous allons au marché. Nous avons un sac. Nous parlons avec une vendeuse et nous faisons les courses. Puis nous rentrons à la maison.\n\nNotice: With nous, aller becomes allons; faire becomes faisons; regular -er verbs such as parler use -ons. Learn être and avoir separately.\nModel: Nous allons au marché.\nMeaning: We are going to the market.\n\nUseful expressions: aller au marché = to go to the market; faire les courses = to shop for groceries; parler = to speak",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "With nous, aller becomes allons; faire becomes faisons; regular -er verbs such as parler use -ons. Learn être and avoir separately. Model meaning: We are going to the market.",
+          "options": [
+            "Nous allons au marché.",
+            "Nous aller au marché.",
+            "Nous va au marché."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "rebuild-the-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild the taught model sentence.",
+          "instructions": "Use every tile once in the model order. Other natural French orders are not assessed in this supported task.",
+          "explanation": "With nous, aller becomes allons; faire becomes faisons; regular -er verbs such as parler use -ons. Learn être and avoir separately.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "37aeb1fc-089b-581f-a3ee-00b1857e46d9",
+                "text": "Nous"
+              },
+              {
+                "id": "7e814a47-e188-5878-a24e-df0d07566826",
+                "text": "allons"
+              },
+              {
+                "id": "fc38c786-4112-505d-952d-0316fa34df32",
+                "text": "au"
+              },
+              {
+                "id": "4ba3545e-7b65-5b9e-80e2-1fc258af7dee",
+                "text": "marché."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "37aeb1fc-089b-581f-a3ee-00b1857e46d9",
+                "7e814a47-e188-5878-a24e-df0d07566826",
+                "fc38c786-4112-505d-952d-0316fa34df32",
+                "4ba3545e-7b65-5b9e-80e2-1fc258af7dee"
+              ]
+            ],
+            "correct_sentence": "Nous allons au marché."
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: The group shops at the market on Saturday.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "The group shops at school on Monday.",
+            "The group has no bag.",
+            "The group shops at the market on Saturday."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Hugo cooks after the market.. Transcript for review: Léa : Tu vas au marché ? Hugo : Oui, et après je fais la cuisine. Léa : Moi, je reste à la maison.",
+          "options": [
+            "Hugo cooks before going to school.",
+            "Hugo cooks after the market.",
+            "Léa goes to the market with Hugo."
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Léa : Tu vas au marché ? Hugo : Oui, et après je fais la cuisine. Léa : Moi, je reste à la maison."
+          }
+        }
+      ],
+      "module_title": "Basic verbs",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-a1-06",
+          "title": "Basic verbs",
+          "summary": "With nous, aller becomes allons; faire becomes faisons; regular -er verbs such as parler use -ons. Learn être and avoir separately.",
+          "rule_code": "roadmap-a1-06",
+          "explanation_english": "With nous, aller becomes allons; faire becomes faisons; regular -er verbs such as parler use -ons. Learn être and avoir separately.",
+          "examples": [
+            [
+              "Nous allons au marché.",
+              "We are going to the market."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-05-transfer"
+      ]
+    },
+    {
+      "key": "topic-06-transfer",
+      "skill": "writing",
+      "title": "A1 transfer 06: Basic verbs",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 40–60 French words. Write short sentences with être, avoir, aller, faire and a regular -er verb about an invented weekend. Ask what another person does and change the subject from je to nous.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Basic verbs",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-06-practice"
+      ]
+    }
+  ],
+  "title": "A1 roadmap practice, part 1",
+  "glossary": [],
+  "learning_stage": null
+}

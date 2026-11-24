@@ -56,6 +56,8 @@ def load_config(path):
     for key in ("enable_personal_preview", "enable_ai", "enable_speech", "maintenance_reviewed"):
         if type(config.get(key)) is not bool:
             raise Refused(f"{key} must be an explicit JSON boolean.")
+    if 'preserve_retained_audio' in config and type(config['preserve_retained_audio']) is not bool:
+        raise Refused('preserve_retained_audio must be a JSON boolean.')
     if "REPLACE" in json.dumps(config):
         raise Refused("Configure the private example with confirmed existing identities first.")
     for name in ("database_url", "redis_url", "ollama_url"):
@@ -193,6 +195,7 @@ def environment(config):
                ENABLE_DRAFT_LEARNING_PREVIEW="false", CURRICULUM_REVIEWER_GRANTS="{}",
                ENABLE_PERSONAL_LEARNING_PREVIEW=str(config.get("enable_personal_preview", False)).lower(),
                PERSONAL_PREVIEW_USER_IDS=json.dumps(config.get("personal_preview_user_ids", [])),
+               PERSONAL_PRESERVE_RETAINED_AUDIO=str(bool(config.get('enable_personal_preview') and config.get('preserve_retained_audio', True))).lower(),
                FRONTEND_ORIGIN=origin, CORS_ORIGINS=json.dumps([origin]),
                SESSION_COOKIE_NAME="fluentloop_personal_session", CSRF_COOKIE_NAME="fluentloop_personal_csrf",
                COOKIE_SECURE="false", COOKIE_SAMESITE="lax", SMTP_HOST="127.0.0.1", SMTP_PORT="1025",

@@ -1,0 +1,27 @@
+{
+  "batch_sha256": "4e87e10fb7b1503699ead88df28610e0f16e287cf459b508e5c35f01e3588528",
+  "existing_lessons": 181,
+  "new_lessons": 136,
+  "total_lessons": 317,
+  "total_exercises": 892,
+  "total_open_tasks": 118,
+  "prior_rows_unchanged": true,
+  "idempotency": "passed",
+  "foreign_keys": "passed",
+  "prerequisite_edges": 124,
+  "published_lessons": 0,
+  "availability": {
+    "A0": 12,
+    "A1": 63,
+    "A2": 50,
+    "B1": 50,
+    "B2": 50,
+    "C1": 46,
+    "C2": 46
+  },
+  "status": "Imported as unpublished personal drafts after direct chat authorization",
+  "date": "2026-11-23",
+  "excluded": "Five earlier writing bridges and superseded 0.10 releases",
+  "human_approval": false,
+  "cefr_certification": false
+}

@@ -1,4 +1,387 @@
+# Final personal recovery and acceptance — 24 November 2026
+
+This checkpoint supersedes earlier runtime status. FluentLoop AI remains a
+personal local-only application. No public deployment, commit, push, curriculum
+import/publication, migration, model removal or protected database reset occurred.
+
+## COMPLETED
+
+The final authorized Chrome-cache attempt skipped all15 roots because Chrome
+remained active. No process was terminated and no Chrome data was removed. The
+previous cache operations remain recorded separately; cleanup scope was not
+expanded. CheckOnly passed and the previous-run marker was confirmed stopped.
+Fresh PostgreSQL pre/post-import backup sizes/SHA-256 matched. The protected
+Ubuntu backup also matched SHA-256
+`EB98398CDFC547627B0480BB67C8294011AA9CAC486F8DD48912D0366CCF0B05`.
+No WSL disk was attached, mounted, moved or repaired.
+
+The live speech regression reproduced a local-model reply with two questions.
+The existing conversational guard correctly rejected it. A narrow fix permits
+one fresh generation for unstructured voice-format rejection, then runs the same
+full response/security validation. Invalid replies are never saved or spoken.
+The same durable turn/lease is retained; idempotent replay cannot duplicate it.
+Both invalid attempts still fail safely. No format, privacy or source guard was
+relaxed. Source changes are limited to the voice prompt/orchestrator, three new
+regression cases and the requested reports. Earlier local changes are preserved.
+
+## VERIFIED
+
+| Final check | Result |
+|---|---|
+| Full backend | **403 passed,16 optional skipped**,2 dependency deprecation warnings |
+| Real PostgreSQL/Redis/Ollama/speech integrations | **34 passed**,2 dependency warnings |
+| Targeted voice/security regression | **68 passed** |
+| Standard browser suite | **26 passed,38 opt-in skipped** |
+| Real personal-preview browser journeys | **5 passed** |
+| Independent admin-fixture browser tests | **7 passed** |
+| Authenticated principal-route smoke test | **1 passed**,17 routes |
+| Real assessment/writing browser journey | **1 passed**,four scored categories plus saved writing/owner denial |
+| Real ASR/Ollama/Piper browser journeys | **2 passed**,synthetic recordings |
+| Frontend ESLint / TypeScript / production build | **Passed** |
+| All lesson definitions / deterministic keys | **317 /892 passed read-only** |
+| Graceful shutdown / guarded restart | **Passed** |
+| Saved synthetic progress after complete restart | **63 non-auth tables unchanged; six saved answers,100% result and histories retrieved after re-login** |
+
+The final browser scopes contain42 passed cases and38 opt-in skips. Historical
+WSL-specific stacks were not started merely to remove their optional skip flags.
+The additional current-stack journeys exercise the running disposable PostgreSQL
+environment instead. AI feedback remains advisory; no acoustic pronunciation
+score or CEFR proficiency certificate is inferred from these tests.
+
+Initial failures are retained in the private earlier-attempts record: the first
+standard-browser attempt had24 pass/2 fail/38 skipped because its disposable API
+was started too late; corrected ordering passed the unchanged suite. The initial
+real-service suite had33 pass/1 fail, and its isolated speech reproduction also
+failed on the two-question output. The fix then passed the complete final suites.
+Private route-probe setup/response-shape assumptions were corrected without
+changing production assertions. These attempts are not counted as final passes.
+
+## Curriculum and data preservation
+
+Main `fluentloop` has **317 unpublished lessons,892 scored exercises,118 open
+writing/speaking tasks and52 mapped modules**. Stage availability is A0=12,A1=63,
+A2/B1/B2=50 each,C1/C2=46 each. All are available to the existing scoped verified
+learner, whose UUID, role and ownership are unchanged. Five earlier writing
+bridges remain staged and unimported. No additional content was authored.
+
+All main learning, AI, voice and assessment table signatures matched the recorded
+post-import baseline. M08 matched its separate historical baseline. A real owner
+login created one session and updated only `last_login_at`/`updated_at`; field-level
+comparison against the previously verified rehearsal copy confirmed unchanged
+password hashes, roles, account identities and old sessions, excluding routine
+`last_used_at`. No synthetic personal-account progress was created.
+
+Retained historical audio size/checksum matched. One pre-existing expired asset
+remains on disk but is intentionally unavailable for API playback under the
+unchanged expiration policy. Scoped personal preservation prevents automatic
+cleanup; it does not extend expiry or weaken access controls. Explicit deletion
+and account erasure retain their existing behavior.
+
+Authentication uses hashed server-backed opaque sessions in HttpOnly cookies,
+with CSRF/origin validation and revocation. There is **no JWT/refresh-token flow**
+to validate or replace. Existing authentication/RBAC/owner-isolation tests passed.
+Normal API, frontend, speech, PostgreSQL, Redis, Mailpit and native Ollama listeners
+were checked on127.0.0.1. Secrets were not copied into public reports. Private
+fixtures/traces remain ignored; they use synthetic credentials, not the owner password.
+
+## CURRENTLY RUNNING
+
+The normal personal launcher reached `ready` after the final restart:
+**http://127.0.0.1:3000/login**. PostgreSQL,Redis and Mailpit are healthy; API and
+speech readiness passed. Disposable test APIs were stopped cooperatively.
+Pre-existing native Ollama was left untouched. No duplicate instance was started.
+
+Final recorded free space: **C:32.05 GiB;D:177.25 GiB**.
+The minimum C: observation across the monitored test window was32.05 GiB;
+no30 GiB C:/50 GiB D: threshold was crossed. Windows System storage-event queries
+found no new Disk/NTFS/VHDMP/storage-controller warnings/errors in the bounded
+window. These observations do not guarantee future storage or hardware health.
+The preferred35 GiB C: reserve remains unmet. The explicit request allowed
+operation above30 GiB after safe preflight; no minimum was lowered. The live
+supervisor continues checking reserves every five seconds and gracefully stops
+its owned services if a threshold fails.
+
+Shutdown reached a confirmed `stopped` marker, closed service ports and no running
+WSL guests before restart. No volume was recreated or destroyed. Existing lock,
+process and slow Windows connection-refused guard regressions passed. The
+startup/shutdown logs and restart persistence receipt remain private.
+
+## PENDING MY ACCEPTANCE
+
+A successful owner login and curriculum browsing were observed server-side.
+Please confirm privately on screen that the expanded library and your saved
+history appear as expected. The earlier owner-confirmed physical microphone →
+French transcription → tutor response → audible French playback test remains
+historical evidence. This window used synthetic recordings and automated
+playback; it does not claim a new physical microphone/speaker test.
+
+## PENDING EDUCATIONAL REVIEW
+
+All52 modules have authored input, but full CEFR descriptor coverage, qualified
+independent French/pedagogy review, authentic multi-speaker listening, productive
+skill ratings and empirical CEFR calibration remain unestablished. All317 lessons
+retain their review flags. A0 is preparatory, not an official CEFR level. Short
+C2-targeted practice is not proof of C2 proficiency. No official certification
+or independent human approval is claimed.
+
+## BLOCKED, IF ANY
+
+No unresolved technical startup/regression blocker remains at this checkpoint.
+Chrome cache cleanup remains skipped while Chrome is active;35 GiB headroom has
+not been achieved. The expired historical recording remains API-inaccessible.
+Neither limitation was bypassed. Do not automatically clear more data or change
+retention settings to remove these limitations.
+
+## Daily operating commands
+
+For the already configured Windows installation, use your own PowerShell console
+and keep the startup console open for the running session. If already healthy,
+use the existing URL rather than starting another instance.
+
+```powershell
+cd "D:\shyam\Projects\FluentLoop AI"
+.\scripts\start_personal_local.ps1 -CheckOnly
+.\scripts\start_personal_local.ps1 -ApproveProtectedServices -RecoveryPrerequisitesSatisfied
+```
+
+In a second console, stop gracefully and wait for confirmed completion:
+
+```powershell
+cd "D:\shyam\Projects\FluentLoop AI"
+.\scripts\stop_personal_local.ps1
+```
+
+Do not close the hosting console during shutdown. A stale marker is not
+permission to delete it: inspect ownership/process/port/WSL evidence and use the
+documented `review_personal_local_state.ps1` only when its stopped-state checks
+pass. No force reset, database migration or automatic curriculum import belongs
+in the daily workflow. Enter passwords only in the local application.
+
+---
+
+## Earlier checkpoints (historical)
+
+# Personal local completion — 23 November 2026
+
+## COMPLETED
+
+After direct chat authorization, the exact pinned 136-lesson batch was imported
+transactionally into main `fluentloop` as unpublished personal drafts. It added
+272 scored exercises and 68 open tasks. The five earlier writing bridges and
+superseded 0.10 releases were excluded. No further batches are authorized.
+
+Main now has **317 lessons, 892 scored exercises and 118 open tasks** across the
+original 52 modules: A0 12; A1 63; A2, B1 and B2 50 each; C1 and C2 46 each.
+All are available to the confirmed scoped personal learner. No role changes,
+publication, commit, push or deployment occurred.
+
+The preserved 181 lessons, their answer keys and existing learner/history rows
+matched before/after signatures. Historical M08 matched its recorded baseline.
+The exact restored disposable rehearsal passed duplicate prevention, foreign keys,
+124 within-release prerequisite edges and preservation of existing rows. All
+892 deterministic keys and all 317 lesson definitions passed read-only checks.
+This verifies deterministic consistency, not linguistic or pedagogic perfection.
+
+Fresh consistent PostgreSQL custom-format backups were verified with pg_restore
+listing, file size and SHA-256. Private paths and full preservation evidence are
+under `.publication-private/roadmap-completion-20261123`.
+
+- Pre-import: 700810 bytes, SHA-256
+  `219a80abaf9928458639808c20e95951ed586e4e6d84cea8ea1be3bbebb1aced`.
+- Post-import: 884395 bytes, SHA-256
+  `1e9450895b96eb02182b6515c70bc6014747f593636d21715d164f21a4dc0811`.
+
+## VERIFIED
+
+- Backend: **400 passed, 16 optional skipped**; two dependency deprecation warnings.
+- Separate real PostgreSQL/Ollama/speech integration suite: **34 passed**.
+- Standard Playwright suite: **26 passed, 38 opt-in skipped**.
+- Disposable personal-preview browser suite: **5 passed**, including six formats,
+  Piper exercise audio, saved feedback/resume, ordinary learner denial, linked
+  grammar conversations and all 317 lessons across 52 modules/59 check plans.
+- Admin fixture: **7 unique cases passed** across the six-case successful run and
+  corrected-cookie-name rerun. Assertions were retained; the test invocation now
+  supplies the dedicated harness cookie name.
+- All **68 new listening scripts** passed actual synthesis, WAV integrity and
+  muted headless Chromium decode/playback checks. This is not speaker acceptance.
+- ESLint, TypeScript and the frontend production build passed. A failed generated
+  Turbopack cache was preserved privately before the successful clean build.
+
+Early overlapping browser attempts were invalidated and rerun sequentially.
+Disposable test rate limits were preserved; a fresh empty test-only Redis
+namespace was used without changing application limits or protected Redis data.
+
+## Preservation behavior and known limitation
+
+Personal startup now pauses automatic expired/orphan audio cleanup only in
+explicit loopback development personal-preview mode. Default cleanup, expired
+access denial and explicit deletion remain tested. One existing expired asset is
+preserved on disk with its matching checksum but remains unavailable for API
+replay. Its history is retained. No protected expiry or ownership was changed.
+
+## PENDING HUMAN ACCEPTANCE
+
+The owner's earlier confirmation verifies the physical microphone → French ASR
+→ AI reply → audible French playback workflow at that earlier checkpoint.
+Fresh owner login and visual confirmation of this expanded curriculum remain
+pending. No owner credentials were used, and no synthetic owner progress was
+created. Current automated recordings use synthetic audio and test accounts.
+
+## PENDING EDUCATIONAL VALIDATION
+
+All 317 lessons retain qualified-human-review/calibration flags in
+`docs/learning/lesson-review-20261123.json`; the 136-lesson batch also has its
+per-lesson review ledger. All 52 modules have input, but full CEFR coverage,
+unseen-task mastery and empirical assessment calibration are not established.
+The 68-topic supplement has short scripted inputs and three expressions per
+topic, not a comprehensive vocabulary course. C2 readings remain short practice,
+not full examination texts. Broader authentic listening, speaker variety,
+independent writing/speaking ratings and qualified French review remain needed.
+A0 is preparatory, not an official CEFR level. No certification is claimed.
+
+## Daily use
+
+For the existing configured installation, in Windows PowerShell:
+
+```powershell
+cd "D:\shyam\Projects\FluentLoop AI"
+.\scripts\start_personal_local.ps1 -CheckOnly
+.\scripts\start_personal_local.ps1 -ApproveProtectedServices -RecoveryPrerequisitesSatisfied
+```
+
+Open `http://127.0.0.1:3000/login` and sign in privately. Use another console to stop:
+
+```powershell
+cd "D:\shyam\Projects\FluentLoop AI"
+.\scripts\stop_personal_local.ps1
+```
+
+The launcher requires the existing private configuration, service identities and
+models, at least 30 GiB free on C: and 50 GiB on D:. It performs no automatic
+protected schema migration or curriculum import. Do not bypass a failed guard.
+
+## Final runtime and acceptance status
+
+Graceful shutdown and a fresh safeguarded restart both passed. The normal personal
+application is left ready at http://127.0.0.1:3000/login. Disposable test APIs were
+stopped using their cooperative stop files; unrelated Ollama was left untouched.
+Post-restart main/M08 signatures matched, and pre/post-import backup hashes and
+the retained audio checksum were reverified. The recent 30-minute Windows System
+query returned zero Disk/NTFS/VHDMP/storage-controller warnings or errors; this
+bounded observation is not a guarantee of hardware health. Remaining space was
+C: 36.14 GiB and D: 177.31 GiB.
+
+Two additional real ASR/Ollama/Piper browser cases passed, including recorded WebM,
+saved turn/replay and explicit confirmation of uncertain recognition. Synthetic
+audio and disposable accounts were used; no physical acceptance is inferred.
+
+**BLOCKED:** no unresolved technical import/runtime blocker. **PENDING HUMAN
+ACCEPTANCE:** owner private login and expanded-library/history confirmation.
+**PENDING EDUCATIONAL VALIDATION:** qualified French review and empirical CEFR
+calibration. One preserved expired historical recording remains API-inaccessible.
+All local Git changes remain uncommitted; no push, publication or deployment.
+
+---
+
+## Historical verification checkpoints
+
 # Personal local-only implementation verification
+
+## Final68-topic batch validation — 23 November 2026
+
+The active12 `0.11.x` packs are pinned in
+[the exact import manifest](../../backend/content/roadmap/manifest/IMPORT-MANIFEST-20261123.json):
+**136 lessons,272 scored exercises and68 open writing/speaking tasks**. No main
+import is authorized. Existing52-module live-map and source releases are unchanged.
+
+A fresh consistent main backup (700,810 bytes, SHA-256
+`ebbf863b18103d313ab99f62ee25f83c9eeaa68713e32eec2912eafc1445200d`)
+passed size/hash and restore-catalog checks, then restored successfully into a new
+disposable database. The final exact rehearsal excludes the earlier five bridges:
+**181 +136 =317 lessons,620 +272 =892 exercises,50 +68 =118 open tasks**.
+Every old row was retained; all272 answer keys and distractors, idempotency,
+foreign keys and124 authored within-release prerequisite edges passed. Across
+releases the documented roadmap preparation sequence remains advisory, not an
+additional database-enforced edge. Main/M08 before/after signatures matched,
+with only the existing documented `user_sessions.last_used_at` exclusion.
+
+All68 new listening scripts synthesized through the existing private Piper
+worker. Generated mono16-bit PCM WAV files were bounded, non-silent and passed
+the clipping check. Total generated duration was675.27 seconds. All68 passed
+Chromium decoding, normal-speed playback progress, accelerated completion and
+no media error. Browser output was muted. This verifies automated generation and
+playback, **not a physical speaker test or human phonetic assessment**.
+
+Fresh checks:10 targeted backend tests,68 browser audio cases, ESLint and
+TypeScript passed. The unchanged active-batch full backend checkpoint remains
+394 passed/16 optional skipped, two non-blocking dependency deprecation warnings;
+it is not misrepresented as a newly rerun full suite in this final audio window.
+No application-source change required a fresh production build.
+
+AI-assisted desk/reference review found no blocking discrepancy in the authored
+models, translations and scope contrasts. Selected constructions were checked
+against OQLF, Académie française and CNRTL references. This is **not independent
+human approval**. All136 lessons explicitly retain qualified linguistic/pedagogic
+review and empirical CEFR-calibration flags. Short reading/scripts, three-expression
+vocabulary samples, B1 extension topics and open productive ratings remain
+educational limits recorded in the per-lesson ledger. No official exam simulation
+or proficiency guarantee is claimed.
+
+Only owned validation infrastructure and speech ran; all shut down gracefully.
+The app, AI and learner-writing services were not started. Prior verified backups
+and the fresh backup remain preserved. No publication, commit, push or deployment.
+The sole next protected-data operation is a separately authorized, backup-first
+import of this exact batch as unpublished personal drafts.
+
+## Roadmap exercise expansion — staged, 23 November 2026
+
+The owner supplied a 68-topic A1–C2 roadmap. New active `0.11.x` drafts contain
+136 lessons, 272 scored exercises and 68 writing/speaking transfer tasks. Topic
+names and order match the supplied roadmap. All six supported exercise formats
+occur across the batch; B2–C2 form/meaning options contrast scope, attribution,
+certainty and commitment rather than merely spelling errors. The 52-module live
+map and all existing curriculum releases remain unchanged.
+
+The in-memory SQLite rehearsal imported the exact drafts idempotently with
+foreign keys, checked every correct answer and each distractor/valid structured
+wrong answer, and preserved all rows of the prior 186 source lessons. The
+isolated API tests also cover frozen-session preservation, answer-key privacy
+and ordinary-learner denial. Initial `0.10.x` manuscripts were superseded during
+review and retained under `review-history/`; they are excluded from active totals.
+
+The first real PostgreSQL check stopped at connection preflight because services
+were off. The owner then directly authorized a bounded infrastructure-only window.
+The stopped-state guard initially detected a saved process; after the disposable
+tests ended, fresh evidence showed no matching process and the unchanged guard
+passed. Original stale-ready state was archived as bookkeeping; no earlier
+graceful shutdown was invented. No process was killed or guard bypassed.
+
+The existing launcher started only its approved PostgreSQL/Redis/Mailpit
+infrastructure. The verified backup was restored into a new disposable database
+at revision `20261115_0016`. All 12 active packs imported idempotently; all 272
+answer keys, prerequisites, foreign keys and retention of prior rows passed.
+The rehearsal contains 322 lessons/892 scored exercises including the earlier
+five staged bridges. Main and M08 read-only table signatures matched before and
+after; no main import or protected migration ran. The backup size/hash matched.
+Owned services were then stopped using the normal graceful shutdown script.
+Runtime synthesis of the new 68 scripts remains pending; the speech worker was
+not started. This is not a claim of fresh physical microphone acceptance.
+
+The last verified personal totals remain 181 lessons/620 scored exercises/50
+open task lessons, all unpublished. New active future inventory, including the
+earlier five bridges, is 141 lessons/272 scored exercises/73 open transfer tasks.
+No new import, publication, commit or push is authorized by this staged update.
+See [the roadmap report](../learning/ROADMAP-PRACTICE-UPDATE.md). Human linguistic,
+pedagogic and phonetic approval, empirical CEFR calibration and comprehensive
+coverage are not established by this work. The owner's prior physical voice
+acceptance remains historical; no fresh hardware acceptance is claimed.
+
+Final backend regression for this update: **394 passed, 16 optional integration
+tests skipped**, two non-blocking dependency deprecation warnings. All six
+exercise formats and frozen-session/answer-key privacy/ordinary-user denial
+passed. No frontend code changed; a fresh browser or production-build run was
+not claimed for this content-only expansion. The prior frontend results below
+remain historical evidence.
 
 ## Current checkpoint — 23 November 2026, authorized import and local acceptance
 

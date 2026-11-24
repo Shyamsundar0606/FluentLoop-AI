@@ -43,6 +43,6 @@ def test_depth_source_reproducibility_and_coverage_audit():
     spec=importlib.util.spec_from_file_location('coverage_author',ROOT/'scripts/audit_curriculum_coverage.py')
     coverage=importlib.util.module_from_spec(spec);spec.loader.exec_module(coverage)
     audit=coverage.audit();modules=[m for s in audit['stages'] for m in s['modules']]
-    assert len(modules)==52 and sum(m['main_lessons'] for m in modules)==181
+    assert len(modules)==52 and sum(m['main_lessons'] for m in modules)==317
     assert sum(m['staged_lessons'] for m in modules)==5
     assert all(m['gaps'] and not m['competency_demonstrated'] for m in modules)

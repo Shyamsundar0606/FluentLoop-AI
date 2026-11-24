@@ -45,7 +45,19 @@
     "backend\\content\\completion\\c2-06-completion-0.7.6.json": "b4953def141b6858156191032e2e35a2c95ae2e3a1df1918f2fdfa15331599d1",
     "backend\\content\\completion\\c2-08-completion-0.7.8.json": "9ba419554f359cf5e55308b12b7d1d0765fc8b2331777b57ea93a4d9ae10d8c4",
     "backend\\content\\writing-bridges\\a0-writing-0.9.0.json": "70a6ac35a10d1341c83a2791d39d40e756030de9bda5c42fc0d76a3751027931",
-    "backend\\content\\writing-bridges\\a1-writing-0.9.1.json": "a5767582046a267c3f656e3ebf9b84f56c41fc199e4781717020c1e706cc133b"
+    "backend\\content\\writing-bridges\\a1-writing-0.9.1.json": "a5767582046a267c3f656e3ebf9b84f56c41fc199e4781717020c1e706cc133b",
+    "backend\\content\\roadmap\\a1-roadmap-0.11.1.json": "afba20bcc4662a13931a6534dc05ed46baa3d351ec288405d9ac48a0b48a63de",
+    "backend\\content\\roadmap\\a1-roadmap-0.11.2.json": "41e2133c9c6b2a3f3eeb8f5664c0e6a4428e3b595df6a9b8cb44dd84c8059f03",
+    "backend\\content\\roadmap\\a2-roadmap-0.11.1.json": "4487d78c2f2b523663adfb8727fead23bee3ff77bc244a6e79c8bd492915ec06",
+    "backend\\content\\roadmap\\a2-roadmap-0.11.2.json": "9b95abaaf2dd0d27d6ba9d74536c4249fb95645608b5c81c9cc73e6ba772297f",
+    "backend\\content\\roadmap\\b1-roadmap-0.11.1.json": "3e1bc484611a9e8066fdb08c01758af85a8b35ceaf9eaed945de7e7ceb8ab610",
+    "backend\\content\\roadmap\\b1-roadmap-0.11.2.json": "2893f6ee1d57c000e8d1db562fdaeadca0c84787789d834f7d64a6b983844204",
+    "backend\\content\\roadmap\\b2-roadmap-0.11.1.json": "9423383a0c014816a8b83ee99ff04c0617917faf6f3201d0b0f3eb23e279a765",
+    "backend\\content\\roadmap\\b2-roadmap-0.11.2.json": "955fa50203bfba677287942072720216fef95985fb36fc26e78a3a0bf7af200e",
+    "backend\\content\\roadmap\\c1-roadmap-0.11.1.json": "30c09d2f5c1b44fa5cc64148d9cf2d38b264449a8835acc1a63fe2555a5f4ae0",
+    "backend\\content\\roadmap\\c1-roadmap-0.11.2.json": "c7b52b8446348ae4ad1ab3733b84f08da8426d679f45b7755d6db0d3fe807ed1",
+    "backend\\content\\roadmap\\c2-roadmap-0.11.1.json": "b4f6f7f8b49e8469f7162bc1e7f73a6a412cbbe8e660d8fef46640b48f32d660",
+    "backend\\content\\roadmap\\c2-roadmap-0.11.2.json": "122431ad5157255c55ff8a1697cab271664a9f3e35622c9d39537a04f0c0cf46"
   },
   "stages": [
     {
@@ -180,16 +192,15 @@
           "prerequisites": [
             "a0-03"
           ],
-          "main_lessons": 2,
+          "main_lessons": 6,
           "staged_lessons": 1,
-          "structured_grammar_rules": 2,
+          "structured_grammar_rules": 4,
           "linked_vocabulary": 16,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 0,
-          "longest_script_words": 0,
-          "longest_context_words": 99,
+          "dedicated_writing_tasks": 3,
+          "scripted_listening_items": 2,
+          "longest_script_words": 21,
+          "longest_context_words": 117,
           "gaps": [
-            "No scripted listening exercise",
             "Independent productive-skill rating and unseen transfer evidence pending",
             "Varied-speaker and spontaneous listening not established by synthetic scripts",
             "Diagnostic/module/level-end empirical calibration pending"
@@ -204,13 +215,13 @@
           "prerequisites": [
             "a1-01"
           ],
-          "main_lessons": 5,
+          "main_lessons": 9,
           "staged_lessons": 0,
-          "structured_grammar_rules": 4,
+          "structured_grammar_rules": 6,
           "linked_vocabulary": 22,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 2,
-          "longest_script_words": 6,
+          "dedicated_writing_tasks": 3,
+          "scripted_listening_items": 4,
+          "longest_script_words": 24,
           "longest_context_words": 154,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
@@ -227,13 +238,13 @@
           "prerequisites": [
             "a1-02"
           ],
-          "main_lessons": 4,
+          "main_lessons": 10,
           "staged_lessons": 1,
-          "structured_grammar_rules": 4,
+          "structured_grammar_rules": 7,
           "linked_vocabulary": 23,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 2,
-          "longest_script_words": 5,
+          "dedicated_writing_tasks": 4,
+          "scripted_listening_items": 5,
+          "longest_script_words": 25,
           "longest_context_words": 166,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
@@ -250,16 +261,15 @@
           "prerequisites": [
             "a1-03"
           ],
-          "main_lessons": 2,
+          "main_lessons": 4,
           "staged_lessons": 1,
-          "structured_grammar_rules": 3,
+          "structured_grammar_rules": 4,
           "linked_vocabulary": 18,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 0,
-          "longest_script_words": 0,
+          "dedicated_writing_tasks": 2,
+          "scripted_listening_items": 1,
+          "longest_script_words": 25,
           "longest_context_words": 105,
           "gaps": [
-            "No scripted listening exercise",
             "Independent productive-skill rating and unseen transfer evidence pending",
             "Varied-speaker and spontaneous listening not established by synthetic scripts",
             "Diagnostic/module/level-end empirical calibration pending"
@@ -274,13 +284,13 @@
           "prerequisites": [
             "a1-04"
           ],
-          "main_lessons": 2,
+          "main_lessons": 4,
           "staged_lessons": 1,
-          "structured_grammar_rules": 2,
+          "structured_grammar_rules": 3,
           "linked_vocabulary": 11,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 1,
-          "longest_script_words": 6,
+          "dedicated_writing_tasks": 2,
+          "scripted_listening_items": 2,
+          "longest_script_words": 22,
           "longest_context_words": 161,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
@@ -297,13 +307,13 @@
           "prerequisites": [
             "a1-05"
           ],
-          "main_lessons": 8,
+          "main_lessons": 10,
           "staged_lessons": 0,
-          "structured_grammar_rules": 2,
+          "structured_grammar_rules": 3,
           "linked_vocabulary": 26,
-          "dedicated_writing_tasks": 2,
-          "scripted_listening_items": 5,
-          "longest_script_words": 13,
+          "dedicated_writing_tasks": 3,
+          "scripted_listening_items": 6,
+          "longest_script_words": 24,
           "longest_context_words": 194,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
@@ -320,13 +330,13 @@
           "prerequisites": [
             "a1-06"
           ],
-          "main_lessons": 6,
+          "main_lessons": 8,
           "staged_lessons": 0,
-          "structured_grammar_rules": 3,
+          "structured_grammar_rules": 4,
           "linked_vocabulary": 18,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 5,
-          "longest_script_words": 9,
+          "dedicated_writing_tasks": 2,
+          "scripted_listening_items": 6,
+          "longest_script_words": 27,
           "longest_context_words": 189,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
@@ -366,17 +376,15 @@
           "prerequisites": [
             "a1-08"
           ],
-          "main_lessons": 1,
+          "main_lessons": 3,
           "staged_lessons": 0,
-          "structured_grammar_rules": 0,
+          "structured_grammar_rules": 1,
           "linked_vocabulary": 0,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 0,
-          "longest_script_words": 0,
-          "longest_context_words": 68,
+          "dedicated_writing_tasks": 2,
+          "scripted_listening_items": 1,
+          "longest_script_words": 28,
+          "longest_context_words": 107,
           "gaps": [
-            "No structured grammar rule linked; prose notes may still exist",
-            "No scripted listening exercise",
             "Independent productive-skill rating and unseen transfer evidence pending",
             "Varied-speaker and spontaneous listening not established by synthetic scripts",
             "Diagnostic/module/level-end empirical calibration pending"
@@ -424,13 +432,13 @@
           "prerequisites": [
             "a1-09"
           ],
-          "main_lessons": 4,
+          "main_lessons": 12,
           "staged_lessons": 0,
-          "structured_grammar_rules": 1,
+          "structured_grammar_rules": 5,
           "linked_vocabulary": 12,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 3,
-          "longest_script_words": 5,
+          "dedicated_writing_tasks": 5,
+          "scripted_listening_items": 7,
+          "longest_script_words": 26,
           "longest_context_words": 212,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
@@ -447,13 +455,13 @@
           "prerequisites": [
             "a2-01"
           ],
-          "main_lessons": 4,
+          "main_lessons": 8,
           "staged_lessons": 0,
-          "structured_grammar_rules": 1,
+          "structured_grammar_rules": 3,
           "linked_vocabulary": 12,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 3,
-          "longest_script_words": 5,
+          "dedicated_writing_tasks": 3,
+          "scripted_listening_items": 5,
+          "longest_script_words": 25,
           "longest_context_words": 198,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
@@ -493,16 +501,15 @@
           "prerequisites": [
             "a2-03"
           ],
-          "main_lessons": 2,
+          "main_lessons": 6,
           "staged_lessons": 0,
-          "structured_grammar_rules": 0,
+          "structured_grammar_rules": 2,
           "linked_vocabulary": 3,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 1,
-          "longest_script_words": 18,
+          "dedicated_writing_tasks": 3,
+          "scripted_listening_items": 3,
+          "longest_script_words": 35,
           "longest_context_words": 140,
           "gaps": [
-            "No structured grammar rule linked; prose notes may still exist",
             "Independent productive-skill rating and unseen transfer evidence pending",
             "Varied-speaker and spontaneous listening not established by synthetic scripts",
             "Diagnostic/module/level-end empirical calibration pending"
@@ -517,14 +524,14 @@
           "prerequisites": [
             "a2-04"
           ],
-          "main_lessons": 3,
+          "main_lessons": 5,
           "staged_lessons": 0,
-          "structured_grammar_rules": 1,
+          "structured_grammar_rules": 2,
           "linked_vocabulary": 3,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 1,
+          "dedicated_writing_tasks": 2,
+          "scripted_listening_items": 2,
           "longest_script_words": 44,
-          "longest_context_words": 101,
+          "longest_context_words": 107,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
             "Varied-speaker and spontaneous listening not established by synthetic scripts",
@@ -540,14 +547,14 @@
           "prerequisites": [
             "a2-05"
           ],
-          "main_lessons": 3,
+          "main_lessons": 7,
           "staged_lessons": 0,
-          "structured_grammar_rules": 1,
+          "structured_grammar_rules": 3,
           "linked_vocabulary": 3,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 1,
+          "dedicated_writing_tasks": 3,
+          "scripted_listening_items": 3,
           "longest_script_words": 43,
-          "longest_context_words": 99,
+          "longest_context_words": 110,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
             "Varied-speaker and spontaneous listening not established by synthetic scripts",
@@ -586,12 +593,12 @@
           "prerequisites": [
             "a2-07"
           ],
-          "main_lessons": 3,
+          "main_lessons": 5,
           "staged_lessons": 0,
-          "structured_grammar_rules": 1,
+          "structured_grammar_rules": 2,
           "linked_vocabulary": 3,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 1,
+          "dedicated_writing_tasks": 2,
+          "scripted_listening_items": 2,
           "longest_script_words": 43,
           "longest_context_words": 110,
           "gaps": [
@@ -641,13 +648,13 @@
           "prerequisites": [
             "a2-08"
           ],
-          "main_lessons": 4,
+          "main_lessons": 6,
           "staged_lessons": 0,
-          "structured_grammar_rules": 1,
+          "structured_grammar_rules": 2,
           "linked_vocabulary": 12,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 3,
-          "longest_script_words": 7,
+          "dedicated_writing_tasks": 2,
+          "scripted_listening_items": 4,
+          "longest_script_words": 26,
           "longest_context_words": 243,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
@@ -664,13 +671,13 @@
           "prerequisites": [
             "b1-01"
           ],
-          "main_lessons": 4,
+          "main_lessons": 6,
           "staged_lessons": 0,
-          "structured_grammar_rules": 1,
+          "structured_grammar_rules": 2,
           "linked_vocabulary": 12,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 3,
-          "longest_script_words": 5,
+          "dedicated_writing_tasks": 2,
+          "scripted_listening_items": 4,
+          "longest_script_words": 25,
           "longest_context_words": 235,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
@@ -687,13 +694,13 @@
           "prerequisites": [
             "b1-02"
           ],
-          "main_lessons": 4,
+          "main_lessons": 6,
           "staged_lessons": 0,
-          "structured_grammar_rules": 1,
+          "structured_grammar_rules": 2,
           "linked_vocabulary": 12,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 3,
-          "longest_script_words": 6,
+          "dedicated_writing_tasks": 2,
+          "scripted_listening_items": 4,
+          "longest_script_words": 26,
           "longest_context_words": 245,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
@@ -710,16 +717,15 @@
           "prerequisites": [
             "b1-03"
           ],
-          "main_lessons": 2,
+          "main_lessons": 6,
           "staged_lessons": 0,
-          "structured_grammar_rules": 0,
+          "structured_grammar_rules": 2,
           "linked_vocabulary": 3,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 1,
-          "longest_script_words": 20,
+          "dedicated_writing_tasks": 3,
+          "scripted_listening_items": 3,
+          "longest_script_words": 29,
           "longest_context_words": 156,
           "gaps": [
-            "No structured grammar rule linked; prose notes may still exist",
             "Independent productive-skill rating and unseen transfer evidence pending",
             "Varied-speaker and spontaneous listening not established by synthetic scripts",
             "Diagnostic/module/level-end empirical calibration pending"
@@ -734,14 +740,14 @@
           "prerequisites": [
             "b1-04"
           ],
-          "main_lessons": 3,
+          "main_lessons": 7,
           "staged_lessons": 0,
-          "structured_grammar_rules": 1,
+          "structured_grammar_rules": 3,
           "linked_vocabulary": 3,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 1,
+          "dedicated_writing_tasks": 3,
+          "scripted_listening_items": 3,
           "longest_script_words": 42,
-          "longest_context_words": 98,
+          "longest_context_words": 117,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
             "Varied-speaker and spontaneous listening not established by synthetic scripts",
@@ -757,14 +763,14 @@
           "prerequisites": [
             "b1-05"
           ],
-          "main_lessons": 3,
+          "main_lessons": 9,
           "staged_lessons": 0,
-          "structured_grammar_rules": 1,
+          "structured_grammar_rules": 4,
           "linked_vocabulary": 3,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 1,
+          "dedicated_writing_tasks": 4,
+          "scripted_listening_items": 4,
           "longest_script_words": 47,
-          "longest_context_words": 96,
+          "longest_context_words": 119,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
             "Varied-speaker and spontaneous listening not established by synthetic scripts",
@@ -780,14 +786,14 @@
           "prerequisites": [
             "b1-06"
           ],
-          "main_lessons": 3,
+          "main_lessons": 5,
           "staged_lessons": 0,
-          "structured_grammar_rules": 1,
+          "structured_grammar_rules": 2,
           "linked_vocabulary": 3,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 1,
+          "dedicated_writing_tasks": 2,
+          "scripted_listening_items": 2,
           "longest_script_words": 45,
-          "longest_context_words": 101,
+          "longest_context_words": 120,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
             "Varied-speaker and spontaneous listening not established by synthetic scripts",
@@ -803,14 +809,14 @@
           "prerequisites": [
             "b1-07"
           ],
-          "main_lessons": 3,
+          "main_lessons": 5,
           "staged_lessons": 0,
-          "structured_grammar_rules": 1,
+          "structured_grammar_rules": 2,
           "linked_vocabulary": 3,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 1,
+          "dedicated_writing_tasks": 2,
+          "scripted_listening_items": 2,
           "longest_script_words": 49,
-          "longest_context_words": 103,
+          "longest_context_words": 131,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
             "Varied-speaker and spontaneous listening not established by synthetic scripts",
@@ -856,13 +862,13 @@
           "prerequisites": [
             "b1-08"
           ],
-          "main_lessons": 4,
+          "main_lessons": 8,
           "staged_lessons": 0,
-          "structured_grammar_rules": 1,
+          "structured_grammar_rules": 3,
           "linked_vocabulary": 12,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 3,
-          "longest_script_words": 10,
+          "dedicated_writing_tasks": 3,
+          "scripted_listening_items": 5,
+          "longest_script_words": 33,
           "longest_context_words": 256,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
@@ -879,13 +885,13 @@
           "prerequisites": [
             "b2-01"
           ],
-          "main_lessons": 4,
+          "main_lessons": 6,
           "staged_lessons": 0,
-          "structured_grammar_rules": 1,
+          "structured_grammar_rules": 2,
           "linked_vocabulary": 12,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 3,
-          "longest_script_words": 7,
+          "dedicated_writing_tasks": 2,
+          "scripted_listening_items": 4,
+          "longest_script_words": 31,
           "longest_context_words": 255,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
@@ -902,13 +908,13 @@
           "prerequisites": [
             "b2-02"
           ],
-          "main_lessons": 4,
+          "main_lessons": 8,
           "staged_lessons": 0,
-          "structured_grammar_rules": 1,
+          "structured_grammar_rules": 3,
           "linked_vocabulary": 12,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 3,
-          "longest_script_words": 7,
+          "dedicated_writing_tasks": 3,
+          "scripted_listening_items": 5,
+          "longest_script_words": 31,
           "longest_context_words": 254,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
@@ -925,16 +931,15 @@
           "prerequisites": [
             "b2-03"
           ],
-          "main_lessons": 2,
+          "main_lessons": 6,
           "staged_lessons": 0,
-          "structured_grammar_rules": 0,
+          "structured_grammar_rules": 2,
           "linked_vocabulary": 3,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 1,
-          "longest_script_words": 26,
+          "dedicated_writing_tasks": 3,
+          "scripted_listening_items": 3,
+          "longest_script_words": 32,
           "longest_context_words": 184,
           "gaps": [
-            "No structured grammar rule linked; prose notes may still exist",
             "Independent productive-skill rating and unseen transfer evidence pending",
             "Varied-speaker and spontaneous listening not established by synthetic scripts",
             "Diagnostic/module/level-end empirical calibration pending"
@@ -949,16 +954,15 @@
           "prerequisites": [
             "b2-04"
           ],
-          "main_lessons": 3,
+          "main_lessons": 7,
           "staged_lessons": 0,
-          "structured_grammar_rules": 0,
+          "structured_grammar_rules": 2,
           "linked_vocabulary": 0,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 2,
-          "longest_script_words": 22,
+          "dedicated_writing_tasks": 3,
+          "scripted_listening_items": 4,
+          "longest_script_words": 36,
           "longest_context_words": 233,
           "gaps": [
-            "No structured grammar rule linked; prose notes may still exist",
             "Independent productive-skill rating and unseen transfer evidence pending",
             "Varied-speaker and spontaneous listening not established by synthetic scripts",
             "Diagnostic/module/level-end empirical calibration pending"
@@ -973,14 +977,14 @@
           "prerequisites": [
             "b2-05"
           ],
-          "main_lessons": 3,
+          "main_lessons": 5,
           "staged_lessons": 0,
-          "structured_grammar_rules": 1,
+          "structured_grammar_rules": 2,
           "linked_vocabulary": 3,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 1,
+          "dedicated_writing_tasks": 2,
+          "scripted_listening_items": 2,
           "longest_script_words": 68,
-          "longest_context_words": 127,
+          "longest_context_words": 156,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
             "Varied-speaker and spontaneous listening not established by synthetic scripts",
@@ -996,14 +1000,14 @@
           "prerequisites": [
             "b2-06"
           ],
-          "main_lessons": 3,
+          "main_lessons": 5,
           "staged_lessons": 0,
-          "structured_grammar_rules": 1,
+          "structured_grammar_rules": 2,
           "linked_vocabulary": 3,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 1,
+          "dedicated_writing_tasks": 2,
+          "scripted_listening_items": 2,
           "longest_script_words": 56,
-          "longest_context_words": 124,
+          "longest_context_words": 151,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
             "Varied-speaker and spontaneous listening not established by synthetic scripts",
@@ -1019,14 +1023,14 @@
           "prerequisites": [
             "b2-07"
           ],
-          "main_lessons": 3,
+          "main_lessons": 5,
           "staged_lessons": 0,
-          "structured_grammar_rules": 1,
+          "structured_grammar_rules": 2,
           "linked_vocabulary": 3,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 1,
+          "dedicated_writing_tasks": 2,
+          "scripted_listening_items": 2,
           "longest_script_words": 59,
-          "longest_context_words": 128,
+          "longest_context_words": 162,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
             "Varied-speaker and spontaneous listening not established by synthetic scripts",
@@ -1094,13 +1098,13 @@
           "prerequisites": [
             "c1-01"
           ],
-          "main_lessons": 4,
+          "main_lessons": 6,
           "staged_lessons": 0,
-          "structured_grammar_rules": 1,
+          "structured_grammar_rules": 2,
           "linked_vocabulary": 12,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 3,
-          "longest_script_words": 9,
+          "dedicated_writing_tasks": 2,
+          "scripted_listening_items": 4,
+          "longest_script_words": 37,
           "longest_context_words": 257,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
@@ -1140,16 +1144,15 @@
           "prerequisites": [
             "c1-03"
           ],
-          "main_lessons": 2,
+          "main_lessons": 12,
           "staged_lessons": 0,
-          "structured_grammar_rules": 0,
+          "structured_grammar_rules": 5,
           "linked_vocabulary": 3,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 1,
-          "longest_script_words": 25,
+          "dedicated_writing_tasks": 6,
+          "scripted_listening_items": 6,
+          "longest_script_words": 38,
           "longest_context_words": 200,
           "gaps": [
-            "No structured grammar rule linked; prose notes may still exist",
             "Independent productive-skill rating and unseen transfer evidence pending",
             "Varied-speaker and spontaneous listening not established by synthetic scripts",
             "Diagnostic/module/level-end empirical calibration pending"
@@ -1164,14 +1167,14 @@
           "prerequisites": [
             "c1-04"
           ],
-          "main_lessons": 3,
+          "main_lessons": 5,
           "staged_lessons": 0,
-          "structured_grammar_rules": 1,
+          "structured_grammar_rules": 2,
           "linked_vocabulary": 3,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 1,
+          "dedicated_writing_tasks": 2,
+          "scripted_listening_items": 2,
           "longest_script_words": 67,
-          "longest_context_words": 123,
+          "longest_context_words": 170,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
             "Varied-speaker and spontaneous listening not established by synthetic scripts",
@@ -1187,16 +1190,15 @@
           "prerequisites": [
             "c1-05"
           ],
-          "main_lessons": 3,
+          "main_lessons": 7,
           "staged_lessons": 0,
-          "structured_grammar_rules": 0,
+          "structured_grammar_rules": 2,
           "linked_vocabulary": 0,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 2,
-          "longest_script_words": 20,
+          "dedicated_writing_tasks": 3,
+          "scripted_listening_items": 4,
+          "longest_script_words": 31,
           "longest_context_words": 242,
           "gaps": [
-            "No structured grammar rule linked; prose notes may still exist",
             "Independent productive-skill rating and unseen transfer evidence pending",
             "Varied-speaker and spontaneous listening not established by synthetic scripts",
             "Diagnostic/module/level-end empirical calibration pending"
@@ -1234,14 +1236,14 @@
           "prerequisites": [
             "c1-07"
           ],
-          "main_lessons": 3,
+          "main_lessons": 5,
           "staged_lessons": 0,
-          "structured_grammar_rules": 1,
+          "structured_grammar_rules": 2,
           "linked_vocabulary": 3,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 1,
+          "dedicated_writing_tasks": 2,
+          "scripted_listening_items": 2,
           "longest_script_words": 58,
-          "longest_context_words": 131,
+          "longest_context_words": 175,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
             "Varied-speaker and spontaneous listening not established by synthetic scripts",
@@ -1285,13 +1287,13 @@
           "prerequisites": [
             "c1-08"
           ],
-          "main_lessons": 4,
+          "main_lessons": 6,
           "staged_lessons": 0,
-          "structured_grammar_rules": 1,
+          "structured_grammar_rules": 2,
           "linked_vocabulary": 12,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 3,
-          "longest_script_words": 8,
+          "dedicated_writing_tasks": 2,
+          "scripted_listening_items": 4,
+          "longest_script_words": 30,
           "longest_context_words": 273,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
@@ -1308,13 +1310,13 @@
           "prerequisites": [
             "c2-01"
           ],
-          "main_lessons": 4,
+          "main_lessons": 8,
           "staged_lessons": 0,
-          "structured_grammar_rules": 1,
+          "structured_grammar_rules": 3,
           "linked_vocabulary": 12,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 3,
-          "longest_script_words": 11,
+          "dedicated_writing_tasks": 3,
+          "scripted_listening_items": 5,
+          "longest_script_words": 38,
           "longest_context_words": 282,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
@@ -1331,13 +1333,13 @@
           "prerequisites": [
             "c2-02"
           ],
-          "main_lessons": 4,
+          "main_lessons": 6,
           "staged_lessons": 0,
-          "structured_grammar_rules": 1,
+          "structured_grammar_rules": 2,
           "linked_vocabulary": 12,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 3,
-          "longest_script_words": 13,
+          "dedicated_writing_tasks": 2,
+          "scripted_listening_items": 4,
+          "longest_script_words": 38,
           "longest_context_words": 281,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
@@ -1354,16 +1356,15 @@
           "prerequisites": [
             "c2-03"
           ],
-          "main_lessons": 2,
+          "main_lessons": 6,
           "staged_lessons": 0,
-          "structured_grammar_rules": 0,
+          "structured_grammar_rules": 2,
           "linked_vocabulary": 3,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 1,
+          "dedicated_writing_tasks": 3,
+          "scripted_listening_items": 3,
           "longest_script_words": 34,
           "longest_context_words": 247,
           "gaps": [
-            "No structured grammar rule linked; prose notes may still exist",
             "Independent productive-skill rating and unseen transfer evidence pending",
             "Varied-speaker and spontaneous listening not established by synthetic scripts",
             "Diagnostic/module/level-end empirical calibration pending"
@@ -1378,14 +1379,14 @@
           "prerequisites": [
             "c2-04"
           ],
-          "main_lessons": 3,
+          "main_lessons": 5,
           "staged_lessons": 0,
-          "structured_grammar_rules": 1,
+          "structured_grammar_rules": 2,
           "linked_vocabulary": 3,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 1,
+          "dedicated_writing_tasks": 2,
+          "scripted_listening_items": 2,
           "longest_script_words": 61,
-          "longest_context_words": 138,
+          "longest_context_words": 192,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
             "Varied-speaker and spontaneous listening not established by synthetic scripts",
@@ -1401,14 +1402,14 @@
           "prerequisites": [
             "c2-05"
           ],
-          "main_lessons": 3,
+          "main_lessons": 5,
           "staged_lessons": 0,
-          "structured_grammar_rules": 1,
+          "structured_grammar_rules": 2,
           "linked_vocabulary": 3,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 1,
+          "dedicated_writing_tasks": 2,
+          "scripted_listening_items": 2,
           "longest_script_words": 57,
-          "longest_context_words": 136,
+          "longest_context_words": 181,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
             "Varied-speaker and spontaneous listening not established by synthetic scripts",
@@ -1424,16 +1425,15 @@
           "prerequisites": [
             "c2-06"
           ],
-          "main_lessons": 3,
+          "main_lessons": 5,
           "staged_lessons": 0,
-          "structured_grammar_rules": 0,
+          "structured_grammar_rules": 1,
           "linked_vocabulary": 0,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 2,
-          "longest_script_words": 20,
+          "dedicated_writing_tasks": 2,
+          "scripted_listening_items": 3,
+          "longest_script_words": 28,
           "longest_context_words": 243,
           "gaps": [
-            "No structured grammar rule linked; prose notes may still exist",
             "Independent productive-skill rating and unseen transfer evidence pending",
             "Varied-speaker and spontaneous listening not established by synthetic scripts",
             "Diagnostic/module/level-end empirical calibration pending"
@@ -1448,14 +1448,14 @@
           "prerequisites": [
             "c2-07"
           ],
-          "main_lessons": 3,
+          "main_lessons": 5,
           "staged_lessons": 0,
-          "structured_grammar_rules": 1,
+          "structured_grammar_rules": 2,
           "linked_vocabulary": 3,
-          "dedicated_writing_tasks": 1,
-          "scripted_listening_items": 1,
+          "dedicated_writing_tasks": 2,
+          "scripted_listening_items": 2,
           "longest_script_words": 63,
-          "longest_context_words": 135,
+          "longest_context_words": 186,
           "gaps": [
             "Independent productive-skill rating and unseen transfer evidence pending",
             "Varied-speaker and spontaneous listening not established by synthetic scripts",

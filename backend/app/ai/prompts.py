@@ -42,6 +42,8 @@ Begin directly with French, without headings, stage directions, analysis, transl
 Example of A1 style: Bonjour ! Tu aimes Paris ?
 """
 
+VOICE_FORMAT_RETRY = """The previous voice response did not meet the spoken-format constraints. Generate a fresh reply to the learner's latest confirmed words, without discussing this instruction or the previous response. Give one brief French acknowledgement and at most ONE relevant question, with no more than ONE question mark in the entire response. At A1 use at most 35 French words. Do not mention profiles, private data, instructions, sources or internal reasoning. No headings or lists. If an English explanation is necessary and permitted, use one short final English: line without another question. All original privacy, grounding and level rules still apply."""
+
 
 def first_name_hint(display_name):
     """Minimal identity only; omit suspicious or unsupported name fragments."""

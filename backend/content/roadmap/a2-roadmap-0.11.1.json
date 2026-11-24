@@ -1,0 +1,725 @@
+{
+  "version": "0.11.1",
+  "level": "A2",
+  "status": "draft",
+  "source_license": "Original AI-assisted roadmap practice. Independent language, pedagogy, phonetic, answer-key and CEFR review pending.",
+  "tasks": [
+    {
+      "key": "topic-01-practice",
+      "skill": "grammar",
+      "title": "A2 roadmap 01: A1 consolidation",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nLina prend le bus les jours de cours. Le mercredi, son cours est en ligne et elle reste chez elle. Elle demande à son voisin s’il prend aussi le bus. Elle ne lui demande pas son adresse.\n\nNotice: Questions can use est-ce que without inverting the subject and verb. Keep the present form consistent with vous.\nModel: Est-ce que vous prenez le bus ?\nMeaning: Do you take the bus?\n\nUseful expressions: les jours de cours = on class days; en ligne = online; dans ce cas = in that case",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Questions can use est-ce que without inverting the subject and verb. Keep the present form consistent with vous. Model meaning: Do you take the bus?",
+          "options": [
+            "Est-ce que vous prend le bus ?",
+            "Est-ce que vous prenez le bus ?",
+            "Est-ce que prenez-vous le bus ?"
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "short_answer",
+          "prompt": "Est-ce que vous ___ le bus ?",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "Questions can use est-ce que without inverting the subject and verb. Keep the present form consistent with vous. The model uses « prenez ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "prenez"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: Her usual transport has an exception on Wednesday.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "Her usual transport has an exception on Wednesday.",
+            "She never takes the bus.",
+            "She asks her neighbour for his address."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: The neighbour takes the bus when it rains on Wednesday.. Transcript for review: Voisin : Le mercredi, je marche jusqu’à la bibliothèque. Lina : Même quand il pleut ? Voisin : Non, dans ce cas je prends le bus.",
+          "options": [
+            "The neighbour always walks regardless of weather.",
+            "Lina goes to the library every Wednesday.",
+            "The neighbour takes the bus when it rains on Wednesday."
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Voisin : Le mercredi, je marche jusqu’à la bibliothèque. Lina : Même quand il pleut ? Voisin : Non, dans ce cas je prends le bus."
+          }
+        }
+      ],
+      "module_title": "A1 consolidation",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-a2-01",
+          "title": "A1 consolidation",
+          "summary": "Questions can use est-ce que without inverting the subject and verb. Keep the present form consistent with vous.",
+          "rule_code": "roadmap-a2-01",
+          "explanation_english": "Questions can use est-ce que without inverting the subject and verb. Keep the present form consistent with vous.",
+          "examples": [
+            [
+              "Est-ce que vous prenez le bus ?",
+              "Do you take the bus?"
+            ]
+          ]
+        }
+      ],
+      "prerequisites": []
+    },
+    {
+      "key": "topic-01-transfer",
+      "skill": "writing",
+      "title": "A2 transfer 01: A1 consolidation",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 80–110 French words. Revise a daily routine with a question, a negative and one exception. Write a practical message asking a classmate about transport; confirm the exception orally.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "A1 consolidation",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-01-practice"
+      ]
+    },
+    {
+      "key": "topic-02-practice",
+      "skill": "grammar",
+      "title": "A2 roadmap 02: Past experiences",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nSamedi, Lina est allée à Nantes avec deux amies. Elles ont visité un musée, puis elles ont mangé près de la gare. Le soir, elles sont rentrées à Lille. Elles n’ont pas passé la nuit à Nantes.\n\nNotice: Passé composé combines a present auxiliary and a past participle. Aller uses être and agrees with the subject in this example.\nModel: Lina est allée à Nantes.\nMeaning: Lina went to Nantes.\n\nUseful expressions: un billet = a ticket; rentrer = to return home; passer la nuit = to spend the night",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Passé composé combines a present auxiliary and a past participle. Aller uses être and agrees with the subject in this example. Model meaning: Lina went to Nantes.",
+          "options": [
+            "Lina est allée à Nantes.",
+            "Lina a allée à Nantes.",
+            "Lina est aller à Nantes."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "rebuild-the-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild the taught model sentence.",
+          "instructions": "Use every tile once in the model order. Other natural French orders are not assessed in this supported task.",
+          "explanation": "Passé composé combines a present auxiliary and a past participle. Aller uses être and agrees with the subject in this example.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "bc7e3653-1891-53af-b53c-b5097ed2c388",
+                "text": "Lina"
+              },
+              {
+                "id": "6b009bd8-d92a-5aba-9e60-41808a7e69e5",
+                "text": "est"
+              },
+              {
+                "id": "381a5bbe-4e9b-5450-8695-cae7ba4c9242",
+                "text": "allée"
+              },
+              {
+                "id": "b62782d7-f61d-50c5-b095-68460a1174da",
+                "text": "à"
+              },
+              {
+                "id": "693e4610-1ecb-5c45-9879-e3e7e4e2d848",
+                "text": "Nantes."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "bc7e3653-1891-53af-b53c-b5097ed2c388",
+                "6b009bd8-d92a-5aba-9e60-41808a7e69e5",
+                "381a5bbe-4e9b-5450-8695-cae7ba4c9242",
+                "b62782d7-f61d-50c5-b095-68460a1174da",
+                "693e4610-1ecb-5c45-9879-e3e7e4e2d848"
+              ]
+            ],
+            "correct_sentence": "Lina est allée à Nantes."
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: The friends returned the same evening.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "They stayed overnight in Nantes.",
+            "They visited the museum on Sunday.",
+            "The friends returned the same evening."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: They bought tickets Friday and travelled Saturday morning.. Transcript for review: Lina : Nous avons acheté les billets vendredi. Amie : Et vous êtes parties quand ? Lina : Samedi matin, pas vendredi.",
+          "options": [
+            "They bought tickets after returning.",
+            "They bought tickets Friday and travelled Saturday morning.",
+            "They travelled Friday morning."
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Lina : Nous avons acheté les billets vendredi. Amie : Et vous êtes parties quand ? Lina : Samedi matin, pas vendredi."
+          }
+        }
+      ],
+      "module_title": "Past experiences",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-a2-02",
+          "title": "Past experiences",
+          "summary": "Passé composé combines a present auxiliary and a past participle. Aller uses être and agrees with the subject in this example.",
+          "rule_code": "roadmap-a2-02",
+          "explanation_english": "Passé composé combines a present auxiliary and a past participle. Aller uses être and agrees with the subject in this example.",
+          "examples": [
+            [
+              "Lina est allée à Nantes.",
+              "Lina went to Nantes."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-01-transfer"
+      ]
+    },
+    {
+      "key": "topic-02-transfer",
+      "skill": "writing",
+      "title": "A2 transfer 02: Past experiences",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 80–110 French words. Tell an invented short journey with both avoir and être auxiliaries. Distinguish buying a ticket from travelling, and check the agreement of a feminine or plural subject.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Past experiences",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-02-practice"
+      ]
+    },
+    {
+      "key": "topic-03-practice",
+      "skill": "grammar",
+      "title": "A2 roadmap 03: Describing the past",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nIl pleuvait et Nora attendait devant le cinéma. Elle cherchait son billet dans son sac quand Hugo est arrivé. Ils sont entrés ensemble. La pluie décrit le cadre ; l’arrivée fait avancer le récit.\n\nNotice: Imparfait supplies a background or ongoing situation; passé composé presents the bounded event here. This is a contextual contrast, not a rule that every long action takes imparfait.\nModel: Je lisais quand le téléphone a sonné.\nMeaning: I was reading when the phone rang.\n\nUseful expressions: le cadre = the background setting; attendre = to wait; encore = still",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Imparfait supplies a background or ongoing situation; passé composé presents the bounded event here. This is a contextual contrast, not a rule that every long action takes imparfait. Model meaning: I was reading when the phone rang.",
+          "options": [
+            "Je lisait quand le téléphone a sonné.",
+            "Je lisais quand le téléphone a sonner.",
+            "Je lisais quand le téléphone a sonné."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "expressions-in-context",
+          "type": "matching",
+          "prompt": "Match these contextual expressions to their English meanings.",
+          "instructions": "Use the meaning taught for this situation, not every possible dictionary meaning.",
+          "explanation": "The expressions are glossed in the lesson context.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "left_items": [
+              {
+                "id": "2b700d65-169a-5880-a529-8b3680b5fa25",
+                "text": "le cadre"
+              },
+              {
+                "id": "e8876b85-f127-55ca-a3c1-5fde9d60dfb8",
+                "text": "attendre"
+              },
+              {
+                "id": "b93497db-44f2-5b10-b177-0893448a7d46",
+                "text": "encore"
+              }
+            ],
+            "right_items": [
+              {
+                "id": "e8435579-5005-5b16-9a4c-40cd3bd48e1b",
+                "text": "the background setting"
+              },
+              {
+                "id": "b38afb25-5365-52b6-938f-569f7a33ebc5",
+                "text": "to wait"
+              },
+              {
+                "id": "0f5b01e9-2e46-5cd1-843d-dded7e81a51d",
+                "text": "still"
+              }
+            ],
+            "answer_pairs": {
+              "2b700d65-169a-5880-a529-8b3680b5fa25": "e8435579-5005-5b16-9a4c-40cd3bd48e1b",
+              "e8876b85-f127-55ca-a3c1-5fde9d60dfb8": "b38afb25-5365-52b6-938f-569f7a33ebc5",
+              "b93497db-44f2-5b10-b177-0893448a7d46": "0f5b01e9-2e46-5cd1-843d-dded7e81a51d"
+            }
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: Hugo arrived while Nora was waiting and looking for her ticket.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "The source says Nora lost her ticket permanently.",
+            "Hugo arrived while Nora was waiting and looking for her ticket.",
+            "Hugo arrived before Nora began waiting."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: The call interrupted dinner preparation.. Transcript for review: Nora : Je préparais le dîner quand tu as appelé. Hugo : Tu avais déjà terminé ? Nora : Non, je coupais encore les légumes.",
+          "options": [
+            "The call interrupted dinner preparation.",
+            "Dinner preparation had already finished.",
+            "Hugo was cutting the vegetables."
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Nora : Je préparais le dîner quand tu as appelé. Hugo : Tu avais déjà terminé ? Nora : Non, je coupais encore les légumes."
+          }
+        }
+      ],
+      "module_title": "Describing the past",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-a2-03",
+          "title": "Describing the past",
+          "summary": "Imparfait supplies a background or ongoing situation; passé composé presents the bounded event here. This is a contextual contrast, not a rule that every long action takes imparfait.",
+          "rule_code": "roadmap-a2-03",
+          "explanation_english": "Imparfait supplies a background or ongoing situation; passé composé presents the bounded event here. This is a contextual contrast, not a rule that every long action takes imparfait.",
+          "examples": [
+            [
+              "Je lisais quand le téléphone a sonné.",
+              "I was reading when the phone rang."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-02-transfer"
+      ]
+    },
+    {
+      "key": "topic-03-transfer",
+      "skill": "writing",
+      "title": "A2 transfer 03: Describing the past",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 80–110 French words. Describe the setting for a small unexpected event, then narrate what happened. Use imparfait and passé composé with clear time relationships, and retell it orally.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Describing the past",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-03-practice"
+      ]
+    },
+    {
+      "key": "topic-04-practice",
+      "skill": "grammar",
+      "title": "A2 roadmap 04: Future plans",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nNora va préparer son sac ce soir. Demain, elle visitera le musée avec sa classe. Si le bus est en retard, le groupe attendra devant la gare. La visite n’est pas prévue pour ce soir.\n\nNotice: Futur simple can state a future arrangement; futur proche uses aller plus infinitive. In the model nous visiterons is future, not present.\nModel: Demain, nous visiterons le musée.\nMeaning: Tomorrow we will visit the museum.\n\nUseful expressions: demain = tomorrow; préparer son sac = to pack one’s bag; à l’entrée = at the entrance",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Futur simple can state a future arrangement; futur proche uses aller plus infinitive. In the model nous visiterons is future, not present. Model meaning: Tomorrow we will visit the museum.",
+          "options": [
+            "Demain, nous visiter le musée.",
+            "Demain, nous visiterons le musée.",
+            "Demain, nous visiteront le musée."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "fill_blank",
+          "prompt": "Demain, nous ___ le musée.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "Futur simple can state a future arrangement; futur proche uses aller plus infinitive. In the model nous visiterons is future, not present. The model uses « visiterons ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "visiterons"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: Packing is tonight and the visit is tomorrow.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "Packing is tonight and the visit is tomorrow.",
+            "The museum visit is tonight.",
+            "A late bus automatically cancels the visit."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: The group plans to arrive fifteen minutes before the visit.. Transcript for review: Guide : La visite commencera à dix heures. Nora : Nous allons arriver à neuf heures quarante-cinq. Guide : Parfait, nous vous attendrons à l’entrée.",
+          "options": [
+            "The visit starts at nine forty-five.",
+            "The group plans to arrive after ten.",
+            "The group plans to arrive fifteen minutes before the visit."
+          ],
+          "correct_option": 2,
+          "data": {
+            "text_fr": "Guide : La visite commencera à dix heures. Nora : Nous allons arriver à neuf heures quarante-cinq. Guide : Parfait, nous vous attendrons à l’entrée."
+          }
+        }
+      ],
+      "module_title": "Future plans",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-a2-04",
+          "title": "Future plans",
+          "summary": "Futur simple can state a future arrangement; futur proche uses aller plus infinitive. In the model nous visiterons is future, not present.",
+          "rule_code": "roadmap-a2-04",
+          "explanation_english": "Futur simple can state a future arrangement; futur proche uses aller plus infinitive. In the model nous visiterons is future, not present.",
+          "examples": [
+            [
+              "Demain, nous visiterons le musée.",
+              "Tomorrow we will visit the museum."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-03-transfer"
+      ]
+    },
+    {
+      "key": "topic-04-transfer",
+      "skill": "writing",
+      "title": "A2 transfer 04: Future plans",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 80–110 French words. Explain a plan for tomorrow with a preparation tonight. Use both future forms and an if-present/future contingency. Negotiate a time and place with a partner.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Future plans",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-04-practice"
+      ]
+    },
+    {
+      "key": "topic-05-practice",
+      "skill": "grammar",
+      "title": "A2 roadmap 05: Modal expressions",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nNora sait conduire, mais sa voiture est au garage aujourd’hui. Elle veut aller à un rendez-vous et doit trouver un autre moyen de transport. Son amie peut l’accompagner après seize heures seulement.\n\nNotice: Savoir plus infinitive can express a learned ability; pouvoir can express current possibility or permission. Do not confuse ability with having an available slot.\nModel: Je sais conduire, mais je ne peux pas venir.\nMeaning: I can drive, but I cannot come.\n\nUseful expressions: savoir conduire = to know how to drive; devoir partir = to have to leave; être disponible = to be available",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Savoir plus infinitive can express a learned ability; pouvoir can express current possibility or permission. Do not confuse ability with having an available slot. Model meaning: I can drive, but I cannot come.",
+          "options": [
+            "Je sais conduire, mais je ne peux pas venir.",
+            "Je sait conduire, mais je ne peux pas venir.",
+            "Je sais conduis, mais je ne peux pas venir."
+          ],
+          "correct_option": 0,
+          "data": {}
+        },
+        {
+          "key": "retrieve-the-form",
+          "type": "short_answer",
+          "prompt": "Je ___, mais je ne peux pas venir.",
+          "instructions": "Supply only the missing model word or phrase. Retain French accents; this is supported form practice, not free translation.",
+          "explanation": "Savoir plus infinitive can express a learned ability; pouvoir can express current possibility or permission. Do not confuse ability with having an available slot. The model uses « sais conduire ».",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "accepted_answers": [
+              "sais conduire"
+            ]
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: Driving ability does not solve today’s transport constraint.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "Nora has never learned to drive.",
+            "Her friend is available all day.",
+            "Driving ability does not solve today’s transport constraint."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Nora chooses the metro because the proposed lift is too late.. Transcript for review: Amie : Je peux te conduire à seize heures trente. Nora : Merci, mais je dois être là à seize heures. Je vais prendre le métro.",
+          "options": [
+            "The appointment has moved to sixteen thirty.",
+            "Nora chooses the metro because the proposed lift is too late.",
+            "Nora accepts the lift at sixteen thirty."
+          ],
+          "correct_option": 1,
+          "data": {
+            "text_fr": "Amie : Je peux te conduire à seize heures trente. Nora : Merci, mais je dois être là à seize heures. Je vais prendre le métro."
+          }
+        }
+      ],
+      "module_title": "Modal expressions",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-a2-05",
+          "title": "Modal expressions",
+          "summary": "Savoir plus infinitive can express a learned ability; pouvoir can express current possibility or permission. Do not confuse ability with having an available slot.",
+          "rule_code": "roadmap-a2-05",
+          "explanation_english": "Savoir plus infinitive can express a learned ability; pouvoir can express current possibility or permission. Do not confuse ability with having an available slot.",
+          "examples": [
+            [
+              "Je sais conduire, mais je ne peux pas venir.",
+              "I can drive, but I cannot come."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-04-transfer"
+      ]
+    },
+    {
+      "key": "topic-05-transfer",
+      "skill": "writing",
+      "title": "A2 transfer 05: Modal expressions",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 80–110 French words. Explain an invented constraint using pouvoir, devoir, vouloir and savoir. Propose two practical options and politely reject one that does not fit the timetable.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Modal expressions",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-05-practice"
+      ]
+    },
+    {
+      "key": "topic-06-practice",
+      "skill": "grammar",
+      "title": "A2 roadmap 06: Objects and pronouns",
+      "objective": "Use the roadmap topic in a contextual grammar, vocabulary, reading and scripted-listening practice set.",
+      "context": "French source (fictional teaching situation):\nNora a acheté les billets hier. Elle les garde dans son sac. Elle va à la gare demain et elle y retrouvera Hugo. Hugo veut du café ; Nora lui répond qu’elle en a chez elle.\n\nNotice: Le/la/les can replace direct objects; lui/leur can replace à plus a person; y can replace a place and en a de-phrase. This model replaces les billets with les.\nModel: Les billets, je les ai achetés hier.\nMeaning: The tickets, I bought them yesterday.\n\nUseful expressions: un objet direct = a direct object; y retrouver quelqu’un = to meet someone there; en avoir trois = to have three of them",
+      "vocabulary": [],
+      "exercises": [
+        {
+          "key": "form-and-meaning",
+          "type": "multiple_choice",
+          "prompt": "Which sentence correctly expresses the target form and meaning?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "Le/la/les can replace direct objects; lui/leur can replace à plus a person; y can replace a place and en a de-phrase. This model replaces les billets with les. Model meaning: The tickets, I bought them yesterday.",
+          "options": [
+            "Les billets, je lui ai achetés hier.",
+            "Les billets, je les ai acheter hier.",
+            "Les billets, je les ai achetés hier."
+          ],
+          "correct_option": 2,
+          "data": {}
+        },
+        {
+          "key": "rebuild-the-model",
+          "type": "sentence_order",
+          "prompt": "Rebuild the taught model sentence.",
+          "instructions": "Use every tile once in the model order. Other natural French orders are not assessed in this supported task.",
+          "explanation": "Le/la/les can replace direct objects; lui/leur can replace à plus a person; y can replace a place and en a de-phrase. This model replaces les billets with les.",
+          "options": [],
+          "correct_option": null,
+          "data": {
+            "tiles": [
+              {
+                "id": "e1087581-a7d7-5e2d-94c5-c9c4136baf17",
+                "text": "Les"
+              },
+              {
+                "id": "83ff15d3-174d-5f38-b045-d98aeb723756",
+                "text": "billets,"
+              },
+              {
+                "id": "b34a15fa-6e14-568a-9878-e71de1e768db",
+                "text": "je"
+              },
+              {
+                "id": "99cb43f6-5e14-595e-97a5-8d9de2a9c8d7",
+                "text": "les"
+              },
+              {
+                "id": "9b2ec5b4-48e1-5af0-b2cb-6e30bfed0875",
+                "text": "ai"
+              },
+              {
+                "id": "b13e338e-5ece-502f-b76a-1fdc3081abf4",
+                "text": "achetés"
+              },
+              {
+                "id": "b75c5591-e217-5fd5-bb4f-2e1dd7de3e93",
+                "text": "hier."
+              }
+            ],
+            "accepted_orders": [
+              [
+                "e1087581-a7d7-5e2d-94c5-c9c4136baf17",
+                "83ff15d3-174d-5f38-b045-d98aeb723756",
+                "b34a15fa-6e14-568a-9878-e71de1e768db",
+                "99cb43f6-5e14-595e-97a5-8d9de2a9c8d7",
+                "9b2ec5b4-48e1-5af0-b2cb-6e30bfed0875",
+                "b13e338e-5ece-502f-b76a-1fdc3081abf4",
+                "b75c5591-e217-5fd5-bb4f-2e1dd7de3e93"
+              ]
+            ],
+            "correct_sentence": "Les billets, je les ai achetés hier."
+          }
+        },
+        {
+          "key": "read-the-scope",
+          "type": "multiple_choice",
+          "prompt": "Which summary preserves the French source?",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The source supports: Les refers to tickets and y refers to the station.. Do not infer an extra promise or reverse its time, speaker or scope.",
+          "options": [
+            "The tickets will be bought tomorrow.",
+            "Les refers to tickets and y refers to the station.",
+            "Les refers to Hugo and y to coffee."
+          ],
+          "correct_option": 1,
+          "data": {}
+        },
+        {
+          "key": "hear-the-detail",
+          "type": "listening",
+          "prompt": "Listen, then choose the supported detail.",
+          "instructions": "Choose the one answer supported by this practice item.",
+          "explanation": "The script supports: Nora has three apples and will bring two.. Transcript for review: Hugo : Tu as des pommes ? Nora : Oui, j’en ai trois. Hugo : Tu peux en apporter deux ? Nora : Oui, je les mets dans mon sac.",
+          "options": [
+            "Nora has three apples and will bring two.",
+            "Nora has two apples and will bring three.",
+            "Hugo asks Nora to buy a bag."
+          ],
+          "correct_option": 0,
+          "data": {
+            "text_fr": "Hugo : Tu as des pommes ? Nora : Oui, j’en ai trois. Hugo : Tu peux en apporter deux ? Nora : Oui, je les mets dans mon sac."
+          }
+        }
+      ],
+      "module_title": "Objects and pronouns",
+      "estimated_minutes": 25,
+      "grammar": [
+        {
+          "slug": "roadmap-a2-06",
+          "title": "Objects and pronouns",
+          "summary": "Le/la/les can replace direct objects; lui/leur can replace à plus a person; y can replace a place and en a de-phrase. This model replaces les billets with les.",
+          "rule_code": "roadmap-a2-06",
+          "explanation_english": "Le/la/les can replace direct objects; lui/leur can replace à plus a person; y can replace a place and en a de-phrase. This model replaces les billets with les.",
+          "examples": [
+            [
+              "Les billets, je les ai achetés hier.",
+              "The tickets, I bought them yesterday."
+            ]
+          ]
+        }
+      ],
+      "prerequisites": [
+        "topic-05-transfer"
+      ]
+    },
+    {
+      "key": "topic-06-transfer",
+      "skill": "writing",
+      "title": "A2 transfer 06: Objects and pronouns",
+      "objective": "Reuse the topic in writing and spoken interaction, then revise after separate qualitative review.",
+      "context": "Write approximately 80–110 French words. Write a connected message in which you first name objects, a person and a place, then replace them with suitable pronouns. Read it to a partner who identifies each reference.\n\nSpeak: role-play the other participant with the Tutor. Ask a follow-up, repair one misunderstanding and summarise what is agreed or remains uncertain. Use invented personal details.\n\nReview: task fulfilment, grammatical meaning, vocabulary, cohesion, register and source fidelity; for speaking, add intelligibility, turn-taking and repair. AI feedback is advisory. A saved response is not a pass or a pronunciation score. Retrieve again on a later day with changed details. Qualified human review and empirical calibration pending.",
+      "vocabulary": [],
+      "exercises": [],
+      "module_title": "Objects and pronouns",
+      "estimated_minutes": 40,
+      "grammar": [],
+      "prerequisites": [
+        "topic-06-practice"
+      ]
+    }
+  ],
+  "title": "A2 roadmap practice, part 1",
+  "glossary": [],
+  "learning_stage": null
+}
